@@ -1,0 +1,87 @@
+{
+ "topic": "Errores típicos al grabar anuncios con el móvil",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Grabas tus<br>anuncios <em>con el móvil?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Hola, somos una empresa con más de 10 años de…",
+    "media": "HOLA, SOY JUAN Y…",
+    "headline": "Tu marca",
+    "cta": "Más información",
+    "tags": [
+     "SIN GANCHO",
+     "AUDIO CON ECO",
+     "EN HORIZONTAL"
+    ]
+   },
+   "footer": "3 errores que te cuestan clientes"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Empezar<br><em>presentándote.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "\"Hola, soy Juan y…\""
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Abre con su problema",
+     "\"¿Tu cocina se queda pequeña?\""
+    ]
+   },
+   "note": "Nadie para el scroll por tu nombre. <b>Lo para su problema.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Un audio<br><em>de lata.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Micrófono de solapa",
+     "Habitación sin eco",
+     "Graba cerca del móvil"
+    ]
+   },
+   "note": "Se perdona una imagen normal. <b>Un audio malo, no.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Grabar en<br><em>horizontal.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Vídeo apaisado",
+     "Franjas negras"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Vertical 9:16",
+     "Subtítulos en pantalla"
+    ]
+   },
+   "note": "Se ve en el móvil. <b>Grábalo para el móvil.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Guárdalo para<br><em>tu próxima grabación.</em>",
+   "dur": 6,
+   "items": [
+    "Gancho con su problema",
+    "Audio limpio con micro",
+    "Vertical y subtitulado"
+   ]
+  }
+ ],
+ "caption": "¿Grabas tus anuncios con el móvil? 📱\n\nSe puede, pero evita estos 3 errores:\n\n→ Empezar presentándote: abre con el problema de tu cliente en los 3 primeros segundos\n→ Audio de lata: micro de solapa, sala sin eco y cerca del móvil\n→ Grabar en horizontal: vertical 9:16 y con subtítulos\n\nGuárdalo para tu próxima grabación.\nSíguenos para más tips 🧡\n\n#ceosgrowth #metaads #anuncios #marketingdigital #emprendedores #empresarios #creatividades"
+}
