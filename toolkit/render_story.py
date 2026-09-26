@@ -7,7 +7,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from render import prep  # noqa: E402
 from playwright.async_api import async_playwright
 
-FPS, DUR = 30, 5.0
+FPS = 30
+DUR = float(os.environ.get('DUR', '5'))
 
 
 async def main(src, out_dir):
@@ -26,8 +27,8 @@ async def main(src, out_dir):
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', f'{fr}/%04d.jpg',
                     '-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo', '-shortest',
                     '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', '-c:a', 'aac', '-movflags', '+faststart',
-                    os.path.join(out_dir, 'historia.mp4')], check=True)
-    shutil.copy(f'{fr}/0120.jpg', os.path.join(out_dir, 'historia.jpg'))
+                    os.path.join(out_dir, os.environ.get('NAME', 'historia') + '.mp4')], check=True)
+    shutil.copy(f'{fr}/{int(FPS*DUR)-30:04d}.jpg', os.path.join(out_dir, os.environ.get('NAME', 'historia') + '.jpg'))
     if not os.environ.get('KEEP'): shutil.rmtree(fr)
     print('historia ok')
 
