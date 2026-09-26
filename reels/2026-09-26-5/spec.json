@@ -1,0 +1,110 @@
+{
+ "topic": "Qué medir cada semana en tus campañas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué miras de<br><em>tus campañas?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Lo que se suele mirar",
+    "items": [
+     {
+      "label": "Me gusta",
+      "value": 88
+     },
+     {
+      "label": "Alcance",
+      "value": 72
+     },
+     {
+      "label": "Ventas",
+      "value": 18,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 números que sí importan"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Coste<br>por <em>lead.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "bars",
+    "title": "Coste por lead por semana",
+    "items": [
+     {
+      "label": "Semana 1",
+      "value": 45
+     },
+     {
+      "label": "Semana 2",
+      "value": 52
+     },
+     {
+      "label": "Semana 3",
+      "value": 78,
+      "hi": true
+     }
+    ]
+   },
+   "note": "Si sube dos semanas seguidas, <b>cambia el anuncio.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Cuántos<br><em>agendan llamada.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "PASO 1",
+      "t": "Entra el lead",
+      "s": "Formulario de Meta"
+     },
+     {
+      "n": "2",
+      "d": "PASO 2",
+      "t": "Agenda llamada",
+      "s": "Aquí se ve si el lead es bueno"
+     },
+     {
+      "n": "3",
+      "d": "PASO 3",
+      "t": "Se presenta",
+      "s": "Recordatorio el día antes"
+     }
+    ]
+   },
+   "note": "Si nadie agenda, falla <b>el lead o el seguimiento.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Coste<br>por <em>venta.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Ventas de la semana",
+     "Inversión ÷ ventas",
+     "Compáralo con tu margen"
+    ]
+   },
+   "note": "El único número <b>que paga las facturas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tres números.<br><em>Cada lunes.</em>",
+   "dur": 6,
+   "items": [
+    "Coste por lead",
+    "% que agenda llamada",
+    "Coste por venta"
+   ]
+  }
+ ],
+ "caption": "¿Qué miras de tus campañas cada semana? 📊\n\nLos me gusta y el alcance no pagan facturas. Mira estos 3 números cada lunes:\n\n→ Coste por lead: si sube dos semanas seguidas, cambia el anuncio\n→ % de leads que agendan llamada: si nadie agenda, falla el lead o el seguimiento\n→ Coste por venta: inversión ÷ ventas, y compáralo con tu margen\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #marketingdigital #metricas #emprendedores #empresarios #captaciondeclientes"
+}
