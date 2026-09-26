@@ -1,0 +1,97 @@
+{
+ "topic": "Qué poner en el formulario de Meta para que lleguen mejores leads",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te llegan leads<br>que <em>no compran?</em>",
+   "size": 140,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola, te llamo por tu",
+       "solicitud de presupuesto."
+      ],
+      "time": "10:02"
+     },
+     {
+      "from": "in",
+      "text": "¿Qué solicitud? No me acuerdo de nada.",
+      "time": "10:05"
+     }
+    ]
+   },
+   "footer": "Se arregla en el formulario"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pregunta por<br>su <em>presupuesto.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Formulario de Meta",
+    "fields": [
+     {
+      "q": "¿Cuánto quieres invertir?",
+      "a": "Entre 20.000 y 40.000 €"
+     },
+     {
+      "q": "¿Para cuándo lo necesitas?",
+      "a": "En los próximos 3 meses"
+     }
+    ],
+    "badge": "✓ LEAD CUALIFICADO"
+   },
+   "note": "Quien contesta esto <b>tiene intención real.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Formulario de<br><em>mayor intención.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MÁS VOLUMEN",
+    "bad": [
+     "Se envía en un clic",
+     "Datos sin revisar"
+    ],
+    "good_t": "MAYOR INTENCIÓN",
+    "good": [
+     "Pantalla de revisión",
+     "Confirma sus datos"
+    ]
+   },
+   "note": "Llegan menos, <b>pero llegan mejor.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Filtra a quien<br><em>no encaja.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "PREGUNTAS FILTRO",
+    "lines": [
+     "¿En qué zona estás?",
+     "¿Qué necesitas exactamente?",
+     "¿Quién toma la decisión?"
+    ]
+   },
+   "note": "Preguntas cortas <b>y de opción múltiple.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Revisa hoy<br><em>tu formulario.</em>",
+   "dur": 6,
+   "items": [
+    "Presupuesto y plazo",
+    "Formulario de mayor intención",
+    "Preguntas filtro"
+   ]
+  }
+ ],
+ "caption": "¿Te llegan leads que luego no compran? 🤔\n\nEl problema no siempre es el anuncio. Muchas veces es el formulario.\n\n→ Pregunta por presupuesto y plazo\n→ Usa el formulario de mayor intención (pantalla de revisión antes de enviar)\n→ Añade preguntas filtro cortas y de opción múltiple\n\nLlegan menos, pero llegan mejor.\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #leads #captaciondeclientes #marketingdigital #emprendedores #empresarios"
+}

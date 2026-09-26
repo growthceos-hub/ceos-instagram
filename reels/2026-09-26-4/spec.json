@@ -1,0 +1,87 @@
+{
+ "topic": "Cómo preparar una llamada de venta de 15 minutos",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu llamada de venta<br>en <em>15 minutos.</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "MIN 0–2",
+      "t": "Conectar"
+     },
+     {
+      "n": "2",
+      "d": "MIN 2–10",
+      "t": "Diagnosticar"
+     },
+     {
+      "n": "3",
+      "d": "MIN 10–15",
+      "t": "Proponer y agendar"
+     }
+    ]
+   },
+   "footer": "Así se reparte el tiempo"
+  },
+  {
+   "label": "MIN 0–2",
+   "title": "Rompe el hielo<br><em>y marca el plan.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "APERTURA",
+    "lines": [
+     "\"Serán 15 minutos, ¿te va bien?\"",
+     "\"Te hago unas preguntas y vemos si encaja.\"",
+     "\"Si no encaja, te lo diré claro.\""
+    ]
+   },
+   "note": "Sabe qué va a pasar. <b>Tú llevas el control.</b>"
+  },
+  {
+   "label": "MIN 2–10",
+   "title": "Pregunta más,<br><em>habla menos.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "DIAGNÓSTICO",
+    "lines": [
+     "¿Por qué buscas esto ahora?",
+     "¿Qué has probado hasta hoy?",
+     "¿Qué pasa si sigue igual?"
+    ]
+   },
+   "note": "Que cuente su problema <b>con sus palabras.</b>"
+  },
+  {
+   "label": "MIN 10–15",
+   "title": "Propón y pide<br><em>un siguiente paso.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Resume su problema",
+     "Una sola propuesta",
+     "Fecha para decidir"
+    ]
+   },
+   "note": "Nunca cuelgues <b>sin algo en el calendario.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pásaselo a<br><em>tu comercial.</em>",
+   "dur": 6,
+   "items": [
+    "0–2: conectar y marcar el plan",
+    "2–10: preguntar y escuchar",
+    "10–15: proponer y agendar"
+   ]
+  }
+ ],
+ "caption": "Tu llamada de venta en 15 minutos ⏱️\n\n→ Min 0–2: rompe el hielo y marca el plan (\"te hago unas preguntas y vemos si encaja\")\n→ Min 2–10: pregunta más y habla menos. Que cuente su problema con sus palabras\n→ Min 10–15: una sola propuesta y un siguiente paso con fecha\n\nNunca cuelgues sin algo en el calendario.\nPásaselo a tu comercial y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #closer #llamadasdeventa #emprendedores #empresarios #negocios"
+}
