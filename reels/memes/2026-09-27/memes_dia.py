@@ -718,7 +718,167 @@ class Rechazado:
         return im
 
 
+
+# ------------------------------------------------------------------ m17. EL EMBUDO A FINAL DE MES (CRM kanban)
+class Embudo:
+    POV = 'POV: a final de mes abres el embudo de ventas del CRM para ver cómo va'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 620)
+    SFX = ['pop@0.3', 'count:3.0@0.7', 'tick@4.0', 'pop@5.1', 'boom@5.8']
+    COLS = [('Nuevos', (61, 99, 221)), ('Contactado', (247, 185, 40)), ('Propuesta', (155, 89, 182)), ('Ganado', (49, 162, 76))]
+
+    def draw(self, t):
+        INK, MUT, LINE = (33, 37, 41), (108, 117, 125), (226, 230, 234)
+        im = Image.new('RGB', (BW, BH), (245, 247, 250)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill=(34, 40, 49))
+        g.text((40, 50), 'CRM · Embudo de ventas', font=F(700, 32), fill='white', anchor='lm')
+        g.text((BW - 40, 50), 'Septiembre', font=F(600, 26), fill=(190, 196, 205), anchor='rm')
+        n = int(84 * ease((t - .7) / 3.0)) if t >= .7 else 0
+        counts = [n, 2 if t >= 4.0 else 0, 0, 0]
+        cw = (BW - 50) // 4
+        for j, ((name, col), c) in enumerate(zip(self.COLS, counts)):
+            x0 = 10 + j * (cw + 10)
+            g.rounded_rectangle((x0, 120, x0 + cw, BH - 20), 14, fill=(233, 236, 241))
+            g.rectangle((x0, 120, x0 + cw, 128), fill=col)
+            g.text((x0 + 16, 160), name, font=F(700, 24), fill=INK, anchor='lm')
+            g.text((x0 + cw - 16, 160), str(c), font=F(800, 26), fill=col, anchor='rm')
+            shown = min(c, 9 if j == 0 else c)
+            for k in range(shown):
+                yy = 200 + k * 84
+                if yy > BH - 110: break
+                g.rounded_rectangle((x0 + 10, yy, x0 + cw - 10, yy + 72), 10, fill='white', outline=LINE, width=2)
+                g.text((x0 + 22, yy + 22), f'Lead #{c - k}' if j == 0 else f'Lead #{k + 3}', font=F(700, 20), fill=INK, anchor='lm')
+                g.text((x0 + 22, yy + 50), 'Pendiente de llamar' if j == 0 else 'No contesta', font=F(500, 18), fill=(200, 45, 60), anchor='lm')
+            if c == 0: g.text((x0 + cw // 2, 260), 'Vacío', font=F(500, 22), fill=MUT, anchor='mm')
+        card(im, t, 5.1, 'Leads sin llamar', str(max(n, 84) if t >= 5.1 else n), 'el más antiguo: hace 47 días', cy=620, big_size=120)
+        tag(g, y=BH - 30)
+        return im
+
+
+# ------------------------------------------------------------------ m18. EL FORMULARIO ROTO (formulario web)
+class FormRoto:
+    POV = 'POV: llevas una semana diciendo que la campaña no trae leads y pruebas tu formulario'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    SFX = ['typing:0.9@0.4', 'typing:1.0@1.5', 'tick@3.0', 'pop@4.3', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, ORG = (32, 33, 36), (110, 112, 117), (210, 214, 220), (255, 106, 26)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill=(236, 238, 242))
+        g.rounded_rectangle((24, 22, BW - 24, 78), 28, fill='white')
+        g.text((60, 50), 'tuempresa.es/pide-presupuesto', font=F(500, 26), fill=(80, 84, 90), anchor='lm')
+        g.text((60, 150), 'Pide tu presupuesto gratis', font=F(800, 44), fill=INK)
+        fields = [('Nombre', 'Prueba mía', .4, 1.3), ('Teléfono', '600 00 00 00', 1.5, 2.5)]
+        for j, (lab, val, a, b) in enumerate(fields):
+            yy = 240 + j * 150
+            g.text((60, yy), lab, font=F(600, 28), fill=MUT)
+            g.rounded_rectangle((60, yy + 44, BW - 60, yy + 114), 12, outline=ORG if a <= t < b + .3 else LINE, width=3, fill='white')
+            g.text((90, yy + 79), cursor_text(val, t, a, b), font=F(500, 32), fill=INK, anchor='lm')
+        pressed = 3.0 <= t < 3.2
+        g.rounded_rectangle((60, 560, BW - 60, 650), 16, fill=(220, 90, 20) if pressed else ORG)
+        if 3.0 <= t < 4.3:
+            for q in range(8):
+                a_ = t * 8 + q * math.pi / 4; A = int(255 * (q + 1) / 8)
+                g.ellipse((BW // 2 + 26 * math.cos(a_) - 6, 605 + 26 * math.sin(a_) - 6, BW // 2 + 26 * math.cos(a_) + 6, 605 + 26 * math.sin(a_) + 6), fill=(255, 255, 255))
+        else:
+            g.text((BW // 2, 605), 'ENVIAR', font=F(800, 34), fill='white', anchor='mm')
+        if 2.6 <= t < 3.3:
+            k = ease((t - 2.6) / .4); bx, by = int(800 - 260 * k), int(900 - 280 * k); l, lg = layer()
+            lg.polygon([(bx, by), (bx + 34, by + 12), (bx + 15, by + 18), (bx + 26, by + 44), (bx + 14, by + 49), (bx + 5, by + 22), (bx - 8, by + 34)], fill=(255, 255, 255, 255), outline=(0, 0, 0, 255))
+            im.paste(l, (0, 0), l)
+        if t >= 4.3:
+            k = pop((t - 4.3) / .3); l, lg = layer(); w_ = int((BW - 120) * min(1, k))
+            lg.rounded_rectangle((60, 690, 60 + w_, 800), 14, fill=(252, 232, 230, 255))
+            if k > .8:
+                lg.text((90, 725), 'Error: el formulario no se ha podido enviar', font=F(700, 28), fill=(197, 34, 31))
+                lg.text((90, 765), 'Inténtalo más tarde', font=F(500, 24), fill=(150, 60, 60))
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Formulario roto desde', 'el lunes', 'y los anuncios, funcionando todo el rato', cy=600, big_size=100)
+        tag(g, y=BH - 30)
+        return im
+
+
+# ------------------------------------------------------------------ m19. EL LOGO "EN BUENA CALIDAD" (WhatsApp con imagen)
+class LogoPixel(WAChat):
+    POV = 'POV: le pides al cliente el logo en buena calidad y te manda esto'
+    DUR, PUNCH, FOCUS = 7.6, 5.7, (300, 530)
+    NAME, LETTER, HOUR = 'Cliente (pastelería)', 'P', '11:0'
+    FIRST = [(0.3, 'out', 'Pásame el logo en buena calidad, porfa')]
+    LAST = [(4.3, 'in', 'Es de la foto del toldo. ¿Vale?')]
+    TYPING = [(1.0, 2.0), (3.4, 4.2)]
+    SFX = ['pop@0.3', 'typing:1.0@1.0', 'pop@2.1', 'typing:0.8@3.4', 'pop@4.3', 'boom@5.7']
+
+    def __init__(self):
+        sm = Image.new('RGB', (24, 13), (120, 108, 96)); d = ImageDraw.Draw(sm)
+        d.rectangle((0, 0, 24, 4), fill=(170, 60, 70)); d.rectangle((0, 9, 24, 13), fill=(90, 80, 70))
+        d.ellipse((7, 2, 17, 11), fill=(240, 200, 120)); d.text((9, 3), 'P', fill=(120, 40, 30))
+        for x in range(0, 24, 3): d.point((x, 5), fill=(200, 200, 190))
+        self.img = sm.resize((520, 282), Image.NEAREST)
+
+    def draw(self, t):
+        im, g = self.base(t)
+        self.MSGS = self.FIRST; self.TYPING = [(1.0, 2.0)]
+        y = self.bubbles(im, t, 190)
+        # la "imagen"
+        yi = y + 0
+        if t >= 2.1:
+            k = ease((t - 2.1) / .3); A = int(255 * k); l, lg = layer()
+            lg.rounded_rectangle((36, yi, 596, yi + 350), 22, fill=WA_IN + (A,))
+            im.paste(l, (0, 0), l)
+            if k > .5:
+                im.paste(self.img, (56, yi + 18))
+                g.text((60, yi + 314), 'IMG-20190312-WA0004.jpg · 38 KB', font=F(500, 22), fill=(170, 200, 190))
+            y = yi + 350 + 18
+        else:
+            y = yi
+        self.MSGS = self.LAST; self.TYPING = [(3.4, 4.2)]
+        self.bubbles(im, t, y)
+        self.MSGS = []; self.TYPING = [(1.0, 2.0), (3.4, 4.2)]
+        self.footer(g)
+        return im
+
+
+
+# ------------------------------------------------------------------ m20. CUÁNTO TE CUESTA CADA CLIENTE (calculadora)
+class Calculadora:
+    POV = 'POV: calculas por fin cuánto te cuesta conseguir cada cliente'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 520)
+    KEYS = [(0.4, '2'), (0.6, '4'), (0.8, '0'), (1.0, '0'), (1.8, '÷'), (2.5, '3'), (3.2, '=')]
+    SFX = [f'tick@{a}' for a, _ in KEYS] + ['pop@4.2', 'pop@5.1', 'boom@5.8']
+    GRID = [['AC', '±', '%', '÷'], ['7', '8', '9', '×'], ['4', '5', '6', '−'], ['1', '2', '3', '+'], ['0', ',', '', '=']]
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (0, 0, 0)); g = ImageDraw.Draw(im)
+        typed = ''.join(k for ts, k in self.KEYS if t >= ts)
+        if '=' in typed: disp, expr = '800', '2.400 ÷ 3'
+        elif '÷' in typed:
+            rest = typed.split('÷')[1]; disp, expr = (rest or '2.400'), '2.400 ÷'
+        else:
+            v = typed or '0'; disp, expr = (f'{int(v):,}'.replace(',', '.') if v != '0' else '0'), ''
+        lab = 'Gastado en anuncios y agencia' if t < 1.8 else ('Clientes nuevos este mes' if t < 3.2 else 'Coste por cliente (€)')
+        g.text((BW - 50, 60), lab, font=F(600, 30), fill=(255, 159, 10), anchor='ra')
+        g.text((BW - 50, 110), expr, font=F(500, 40), fill=(150, 150, 155), anchor='ra')
+        g.text((BW - 50, 300), disp, font=F(500, 150), fill='white', anchor='rs')
+        last = max([ts for ts, _ in self.KEYS if t >= ts] or [-9])
+        pk = [k for ts, k in self.KEYS if ts == last][0] if last > -9 else None
+        for r, row in enumerate(self.GRID):
+            for c, key in enumerate(row):
+                if not key: continue
+                cx, cy = 135 + c * 230, 400 + r * 125
+                op = key in '÷×−+='; top = key in ['AC', '±', '%']
+                col = (255, 159, 10) if op else ((165, 165, 165) if top else (51, 51, 51))
+                if key == pk and t - last < .18: col = tuple(min(255, x + 70) for x in col)
+                if key == '0': g.rounded_rectangle((cx - 55, cy - 55, cx + 285, cy + 55), 55, fill=col)
+                else: g.ellipse((cx - 55, cy - 55, cx + 55, cy + 55), fill=col)
+                g.text((cx, cy), key, font=F(600, 44), fill='black' if top else 'white', anchor='mm')
+        if t >= 4.2:
+            banner(im, t, 4.2, 'Notas', 'Lo que te paga cada cliente: 450 €', icol=(255, 204, 0), ich='N', y=330)
+        card(im, t, 5.1, 'Cada cliente te cuesta', '800 €', 'y te paga 450 €', cy=520, big_size=120)
+        tag(g, dark=True, y=BH - 12)
+        return im
+
+
 NEW = {'m01-no-aparece': NoShow, 'm02-visibilidad': Visibilidad, 'm03-apaga-dia-2': ApagaDia2, 'm04-hilo-47': HiloRe,
        'm05-dominio': Dominio, 'm06-ficha-google': FichaGoogle, 'm07-base-datos': BaseDatos, 'm08-texto-largo': TextoLargo,
        'm09-no-rellene': NoRellene, 'm10-factura-vencida': Vencida, 'm11-seo-barato': SeoBarato, 'm12-grupo-whatsapp': Grupo,
-       'm13-segmentar': Segmentar, 'm14-newsletter': Newsletter, 'm15-manana-bloqueada': Manana, 'm16-anuncio-rechazado': Rechazado}
+       'm13-segmentar': Segmentar, 'm14-newsletter': Newsletter, 'm15-manana-bloqueada': Manana, 'm16-anuncio-rechazado': Rechazado,
+       'm17-embudo': Embudo, 'm18-formulario-roto': FormRoto, 'm19-logo-pixelado': LogoPixel, 'm20-calculadora': Calculadora}
