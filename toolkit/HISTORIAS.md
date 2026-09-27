@@ -19,7 +19,7 @@ Cada día a las 9:00 (Madrid) se publica una SERIE DE 5 HISTORIAS animadas (1080
 ## Pasos
 1. Dependencias como en INSTRUCCIONES.md (npm fontsource + playwright + ffmpeg).
 2. Crear `historias/AAAA-MM-DD/H1..H5.dc.html`, aplicar boost_story.py y renderizar cada una: `DUR=15 NAME=0N python3 toolkit/render_story.py historias/AAAA-MM-DD/HN.dc.html historias/AAAA-MM-DD` (se pueden lanzar las 5 en paralelo, cada una a su carpeta temporal). Revisar los JPG (y con KEEP=1 varios fotogramas): nada cortado ni solapado.
-3. Commit + push a main. Usa URLs fijadas al commit para evitar la caché: `https://raw.githubusercontent.com/growthceos-hub/ceos-instagram/<SHA>/historias/AAAA-MM-DD/0N.mp4`.
+3. Commit + push a main. URLs: `https://raw.githubusercontent.com/growthceos-hub/ceos-instagram/<SHA>/historias/AAAA-MM-DD/0N.mp4`. **Antes de crear los contenedores comprueba con curl que las 5 URLs dan 200.** Si la URL fijada al commit da 404 (pasa a veces justo después del push), usa la de `main` (`.../ceos-instagram/main/historias/...`): son archivos nuevos y no tienen caché. Nunca crees contenedores con una URL que no dé 200.
 4. Instagram vía Zapier "Instagram for Business" `_zap_raw_request` (connection_id 66508048):
    - Crea los 5 contenedores: POST `https://graph.facebook.com/v21.0/17841469551116816/media` con `media_type=STORIES`, `video_url=<url>`.
    - Espera a que los 5 den `status_code=FINISHED` (GET `https://graph.facebook.com/v21.0/?ids=<ids>&fields=status_code`). Si uno se atasca más de 3 min, créalo de nuevo.
