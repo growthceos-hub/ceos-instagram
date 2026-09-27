@@ -268,4 +268,172 @@ class HiloRe:
         return im
 
 
-NEW = {'m01-no-aparece': NoShow, 'm02-visibilidad': Visibilidad, 'm03-apaga-dia-2': ApagaDia2, 'm04-hilo-47': HiloRe}
+
+# ------------------------------------------------------------------ m05. EL DOMINIO CADUCADO (notificaciones del móvil)
+class Dominio:
+    POV = 'POV: tu campaña por fin arranca y el mismo día caduca el dominio de tu web'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    NOTIFS = [(0.4, (8, 102, 255), 'A', 'Administrador de anuncios', 'Tu campaña ya está publicada'),
+              (1.4, (234, 67, 53), 'C', 'Correo', 'Recordatorio: renueva tu dominio'),
+              (2.4, (8, 102, 255), 'A', 'Administrador de anuncios', '38 clics en el enlace'),
+              (3.4, (234, 67, 53), 'C', 'Correo', 'Tu dominio ha caducado'),
+              (4.4, (8, 102, 255), 'A', 'Administrador de anuncios', '214 clics en el enlace')]
+    SFX = [f'ding@{n[0]}' for n in NOTIFS] + ['pop@5.2', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (18, 22, 40)); g = ImageDraw.Draw(im)
+        for yy in range(BH):
+            c = int(18 + 30 * yy / BH); g.line([(0, yy), (BW, yy)], fill=(c, c // 2 + 10, 40 + c))
+        g.text((BW // 2, 70), 'lunes, 9 de octubre', font=F(600, 30), fill=(230, 230, 240), anchor='mm')
+        g.text((BW // 2, 170), '10:14', font=F(800, 130), fill='white', anchor='mm')
+        vis = [n for n in self.NOTIFS if t >= n[0]]
+        for i, (ts, col, ch, app, txt) in enumerate(reversed(vis)):
+            k = ease((t - ts) / .3); yy = 290 + i * 128 - int((1 - k) * 60); A = int(255 * k)
+            l, lg = layer()
+            lg.rounded_rectangle((40, yy, BW - 40, yy + 112), 26, fill=(245, 245, 250, int(225 * k)))
+            lg.rounded_rectangle((66, yy + 26, 126, yy + 86), 14, fill=col + (A,))
+            lg.text((96, yy + 56), ch, font=F(800, 30), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((150, yy + 22), app, font=F(600, 24), fill=(90, 90, 100, A))
+            lg.text((150, yy + 58), txt, font=F(700, 30), fill=((200, 30, 30) if 'caducado' in txt else (20, 20, 25)) + (A,))
+            lg.text((BW - 70, yy + 22), 'ahora', font=F(500, 22), fill=(120, 120, 130, A), anchor='ra')
+            im.paste(l, (0, 0), l)
+        if t >= 5.2:
+            kk = pop((t - 5.2) / .35); l, lg = layer(); cx, cy = BW // 2, 600; cw, ch_ = 820, 380
+            sw, sh = int(cw * kk), int(ch_ * kk)
+            lg.rounded_rectangle((cx - sw // 2, cy - sh // 2, cx + sw // 2, cy + sh // 2), 28, fill=(255, 255, 255, 255))
+            if kk > .9:
+                lg.text((cx, cy - 120), 'tunegocio-burgos.es', font=F(600, 32), fill=(95, 99, 104), anchor='mm')
+                lg.text((cx, cy - 10), 'SE VENDE', font=F(800, 96), fill=(217, 48, 37), anchor='mm')
+                lg.text((cx, cy + 100), 'Este dominio está disponible', font=F(600, 30), fill=(95, 99, 104), anchor='mm')
+            im.paste(l, (0, 0), l)
+        tag(g, dark=True)
+        return im
+
+
+# ------------------------------------------------------------------ m06. LA FICHA DE GOOGLE (buscador / mapas)
+class FichaGoogle:
+    POV = 'POV: un cliente te dice que no te encuentra en Google y buscas tu propio negocio'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (420, 700)
+    Q = 'carpintería en burgos'
+    SFX = ['typing:1.4@0.3', 'pop@2.0', 'tick@3.0', 'tick@3.6', 'pop@4.4', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, BLU = (32, 33, 36), (95, 99, 104), (223, 225, 229), (26, 115, 232)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rounded_rectangle((30, 30, BW - 30, 110), 40, fill='white', outline=LINE, width=3)
+        n = int(len(self.Q) * min(1, max(0, (t - .3) / 1.4)))
+        q = self.Q[:n] + ('|' if t < 1.9 and int(t * 4) % 2 == 0 else '')
+        g.text((80, 70), q, font=F(500, 32), fill=INK, anchor='lm')
+        g.ellipse((BW - 90, 50, BW - 60, 80), outline=BLU, width=4); g.line([(BW - 64, 76), (BW - 52, 88)], fill=BLU, width=4)
+        if t >= 2.0:
+            k = ease((t - 2.0) / .35); l, lg = layer(); A = int(255 * k)
+            lg.rectangle((0, 140, BW, 330), fill=(229, 227, 223, A))
+            for i in range(6): lg.line([(0, 160 + i * 34), (BW, 140 + i * 40)], fill=(255, 255, 255, A), width=6)
+            lg.ellipse((BW // 2 - 22, 200, BW // 2 + 22, 244), fill=(234, 67, 53, A))
+            lg.text((40, 360), 'Carpintería Hermanos Duero', font=F(700, 40), fill=INK + (A,))
+            lg.text((40, 420), '3,9', font=F(600, 28), fill=MUT + (A,))
+            lg.text((260, 420), '(7) · Carpintería', font=F(500, 28), fill=MUT + (A,))
+            im.paste(l, (0, 0), l)
+            if k > .5: stars(g, 90, 422, 4, size=26)
+        rows = [(3.0, 'Web', 'no añadida'), (3.6, 'Teléfono', 'no disponible')]
+        for i, (ts, a, b) in enumerate(rows):
+            if t < ts: continue
+            A = int(255 * ease((t - ts) / .25)); l, lg = layer(); yy = 490 + i * 70
+            lg.text((40, yy), a, font=F(600, 30), fill=INK + (A,)); lg.text((260, yy), b, font=F(500, 30), fill=MUT + (A,))
+            im.paste(l, (0, 0), l)
+        if t >= 4.4:
+            k = pop((t - 4.4) / .35); l, lg = layer(); yy = 700
+            w_ = int(620 * min(1.05, k))
+            lg.rounded_rectangle((40, yy - 45, 40 + w_, yy + 45), 18, fill=(252, 232, 230, 255))
+            if k > .8: lg.text((70, yy), 'Cerrado permanentemente', font=F(800, 40), fill=(197, 34, 31), anchor='lm')
+            im.paste(l, (0, 0), l)
+        if t >= 5.0:
+            A = int(255 * ease((t - 5.0) / .3)); l, lg = layer()
+            lg.rounded_rectangle((40, 800, BW - 40, 890), 18, fill=(255, 244, 214, A))
+            lg.text((BW // 2, 845), 'Foto principal: la furgoneta de 2016', font=F(600, 30), fill=(120, 80, 0, A), anchor='mm')
+            im.paste(l, (0, 0), l)
+        tag(g, y=BH - 40)
+        return im
+
+
+# ------------------------------------------------------------------ m07. "MI BASE DE DATOS" (Excel)
+class BaseDatos:
+    POV = 'POV: el cliente te pasa “su base de datos de clientes” para hacer email marketing'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 830)
+    ROWS = [('Mamá', 'mama@hotmail.con', 'NO ENVIAR'), ('Paco (bar)', '—', 'le debo 20 €'),
+            ('Fontanero', 'ni idea', 'el bueno'), ('Yo', 'yo@miempresa.es', 'prueba'),
+            ('Cliente 2011', 'se fue a Suiza', ''), ('Gestoría', 'no molestar', 'IMPORTANTE')]
+    SFX = ['pop@0.3'] + [f'tick@{0.9 + i * .6:.1f}' for i in range(6)] + ['pop@4.9', 'boom@5.8']
+
+    def draw(self, t):
+        INK, LINE, HDR = (32, 33, 36), (212, 214, 218), (33, 115, 70)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 90), fill=HDR)
+        g.text((40, 45), 'clientes_TODOS_definitivo(3).xlsx', font=F(700, 30), fill='white', anchor='lm')
+        cols = [(30, 'Nombre'), (290, 'Email'), (660, 'Notas')]
+        g.rectangle((0, 120, BW, 180), fill=(232, 240, 234))
+        for x, n in cols: g.text((x, 150), n, font=F(700, 30), fill=INK, anchor='lm')
+        for i in range(8): g.line([(0, 180 + i * 80), (BW, 180 + i * 80)], fill=LINE, width=2)
+        for x in (270, 640): g.line([(x, 120), (x, 740)], fill=LINE, width=2)
+        for i, row in enumerate(self.ROWS):
+            ts = .9 + i * .6
+            if t < ts: continue
+            A = int(255 * ease((t - ts) / .25)); l, lg = layer(); yy = 220 + i * 80
+            for j, ((x, _), v) in enumerate(zip(cols, row)):
+                f = F(600 if j == 2 else 500, 28)
+                lg.text((x, yy), v, font=f, fill=((200, 40, 40) if j == 2 else INK) + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        g.rectangle((0, 760, BW, 780), fill=(243, 243, 243))
+        if t >= 4.9:
+            k = pop((t - 4.9) / .35); l, lg = layer(); A = 255
+            lg.rounded_rectangle((60, 790, BW - 60, 790 + int(110 * min(1, k))), 20, fill=(252, 232, 230, A))
+            if k > .8:
+                lg.text((BW // 2, 822), 'Total de contactos: 6', font=F(600, 28), fill=(120, 60, 60, A), anchor='mm')
+                lg.text((BW // 2, 866), 'Emails válidos: 1 (el suyo)', font=F(800, 38), fill=(200, 30, 30, A), anchor='mm')
+            im.paste(l, (0, 0), l)
+        tag(g, y=BH - 40)
+        return im
+
+
+# ------------------------------------------------------------------ m08. EL TEXTO DEL ANUNCIO (editor de diseño)
+class TextoLargo:
+    POV = 'POV: el cliente te manda “el texto para el anuncio” y quiere que se lea todo'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    TXT = ('Somos una empresa familiar con más de 30 años de experiencia en reformas integrales, cocinas, baños, tejados, '
+           'fontanería, electricidad, pintura, pladur, suelos, ventanas, puertas, persianas, toldos, mamparas, calefacción, '
+           'aire acondicionado, jardinería y limpieza de fin de obra. Presupuesto sin compromiso. Trabajamos en Burgos y '
+           'provincia, también fines de semana y festivos. Aparcamiento gratuito. Pregunte por nuestras ofertas de temporada. '
+           'Aceptamos tarjeta, transferencia y efectivo. Horario de lunes a viernes de 8 a 14 y de 16 a 20, sábados de 9 a 13. ')
+    SFX = ['pop@0.3', 'typing:3.8@0.8', 'pop@5.2', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (235, 236, 240)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 90), fill=(40, 44, 52))
+        g.text((40, 45), 'anuncio_reformas.png', font=F(600, 28), fill='white', anchor='lm')
+        X0, Y0, X1, Y1 = 150, 130, 810, 790
+        g.rectangle((X0, Y0, X1, Y1), fill=(255, 250, 240))
+        g.rectangle((X0, Y0, X1, Y0 + 110), fill=(255, 106, 26))
+        g.text(((X0 + X1) // 2, Y0 + 55), 'REFORMAS', font=F(800, 54), fill='white', anchor='mm')
+        k = ease((t - .8) / 3.8) if t >= .8 else 0
+        size = int(46 - 36 * k); txt = (self.TXT * 3)[:int(40 + 1100 * k)]
+        f = F(500, max(10, size)); ls = wrap(txt, f, X1 - X0 - 60); lh = int(max(10, size) * 1.25)
+        for j, s in enumerate(ls):
+            yy = Y0 + 140 + j * lh
+            if yy > Y1 - 20: break
+            g.text((X0 + 30, yy), s, font=f, fill=(50, 40, 30))
+        g.rounded_rectangle((BW - 250, 110, BW - 20, 170), 12, fill='white')
+        g.text((BW - 135, 140), f'Letra: {max(4, size if k < 1 else 4)} pt', font=F(700, 26), fill=(40, 44, 52), anchor='mm')
+        cm = [(0.8, '“Pon esto, que es cortito”'), (2.6, '“Y los servicios, que no falte ninguno”'), (4.2, '“Y el horario, por si acaso”')]
+        for ts, c in cm:
+            if ts <= t < ts + 1.6:
+                A = int(255 * ease((t - ts) / .25)); l, lg = layer(); yy = BH - 110
+                lg.rounded_rectangle((60, yy - 36, BW - 60, yy + 36), 18, fill=(255, 235, 59, A))
+                lg.text((BW // 2, yy), c, font=F(700, 30), fill=(30, 30, 30, A), anchor='mm')
+                im.paste(l, (0, 0), l)
+        card(im, t, 5.2, 'Tamaño de la letra', '4 pt', '“¿Y por qué no me llama nadie?”', cy=560, big_size=110)
+        tag(g, y=BH - 30)
+        return im
+
+
+NEW = {'m01-no-aparece': NoShow, 'm02-visibilidad': Visibilidad, 'm03-apaga-dia-2': ApagaDia2, 'm04-hilo-47': HiloRe,
+       'm05-dominio': Dominio, 'm06-ficha-google': FichaGoogle, 'm07-base-datos': BaseDatos, 'm08-texto-largo': TextoLargo}
