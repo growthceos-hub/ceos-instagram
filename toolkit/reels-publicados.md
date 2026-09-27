@@ -18,3 +18,23 @@
 | 2026-09-27 | 3 | Más reseñas en Google: pide en el mejor momento, envía el enlace directo y responde a todas | https://www.instagram.com/reel/Ddy5H8Rjytq/ | Sí |
 | 2026-09-27 | 4 | Guion de anuncio que convierte: gancho en 3 segundos, habla de su problema y una sola llamada a la acción | https://www.instagram.com/reel/Ddy7rfmiVaJ/ | Sí |
 | 2026-09-27 | 5 | WhatsApp Business que trabaja por ti: mensaje de ausencia, respuestas rápidas y etiquetas | https://www.instagram.com/reel/Ddy_GMsgnHr/ | Sí |
+| 2026-09-27 | meme-extra | El comercial que “ya le llamó” (CRM vacío) — solo pestaña Reels | https://www.instagram.com/reel/DdzC1GiEbtV/ |
+| 2026-09-27 | meme-extra | La web de 2014 — solo pestaña Reels | https://www.instagram.com/reel/DdzC2NgjJ4M/ |
+| 2026-09-27 | meme-extra | El logo un poquito más grande — solo pestaña Reels | https://www.instagram.com/reel/DdzC2k6jsI6/ |
+| 2026-09-27 | meme-extra | Excel de leads “a 1 €” — solo pestaña Reels | https://www.instagram.com/reel/DdzC28ViYrf/ |
+| 2026-09-27 | meme-extra | Te devuelve la llamada en la ducha — solo pestaña Reels | https://www.instagram.com/reel/DdzC-EAIzZL/ |
+| 2026-09-27 | meme-extra | La única reseña, de alguien que no compró — solo pestaña Reels | https://www.instagram.com/reel/DdzC3sxlaEV/ |
+| 2026-09-27 | meme-extra | “Llamada rápida de 10 minutos” — solo pestaña Reels | https://www.instagram.com/reel/DdzC4TtColO/ |
+| 2026-09-27 | meme-extra | Primera venta y reembolso — solo pestaña Reels | https://www.instagram.com/reel/DdzC6QVCH0j/ |
+| 2026-09-27 | meme-extra | 5 € al día y 50 clientes — solo pestaña Reels | https://www.instagram.com/reel/DdzC8VDijxS/ |
+| 2026-09-27 | meme-extra | Audio de 7 minutos para decir “sí” — solo pestaña Reels | https://www.instagram.com/reel/DdzC6AiE6qZ/ |
+| 2026-09-27 | meme-extra | Viernes 19:58 correo URGENTE — solo pestaña Reels | https://www.instagram.com/reel/DdzC6QLFH-Q/ |
+| 2026-09-27 | meme-extra | Leads a las 3:00, respuesta a las 11 — solo pestaña Reels | https://www.instagram.com/reel/DdzC6qInDY6/ |
+| 2026-09-27 | meme-extra | 8 herramientas pagadas sin abrir — solo pestaña Reels | https://www.instagram.com/reel/DdzC6_Xkaon/ |
+| 2026-09-27 | meme-extra | CRM Enterprise con 1 contacto de prueba — solo pestaña Reels | https://www.instagram.com/reel/DdzC7TAFTqp/ |
+| 2026-09-27 | meme-extra | Plan de ventas del domingo en Excel — solo pestaña Reels | https://www.instagram.com/reel/DdzC8cjiroq/ |
+| 2026-09-27 | meme-extra | El lead que te llama para venderte una web — solo pestaña Reels | https://www.instagram.com/reel/DdzC9CXAsbM/ |
+| 2026-09-27 | meme-extra | 64 comentarios “precio?” y 0 respuestas — solo pestaña Reels | https://www.instagram.com/reel/DdzC9T7CiAF/ |
+| 2026-09-27 | meme-extra | Formulario de 23 preguntas — solo pestaña Reels | https://www.instagram.com/reel/DdzC97EiA1W/ |
+| 2026-09-27 | meme-extra | Historias vistas por la competencia — solo pestaña Reels | https://www.instagram.com/reel/DdzC-4djMUD/ |
+| 2026-09-27 | meme-extra | Primer anuncio: solo interactúa la familia — solo pestaña Reels | https://www.instagram.com/reel/DdzC-nKCBu6/ |
