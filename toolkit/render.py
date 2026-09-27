@@ -37,11 +37,11 @@ LOGO = 'data:image/png;base64,' + base64.b64encode(open(_logo, 'rb').read()).dec
 
 # Paleta Ceos Productions: azul y blanco (naranja -> azul, crema -> blanco, negros cálidos -> azul noche).
 PROD_HEX = {
-    'FF6A1A': '2F7BFF', 'FF8F45': '5A97FF', 'FF8A4A': '5A97FF', 'FFB27A': '9CC1FF',
+    'FF6A1A': '55BFFF', 'FF8F45': '7FD0FF', 'FF8A4A': '7FD0FF', 'FFB27A': 'B5E3FF',
     '0A0908': '060D1F', '12100F': '0B1530', '171412': '0F1A38', '1E1A17': '14213F', '1C130D': '0C1A3A', '2A150A': '10224A',
     'F2EDE7': 'FFFFFF', 'D9D1C8': 'DCE6F5', 'B5ADA4': 'B4C2D9', '9C938B': '94A3BD', '6B635C': '5E6E8C',
 }
-PROD_RGB = {'255,106,26': '47,123,255', '242,237,231': '255,255,255', '18,16,15': '11,21,48', '28,25,22': '15,26,56'}
+PROD_RGB = {'255,106,26': '85,191,255', '242,237,231': '255,255,255', '18,16,15': '11,21,48', '28,25,22': '15,26,56'}
 
 
 def recolor(s):
