@@ -63,12 +63,12 @@ ImageDraw.Draw(boxmask).rounded_rectangle((0, 0, BOX_W - 1, BOX_H - 1), 40, fill
 # ---------- clip de chat ----------
 C_BG, BAR, OUTB, INB = (11, 20, 26), (31, 44, 52), (0, 92, 75), (32, 44, 51)
 GREY, BLUE, TXT = (134, 150, 160), (83, 189, 235), (233, 237, 239)
-DUR = 10.0
-MSGS = [(0.7, 'Hola Laura, soy de Ceos Growth.'),
-        (1.7, 'Vi que pediste info hace un rato. ¿Te llamo hoy o mañana?')]
-READ_T = 3.3
-TYPING = [(4.0, 6.0), (7.0, 7.9)]
-LAST_SEEN_T = 8.6
+DUR = 8.0
+MSGS = [(0.4, 'Hola Laura, soy de Ceos Growth.'),
+        (1.2, 'Vi que pediste info hace un rato. ¿Te llamo hoy o mañana?')]
+READ_T = 2.2
+TYPING = [(2.6, 4.2), (4.7, 5.5)]
+LAST_SEEN_T = 6.2
 msg_f, small_f = F(500, 40), F(500, 26)
 
 
@@ -140,9 +140,20 @@ def chat_frame(t):
     g.rounded_rectangle((24, BOX_H - 104, BOX_W - 128, BOX_H - 24), 40, fill=INB)
     g.text((70, BOX_H - 64), 'Mensaje', font=F(500, 34), fill=GREY, anchor='lm')
     g.ellipse((BOX_W - 108, BOX_H - 104, BOX_W - 28, BOX_H - 24), fill=(0, 168, 132))
-    # micro-zoom de cámara al quedar "en visto" para darle ritmo
-    z = 1 + .05 * ease((t - LAST_SEEN_T) / .6) if t >= LAST_SEEN_T else 1 + .012 * math.sin(t * .8)
-    if z != 1:
+    # meme: zoom de golpe al "últ. vez" + temblor + desaturado
+    if t >= LAST_SEEN_T:
+        k = ease((t - LAST_SEEN_T) / .12)
+        z = 1 + 1.1 * k
+        cw, ch = BOX_W / z, BOX_H / z
+        fx, fy = 330, 95
+        sh = 18 * math.exp(-(t - LAST_SEEN_T) * 6)
+        fx += sh * math.sin(t * 90); fy += sh * math.cos(t * 77)
+        x0 = min(max(0, fx - cw / 2), BOX_W - cw); y0_ = min(max(0, fy - ch / 2), BOX_H - ch)
+        im = im.crop((int(x0), int(y0_), int(x0 + cw), int(y0_ + ch))).resize((BOX_W, BOX_H), Image.LANCZOS)
+        grey = im.convert('L').convert('RGB')
+        im = Image.blend(im, grey, .6 * k)
+    else:
+        z = 1 + .012 * math.sin(t * .8)
         zw, zh = int(BOX_W * z), int(BOX_H * z)
         big = im.resize((zw, zh), Image.LANCZOS)
         ox, oy = (zw - BOX_W) // 2, int((zh - BOX_H) * .35)
@@ -165,20 +176,23 @@ for i in range(N):
     c = Image.open(os.path.join(frames_dir, clips[i])) if CLIP else chat_frame(i / FPS)
     fr.paste(c.convert('RGB'), BOX[:2], boxmask)
     fr.save(os.path.join(frames_dir, f'{i:04d}.png'))
-    if i in (int(2.5 * FPS), int(5 * FPS), N - 1):
+    if i in (int(3 * FPS), int(6.5 * FPS), N - 1):
         fr.resize((540, 960)).save(os.path.join(TMP, f'check{i}.jpg'), quality=85)
-    if i == int(5 * FPS):
+    if i == int(3 * FPS):
         fr.save(os.path.join(OUT, 'portada.jpg'), quality=92)
 
 dur = N / FPS
 wav = os.path.join(TMP, 'm.wav')
-music = os.path.join(HERE, 'music.py')
-has_music = subprocess.run([sys.executable, music, wav, str(dur), '3.3', os.environ.get('SEED', '4')]).returncode == 0
+if CLIP:
+    has_music = subprocess.run([sys.executable, os.path.join(HERE, 'meme_audio.py'), wav, str(dur), str(dur + 1)]).returncode == 0
+else:
+    ev = [f'pop@{a}' for a, _ in MSGS] + [f'tick@{READ_T}'] + [f'typing:{b - a}@{a}' for a, b in TYPING]
+    has_music = subprocess.run([sys.executable, os.path.join(HERE, 'meme_audio.py'), wav, str(dur), str(LAST_SEEN_T), ','.join(ev)]).returncode == 0
 cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', os.path.join(frames_dir, '%04d.png')]
 if CLIP and not has_music:
     cmd += ['-i', CLIP, '-map', '0:v', '-map', '1:a?']
 elif has_music:
-    cmd += ['-i', wav, '-map', '0:v', '-map', '1:a', '-af', f'afade=t=out:st={dur-1}:d=1,volume=0.8']
+    cmd += ['-i', wav, '-map', '0:v', '-map', '1:a']
 cmd += ['-t', str(dur), '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', '-preset', 'medium',
         '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', os.path.join(OUT, 'reel.mp4')]
 subprocess.run(cmd, check=True)
