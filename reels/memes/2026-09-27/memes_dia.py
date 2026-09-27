@@ -577,6 +577,148 @@ class Grupo(WAChat):
         return im
 
 
+
+def cursor_text(txt, t, t0, t1):
+    n = int(len(txt) * min(1, max(0, (t - t0) / (t1 - t0))))
+    return txt[:n] + ('|' if t0 <= t < t1 + .4 and int(t * 4) % 2 == 0 else '')
+
+
+# ------------------------------------------------------------------ m13. "A GENTE QUE QUIERA COMPRAR" (segmentación)
+class Segmentar:
+    POV = 'POV: el cliente te pide segmentar el anuncio “a gente que quiera comprar”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (420, 110)
+    SFX = ['pop@0.3', 'typing:1.6@0.6', 'tick@2.4', 'typing:1.0@3.0', 'tick@4.2', 'ding@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        BG, INK, MUT, LINE, BLU = (242, 244, 247), (28, 30, 33), (101, 103, 107), (221, 223, 226), (8, 102, 255)
+        im = Image.new('RGB', (BW, BH), BG); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 110), fill='white'); g.line([(0, 110), (BW, 110)], fill=LINE, width=2)
+        g.text((40, 55), 'Público · Segmentación detallada', font=F(700, 34), fill=INK, anchor='lm')
+        g.rounded_rectangle((30, 140, BW - 30, 330), 18, fill='white', outline=LINE, width=2)
+        for j, (a, b) in enumerate([('Ubicación', 'Burgos + 40 km'), ('Edad', '25 – 65'), ('Idioma', 'Español')]):
+            g.text((64, 170 + j * 52), a, font=F(500, 28), fill=MUT); g.text((300, 170 + j * 52), b, font=F(600, 28), fill=INK)
+        g.text((40, 370), 'Intereses', font=F(700, 32), fill=INK)
+        g.rounded_rectangle((30, 420, BW - 30, 500), 14, fill='white', outline=BLU, width=3)
+        q = cursor_text('gente que quiera comprar', t, .6, 2.2) if t < 3.0 else cursor_text('gente con dinero', t, 3.0, 4.0)
+        g.text((64, 460), q, font=F(500, 32), fill=INK, anchor='lm')
+        if 2.4 <= t < 3.0 or t >= 4.2:
+            ts = 2.4 if t < 3.0 else 4.2; A = int(255 * ease((t - ts) / .2)); l, lg = layer()
+            lg.rounded_rectangle((30, 510, BW - 30, 640), 14, fill=(255, 255, 255, A), outline=LINE + (A,), width=2)
+            lg.text((64, 548), 'Sin resultados', font=F(700, 30), fill=(200, 40, 40, A))
+            lg.text((64, 596), 'Prueba con otro término', font=F(500, 26), fill=MUT + (A,))
+            im.paste(l, (0, 0), l)
+        g.text((40, 690), 'Definición del público', font=F(700, 30), fill=INK)
+        g.arc((BW // 2 - 190, 740, BW // 2 + 190, 1120), 180, 360, fill=(200, 205, 212), width=26)
+        ang = math.radians(180 + 90 + 40 * math.sin(t * 3))
+        g.line([(BW // 2, 930), (BW // 2 + 150 * math.cos(ang), 930 + 150 * math.sin(ang))], fill=INK, width=6)
+        if t >= 5.0:
+            banner(im, t, 5.0, 'WhatsApp · Cliente', '“Pues pon a los que me van a comprar,', sub='que tampoco es tan difícil”')
+        tag(g, y=BH - 20)
+        return im
+
+
+# ------------------------------------------------------------------ m14. LAS RESPUESTAS A LA NEWSLETTER (correo)
+class Newsletter:
+    POV = 'POV: envías la newsletter a toda tu lista y las únicas respuestas son estas'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    MAILS = [('Respuesta automática', 'Fuera de la oficina hasta el día 15'), ('Mail Delivery System', 'No se pudo entregar el mensaje'),
+             ('Respuesta automática', 'Estoy de vacaciones, sin acceso al correo'), ('Contacto de 2019', 'Re: DARME DE BAJA'),
+             ('Respuesta automática', 'Este buzón ya no está en uso'), ('Mail Delivery System', 'Dirección no encontrada'),
+             ('Respuesta automática', 'Fuera de la oficina')]
+    SFX = ['pop@0.3'] + [f'tick@{0.8 + i * .55:.2f}' for i in range(7)] + ['pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE = (32, 33, 36), (95, 99, 104), (232, 234, 237)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 120), fill=(246, 248, 252))
+        g.rounded_rectangle((30, 28, BW - 30, 92), 32, fill=(234, 241, 251))
+        g.text((80, 60), 'Buscar en el correo', font=F(500, 30), fill=MUT, anchor='lm')
+        n = sum(1 for i in range(7) if t >= .8 + i * .55); unread = min(58, n * 8 + (2 if n else 0))
+        g.text((40, 150), 'Recibidos', font=F(700, 30), fill=INK); g.text((BW - 40, 150), f'{unread} sin leer', font=F(700, 26), fill=(217, 48, 37), anchor='ra')
+        vis = [(i, m) for i, m in enumerate(self.MAILS) if t >= .8 + i * .55][::-1][:7]
+        for j, (i, (name, sub)) in enumerate(vis):
+            yy = 210 + j * 110; ts = .8 + i * .55; k = ease((t - ts) / .25)
+            if j == 0: yy -= int(110 * (1 - k))
+            g.ellipse((40, yy + 4, 110, yy + 74), fill=(189, 193, 198))
+            g.text((75, yy + 39), name[0], font=F(700, 32), fill='white', anchor='mm')
+            g.text((136, yy), name, font=F(800, 30), fill=INK)
+            g.text((136, yy + 44), sub, font=F(500, 26), fill=MUT)
+            g.line([(136, yy + 98), (BW, yy + 98)], fill=LINE, width=2)
+        card(im, t, 5.1, 'Respuestas a tu newsletter', '58', 'Ventas: 0 · Gente de vacaciones: 41', cy=600, big_size=120)
+        tag(g, y=BH - 30)
+        return im
+
+
+# ------------------------------------------------------------------ m15. LA MAÑANA BLOQUEADA (calendario)
+class Manana:
+    POV = 'POV: te bloqueas la mañana para “trabajar EN tu negocio” y pasa esto'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    EVS = [(1.0, 0.45, 'Proveedor: “una llamada rápida”'), (1.6, 0.95, 'Cliente: “¿tienes un minuto?”'),
+           (2.2, 1.45, 'Reunión que podía ser un correo'), (2.8, 1.95, 'Se ha caído el wifi'),
+           (3.4, 2.45, 'El gestor: “falta una factura”'), (4.0, 2.95, 'Comercial: “una duda”')]
+    SFX = ['pop@0.3'] + [f'pop@{e[0]}' for e in EVS] + ['pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE = (32, 33, 36), (95, 99, 104), (226, 228, 232)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.text((40, 48), 'Calendario · Miércoles', font=F(700, 34), fill=INK, anchor='lm'); g.line([(0, 96), (BW, 96)], fill=LINE, width=2)
+        Y0, HH = 130, 200
+        for i, h in enumerate(['9:00', '10:00', '11:00', '12:00', '13:00']):
+            yy = Y0 + i * HH; g.text((30, yy), h, font=F(500, 24), fill=MUT, anchor='lm'); g.line([(120, yy), (BW, yy)], fill=LINE, width=2)
+        if t >= .3:
+            k = ease((t - .3) / .4); fade = .35 if t >= 1.0 else 1
+            col = tuple(int(255 - (255 - c) * fade) for c in (51, 182, 121))
+            g.rounded_rectangle((140, Y0 + 4, 140 + int((BW - 170) * k), Y0 + 4 * HH - 4), 14, fill=col)
+            if k > .9:
+                g.text((170, Y0 + 40), 'Trabajar EN el negocio', font=F(800, 36), fill='white')
+                g.text((170, Y0 + 90), '(NO TOCAR)', font=F(700, 28), fill='white')
+        for ts, hs, lab in self.EVS:
+            if t < ts: continue
+            k = pop((t - ts) / .3); l, lg = layer(); yy = Y0 + int(hs * HH) + 6
+            w_ = int((BW - 230) * min(1, k))
+            lg.rounded_rectangle((200, yy, 200 + w_, yy + 84), 12, fill=(234, 67, 53, 255))
+            if k > .8: lg.text((224, yy + 42), lab, font=F(700, 28), fill=(255, 255, 255, 255), anchor='lm')
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Tiempo trabajando EN tu negocio', '11 min', 'y fue en la cola del café', cy=600, big_size=110)
+        tag(g, y=BH - 20)
+        return im
+
+
+# ------------------------------------------------------------------ m16. EL ANUNCIO RECHAZADO (revisión de anuncio)
+class Rechazado:
+    POV = 'POV: preparas el anuncio perfecto de tu reforma de baños y te lo rechazan por esto'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 620)
+    SFX = ['pop@0.3', 'tick@1.2', 'tick@2.0', 'tick@2.8', 'ding@3.8', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        BG, INK, MUT, LINE = (242, 244, 247), (28, 30, 33), (101, 103, 107), (221, 223, 226)
+        im = Image.new('RGB', (BW, BH), BG); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 110), fill='white'); g.line([(0, 110), (BW, 110)], fill=LINE, width=2)
+        g.text((40, 55), 'Revisión del anuncio', font=F(700, 36), fill=INK, anchor='lm')
+        g.rounded_rectangle((120, 140, BW - 120, 860), 18, fill='white', outline=LINE, width=2)
+        g.ellipse((150, 165, 210, 225), fill=(255, 106, 26)); g.text((180, 195), 'RB', font=F(700, 22), fill='white', anchor='mm')
+        g.text((230, 178), 'Reformas Baño Burgos', font=F(700, 26), fill=INK); g.text((230, 210), 'Publicidad', font=F(500, 22), fill=MUT)
+        g.text((150, 260), 'Tu baño nuevo en 7 días. Pide presupuesto.', font=F(500, 26), fill=INK)
+        g.rectangle((120, 310, BW - 120, 700), fill=(214, 226, 232))
+        for yy in range(310, 700, 48): g.line([(120, yy), (BW - 120, yy)], fill=(198, 212, 220), width=2)
+        g.rounded_rectangle((220, 480, 740, 640), 60, fill='white', outline=(170, 180, 190), width=4)
+        g.rounded_rectangle((250, 500, 710, 600), 40, fill=(235, 242, 246))
+        g.rectangle((650, 400, 670, 480), fill=(160, 170, 180)); g.rectangle((620, 395, 690, 410), fill=(160, 170, 180))
+        g.rounded_rectangle((150, 730, BW - 150, 810), 12, fill=(231, 236, 245))
+        g.text((BW // 2, 770), 'Solicitar presupuesto', font=F(700, 28), fill=INK, anchor='mm')
+        if t < 3.8:
+            txt, col, bg = 'En revisión' + '.' * (int(t * 3) % 4), (160, 110, 0), (255, 244, 214)
+        else:
+            txt, col, bg = 'Rechazado', (197, 34, 31), (252, 232, 230)
+        k = pop((t - 3.8) / .3) if t >= 3.8 else 1
+        w_ = int(360 * k); g.rounded_rectangle((BW // 2 - w_ // 2, 890, BW // 2 + w_ // 2, 960), 35, fill=bg)
+        g.text((BW // 2, 925), txt, font=F(800, 32), fill=col, anchor='mm')
+        card(im, t, 5.0, 'Motivo del rechazo', 'DESNUDOS', 'Es una bañera. Vacía.', cy=620, big_size=78)
+        tag(g, y=BH - 20)
+        return im
+
+
 NEW = {'m01-no-aparece': NoShow, 'm02-visibilidad': Visibilidad, 'm03-apaga-dia-2': ApagaDia2, 'm04-hilo-47': HiloRe,
        'm05-dominio': Dominio, 'm06-ficha-google': FichaGoogle, 'm07-base-datos': BaseDatos, 'm08-texto-largo': TextoLargo,
-       'm09-no-rellene': NoRellene, 'm10-factura-vencida': Vencida, 'm11-seo-barato': SeoBarato, 'm12-grupo-whatsapp': Grupo}
+       'm09-no-rellene': NoRellene, 'm10-factura-vencida': Vencida, 'm11-seo-barato': SeoBarato, 'm12-grupo-whatsapp': Grupo,
+       'm13-segmentar': Segmentar, 'm14-newsletter': Newsletter, 'm15-manana-bloqueada': Manana, 'm16-anuncio-rechazado': Rechazado}
