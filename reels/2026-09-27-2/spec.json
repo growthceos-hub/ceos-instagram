@@ -1,0 +1,62 @@
+{
+ "topic": "Clientes que no se presentan a la cita: confirmación al agendar, recordatorio el día antes y opción de cambiarla",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Agendan cita<br>y <em>no aparecen?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Hola, te esperamos", "hoy a las 10:00."], "time": "10:15"},
+     {"from": "out", "text": "¿Sigues interesado?", "time": "10:40"}
+    ]
+   },
+   "footer": "3 pasos para que vengan"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Confirma<br><em>al agendar.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Día y hora exactos", "Dirección o enlace", "Qué vais a ver juntos"]
+   },
+   "note": "Un mensaje claro <b>nada más reservar.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Recuérdalo<br><em>el día antes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE DE WHATSAPP",
+    "lines": ["Hola Laura, te esperamos", "mañana a las 10:00.", "¿Me confirmas que vienes?"]
+   },
+   "note": "Pídele que <b>responda para confirmar.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Deja que la<br><em>pueda cambiar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "AL AGENDAR", "t": "Confirmación", "s": "Día, hora y lugar"},
+     {"n": "2", "d": "DÍA ANTES", "t": "Recordatorio", "s": "Pide que confirme"},
+     {"n": "3", "d": "SI NO PUEDE", "t": "Nueva fecha", "s": "Mejor mover que perder"}
+    ]
+   },
+   "note": "Una cita movida <b>no es una cita perdida.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que no se te<br><em>escape ninguna.</em>",
+   "dur": 6,
+   "items": ["Confirma al agendar", "Recuerda el día antes", "Ofrece cambiar la fecha"]
+  }
+ ],
+ "caption": "¿Tus clientes agendan cita y luego no aparecen? 😩\n\nMuchas ausencias no son falta de interés: se les olvida o les surge algo y no se atreven a avisar.\n\n→ Confirma día, hora y lugar nada más agendar\n→ Recuérdale la cita el día antes y pídele que confirme\n→ Si no puede, ofrécele otra fecha en vez de perderla\n\nMenos sillas vacías, más ventas.\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #citas #captaciondeclientes #ventas #whatsappbusiness #emprendedores #empresarios"
+}
