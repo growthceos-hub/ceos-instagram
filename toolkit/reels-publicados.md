@@ -15,3 +15,4 @@
 | 2026-09-27 | meme | El informe (todo sube menos ventas) — solo pestaña Reels | https://www.instagram.com/reel/DdxkWyEAC1S/ |
 | 2026-09-27 | 1 | Landing page que convierte: titular con resultado, un solo botón y qué pasa después | https://www.instagram.com/reel/DdyxYvTDTbU/ | Sí |
 | 2026-09-27 | 2 | Clientes que no se presentan a la cita: confirmación al agendar, recordatorio el día antes y opción de cambiarla | https://www.instagram.com/reel/Ddy02XBAA3p/ | Sí |
+| 2026-09-27 | 3 | Más reseñas en Google: pide en el mejor momento, envía el enlace directo y responde a todas | https://www.instagram.com/reel/Ddy5H8Rjytq/ | Sí |
