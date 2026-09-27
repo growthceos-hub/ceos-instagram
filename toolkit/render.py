@@ -35,11 +35,28 @@ if not os.path.exists(_logo):
 LOGO = 'data:image/png;base64,' + base64.b64encode(open(_logo, 'rb').read()).decode()
 
 
+# Paleta Ceos Productions: azul y blanco (naranja -> azul, crema -> blanco, negros cálidos -> azul noche).
+PROD_HEX = {
+    'FF6A1A': '2F7BFF', 'FF8F45': '5A97FF', 'FF8A4A': '5A97FF', 'FFB27A': '9CC1FF',
+    '0A0908': '060D1F', '12100F': '0B1530', '171412': '0F1A38', '1E1A17': '14213F', '1C130D': '0C1A3A', '2A150A': '10224A',
+    'F2EDE7': 'FFFFFF', 'D9D1C8': 'DCE6F5', 'B5ADA4': 'B4C2D9', '9C938B': '94A3BD', '6B635C': '5E6E8C',
+}
+PROD_RGB = {'255,106,26': '47,123,255', '242,237,231': '255,255,255', '18,16,15': '11,21,48', '28,25,22': '15,26,56'}
+
+
+def recolor(s):
+    s = re.sub(r'#([0-9A-Fa-f]{6})\b', lambda m: '#' + PROD_HEX.get(m.group(1).upper(), m.group(1)), s)
+    s = re.sub(r'rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)',
+               lambda m: m.group(0).split('(')[0] + '(' + PROD_RGB.get(f'{m.group(1)},{m.group(2)},{m.group(3)}', f'{m.group(1)},{m.group(2)},{m.group(3)}'), s)
+    return s
+
+
 def prep(src):
     s = open(src).read()
     if BRAND == 'productions':
         s = s.replace('Ceos Growth', 'Ceos Productions').replace('@ceos.growth', '@ceos.productions')
         s = s.replace('#ceosgrowth', '#ceosproductions')
+        s = recolor(s)
     s = s.replace('<script src="./support.js"></script>', '')
     s = re.sub(r'<script type="text/x-dc".*?</script>', '', s, flags=re.S)
     s = re.sub(r'<link href="https://fonts[^>]*>', '<style>' + FACES + '</style>', s)
