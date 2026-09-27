@@ -38,3 +38,23 @@
 | 2026-09-27 | meme-extra | Formulario de 23 preguntas — solo pestaña Reels | https://www.instagram.com/reel/DdzC97EiA1W/ |
 | 2026-09-27 | meme-extra | Historias vistas por la competencia — solo pestaña Reels | https://www.instagram.com/reel/DdzC-4djMUD/ |
 | 2026-09-27 | meme-extra | Primer anuncio: solo interactúa la familia — solo pestaña Reels | https://www.instagram.com/reel/DdzC-nKCBu6/ |
+| 2026-09-27 | meme | El lead que agenda y no aparece — solo pestaña Reels | https://www.instagram.com/reel/DdzGHYZgY5f/ |
+| 2026-09-27 | meme | Pagarte “en visibilidad” — solo pestaña Reels | https://www.instagram.com/reel/DdzGC5lCmRA/ |
+| 2026-09-27 | meme | Apagas la campaña el día 2 — solo pestaña Reels | https://www.instagram.com/reel/DdzGC9VkQ9n/ |
+| 2026-09-27 | meme | Hilo de correo: mensaje 47 “¿cuánto costaba?” — solo pestaña Reels | https://www.instagram.com/reel/DdzGFDQGv2Q/ |
+| 2026-09-27 | meme | Campaña arranca y caduca el dominio — solo pestaña Reels | https://www.instagram.com/reel/DdzGqTBktKr/ |
+| 2026-09-27 | meme | Ficha de Google “cerrado permanentemente” — solo pestaña Reels | https://www.instagram.com/reel/DdzGqbTFF6s/ |
+| 2026-09-27 | meme | “Mi base de datos de clientes” (1 email válido) — solo pestaña Reels | https://www.instagram.com/reel/DdzGquyDcpI/ |
+| 2026-09-27 | meme | El texto del anuncio a 4 pt — solo pestaña Reels | https://www.instagram.com/reel/DdzGrRPFNDw/ |
+| 2026-09-27 | meme | “Yo no he rellenado nada” (llamada) — solo pestaña Reels | https://www.instagram.com/reel/DdzHStGji3h/ |
+| 2026-09-27 | meme | Factura vencida “la semana que viene sin falta” — solo pestaña Reels | https://www.instagram.com/reel/DdzHXdFjFSf/ |
+| 2026-09-27 | meme | SEO a 49 €/mes en el extracto — solo pestaña Reels | https://www.instagram.com/reel/DdzHSC1ASI-/ |
+| 2026-09-27 | meme | Grupo de WhatsApp con 15 opinando del logo — solo pestaña Reels | https://www.instagram.com/reel/DdzHSSmj6a2/ |
+| 2026-09-27 | meme | Segmentar “a gente que quiera comprar” — solo pestaña Reels | https://www.instagram.com/reel/DdzH2i5j_nh/ |
+| 2026-09-27 | meme | Respuestas a la newsletter: fuera de la oficina — solo pestaña Reels | https://www.instagram.com/reel/DdzH5Afj-WS/ |
+| 2026-09-27 | meme | La mañana “para trabajar EN el negocio” — solo pestaña Reels | https://www.instagram.com/reel/DdzH1vTlXSx/ |
+| 2026-09-27 | meme | Anuncio de baño rechazado por “desnudos” — solo pestaña Reels | https://www.instagram.com/reel/DdzH2YYDDEM/ |
+| 2026-09-27 | meme | Embudo del CRM: 84 leads sin llamar — solo pestaña Reels | https://www.instagram.com/reel/DdzIVr_D7gZ/ |
+| 2026-09-27 | meme | Formulario roto desde el lunes — solo pestaña Reels | https://www.instagram.com/reel/DdzIcBNDsC2/ |
+| 2026-09-27 | meme | El logo “en buena calidad” pixelado — solo pestaña Reels | https://www.instagram.com/reel/DdzIWpcCsSv/ |
+| 2026-09-27 | meme | Calculadora: cada cliente cuesta 800 € y paga 450 € — solo pestaña Reels | https://www.instagram.com/reel/DdzIbD6Cbpu/ |
