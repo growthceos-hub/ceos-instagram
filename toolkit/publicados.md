@@ -5,6 +5,7 @@
 | 2026-09-26 | Método | Lo que cuesta montar tu equipo comercial (32.900 €) — solo creado, subido a mano |
 | 2026-09-26 | Método | Leads que se enfrían: del anuncio al cierre sin fugas (IG + FB, fotos) |
 | 2026-09-26 | Valor | Los 3 anuncios que todo negocio necesita en Meta: problema, prueba, oferta (IG carrusel animado + FB vídeo) |
+| 2026-09-27 | Método | Tu sistema de ventas en 26 días: estudio propio, CRM + 10 perfiles, comisión sobre ventas (IG carrusel animado + FB vídeo + LinkedIn solo texto; palabra SISTEMA) |
 
 ## Ideas pendientes (valor)
 - Cómo responder a un lead en los primeros minutos
