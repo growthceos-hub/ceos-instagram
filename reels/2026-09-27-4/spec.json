@@ -1,0 +1,62 @@
+{
+ "topic": "Guion de anuncio que convierte: gancho en 3 segundos, habla de su problema y una sola llamada a la acción",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus anuncios<br>no <em>paran a nadie?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Cambiamos tu baño sin obras eternas.",
+    "media": "¿TU BAÑO TIENE 20 AÑOS?",
+    "headline": "Presupuesto sin compromiso",
+    "cta": "Más información",
+    "tags": ["GANCHO", "PROBLEMA", "SOLUCIÓN", "CTA"]
+   },
+   "footer": "3 pasos para tu guion"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Gancho en<br><em>3 segundos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PRIMERA FRASE DEL VÍDEO",
+    "lines": ["No: Hola, somos Reformas X", "Sí: ¿Tu baño tiene 20 años?", "Una pregunta que le toque"]
+   },
+   "note": "Si no engancha, <b>el resto no se ve.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Habla de<br><em>su problema.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "HABLAR DE TI",
+    "bad": ["Años de experiencia", "Nuestro gran equipo"],
+    "good_t": "HABLAR DE ÉL",
+    "good": ["Lo que le preocupa", "Cómo se lo resuelves"]
+   },
+   "note": "El protagonista es él, <b>no tu empresa.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Dile qué<br><em>hacer ahora.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Una sola acción, no tres", "Dila en voz y en pantalla", "Qué pasa cuando pulse"]
+   },
+   "note": "Si duda qué hacer, <b>no hace nada.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un guion<br><em>que vende.</em>",
+   "dur": 6,
+   "items": ["Gancho en 3 segundos", "Habla de su problema", "Una sola llamada a la acción"]
+  }
+ ],
+ "caption": "¿Tus anuncios no consiguen que nadie se pare a verlos? 🎬\n\nMuchas veces el problema no es el presupuesto ni la segmentación: es el guion del vídeo.\n\n→ Gancho en los primeros 3 segundos: una pregunta que toque su problema\n→ Habla de lo que le preocupa a él y de cómo se lo resuelves, no de tu empresa\n→ Termina con una sola acción clara y dile qué pasa cuando pulse\n\nUn buen guion hace que el mismo presupuesto rinda más.\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #guiondeanuncio #publicidadonline #captaciondeclientes #emprendedores #empresarios"
+}
