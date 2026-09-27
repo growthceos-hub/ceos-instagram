@@ -1,0 +1,64 @@
+{
+ "topic": "Cómo conseguir más reseñas en Google: pide en el mejor momento, envía el enlace directo y responde a todas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Clientes contentos<br>y <em>cero reseñas?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE HACES",
+    "bad": ["Esperar a que las dejen", "Pedirlas semanas después"],
+    "good_t": "LO QUE FUNCIONA",
+    "good": ["Pedirlas tú", "En el momento justo"]
+   },
+   "footer": "3 pasos para tener reseñas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pide en su<br><em>mejor momento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ENTREGA", "t": "Trabajo terminado", "s": "Todo ha salido bien"},
+     {"n": "2", "d": "MISMO DÍA", "t": "Te da las gracias", "s": "Está contento"},
+     {"n": "3", "d": "EN ESE MOMENTO", "t": "Pides la reseña", "s": "Antes de que se enfríe"}
+    ]
+   },
+   "note": "Cuando está contento, <b>no semanas después.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Mándale el<br><em>enlace directo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¡Ha quedado genial!", "time": "18:02"},
+     {"from": "out", "lines": ["¡Gracias! ¿Nos dejas", "tu opinión aquí?", "Es un minuto."], "time": "18:03"}
+    ]
+   },
+   "note": "Un clic y <b>ya está escribiendo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Responde<br><em>a todas.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Da las gracias por su nombre", "Menciona lo que contrató", "Contesta también las malas"]
+   },
+   "note": "Los nuevos clientes <b>leen tus respuestas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que hablen<br><em>bien de ti.</em>",
+   "dur": 6,
+   "items": ["Pide en el mejor momento", "Envía el enlace directo", "Responde a todas"]
+  }
+ ],
+ "caption": "¿Tienes clientes contentos pero casi ninguna reseña en Google? ⭐\n\nLa mayoría de clientes satisfechos no deja reseña porque nadie se la pide, o se la piden cuando ya se han olvidado.\n\n→ Pídela justo cuando el cliente está contento, el mismo día\n→ Mándale por WhatsApp el enlace directo para que sea un clic\n→ Responde a todas, también a las malas: los nuevos clientes leen tus respuestas\n\nMás reseñas, más confianza antes de que te llamen.\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #reseñasgoogle #googlemybusiness #captaciondeclientes #negociolocal #emprendedores #empresarios"
+}

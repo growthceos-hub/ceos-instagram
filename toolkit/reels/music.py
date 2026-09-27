@@ -69,7 +69,8 @@ while k * BEAT < DUR + 2:
         i = int(tb * SR); m = int(BEAT * SR)
         tt = np.arange(m) / SR
         depth = {'epica': .25, 'house': .12, 'cine': .8, 'synth': .45, 'phonk': .35}[STYLE]
-        side[i:i + m] = np.minimum(side[i:i + m], depth + (1 - depth) * np.clip(tt / (BEAT * .55), 0, 1) ** 1.5)
+        n = len(side[i:i + m])  # el último pulso puede salirse del final
+        side[i:i + n] = np.minimum(side[i:i + n], (depth + (1 - depth) * np.clip(tt / (BEAT * .55), 0, 1) ** 1.5)[:n])
     k += 1
 
 # ---------- SUPERSAW acordes
