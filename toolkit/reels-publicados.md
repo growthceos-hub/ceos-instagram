@@ -17,3 +17,4 @@
 | 2026-09-27 | 2 | Clientes que no se presentan a la cita: confirmación al agendar, recordatorio el día antes y opción de cambiarla | https://www.instagram.com/reel/Ddy02XBAA3p/ | Sí |
 | 2026-09-27 | 3 | Más reseñas en Google: pide en el mejor momento, envía el enlace directo y responde a todas | https://www.instagram.com/reel/Ddy5H8Rjytq/ | Sí |
 | 2026-09-27 | 4 | Guion de anuncio que convierte: gancho en 3 segundos, habla de su problema y una sola llamada a la acción | https://www.instagram.com/reel/Ddy7rfmiVaJ/ | Sí |
+| 2026-09-27 | 5 | WhatsApp Business que trabaja por ti: mensaje de ausencia, respuestas rápidas y etiquetas | https://www.instagram.com/reel/Ddy_GMsgnHr/ | Sí |
