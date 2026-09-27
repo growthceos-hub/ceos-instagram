@@ -1,0 +1,97 @@
+{
+ "topic": "WhatsApp Business que trabaja por ti: mensaje de ausencia, respuestas rápidas y etiquetas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te escriben<br>y <em>tardas horas?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Precio del servicio?",
+      "time": "22:47"
+     },
+     {
+      "from": "in",
+      "text": "¿Hola?",
+      "time": "09:12"
+     }
+    ]
+   },
+   "footer": "3 ajustes en WhatsApp Business"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Mensaje de<br><em>ausencia.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "RESPUESTA AUTOMÁTICA",
+    "lines": [
+     "Gracias por escribirnos.",
+     "Te respondemos mañana a las 9:00.",
+     "Cuéntanos qué necesitas."
+    ]
+   },
+   "note": "Nadie se queda <b>sin respuesta.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Respuestas<br><em>rápidas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "/precio: qué incluye",
+     "/cita: enlace para agendar",
+     "/zona: dónde trabajas"
+    ]
+   },
+   "note": "Lo que más te preguntan, <b>en un toque.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Etiqueta<br><em>cada chat.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ETIQUETA",
+      "t": "Nuevo",
+      "s": "Aún sin presupuesto"
+     },
+     {
+      "n": "2",
+      "d": "ETIQUETA",
+      "t": "Presupuesto",
+      "s": "Toca hacer seguimiento"
+     },
+     {
+      "n": "3",
+      "d": "ETIQUETA",
+      "t": "Cliente",
+      "s": "Ya ha comprado"
+     }
+    ]
+   },
+   "note": "Sabes a quién escribir <b>de un vistazo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un WhatsApp<br><em>que vende.</em>",
+   "dur": 6,
+   "items": [
+    "Mensaje de ausencia",
+    "Respuestas rápidas",
+    "Etiquetas en cada chat"
+   ]
+  }
+ ],
+ "caption": "¿Te escriben por WhatsApp y tardas horas en contestar? 💬\n\nWhatsApp Business trae herramientas gratis que casi nadie configura, y marcan la diferencia cuando un cliente escribe fuera de horario.\n\n→ Mensaje de ausencia: responde solo, dice cuándo contestarás y pide qué necesita\n→ Respuestas rápidas: precio, cita y zona guardados para enviarlos en un toque\n→ Etiquetas: nuevo, presupuesto, cliente, para saber a quién hacer seguimiento\n\nConfigurarlo lleva una tarde y te acompaña todos los días.\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #whatsappbusiness #atencionalcliente #captaciondeclientes #ventas #emprendedores #empresarios"
+}
