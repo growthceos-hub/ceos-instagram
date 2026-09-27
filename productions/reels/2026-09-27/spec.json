@@ -1,0 +1,94 @@
+{
+ "topic": "Cómo iluminarte para grabar a cámara con 3 luces",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Sales con<br><em>ojeras en vídeo?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LUZ DEL TECHO",
+    "bad": [
+     "Sombras en los ojos",
+     "Cara plana y apagada"
+    ],
+    "good_t": "3 LUCES",
+    "good": [
+     "Cara limpia",
+     "Te separas del fondo"
+    ]
+   },
+   "footer": "Se arregla con 3 luces"
+  },
+  {
+   "label": "LUZ 1",
+   "title": "La principal,<br><em>a 45 grados.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "A un lado de la cámara",
+     "Un poco por encima de ti",
+     "Suave, nunca directa"
+    ]
+   },
+   "note": "Es la que <b>da forma a tu cara.</b>"
+  },
+  {
+   "label": "LUZ 2",
+   "title": "El relleno,<br><em>al otro lado.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "CÓMO COLOCARLA",
+    "lines": [
+     "Al lado contrario de la principal",
+     "Más débil que la principal",
+     "Suaviza las sombras de la cara"
+    ]
+   },
+   "note": "Suaviza sombras, <b>no las borra.</b>"
+  },
+  {
+   "label": "LUZ 3",
+   "title": "El contraluz,<br><em>detrás de ti.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DÓNDE",
+      "t": "Detrás y en alto",
+      "s": "Apuntando a hombros y pelo"
+     },
+     {
+      "n": "2",
+      "d": "QUÉ HACE",
+      "t": "Te recorta del fondo",
+      "s": "Da profundidad a la imagen"
+     },
+     {
+      "n": "3",
+      "d": "OJO",
+      "t": "Fuera del plano",
+      "s": "Que no entre en cámara"
+     }
+    ]
+   },
+   "note": "El toque que hace que <b>parezca de estudio.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Guárdalo para<br><em>tu próxima grabación.</em>",
+   "dur": 6,
+   "items": [
+    "Principal a 45 grados",
+    "Relleno al otro lado",
+    "Contraluz detrás"
+   ]
+  }
+ ],
+ "caption": "¿Sales con ojeras y la cara apagada en tus vídeos? 💡\n\nLa luz del techo cae de arriba y marca sombras en los ojos. Se arregla con 3 luces:\n\n→ Luz principal: a 45 grados de la cámara, un poco por encima de ti y suave\n→ Relleno: al otro lado y más débil, para suavizar las sombras sin borrarlas\n→ Contraluz: detrás de ti y en alto, para recortarte del fondo (sin que entre en plano)\n\nGuárdalo y síguenos para más tips 🎬\n\n#ceosproductions #iluminacion #grabacion #videomarketing #creadoresdecontenido #produccionaudiovisual #tipsdevideo"
+}

@@ -207,7 +207,7 @@ def scene(i, sc):
         s += '</div>\n'
         s += f"""<div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: 28px; animation: aPop .7s cubic-bezier(.2,.8,.2,1) 2.3s both">
 <div style="position: relative; overflow: hidden; width: 100%; box-sizing: border-box; text-align: center; padding: 44px; border-radius: 40px; background: linear-gradient(135deg,#FF6A1A,#FF8F45); color: #0A0908; {BRIC}; font-weight: 800; font-size: {sc.get('button_size', 62)}px; letter-spacing: -0.03em; animation: aBtn 1.6s ease-in-out 3s infinite">{sc.get('button', 'Síguenos para más tips')}<div style="position: absolute; top: -40%; left: 0; width: 160px; height: 180%; background: linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.6),rgba(255,255,255,0)); animation: aShine 2s ease-in-out 3s infinite"></div></div>
-<span style="{MONO}; font-size: 30px; letter-spacing: 0.16em; color: #FF6A1A">@CEOS.GROWTH</span>
+<span style="{MONO}; font-size: 30px; letter-spacing: 0.16em; color: #FF6A1A; text-transform: uppercase">@ceos.growth</span>
 </div>
 """
         return s, dur
