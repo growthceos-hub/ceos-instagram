@@ -1,0 +1,1 @@
+Pon aquí logo.png (PNG cuadrado, fondo transparente) de Ceos Productions. Si no existe, se usa toolkit/logo.png.

@@ -27,11 +27,19 @@ FACES = ''.join(
     + [face('JetBrains Mono', f'jetbrains-mono/files/jetbrains-mono-latin-{w}-normal.woff2', w) for w in (400, 500, 600)]
     + [face('Instrument Serif', 'instrument-serif/files/instrument-serif-latin-400-normal.woff2', 400),
        face('Instrument Serif', 'instrument-serif/files/instrument-serif-latin-400-italic.woff2', 400, 'italic')])
-LOGO = 'data:image/png;base64,' + base64.b64encode(open(os.path.join(HERE, 'logo.png'), 'rb').read()).decode()
+# Marca: BRAND=productions (variable de entorno) cambia nombre, @ y logo para @ceos.productions.
+BRAND = os.environ.get('BRAND', 'growth')
+_logo = os.path.join(HERE, 'brands', BRAND, 'logo.png')
+if not os.path.exists(_logo):
+    _logo = os.path.join(HERE, 'logo.png')
+LOGO = 'data:image/png;base64,' + base64.b64encode(open(_logo, 'rb').read()).decode()
 
 
 def prep(src):
     s = open(src).read()
+    if BRAND == 'productions':
+        s = s.replace('Ceos Growth', 'Ceos Productions').replace('@ceos.growth', '@ceos.productions')
+        s = s.replace('#ceosgrowth', '#ceosproductions')
     s = s.replace('<script src="./support.js"></script>', '')
     s = re.sub(r'<script type="text/x-dc".*?</script>', '', s, flags=re.S)
     s = re.sub(r'<link href="https://fonts[^>]*>', '<style>' + FACES + '</style>', s)
