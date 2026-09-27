@@ -13,3 +13,4 @@
 | 2026-09-27 | meme | El socio (presupuesto 3 semanas) — solo pestaña Reels | https://www.instagram.com/reel/DdxkVQ2lTpc/ |
 | 2026-09-27 | meme | El sorteo (seguidores sin ventas) — solo pestaña Reels | https://www.instagram.com/reel/DdxkWKTCuuX/ |
 | 2026-09-27 | meme | El informe (todo sube menos ventas) — solo pestaña Reels | https://www.instagram.com/reel/DdxkWyEAC1S/ |
+| 2026-09-27 | 1 | Landing page que convierte: titular con resultado, un solo botón y qué pasa después | https://www.instagram.com/reel/DdyxYvTDTbU/ | Sí |
