@@ -12,8 +12,8 @@ Zapier "Instagram for Business" → `_zap_raw_request` GET `https://graph.facebo
 - **Si no aparece: no construyas nada.** Termina con la línea: "⚠️ @ceos.productions todavía no está conectada: vincúlala a una página de Facebook y vuelve a conectar Instagram for Business en Zapier dando permiso a esa página." (Una vez aparezca, apunta el IG_ID aquí abajo en "IDs".)
 
 ## IDs
-- Instagram @ceos.productions: IG_ID = _pendiente (se rellena al conectarla)_
-- Facebook: solo si en `me/accounts` hay una página llamada "Ceos Productions" con esa cuenta de Instagram. **Nunca** publicar en "Ceos Marketing", "Ceos Growth Hugo" ni ninguna otra página.
+- Instagram @ceos.productions: **IG_ID = 17841447505872534** (conectada el 27-09-2026 vía Zapier "Instagram for Business"). Aun así haz el Paso 0 cada vez.
+- Facebook: página **Ceos Productions, id 1276641715541348**. Publica ahí el vídeo (carrusel → video-completo.mp4; reel → reel.mp4) vía Zapier "Facebook Pages" → `page_video` con `page=1276641715541348`, solo si esa página aparece en el desplegable `page` de la acción; si no aparece, sáltalo sin error. **Nunca** publicar en "Ceos Marketing", "Ceos Growth Hugo" ni ninguna otra página.
 
 ## Contenido
 El tema de la cuenta es **nuestro estudio de grabación en Burgos**.
