@@ -9,7 +9,9 @@ Cada día a las 12:00 (Madrid) se crea y publica un carrusel animado de 5 slides
 - Temas ya publicados: ver `publicados.md`. No repetir tema.
 
 ## Estilo (no cambiar)
-Fondo #0A0908, naranja #FF6A1A, crema #F2EDE7, grises #B5ADA4/#9C938B. Tipos: Bricolage Grotesque 800 (titulares), Instrument Serif cursiva (acentos), Instrument Sans (texto), JetBrains Mono (etiquetas). Logo caballo naranja con brillo arriba a la izquierda, "0X / 05" arriba a la derecha, barra de progreso de 5 abajo. Poco texto, una idea por slide. Animaciones suaves de 4 s: brillos lentos, números que cuentan desde cerca del valor final, reflejos. Nunca inventar cifras: solo datos reales de Ceos Growth o consejos sin estadísticas.
+Fondo #0A0908, naranja #FF6A1A, crema #F2EDE7, grises #B5ADA4/#9C938B. Tipos: Bricolage Grotesque 800 (titulares), Instrument Serif cursiva (acentos), Instrument Sans (texto), JetBrains Mono (etiquetas). Logo caballo naranja con brillo arriba a la izquierda, "0X / 05" arriba a la derecha, barra de progreso de 5 abajo. Poco texto, una idea por slide. Animaciones suaves de 4 s: brillos lentos, números que cuentan desde cerca del valor final, reflejos.
+
+**Estilo landing de Ceos (obligatorio, nivel top):** cada slide lleva una ANIMACIÓN VISUAL que explica la idea, distinta en cada slide y en cada carrusel, como en la landing y en las historias (`HISTORIAS.md`): mockups de CRM en directo (notificaciones que entran, cronómetros, embudos con un punto que viaja, fases que se iluminan), paneles de Meta Ads (barras que crecen, contadores), chat de WhatsApp que se escribe, móviles con notificaciones, checklists que se marcan, antes/después… Movimiento continuo y fluido durante los 4 s, que se vea premium, nunca una slide estática con solo texto. Si un mockup muestra datos de ejemplo, marca "EJEMPLO". Antes de publicar revisa que se vea al nivel de la landing; si no, mejóralo. Nunca inventar cifras: solo datos reales de Ceos Growth o consejos sin estadísticas.
 
 Datos reales usables: +17 clientes activos, muchos más de 2 años con ellos; 10 perfiles; implantación en 26 días; 15–20 anuncios grabados en estudio propio; comisión sobre ventas; 12 meses de Meta Ads sin permanencia; coste de montarlo por tu cuenta 32.900 €/año.
 
@@ -27,5 +29,6 @@ Datos reales usables: +17 clientes activos, muchos más de 2 años con ellos; 10
 7. **LinkedIn**: pendiente de que haya página de empresa con administrador. Cuando exista: Zapier "LinkedIn" → `create_company_update` con la imagen 01.jpg y el texto en tono profesional.
 8. Añadir el tema a `publicados.md` y hacer push.
 
-## Texto del post
+## Texto del post (descripción) — obligatorio en todas las redes
+Siempre se publica con descripción: `caption` en Instagram, `description` en Facebook y texto en LinkedIn. Nunca publicar sin ella.
 Primera línea = gancho (lo que se ve antes de "más"). Luego el contenido en líneas cortas con →. Cierre con el CTA de la slide 5. 6–8 hashtags en español (#marketingdigital #metaads #ventas #emprendedores #empresarios #captaciondeclientes #negociosespaña …).
