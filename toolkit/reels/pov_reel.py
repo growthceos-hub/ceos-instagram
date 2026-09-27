@@ -7,6 +7,12 @@ import os, sys, subprocess, math
 from PIL import Image, ImageDraw
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from memes import MEMES, F, wrap, ease, BW, BH
+# Memes nuevos del día: MEMES_FILE=ruta/a/memes_dia.py (define clases y un dict NEW = {'nombre': Clase})
+if os.environ.get('MEMES_FILE'):
+    import importlib.util
+    _sp = importlib.util.spec_from_file_location('memes_dia', os.environ['MEMES_FILE'])
+    _m = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_m)
+    MEMES.update(_m.NEW)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 W, H, FPS, M = 1080, 1920, 30, 60
