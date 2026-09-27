@@ -435,5 +435,148 @@ class TextoLargo:
         return im
 
 
+
+# ------------------------------------------------------------------ m09. "YO NO HE RELLENADO NADA" (llamada)
+class NoRellene:
+    POV = 'POV: por fin te coge el teléfono el lead del formulario y te suelta esto'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 860)
+    SFX = ['typing:1.4@0.2', 'ding@1.8', 'pop@2.2', 'pop@3.6', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (28, 30, 36)); g = ImageDraw.Draw(im)
+        for yy in range(BH):
+            c = int(22 + 26 * yy / BH); g.line([(0, yy), (BW, yy)], fill=(c, c + 4, c + 14))
+        r = 80 + (8 * math.sin(t * 8) if t < 1.8 else 0)
+        g.ellipse((BW // 2 - r, 150 - r, BW // 2 + r, 150 + r), fill=(99, 105, 120))
+        g.text((BW // 2, 150), 'L', font=F(800, 70), fill='white', anchor='mm')
+        g.text((BW // 2, 280), 'Lead formulario (cocina)', font=F(700, 40), fill='white', anchor='mm')
+        st = 'llamando…' if t < 1.8 else timer(max(0, t - 1.8) * 2.2)
+        g.text((BW // 2, 335), st, font=F(500, 30), fill=(180, 184, 195), anchor='mm')
+        lines = [(2.2, 'out', '¡Hola! Te llamo por la info de cocinas que pediste'),
+                 (3.6, 'in', '¿Yo? Yo no he rellenado nada'),
+                 (4.6, 'in', 'Y no me llames más, ¿eh?')]
+        y = 400
+        for ts, side, txt in lines:
+            if t < ts: continue
+            k = ease((t - ts) / .3); A = int(255 * k); l, lg = layer(); out = side == 'out'
+            f = F(600, 32); ls = wrap(txt, f, 640); bw = max(f.getlength(x) for x in ls) + 56; bh = len(ls) * 44 + 36
+            x0 = BW - 50 - bw if out else 50
+            lg.rounded_rectangle((x0, y, x0 + bw, y + bh), 24, fill=((52, 120, 246) if out else (60, 63, 72)) + (A,))
+            for j, x in enumerate(ls): lg.text((x0 + 28, y + 18 + j * 44), x, font=f, fill=(255, 255, 255, A))
+            im.paste(l, (0, 0), l); y += bh + 22
+        if t < 5.1:
+            for i, (lab, col) in enumerate([('silencio', (60, 63, 72)), ('altavoz', (60, 63, 72)), ('colgar', (235, 64, 52))]):
+                cx = 230 + i * 250; g.ellipse((cx - 55, 830, cx + 55, 940), fill=col)
+                g.text((cx, 885), lab, font=F(600, 20), fill='white', anchor='mm')
+        card(im, t, 5.1, 'Formulario enviado por', 'ÉL MISMO', 'hace 20 minutos, con su nombre y su móvil', cy=870, big_size=76, ch=240, cw=880)
+        tag(g, dark=True, y=BH - 20)
+        return im
+
+
+# ------------------------------------------------------------------ m10. LA FACTURA VENCIDA (panel de cobros)
+class Vencida:
+    POV = 'POV: reclamas la factura vencida y el cliente te contesta “la semana que viene sin falta”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    SFX = ['pop@0.3', 'ding@1.6', 'tick@2.8', 'tick@3.4', 'tick@4.0', 'ding@4.5', 'pop@5.2', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, PUR = (26, 31, 54), (105, 115, 134), (227, 232, 238), (99, 91, 255)
+        im = Image.new('RGB', (BW, BH), (246, 249, 252)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill='white'); g.line([(0, 100), (BW, 100)], fill=LINE, width=2)
+        g.text((40, 50), 'Cobros · Facturas', font=F(700, 34), fill=INK, anchor='lm')
+        days = 63 + int(28 * ease((t - 2.8) / 1.6)) if t >= 2.8 else 63
+        rows = [('F-0231', 'Cliente A', '1.200,00 €', 'Pagada', (0, 135, 90), (215, 247, 232)),
+                ('F-0232', 'Cliente B', '850,00 €', 'Pagada', (0, 135, 90), (215, 247, 232)),
+                ('F-0233', 'Cliente C', '2.400,00 €', f'Vencida · {days} días', (205, 45, 60), (255, 231, 235))]
+        for i, (n, c, a, st, col, bg) in enumerate(rows):
+            yy = 140 + i * 110
+            g.rounded_rectangle((30, yy, BW - 30, yy + 92), 14, fill='white', outline=LINE, width=2)
+            g.text((60, yy + 30), n, font=F(700, 28), fill=INK, anchor='lm'); g.text((60, yy + 66), c, font=F(500, 24), fill=MUT, anchor='lm')
+            g.text((380, yy + 46), a, font=F(700, 30), fill=INK, anchor='lm')
+            w_ = F(700, 24).getlength(st) + 36
+            g.rounded_rectangle((BW - 60 - w_, yy + 26, BW - 60, yy + 66), 20, fill=bg)
+            g.text((BW - 60 - w_ / 2, yy + 46), st, font=F(700, 24), fill=col, anchor='mm')
+        chips = [(2.8, '1 semana después'), (3.4, '2 semanas después'), (4.0, '4 semanas después')]
+        for i, (ts, lab) in enumerate(chips):
+            if t < ts: continue
+            k = pop((t - ts) / .3); l, lg = layer(); cy = 520 + i * 80; w_ = int((F(600, 30).getlength(lab) + 70) * min(1, k))
+            lg.rounded_rectangle((BW // 2 - w_ // 2, cy - 30, BW // 2 + w_ // 2, cy + 30), 16, fill=(226, 230, 240, 255))
+            if k > .8: lg.text((BW // 2, cy), lab, font=F(600, 30), fill=MUT, anchor='mm')
+            im.paste(l, (0, 0), l)
+        banner(im, t, 1.6, 'WhatsApp · Cliente C', '“La semana que viene sin falta, de verdad”', t1=2.8)
+        banner(im, t, 4.5, 'WhatsApp · Cliente C', '“¿Me reenvías la factura? No la encuentro”', t1=5.3)
+        card(im, t, 5.2, 'Factura F-0233', f'{days} días', 'vencida “la semana que viene sin falta”', cy=600, big_size=100)
+        tag(g, y=BH - 30)
+        return im
+
+
+# ------------------------------------------------------------------ m11. EL SEO A 49 € (extracto del banco)
+class SeoBarato:
+    POV = 'POV: sumas lo que llevas pagado por el “SEO a 49 € al mes” que te vendieron por teléfono'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 620)
+    SFX = ['pop@0.3', 'count:3.6@0.8', 'pop@5.1', 'boom@5.8']
+    MESES = ['oct 2026', 'sep 2026', 'ago 2026', 'jul 2026', 'jun 2026', 'may 2026', 'abr 2026', 'mar 2026']
+
+    def draw(self, t):
+        INK, MUT, LINE, RED_ = (25, 30, 40), (110, 118, 130), (230, 233, 238), (205, 45, 60)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 170), fill=(0, 70, 140))
+        g.text((40, 50), 'Tu banco · Movimientos', font=F(700, 32), fill='white', anchor='lm')
+        g.rounded_rectangle((40, 96, BW - 40, 150), 27, fill=(20, 95, 170))
+        g.text((80, 123), 'Buscar: “SEO PACK”', font=F(600, 28), fill=(220, 232, 245), anchor='lm')
+        k = ease((t - .8) / 3.6) if t >= .8 else 0
+        n = int(36 * k)
+        off = (n * 26) % 90
+        for i in range(8):
+            yy = 200 + i * 90 - off
+            if yy < 175: continue
+            mes = self.MESES[i % 8]
+            g.text((40, yy + 20), 'SEO PACK BASIC · recibo', font=F(600, 28), fill=INK)
+            g.text((40, yy + 56), mes, font=F(500, 22), fill=MUT)
+            g.text((BW - 40, yy + 38), '-49,00 €', font=F(700, 30), fill=RED_, anchor='rm')
+            g.line([(40, yy + 88), (BW - 40, yy + 88)], fill=LINE, width=2)
+        g.rectangle((0, 830, BW, BH), fill=(246, 248, 251)); g.line([(0, 830), (BW, 830)], fill=LINE, width=2)
+        g.text((40, 870), f'{max(1, n)} recibos encontrados', font=F(600, 28), fill=MUT)
+        g.text((40, 920), 'Total:', font=F(700, 34), fill=INK)
+        g.text((BW - 40, 930), '-' + eur(49 * max(1, n)), font=F(800, 44), fill=RED_, anchor='rm')
+        card(im, t, 5.1, 'Total pagado en SEO', '1.764 €', 'Tu web en Google: página 9', cy=620, big_size=100)
+        tag(g, y=BH - 20)
+        return im
+
+
+# ------------------------------------------------------------------ m12. EL GRUPO DE WHATSAPP (WhatsApp)
+class Grupo(WAChat):
+    POV = 'POV: creas un grupo de WhatsApp con el cliente “para ir más rápido” con la web'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 820)
+    NAME, LETTER = 'Proyecto web nueva', 'P'
+    SYS = [(0.4, 'Tú creaste el grupo'), (1.1, 'Cliente añadió a Su mujer'), (1.7, 'Cliente añadió a Su cuñado'),
+           (2.3, 'Cliente añadió a El gestor'), (2.9, 'Cliente añadió a Primo (sabe de webs)'), (3.5, 'Cliente añadió a 9 personas más')]
+    SFX = ['pop@0.4'] + [f'pop@{a}' for a, _ in SYS[1:]] + ['ding@4.2', 'pop@5.2', 'boom@5.8']
+
+    def status(self, t):
+        n = 2 + sum(1 for ts, _ in self.SYS[1:5] if t >= ts) + (9 if t >= 3.5 else 0)
+        return f'Tú, Cliente y {n - 2} más' if n > 2 else 'Tú, Cliente', WA_GREY
+
+    def draw(self, t):
+        im, g = self.base(t)
+        y = 190
+        for ts, txt in self.SYS:
+            if t < ts: continue
+            k = ease((t - ts) / .25); A = int(255 * k); l, lg = layer(); f = F(500, 28); w_ = f.getlength(txt) + 50
+            lg.rounded_rectangle((BW // 2 - w_ / 2, y, BW // 2 + w_ / 2, y + 54), 14, fill=(24, 34, 40, A))
+            lg.text((BW // 2, y + 27), txt, font=f, fill=(170, 185, 195, A), anchor='mm')
+            im.paste(l, (0, 0), l); y += 62
+        if t >= 4.2:
+            k = ease((t - 4.2) / .3); A = int(255 * k); l, lg = layer()
+            lg.rounded_rectangle((36, y + 10, 700, y + 130), 22, fill=WA_IN + (A,))
+            lg.text((64, y + 26), 'Su cuñado', font=F(700, 28), fill=(255, 138, 96, A))
+            lg.text((64, y + 70), 'Yo el logo lo haría en verde', font=F(500, 36), fill=WA_TXT + (A,))
+            im.paste(l, (0, 0), l)
+        self.footer(g)
+        card(im, t, 5.2, 'Participantes del grupo', '15', 'Opiniones sobre el logo: 15', cy=835, big_size=80, ch=240)
+        return im
+
+
 NEW = {'m01-no-aparece': NoShow, 'm02-visibilidad': Visibilidad, 'm03-apaga-dia-2': ApagaDia2, 'm04-hilo-47': HiloRe,
-       'm05-dominio': Dominio, 'm06-ficha-google': FichaGoogle, 'm07-base-datos': BaseDatos, 'm08-texto-largo': TextoLargo}
+       'm05-dominio': Dominio, 'm06-ficha-google': FichaGoogle, 'm07-base-datos': BaseDatos, 'm08-texto-largo': TextoLargo,
+       'm09-no-rellene': NoRellene, 'm10-factura-vencida': Vencida, 'm11-seo-barato': SeoBarato, 'm12-grupo-whatsapp': Grupo}
