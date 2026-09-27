@@ -363,3 +363,85 @@ class Informe:
 
 
 MEMES.update({'socio': Socio, 'sorteo': Sorteo, 'informe': Informe})
+
+
+# ------------------------------------------------------------------ 7. LA TORRE (jenga)
+class Torre:
+    POV = 'POV: tu socio entra al Administrador de anuncios “solo a ajustar una cosita” en la campaña que funciona'
+    DUR, PUNCH, FOCUS = 8.2, 6.1, (480, 500)
+    SLIDE = (2.2, 4.0)   # el bloque sale
+    FALL = 5.0           # colapso
+    SFX = ['pop@1.5', 'count:1.8@2.2', 'tick@4.1', 'boom@5.0', 'pop@6.0']
+    ROWS = ['LA CUENTA', 'EL PÍXEL', 'CAMPAÑA QUE VENDE', 'CPL 8 €', 'LA PUJA',
+            'LEADS CADA DÍA', 'AGENDA DEL CLOSER', 'VENTAS', 'TU NÓMINA']
+    PULL = 4  # LA PUJA
+
+    def __init__(self):
+        import random
+        r = random.Random(11)
+        self.phys = [(r.uniform(-140, 140), r.uniform(-60, 40), r.uniform(-2.8, 2.8)) for _ in self.ROWS]
+
+    def block(self, label, w=430, h=64, hot=False):
+        im = Image.new('RGBA', (w, h), (0, 0, 0, 0)); g = ImageDraw.Draw(im)
+        g.rounded_rectangle((0, 0, w - 1, h - 1), 12, fill=(255, 106, 26) if hot else (242, 237, 231),
+                            outline=(200, 80, 15) if hot else (210, 202, 192), width=3)
+        g.text((w // 2, h // 2), label, font=F(700, 27), fill='white' if hot else (60, 52, 45), anchor='mm')
+        return im
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (16, 14, 13)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 880, BW, BH), fill=(28, 24, 21))
+        g.line([(0, 880), (BW, 880)], fill=(45, 39, 34), width=3)
+        n = len(self.ROWS); bh = 64; base = 872
+        # balanceo: suave al inicio, brutal antes de caer
+        amp = 3 + (0 if t < self.SLIDE[1] else 14 * ease((t - self.SLIDE[1]) / (self.FALL - self.SLIDE[1])))
+        for i, label in enumerate(self.ROWS):
+            hot = i == self.PULL
+            y = base - (i + 1) * (bh + 4)
+            x = BW // 2 - 215
+            rot, extra = 0, 0
+            if t < self.FALL:
+                sway = amp * math.sin(t * 2.4 + i * .55) * (i / n + .2)
+                x += sway
+                if hot and t >= self.SLIDE[0]:
+                    k = ease((t - self.SLIDE[0]) / (self.SLIDE[1] - self.SLIDE[0]))
+                    extra = 400 * k; rot = -6 * k
+            else:
+                dt = t - self.FALL
+                vx, vy, om = self.phys[i]
+                if hot: vx += 300
+                grav = 2500
+                x += vx * dt
+                y = y + vy * dt + .5 * grav * dt * dt
+                rot = math.degrees(om * dt)
+                yl = base - bh + 4
+                if y > yl - (i % 3) * 26: y = yl - (i % 3) * 26  # se apilan en el suelo
+                if hot: x += 400; rot -= 6
+            spr = self.block(label, hot=hot)
+            if rot: spr = spr.rotate(rot, expand=True, resample=Image.BICUBIC)
+            im.paste(spr, (int(x + extra), int(y)), spr)
+        # cursor/mano sobre el bloque
+        if 1.4 <= t < self.SLIDE[1] + .2:
+            k = ease((t - 1.4) / .4)
+            bx = BW // 2 + 190 + (400 * ease((t - self.SLIDE[0]) / (self.SLIDE[1] - self.SLIDE[0])) if t >= self.SLIDE[0] else 0)
+            by = base - (self.PULL + 1) * (bh + 4) + 30
+            l, lg = layer(); A = int(255 * k)
+            lg.polygon([(bx, by), (bx + 34, by + 12), (bx + 15, by + 18), (bx + 26, by + 44),
+                        (bx + 14, by + 49), (bx + 5, by + 22), (bx - 8, by + 34)], fill=(255, 255, 255, A), outline=(0, 0, 0, A))
+            lg.text((min(bx - 16, BW - 30), by - 12), '"solo una cosita"', font=F(600, 26), fill=(255, 170, 130, A), anchor='ra')
+            im.paste(l, (0, 0), l)
+        # tarjeta final
+        if t >= 6.0:
+            kk = pop((t - 6.0) / .35); l, lg = layer()
+            cw, ch = 780, 340; cx, cy = BW // 2, 500
+            sw, sh = int(cw * kk), int(ch * kk)
+            lg.rounded_rectangle((cx - sw // 2, cy - sh // 2, cx + sw // 2, cy + sh // 2), 28, fill=(20, 20, 22, 250))
+            if kk > .9:
+                lg.text((cx, cy - 105), '“Solo era una cosita”', font=F(600, 32), fill=(190, 190, 195), anchor='mm')
+                lg.text((cx, cy - 5), 'CPL: x4', font=F(800, 88), fill=(255, 80, 80), anchor='mm')
+                lg.text((cx, cy + 100), 'LA CAMPAÑA NO SE TOCA', font=F(700, 30), fill=(255, 170, 130), anchor='mm')
+            im.paste(l, (0, 0), l)
+        return im
+
+
+MEMES['torre'] = Torre
