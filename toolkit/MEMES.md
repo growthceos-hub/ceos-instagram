@@ -1,6 +1,6 @@
 # 20 reels meme diarios de Ceos Growth — instrucciones
 
-Cada día se crean **20 reels meme nuevos** (formato POV, como `reels/meme-*`) y se publican **todos seguidos en una sola tanda** hacia las **20:00** (Madrid) en Instagram @ceos.growth. **Solo en la pestaña Reels**: siempre `share_to_feed=false`.
+Cada día se crean **20 reels meme nuevos** (formato POV, como `reels/meme-*`) y se van **publicando uno a uno en cuanto cada meme está listo** (desde las ~19:00) (Madrid) en Instagram @ceos.growth. **Solo en la pestaña Reels**: siempre `share_to_feed=false`.
 
 ## Formato (no cambiar)
 - Motor: `toolkit/reels/pov_reel.py` + `toolkit/reels/memes.py` (fondo negro, cabecera tipo tweet de Ceos Growth, texto POV, "pantalla" animada en caja redondeada, remate con zoom + temblor + gris, **solo efectos de sonido, sin música**; la música comercial la añade Hugo a mano en la app si quiere).
@@ -22,11 +22,11 @@ Cada día se crean **20 reels meme nuevos** (formato POV, como `reels/meme-*`) y
    `MEMES_FILE=reels/memes/AAAA-MM-DD/memes_dia.py python3 toolkit/reels/pov_reel.py reels/memes/AAAA-MM-DD/<nombre> <nombre>`
    Mira los 3 `_tmp/check*.jpg` de cada uno: nada cortado ni solapado, el texto se lee y el remate se entiende. Si alguno falla, corrígelo y reconstruye. Borra las carpetas `_tmp` antes del commit.
 5. `git add reels/memes/AAAA-MM-DD` + commit (termina en "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>") + `git pull --rebase` + push a main. URLs fijadas al SHA: `https://raw.githubusercontent.com/growthceos-hub/ceos-instagram/<SHA>/reels/memes/AAAA-MM-DD/<nombre>/reel.mp4` (comprueba que dan 200).
-6. **Publicación en una sola tanda** — Zapier "Instagram for Business" → `_zap_raw_request`, cuenta @ceos.growth (id 17841469551116816):
+6. **Publicación progresiva (decisión de Hugo, 27-09): publica cada meme en cuanto esté listo, no esperes a tener los 20.** Trabaja en bloques de 2–4: escribe → construye → revisa → commit+push → publica, y sigue con el siguiente bloque — Zapier "Instagram for Business" → `_zap_raw_request`, cuenta @ceos.growth (id 17841469551116816):
    - Antes: GET `/17841469551116816/content_publishing_limit?fields=quota_usage,config`. Si no hay cupo para 20, publica los que quepan y dilo al final.
-   - Crea los 20 contenedores: POST `/17841469551116816/media` con `media_type=REELS`, `share_to_feed=false`, `video_url=<url>`, `caption=<caption>`.
-   - Espera a que todos den `status_code=FINISHED` (GET `/?ids=<ids>&fields=status_code`, cada ~30 s; si uno pasa de 4 min o da ERROR, recréalo).
-   - Publica uno detrás de otro: POST `/17841469551116816/media_publish` con `creation_id`. **Una sola vez cada uno**; si falla, comprueba en `/17841469551116816/media?fields=caption,timestamp,permalink&limit=30` que no esté ya publicado antes de reintentar.
+   - Por cada meme listo: crea el contenedor: POST `/17841469551116816/media` con `media_type=REELS`, `share_to_feed=false`, `video_url=<url>`, `caption=<caption>`.
+   - Espera a que dé `status_code=FINISHED` (GET `/?ids=<ids>&fields=status_code`, cada ~30 s; si uno pasa de 4 min o da ERROR, recréalo).
+   - Publica: POST `/17841469551116816/media_publish` con `creation_id`. **Una sola vez cada uno**; si falla, comprueba en `/17841469551116816/media?fields=caption,timestamp,permalink&limit=30` que no esté ya publicado antes de reintentar.
    - Caption: el POV como primera línea + 1 emoji, una frase corta que conecte con el problema ("Si te ha pasado, guárdalo 😅" / "Etiqueta a quien le pase"), y 5–6 hashtags en español con #ceosgrowth.
    - Facebook y LinkedIn: no.
 7. **Verificación real**: GET `/17841469551116816/media?fields=permalink,caption,timestamp,media_type&limit=30` y cuenta cuántos de hoy están publicados. Solo cuentan los que aparecen ahí.
