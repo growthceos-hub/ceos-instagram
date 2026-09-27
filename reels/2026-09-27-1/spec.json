@@ -1,0 +1,66 @@
+{
+ "topic": "Landing page que convierte: titular con resultado, un solo botón y qué pasa después",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te visitan<br>y <em>nadie escribe?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE PONES",
+    "bad": ["Somos líderes desde 1998", "Menú con 12 secciones"],
+    "good_t": "LO QUE BUSCA",
+    "good": ["Qué gano yo", "Cómo te contacto"]
+   },
+   "footer": "3 pasos para tu landing"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Titular con<br><em>su resultado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TITULAR DE TU LANDING",
+    "lines": ["No: Bienvenidos a nuestra web", "Sí: Tu cocina nueva en 15 días", "Sin obras eternas ni sorpresas"]
+   },
+   "note": "Que entienda al momento <b>qué gana él.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un solo<br><em>botón.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Pide tu presupuesto",
+    "fields": [
+     {"q": "Nombre", "a": "Carlos"},
+     {"q": "Teléfono", "a": "600 000 000"}
+    ],
+    "badge": "✓ UNA SOLA ACCIÓN"
+   },
+   "note": "Menos opciones, <b>menos dudas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Dile qué pasa<br><em>después.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "Envías tus datos", "s": "Solo nombre y teléfono"},
+     {"n": "2", "d": "EN 24 H", "t": "Te llamamos", "s": "Resolvemos tus dudas"},
+     {"n": "3", "d": "DESPUÉS", "t": "Visita y presupuesto", "s": "Sin compromiso"}
+    ]
+   },
+   "note": "Quita el miedo a <b>dejar sus datos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Revisa hoy<br><em>tu landing.</em>",
+   "dur": 6,
+   "items": ["Titular con su resultado", "Un solo botón", "Qué pasa después"]
+  }
+ ],
+ "caption": "¿Tu web tiene visitas pero nadie te escribe? 🤔\n\nMuchas veces el problema no es el anuncio, es la página a la que llega.\n\n→ Titular con el resultado que consigue tu cliente, no con lo que haces tú\n→ Un solo botón y un formulario corto\n→ Explica qué pasa después de dejar sus datos\n\nMenos dudas, más contactos.\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #landingpage #captaciondeclientes #metaads #marketingdigital #emprendedores #empresarios"
+}
