@@ -27,16 +27,21 @@ bg = Image.new('RGB', (W, H), 'black'); d = ImageDraw.Draw(bg)
 pf = F(500, 50); lines = wrap(POV, pf, W - 2 * M); LH = 66
 y0 = (H - (170 + len(lines) * LH + 40 + BH)) // 2 - 20
 av = 118
-logo = Image.open(os.path.join(os.path.dirname(HERE), 'logo.png')).convert('RGBA').resize((av, av), Image.LANCZOS)
+# Marca: BRAND=productions -> cabecera "Ceos Productions" / @ceos.productions con su logo.
+BRAND = os.environ.get('BRAND', 'growth')
+BNAME, BHANDLE = ('Ceos Productions', '@ceos.productions') if BRAND == 'productions' else ('Ceos Growth', '@ceos.growth')
+_lg = os.path.join(os.path.dirname(HERE), 'brands', BRAND, 'logo.png')
+if not os.path.exists(_lg): _lg = os.path.join(os.path.dirname(HERE), 'logo.png')
+logo = Image.open(_lg).convert('RGBA').resize((av, av), Image.LANCZOS)
 circ = Image.new('RGBA', (av, av), (20, 18, 16, 255)); circ.alpha_composite(logo)
 mk = Image.new('L', (av, av), 0); ImageDraw.Draw(mk).ellipse((0, 0, av - 1, av - 1), fill=255)
 bg.paste(circ, (M, y0 + 6), mk)
 nx = M + av + 26; nf = F(700, 44)
-d.text((nx, y0 + 16), 'Ceos Growth', font=nf, fill='white')
-cx = nx + nf.getlength('Ceos Growth') + 16; cy = y0 + 22
+d.text((nx, y0 + 16), BNAME, font=nf, fill='white')
+cx = nx + nf.getlength(BNAME) + 16; cy = y0 + 22
 d.ellipse((cx, cy, cx + 38, cy + 38), fill=(29, 155, 240))
 d.line([(cx + 10, cy + 20), (cx + 17, cy + 27), (cx + 29, cy + 12)], fill='white', width=5, joint='curve')
-d.text((nx, y0 + 72), '@ceos.growth', font=F(500, 36), fill=(139, 139, 139))
+d.text((nx, y0 + 72), BHANDLE, font=F(500, 36), fill=(139, 139, 139))
 ty = y0 + 170
 for i, ln in enumerate(lines): d.text((M, ty + i * LH), ln, font=pf, fill='white')
 BOX = (M, ty + len(lines) * LH + 40)
