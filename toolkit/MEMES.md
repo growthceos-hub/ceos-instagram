@@ -16,7 +16,7 @@ Cada día se crean **20 reels meme nuevos** (formato POV, como `reels/meme-*`) y
 
 ## Pasos
 1. Dependencias: `pip install --break-system-packages -q numpy pillow` y ffmpeg (si faltan).
-2. Carpeta del día: `reels/memes/AAAA-MM-DD/`. Si ya hay 20 filas meme con la fecha de hoy en `reels-publicados.md`, termina sin hacer nada. Si hay menos (una ejecución anterior se cortó), crea y publica solo los que falten.
+2. Carpeta del día: `reels/memes/AAAA-MM-DD/`. Si ya hay 20 filas con la fecha de hoy **y tipo exactamente `meme`** en `reels-publicados.md`, termina sin hacer nada (las filas `meme-extra` son tandas extra y NO cuentan para este límite, pero sí para no repetir chistes). Si hay menos (una ejecución anterior se cortó), crea y publica solo los que falten.
 3. Escribe `reels/memes/AAAA-MM-DD/memes_dia.py` con las 20 clases y al final `NEW = {'m01-<slug>': Clase, ... 'm20-<slug>': Clase}` (importa lo que necesites con `sys.path.insert(0, 'toolkit/reels')` y `from memes import *`).
 4. Construye cada uno (en paralelo, 4 a la vez):
    `MEMES_FILE=reels/memes/AAAA-MM-DD/memes_dia.py python3 toolkit/reels/pov_reel.py reels/memes/AAAA-MM-DD/<nombre> <nombre>`
