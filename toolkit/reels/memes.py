@@ -197,3 +197,169 @@ class Cuota:
 
 
 MEMES = {'visto': Visto, 'cunado': Cunado, 'cuota': Cuota}
+
+
+# ------------------------------------------------------------------ 4. EL SOCIO
+class Socio:
+    POV = 'POV: enviaste el presupuesto y el cliente lleva 3 semanas “hablándolo con su socio”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 790)
+    MSGS = [(0.4, 'out', 'Te paso el presupuesto con todo lo que hablamos.'),
+            (1.3, 'in', 'Genial. Lo hablo con mi socio y te digo algo')]
+    TYPING = [(2.0, 2.6)]
+    CHIPS = [(2.9, 'MIÉRCOLES'), (3.6, 'VIERNES'), (4.3, '12 NOV'), (5.0, '3 SEMANAS DESPUÉS')]
+    SFX = ['pop@0.4', 'pop@1.3', 'typing:0.6@2.0', 'ding@2.9', 'ding@3.6', 'ding@4.3', 'tick@5.0', 'boom@5.8']
+
+    def status(self, t):
+        if any(a <= t < b for a, b in self.TYPING): return 'escribiendo...', (0, 168, 132)
+        if t >= self.PUNCH: return 'últ. vez hace 3 semanas', (134, 150, 160)
+        if t < 2.9: return 'en línea', (134, 150, 160)
+        return 'toca para ver info', (134, 150, 160)
+
+    def draw(self, t):
+        GREY, BLUE, TXT, OUTB, INB = (134, 150, 160), (83, 189, 235), (233, 237, 239), (0, 92, 75), (32, 44, 51)
+        im = Image.new('RGB', (BW, BH), (11, 20, 26)); g = ImageDraw.Draw(im)
+        for yy in range(160, BH, 90):
+            for xx in range((yy // 90 % 2) * 45, BW, 90): g.ellipse((xx, yy, xx + 6, yy + 6), fill=(17, 27, 33))
+        g.rectangle((0, 0, BW, 150), fill=(31, 44, 52))
+        g.line([(52, 75), (36, 60), (52, 45)], fill=TXT, width=5)
+        g.ellipse((72, 32, 158, 118), fill=(106, 127, 138)); g.text((115, 75), 'C', font=F(700, 42), fill='white', anchor='mm')
+        g.text((182, 34), 'Carlos (presupuesto)', font=F(600, 38), fill=TXT)
+        st, col = self.status(t); g.text((182, 86), st, font=F(500, 26), fill=col)
+        y = 190; mf, sf = F(500, 40), F(500, 26)
+        for i, (ts, side, text) in enumerate(self.MSGS):
+            if t < ts: continue
+            k = ease((t - ts) / .3); ls = wrap(text, mf, 600)
+            bw = max(330, max(mf.getlength(l) for l in ls) + 60); bh = len(ls) * 52 + 64
+            out = side == 'out'
+            x0 = BW - 36 - bw if out else 36; x1 = x0 + bw
+            dy = int((1 - k) * 30); a = int(255 * k)
+            l, lg = layer()
+            lg.rounded_rectangle((x0, y + dy, x1, y + bh + dy), 22, fill=(OUTB if out else INB) + (a,))
+            for j, s in enumerate(ls): lg.text((x0 + 28, y + 18 + j * 52 + dy), s, font=mf, fill=TXT + (a,))
+            tt = f'10:1{2 + i}'; lg.text((x1 - (64 if out else 28) - sf.getlength(tt), y + bh - 42 + dy), tt, font=sf, fill=(170, 200, 190, a))
+            if out:
+                bx, by = x1 - 56, y + bh - 30 + dy
+                for o in (0, 12): lg.line([(bx + o, by + 4), (bx + o + 7, by + 11), (bx + o + 20, by - 4)], fill=BLUE + (a,), width=4)
+            im.paste(l, (0, 0), l); y += bh + 18
+        for a0, b0 in self.TYPING:
+            if a0 <= t < b0:
+                k = ease((t - a0) / .15) * ease((b0 - t) / .12); A = int(255 * k); l, lg = layer()
+                lg.rounded_rectangle((36, y + 10, 196, y + 94), 22, fill=INB + (A,))
+                for n in range(3):
+                    ph = max(0, math.sin(t * 7 - n * .9)); cx, cy = 76 + n * 40, y + 52 - int(ph * 10)
+                    lg.ellipse((cx - 9, cy - 9, cx + 9, cy + 9), fill=GREY + (int(A * (.55 + .45 * ph)),))
+                im.paste(l, (0, 0), l)
+        cy0 = y + 36
+        cf = F(600, 30)
+        for i, (ts, label) in enumerate(self.CHIPS):
+            if t < ts: continue
+            k = pop((t - ts) / .3)
+            wch = cf.getlength(label) + 70
+            l, lg = layer()
+            sw, sh = int(wch * min(1, k)), int(60 * min(1, k))
+            cx = BW // 2; cyy = cy0 + i * 76 + 30
+            lg.rounded_rectangle((cx - sw // 2, cyy - sh // 2, cx + sw // 2, cyy + sh // 2), 16, fill=(24, 34, 40, 255))
+            if k > .8:
+                big = i == len(self.CHIPS) - 1
+                lg.text((cx, cyy), label, font=F(700 if big else 600, 30), fill=(255, 138, 96) if big else (140, 155, 165), anchor='mm')
+            im.paste(l, (0, 0), l)
+        g.rounded_rectangle((24, BH - 104, BW - 128, BH - 24), 40, fill=INB)
+        g.text((70, BH - 64), 'Mensaje', font=F(500, 34), fill=GREY, anchor='lm')
+        g.ellipse((BW - 108, BH - 104, BW - 28, BH - 24), fill=(0, 168, 132))
+        return im
+
+
+# ------------------------------------------------------------------ 5. EL SORTEO
+class Sorteo:
+    POV = 'POV: hiciste un sorteo para “ganar visibilidad” y ganaste 2.000 seguidores que solo querían el iPhone'
+    DUR, PUNCH, FOCUS = 7.6, 5.6, (480, 600)
+    NOTIFS = [(1.2, 'maria.sorteos_23 empezó a seguirte'), (2.0, 'todo_gratis_es empezó a seguirte'),
+              (2.8, 'regalos.y.sorteos comentó: HECHO'), (3.6, 'juanlu_88 empezó a seguirte')]
+    SFX = ['count:3.8@0.8'] + [f'pop@{a}' for a, _ in NOTIFS] + ['pop@5.2', 'boom@5.6']
+
+    def draw(self, t):
+        INK, MUT, LINE, ORG = (28, 30, 33), (120, 122, 126), (228, 230, 233), (255, 106, 26)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.text((40, 40), 'mimueble_burgos', font=F(700, 40), fill=INK)
+        g.line([(0, 110), (BW, 110)], fill=LINE, width=2)
+        g.ellipse((40, 150, 230, 340), outline=ORG, width=6)
+        g.ellipse((56, 166, 214, 324), fill=(235, 237, 240))
+        g.text((135, 245), 'M', font=F(800, 70), fill=(160, 163, 168), anchor='mm')
+        foll = 2410 + (4893 - 2410) * ease((t - .8) / 3.8)
+        stats = [('214', 'publicaciones', 340), ('{:,}'.format(int(foll)).replace(',', '.'), 'seguidores', 570), ('512', 'seguidos', 810)]
+        for v, lab, x in stats:
+            g.text((x, 200), v, font=F(800, 46), fill=INK, anchor='mm')
+            g.text((x, 252), lab, font=F(500, 26), fill=MUT, anchor='mm')
+        g.rounded_rectangle((40, 380, BW - 40, 452), 14, fill=(239, 241, 244))
+        g.text((BW // 2, 416), 'Editar perfil', font=F(600, 30), fill=INK, anchor='mm')
+        g.rounded_rectangle((40, 480, BW - 40, 560), 14, fill=(255, 240, 230))
+        g.text((70, 520), 'SORTEO iPhone: sigue, comenta y comparte', font=F(700, 29), fill=ORG, anchor='lm')
+        gy = 600
+        for r in range(2):
+            for c in range(3):
+                x0 = c * (BW // 3) + 4; y0_ = gy + r * (BW // 3) + 4
+                g.rectangle((x0, y0_, x0 + BW // 3 - 8, y0_ + BW // 3 - 8), fill=(226, 228, 232))
+        for i, (ts, txt) in enumerate(self.NOTIFS):
+            if not (ts <= t < ts + 1.5): continue
+            k = ease((t - ts) / .3) * ease((ts + 1.5 - t) / .3)
+            l, lg = layer(); yy = int(-120 + 150 * k); A = int(255 * min(1, k * 2))
+            lg.rounded_rectangle((40, yy, BW - 40, yy + 100), 24, fill=(38, 38, 40, min(245, A)))
+            lg.ellipse((66, yy + 24, 118, yy + 76), fill=ORG + (A,))
+            lg.text((92, yy + 50), txt[0].upper(), font=F(700, 28), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((140, yy + 22), 'Instagram · ahora', font=F(500, 22), fill=(175, 175, 180, A))
+            lg.text((140, yy + 54), txt, font=F(600, 28), fill=(255, 255, 255, A))
+            im.paste(l, (0, 0), l)
+        if t >= 5.2:
+            kk = pop((t - 5.2) / .35); l, lg = layer()
+            cw, ch = 780, 360; cx, cy = BW // 2, 600
+            sw, sh = int(cw * kk), int(ch * kk)
+            lg.rounded_rectangle((cx - sw // 2, cy - sh // 2, cx + sw // 2, cy + sh // 2), 28, fill=(20, 20, 22, 250))
+            if kk > .9:
+                lg.text((cx, cy - 110), 'Un mes después', font=F(600, 30), fill=(190, 190, 195), anchor='mm')
+                lg.text((cx, cy - 10), 'Ventas: 0', font=F(800, 80), fill=(255, 80, 80), anchor='mm')
+                lg.text((cx, cy + 105), 'y -2.390 seguidores', font=F(600, 28), fill=(190, 190, 195), anchor='mm')
+            im.paste(l, (0, 0), l)
+        g.text((BW - 44, BH - 40), 'EJEMPLO', font=F(600, 20), fill=(170, 172, 176), anchor='rm')
+        return im
+
+
+# ------------------------------------------------------------------ 6. EL INFORME
+class Informe:
+    POV = 'POV: tu agencia te presenta el informe del mes y sube todo menos las ventas'
+    DUR, PUNCH, FOCUS = 7.6, 5.7, (320, 830)
+    ROWS = [(0.8, 'Impresiones', 124500, '+41 %'), (1.8, 'Alcance', 46200, '+28 %'), (2.8, 'Interacciones', 3870, '+32 %')]
+    SFX = ['pop@0.8', 'count:0.7@0.8', 'pop@1.8', 'count:0.7@1.8', 'pop@2.8', 'count:0.7@2.8', 'tick@4.2', 'boom@5.7']
+
+    def draw(self, t):
+        INK, MUT, LINE, GRN = (30, 32, 35), (110, 112, 117), (226, 228, 232), (34, 154, 84)
+        im = Image.new('RGB', (BW, BH), (246, 247, 249)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 96), fill=(58, 60, 64))
+        g.text((40, 48), 'informe_octubre_FINAL_v3.pdf', font=F(600, 30), fill=(235, 235, 238), anchor='lm')
+        g.text((BW - 40, 48), '1 / 14', font=F(500, 26), fill=(180, 180, 185), anchor='rm')
+        g.rounded_rectangle((30, 126, BW - 30, BH - 30), 18, fill='white', outline=LINE, width=2)
+        g.text((70, 180), 'Informe mensual — Octubre', font=F(800, 44), fill=INK)
+        g.text((70, 244), 'Preparado por tu agencia de siempre', font=F(500, 28), fill=MUT)
+        g.line([(70, 300), (BW - 70, 300)], fill=LINE, width=2)
+        for i, (ts, lab, val, pct) in enumerate(self.ROWS):
+            if t < ts: continue
+            k = ease((t - ts) / .35); yy = 340 + i * 150; A = int(255 * k)
+            v = int(val * min(1, ease((t - ts) / .8)))
+            l, lg = layer()
+            lg.text((70, yy), lab, font=F(600, 30), fill=MUT + (A,))
+            lg.text((70, yy + 42), '{:,}'.format(v).replace(',', '.'), font=F(800, 64), fill=INK + (A,))
+            lg.polygon([(BW - 250, yy + 78), (BW - 226, yy + 46), (BW - 202, yy + 78)], fill=GRN + (A,))
+            lg.text((BW - 186, yy + 62), pct, font=F(800, 40), fill=GRN + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        if t >= 4.2:
+            k = ease((t - 4.2) / .35); A = int(255 * k); l, lg = layer()
+            yy = 790
+            lg.line([(70, yy - 24), (BW - 70, yy - 24)], fill=LINE + (A,), width=2)
+            lg.text((70, yy), 'Ventas atribuidas', font=F(600, 30), fill=MUT + (A,))
+            lg.text((70, yy + 42), '—', font=F(800, 64), fill=(200, 60, 55, A))
+            lg.text((250, yy + 66), '(dato no disponible)', font=F(500, 26), fill=MUT + (A,))
+            im.paste(l, (0, 0), l)
+        g.text((BW - 60, BH - 60), 'EJEMPLO', font=F(600, 20), fill=(170, 172, 176), anchor='rm')
+        return im
+
+
+MEMES.update({'socio': Socio, 'sorteo': Sorteo, 'informe': Informe})
