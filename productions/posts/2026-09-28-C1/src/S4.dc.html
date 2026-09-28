@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>04 · Checklist</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+@keyframes aT0{0%,6%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}10%,90%{background:#FF6A1A;border-color:#FF6A1A}97%,100%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}}
+@keyframes aK0{0%,6%{stroke-dashoffset:30}11%,90%{stroke-dashoffset:0}97%,100%{stroke-dashoffset:30}}
+@keyframes aR0{0%,6%{border-color:rgba(242,237,231,.1)}10%,90%{border-color:rgba(255,106,26,.45)}97%,100%{border-color:rgba(242,237,231,.1)}}
+@keyframes aT1{0%,19%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}23%,90%{background:#FF6A1A;border-color:#FF6A1A}97%,100%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}}
+@keyframes aK1{0%,19%{stroke-dashoffset:30}24%,90%{stroke-dashoffset:0}97%,100%{stroke-dashoffset:30}}
+@keyframes aR1{0%,19%{border-color:rgba(242,237,231,.1)}23%,90%{border-color:rgba(255,106,26,.45)}97%,100%{border-color:rgba(242,237,231,.1)}}
+@keyframes aT2{0%,32%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}36%,90%{background:#FF6A1A;border-color:#FF6A1A}97%,100%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}}
+@keyframes aK2{0%,32%{stroke-dashoffset:30}37%,90%{stroke-dashoffset:0}97%,100%{stroke-dashoffset:30}}
+@keyframes aR2{0%,32%{border-color:rgba(242,237,231,.1)}36%,90%{border-color:rgba(255,106,26,.45)}97%,100%{border-color:rgba(242,237,231,.1)}}
+@keyframes aT3{0%,45%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}49%,90%{background:#FF6A1A;border-color:#FF6A1A}97%,100%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}}
+@keyframes aK3{0%,45%{stroke-dashoffset:30}50%,90%{stroke-dashoffset:0}97%,100%{stroke-dashoffset:30}}
+@keyframes aR3{0%,45%{border-color:rgba(242,237,231,.1)}49%,90%{border-color:rgba(255,106,26,.45)}97%,100%{border-color:rgba(242,237,231,.1)}}
+@keyframes aT4{0%,58%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}62%,90%{background:#FF6A1A;border-color:#FF6A1A}97%,100%{background:rgba(242,237,231,0);border-color:rgba(242,237,231,.3)}}
+@keyframes aK4{0%,58%{stroke-dashoffset:30}63%,90%{stroke-dashoffset:0}97%,100%{stroke-dashoffset:30}}
+@keyframes aR4{0%,58%{border-color:rgba(242,237,231,.1)}62%,90%{border-color:rgba(255,106,26,.45)}97%,100%{border-color:rgba(242,237,231,.1)}}
+
+@keyframes aRecOn{0%,70%{background:#1E1A17;box-shadow:none;color:#6B635C}76%,90%{background:#FF3B30;box-shadow:0 0 60px rgba(255,59,48,.8);color:#F2EDE7}97%,100%{background:#1E1A17;box-shadow:none;color:#6B635C}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">04 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 34px">
+<div style="display: flex; align-items: flex-end; justify-content: space-between">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 92px; line-height: 0.95; letter-spacing: -0.05em">Antes de<br>darle a <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A">REC:</span></h2>
+<div style="width: 150px; height: 150px; border-radius: 999px; border: 4px solid rgba(242,237,231,.25); display: flex; align-items: center; justify-content: center; box-sizing: border-box">
+<div style="width: 112px; height: 112px; border-radius: 999px; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 26px; letter-spacing: .08em; animation: aRecOn 4s ease-in-out infinite; background: #1E1A17">REC</div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px"><div style="display: flex; align-items: center; gap: 26px; padding: 22px 28px; border-radius: 22px; background: #12100F; border: 1px solid rgba(242,237,231,.1); animation: aR0 4s ease-in-out infinite">
+<div style="flex: none; width: 52px; height: 52px; border-radius: 14px; border: 3px solid rgba(242,237,231,.3); display: flex; align-items: center; justify-content: center; box-sizing: border-box; animation: aT0 4s ease-in-out infinite"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5" stroke-dasharray="30" style="animation: aK0 4s ease-in-out infinite"></path></svg></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 36px; font-weight: 700; letter-spacing: -0.01em">Ojos en el tercio superior</span><span style="font-size: 25px; color: #9C938B">Poco aire encima</span></div>
+</div><div style="display: flex; align-items: center; gap: 26px; padding: 22px 28px; border-radius: 22px; background: #12100F; border: 1px solid rgba(242,237,231,.1); animation: aR1 4s ease-in-out infinite">
+<div style="flex: none; width: 52px; height: 52px; border-radius: 14px; border: 3px solid rgba(242,237,231,.3); display: flex; align-items: center; justify-content: center; box-sizing: border-box; animation: aT1 4s ease-in-out infinite"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5" stroke-dasharray="30" style="animation: aK1 4s ease-in-out infinite"></path></svg></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 36px; font-weight: 700; letter-spacing: -0.01em">Cámara a la altura de los ojos</span><span style="font-size: 25px; color: #9C938B">Ni desde abajo ni desde arriba</span></div>
+</div><div style="display: flex; align-items: center; gap: 26px; padding: 22px 28px; border-radius: 22px; background: #12100F; border: 1px solid rgba(242,237,231,.1); animation: aR2 4s ease-in-out infinite">
+<div style="flex: none; width: 52px; height: 52px; border-radius: 14px; border: 3px solid rgba(242,237,231,.3); display: flex; align-items: center; justify-content: center; box-sizing: border-box; animation: aT2 4s ease-in-out infinite"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5" stroke-dasharray="30" style="animation: aK2 4s ease-in-out infinite"></path></svg></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 36px; font-weight: 700; letter-spacing: -0.01em">Plano medio: de pecho para arriba</span><span style="font-size: 25px; color: #9C938B">Se ven gestos y expresión</span></div>
+</div><div style="display: flex; align-items: center; gap: 26px; padding: 22px 28px; border-radius: 22px; background: #12100F; border: 1px solid rgba(242,237,231,.1); animation: aR3 4s ease-in-out infinite">
+<div style="flex: none; width: 52px; height: 52px; border-radius: 14px; border: 3px solid rgba(242,237,231,.3); display: flex; align-items: center; justify-content: center; box-sizing: border-box; animation: aT3 4s ease-in-out infinite"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5" stroke-dasharray="30" style="animation: aK3 4s ease-in-out infinite"></path></svg></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 36px; font-weight: 700; letter-spacing: -0.01em">Separado de la pared</span><span style="font-size: 25px; color: #9C938B">Da profundidad y evita sombras</span></div>
+</div><div style="display: flex; align-items: center; gap: 26px; padding: 22px 28px; border-radius: 22px; background: #12100F; border: 1px solid rgba(242,237,231,.1); animation: aR4 4s ease-in-out infinite">
+<div style="flex: none; width: 52px; height: 52px; border-radius: 14px; border: 3px solid rgba(242,237,231,.3); display: flex; align-items: center; justify-content: center; box-sizing: border-box; animation: aT4 4s ease-in-out infinite"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5" stroke-dasharray="30" style="animation: aK4 4s ease-in-out infinite"></path></svg></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><span style="font-size: 36px; font-weight: 700; letter-spacing: -0.01em">Vertical 9:16 si va a Reels</span><span style="font-size: 25px; color: #9C938B">Sin bandas negras</span></div>
+</div></div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Haz captura y úsala en tu próxima grabación.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
