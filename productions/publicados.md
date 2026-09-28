@@ -16,4 +16,4 @@
 | 2026-09-28 | reel 6 (meme) | POV: le das a REC y de repente no sabes qué hacer con las manos | https://www.instagram.com/reel/Dd1gCnylHO6/ |
 | 2026-09-28 | reel 7 (tip) | Subtítulos que se leen: 3 reglas para que tus subtítulos no espanten a nadie | https://www.instagram.com/reel/Dd1nq29lAG7/ |
 | 2026-09-28 | reel 8 (meme) | POV: 3 horas editando tu reel… y las primeras visitas son de tu familia | https://www.instagram.com/reel/Dd1tgTQDM9c/ |
-| 2026-09-28 | carrusel C5 | Edición con ritmo: 3 cortes para que no abandonen tu vídeo a mitad | en curso |
+| 2026-09-28 | carrusel C5 | Edición con ritmo: 3 cortes para que no abandonen tu vídeo a mitad | https://www.instagram.com/p/Dd1xw_bgKmG/ |
