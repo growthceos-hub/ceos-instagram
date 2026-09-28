@@ -1,0 +1,72 @@
+{
+ "topic": "Subtítulos que se leen: 3 reglas para que tus subtítulos no espanten a nadie",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Nadie lee<br><em>tus subtítulos.</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu marca",
+    "copy": "Tu próximo reel, bien subtitulado",
+    "media": "ASÍ SÍ<br>SE LEE",
+    "headline": "Subtítulos que se leen",
+    "cta": "Ver reel",
+    "tags": ["CORTOS", "GRANDES", "ZONA SEGURA"]
+   },
+   "footer": "3 reglas para tus subtítulos"
+  },
+  {
+   "label": "REGLA 1",
+   "title": "Pocas palabras<br><em>por pantalla.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "SUBTÍTULOS EN BLOQUES",
+    "lines": ["Si grabas vídeos", "para tu negocio", "esto te interesa"]
+   },
+   "note": "Bloques de <b>3 a 5 palabras</b> que se leen de un vistazo."
+  },
+  {
+   "label": "REGLA 2",
+   "title": "Grandes y con<br><em>contraste.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Qué se lee en un móvil",
+    "items": [
+     {"label": "Letra fina y pequeña", "value": 22},
+     {"label": "Blanco sobre fondo claro", "value": 34},
+     {"label": "Letra gruesa con borde o caja", "value": 92, "hi": true}
+    ]
+   },
+   "note": "Que se lean <b>hasta con el brillo bajo.</b>"
+  },
+  {
+   "label": "REGLA 3",
+   "title": "Lejos de los<br><em>botones.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ABAJO", "t": "Nada en el pie", "s": "Ahí van el texto y tu usuario"},
+     {"n": "2", "d": "DERECHA", "t": "Nada en el lateral", "s": "Ahí van los botones"},
+     {"n": "3", "d": "CENTRO", "t": "Tercio central", "s": "Donde mira todo el mundo"}
+    ]
+   },
+   "note": "Si lo tapa la interfaz, <b>no existe.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Guárdalo antes<br><em>de editar.</em>",
+   "dur": 6,
+   "items": [
+    "3 a 5 palabras por bloque",
+    "Grandes y con contraste",
+    "Lejos de los botones"
+   ]
+  }
+ ],
+ "caption": "¿Tus subtítulos se leen o se saltan? 💬\n\nMucha gente ve los reels sin sonido: si el subtítulo no se lee al momento, hace scroll.\n\n→ Pocas palabras por pantalla: bloques de 3 a 5 palabras que se lean de un vistazo\n→ Grandes y con contraste: letra gruesa con borde o caja, nada de letra fina sobre fondo claro\n→ Lejos de los botones: ni en el pie ni en el lateral derecho, mejor en el tercio central\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #subtitulos #tipsdevideo #edicióndevideo #creadoresdecontenido #marcapersonal #reels"
+}
