@@ -11,4 +11,4 @@
 | 2026-09-28 | reel 2 (meme) | POV: te sale la toma perfecta a la primera… y el micro estaba apagado | https://www.instagram.com/reel/Dd1FSI-lMK2/ |
 | 2026-09-28 | reel 3 (tip) | Leer con teleprompter sin que se note: 3 trucos para que no parezca que lees | https://www.instagram.com/reel/Dd1M8R2DSsV/ |
 | 2026-09-28 | reel 4 (meme) | POV: "es solo un vídeo de 30 segundos, en 5 minutos lo tenemos" | https://www.instagram.com/reel/Dd1SOPkgrjg/ |
-| 2026-09-28 | reel 5 (tip) | Grabar con el móvil: 3 ajustes antes de darle a REC para que parezca cámara profesional | en curso |
+| 2026-09-28 | reel 5 (tip) | Grabar con el móvil: 3 ajustes antes de darle a REC para que parezca cámara profesional | https://www.instagram.com/reel/Dd1aAj_DKCQ/ |
