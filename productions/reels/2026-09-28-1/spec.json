@@ -1,0 +1,93 @@
+{
+ "topic": "Mirar a cámara sin parecer un robot: 3 trucos para hablar natural",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pareces un robot<br><em>hablando a cámara?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Ojos en la pantalla",
+     "Leyendo de memoria"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Ojos al objetivo",
+     "Hablas a una persona"
+    ]
+   },
+   "footer": "3 trucos para sonar natural"
+  },
+  {
+   "label": "TRUCO 1",
+   "title": "Mira al objetivo,<br><em>no a la pantalla.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Pon una marca junto a la lente",
+     "Baja el brillo de tu imagen",
+     "Vuelve a la lente al acabar cada idea"
+    ]
+   },
+   "note": "Así el que te ve <b>siente que le miras.</b>"
+  },
+  {
+   "label": "TRUCO 2",
+   "title": "Háblale a<br><em>una sola persona.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu cliente ideal",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola a todos..."
+      ]
+     },
+     {
+      "from": "in",
+      "text": "¿Me hablas a mí?"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Sí, justo a ti."
+      ]
+     }
+    ]
+   },
+   "note": "Nada de \"hola a todos\": <b>tú, a ti, contigo.</b>"
+  },
+  {
+   "label": "TRUCO 3",
+   "title": "Ideas clave,<br><em>no texto literal.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TUS NOTAS",
+    "lines": [
+     "El problema en una frase",
+     "Lo que haces tú",
+     "Qué hacer ahora"
+    ]
+   },
+   "note": "Memorizas el orden, <b>no las palabras.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Guárdalo para<br><em>tu próxima grabación.</em>",
+   "dur": 6,
+   "items": [
+    "Ojos al objetivo",
+    "Háblale a una persona",
+    "Ideas clave, no guion"
+   ]
+  }
+ ],
+ "caption": "¿Pareces un robot cuando hablas a cámara? 🎥\n\nNo es falta de carisma: es dónde miras y cómo te preparas. 3 trucos para sonar natural:\n\n→ Mira al objetivo, no a tu imagen en la pantalla: pon una marca junto a la lente y vuelve a ella al acabar cada idea\n→ Háblale a una sola persona (tu cliente ideal), no a \"todos\"\n→ Lleva ideas clave en orden, no un texto para recitar palabra por palabra\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #hablaracamara #grabacion #marcapersonal #creadoresdecontenido #tipsdevideo #videomarketing"
+}
