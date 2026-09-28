@@ -19,6 +19,7 @@
 | 2026-09-27 | 4 | Guion de anuncio que convierte: gancho en 3 segundos, habla de su problema y una sola llamada a la acción | https://www.instagram.com/reel/Ddy7rfmiVaJ/ | Sí |
 | 2026-09-27 | 5 | WhatsApp Business que trabaja por ti: mensaje de ausencia, respuestas rápidas y etiquetas | https://www.instagram.com/reel/Ddy_GMsgnHr/ | Sí |
 | 2026-09-28 | 1 | Cuando te dicen “es caro”: pregunta con qué lo compara, vuelve a su problema y da opciones en vez de descuentos | https://www.instagram.com/reel/Dd1WDoJAnej/ | Sí |
+| 2026-09-28 | 2 | Probar anuncios en Meta sin ir a ciegas: cambia una sola cosa, 3 versiones al mismo público y decide por coste por lead | https://www.instagram.com/reel/Dd1Z31AgtsX/ | Sí |
 | 2026-09-27 | meme-extra | El comercial que “ya le llamó” (CRM vacío) — solo pestaña Reels | https://www.instagram.com/reel/DdzC1GiEbtV/ |
 | 2026-09-27 | meme-extra | La web de 2014 — solo pestaña Reels | https://www.instagram.com/reel/DdzC2NgjJ4M/ |
 | 2026-09-27 | meme-extra | El logo un poquito más grande — solo pestaña Reels | https://www.instagram.com/reel/DdzC2k6jsI6/ |
