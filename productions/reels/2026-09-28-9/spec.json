@@ -1,0 +1,101 @@
+{
+ "topic": "Foto de perfil profesional: 3 claves para que tu foto transmita confianza",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu foto de perfil<br><em>te resta clientes.</em>",
+   "size": 132,
+   "dur": 5.6,
+   "mock": {
+    "type": "chat",
+    "name": "Posible cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "He visto tu perfil"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¿Y qué te ha parecido?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "La foto parece de una boda"
+     }
+    ]
+   },
+   "footer": "3 claves para tu foto de perfil"
+  },
+  {
+   "label": "CLAVE 1",
+   "title": "Luz suave<br><em>de frente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Cómo se ve tu cara",
+    "items": [
+     {
+      "label": "Flash directo del móvil",
+      "value": 24
+     },
+     {
+      "label": "Luz del techo encima",
+      "value": 36
+     },
+     {
+      "label": "Luz suave frente a ti",
+      "value": 92,
+      "hi": true
+     }
+    ]
+   },
+   "note": "Sin sombras duras: <b>ojos visibles y piel natural.</b>"
+  },
+  {
+   "label": "CLAVE 2",
+   "title": "Encuadre de<br><em>hombros arriba.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Cara llenando el círculo",
+     "Hombros dentro del plano",
+     "Mirada directa a cámara"
+    ]
+   },
+   "note": "Se ve en miniatura: <b>tu cara tiene que mandar.</b>"
+  },
+  {
+   "label": "CLAVE 3",
+   "title": "Fondo limpio,<br><em>ropa lisa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "RESTA",
+    "bad": [
+     "Fondo con desorden",
+     "Estampados fuertes"
+    ],
+    "good_t": "SUMA",
+    "good": [
+     "Fondo neutro y liso",
+     "Colores lisos y sobrios"
+    ]
+   },
+   "note": "Que lo único que se vea <b>seas tú.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu foto es tu<br><em>primera impresión.</em>",
+   "dur": 6,
+   "items": [
+    "Luz suave de frente",
+    "De hombros arriba",
+    "Fondo limpio, ropa lisa"
+   ]
+  }
+ ],
+ "caption": "¿Tu foto de perfil te abre puertas o te las cierra? 📸\n\nAntes de escribirte, mucha gente mira tu foto: en un segundo decide si pareces de confianza.\n\n→ Luz suave de frente: nada de flash directo ni luz del techo, que se vean bien tus ojos\n→ Encuadre de hombros arriba: se ve en miniatura, así que tu cara tiene que llenar el círculo\n→ Fondo limpio y ropa lisa: sin desorden detrás ni estampados que distraigan\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #fotodeperfil #marcapersonal #fotografiaprofesional #retratoprofesional #linkedin #tipsdefotografia"
+}
