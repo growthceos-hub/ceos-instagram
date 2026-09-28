@@ -22,6 +22,7 @@
 | 2026-09-28 | 2 | Probar anuncios en Meta sin ir a ciegas: cambia una sola cosa, 3 versiones al mismo público y decide por coste por lead | https://www.instagram.com/reel/Dd1Z31AgtsX/ | Sí |
 | 2026-09-28 | 3 | Retargeting en Meta a quien visitó tu web y no escribió: público de visitas, otro anuncio con pruebas y dudas, y frecuencia bajo control | https://www.instagram.com/reel/Dd1dCh_Cu2f/ | Sí |
 | 2026-09-28 | 4 | 3 emails para leads que aún no compran: bienvenida el mismo día, un caso útil a los 3 días y una invitación con fecha | https://www.instagram.com/reel/Dd1hJADlYH2/ | Sí |
+| 2026-09-28 | 5 | Presupuestos que no se quedan en el cajón: envíalo en 24 horas, explícalo en una llamada y cierra con fecha para el siguiente paso | https://www.instagram.com/reel/Dd1kCAADIFg/ | Sí |
 | 2026-09-27 | meme-extra | El comercial que “ya le llamó” (CRM vacío) — solo pestaña Reels | https://www.instagram.com/reel/DdzC1GiEbtV/ |
 | 2026-09-27 | meme-extra | La web de 2014 — solo pestaña Reels | https://www.instagram.com/reel/DdzC2NgjJ4M/ |
 | 2026-09-27 | meme-extra | El logo un poquito más grande — solo pestaña Reels | https://www.instagram.com/reel/DdzC2k6jsI6/ |
