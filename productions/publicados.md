@@ -15,4 +15,4 @@
 | 2026-09-28 | carrusel C4 | B-roll: 3 planos recurso que hacen que tu vídeo parezca de productora | https://www.instagram.com/p/Dd1cy8vDrB1/ |
 | 2026-09-28 | reel 6 (meme) | POV: le das a REC y de repente no sabes qué hacer con las manos | https://www.instagram.com/reel/Dd1gCnylHO6/ |
 | 2026-09-28 | reel 7 (tip) | Subtítulos que se leen: 3 reglas para que tus subtítulos no espanten a nadie | https://www.instagram.com/reel/Dd1nq29lAG7/ |
-| 2026-09-28 | reel 8 (meme) | POV: 3 horas editando tu reel… y las primeras visitas son de tu familia | en curso |
+| 2026-09-28 | reel 8 (meme) | POV: 3 horas editando tu reel… y las primeras visitas son de tu familia | https://www.instagram.com/reel/Dd1tgTQDM9c/ |
