@@ -1,0 +1,69 @@
+{
+ "topic": "Cuando el cliente te dice “es caro”: pregunta con qué lo compara, vuelve a su problema y da opciones en vez de descuentos",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te dicen<br>“<em>es caro</em>” y ahí<br>se acaba todo?",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Te paso el presupuesto", "que hablamos ayer."], "time": "11:20"},
+     {"from": "in", "text": "Uf, es caro. Me lo pienso.", "time": "11:48"}
+    ]
+   },
+   "footer": "3 pasos para responder"
+  },
+  {
+   "label": "PASO 1",
+   "title": "¿Caro<br><em>frente a qué?</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "RESPONDE ASÍ",
+    "lines": [
+     "\"Entiendo. ¿Con qué lo comparas?\"",
+     "\"¿Otro presupuesto o tu idea?\"",
+     "\"¿Qué esperabas que incluyera?\""
+    ]
+   },
+   "note": "Sin saber la referencia, <b>no puedes responder.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Vuelve<br>a <em>su problema.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "HABLAR DEL PRECIO",
+    "bad": ["Justificar cada euro", "Listar lo que incluye"],
+    "good_t": "HABLAR DE SU PROBLEMA",
+    "good": ["Qué pierde si sigue igual", "Qué cambia al resolverlo"]
+   },
+   "note": "Recuérdale <b>por qué te llamó.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Da opciones,<br><em>no descuentos.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+      {"n": "A", "d": "OPCIÓN BÁSICA", "t": "Lo imprescindible", "s": "Menos alcance, menos precio"},
+      {"n": "B", "d": "OPCIÓN COMPLETA", "t": "Lo que le propusiste", "s": "Resuelve todo su problema"},
+      {"n": "C", "d": "PAGO POR FASES", "t": "Mismo servicio", "s": "Repartido en el tiempo"}
+    ]
+   },
+   "note": "Bajar precio sin quitar nada <b>te quita credibilidad.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que “es caro”<br><em>no sea un no.</em>",
+   "dur": 6,
+   "items": ["¿Caro frente a qué?", "Vuelve a su problema", "Opciones, no descuentos"]
+  }
+ ],
+ "caption": "¿Te dicen “es caro” y ahí se acaba la venta? 💸\n\n“Es caro” casi nunca es un no. Es una duda que no has resuelto.\n\n→ Pregunta con qué lo compara antes de defender tu precio\n→ Vuelve a su problema: qué pierde si sigue igual\n→ Ofrece opciones (básica, completa o por fases), no descuentos\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #objeciones #cerrarventas #captaciondeclientes #emprendedores #empresarios"
+}
