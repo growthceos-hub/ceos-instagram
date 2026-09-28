@@ -1,0 +1,66 @@
+{
+ "topic": "Cómo probar anuncios en Meta sin ir a ciegas: cambia una sola cosa, 3 versiones al mismo público y decide por coste por lead",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cambias de<br>anuncio <em>sin saber</em><br>qué funciona?",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Nueva versión del anuncio. Otra más…",
+    "media": "¿Y AHORA?",
+    "headline": "Versión 7",
+    "cta": "Más información",
+    "tags": ["OTRO VÍDEO", "OTRO TEXTO", "OTRO PÚBLICO"]
+   },
+   "footer": "3 pasos para probar anuncios"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Cambia una<br><em>sola cosa.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CAMBIARLO TODO",
+    "bad": ["Otro vídeo y otro texto", "Otro público a la vez"],
+    "good_t": "UNA VARIABLE",
+    "good": ["Mismo vídeo y público", "Solo cambia el gancho"]
+   },
+   "note": "Si cambias todo, <b>no sabrás qué funcionó.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "3 versiones,<br><em>mismo público.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Gancho A: una pregunta", "Gancho B: el resultado", "Gancho C: un error típico"]
+   },
+   "note": "Mismo presupuesto a cada una: <b>comparación justa.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Decide por<br><em>coste por lead.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "bars",
+    "title": "Coste por lead (menos es mejor)",
+    "items": [
+     {"label": "Gancho A", "value": 72},
+     {"label": "Gancho B", "value": 38, "hi": true},
+     {"label": "Gancho C", "value": 88}
+    ]
+   },
+   "note": "No por los me gusta: <b>por lo que te cuesta cada lead.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Deja de probar<br><em>a ciegas.</em>",
+   "dur": 6,
+   "items": ["Cambia una sola cosa", "3 versiones, mismo público", "Decide por coste por lead"]
+  }
+ ],
+ "caption": "¿Cambias de anuncio cada pocos días sin saber qué funciona? 🎯\n\nSi lo cambias todo a la vez, nunca sabrás qué fue lo que dio resultado.\n\n→ Cambia una sola cosa cada vez (por ejemplo, el gancho)\n→ Lanza 3 versiones al mismo público y con el mismo presupuesto\n→ Quédate con la que te trae el lead más barato, no la de más me gusta\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #publicidadonline #anuncios #captaciondeclientes #marketingdigital #emprendedores"
+}
