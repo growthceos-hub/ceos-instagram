@@ -1,0 +1,104 @@
+{
+ "topic": "Grabar con el móvil: 3 ajustes antes de darle a REC para que parezca cámara profesional",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu móvil graba<br><em>mejor que esto.</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Antes de darle a REC",
+    "fields": [
+     {
+      "q": "Cámara",
+      "a": "Trasera · 1x"
+     },
+     {
+      "q": "Enfoque y exposición",
+      "a": "Bloqueados"
+     },
+     {
+      "q": "Lente",
+      "a": "Limpia"
+     }
+    ],
+    "badge": "✓ LISTO PARA GRABAR"
+   },
+   "footer": "3 ajustes antes de grabar"
+  },
+  {
+   "label": "AJUSTE 1",
+   "title": "Graba con la<br><em>cámara de atrás.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Cámara frontal",
+     "Zoom con los dedos"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Cámara trasera",
+     "Zoom 1x y te acercas"
+    ]
+   },
+   "note": "La trasera suele ser <b>la mejor cámara del móvil.</b>"
+  },
+  {
+   "label": "AJUSTE 2",
+   "title": "Bloquea enfoque<br><em>y exposición.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Mantén el dedo sobre tu cara",
+     "Espera a ver el bloqueo AE/AF",
+     "Baja un poco el brillo"
+    ]
+   },
+   "note": "Así la imagen <b>no salta mientras hablas.</b>"
+  },
+  {
+   "label": "AJUSTE 3",
+   "title": "Lente limpia,<br><em>modo avión.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LENTE",
+      "t": "Pásale un paño",
+      "s": "Adiós al efecto niebla"
+     },
+     {
+      "n": "2",
+      "d": "AVIÓN",
+      "t": "Sin llamadas ni avisos",
+      "s": "Nadie te corta la toma"
+     },
+     {
+      "n": "3",
+      "d": "MEMORIA",
+      "t": "Deja espacio libre",
+      "s": "Que no se pare a mitad"
+     }
+    ]
+   },
+   "note": "Un minuto antes que <b>te salva la toma.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Guárdalo para<br><em>tu próxima toma.</em>",
+   "dur": 6,
+   "items": [
+    "Cámara trasera a 1x",
+    "Enfoque y exposición fijos",
+    "Lente limpia y modo avión"
+   ]
+  }
+ ],
+ "caption": "Tu móvil graba mejor que esto 📱\n\nSi tu vídeo de móvil parece barato, no necesitas otro móvil: necesitas 3 ajustes antes de darle a grabar.\n\n→ Graba con la cámara de atrás a 1x: si quieres más cerca, acércate tú, no hagas zoom con los dedos\n→ Bloquea enfoque y exposición: mantén el dedo sobre tu cara hasta ver AE/AF y baja un poco el brillo\n→ Lente limpia, modo avión y espacio libre en la memoria para que nada corte la toma\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #grabarconelmovil #tipsdevideo #creadoresdecontenido #marcapersonal #videomarketing #grabacion"
+}
