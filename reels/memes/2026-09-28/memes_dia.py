@@ -712,7 +712,115 @@ class VisitaPresencial:
         return im
 
 
+
+# ------------------------------------------------------------------ m17. IDEAS DE LAS 3 DE LA MAÑANA (notas del móvil)
+class Ideas3am:
+    POV = 'POV: relees las “ideas de contenido” que apuntaste a las 3 de la mañana'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 790)
+    LINES = [(0.6, '– vídeo pero tipo… ya sabes'), (1.3, '– lo del perro???'), (2.0, '– hablar de ESO (no olvidar)'),
+             (2.7, '– tendencia del baile pero con facturas'), (3.4, '– reel viral seguro: el de la silla'), (4.2, '– IDEA BUENÍSIMA:')]
+    SFX = ['pop@0.2'] + [f'tick@{a}' for a, _ in LINES] + ['boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, YEL = (40, 36, 30), (140, 132, 118), (228, 170, 20)
+        im = Image.new('RGB', (BW, BH), (255, 252, 240)); g = ImageDraw.Draw(im)
+        g.text((40, 60), '‹ Notas', font=F(600, 32), fill=YEL, anchor='lm')
+        g.text((BW - 40, 60), 'Listo', font=F(700, 32), fill=YEL, anchor='rm')
+        g.text((40, 150), 'Ideas reels (IMPORTANTE)', font=F(800, 46), fill=INK, anchor='lm')
+        g.text((40, 208), 'Hoy, 3:12', font=F(500, 26), fill=MUT, anchor='lm')
+        for i, (ts, ln) in enumerate(self.LINES):
+            if t < ts: continue
+            k = ease((t - ts) / .3); A = int(255 * k); l, lg = layer(); yy = 290 + i * 92
+            lg.text((40, yy), ln, font=F(700 if i == 5 else 500, 38), fill=INK + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        if t >= 4.4 and int(t * 2.5) % 2 == 0:
+            x = 40 + F(700, 38).getlength('– IDEA BUENÍSIMA:') + 14; g.line([(x, 750), (x, 790)], fill=YEL, width=4)
+        stamp(im, t, 5.2, '(no pone nada más)', 480, 850, col=(200, 60, 40), size=36, rot=-4)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m18. "OK" A TRES OPCIONES (correo)
+class OkTresOpciones:
+    POV = 'POV: mandas al cliente tres propuestas para que elija una y te responde “Ok”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = ['pop@0.3', 'tick@0.9', 'tick@1.4', 'tick@1.9', 'ding@3.3', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, BLU = (32, 33, 36), (95, 99, 104), (232, 234, 237), (26, 115, 232)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill=(246, 248, 252)); g.text((40, 50), 'Propuesta campaña octubre (3 opciones)', font=F(700, 30), fill=INK, anchor='lm')
+        g.ellipse((40, 130, 100, 190), fill=(255, 106, 26)); g.text((70, 160), 'T', font=F(700, 28), fill='white', anchor='mm')
+        g.text((120, 136), 'Tú', font=F(700, 28), fill=INK); g.text((120, 172), 'para Cliente', font=F(500, 22), fill=MUT)
+        g.text((40, 230), '¿Con cuál de las tres arrancamos?', font=F(600, 32), fill=INK)
+        opts = [(0.9, 'A', 'Solo anuncios'), (1.4, 'B', 'Anuncios + landing'), (1.9, 'C', 'Anuncios + landing + seguimiento')]
+        for i, (ts, lt, txt) in enumerate(opts):
+            if t < ts: continue
+            k = ease((t - ts) / .3); A = int(255 * k); yy = 290 + i * 96; l, lg = layer()
+            lg.rounded_rectangle((40, yy, BW - 40, yy + 80), 14, fill=(246, 248, 252, A), outline=LINE + (A,), width=2)
+            lg.ellipse((60, yy + 16, 108, yy + 64), fill=BLU + (A,)); lg.text((84, yy + 40), lt, font=F(800, 26), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((130, yy + 40), txt, font=F(600, 30), fill=INK + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        g.line([(0, 600), (BW, 600)], fill=LINE, width=2)
+        if t >= 3.3:
+            k = ease((t - 3.3) / .3); A = int(255 * k); l, lg = layer()
+            lg.rectangle((0, 610, BW, BH), fill=(252, 244, 232, A))
+            lg.ellipse((40, 640, 100, 700), fill=(52, 168, 83, A)); lg.text((70, 670), 'C', font=F(700, 28), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((120, 646), 'Cliente', font=F(700, 28), fill=INK + (A,)); lg.text((120, 682), 'Enviado desde mi móvil', font=F(500, 22), fill=MUT + (A,))
+            lg.text((40, 780), 'Ok', font=F(700, 60), fill=INK + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Opción elegida', '“Ok”', 'ni la A, ni la B, ni la C', cy=560, big_size=110)
+        return im
+
+
+# ------------------------------------------------------------------ m19. SIN PRISA (WhatsApp)
+class SinPrisa(WAChat):
+    POV = 'POV: activas la campaña del cliente y a los dos minutos pregunta si ha vendido algo'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    NAME, LETTER, HOUR = 'Cliente (tienda de muebles)', 'M', '10:0'
+    MSGS = [(0.3, 'out', 'Campaña activada. Dale un par de semanas para coger datos.'),
+            (1.5, 'in', 'Perfecto, sin prisa'),
+            (2.8, 'in', '¿Ha entrado algo ya?'),
+            (4.1, 'in', '¿La apagamos y probamos otra cosa?')]
+    TYPING = [(2.1, 2.7), (3.4, 4.0)]
+    SFX = ['pop@0.3', 'pop@1.5', 'typing:0.6@2.1', 'pop@2.8', 'typing:0.6@3.4', 'pop@4.1', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        im, g = self.base(t); self.bubbles(im, t); self.footer(g)
+        card(im, t, 5.1, 'Paciencia del cliente', '2 min', 'de las 2 semanas', cy=560, big_size=110)
+        return im
+
+
+# ------------------------------------------------------------------ m20. EL HORARIO QUE NO ESTABA (página de reservas)
+class HorarioQueNo:
+    POV = 'POV: le das al lead tres horarios para la llamada y te propone uno que no estaba'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SLOTS = [(0.5, 'Lunes · 10:00'), (0.9, 'Martes · 12:30'), (1.3, 'Miércoles · 17:00')]
+    SFX = ['pop@0.5', 'pop@0.9', 'pop@1.3', 'tick@2.4', 'ding@3.2', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, BLU = (26, 26, 26), (100, 106, 112), (226, 229, 232), (0, 105, 255)
+        im = Image.new('RGB', (BW, BH), (250, 251, 252)); g = ImageDraw.Draw(im)
+        g.rounded_rectangle((30, 30, BW - 30, BH - 30), 22, fill='white', outline=LINE, width=2)
+        g.text((70, 90), 'Llamada de 15 min con Ceos Growth', font=F(700, 34), fill=INK, anchor='lm')
+        g.text((70, 140), 'Elige el hueco que mejor te venga', font=F(500, 28), fill=MUT, anchor='lm')
+        for i, (ts, lab) in enumerate(self.SLOTS):
+            if t < ts: continue
+            k = pop((t - ts) / .3); yy = 220 + i * 130; l, lg = layer()
+            hov = 2.4 <= t < 3.2 and i == 1
+            lg.rounded_rectangle((70, yy, BW - 70, yy + 100), 16, fill=(BLU if hov else (255, 255, 255)) + (255,), outline=BLU + (255,), width=3)
+            lg.text((BW // 2, yy + 50), lab, font=F(700, 36), fill=((255, 255, 255) if hov else BLU) + (255,), anchor='mm')
+            if k < 1: lg = None
+            im.paste(l, (0, 0), l)
+        if 1.8 <= t < 3.2:
+            k = ease((t - 1.8) / .6); l, lg = layer(); cursor(lg, int(700 - 100 * k), int(700 - 300 * k)); im.paste(l, (0, 0), l)
+        banner(im, t, 3.2, 'WhatsApp · Lead web', '“¿Y el sábado a las 8 de la mañana?”', y=640, icol=(37, 211, 102), ich='W')
+        card(im, t, 5.1, 'Hueco elegido', 'Sáb 8:00', 'ninguno de los tres', cy=560, big_size=90)
+        return im
+
+
 NEW = {'m01-descuento': Descuento, 'm02-mismo-lead': MismoLead, 'm03-resena-ajena': ResenaAjena, 'm04-desconocido': Desconocido,
        'm05-sobra-cero': SobraCero, 'm06-sin-telefono': SinTelefono, 'm07-ultimo-cambio': UltimoCambio, 'm08-campo-presupuesto': CampoPresupuesto,
        'm09-recargar': Recargar, 'm10-hola-nombre': HolaNombre, 'm11-prueba-no-publicar': PruebaNoPublicar, 'm12-duplicados': Duplicados,
-       'm13-fotos-buenas': FotosBuenas, 'm14-privado-bot': PrivadoBot, 'm15-visitas-tuyas': VisitasTuyas, 'm16-visita-presencial': VisitaPresencial}
+       'm13-fotos-buenas': FotosBuenas, 'm14-privado-bot': PrivadoBot, 'm15-visitas-tuyas': VisitasTuyas, 'm16-visita-presencial': VisitaPresencial,
+       'm17-ideas-3am': Ideas3am, 'm18-ok-tres-opciones': OkTresOpciones, 'm19-sin-prisa': SinPrisa, 'm20-horario-que-no': HorarioQueNo}
