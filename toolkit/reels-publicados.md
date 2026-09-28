@@ -63,3 +63,23 @@
 | 2026-09-27 | meme | Formulario roto desde el lunes — solo pestaña Reels | https://www.instagram.com/reel/DdzIcBNDsC2/ |
 | 2026-09-27 | meme | El logo “en buena calidad” pixelado — solo pestaña Reels | https://www.instagram.com/reel/DdzIWpcCsSv/ |
 | 2026-09-27 | meme | Calculadora: cada cliente cuesta 800 € y paga 450 € — solo pestaña Reels | https://www.instagram.com/reel/DdzIbD6Cbpu/ |
+| 2026-09-28 | meme | Quita partidas “para abaratar” — solo pestaña Reels | https://www.instagram.com/reel/Dd139mZkpnX/ |
+| 2026-09-28 | meme | 5 leads en un minuto, el mismo señor — solo pestaña Reels | https://www.instagram.com/reel/Dd136TsDfBX/ |
+| 2026-09-28 | meme | 5 estrellas en la ficha de la competencia — solo pestaña Reels | https://www.instagram.com/reel/Dd136gzj8yb/ |
+| 2026-09-28 | meme | Número desconocido “será spam” y era cliente — solo pestaña Reels | https://www.instagram.com/reel/Dd137GoCNzF/ |
+| 2026-09-28 | meme | Campaña “a 10 €/día” que era de 100 — solo pestaña Reels | https://www.instagram.com/reel/Dd14kfflHq8/ |
+| 2026-09-28 | meme | Lista de clientes potenciales sin teléfonos — solo pestaña Reels | https://www.instagram.com/reel/Dd14gPAicvm/ |
+| 2026-09-28 | meme | “Un último cambio” (14 versiones y vuelve a la v1) — solo pestaña Reels | https://www.instagram.com/reel/Dd14hSvAttk/ |
+| 2026-09-28 | meme | Campo “¿qué presupuesto tienes?” en el formulario — solo pestaña Reels | https://www.instagram.com/reel/Dd14hmRDwnG/ |
+| 2026-09-28 | meme | Recargar el panel de pagos el día del lanzamiento — solo pestaña Reels | https://www.instagram.com/reel/Dd14_esFHG5/ |
+| 2026-09-28 | meme | Newsletter con “Hola {nombre}” — solo pestaña Reels | https://www.instagram.com/reel/Dd15AH-jCQm/ |
+| 2026-09-28 | meme | El mejor anuncio: “prueba NO PUBLICAR” — solo pestaña Reels | https://www.instagram.com/reel/Dd15AdeFdFm/ |
+| 2026-09-28 | meme | El mismo cliente 5 veces en el CRM — solo pestaña Reels | https://www.instagram.com/reel/Dd15A4gDdYy/ |
+| 2026-09-28 | meme | Las “fotos buenas” del negocio (de noche, con dedo) — solo pestaña Reels | https://www.instagram.com/reel/Dd15j2tj6Cp/ |
+| 2026-09-28 | meme | Privado de un “cliente” que vende seguidores — solo pestaña Reels | https://www.instagram.com/reel/Dd15jpZCVVf/ |
+| 2026-09-28 | meme | Visitas de la web que son tuyas — solo pestaña Reels | https://www.instagram.com/reel/Dd15riBCivh/ |
+| 2026-09-28 | meme | Visita presencial para un presupuesto de 90 € — solo pestaña Reels | https://www.instagram.com/reel/Dd15kfHgScI/ |
+| 2026-09-28 | meme | Ideas de contenido de las 3 de la mañana — solo pestaña Reels | https://www.instagram.com/reel/Dd159uKl5sm/ |
+| 2026-09-28 | meme | Tres propuestas y responde “Ok” — solo pestaña Reels | https://www.instagram.com/reel/Dd15-BfFRJc/ |
+| 2026-09-28 | meme | A los 2 minutos pregunta si ha vendido — solo pestaña Reels | https://www.instagram.com/reel/Dd15-qwioJw/ |
+| 2026-09-28 | meme | Tres horarios y propone el sábado a las 8 — solo pestaña Reels | https://www.instagram.com/reel/Dd15_FFE3Tc/ |
