@@ -5,12 +5,16 @@ Ceos Productions es el **estudio de grabación y fotografía en Burgos** (empres
 ## Nivel exigido (decisión de Hugo, 27-09): SÚPER PROFESIONAL
 Todo tiene que verse al nivel de las mejores cuentas del sector: animado, fluido, premium, con el mismo nivel visual que Ceos Growth pero con la marca de Ceos Productions (azul y blanco, su logo). Si al revisar los fotogramas algo parece amateur, estático, cortado, con poco contraste o con texto de relleno, **se corrige y se vuelve a renderizar antes de publicar**. Nunca se publica "lo que ha salido".
 
-## Parrilla diaria (hora de Madrid) — cada ejecución programada hace UNA pieza
+## Parrilla diaria (hora de Madrid, decisión de Hugo 28-09) — cada ejecución programada hace UNA pieza
+Total al día: **5 carruseles + 5 historias de valor + 5 reels TIP (valor) + 5 reels MEME** = 20 publicaciones (el límite de la API de Instagram es 50 cada 24 h).
+
 | Hora | Pieza | Dónde |
 |---|---|---|
-| ~10:30 | **Historias: entre 2 y 5** (número variable, ver tabla) | Historias |
-| 13:00 | **1 carrusel** animado de 5 slides | Cuadrícula |
-| 14:00 · 16:00 · 18:00 · 20:00 · 22:00 | **5 reels** (huecos 1–5), mezcla de MEME y TIP | Solo pestaña Reels (`share_to_feed=false`) |
+| 09:00 · 11:00 · 13:00 · 17:00 · 20:00 | **5 carruseles** animados de 5 slides (huecos C1–C5) | Cuadrícula |
+| ~10:30 | **5 historias** de valor (una serie) | Historias |
+| 12:30 · 13:30 · 14:30 · 15:30 · 16:30 · 17:30 · 18:30 · 19:30 · 20:30 · 21:30 | **10 reels** (huecos 1–10): **5 TIP + 5 MEME** alternados | Solo pestaña Reels (`share_to_feed=false`) |
+
+**Evitar temas repetidos entre piezas del mismo día (se ejecutan en paralelo):** nada más elegir el tema, haz `git pull --rebase`, comprueba en `productions/publicados.md` que nadie lo ha cogido hoy y añade una fila de reserva `| fecha | <pieza> | tema | en curso |`; commit + push. Al terminar, sustituye `en curso` por el permalink (o por `NO PUBLICADO: motivo`). Las filas `en curso` de otra pieza cuentan como tema ocupado. Si `git pull --rebase` da conflicto en `publicados.md`, conserva las filas de los dos lados.
 
 Todo se hace con el mismo motor que Ceos Growth y la marca Productions: **`BRAND=productions`** (render.py, render_story.py, build_reel.py y pov_reel.py cambian nombre, @, logo `toolkit/brands/productions/logo.png` y paleta azul/blanco). Nunca pongas naranja a mano.
 
@@ -26,9 +30,10 @@ Zapier "Instagram for Business" → `_zap_raw_request` GET `https://graph.facebo
 ## Contenido
 El tema de la cuenta es **nuestro estudio de grabación en Burgos**.
 
-### Plan semanal del carrusel (día de la semana en Madrid)
-- **Martes y viernes → carrusel de CAPTACIÓN**: presenta el estudio de grabación en Burgos para atraer clientes (empresas, marcas personales, creadores que necesitan grabar vídeo). Qué pueden grabar (anuncios, reels, vídeos de marca, entrevistas, podcasts…), por qué grabar en un estudio en vez de con el móvil en la oficina, cómo es una sesión, qué se llevan. Slide 5 = CTA **"Escríbenos ESTUDIO por DM y reserva tu sesión en Burgos"**; en el caption, lo mismo. Varía el ángulo cada vez (tipo de cliente, tipo de vídeo, dolor distinto).
-- **Resto de días → carrusel de TIPS** para ganar seguidores: consejos de grabación y vídeo (cómo hablar a cámara, luz, sonido, encuadre, ganchos de los 3 primeros segundos, guiones, B-roll, edición, subtítulos, formatos para Reels/Meta Ads, cómo preparar una sesión de grabación…). Sin vender. Slide 5 = CTA **"Síguenos para más tips"**.
+### Plan del carrusel (día de la semana en Madrid)
+- Los 5 carruseles del día son de **TIPS/valor**, salvo **martes y viernes el carrusel C3 (13:00), que es de CAPTACIÓN**. Los 5 del día con temas y formatos distintos entre sí (no 5 variaciones del mismo tema).
+- **Carrusel de CAPTACIÓN**: presenta el estudio de grabación en Burgos para atraer clientes (empresas, marcas personales, creadores que necesitan grabar vídeo). Qué pueden grabar (anuncios, reels, vídeos de marca, entrevistas, podcasts…), por qué grabar en un estudio en vez de con el móvil en la oficina, cómo es una sesión, qué se llevan. Slide 5 = CTA **"Escríbenos ESTUDIO por DM y reserva tu sesión en Burgos"**; en el caption, lo mismo. Varía el ángulo cada vez (tipo de cliente, tipo de vídeo, dolor distinto).
+- **Carrusel de TIPS** para ganar seguidores: consejos de grabación y vídeo (cómo hablar a cámara, luz, sonido, encuadre, ganchos de los 3 primeros segundos, guiones, B-roll, edición, subtítulos, formatos para Reels/Meta Ads, cómo preparar una sesión de grabación…). Sin vender. Slide 5 = CTA **"Síguenos para más tips"**.
 - **Reels y historias**: de VALOR para ganar seguidores (ver sus secciones). Solo los martes y viernes la última historia invita a reservar sesión.
 
 ### Reglas
@@ -41,12 +46,12 @@ El tema de la cuenta es **nuestro estudio de grabación en Burgos**.
 ## Dependencias (si faltan)
 `cd toolkit && npm i --silent && pip install --break-system-packages -q playwright scipy numpy && python3 -m playwright install chromium` (y ffmpeg).
 
-## Carrusel (13:00)
+## Carruseles (5 al día, huecos C1–C5 → 09:00, 11:00, 13:00, 17:00, 20:00)
 **Animado como los de Ceos Growth** (INSTRUCCIONES.md, "Estilo landing de Ceos"): cada slide con su propia animación visual continua (mockups de cámara/visor con encuadre que se ajusta, esquema de luces que se encienden, onda de audio que se limpia, timeline de edición, guion que se escribe, móvil con reel en reproducción, checklist que se marca, antes/después móvil vs estudio…). Slide 01 = gancho brutal y la portada tiene que enganchar en la cuadrícula.
-1. Carpeta `productions/posts/AAAA-MM-DD/`. Si ya está en `productions/publicados.md` con fecha de hoy y tipo carrusel, termina sin hacer nada.
-2. Copia `toolkit/plantilla-valor/` a `productions/posts/AAAA-MM-DD/src/` y reescribe los 5 `.dc.html` (mismo diseño, texto y animaciones nuevas del tema). Estructura: 01 gancho · 02 problema/idea · 03 idea · 04 solución · 05 CTA (el que toque según el plan semanal: captación o tips). Mismo estilo y reglas visuales que `toolkit/INSTRUCCIONES.md` (animación visual distinta en cada slide, nada estático).
-3. `BRAND=productions python3 toolkit/render.py productions/posts/AAAA-MM-DD/src productions/posts/AAAA-MM-DD`. Revisa los JPG y la **portada** (primer fotograma de 01.mp4) como dice INSTRUCCIONES.md; crea `01-portada.mp4` si hace falta.
-4. Commit + `git pull --rebase` + push a main. URLs: `https://raw.githubusercontent.com/growthceos-hub/ceos-instagram/<SHA>/productions/posts/AAAA-MM-DD/NN.mp4` (comprueba que dan 200).
+1. Carpeta `productions/posts/AAAA-MM-DD-CN/` (N = hueco 1–5). Si en `productions/publicados.md` ya hay una fila de hoy `carrusel CN` con permalink, termina sin hacer nada.
+2. Copia `toolkit/plantilla-valor/` a `productions/posts/AAAA-MM-DD-CN/src/` y reescribe los 5 `.dc.html` (mismo diseño, texto y animaciones nuevas del tema). Estructura: 01 gancho · 02 problema/idea · 03 idea · 04 solución · 05 CTA (el que toque según el plan semanal: captación o tips). Mismo estilo y reglas visuales que `toolkit/INSTRUCCIONES.md` (animación visual distinta en cada slide, nada estático).
+3. `BRAND=productions python3 toolkit/render.py productions/posts/AAAA-MM-DD-CN/src productions/posts/AAAA-MM-DD-CN`. Revisa los JPG y la **portada** (primer fotograma de 01.mp4) como dice INSTRUCCIONES.md; crea `01-portada.mp4` si hace falta.
+4. Commit + `git pull --rebase` + push a main. URLs: `https://raw.githubusercontent.com/growthceos-hub/ceos-instagram/<SHA>/productions/posts/AAAA-MM-DD-CN/NN.mp4` (comprueba que dan 200).
 5. Instagram (Zapier "Instagram for Business" → `_zap_raw_request`):
    - Por vídeo: POST `https://graph.facebook.com/v21.0/<IG_ID>/media` con `media_type=VIDEO`, `is_carousel_item=true`, `video_url=<url>`.
    - GET `https://graph.facebook.com/v21.0/?ids=<ids>&fields=status_code` hasta FINISHED en todos (si uno se atasca >1 min, recréalo).
@@ -54,10 +59,10 @@ El tema de la cuenta es **nuestro estudio de grabación en Burgos**.
    - POST `/<IG_ID>/media_publish` con `creation_id`. **Una sola vez**; si falla, mira `GET /<IG_ID>/media?fields=caption,timestamp,permalink&limit=5` antes de reintentar.
 6. Facebook solo si existe la página "Ceos Productions" (ver IDs).
 
-## Reels (5 al día, huecos 1–5 → 14:00, 16:00, 18:00, 20:00, 22:00)
-Cada ejecución hace y publica **UN** reel: el de su hueco N. Carpeta `productions/reels/AAAA-MM-DD-N/`. Si en `productions/publicados.md` ya hay una fila de hoy con `reel N`, termina sin hacer nada.
+## Reels (10 al día, huecos 1–10 → 12:30, 13:30 … 21:30)
+Cada ejecución hace y publica **UN** reel: el de su hueco N. Carpeta `productions/reels/AAAA-MM-DD-N/`. Si en `productions/publicados.md` ya hay una fila de hoy `reel N` con permalink, termina sin hacer nada.
 
-**Tipo según el día** (día del año en Madrid): día PAR → huecos 1, 3, 5 = MEME y 2, 4 = TIP. Día IMPAR → huecos 1, 3, 5 = TIP y 2, 4 = MEME. Así cada día cambia la mezcla (3+2 / 2+3) y nunca salen dos del mismo tipo seguidos.
+**Tipo según el día** (día del año en Madrid): día PAR → huecos impares (1, 3, 5, 7, 9) = MEME y pares (2, 4, 6, 8, 10) = TIP. Día IMPAR → al revés. Siempre 5 TIP + 5 MEME, alternados, y cada día cambia cuál abre.
 
 **Reglas de retención (obligatorias en los dos tipos):**
 - **Gancho en el primer segundo**: el texto del gancho se ve completo desde el fotograma 0 (nada de pantalla vacía o fundido de entrada), máx. ~8 palabras, que genere curiosidad, "me ha pasado" o polémica suave ("Deja de grabarte con la luz del techo", "POV: el cliente trae su guion en 14 folios").
@@ -76,8 +81,8 @@ Cada ejecución hace y publica **UN** reel: el de su hueco N. Carpeta `productio
 
 **Publicar**: commit + `git pull --rebase` + push; URL fijada al SHA con `reel.mp4` (200; si da 404 usa la de `main`). POST `/<IG_ID>/media` con `media_type=REELS`, `share_to_feed=false`, `video_url`, `caption` → espera FINISHED (~30 s entre consultas; >4 min o ERROR, recrea) → `media_publish` **una sola vez** (si falla, mira `/media` antes de reintentar). Facebook: solo si existe la página Ceos Productions (ver IDs), con `reel.mp4`.
 
-## Historias (entre 2 y 5 al día, ~10:30)
-**Cuántas hoy** (para que no sea repetitivo): `[3, 5, 2, 4, 4, 2, 5, 3, 2, 4, 5, 3, 4, 2][día_del_año % 14]`.
+## Historias (5 al día, ~10:30)
+**Siempre 5** historias de valor (T = 5).
 - Carpeta `productions/historias/AAAA-MM-DD/`. Antes: GET `/<IG_ID>/stories?fields=id,timestamp`; si ya hay historias de hoy (Madrid) no publiques más.
 - Serie animada 1080×1920, 15 s cada una, en orden (se tocan como un carrusel), **mismo nivel y motor que las de Ceos Growth** (`toolkit/HISTORIAS.md`: referencia de diseño `historias/2026-09-26-serie/`, `toolkit/boost_story.py` para la capa de efectos) renderizadas con **`BRAND=productions DUR=15 NAME=0N python3 toolkit/render_story.py ...`**. Pastilla "0X / 0T" (T = total de hoy).
 - **Alto valor**: un tema útil distinto cada día y distinto del carrusel y los reels de hoy. Rota el FORMATO de la serie: tips en pasos · mito vs realidad · error común + cómo arreglarlo · antes/después (móvil vs estudio) · checklist antes de grabar/fotografiarse · mini-guion listo para copiar · "haz esto hoy". Estructura: 01 = gancho muy potente con "→"; las del medio = una idea por historia con su animación; la última = remate + CTA. CTA: martes y viernes "Escríbenos ESTUDIO por DM y reserva tu sesión en Burgos"; resto "Síguenos para más tips". (La API no permite encuestas ni stickers: todo va en el vídeo.)
@@ -87,6 +92,6 @@ Cada ejecución hace y publica **UN** reel: el de su hueco N. Carpeta `productio
 
 ## Siempre al final
 - **Verifica que se publicó de verdad**: GET `/<IG_ID>/media?fields=permalink,caption,timestamp,media_type&limit=3` y confirma que el post de hoy está ahí. Solo entonces cuenta como hecho.
-- Añade fila a `productions/publicados.md` (fecha | carrusel / reel N (meme o tip) / historias ×T | tema | permalink), commit y push.
+- En `productions/publicados.md` sustituye `en curso` de tu fila de reserva por el permalink (formato: fecha | carrusel CN / reel N (meme o tip) / historias ×5 | tema | permalink), commit + `git pull --rebase` + push.
 - Si al final NO se publicó, envía un correo a growthceos@gmail.com con asunto "⚠️ Ceos Productions: <pieza> no publicada · <fecha>" con el paso y el error exacto.
 - Última línea: tipo + tema + permalink, o el motivo exacto si no se publicó.
