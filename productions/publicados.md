@@ -8,3 +8,4 @@
 | 2026-09-28 | carrusel C2 | Sonido: por qué tu vídeo suena a lata y 3 arreglos para que suene profesional | https://www.instagram.com/p/Dd0zVi2AShr/ |
 | 2026-09-28 | reel 1 (tip) | Mirar a cámara sin parecer un robot: 3 trucos para hablar natural | https://www.instagram.com/reel/Dd0-5BeEkdn/ |
 | 2026-09-28 | carrusel C3 | Los 3 primeros segundos: cómo abrir tu vídeo para que no hagan scroll | https://www.instagram.com/p/Dd1BUWmEZ3T/ |
+| 2026-09-28 | reel 2 (meme) | POV: la mejor toma de tu vida… con el micro sin encender | en curso |
