@@ -1,0 +1,64 @@
+{
+ "topic": "Presupuestos que no se quedan en el cajón: envíalo en 24 horas, explícalo en una llamada y cierra con fecha para el siguiente paso",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Envías<br>presupuestos<br><em>y silencio?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Te paso el presupuesto"], "time": "LUNES"},
+     {"from": "out", "lines": ["¿Pudiste verlo?"], "time": "JUEVES"}
+    ]
+   },
+   "footer": "3 pasos para que no se enfríe"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Envíalo<br><em>en 24 horas.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Lo que te pidió", "Qué incluye y qué no", "Precio y plazo claros"]
+   },
+   "note": "Mientras aún <b>tiene el problema en la cabeza.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Explícalo<br><em>en una llamada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LLAMADA DE 10 MINUTOS",
+    "lines": ["Esto es lo que me pediste", "Así lo vamos a resolver", "¿Qué dudas te surgen?"]
+   },
+   "note": "Un PDF solo <b>no resuelve dudas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra con<br><em>fecha y hora.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Antes de colgar",
+    "fields": [
+     {"q": "Siguiente paso", "a": "Llamada de repaso"},
+     {"q": "Cuándo", "a": "Jueves, 10:00"},
+     {"q": "Validez", "a": "Hasta fin de mes"}
+    ],
+    "badge": "✓ EN EL CALENDARIO"
+   },
+   "note": "Sin fecha, <b>el «ya te digo» no llega.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Presupuestos<br><em>que se cierran.</em>",
+   "dur": 6,
+   "items": ["Envíalo en 24 horas", "Explícalo en una llamada", "Siguiente paso con fecha"]
+  }
+ ],
+ "caption": "¿Envías presupuestos y después solo hay silencio? 📄\n\nUn presupuesto enviado por email y sin más suele acabar olvidado en la bandeja. Esto ayuda a que avance:\n\n→ Envíalo en menos de 24 horas, con lo que te pidió, qué incluye y qué no, precio y plazo claros\n→ No lo mandes solo: explícalo en una llamada corta y resuelve sus dudas en el momento\n→ Antes de colgar, deja el siguiente paso con día y hora en el calendario\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #presupuestos #ventas #cerrarventas #captaciondeclientes #emprendedores #pymes"
+}
