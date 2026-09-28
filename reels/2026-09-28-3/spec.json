@@ -1,0 +1,71 @@
+{
+ "topic": "Retargeting en Meta para quien visitó tu web y no escribió: crea el público de visitas, enséñale otro anuncio y controla la frecuencia",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Entran en<br>tu web y <em>se van</em><br>sin escribir?",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "LUNES", "t": "Ve tu anuncio"},
+     {"n": "2", "d": "LUNES", "t": "Entra en tu web"},
+     {"n": "3", "d": "LUNES", "t": "Se va sin escribir"}
+    ]
+   },
+   "footer": "3 pasos para recuperarlos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Crea el público<br><em>que ya te vio.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Público personalizado",
+    "fields": [
+     {"q": "Fuente", "a": "Visitas a tu web"},
+     {"q": "Periodo", "a": "Últimos 30 días"},
+     {"q": "Excluir", "a": "Clientes y leads"}
+    ],
+    "badge": "✓ PÚBLICO LISTO"
+   },
+   "note": "Necesitas el <b>píxel de Meta</b> instalado en tu web."
+  },
+  {
+   "label": "PASO 2",
+   "title": "Otro anuncio,<br><em>no el mismo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "¿Te quedaste con dudas? Te las resolvemos.",
+    "media": "¿DUDAS?",
+    "headline": "Resuelve tus dudas",
+    "cta": "Enviar mensaje",
+    "tags": ["OPINIONES", "PREGUNTAS", "CASOS"]
+   },
+   "note": "Ya te conoce: <b>dale pruebas y resuelve dudas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Controla<br><em>la frecuencia.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad_t": "AGOBIAR",
+    "bad": ["El mismo anuncio a diario", "Semanas sin cambiarlo"],
+    "good_t": "RECORDAR",
+    "good": ["Rota 2 o 3 anuncios", "Renueva los que cansan"]
+   },
+   "note": "Recordar sí, <b>perseguir no.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Recupera a<br><em>quien ya te vio.</em>",
+   "dur": 6,
+   "items": ["Público de visitas a la web", "Otro anuncio: pruebas y dudas", "Frecuencia bajo control"]
+  }
+ ],
+ "caption": "¿Entran en tu web, miran y se van sin escribirte? 👀\n\nEsa persona ya mostró interés: no hace falta empezar de cero con ella.\n\n→ Crea en Meta un público con las visitas a tu web de los últimos 30 días (y excluye a quien ya es cliente o lead)\n→ Enséñale otro anuncio: opiniones, preguntas frecuentes o casos, no el mismo de la primera vez\n→ Controla la frecuencia: rota 2 o 3 anuncios para recordar sin agobiar\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #retargeting #publicidadonline #captaciondeclientes #marketingdigital #emprendedores"
+}
