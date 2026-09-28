@@ -1,0 +1,79 @@
+{
+ "topic": "Leer con teleprompter sin que se note: 3 trucos para que no parezca que lees",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Se nota que<br><em>estás leyendo?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "TELEPROMPTER",
+    "lines": [
+     "Hola, hoy te cuento...",
+     "Ojos de lado a lado",
+     "Voz plana, sin pausas"
+    ]
+   },
+   "footer": "3 trucos de teleprompter"
+  },
+  {
+   "label": "TRUCO 1",
+   "title": "Aléjate<br><em>del texto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Cámara pegada a ti",
+     "Ojos de lado a lado"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Cámara más lejos",
+     "Mirada casi quieta"
+    ]
+   },
+   "note": "Cuanto más lejos, <b>menos se mueven tus ojos.</b>"
+  },
+  {
+   "label": "TRUCO 2",
+   "title": "Pocas palabras<br><em>por línea.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Columna estrecha y centrada",
+     "Letra grande, bien legible",
+     "Texto justo encima de la lente"
+    ]
+   },
+   "note": "Lees sin barrer: <b>la vista no se va.</b>"
+  },
+  {
+   "label": "TRUCO 3",
+   "title": "Escríbelo<br><em>como hablas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ANTES", "t": "Léelo en voz alta", "s": "Cambia lo que no dirías así"},
+     {"n": "2", "d": "PAUSAS", "t": "Márcalas con /", "s": "Respiras donde toca"},
+     {"n": "3", "d": "RITMO", "t": "Que te siga a ti", "s": "Tú marcas la velocidad"}
+    ]
+   },
+   "note": "Si suena a texto, <b>suena a que lees.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Guárdalo para<br><em>tu próximo vídeo.</em>",
+   "dur": 6,
+   "items": [
+    "Cámara más lejos",
+    "Pocas palabras por línea",
+    "Escríbelo como hablas"
+   ]
+  }
+ ],
+ "caption": "¿Se nota que estás leyendo el teleprompter? 📜\n\nEl teleprompter no es el problema: es cómo lo colocas y cómo escribes el texto. 3 trucos para que no se note:\n\n→ Aléjate del texto: con la cámara más lejos tus ojos se mueven menos\n→ Pocas palabras por línea, letra grande y el texto justo encima de la lente\n→ Escríbelo como hablas: léelo en voz alta antes, marca las pausas y que el texto vaya a tu ritmo\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #teleprompter #hablaracamara #grabacion #marcapersonal #tipsdevideo #creadoresdecontenido"
+}
