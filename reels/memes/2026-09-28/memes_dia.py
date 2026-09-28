@@ -230,7 +230,7 @@ class ResenaAjena:
             g.text((130, y + 4), n, font=F(700, 30), fill=INK); g.text((130, y + 44), when, font=F(500, 24), fill=MUT)
             stars(g, 40, y + 92, s_, size=30); g.text((40, y + 140), txt, font=F(500, 30), fill=INK)
             y += 210
-        banner(im, t, 3.8, 'WhatsApp · Pedro R.', '“¡Ya te he dejado las 5 estrellas en Google! 😊”', t1=5.0)
+        banner(im, t, 3.8, 'WhatsApp · Pedro R.', '“¡Ya te he dejado las 5 estrellas en Google!”', t1=5.0)
         stamp(im, t, 4.9, 'NO ES TU FICHA', BW // 2, 175, size=40, rot=-5)
         tag(g)
         return im
@@ -558,6 +558,161 @@ class Duplicados:
         return im
 
 
+
+# ------------------------------------------------------------------ m13. LAS FOTOS "BUENAS" DEL NEGOCIO (WhatsApp con imágenes)
+class FotosBuenas(WAChat):
+    POV = 'POV: le pides al cliente “fotos buenas del negocio” para los anuncios'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    NAME, LETTER, HOUR = 'Cliente (panadería)', 'P', '09:1'
+    MSGS = [(0.3, 'out', '¿Me mandas fotos buenas del local y del producto?')]
+    PICS = [0.9, 1.7, 2.5]
+    SFX = ['pop@0.3', 'pop@0.9', 'pop@1.7', 'pop@2.5', 'pop@3.6', 'pop@5.1', 'boom@5.8']
+
+    def pic(self, kind):
+        im = Image.new('RGB', (270, 270), (40, 40, 40)); g = ImageDraw.Draw(im)
+        if kind == 0:  # de noche, persiana bajada
+            g.rectangle((0, 0, 270, 270), fill=(18, 18, 22))
+            for y in range(60, 230, 14): g.line([(40, y), (230, y)], fill=(48, 48, 54), width=6)
+            g.ellipse((200, 20, 220, 40), fill=(90, 90, 70))
+        elif kind == 1:  # dedo delante
+            g.rectangle((0, 0, 270, 270), fill=(206, 170, 120))
+            for x in range(20, 250, 60): g.ellipse((x, 150, x + 50, 200), fill=(170, 110, 50))
+            g.ellipse((-60, -40, 170, 190), fill=(232, 170, 150)); g.ellipse((-20, 0, 110, 120), fill=(240, 190, 170))
+        else:  # captura de una foto, pixelada
+            small = Image.new('RGB', (9, 9)); sg = ImageDraw.Draw(small)
+            for yy in range(9):
+                for xx in range(9): sg.point((xx, yy), fill=(150 + (xx * 13 + yy * 7) % 60, 110 + (xx * 5) % 50, 70 + (yy * 9) % 40))
+            im = small.resize((270, 270), Image.NEAREST); g = ImageDraw.Draw(im)
+            g.rectangle((0, 0, 270, 24), fill=(0, 0, 0)); g.text((135, 12), '12:04   Fotos', font=F(600, 16), fill='white', anchor='mm')
+        return im
+
+    def draw(self, t):
+        im, g = self.base(t); y = self.bubbles(im, t)
+        for i, ts in enumerate(self.PICS):
+            if t < ts: continue
+            k = pop((t - ts) / .3); x0 = 36 + i * 298; y0 = y + 10
+            b = Image.new('RGB', (286, 286), WA_IN); b.paste(self.pic(i), (8, 8))
+            sc = max(.1, min(1.08, k)); bb = b.resize((int(286 * sc), int(286 * sc)))
+            im.paste(bb, (x0 + (286 - bb.width) // 2, y0 + (286 - bb.height) // 2))
+        labs = ['(de noche)', '(con dedo)', '(captura de foto)']
+        for i, ts in enumerate(self.PICS):
+            if t >= ts + .3: g.text((36 + i * 298 + 143, y + 320), labs[i], font=F(600, 24), fill=WA_GREY, anchor='mm')
+        if t >= 3.6:
+            k = ease((t - 3.6) / .3); l, lg = layer(); A = int(255 * k); yy = y + 370
+            lg.rounded_rectangle((36, yy, 660, yy + 100), 22, fill=WA_IN + (A,))
+            lg.text((64, yy + 50), 'Son las mejores que tengo', font=F(500, 40), fill=WA_TXT + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        self.footer(g)
+        card(im, t, 5.1, 'Fotos que sirven', '0 de 3', 'pero el dedo sale genial', cy=560, big_size=90)
+        return im
+
+
+# ------------------------------------------------------------------ m14. EL PRIVADO QUE ERA UN BOT (mensajes directos)
+class PrivadoBot:
+    POV = 'POV: por fin te escribe alguien por privado y es para venderte seguidores'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    MSGS = [(1.0, 'Hola!! Me encanta tu perfil, de verdad'), (1.9, 'Tienes muchísimo potencial'),
+            (3.0, 'Te consigo 10.000 seguidores por 19 €'), (3.9, 'Reales al 100 % (casi)')]
+    SFX = ['ding@0.3', 'pop@1.0', 'pop@1.9', 'pop@3.0', 'pop@3.9', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        TXT, MUT, INB = (245, 245, 245), (150, 150, 155), (38, 38, 42)
+        im = Image.new('RGB', (BW, BH), (0, 0, 0)); g = ImageDraw.Draw(im)
+        g.line([(52, 75), (36, 60), (52, 45)], fill=TXT, width=5)
+        g.ellipse((72, 32, 152, 112), fill=(120, 60, 200)); g.text((112, 72), 'C', font=F(700, 38), fill='white', anchor='mm')
+        g.text((176, 36), 'crece.rapido.ya_93', font=F(700, 34), fill=TXT)
+        g.text((176, 82), 'Solicitud de mensaje · no te sigue', font=F(500, 24), fill=MUT)
+        g.line([(0, 140), (BW, 140)], fill=(38, 38, 40), width=2)
+        if t >= .3:
+            k = ease((t - .3) / .3); A = int(255 * k); l, lg = layer()
+            lg.rounded_rectangle((BW // 2 - 250, 170, BW // 2 + 250, 230), 30, fill=(38, 38, 42, A))
+            lg.text((BW // 2, 200), 'Tú: “¡Por fin un cliente!”', font=F(600, 26), fill=(255, 190, 150, A), anchor='mm')
+            im.paste(l, (0, 0), l)
+        y = 270; mf = F(500, 38)
+        for ts, text in self.MSGS:
+            if t < ts: continue
+            k = ease((t - ts) / .3); A = int(255 * k); dy = int((1 - k) * 30); l, lg = layer()
+            ls = wrap(text, mf, 600); bw = max(mf.getlength(s_) for s_ in ls) + 56; bh = len(ls) * 50 + 40
+            lg.rounded_rectangle((110, y + dy, 110 + bw, y + bh + dy), 34, fill=INB + (A,))
+            for j, s_ in enumerate(ls): lg.text((138, y + 20 + j * 50 + dy), s_, font=mf, fill=TXT + (A,))
+            lg.ellipse((36, y + bh - 56 + dy, 90, y + bh - 2 + dy), fill=(120, 60, 200, A))
+            im.paste(l, (0, 0), l); y += bh + 16
+        g.rounded_rectangle((24, BH - 104, BW - 24, BH - 24), 40, outline=(60, 60, 64), width=2)
+        g.text((70, BH - 64), 'Mensaje…', font=F(500, 32), fill=MUT, anchor='lm')
+        card(im, t, 5.1, 'Tu nuevo “cliente”', 'Un bot', 'y ni siquiera te sigue', cy=560, big_size=84)
+        return im
+
+
+# ------------------------------------------------------------------ m15. LAS VISITAS DE LA WEB SON TUYAS (analítica)
+class VisitasTuyas:
+    POV = 'POV: miras emocionado las visitas de tu web y casi todas son tuyas'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = ['count:1.6@0.4', 'ding@2.1', 'pop@2.9', 'pop@3.5', 'pop@4.1', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, BLU, ORG = (32, 33, 36), (95, 99, 104), (228, 230, 233), (26, 115, 232), (249, 171, 0)
+        im = Image.new('RGB', (BW, BH), (248, 249, 250)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill='white'); g.line([(0, 100), (BW, 100)], fill=LINE, width=2)
+        g.text((40, 50), 'Analítica web · Hoy', font=F(700, 34), fill=INK, anchor='lm')
+        g.rounded_rectangle((30, 130, BW - 30, 480), 18, fill='white', outline=LINE, width=2)
+        g.text((64, 170), 'Usuarios', font=F(600, 28), fill=MUT)
+        v = int(7 * ease((t - .4) / 1.6)) if t >= .4 else 0
+        g.text((64, 210), str(v), font=F(800, 100), fill=INK)
+        if t >= 2.1: g.text((200, 262), '¡récord!', font=F(800, 38), fill=(52, 168, 83), anchor='lm')
+        pts = [(64 + i * 104, 450 - int(h * min(1, max(0, (t - .4) / 1.6)))) for i, h in enumerate([10, 12, 8, 30, 20, 60, 110, 90])]
+        g.line(pts, fill=BLU, width=5)
+        g.rounded_rectangle((30, 510, BW - 30, BH - 30), 18, fill='white', outline=LINE, width=2)
+        g.text((64, 550), 'Detalle', font=F(700, 30), fill=INK)
+        rows = [(2.9, 'Ciudad: Burgos', '6'), (3.5, 'Dispositivo: tu móvil', '6'), (4.1, 'Página más vista: “Sobre mí”', '6')]
+        for i, (ts, a, b) in enumerate(rows):
+            if t < ts: continue
+            k = ease((t - ts) / .3); A = int(255 * k); yy = 620 + i * 90; l, lg = layer()
+            lg.text((64, yy), a, font=F(600, 30), fill=INK + (A,)); lg.text((BW - 64, yy), b, font=F(800, 34), fill=ORG + (A,), anchor='ra')
+            lg.line([(64, yy + 60), (BW - 64, yy + 60)], fill=LINE + (A,), width=2)
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Visitas que no eras tú', '1', 'y se fue en 3 segundos', cy=560, big_size=120)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m16. VISITA PRESENCIAL PARA 90 € (mapa)
+class VisitaPresencial:
+    POV = 'POV: un cliente te pide “visita presencial” para un presupuesto de 90 €'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = ['pop@0.3', 'count:1.8@0.6', 'pop@2.6', 'ding@3.7', 'pop@5.1', 'boom@5.8']
+    ROUTE = [(160, 170), (230, 250), (210, 330), (330, 390), (420, 370), (520, 440), (560, 530), (700, 570), (760, 640), (820, 690)]
+
+    def draw(self, t):
+        INK, MUT, BLU = (32, 33, 36), (95, 99, 104), (26, 115, 232)
+        im = Image.new('RGB', (BW, BH), (233, 236, 229)); g = ImageDraw.Draw(im)
+        for x in range(-200, BW, 140): g.line([(x, 0), (x + 300, BH)], fill=(255, 255, 255), width=10)
+        for y in range(80, BH, 170): g.line([(0, y), (BW, y + 60)], fill=(255, 255, 255), width=8)
+        g.ellipse((600, 180, 820, 330), fill=(200, 225, 190)); g.ellipse((80, 620, 300, 760), fill=(170, 210, 240))
+        k = ease((t - .6) / 1.8) if t >= .6 else 0
+        n = 1 + int((len(self.ROUTE) - 1) * k)
+        if n >= 2: g.line(self.ROUTE[:n], fill=BLU, width=12, joint='curve')
+        ax, ay = self.ROUTE[0]; bx, by = self.ROUTE[-1]
+        g.ellipse((ax - 18, ay - 18, ax + 18, ay + 18), fill='white', outline=BLU, width=6)
+        g.text((ax + 30, ay - 10), 'Tu oficina', font=F(700, 26), fill=INK, anchor='lm')
+        if k >= 1:
+            g.ellipse((bx - 20, by - 50, bx + 20, by - 10), fill=(234, 67, 53)); g.polygon([(bx - 14, by - 22), (bx + 14, by - 22), (bx, by)], fill=(234, 67, 53))
+            g.text((bx - 30, by + 30), 'Villanueva de Arriba', font=F(700, 26), fill=INK, anchor='rm')
+        g.rounded_rectangle((30, 30, BW - 30, 110), 40, fill='white')
+        g.text((70, 70), 'Casa del cliente (presupuesto 90 €)', font=F(600, 28), fill=INK, anchor='lm')
+        if t >= 2.6:
+            kk = ease((t - 2.6) / .35); l, lg = layer(); A = int(255 * kk); y0 = BH - int(200 * kk)
+            lg.rounded_rectangle((0, y0, BW, BH + 30), 30, fill=(255, 255, 255, A))
+            lg.text((50, y0 + 60), '2 h 45 min', font=F(800, 50), fill=(24, 128, 56, A), anchor='lm')
+            lg.text((340, y0 + 64), '(214 km) · con peajes', font=F(600, 30), fill=MUT + (A,), anchor='lm')
+            lg.text((50, y0 + 130), 'Ida. La vuelta, otra igual.', font=F(500, 28), fill=MUT + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        banner(im, t, 3.7, 'WhatsApp · Cliente', '“Ah, y tráete muestras de todo”', t1=5.2, y=130)
+        card(im, t, 5.1, 'Presupuesto', '90 €', 'gasolina aparte, claro', cy=560, big_size=120)
+        tag(g, y=150)
+        return im
+
+
 NEW = {'m01-descuento': Descuento, 'm02-mismo-lead': MismoLead, 'm03-resena-ajena': ResenaAjena, 'm04-desconocido': Desconocido,
        'm05-sobra-cero': SobraCero, 'm06-sin-telefono': SinTelefono, 'm07-ultimo-cambio': UltimoCambio, 'm08-campo-presupuesto': CampoPresupuesto,
-       'm09-recargar': Recargar, 'm10-hola-nombre': HolaNombre, 'm11-prueba-no-publicar': PruebaNoPublicar, 'm12-duplicados': Duplicados}
+       'm09-recargar': Recargar, 'm10-hola-nombre': HolaNombre, 'm11-prueba-no-publicar': PruebaNoPublicar, 'm12-duplicados': Duplicados,
+       'm13-fotos-buenas': FotosBuenas, 'm14-privado-bot': PrivadoBot, 'm15-visitas-tuyas': VisitasTuyas, 'm16-visita-presencial': VisitaPresencial}
