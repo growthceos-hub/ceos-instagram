@@ -10,3 +10,4 @@
 | 2026-09-28 | carrusel C3 | Los 3 primeros segundos: cómo abrir tu vídeo para que no hagan scroll | https://www.instagram.com/p/Dd1BUWmEZ3T/ |
 | 2026-09-28 | reel 2 (meme) | POV: te sale la toma perfecta a la primera… y el micro estaba apagado | https://www.instagram.com/reel/Dd1FSI-lMK2/ |
 | 2026-09-28 | reel 3 (tip) | Leer con teleprompter sin que se note: 3 trucos para que no parezca que lees | https://www.instagram.com/reel/Dd1M8R2DSsV/ |
+| 2026-09-28 | reel 4 (meme) | POV: "es solo un vídeo de 30 segundos, en 5 minutos lo tenemos" | en curso |
