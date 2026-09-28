@@ -284,4 +284,141 @@ class Desconocido:
         return im
 
 
-NEW = {'m01-descuento': Descuento, 'm02-mismo-lead': MismoLead, 'm03-resena-ajena': ResenaAjena, 'm04-desconocido': Desconocido}
+
+# ------------------------------------------------------------------ m05. SOBRA UN CERO (app del banco + presupuesto diario)
+class SobraCero:
+    POV = 'POV: configuras la campaña “a 10 € al día” y el banco te avisa de que eran 100'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 830)
+    DAYS = [(0.6, 'Lunes'), (1.3, 'Martes'), (2.0, 'Miércoles'), (2.7, 'Jueves')]
+    SFX = [f'ding@{a}' for a, _ in DAYS] + ['count:2.6@0.6', 'pop@3.6', 'tick@4.4', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, RED_ = (25, 28, 36), (110, 116, 128), (229, 232, 238), (220, 50, 50)
+        im = Image.new('RGB', (BW, BH), (243, 245, 249)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 250), fill=(18, 60, 130))
+        g.text((40, 50), 'Mi cuenta · Movimientos', font=F(600, 30), fill=(200, 215, 240), anchor='lm')
+        n = sum(1 for a, _ in self.DAYS if t >= a); bal = 1240 - 100 * n
+        if 0.6 <= t < 3.4: bal = 1240 - 400 * ease((t - .6) / 2.6)
+        g.text((40, 140), eur(bal), font=F(800, 80), fill='white', anchor='lm')
+        g.text((40, 210), 'Saldo disponible', font=F(500, 26), fill=(200, 215, 240), anchor='lm')
+        for i, (ts, d) in enumerate(self.DAYS):
+            if t < ts: continue
+            k = ease((t - ts) / .3); yy = 280 + i * 104; A = int(255 * k); l, lg = layer()
+            lg.rounded_rectangle((30, yy, BW - 30, yy + 90), 18, fill=(255, 255, 255, A))
+            lg.ellipse((52, yy + 18, 106, yy + 72), fill=(8, 102, 255, A)); lg.text((79, yy + 45), 'A', font=F(800, 28), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((126, yy + 16), 'Plataforma de anuncios', font=F(700, 30), fill=INK + (A,))
+            lg.text((126, yy + 54), d, font=F(500, 24), fill=MUT + (A,))
+            lg.text((BW - 56, yy + 45), '-100,00 €', font=F(800, 34), fill=RED_ + (A,), anchor='rm')
+            im.paste(l, (0, 0), l)
+        if t >= 3.6:
+            k = ease((t - 3.6) / .35); l, lg = layer(); A = int(255 * k); y0 = 745 + int((1 - k) * 60)
+            lg.rounded_rectangle((30, y0 - 40, BW - 30, y0 + 250), 22, fill=(255, 255, 255, A), outline=LINE + (A,), width=2)
+            lg.text((64, y0), 'Configuración del conjunto de anuncios', font=F(600, 26), fill=MUT + (A,))
+            lg.text((64, y0 + 44), 'Presupuesto diario', font=F(700, 32), fill=INK + (A,))
+            lg.rounded_rectangle((64, y0 + 100, BW - 64, y0 + 200), 14, outline=(8, 102, 255, A), width=3)
+            lg.text((480, y0 + 150), '100,00 €', font=F(800, 56), fill=INK + (A,), anchor='mm')
+            im.paste(l, (0, 0), l)
+        if 4.4 <= t < 5.4:
+            k = ease((t - 4.4) / .5); l, lg = layer(); cursor(lg, int(700 - 150 * k), int(1000 - 100 * k)); im.paste(l, (0, 0), l)
+        stamp(im, t, 5.0, 'SOBRA UN CERO', 480, 770, size=38, rot=-6)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m06. CLIENTES POTENCIALES SIN TELÉFONO (Excel)
+class SinTelefono:
+    POV = 'POV: te pasan la lista de “clientes potenciales” y la columna del teléfono está vacía'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    ROWS = [('Construcciones Ruiz', 'muy interesado'), ('Talleres Sanz', 'le conoce mi primo'), ('Clínica Dental Sol', 'llamar (buscar nº)'),
+            ('Hostal El Arco', 'sale en Google creo'), ('Muebles Duero', 'me dijo que sí'), ('Gimnasio Forma', 'en verano mejor'),
+            ('Asesoría Núñez', 'no sé el nombre'), ('Pastelería Mayor', '¿cerró?')]
+    SFX = ['pop@0.3'] + [f'tick@{0.6 + i * .35:.2f}' for i in range(8)] + ['pop@3.8', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, GRN = (32, 33, 36), (95, 99, 104), (218, 220, 224), (16, 124, 65)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 84), fill=GRN); g.text((30, 42), 'clientes_potenciales_BUENO.xlsx', font=F(700, 30), fill='white', anchor='lm')
+        g.rectangle((0, 84, BW, 150), fill=(248, 249, 250)); g.text((30, 117), 'fx', font=F(700, 28), fill=MUT, anchor='lm')
+        g.text((90, 117), '' if t < 3.8 else '=C2:C9   (todo vacío)', font=F(600, 28), fill=INK, anchor='lm')
+        cols = [(0, 60, ''), (60, 370, 'Nombre'), (370, 560, 'Teléfono'), (560, BW, 'Notas')]
+        y0, rh = 150, 72
+        g.rectangle((0, y0, BW, y0 + 56), fill=(241, 243, 244))
+        for x0, x1, name in cols:
+            g.text(((x0 + x1) // 2, y0 + 28), name, font=F(700, 26), fill=INK, anchor='mm'); g.line([(x1, y0), (x1, BH)], fill=LINE, width=2)
+        for i in range(12):
+            yy = y0 + 56 + i * rh; g.line([(0, yy + rh), (BW, yy + rh)], fill=LINE, width=2)
+            g.text((30, yy + rh // 2), str(i + 2), font=F(500, 22), fill=MUT, anchor='mm')
+            if i < len(self.ROWS) and t >= 0.6 + i * .35:
+                n, nota = self.ROWS[i]
+                g.text((72, yy + rh // 2), n, font=F(600, 25), fill=INK, anchor='lm')
+                g.text((574, yy + rh // 2), nota, font=F(500, 24), fill=INK, anchor='lm')
+        if t >= 3.8:
+            k = ease((t - 3.8) / .3); l, lg = layer(); A = int(255 * k)
+            lg.rectangle((370, y0 + 56, 560, y0 + 56 + 8 * rh), fill=(255, 80, 80, int(50 * k)), outline=(220, 40, 40, A), width=5)
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Teléfonos en la lista', '0 de 8', '“pero están muy interesados”', cy=560, big_size=90)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m07. EL ÚLTIMO CAMBIO (carpeta de diseños)
+class UltimoCambio:
+    POV = 'POV: el cliente pide “un último cambio” en el anuncio'
+    DUR, PUNCH, FOCUS = 7.6, 5.9, (480, 580)
+    FILES = [(0.3, 'anuncio_final.png'), (0.9, 'anuncio_final2.png'), (1.5, 'anuncio_final_bueno.png'),
+             (2.1, 'anuncio_FINAL_de_verdad.png'), (2.7, 'anuncio_final_ESTE_SI.png'), (3.3, 'anuncio_final_v14 (2).png')]
+    SFX = [f'pop@{a}' for a, _ in FILES] + ['ding@4.2', 'pop@5.2', 'boom@5.9']
+
+    def draw(self, t):
+        INK, MUT, LINE = (30, 32, 36), (110, 112, 118), (226, 228, 232)
+        im = Image.new('RGB', (BW, BH), (250, 250, 252)); g = ImageDraw.Draw(im)
+        g.text((40, 60), 'Mis diseños › Cliente reformas', font=F(700, 34), fill=INK, anchor='lm')
+        g.line([(0, 110), (BW, 110)], fill=LINE, width=2)
+        cols = [(0, 0, 0), (255, 106, 26), (26, 115, 232), (52, 168, 83), (234, 67, 53), (160, 90, 220), (240, 180, 20)]
+        for i, (ts, name) in enumerate(self.FILES):
+            if t < ts: continue
+            k = pop((t - ts) / .3); c, r = i % 2, i // 2
+            x0, y0 = 40 + c * 450, 140 + r * 270; w, h = 430, 250
+            l, lg = layer(); s = max(.05, min(1.1, k))
+            cx, cy = x0 + w // 2, y0 + h // 2; ww, hh = int(w * s / 2), int(h * s / 2)
+            lg.rounded_rectangle((cx - ww, cy - hh, cx + ww, cy + hh), 16, fill=(255, 255, 255, 255), outline=LINE + (255,), width=2)
+            if k > .8:
+                lg.rounded_rectangle((x0 + 16, y0 + 16, x0 + w - 16, y0 + 170), 10, fill=cols[i + 1] + (255,))
+                lg.text((x0 + w // 2, y0 + 93), 'OFERTA', font=F(800, 44 + i * 4), fill=(255, 255, 255, 255), anchor='mm')
+                f = F(600, 22); nm = name if f.getlength(name) < w - 30 else name[:26] + '…'
+                lg.text((x0 + 16, y0 + 206), nm, font=f, fill=INK + (255,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        banner(im, t, 4.2, 'WhatsApp · Cliente reformas', '“¿Y si volvemos a la primera versión?”', t1=5.3)
+        card(im, t, 5.2, 'Tras 14 “últimos cambios”', 'La v1', 'era la buena', cy=580, big_size=100)
+        return im
+
+
+# ------------------------------------------------------------------ m08. EL CAMPO PRESUPUESTO (respuestas del formulario)
+class CampoPresupuesto:
+    POV = 'POV: añades al formulario “¿qué presupuesto tienes?” para filtrar a los curiosos'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    ANS = [(0.7, 'Poco'), (1.3, 'El mínimo'), (1.9, 'Depende de lo que cueste'), (2.5, '0'), (3.1, 'jajaja'), (3.7, '¿No era gratis?')]
+    SFX = [f'pop@{a}' for a, _ in ANS] + ['pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, PUR = (32, 33, 36), (95, 99, 104), (218, 220, 224), (103, 58, 183)
+        im = Image.new('RGB', (BW, BH), (240, 235, 248)); g = ImageDraw.Draw(im)
+        g.rounded_rectangle((30, 30, BW - 30, 200), 18, fill='white'); g.rectangle((30, 30, BW - 30, 44), fill=PUR)
+        g.text((64, 96), 'Solicitud de presupuesto', font=F(800, 38), fill=INK, anchor='lm')
+        n = sum(1 for a, _ in self.ANS if t >= a)
+        g.text((64, 156), f'Respuestas ({n})', font=F(600, 28), fill=PUR, anchor='lm')
+        g.rounded_rectangle((30, 220, BW - 30, BH - 30), 18, fill='white')
+        g.text((64, 270), '¿Qué presupuesto tienes para marketing?', font=F(700, 30), fill=INK, anchor='lm')
+        for i, (ts, a) in enumerate(self.ANS):
+            if t < ts: continue
+            k = ease((t - ts) / .3); yy = 320 + i * 104; A = int(255 * k); l, lg = layer()
+            lg.rounded_rectangle((64, yy, BW - 64, yy + 86), 12, fill=(247, 248, 250, A), outline=LINE + (A,), width=2)
+            lg.text((96, yy + 43), a, font=F(600, 34), fill=INK + (A,), anchor='lm')
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Curiosos filtrados', '0', 'pero ahora son sinceros', cy=560, big_size=120)
+        tag(g)
+        return im
+
+
+NEW = {'m01-descuento': Descuento, 'm02-mismo-lead': MismoLead, 'm03-resena-ajena': ResenaAjena, 'm04-desconocido': Desconocido,
+       'm05-sobra-cero': SobraCero, 'm06-sin-telefono': SinTelefono, 'm07-ultimo-cambio': UltimoCambio, 'm08-campo-presupuesto': CampoPresupuesto}
