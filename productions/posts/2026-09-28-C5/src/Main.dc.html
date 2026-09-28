@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>01 · Gancho</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aHead{0%{left:0%}100%{left:100%}}
+@keyframes aWave{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+@keyframes aGapFlash{0%,26%{box-shadow:none}30%,40%{box-shadow:0 0 30px rgba(255,59,48,.9)}}
+@keyframes aSnip{0%,27%{opacity:0;transform:scale(.4) rotate(-30deg)}32%,42%{opacity:1;transform:scale(1.15) rotate(0)}48%,100%{opacity:0;transform:scale(.6)}}
+@keyframes aTagA{0%,44%{opacity:1}50%,94%{opacity:0}100%{opacity:1}}
+@keyframes aTagB{0%,44%{opacity:0}50%,94%{opacity:1}100%{opacity:0}}
+@keyframes aDur{0%,42%{width:100%}58%,90%{width:66%}98%,100%{width:100%}}
+@keyframes aSpeak{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+@keyframes aSub{0%,14%{opacity:1}15%,29%{opacity:0}30%,100%{opacity:1}}
+@keyframes aSub2{0%,14%{opacity:0}15%,29%{opacity:1}30%,100%{opacity:0}}
+@keyframes aG1{0%,44%{width:72px;opacity:1;margin:0}58%,90%{width:0px;opacity:0;margin:0 -3px}98%,100%{width:72px;opacity:1;margin:0}}
+@keyframes aG3{0%,44%{width:56px;opacity:1;margin:0}58%,90%{width:0px;opacity:0;margin:0 -3px}98%,100%{width:56px;opacity:1;margin:0}}
+@keyframes aG5{0%,44%{width:70px;opacity:1;margin:0}58%,90%{width:0px;opacity:0;margin:0 -3px}98%,100%{width:70px;opacity:1;margin:0}}
+@keyframes aG7{0%,44%{width:58px;opacity:1;margin:0}58%,90%{width:0px;opacity:0;margin:0 -3px}98%,100%{width:58px;opacity:1;margin:0}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">01 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">EL SECRETO DEL RITMO</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 96px; line-height: 0.95; letter-spacing: -0.055em">Tu vídeo no es largo.<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">Tiene huecos.</span></h1>
+</div>
+
+<div style="position: relative; height: 600px; border-radius: 34px; overflow: hidden; background: #12100F; border: 2px solid rgba(242,237,231,0.14); box-shadow: 0 50px 120px -40px rgba(255,106,26,0.55)">
+  <div style="position: absolute; left: 40px; right: 40px; top: 32px; height: 300px; border-radius: 20px; overflow: hidden; background: #0A0908">
+    <div style="position:absolute; inset:0; animation: aSpeak 1s ease-in-out infinite"><div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%, #3A2A20, #171412 75%)"><svg width="260" height="260" viewBox="0 0 300 300" style="position: absolute; left: 50%; margin-left: -130px; bottom: -6px"><g fill="rgba(242,237,231,.9)"><ellipse cx="150" cy="112" rx="48" ry="57"/><path d="M52 310 C52 208 98 176 150 176 C202 176 248 208 248 310 Z"/></g></svg></div></div>
+    <div style="position: absolute; inset: 18px; pointer-events: none">
+<div style="position: absolute; left: 0; top: 0; width: 40px; height: 40px; border-left: 4px solid #F2EDE7; border-top: 4px solid #F2EDE7"></div>
+<div style="position: absolute; right: 0; top: 0; width: 40px; height: 40px; border-right: 4px solid #F2EDE7; border-top: 4px solid #F2EDE7"></div>
+<div style="position: absolute; left: 0; bottom: 0; width: 40px; height: 40px; border-left: 4px solid #F2EDE7; border-bottom: 4px solid #F2EDE7"></div>
+<div style="position: absolute; right: 0; bottom: 0; width: 40px; height: 40px; border-right: 4px solid #F2EDE7; border-bottom: 4px solid #F2EDE7"></div>
+<div style="position: absolute; left: 18px; top: 12px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 18px; letter-spacing: .1em; color: #F2EDE7"><span style="width: 14px; height: 14px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 12px #FF3B30; animation: aRec 1s steps(1) infinite"></span>REC</div>
+</div>
+    <div style="position: absolute; left: 0; right: 0; bottom: 26px; display: flex; justify-content: center">
+      <span style="position: absolute; bottom: 0; padding: 10px 22px; border-radius: 12px; background: rgba(10,9,8,.85); font-weight: 700; font-size: 28px; animation: aSub 4s steps(1) infinite">“Hoy te enseño…”</span>
+      <span style="position: absolute; bottom: 0; padding: 10px 22px; border-radius: 12px; background: rgba(10,9,8,.85); font-weight: 700; font-size: 28px; color: #FF6B61; opacity: 0; animation: aSub2 4s steps(1) infinite">“eeeh…”</span>
+    </div>
+    <div style="position: absolute; right: 70px; top: 30px; font-family: 'JetBrains Mono', monospace; font-size: 18px; letter-spacing: .1em; width: 400px; height: 24px">
+      <span style="position:absolute; right:0; white-space:nowrap; color:#FF6B61; animation: aTagA 4s linear infinite">ANTES · CON HUECOS</span>
+      <span style="position:absolute; right:0; white-space:nowrap; color:#FFB27A; opacity:0; animation: aTagB 4s linear infinite">DESPUÉS · SOLO LO QUE APORTA</span>
+    </div>
+  </div>
+  <div style="position: absolute; left: 40px; right: 40px; top: 382px; height: 190px">
+    <span style="position: absolute; left: 0; top: 18px; font-family: 'JetBrains Mono', monospace; font-size: 16px; letter-spacing: .1em; color: #FFB27A">V1</span>
+    <span style="position: absolute; left: 0; top: 90px; font-family: 'JetBrains Mono', monospace; font-size: 16px; letter-spacing: .1em; color: #9C938B">A1</span>
+    <span style="position: absolute; left: 0; top: 150px; font-family: 'JetBrains Mono', monospace; font-size: 14px; letter-spacing: .1em; color: #9C938B">DUR.</span>
+    <div style="position: absolute; left: 60px; right: 0; top: 0; height: 190px">
+      <div style="position: absolute; left: 0; right: 0; top: 0; height: 56px; display: flex; gap: 6px"><div style="flex: none; width: 84px; height: 100%; border-radius: 10px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); box-shadow: 0 0 20px rgba(255,106,26,.45)"></div><div style="flex: none; width: 72px; height: 100%; border-radius: 10px; background: repeating-linear-gradient(135deg, rgba(255,59,48,.55) 0 10px, rgba(255,59,48,.25) 10px 20px); border: 2px solid #FF3B30; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: .06em; color: #FFD2CE; animation: aG1 4s cubic-bezier(.6,0,.3,1) infinite, aGapFlash 4s linear infinite">SILENCIO</div><div style="flex: none; width: 96px; height: 100%; border-radius: 10px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); box-shadow: 0 0 20px rgba(255,106,26,.45)"></div><div style="flex: none; width: 56px; height: 100%; border-radius: 10px; background: repeating-linear-gradient(135deg, rgba(255,59,48,.55) 0 10px, rgba(255,59,48,.25) 10px 20px); border: 2px solid #FF3B30; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: .06em; color: #FFD2CE; animation: aG3 4s cubic-bezier(.6,0,.3,1) infinite, aGapFlash 4s linear infinite">EHHH</div><div style="flex: none; width: 104px; height: 100%; border-radius: 10px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); box-shadow: 0 0 20px rgba(255,106,26,.45)"></div><div style="flex: none; width: 70px; height: 100%; border-radius: 10px; background: repeating-linear-gradient(135deg, rgba(255,59,48,.55) 0 10px, rgba(255,59,48,.25) 10px 20px); border: 2px solid #FF3B30; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: .06em; color: #FFD2CE; animation: aG5 4s cubic-bezier(.6,0,.3,1) infinite, aGapFlash 4s linear infinite">REPITO</div><div style="flex: none; width: 88px; height: 100%; border-radius: 10px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); box-shadow: 0 0 20px rgba(255,106,26,.45)"></div><div style="flex: none; width: 58px; height: 100%; border-radius: 10px; background: repeating-linear-gradient(135deg, rgba(255,59,48,.55) 0 10px, rgba(255,59,48,.25) 10px 20px); border: 2px solid #FF3B30; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; letter-spacing: .06em; color: #FFD2CE; animation: aG7 4s cubic-bezier(.6,0,.3,1) infinite, aGapFlash 4s linear infinite">PAUSA</div><div style="flex: none; width: 84px; height: 100%; border-radius: 10px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); box-shadow: 0 0 20px rgba(255,106,26,.45)"></div></div>
+      <div style="position:absolute; top: -48px; left: 109px; color: #FF6B61; font-size: 34px; opacity: 0; animation: aSnip 4s ease-out 0s infinite">✂</div><div style="position:absolute; top: -48px; left: 281px; color: #FF6B61; font-size: 34px; opacity: 0; animation: aSnip 4s ease-out 0.05s infinite">✂</div><div style="position:absolute; top: -48px; left: 460px; color: #FF6B61; font-size: 34px; opacity: 0; animation: aSnip 4s ease-out 0.1s infinite">✂</div><div style="position:absolute; top: -48px; left: 624px; color: #FF6B61; font-size: 34px; opacity: 0; animation: aSnip 4s ease-out 0.15s infinite">✂</div>
+      <div style="position: absolute; left: 0; right: 0; top: 74px; height: 46px; border-radius: 10px; background: rgba(242,237,231,.06); display: flex; gap: 4px; padding: 6px 12px; box-sizing: border-box"><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.00s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.87s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.74s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.61s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.48s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.35s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.22s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.09s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.96s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.83s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.70s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.57s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.44s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.31s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.18s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.05s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.92s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.79s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.66s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.53s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.40s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.27s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.14s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.01s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.88s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.75s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.62s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.49s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.36s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.23s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.10s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.97s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.84s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.71s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.58s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.45s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.32s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.19s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.06s infinite"></div><div style="flex:1; height: 100%; border-radius: 3px; background: rgba(242,237,231,.55); animation: aWave 1s ease-in-out 0.93s infinite"></div></div>
+      <div style="position: absolute; left: 0; right: 0; top: 146px; height: 22px; border-radius: 99px; background: rgba(242,237,231,.08); overflow: hidden"><div style="height: 100%; border-radius: 99px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); animation: aDur 4s cubic-bezier(.6,0,.3,1) infinite"></div></div>
+      <div style="position: absolute; top: -10px; height: 136px; width: 4px; border-radius: 4px; background: #F2EDE7; box-shadow: 0 0 18px rgba(242,237,231,.9); animation: aHead 4s linear infinite"></div>
+    </div>
+  </div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">3 cortes para que no se vayan a mitad.</span>
+<span style="display: inline-flex; align-items: center; gap: 10px; background: #FF6A1A; color: #0A0908; font-weight: 700; font-size: 24px; padding: 14px 26px; border-radius: 999px">Desliza<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="2.8" style="animation: aNudge 2s ease-in-out infinite"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
