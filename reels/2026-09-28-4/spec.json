@@ -1,0 +1,67 @@
+{
+ "topic": "3 emails para leads que aún no compran: bienvenida el mismo día, un caso útil a los 3 días y una invitación con fecha",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus leads<br><em>se olvidan</em><br>de ti?",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "in", "text": "Lo pienso y te digo", "time": "LUNES"},
+     {"from": "out", "lines": ["¿Pudiste pensarlo?"], "time": "VIERNES"}
+    ]
+   },
+   "footer": "3 emails para que te recuerden"
+  },
+  {
+   "label": "EMAIL 1",
+   "title": "Bienvenida<br><em>el mismo día.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "EMAIL 1 · BIENVENIDA",
+    "lines": ["Gracias por escribirnos", "Qué pasa a partir de ahora", "Cómo contactar contigo"]
+   },
+   "note": "Llega cuando <b>aún se acuerda de ti.</b>"
+  },
+  {
+   "label": "EMAIL 2",
+   "title": "Un caso útil<br><em>a los 3 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Email del día 3",
+    "fields": [
+     {"q": "Asunto", "a": "Así lo resolvimos"},
+     {"q": "Contenido", "a": "Problema y resultado"},
+     {"q": "Cierre", "a": "¿Te pasa algo parecido?"}
+    ],
+    "badge": "✓ PROGRAMADO"
+   },
+   "note": "Enseña, no vendas: <b>que vea que funciona.</b>"
+  },
+  {
+   "label": "EMAIL 3",
+   "title": "Invitación<br><em>con fecha.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad_t": "VAGO",
+    "bad": ["Ya me dirás algo", "Cuando quieras hablamos"],
+    "good_t": "CLARO",
+    "good": ["Llamada de 15 minutos", "¿Martes o jueves?"]
+   },
+   "note": "Una sola acción, <b>fácil de decir que sí.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que te recuerden<br><em>sin perseguir.</em>",
+   "dur": 6,
+   "items": ["Bienvenida el mismo día", "Un caso útil al día 3", "Invitación con fecha"]
+  }
+ ],
+ "caption": "¿Tus leads te dicen «lo pienso» y luego se olvidan de ti? 📩\n\nNo hace falta perseguirlos: con 3 emails bien pensados sigues presente sin agobiar.\n\n→ Email 1, el mismo día: gracias, qué pasa a partir de ahora y cómo contactar contigo\n→ Email 2, a los 3 días: un caso útil (el problema, qué hicisteis y el resultado)\n→ Email 3, a la semana: una invitación concreta, por ejemplo una llamada de 15 minutos con dos días a elegir\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #emailmarketing #seguimiento #captaciondeclientes #ventas #marketingdigital #emprendedores"
+}
