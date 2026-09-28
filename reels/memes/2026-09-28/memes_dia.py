@@ -420,5 +420,144 @@ class CampoPresupuesto:
         return im
 
 
+
+# ------------------------------------------------------------------ m09. RECARGAR PAGOS (panel de pagos)
+class Recargar:
+    POV = 'POV: es el día del lanzamiento y recargas el panel de pagos cada tres minutos'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = [f'tick@{0.4 + i * .5:.1f}' for i in range(9)] + ['pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        BG, INK, MUT, LINE, PUR = (246, 249, 252), (26, 31, 54), (105, 115, 134), (227, 232, 238), (99, 91, 255)
+        im = Image.new('RGB', (BW, BH), BG); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill='white'); g.line([(0, 100), (BW, 100)], fill=LINE, width=2)
+        g.text((40, 50), 'Pagos · Lanzamiento del curso', font=F(700, 32), fill=INK, anchor='lm')
+        n = sum(1 for i in range(9) if t >= .4 + i * .5)
+        spin = (t * 400) % 360
+        cx, cy = BW - 70, 50
+        l, lg = layer(); lg.arc((cx - 24, cy - 24, cx + 24, cy + 24), spin, spin + 270, fill=PUR + (255,), width=6); im.paste(l, (0, 0), l)
+        g.rounded_rectangle((30, 130, BW - 30, 470), 20, fill='white', outline=LINE, width=2)
+        g.text((64, 170), 'Ventas de hoy', font=F(600, 28), fill=MUT)
+        g.text((64, 220), '0,00 €', font=F(800, 90), fill=INK)
+        for x in range(64, BW - 64, 8): g.line([(x, 420), (x + 4, 420)], fill=(190, 196, 210), width=3)
+        g.text((64, 434), '00:00', font=F(500, 22), fill=MUT); g.text((BW - 64, 434), 'ahora', font=F(500, 22), fill=MUT, anchor='ra')
+        g.rounded_rectangle((30, 500, BW - 30, BH - 30), 20, fill='white', outline=LINE, width=2)
+        g.text((64, 540), 'Actividad', font=F(700, 30), fill=INK)
+        base_h = 20
+        for i in range(min(n, 6)):
+            yy = 600 + i * 58
+            g.text((64, yy), f'Actualizado · 20:{base_h + (n - i) * 3:02d}', font=F(500, 27), fill=MUT)
+            g.text((BW - 64, yy), 'sin pagos nuevos', font=F(600, 27), fill=INK, anchor='ra')
+        g.rounded_rectangle((BW - 330, 540, BW - 64, 584), 22, fill=(237, 235, 255))
+        g.text((BW - 197, 562), f'Recargas: {n * 5 + 2}', font=F(700, 24), fill=PUR, anchor='mm')
+        card(im, t, 5.1, 'Veces que has recargado', '47', 'ventas nuevas: 0', cy=560, big_size=120)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m10. HOLA {NOMBRE} (correo)
+class HolaNombre:
+    POV = 'POV: mandas la newsletter a toda tu base de datos y sale “Hola {nombre}”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    REPL = [(2.4, 'Re: Hola {nombre}', '¿Quién es {nombre}? Yo soy Luis.'), (3.1, 'Re: Hola {nombre}', 'Jajaja qué profesional todo'),
+            (3.8, 'Re: Hola {nombre}', 'Hola {tu_empresa}, date de baja tú.')]
+    SFX = ['pop@0.3', 'tick@1.4', 'ding@2.4', 'ding@3.1', 'ding@3.8', 'pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE = (32, 33, 36), (95, 99, 104), (232, 234, 237)
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill=(246, 248, 252)); g.text((40, 50), 'Enviados', font=F(700, 34), fill=INK, anchor='lm')
+        g.rounded_rectangle((30, 120, BW - 30, 460), 18, fill=(250, 250, 252), outline=LINE, width=2)
+        g.text((64, 160), 'Asunto: ¡Novedades de octubre!', font=F(700, 30), fill=INK)
+        g.text((64, 206), 'Para: toda la lista · enviado', font=F(500, 24), fill=MUT)
+        body = 'Hola {nombre}, sabemos que te encanta {producto_favorito}…'
+        n = int(len(body) * min(1, max(0, (t - .3) / 1.0)))
+        ft = F(600, 34)
+        for j, s_ in enumerate(wrap(body[:n], ft, BW - 140)):
+            g.text((64, 270 + j * 48), s_, font=ft, fill=INK)
+        if t >= 1.4:
+            k = ease((t - 1.4) / .3)
+            l, lg = layer(); lg.rounded_rectangle((64, 400, 64 + int(300 * k), 440), 20, fill=(52, 168, 83, 255))
+            if k > .8: lg.text((214, 420), 'Enviado', font=F(700, 24), fill=(255, 255, 255, 255), anchor='mm')
+            im.paste(l, (0, 0), l)
+        g.text((40, 500), 'Recibidos', font=F(700, 30), fill=INK)
+        for i, (ts, sub, txt) in enumerate(self.REPL):
+            if t < ts: continue
+            k = ease((t - ts) / .3); yy = 550 + i * 130; A = int(255 * k); l, lg = layer()
+            lg.rectangle((0, yy - 6, BW, yy + 114), fill=(252, 244, 232, A))
+            lg.ellipse((40, yy + 10, 100, yy + 70), fill=(189, 193, 198, A)); lg.text((70, yy + 40), 'R', font=F(700, 28), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((124, yy + 6), sub, font=F(800, 28), fill=INK + (A,))
+            lg.text((124, yy + 50), txt, font=F(500, 27), fill=MUT + (A,))
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Suscriptores que se llaman', '{nombre}', 'todos, al parecer', cy=560, big_size=80)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m11. EL ANUNCIO "PRUEBA NO PUBLICAR" (Administrador de anuncios)
+class PruebaNoPublicar:
+    POV = 'POV: tu mejor anuncio del mes es el que subiste por error sin terminar'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 640)
+    SFX = ['pop@0.4', 'pop@1.2', 'pop@2.3', 'count:1.4@2.5', 'pop@4.4', 'boom@5.8']
+
+    def draw(self, t):
+        BG, INK, MUT, LINE, GRN = (242, 244, 247), (28, 30, 33), (101, 103, 107), (221, 223, 226), (49, 162, 76)
+        im = Image.new('RGB', (BW, BH), BG); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 110), fill='white'); g.line([(0, 110), (BW, 110)], fill=LINE, width=2)
+        g.text((40, 55), 'Administrador de anuncios · Anuncios', font=F(700, 32), fill=INK, anchor='lm')
+        g.text((210, 150), 'Anuncio', font=F(600, 24), fill=MUT, anchor='lm'); g.text((BW - 50, 150), 'Coste por lead', font=F(600, 24), fill=MUT, anchor='rm')
+        rows = [(0.4, 'Vídeo corporativo (3 días de rodaje)', 38.20, (40, 60, 90), 'VÍDEO'),
+                (1.2, 'Carrusel revisado por todo el equipo', 27.90, (255, 106, 26), '1/5'),
+                (2.3, 'prueba NO PUBLICAR', 3.10, (200, 200, 205), 'TEXTO AQUÍ')]
+        for i, (ts, name, cpl, col, th) in enumerate(rows):
+            if t < ts: continue
+            k = ease((t - ts) / .3); yy = 190 + i * 170 + (i == 2) * 60; A = int(255 * k); l, lg = layer()
+            win = i == 2 and t >= 4.4
+            lg.rounded_rectangle((30, yy, BW - 30, yy + 150), 16, fill=(255, 255, 255, A), outline=(GRN if win else LINE) + (A,), width=5 if win else 2)
+            lg.rounded_rectangle((50, yy + 20, 180, yy + 130), 10, fill=col + (A,))
+            lg.text((115, yy + 75), th, font=F(700, 18 if len(th) > 5 else 26), fill=(255, 255, 255, A) if i < 2 else (120, 120, 126, A), anchor='mm')
+            f = F(700, 27); nm = name if f.getlength(name) < 500 else wrap(name, f, 500)[0] + '…'
+            lg.text((210, yy + 50), nm, font=f, fill=INK + (A,), anchor='lm')
+            lg.text((210, yy + 98), 'Activo' if i < 2 else 'Activo (sin querer)', font=F(500, 24), fill=(GRN if i < 2 else (200, 120, 0)) + (A,), anchor='lm')
+            v = cpl if i < 2 else 3.10 + (60 - 3.10) * (1 - ease((t - 2.5) / 1.4))
+            lg.text((BW - 56, yy + 75), eur(v), font=F(800, 38), fill=(GRN if win else INK) + (A,), anchor='rm')
+            im.paste(l, (0, 0), l)
+        stamp(im, t, 4.4, 'EL MEJOR DEL MES', 480, 800, col=(49, 162, 76), size=38, rot=-4)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m12. EL MISMO CLIENTE CINCO VECES (CRM)
+class Duplicados:
+    POV = 'POV: abres el CRM para llamar a un cliente y está guardado cinco veces'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    RES = [(1.5, 'Paco Fontanería', 'sin teléfono'), (1.9, 'paco fontaneria 2', 'móvil antiguo'), (2.3, 'Paco (NO LLAMAR)', '¿por qué?'),
+           (2.7, 'Paco el bueno', 'creado por: nadie'), (3.1, 'PACO FONTANERO NUEVO', 'duplicado de duplicado')]
+    SFX = ['typing:0.9@0.3'] + [f'pop@{a}' for a, _, _ in RES] + ['pop@5.1', 'boom@5.8']
+
+    def draw(self, t):
+        INK, MUT, LINE, GRN = (38, 41, 44), (110, 116, 122), (226, 229, 232), (38, 140, 90)
+        im = Image.new('RGB', (BW, BH), (247, 248, 249)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 100), fill=(34, 40, 49)); g.text((40, 50), 'CRM · Contactos', font=F(700, 32), fill='white', anchor='lm')
+        g.rounded_rectangle((30, 130, BW - 30, 210), 16, fill='white', outline=GRN, width=3)
+        q = 'Paco'[:int(4 * min(1, max(0, (t - .3) / .9)))]
+        g.text((70, 170), '🔍' if False else 'Buscar:', font=F(600, 30), fill=MUT, anchor='lm')
+        g.text((200, 170), q + ('|' if int(t * 3) % 2 else ''), font=F(700, 32), fill=INK, anchor='lm')
+        n = sum(1 for a, _, _ in self.RES if t >= a)
+        if n: g.text((40, 250), f'{n} resultados', font=F(600, 26), fill=MUT, anchor='lm')
+        for i, (ts, name, note) in enumerate(self.RES):
+            if t < ts: continue
+            k = ease((t - ts) / .3); yy = 290 + i * 128; A = int(255 * k); l, lg = layer()
+            lg.rounded_rectangle((30, yy, BW - 30, yy + 112), 14, fill=(255, 255, 255, A), outline=LINE + (A,), width=2)
+            lg.ellipse((52, yy + 26, 112, yy + 86), fill=(120, 140, 160, A)); lg.text((82, yy + 56), 'P', font=F(700, 28), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((134, yy + 22), name, font=F(700, 32), fill=INK + (A,))
+            lg.text((134, yy + 66), note, font=F(500, 25), fill=MUT + (A,))
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.1, 'Clientes reales', '1', 'y nadie sabe cuál es el bueno', cy=560, big_size=120)
+        tag(g)
+        return im
+
+
 NEW = {'m01-descuento': Descuento, 'm02-mismo-lead': MismoLead, 'm03-resena-ajena': ResenaAjena, 'm04-desconocido': Desconocido,
-       'm05-sobra-cero': SobraCero, 'm06-sin-telefono': SinTelefono, 'm07-ultimo-cambio': UltimoCambio, 'm08-campo-presupuesto': CampoPresupuesto}
+       'm05-sobra-cero': SobraCero, 'm06-sin-telefono': SinTelefono, 'm07-ultimo-cambio': UltimoCambio, 'm08-campo-presupuesto': CampoPresupuesto,
+       'm09-recargar': Recargar, 'm10-hola-nombre': HolaNombre, 'm11-prueba-no-publicar': PruebaNoPublicar, 'm12-duplicados': Duplicados}
