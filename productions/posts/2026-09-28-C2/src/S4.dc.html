@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>04 · Prueba</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aChk1{0%,8%{background:transparent;border-color:rgba(242,237,231,.3)}14%,94%{background:#FF6A1A;border-color:#FF6A1A}100%{background:transparent;border-color:rgba(242,237,231,.3)}}
+@keyframes aTick{0%,8%{opacity:0;transform:scale(.4)}14%,94%{opacity:1;transform:scale(1)}100%{opacity:0}}
+@keyframes aRow{0%,8%{opacity:.45}14%,94%{opacity:1}100%{opacity:.45}}
+@keyframes aLvl{0%{height:38%}12%{height:62%}24%{height:48%}36%{height:70%}48%{height:55%}60%{height:66%}72%{height:44%}84%{height:68%}100%{height:38%}}
+@keyframes aPeak{0%,100%{bottom:62%}36%{bottom:72%}84%{bottom:70%}}
+@keyframes aTimer{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-277}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">04 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; align-items: flex-end; gap: 28px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 170px; line-height: 0.78; letter-spacing: -0.07em; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">03</span>
+<span style="margin-bottom: 8px; padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(242,237,231,0.2); font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.1em; color: #B5ADA4">PRUEBA ANTES DE GRABAR</span>
+</div>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 88px; line-height: 0.95; letter-spacing: -0.05em">Antes de darle a REC,<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A">escúchate 10 segundos.</span></h2>
+<p style="margin: 0; font-size: 34px; line-height: 1.25; color: #D9D1C8">Lo que no oyes ahora, lo oirá <b style="color: #F2EDE7">todo el que vea el vídeo</b>.</p>
+</div>
+<div style="position: relative; height: 460px; border-radius: 34px; background: #12100F; border: 1px solid rgba(242,237,231,0.1); overflow: hidden; display: flex; align-items: center; padding: 0 44px; box-sizing: border-box; gap: 40px">
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 30px"><div style="display: flex; align-items: center; gap: 22px; animation: aRow 4s ease-in-out 0.0s infinite; animation-fill-mode: both">
+<div style="flex: none; position: relative; width: 46px; height: 46px; border-radius: 12px; border: 3px solid rgba(242,237,231,.3); box-sizing: border-box; animation: aChk1 4s ease-in-out 0.0s infinite; animation-fill-mode: both"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 5px; top: 5px; animation: aTick 4s ease-in-out 0.0s infinite; animation-fill-mode: both"><path d="M5 12l5 5L20 7"/></svg></div>
+<span style="font-size: 32px; font-weight: 600; line-height: 1.15">Aire y ventiladores apagados</span></div><div style="display: flex; align-items: center; gap: 22px; animation: aRow 4s ease-in-out 0.7s infinite; animation-fill-mode: both">
+<div style="flex: none; position: relative; width: 46px; height: 46px; border-radius: 12px; border: 3px solid rgba(242,237,231,.3); box-sizing: border-box; animation: aChk1 4s ease-in-out 0.7s infinite; animation-fill-mode: both"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 5px; top: 5px; animation: aTick 4s ease-in-out 0.7s infinite; animation-fill-mode: both"><path d="M5 12l5 5L20 7"/></svg></div>
+<span style="font-size: 32px; font-weight: 600; line-height: 1.15">Móvil en modo avión</span></div><div style="display: flex; align-items: center; gap: 22px; animation: aRow 4s ease-in-out 1.4s infinite; animation-fill-mode: both">
+<div style="flex: none; position: relative; width: 46px; height: 46px; border-radius: 12px; border: 3px solid rgba(242,237,231,.3); box-sizing: border-box; animation: aChk1 4s ease-in-out 1.4s infinite; animation-fill-mode: both"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 5px; top: 5px; animation: aTick 4s ease-in-out 1.4s infinite; animation-fill-mode: both"><path d="M5 12l5 5L20 7"/></svg></div>
+<span style="font-size: 32px; font-weight: 600; line-height: 1.15">Micro a un palmo de la boca</span></div><div style="display: flex; align-items: center; gap: 22px; animation: aRow 4s ease-in-out 2.0999999999999996s infinite; animation-fill-mode: both">
+<div style="flex: none; position: relative; width: 46px; height: 46px; border-radius: 12px; border: 3px solid rgba(242,237,231,.3); box-sizing: border-box; animation: aChk1 4s ease-in-out 2.0999999999999996s infinite; animation-fill-mode: both"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; left: 5px; top: 5px; animation: aTick 4s ease-in-out 2.0999999999999996s infinite; animation-fill-mode: both"><path d="M5 12l5 5L20 7"/></svg></div>
+<span style="font-size: 32px; font-weight: 600; line-height: 1.15">Graba 10 s y escúchalo con cascos</span></div></div>
+  <div style="flex: none; position: relative; width: 190px; height: 380px; border-radius: 24px; background: #0A0908; border: 2px solid rgba(242,237,231,.14)">
+    <svg width="110" height="110" viewBox="0 0 100 100" style="position: absolute; left: 40px; top: 18px"><circle cx="50" cy="50" r="44" stroke="rgba(242,237,231,.12)" stroke-width="8" fill="none"/><circle cx="50" cy="50" r="44" stroke="#FF6A1A" stroke-width="8" fill="none" stroke-dasharray="277" stroke-linecap="round" transform="rotate(-90 50 50)" style="animation: aTimer 4s linear infinite"/><text x="50" y="58" text-anchor="middle" font-family="JetBrains Mono" font-size="24" fill="#F2EDE7">10s</text></svg>
+    <div style="position: absolute; left: 12px; right: 12px; top: 138px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 15px; letter-spacing: .1em; color: #9C938B">NIVEL</div>
+    <div style="position: absolute; left: 12px; right: 12px; bottom: 24px; height: 190px">
+      <div style="position: absolute; left: 0; right: 0; top: 0; height: 22%; background: rgba(255,59,48,.18); border-radius: 6px"></div>
+      <div style="position: absolute; left: 14px; bottom: 0; width: 172px; height: 190px"><div style="position: absolute; left: 0px; bottom: 0; width: 22px; border-radius: 6px 6px 2px 2px; background: linear-gradient(0deg,#FF6A1A,#FFB27A); box-shadow: 0 0 12px rgba(255,106,26,.6); animation: aLvl 2s ease-in-out 0.00s infinite; height: 50%"></div><div style="position: absolute; left: 30px; bottom: 0; width: 22px; border-radius: 6px 6px 2px 2px; background: linear-gradient(0deg,#FF6A1A,#FFB27A); box-shadow: 0 0 12px rgba(255,106,26,.6); animation: aLvl 1s ease-in-out -0.23s infinite; height: 50%"></div><div style="position: absolute; left: 60px; bottom: 0; width: 22px; border-radius: 6px 6px 2px 2px; background: linear-gradient(0deg,#FF6A1A,#FFB27A); box-shadow: 0 0 12px rgba(255,106,26,.6); animation: aLvl 2s ease-in-out -0.46s infinite; height: 50%"></div><div style="position: absolute; left: 90px; bottom: 0; width: 22px; border-radius: 6px 6px 2px 2px; background: linear-gradient(0deg,#FF6A1A,#FFB27A); box-shadow: 0 0 12px rgba(255,106,26,.6); animation: aLvl 1s ease-in-out -0.69s infinite; height: 50%"></div><div style="position: absolute; left: 120px; bottom: 0; width: 22px; border-radius: 6px 6px 2px 2px; background: linear-gradient(0deg,#FF6A1A,#FFB27A); box-shadow: 0 0 12px rgba(255,106,26,.6); animation: aLvl 2s ease-in-out -0.92s infinite; height: 50%"></div><div style="position: absolute; left: 150px; bottom: 0; width: 22px; border-radius: 6px 6px 2px 2px; background: linear-gradient(0deg,#FF6A1A,#FFB27A); box-shadow: 0 0 12px rgba(255,106,26,.6); animation: aLvl 1s ease-in-out -1.15s infinite; height: 50%"></div></div>
+    </div>
+  </div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Haz captura y úsala antes de tu próxima grabación.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
