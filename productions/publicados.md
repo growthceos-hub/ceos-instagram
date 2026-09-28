@@ -12,4 +12,4 @@
 | 2026-09-28 | reel 3 (tip) | Leer con teleprompter sin que se note: 3 trucos para que no parezca que lees | https://www.instagram.com/reel/Dd1M8R2DSsV/ |
 | 2026-09-28 | reel 4 (meme) | POV: "es solo un vídeo de 30 segundos, en 5 minutos lo tenemos" | https://www.instagram.com/reel/Dd1SOPkgrjg/ |
 | 2026-09-28 | reel 5 (tip) | Grabar con el móvil: 3 ajustes antes de darle a REC para que parezca cámara profesional | https://www.instagram.com/reel/Dd1aAj_DKCQ/ |
-| 2026-09-28 | carrusel C4 | B-roll: 3 planos recurso que hacen que tu vídeo parezca de productora | en curso |
+| 2026-09-28 | carrusel C4 | B-roll: 3 planos recurso que hacen que tu vídeo parezca de productora | https://www.instagram.com/p/Dd1cy8vDrB1/ |
