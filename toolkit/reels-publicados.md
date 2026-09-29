@@ -44,6 +44,7 @@
 | 2026-09-27 | meme-extra | Historias vistas por la competencia — solo pestaña Reels | https://www.instagram.com/reel/DdzC-4djMUD/ |
 | 2026-09-27 | meme-extra | Primer anuncio: solo interactúa la familia — solo pestaña Reels | https://www.instagram.com/reel/DdzC-nKCBu6/ |
 | 2026-09-29 | 1 | Clientes que compran una vez y no vuelven: gracias el mismo día, pregunta qué tal le va a los 7, 30 y 90 días y próximo contacto con fecha en el CRM | https://www.instagram.com/reel/Dd37D4uD_nX/ | Sí |
+| 2026-09-29 | 2 | Perfil de Instagram que convierte visitas en clientes: bio que diga qué haces y para quién, un solo enlace con una acción clara e historias destacadas con pruebas | https://www.instagram.com/reel/Dd4FKBaj1Z8/ | Sí |
 | 2026-09-27 | meme | El lead que agenda y no aparece — solo pestaña Reels | https://www.instagram.com/reel/DdzGHYZgY5f/ |
 | 2026-09-27 | meme | Pagarte “en visibilidad” — solo pestaña Reels | https://www.instagram.com/reel/DdzGC5lCmRA/ |
 | 2026-09-27 | meme | Apagas la campaña el día 2 — solo pestaña Reels | https://www.instagram.com/reel/DdzGC9VkQ9n/ |
