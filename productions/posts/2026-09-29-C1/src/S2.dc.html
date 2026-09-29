@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>02 · Folio vs bloques</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aScroll{0%{transform:translateY(0)}100%{transform:translateY(-50%)}}
+@keyframes aFolio{0%,38%{transform:scale(1);opacity:1;filter:none}52%,88%{transform:scale(.82);opacity:.28;filter:grayscale(1)}100%{transform:scale(1);opacity:1;filter:none}}
+@keyframes aStamp{0%,40%{opacity:0;transform:rotate(-12deg) scale(1.6)}48%,88%{opacity:1;transform:rotate(-12deg) scale(1)}96%,100%{opacity:0;transform:rotate(-12deg) scale(1)}}
+@keyframes aReadA{0%,38%{opacity:1}46%,100%{opacity:0}}
+@keyframes aEye{0%,100%{transform:translateX(-10px)}50%{transform:translateX(10px)}}
+@keyframes aArrow{0%,100%{transform:translateX(0);opacity:.6}50%{transform:translateX(10px);opacity:1}}
+@keyframes aChip{0%,8%{opacity:.18;transform:translateX(24px) scale(.96)}16%,90%{opacity:1;transform:translateX(0) scale(1)}100%{opacity:.18;transform:translateX(24px) scale(.96)}}
+@keyframes aChipGlow{0%,100%{box-shadow:0 0 0 rgba(255,106,26,0)}50%{box-shadow:0 0 34px rgba(255,106,26,.55)}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">02 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">EL ERROR MÁS COMÚN</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 82px; line-height: 0.96; letter-spacing: -0.055em">Un guion no es un folio.<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">Son 4 bloques.</span></h1>
+</div>
+<div style="position: relative; height: 600px; display: flex; align-items: center; gap: 26px">
+  <div style="position: relative; flex: none; width: 420px; height: 600px; border-radius: 30px; background: #12100F; border: 2px solid rgba(242,237,231,0.14); overflow: hidden; animation: aFolio 4s cubic-bezier(.6,0,.3,1) infinite">
+    <div style="position: absolute; left: 0; right: 0; top: 0; height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; background: #1E1A17; z-index: 2">
+      <span style="font-family: 'JetBrains Mono', monospace; font-size: 17px; letter-spacing: .08em; color: #B5ADA4">TEXTO_ENTERO.DOC</span>
+      <svg width="46" height="24" viewBox="0 0 46 24" style="animation: aEye 1.2s ease-in-out infinite"><ellipse cx="23" cy="12" rx="21" ry="10" fill="none" stroke="#FF6B61" stroke-width="3"/><circle cx="23" cy="12" r="5" fill="#FF6B61"/></svg>
+    </div>
+    <div style="position: absolute; left: 28px; right: 28px; top: 90px; bottom: 0; overflow: hidden">
+      <div style="display: flex; flex-direction: column; gap: 18px; animation: aScroll 4s linear infinite"><div style="flex: none; height: 12px; width: 96%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 88%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 92%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 70%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 94%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 84%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 90%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 62%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 95%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 86%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 91%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 74%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 89%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 93%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 68%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 90%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 96%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 88%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 92%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 70%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 94%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 84%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 90%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 62%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 95%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 86%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 91%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 74%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 89%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 93%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 68%; border-radius: 6px; background: rgba(242,237,231,.32)"></div><div style="flex: none; height: 12px; width: 90%; border-radius: 6px; background: rgba(242,237,231,.32)"></div></div>
+    </div>
+    <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 120px; background: linear-gradient(0deg, #12100F, rgba(18,16,15,0))"></div>
+    <div style="position: absolute; left: 24px; bottom: 24px; padding: 8px 14px; border-radius: 10px; background: rgba(255,59,48,.18); color: #FF6B61; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em; animation: aReadA 4s linear infinite">SE NOTA QUE LEES</div>
+  </div>
+  <div style="position: absolute; left: 60px; top: 230px; padding: 16px 26px; border: 5px solid #FF3B30; border-radius: 14px; color: #FF3B30; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 56px; letter-spacing: -0.02em; opacity: 0; animation: aStamp 4s cubic-bezier(.3,0,.2,1) infinite">DESCARTADO</div>
+  <svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#FF6A1A" stroke-width="2.6" style="flex: none; animation: aArrow 1.4s ease-in-out infinite"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 18px"><div style="display: flex; align-items: center; gap: 16px; height: 86px; padding: 0 22px; border-radius: 18px; background: #FF6A1A; color: #0A0908; border: 2px solid #FF6A1A; opacity: .18; animation: aChip 4s cubic-bezier(.3,0,.2,1) 0.00s infinite, aChipGlow 2s ease-in-out 0.00s infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">01</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -0.02em">GANCHO</span></div><div style="display: flex; align-items: center; gap: 16px; height: 86px; padding: 0 22px; border-radius: 18px; background: #1E1A17; color: #F2EDE7; border: 2px solid rgba(255,106,26,.5); opacity: .18; animation: aChip 4s cubic-bezier(.3,0,.2,1) 0.35s infinite, aChipGlow 2s ease-in-out 0.25s infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">02</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -0.02em">PROBLEMA</span></div><div style="display: flex; align-items: center; gap: 16px; height: 86px; padding: 0 22px; border-radius: 18px; background: #1E1A17; color: #F2EDE7; border: 2px solid rgba(255,106,26,.5); opacity: .18; animation: aChip 4s cubic-bezier(.3,0,.2,1) 0.70s infinite, aChipGlow 2s ease-in-out 0.50s infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">03</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -0.02em">SOLUCIÓN</span></div><div style="display: flex; align-items: center; gap: 16px; height: 86px; padding: 0 22px; border-radius: 18px; background: #1E1A17; color: #F2EDE7; border: 2px solid rgba(255,106,26,.5); opacity: .18; animation: aChip 4s cubic-bezier(.3,0,.2,1) 1.05s infinite, aChipGlow 2s ease-in-out 0.75s infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">04</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -0.02em">CIERRE</span></div></div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Bloques cortos = hablas natural, no lees.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
