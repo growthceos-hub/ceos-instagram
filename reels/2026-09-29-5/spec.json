@@ -1,0 +1,71 @@
+{
+ "topic": "Organiza tu agenda comercial: bloques fijos para llamar a los leads, empieza por los más calientes y cierra el día con el CRM al día",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus leads<br>esperan porque<br><em>no te da la vida?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead nuevo",
+    "msgs": [
+     {"from": "in", "text": "Me interesa, ¿me llamáis?", "time": "09:14"},
+     {"from": "in", "text": "¿Hola?", "time": "17:40"}
+    ]
+   },
+   "footer": "3 pasos para llamar a tiempo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Bloques fijos<br><em>para llamar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "10:00", "t": "Leads nuevos", "s": "30 min sin interrupciones"},
+     {"n": "2", "d": "13:00", "t": "Seguimientos", "s": "Los que no contestaron"},
+     {"n": "3", "d": "17:30", "t": "Última ronda", "s": "Y todo apuntado"}
+    ]
+   },
+   "note": "Si llamas “cuando puedas”, <b>no llamas nunca.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Primero los<br><em>más calientes.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "bars",
+    "title": "Por quién empezar",
+    "items": [
+     {"label": "Pidió cita o precio", "value": 95, "hi": true},
+     {"label": "Rellenó el formulario hoy", "value": 70},
+     {"label": "Seguimiento pendiente", "value": 45}
+    ]
+   },
+   "note": "Quien acaba de escribir <b>aún se acuerda de ti.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra con el<br><em>CRM al día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {"q": "Resultado de la llamada", "a": "No contesta, 2º intento"},
+     {"q": "Próximo paso", "a": "Llamar jueves 11:00"}
+    ],
+    "badge": "✓ CRM AL DÍA"
+   },
+   "note": "Mañana sabrás <b>a quién llamar sin pensar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Llama a tiempo,<br><em>vende más.</em>",
+   "dur": 6,
+   "items": ["Bloques fijos para llamar", "Primero los más calientes", "CRM al día antes de cerrar"]
+  }
+ ],
+ "caption": "¿Tus leads esperan horas porque entre una cosa y otra no te da la vida? 📞\n\nEl problema no suele ser la falta de leads, sino llamarlos “cuando haya un hueco”, que casi nunca llega.\n\n→ Reserva bloques fijos en la agenda solo para llamar (por ejemplo, a media mañana, a mediodía y a última hora)\n→ Empieza por los más calientes: quien pidió cita o precio y quien rellenó el formulario hoy\n→ Antes de cerrar el día, deja cada lead en el CRM con resultado y próximo paso con fecha\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #captaciondeclientes #crm #productividad #emprendedores #pymes"
+}
