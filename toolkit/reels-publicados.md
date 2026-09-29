@@ -85,3 +85,4 @@
 | 2026-09-28 | meme | Tres propuestas y responde “Ok” — solo pestaña Reels | https://www.instagram.com/reel/Dd15-BfFRJc/ |
 | 2026-09-28 | meme | A los 2 minutos pregunta si ha vendido — solo pestaña Reels | https://www.instagram.com/reel/Dd15-qwioJw/ |
 | 2026-09-28 | meme | Tres horarios y propone el sábado a las 8 — solo pestaña Reels | https://www.instagram.com/reel/Dd15_FFE3Tc/ |
+| 2026-09-29 | 4 | Cuando te escriben “precio?”: responde en minutos, da un rango orientativo con una pregunta y pásalo a una llamada o cita con hora | https://www.instagram.com/reel/Dd4GFZBoBla/ | Sí |
