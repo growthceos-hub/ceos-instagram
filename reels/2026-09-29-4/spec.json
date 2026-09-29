@@ -1,60 +1,63 @@
 {
- "topic": "Perfil de Instagram que convierte visitas en mensajes: bio con qué haces y para quién, un solo botón con un solo enlace y destacadas que resuelven dudas",
+ "topic": "Cuando te escriben “precio?”: responde en minutos, da un rango orientativo con una pregunta y pásalo a una llamada o cita con hora",
  "scenes": [
   {
    "kind": "hook",
-   "title": "¿Miran tu<br>perfil y<br><em>no escriben?</em>",
-   "size": 126,
+   "title": "¿Te escriben<br>“precio?”<br><em>y desaparecen?</em>",
+   "size": 122,
    "dur": 5,
    "mock": {
-    "type": "script",
-    "title": "TU BIO AHORA",
-    "lines": ["Pasión por lo que hacemos", "Calidad y confianza", "Link en la bio"]
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Precio?", "time": "10:02"},
+     {"from": "out", "lines": ["Depende, ya te digo."], "time": "HORAS DESPUÉS"}
+    ]
    },
-   "footer": "3 pasos para que te escriban"
+   "footer": "3 pasos para no perderlo"
   },
   {
    "label": "PASO 1",
-   "title": "Qué haces<br><em>y para quién.</em>",
+   "title": "Responde<br><em>en minutos.</em>",
    "dur": 6,
    "mock": {
-    "type": "compare",
-    "bad": ["Pasión y calidad", "Tu mejor opción"],
-    "good": ["Reformas de baño", "Presupuesto en 48 h"]
+    "type": "timer",
+    "head": "Mensaje: “precio?”",
+    "sub": "TIEMPO DE RESPUESTA",
+    "secs": 180,
+    "side": "Respondes<br>mientras aún<br>está mirando",
+    "badge": "✓ RESPONDIDO"
    },
-   "note": "Que se entienda <b>en 3 segundos.</b>"
+   "note": "Si tardas horas, <b>ya ha preguntado a otro.</b>"
   },
   {
    "label": "PASO 2",
-   "title": "Un botón,<br><em>un solo enlace.</em>",
+   "title": "Da un rango<br><em>y una pregunta.</em>",
    "dur": 6.5,
    "mock": {
-    "type": "form",
-    "title": "Botón del perfil",
-    "fields": [
-     {"q": "Acción", "a": "Enviar WhatsApp"},
-     {"q": "Texto", "a": "Pide tu presupuesto"}
-    ],
-    "badge": "✓ UN SOLO CAMINO"
+    "type": "script",
+    "title": "TU RESPUESTA",
+    "lines": ["Depende de lo que busques", "Suele ir de 300 a 600 €", "¿Para qué lo necesitas?"]
    },
-   "note": "Muchas opciones = <b>ninguna decisión.</b>"
+   "note": "El rango responde, <b>la pregunta abre la charla.</b>"
   },
   {
    "label": "PASO 3",
-   "title": "Destacadas<br><em>que resuelven.</em>",
+   "title": "Pásalo a<br><em>llamada o cita.</em>",
    "dur": 6.5,
    "mock": {
-    "type": "checklist",
-    "items": ["Precios", "Trabajos hechos", "Opiniones", "Cómo trabajamos"]
+    "type": "compare",
+    "bad": ["Mandar un PDF", "“Ya me dices algo”"],
+    "good": ["“¿Te llamo 5 min?”", "Dos horas a elegir"]
    },
-   "note": "Responde las dudas <b>antes de que pregunten.</b>"
+   "note": "Un precio sin contexto <b>siempre parece caro.</b>"
   },
   {
    "kind": "cta",
-   "title": "Tu perfil,<br><em>tu escaparate.</em>",
+   "title": "Que “precio?”<br><em>sea una venta.</em>",
    "dur": 6,
-   "items": ["Qué haces y para quién", "Un botón, un enlace", "Destacadas con respuestas"]
+   "items": ["Responde en minutos", "Rango + una pregunta", "Llamada o cita con hora"]
   }
  ],
- "caption": "¿Te visitan el perfil de Instagram y nadie te escribe? 👀\n\nMuchas veces el anuncio o el reel funciona, pero el perfil no explica qué haces ni qué hacer a continuación.\n\n→ En la bio: qué haces, para quién y qué consigue, que se entienda en 3 segundos\n→ Un solo botón con un solo enlace: WhatsApp, cita o presupuesto, no cinco opciones\n→ Destacadas que respondan dudas: precios, trabajos hechos, opiniones y cómo trabajas\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagram #perfildeinstagram #marketingdigital #captaciondeclientes #emprendedores #pymes"
+ "caption": "¿Te escriben “precio?” y cuando respondes ya no contestan? 💬\n\nQuien pregunta el precio está interesado, pero si solo recibe una cifra (o nada durante horas) lo compara y se va.\n\n→ Responde en minutos, mientras todavía está mirando\n→ Da un rango orientativo y haz una pregunta: ¿para qué lo necesitas?\n→ Pásalo a una llamada corta o una cita con dos horas a elegir, no a un PDF\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #atencionalcliente #whatsappbusiness #captaciondeclientes #emprendedores #pymes"
 }
