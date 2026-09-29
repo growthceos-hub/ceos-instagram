@@ -23,4 +23,4 @@
 | 2026-09-29 | historias ×5 | Mito vs realidad: 3 mitos que te frenan a grabarte a cámara | https://www.instagram.com/stories/ceos.productions/3996757605129448700 |
 | 2026-09-29 | carrusel C2 | Fondo a cámara: qué hay detrás de ti y cómo convertirlo en un set profesional | https://www.instagram.com/p/Dd3Y3gTDaiR/ |
 | 2026-09-29 | reel 1 (meme) | POV: la toma perfecta… y el enfoque estaba en la pared de detrás | https://www.instagram.com/reel/Dd3iberFySk/ |
-| 2026-09-29 | carrusel C3 | Captación: graba en una sola sesión de estudio en Burgos el contenido de varias semanas (deja de grabar a trozos en la oficina) | en curso |
+| 2026-09-29 | carrusel C3 | Captación: graba en una sola sesión de estudio en Burgos el contenido de varias semanas (deja de grabar a trozos en la oficina) | https://www.instagram.com/p/Dd3mVO8jN-Z/ |
