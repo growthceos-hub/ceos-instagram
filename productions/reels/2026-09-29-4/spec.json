@@ -1,0 +1,75 @@
+{
+ "topic": "Antes de tu sesión de grabación: 3 cosas que preparar el día antes para que todo salga a la primera",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu sesión se decide<br><em>el día antes.</em>",
+   "size": 130,
+   "dur": 5.6,
+   "mock": {
+    "type": "form",
+    "title": "Mañana grabas",
+    "fields": [
+     {"q": "¿Guion listo?", "a": "Lo improviso allí"},
+     {"q": "¿Qué ropa llevas?", "a": "Ya veré mañana"},
+     {"q": "¿Qué vídeos grabas?", "a": "Lo que salga"}
+    ]
+   },
+   "footer": "3 cosas que preparar la víspera"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Ensaya el guion<br><em>en voz alta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LA NOCHE ANTES",
+    "lines": [
+      "Léelo <b>en voz alta</b> 2 veces",
+      "Tacha lo que te <b>trabe</b>",
+      "Apréndete <b>el inicio</b> y el cierre"
+    ]
+   },
+   "note": "Lo que suena raro en casa <b>suena peor a cámara.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Prepara 2 o 3<br><em>cambios de ropa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Colores lisos",
+     "Sin rayas finas ni logos",
+     "Una prenda de repuesto",
+     "Todo planchado y listo"
+    ]
+   },
+   "note": "Cambiar de ropa = <b>parecen días distintos.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra la lista<br><em>de vídeos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "IMPROVISADO",
+    "bad": ["Decidir los temas allí", "Grabar a ver qué sale"],
+    "good_t": "A LA PRIMERA",
+    "good": ["Lista de vídeos cerrada", "Orden de grabación pensado"]
+   },
+   "note": "Llegas, grabas <b>y no pierdes ni un minuto.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Prepárala hoy,<br><em>brilla mañana.</em>",
+   "dur": 6,
+   "items": [
+    "Guion ensayado en voz alta",
+    "2 o 3 cambios de ropa",
+    "Lista de vídeos cerrada"
+   ]
+  }
+ ],
+ "caption": "¿Mañana grabas y aún no has preparado nada? 🎬\n\nUna sesión de grabación sale a la primera cuando el trabajo gordo se hace la víspera.\n\n→ Ensaya el guion en voz alta y tacha las frases que te traben\n→ Prepara 2 o 3 cambios de ropa lisos, sin rayas finas ni logos\n→ Llega con la lista de vídeos cerrada y el orden de grabación pensado\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #sesiondegrabacion #hablaracamara #creaciondecontenido #marcapersonal #tipsdevideo #reels"
+}
