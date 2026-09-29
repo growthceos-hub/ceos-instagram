@@ -1,0 +1,62 @@
+{
+ "topic": "Perfil de Instagram que convierte visitas en clientes: bio que diga qué haces y para quién, un solo enlace con una acción clara e historias destacadas con pruebas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te miran<br>el perfil y<br><em>nadie escribe?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Tu perfil hoy",
+    "fields": [
+     {"q": "Bio", "a": "Pasión y calidad"},
+     {"q": "Enlace", "a": "8 enlaces distintos"},
+     {"q": "Destacadas", "a": "Vacaciones 2019"}
+    ]
+   },
+   "footer": "3 pasos para que te escriban"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Qué haces<br><em>y para quién.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad_t": "BIO VAGA",
+    "bad": ["Pasión y calidad", "Tu mejor opción"],
+    "good_t": "BIO CLARA",
+    "good": ["Reformas de baños", "Presupuesto en 48 h"]
+   },
+   "note": "En 3 segundos <b>tiene que entender qué vendes.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un enlace,<br><em>una acción.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Un solo enlace en la bio", "Lleva a WhatsApp o formulario", "Di qué pasa al pulsar"]
+   },
+   "note": "Muchas opciones <b>= ninguna decisión.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Destacadas<br><em>con pruebas.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "HISTORIAS DESTACADAS",
+    "lines": ["Opiniones de clientes", "Antes y después", "Cómo trabajamos"]
+   },
+   "note": "Que vea <b>trabajos reales antes de escribirte.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un perfil que<br><em>trae clientes.</em>",
+   "dur": 6,
+   "items": ["Bio: qué haces y para quién", "Un enlace, una acción", "Destacadas con pruebas"]
+  }
+ ],
+ "caption": "¿Te visitan el perfil de Instagram y casi nadie te escribe? 👀\n\nTu perfil es tu escaparate: si en unos segundos no se entiende qué haces ni cómo contactarte, la visita se va.\n\n→ Bio clara: qué haces, para quién y qué consigue (nada de \"pasión y calidad\")\n→ Un solo enlace con una acción: WhatsApp o formulario, y di qué pasa al pulsar\n→ Historias destacadas con pruebas: opiniones de clientes, antes y después y cómo trabajáis\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagram #perfildeinstagram #marketingdigital #captaciondeclientes #emprendedores #pymes"
+}
