@@ -267,5 +267,145 @@ class CincoMinutos:
         return im
 
 
+
+# ------------------------------------------------------------------ m05. CADUCA LA TARJETA (notificaciones)
+class TarjetaCaducada:
+    POV = 'POV: tus anuncios por fin traen clientes y justo ese día te caduca la tarjeta'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    LEADS = [0.3, 0.8, 1.3, 1.8]
+    SFX = [f'ding@{a}' for a in LEADS] + ['boom@2.7', 'tick@3.6', 'tick@4.2', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        hh = '11:42' if t < 3.6 else ('16:10' if t < 4.2 else '21:30')
+        im, g = lock_bg(hh)
+        names = ['Reformas: baño completo', 'Presupuesto cocina', 'Cambio de ventanas', 'Tejado con goteras']
+        for i, ts in enumerate(self.LEADS):
+            if t < ts: continue
+            k = ease((t - ts) / .3); A = int(255 * k); l, lg = layer(); yy = 290 + i * 112
+            lg.rounded_rectangle((36, yy, BW - 36, yy + 98), 24, fill=(58, 62, 74, int(230 * k)))
+            lg.rounded_rectangle((60, yy + 22, 114, yy + 76), 14, fill=(255, 106, 26, A))
+            lg.text((87, yy + 49), 'L', font=F(800, 30), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((136, yy + 16), 'Nuevo lead · Formulario de anuncios', font=F(500, 22), fill=(190, 192, 200, A))
+            lg.text((136, yy + 48), names[i], font=F(700, 29), fill=(255, 255, 255, A))
+            im.paste(l, (0, 0), l)
+        if t >= 2.7:
+            k = ease((t - 2.7) / .3); A = int(255 * k); l, lg = layer(); yy = 750
+            lg.rounded_rectangle((36, yy, BW - 36, yy + 150), 24, fill=(120, 24, 24, int(240 * k)))
+            lg.text((70, yy + 22), 'Plataforma de anuncios · ahora', font=F(500, 24), fill=(255, 200, 200, A))
+            lg.text((70, yy + 58), 'Pago rechazado: tarjeta caducada.', font=F(800, 32), fill=(255, 255, 255, A))
+            lg.text((70, yy + 102), 'Tus anuncios se han pausado.', font=F(600, 28), fill=(255, 220, 220, A))
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.0, 'Caducidad de la tarjeta', '09/26', 'justo el mejor día del mes', cy=600, big_size=96)
+        return im
+
+
+# ------------------------------------------------------------------ m06. "YA TE HE HECHO LA TRANSFERENCIA" (app del banco)
+class Transferencia:
+    POV = 'POV: el cliente te dice “ya te he hecho la transferencia” un viernes a las 20:00'
+    DUR, PUNCH, FOCUS = 7.8, 6.0, (480, 560)
+    REFR = [0.8, 1.7, 2.6]
+    SFX = ['pop@0.3'] + [f'tick@{a}' for a in REFR] + ['tick@3.4', 'ding@4.0', 'pop@5.2', 'boom@6.0']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (244, 246, 248)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 300), fill=(0, 72, 120))
+        g.text((40, 50), 'Cuenta negocio', font=F(600, 30), fill=(200, 225, 245), anchor='lm')
+        bal = '2.140,35 €' if t < 4.0 else '2.190,35 €'
+        g.text((40, 130), bal, font=F(800, 76), fill='white', anchor='lm')
+        day = 'Viernes 20:03' if t < 3.4 else 'Lunes 09:12'
+        g.text((40, 225), day, font=F(600, 30), fill=(200, 225, 245), anchor='lm')
+        spin = any(a <= t < a + .5 for a in self.REFR)
+        if spin:
+            ang = (t * 720) % 360; g.arc((BW - 120, 200, BW - 60, 260), ang, ang + 270, fill='white', width=6)
+        g.text((40, 350), 'Movimientos', font=F(700, 34), fill=INK, anchor='lm')
+        movs = [('Luz local', '-86,40 €', 'jueves'), ('Cuota autónomos', '-310,00 €', 'lunes'), ('Gestoría', '-60,50 €', 'lunes')]
+        y = 410
+        if t >= 4.0:
+            k = ease((t - 4.0) / .35); l, lg = layer(); A = int(255 * k)
+            lg.rounded_rectangle((30, y, BW - 30, y + 150), 18, fill=(230, 247, 236, A))
+            lg.text((60, y + 38), 'Transferencia · Cliente (web)', font=F(700, 30), fill=INK + (A,), anchor='lm')
+            lg.text((BW - 60, y + 38), '+50,00 €', font=F(800, 34), fill=(20, 140, 70, A), anchor='rm')
+            lg.text((60, y + 92), 'Concepto: “a cuenta, el resto ya si eso”', font=F(600, 27), fill=MUT + (A,), anchor='lm')
+            im.paste(l, (0, 0), l); y += 170
+        elif t >= 0.8:
+            g.text((BW // 2, y + 40), 'Sin movimientos nuevos', font=F(600, 28), fill=MUT, anchor='mm'); y += 90
+        for n, v, d in movs:
+            g.line([(30, y), (BW - 30, y)], fill=LINE, width=2)
+            g.text((60, y + 45), n, font=F(600, 30), fill=INK, anchor='lm'); g.text((60, y + 85), d, font=F(500, 24), fill=MUT, anchor='lm')
+            g.text((BW - 60, y + 55), v, font=F(700, 30), fill=INK, anchor='rm'); y += 120
+        card(im, t, 5.2, 'Factura de 1.200 €', '50 €', 'y el concepto no ayuda', cy=560, big_size=100)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m07. 1 ESTRELLA POR NO COGER EL DOMINGO (reseñas)
+class ResenaDomingo:
+    POV = 'POV: te dejan una reseña de una estrella por no coger el teléfono'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    TXT = 'Llamé tres veces y nadie contestó. Fatal servicio. Llamé el domingo a las 23:40.'
+    SFX = ['pop@0.4', 'tick@0.9', 'typing:2.0@1.2', 'ding@3.6', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 250), fill=(248, 249, 250)); g.line([(0, 250), (BW, 250)], fill=LINE, width=2)
+        g.text((40, 60), 'Fontanería Arlanza', font=F(800, 50), fill=INK, anchor='lm')
+        g.text((40, 124), '4,8', font=F(700, 34), fill=INK, anchor='lm'); stars(g, 110, 108, 5)
+        g.text((330, 124), '· Fontanero · Horario: L-V 8:00–19:00', font=F(500, 26), fill=MUT, anchor='lm')
+        g.text((40, 196), 'Reseñas más recientes', font=F(700, 32), fill=INK, anchor='lm')
+        if t >= 0.4:
+            y = 300; g.ellipse((40, y, 110, y + 70), fill=(234, 67, 53)); g.text((75, y + 35), 'M', font=F(700, 32), fill='white', anchor='mm')
+            g.text((130, y + 4), 'Manolo P.', font=F(700, 30), fill=INK); g.text((130, y + 44), 'hace un momento', font=F(500, 24), fill=MUT)
+            stars(g, 40, y + 92, 1 if t >= 0.9 else 0, size=36)
+            n = int(len(self.TXT) * min(1, max(0, (t - 1.2) / 2.0))); ft = F(600, 34)
+            for j, s_ in enumerate(wrap(self.TXT[:n], ft, BW - 90)):
+                g.text((40, y + 150 + j * 46), s_, font=ft, fill=INK)
+            if t >= 3.6:
+                k = ease((t - 3.6) / .3); l, lg = layer()
+                lg.rounded_rectangle((30, y + 300, BW - 30, y + 380), 16, fill=(255, 235, 150, int(200 * k)))
+                lg.text((BW // 2, y + 340), 'Horario: de lunes a viernes, 8:00–19:00', font=F(700, 30), fill=INK + (int(255 * k),), anchor='mm')
+                im.paste(l, (0, 0), l)
+        card(im, t, 5.0, 'Motivo de la estrella', '23:40', 'de un domingo', cy=600, big_size=100)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m08. PREVISIÓN VS REALIDAD (Excel)
+class Prevision:
+    POV = 'POV: comparas la previsión de ventas que hiciste en enero con lo que ha pasado'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    ROWS = [('Enero', '10.000 €', '1.200 €'), ('Febrero', '15.000 €', '900 €'), ('Marzo', '20.000 €', '1.450 €'),
+            ('Abril', '30.000 €', '1.100 €'), ('Mayo', '40.000 €', '1.600 €'), ('Junio', '50.000 €', '1.300 €')]
+    SFX = [f'tick@{0.3 + i * .25:.2f}' for i in range(6)] + [f'pop@{2.2 + i * .3:.1f}' for i in range(6)] + ['pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 110), fill=(16, 124, 65)); g.text((40, 55), 'Previsión_ventas_2026.xlsx', font=F(700, 34), fill='white', anchor='lm')
+        cols = [(0, 70), (70, 330), (330, 640), (640, BW)]; hdr = ['', 'A · Mes', 'B · Previsto', 'C · Real']
+        y0, rh = 150, 96
+        g.rectangle((0, y0, BW, y0 + 70), fill=(238, 240, 242))
+        for (x0, x1), h in zip(cols, hdr): g.text(((x0 + x1) // 2, y0 + 35), h, font=F(700, 28), fill=MUT, anchor='mm')
+        for i, (m, p, r) in enumerate(self.ROWS):
+            y = y0 + 70 + i * rh
+            g.text((35, y + rh // 2), str(i + 2), font=F(600, 24), fill=MUT, anchor='mm')
+            if t >= 0.3 + i * .25:
+                g.text((200, y + rh // 2), m, font=F(600, 32), fill=INK, anchor='mm')
+                g.text((485, y + rh // 2), p, font=F(700, 34), fill=(16, 124, 65), anchor='mm')
+            if t >= 2.2 + i * .3:
+                g.rectangle((641, y + 1, BW, y + rh - 1), fill=(253, 226, 226))
+                g.text((800, y + rh // 2), r, font=F(700, 34), fill=(200, 40, 40), anchor='mm')
+        for i in range(8): g.line([(0, y0 + 70 + i * rh), (BW, y0 + 70 + i * rh)], fill=LINE, width=2)
+        for x0, _ in cols[1:]: g.line([(x0, y0), (x0, y0 + 70 + 7 * rh)], fill=LINE, width=2)
+        if t >= 4.1:
+            y = y0 + 70 + 6 * rh; g.rectangle((0, y + 1, BW, y + rh), fill=(245, 245, 245))
+            g.text((200, y + rh // 2), 'TOTAL', font=F(800, 32), fill=INK, anchor='mm')
+            g.text((485, y + rh // 2), '165.000 €', font=F(800, 34), fill=INK, anchor='mm')
+            g.text((800, y + rh // 2), '7.550 €', font=F(800, 34), fill=(200, 40, 40), anchor='mm')
+        card(im, t, 5.0, 'Previsión cumplida', '4,6 %', 'pero qué bonito quedó el Excel', cy=560, big_size=100)
+        tag(g)
+        return im
+
+
 NEW = {'m01-precio-amigo': PrecioAmigo, 'm02-publico-espana': PublicoEspana,
-       'm03-carpeta-final': CarpetaFinal, 'm04-cinco-minutos': CincoMinutos}
+       'm03-carpeta-final': CarpetaFinal, 'm04-cinco-minutos': CincoMinutos,
+       'm05-tarjeta-caducada': TarjetaCaducada, 'm06-transferencia': Transferencia,
+       'm07-resena-domingo': ResenaDomingo, 'm08-prevision': Prevision}
