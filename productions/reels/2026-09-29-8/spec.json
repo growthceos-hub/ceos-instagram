@@ -1,0 +1,75 @@
+{
+ "topic": "Luz de ventana: dónde colocarte para grabarte a cámara con luz natural (3 posiciones)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu mejor foco:<br><em>la ventana.</em>",
+   "size": 136,
+   "dur": 5.6,
+   "mock": {
+    "type": "bars",
+    "title": "LUZ EN TU CARA",
+    "items": [
+     {"label": "Ventana a tu espalda", "value": 16},
+     {"label": "Solo luz del techo", "value": 42},
+     {"label": "Ventana delante de ti", "value": 92, "hi": true}
+    ]
+   },
+   "footer": "3 claves de luz natural"
+  },
+  {
+   "label": "CLAVE 1",
+   "title": "Ventana delante,<br><em>nunca detrás.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Ventana a tu espalda", "Cara a contraluz"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Mirando hacia la ventana", "Cámara entre tú y ella"]
+   },
+   "note": "Si la ventana sale en plano, <b>quedas en silueta.</b>"
+  },
+  {
+   "label": "CLAVE 2",
+   "title": "Gírate un poco:<br><em>luz a 45°.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LUZ LATERAL SUAVE",
+    "lines": [
+      "Ventana a <b>45°</b> de tu cara",
+      "Un lado con luz, <b>otro en sombra suave</b>",
+      "Pared o cartón blanco <b>de rebote</b>"
+    ]
+   },
+   "note": "Más volumen, <b>aspecto de cine.</b>"
+  },
+  {
+   "label": "CLAVE 3",
+   "title": "Luz suave,<br><em>sin sol directo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Cortina fina si entra el sol",
+     "Apaga la luz del techo",
+     "Graba siempre a la misma hora",
+     "Mira la exposición en tu cara"
+    ]
+   },
+   "note": "El sol directo <b>quema la piel en cámara.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu ventana<br><em>es tu foco.</em>",
+   "dur": 6,
+   "items": [
+    "Ventana delante, no detrás",
+    "Gírate a 45° para dar volumen",
+    "Luz suave, sin sol directo"
+   ]
+  }
+ ],
+ "caption": "¿Grabas en casa o en la oficina y sales oscuro en todos los vídeos? 🪟\n\nNo necesitas focos para empezar: una ventana bien usada es una de las mejores luces que tienes.\n\n→ Ponte de cara a la ventana, con la cámara entre tú y ella; nunca con la ventana detrás o quedas a contraluz\n→ Gírate hasta que la luz te llegue a unos 45°: un lado iluminado y el otro en sombra suave da volumen\n→ Evita el sol directo: una cortina fina lo suaviza; apaga la luz del techo y graba siempre a la misma hora\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #iluminacion #luznatural #hablaracamara #grabarconelmovil #tipsdevideo #creaciondecontenido"
+}
