@@ -1,0 +1,68 @@
+{
+ "topic": "Clientes que compran una vez y no vuelven: gracias el mismo día, pregunta qué tal le va a los 7, 30 y 90 días y deja el próximo contacto con fecha en el CRM",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te compran<br>una vez<br><em>y no vuelven?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Hola, ¿qué tal todo?"], "time": "MESES DESPUÉS"},
+     {"from": "in", "text": "Ya lo hice con otra empresa.", "time": "12:05"}
+    ]
+   },
+   "footer": "3 pasos para que repitan"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Da las gracias<br><em>el mismo día.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE TRAS LA COMPRA",
+    "lines": ["Gracias por confiar en nosotros", "Cualquier duda, escríbenos aquí", "En unos días te preguntamos"]
+   },
+   "note": "Que sepa que <b>no desapareces tras cobrar.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pregunta<br><em>qué tal le va.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+      {"n": "7", "d": "DÍA 7", "t": "¿Todo bien?", "s": "Resuelve lo que falle"},
+      {"n": "30", "d": "DÍA 30", "t": "¿Qué tal el resultado?", "s": "Si está contento, pide reseña"},
+      {"n": "90", "d": "DÍA 90", "t": "¿Necesitas algo más?", "s": "Recuérdale lo que puede repetir"}
+    ]
+   },
+   "note": "Un mensaje corto <b>te mantiene en su cabeza.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Próximo contacto<br><em>en el CRM.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del cliente",
+    "fields": [
+     {"q": "Qué compró", "a": "Mantenimiento"},
+     {"q": "Próximo contacto", "a": "15 de marzo"},
+     {"q": "Motivo", "a": "Revisión anual"}
+    ],
+    "badge": "✓ AVISO CREADO"
+   },
+   "note": "Si no tiene fecha, <b>no se hace.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu cliente<br><em>repita.</em>",
+   "dur": 6,
+   "items": ["Gracias el mismo día", "Pregunta qué tal le va", "Próximo contacto con fecha"]
+  }
+ ],
+ "caption": "¿Te compran una vez y luego no vuelves a saber de ellos? 🔁\n\nMuchos negocios se vuelcan en conseguir clientes nuevos y se olvidan de los que ya confiaron en ellos.\n\n→ Da las gracias el mismo día y deja claro por dónde puede escribirte\n→ Pregunta qué tal le va a los 7, 30 y 90 días: resuelve, pide reseña y recuérdale lo que puede repetir\n→ Deja el próximo contacto con fecha y motivo en el CRM para que no dependa de tu memoria\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #fidelizacion #clientes #ventas #crm #emprendedores #pymes"
+}
