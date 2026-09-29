@@ -661,6 +661,123 @@ class AbiertoNueve:
         card(im, t, 5.0, 'Veces que lo ha abierto', '9', 'respuestas: cero', cy=600, big_size=120)
         return im
 
+# ------------------------------------------------------------------ m17. EL PROYECTO "DE UNA TARDE" (hoja de horas)
+class HojaHoras:
+    POV = 'POV: apuntas las horas del proyecto “sencillito, de una tarde”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    ROWS = [('Reunión inicial', '0,5 h', '3 h'), ('Diseño del anuncio', '1 h', '9 h'), ('“Un último retoque”', '0,5 h', '12 h'),
+            ('Llamadas “rápidas”', '0,5 h', '7 h'), ('Textos', '1,5 h', '6 h')]
+    SFX = [f'tick@{0.3 + i * .3:.1f}' for i in range(5)] + [f'pop@{2.1 + i * .35:.2f}' for i in range(5)] + ['boom@4.1', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 110), fill=(16, 124, 65)); g.text((40, 55), 'Horas_proyecto_anuncio.xlsx', font=F(700, 34), fill='white', anchor='lm')
+        cols = [(0, 70), (70, 520), (520, 740), (740, BW)]; hdr = ['', 'A · Tarea', 'B · Estimado', 'C · Real']
+        y0, rh = 150, 104
+        g.rectangle((0, y0, BW, y0 + 70), fill=(238, 240, 242))
+        for (x0, x1), h in zip(cols, hdr): g.text(((x0 + x1) // 2, y0 + 35), h, font=F(700, 26), fill=MUT, anchor='mm')
+        for i, (m, e, r) in enumerate(self.ROWS):
+            y = y0 + 70 + i * rh
+            g.text((35, y + rh // 2), str(i + 2), font=F(600, 24), fill=MUT, anchor='mm')
+            if t >= 0.3 + i * .3:
+                g.text((95, y + rh // 2), m, font=F(600, 30), fill=INK, anchor='lm')
+                g.text((630, y + rh // 2), e, font=F(700, 32), fill=(16, 124, 65), anchor='mm')
+            if t >= 2.1 + i * .35:
+                g.rectangle((741, y + 1, BW, y + rh - 1), fill=(253, 226, 226))
+                g.text((850, y + rh // 2), r, font=F(800, 32), fill=(200, 40, 40), anchor='mm')
+        for i in range(7): g.line([(0, y0 + 70 + i * rh), (BW, y0 + 70 + i * rh)], fill=LINE, width=2)
+        for x0, _ in cols[1:]: g.line([(x0, y0), (x0, y0 + 70 + 6 * rh)], fill=LINE, width=2)
+        if t >= 4.1:
+            y = y0 + 70 + 5 * rh; g.rectangle((0, y + 1, BW, y + rh), fill=(245, 245, 245))
+            g.text((95, y + rh // 2), 'TOTAL', font=F(800, 32), fill=INK, anchor='lm')
+            g.text((630, y + rh // 2), '4 h', font=F(800, 32), fill=INK, anchor='mm')
+            g.text((850, y + rh // 2), '37 h', font=F(800, 34), fill=(200, 40, 40), anchor='mm')
+        card(im, t, 5.0, 'Proyecto “de una tarde”', '37 horas', 'cobrado como si fueran cuatro', cy=560, big_size=96)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m18. "VENGO DE PARTE DE…" (WhatsApp)
+class AmigoGratis(WAChat):
+    POV = 'POV: un cliente te recomienda a un amigo y el amigo viene con sus propias condiciones'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    NAME, LETTER, HOUR = 'Javi (recomendado)', 'J', '17:3'
+    MSGS = [(0.3, 'in', 'Hola, vengo de parte de Marta, tu clienta'), (1.2, 'in', 'Quiero lo mismo que tiene ella'),
+            (2.2, 'out', '¡Genial! Te preparo el presupuesto hoy'),
+            (3.6, 'in', 'Ah, ¿pero no era gratis por venir de su parte?')]
+    TYPING = [(2.8, 3.5)]
+    SFX = ['pop@0.3', 'pop@1.2', 'pop@2.2', 'typing:0.7@2.8', 'pop@3.6', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im, g = self.base(t); self.bubbles(im, t); self.footer(g)
+        card(im, t, 5.0, 'Descuento por recomendación', '100 %', 'según él, claro', cy=600, big_size=110)
+        return im
+
+
+# ------------------------------------------------------------------ m19. EL LEAD QUE BUSCA TRABAJO (llamada)
+class LeadCurriculum:
+    POV = 'POV: por fin te llama un lead del anuncio y es para pedirte trabajo'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    LINES = [(0.8, 'in', 'Hola, os llamo por el anuncio.'), (1.9, 'out', '¡Genial! ¿Qué reforma necesitas?'),
+             (3.1, 'in', 'No, no… ¿buscáis gente? Soy alicatador.'), (4.2, 'in', '¿Os mando el currículum?')]
+    SFX = ['ding@0.2', 'ding@0.5'] + [f'pop@{a}' for a, _, _ in LINES] + ['pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (22, 26, 34)); g = ImageDraw.Draw(im)
+        g.ellipse((BW // 2 - 80, 40, BW // 2 + 80, 200), fill=(90, 100, 120)); g.text((BW // 2, 120), 'L', font=F(800, 70), fill='white', anchor='mm')
+        g.text((BW // 2, 250), 'Lead · Anuncio de reformas', font=F(700, 40), fill='white', anchor='mm')
+        g.text((BW // 2, 305), timer(max(0, t - 0.6) * 3) if t >= 0.6 else 'llamando…', font=F(500, 32), fill=(170, 175, 185), anchor='mm')
+        y = 370
+        for ts, side, txt in self.LINES:
+            if t < ts: continue
+            k = ease((t - ts) / .3); l, lg = layer(); A = int(255 * k); f = F(600, 34)
+            ls = wrap(txt, f, 620); w = max(f.getlength(x) for x in ls) + 60; h = len(ls) * 46 + 40
+            x0 = 40 if side == 'in' else BW - 40 - w
+            lg.rounded_rectangle((x0, y, x0 + w, y + h), 24, fill=((52, 58, 70) if side == 'in' else (0, 110, 90)) + (A,))
+            for j, s_ in enumerate(ls): lg.text((x0 + 30, y + 20 + j * 46), s_, font=f, fill=(255, 255, 255, A))
+            im.paste(l, (0, 0), l); y += h + 20
+        for i, (lab, col) in enumerate([('Silenciar', (60, 66, 78)), ('Colgar', (235, 64, 52)), ('Altavoz', (60, 66, 78))]):
+            x = 200 + i * 280; g.ellipse((x - 55, 850, x + 55, 960), fill=col)
+            g.text((x, 905), lab[0], font=F(800, 36), fill='white', anchor='mm')
+        card(im, t, 5.0, 'Lead del mes', 'Candidato', 'el anuncio funciona… para contratar', cy=560, big_size=90)
+        return im
+
+
+# ------------------------------------------------------------------ m20. EL PIN EN EL RÍO (mapa)
+class PinRio:
+    POV = 'POV: buscas tu negocio en el mapa y la chincheta está en mitad del río'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 640)
+    SFX = ['typing:1.0@0.3', 'tick@1.4', 'boom@2.2', 'pop@3.2', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (236, 232, 224)); g = ImageDraw.Draw(im)
+        for i in range(-2, 12):
+            g.line([(i * 110, 0), (i * 110 + 300, BH)], fill='white', width=16)
+            g.line([(0, i * 120), (BW, i * 120 - 180)], fill='white', width=12)
+        for (x, y, w, h) in [(40, 700, 200, 150), (650, 150, 240, 180), (700, 760, 200, 180)]:
+            g.rounded_rectangle((x, y, x + w, y + h), 20, fill=(200, 230, 190))
+        pts = [(BW * (i / 40), 470 + 90 * math.sin(i / 40 * 5)) for i in range(41)]
+        g.line(pts, fill=(160, 205, 245), width=130, joint='curve')
+        g.text((190, 440), 'Río', font=F(600, 30), fill=(90, 140, 200), anchor='mm')
+        g.rounded_rectangle((30, 30, BW - 30, 120), 45, fill='white', outline=LINE, width=2)
+        q = 'Reformas Duero'; n = int(len(q) * min(1, max(0, (t - 0.3) / 1.0)))
+        g.text((80, 75), q[:n] if t < 1.4 else q, font=F(600, 34), fill=INK, anchor='lm')
+        if t >= 2.2:
+            k = pop((t - 2.2) / .35); px, py = 520, int(470 + 90 * math.sin(520 / BW * 5)); yy = py - int((1 - min(1, k)) * 200)
+            g.ellipse((px - 22, py - 8, px + 22, py + 8), fill=(120, 150, 180))
+            g.pieslice((px - 45, yy - 130, px + 45, yy - 40), 180, 360, fill=(234, 67, 53))
+            g.polygon([(px - 45, yy - 85), (px + 45, yy - 85), (px, yy)], fill=(234, 67, 53))
+            g.ellipse((px - 16, yy - 101, px + 16, yy - 69), fill=(165, 30, 25))
+        if t >= 3.2:
+            k = ease((t - 3.2) / .35); l, lg = layer(); A = int(255 * k); yy = BH - int(260 * k)
+            lg.rounded_rectangle((0, yy, BW, BH + 30), 30, fill=(255, 255, 255, A))
+            lg.text((40, yy + 50), 'Reformas Duero', font=F(800, 40), fill=INK + (A,), anchor='lm')
+            lg.text((40, yy + 110), 'Empresa de reformas · Abierto', font=F(500, 28), fill=MUT + (A,), anchor='lm')
+            lg.text((40, yy + 170), 'Cómo llegar: 0 rutas disponibles', font=F(700, 30), fill=(200, 40, 40, A), anchor='lm')
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.0, 'Tu negocio en el mapa', 'En el río', 'y te preguntas por qué no viene nadie', cy=745, ch=300, big_size=90)
+        return im
+
 NEW = {'m01-precio-amigo': PrecioAmigo, 'm02-publico-espana': PublicoEspana,
        'm03-carpeta-final': CarpetaFinal, 'm04-cinco-minutos': CincoMinutos,
        'm05-tarjeta-caducada': TarjetaCaducada, 'm06-transferencia': Transferencia,
@@ -668,4 +785,6 @@ NEW = {'m01-precio-amigo': PrecioAmigo, 'm02-publico-espana': PublicoEspana,
        'm09-moderno': Moderno, 'm10-formulario-facil': FormularioBasura,
        'm11-preguntita': Preguntita, 'm12-spam-leads': SpamLeads,
        'm13-reunion-movida': ReunionMovida, 'm14-pensandolo': Pensandolo,
-       'm15-web-movil': WebMovil, 'm16-abierto-nueve': AbiertoNueve}
+       'm15-web-movil': WebMovil, 'm16-abierto-nueve': AbiertoNueve,
+       'm17-hoja-horas': HojaHoras, 'm18-amigo-gratis': AmigoGratis,
+       'm19-lead-curriculum': LeadCurriculum, 'm20-pin-rio': PinRio}
