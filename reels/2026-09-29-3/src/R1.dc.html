@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Reel</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@property --m{syntax:'<integer>';inherits:false;initial-value:0}
+@property --s{syntax:'<integer>';inherits:false;initial-value:0}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 8px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 22px rgba(255,106,26,.8))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.06)}}
+@keyframes aIn{from{opacity:0;transform:translateY(40px);filter:blur(10px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes aPop{0%{opacity:0;transform:scale(.6)}60%{opacity:1;transform:scale(1.08)}100%{opacity:1;transform:scale(1)}}
+@keyframes aPing{0%,100%{box-shadow:0 0 0 0 rgba(255,106,26,.55)}50%{box-shadow:0 0 0 18px rgba(255,106,26,0)}}
+@keyframes aPingG{0%,100%{box-shadow:0 0 0 0 rgba(53,208,127,.55)}50%{box-shadow:0 0 0 18px rgba(53,208,127,0)}}
+@keyframes aRing{0%{transform:scale(.8);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aFill{from{width:0}to{width:100%}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(12px)}}
+@keyframes aBlue{0%,100%{stroke:#9C938B}}
+@keyframes aTicks{from{stroke:#F2EDE7}to{stroke:#7FD3FF}}
+@keyframes aSeen{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes aMinK{from{--m:0}to{--m:4}}
+@keyframes aSecK{from{--s:0}to{--s:59}}
+@keyframes aArc{from{stroke-dashoffset:754}to{stroke-dashoffset:68}}
+@keyframes aArcG{0%{stroke:#FF6A1A}100%{stroke:#35D07F}}
+@keyframes aType{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes aDots{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(-8px);opacity:1}}
+@keyframes aOnl{0%,78%{opacity:1}79%,97%{opacity:0}98%,100%{opacity:1}}
+@keyframes aTyp{0%,78%{opacity:0}79%,96%{opacity:1}97%,100%{opacity:0}}
+@keyframes aShow{from{opacity:0}to{opacity:1}}
+@keyframes aHide{from{opacity:1}to{opacity:0}}
+@keyframes aRail{from{height:0}to{height:100%}}
+@keyframes aNode{0%{background:#12100F;border-color:rgba(242,237,231,.2);box-shadow:none;transform:scale(1)}50%{transform:scale(1.25)}100%{background:#FF6A1A;border-color:#FFB27A;box-shadow:0 0 30px rgba(255,106,26,.8);transform:scale(1)}}
+@keyframes aRow{from{border-color:rgba(242,237,231,.1);background:rgba(18,16,15,.92)}to{border-color:rgba(255,106,26,.6);background:#1C130D}}
+@keyframes aCheck{from{stroke-dashoffset:30}to{stroke-dashoffset:0}}
+@keyframes aShine{0%{transform:translateX(-160%) skewX(-20deg)}55%,100%{transform:translateX(420%) skewX(-20deg)}}
+@keyframes aBtn{0%,100%{transform:scale(1);box-shadow:0 20px 70px rgba(255,106,26,.45)}50%{transform:scale(1.03);box-shadow:0 20px 110px rgba(255,106,26,.75)}}
+.mm{counter-reset:m var(--m) s var(--s)}
+.mm::before{content:"0" counter(m) ":" counter(s,decimal-leading-zero)}
+@keyframes aGrowW{from{width:0}}
+@keyframes aHi{from{background:transparent;color:#6B635C}to{background:rgba(255,106,26,.14);color:#F2EDE7}}
+@keyframes aStrike{from{width:0}to{width:100%}}
+@keyframes aMedia{0%{background-position:0% 50%}100%{background-position:100% 50%}}
+
+@keyframes fxOrbA{0%{transform:translate(0,0) scale(1)}50%{transform:translate(260px,380px) scale(1.25)}100%{transform:translate(0,0) scale(1)}}
+@keyframes fxOrbB{0%{transform:translate(0,0) scale(1.1)}50%{transform:translate(-300px,-420px) scale(.85)}100%{transform:translate(0,0) scale(1.1)}}
+@keyframes fxSpin{to{transform:rotate(360deg)}}
+@keyframes fxSweep{0%{transform:translateX(-140%) rotate(18deg)}45%,100%{transform:translateX(160%) rotate(18deg)}}
+@keyframes fxP{0%{transform:translateY(0) scale(.6);opacity:0}12%{opacity:1}85%{opacity:.9}100%{transform:translateY(-2100px) scale(1.2);opacity:0}}
+@keyframes fxWord{from{opacity:0;transform:translateY(.55em) rotate(4deg) scale(.9);filter:blur(14px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes fxTilt{from{opacity:0;transform:perspective(1600px) rotateX(28deg) translateY(120px) scale(.88);filter:blur(10px)}to{opacity:1;transform:perspective(1600px) rotateX(0) translateY(0) scale(1);filter:blur(0)}}
+@keyframes fxFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+@keyframes fxPill{0%,100%{box-shadow:0 0 0 0 rgba(255,106,26,.6)}50%{box-shadow:0 0 0 12px rgba(255,106,26,0)}}
+@keyframes fxGrid{from{background-position:0 0}to{background-position:0 180px}}
+@keyframes fxFlash{0%{opacity:.55}100%{opacity:0}}
+.fx-w{display:inline-block;animation:fxWord .9s cubic-bezier(.2,.8,.2,1) both}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important}}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1920px; box-sizing: border-box; padding: 240px 80px 330px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div aria-hidden="true" style="position: absolute; inset: 0; overflow: hidden; pointer-events: none"><div style="position: absolute; left: 50%; top: 58%; width: 1700px; height: 1700px; margin: -850px 0 0 -850px; border-radius: 999px; background: conic-gradient(from 0deg, rgba(255,106,26,0) 0deg, rgba(255,106,26,0.16) 60deg, rgba(255,106,26,0) 140deg, rgba(255,178,122,0.1) 230deg, rgba(255,106,26,0) 320deg); animation: fxSpin 18s linear infinite"></div><div style="position: absolute; left: -200px; top: 200px; width: 700px; height: 700px; border-radius: 999px; background: radial-gradient(circle, rgba(255,106,26,0.35), rgba(255,106,26,0) 65%); filter: blur(20px); animation: fxOrbA 11s ease-in-out infinite"></div><div style="position: absolute; right: -240px; bottom: 120px; width: 800px; height: 800px; border-radius: 999px; background: radial-gradient(circle, rgba(255,140,60,0.28), rgba(255,106,26,0) 65%); filter: blur(24px); animation: fxOrbB 13s ease-in-out infinite"></div><div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.045) 1px, transparent 1px); background-size: 90px 90px; animation: fxGrid 6s linear infinite; -webkit-mask-image: radial-gradient(circle at 50% 55%, #000 30%, transparent 75%); mask-image: radial-gradient(circle at 50% 55%, #000 30%, transparent 75%)"></div><span style="position: absolute; left: 21%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,106,74,0.5); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 9.4s linear -0.5s infinite"></span><span style="position: absolute; left: 9%; bottom: -40px; width: 16px; height: 16px; border-radius: 99px; background: rgba(255,140,74,0.9); box-shadow: 0 0 32px rgba(255,106,26,0.8); animation: fxP 12.5s linear -2.7s infinite"></span><span style="position: absolute; left: 32%; bottom: -40px; width: 6px; height: 6px; border-radius: 99px; background: rgba(255,106,26,0.5); box-shadow: 0 0 12px rgba(255,106,26,0.8); animation: fxP 7.5s linear -3.2s infinite"></span><span style="position: absolute; left: 9%; bottom: -40px; width: 16px; height: 16px; border-radius: 99px; background: rgba(255,106,122,0.9); box-shadow: 0 0 32px rgba(255,106,26,0.8); animation: fxP 10.5s linear -4.2s infinite"></span><span style="position: absolute; left: 39%; bottom: -40px; width: 8px; height: 8px; border-radius: 99px; background: rgba(255,140,122,0.5); box-shadow: 0 0 16px rgba(255,106,26,0.8); animation: fxP 9.5s linear -5.1s infinite"></span><span style="position: absolute; left: 15%; bottom: -40px; width: 8px; height: 8px; border-radius: 99px; background: rgba(255,106,122,0.7); box-shadow: 0 0 16px rgba(255,106,26,0.8); animation: fxP 10.5s linear -6.7s infinite"></span><span style="position: absolute; left: 74%; bottom: -40px; width: 6px; height: 6px; border-radius: 99px; background: rgba(255,178,74,0.5); box-shadow: 0 0 12px rgba(255,106,26,0.8); animation: fxP 7.4s linear -1.5s infinite"></span><span style="position: absolute; left: 61%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,106,26,0.7); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 10.5s linear -4.8s infinite"></span><span style="position: absolute; left: 12%; bottom: -40px; width: 8px; height: 8px; border-radius: 99px; background: rgba(255,178,74,0.7); box-shadow: 0 0 16px rgba(255,106,26,0.8); animation: fxP 10.4s linear -5.5s infinite"></span><span style="position: absolute; left: 79%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,106,74,0.7); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 12.9s linear -1.5s infinite"></span><span style="position: absolute; left: 64%; bottom: -40px; width: 8px; height: 8px; border-radius: 99px; background: rgba(255,178,122,0.9); box-shadow: 0 0 16px rgba(255,106,26,0.8); animation: fxP 9.5s linear -9.2s infinite"></span><span style="position: absolute; left: 45%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,140,26,0.5); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 11.2s linear -6.6s infinite"></span><span style="position: absolute; left: 36%; bottom: -40px; width: 6px; height: 6px; border-radius: 99px; background: rgba(255,178,122,0.9); box-shadow: 0 0 12px rgba(255,106,26,0.8); animation: fxP 9.8s linear -6.5s infinite"></span><span style="position: absolute; left: 84%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,140,122,0.7); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 10.5s linear -7.1s infinite"></span><span style="position: absolute; left: 87%; bottom: -40px; width: 12px; height: 12px; border-radius: 99px; background: rgba(255,106,122,0.7); box-shadow: 0 0 24px rgba(255,106,26,0.8); animation: fxP 9.1s linear -8.5s infinite"></span><span style="position: absolute; left: 65%; bottom: -40px; width: 6px; height: 6px; border-radius: 99px; background: rgba(255,178,26,0.9); box-shadow: 0 0 12px rgba(255,106,26,0.8); animation: fxP 7.4s linear -5.6s infinite"></span><span style="position: absolute; left: 52%; bottom: -40px; width: 12px; height: 12px; border-radius: 99px; background: rgba(255,140,74,0.9); box-shadow: 0 0 24px rgba(255,106,26,0.8); animation: fxP 12.5s linear -6.2s infinite"></span><span style="position: absolute; left: 37%; bottom: -40px; width: 16px; height: 16px; border-radius: 99px; background: rgba(255,140,122,0.5); box-shadow: 0 0 32px rgba(255,106,26,0.8); animation: fxP 12.3s linear -10.1s infinite"></span><span style="position: absolute; left: 47%; bottom: -40px; width: 12px; height: 12px; border-radius: 99px; background: rgba(255,106,26,0.9); box-shadow: 0 0 24px rgba(255,106,26,0.8); animation: fxP 11.1s linear -4.2s infinite"></span><span style="position: absolute; left: 21%; bottom: -40px; width: 8px; height: 8px; border-radius: 99px; background: rgba(255,178,26,0.7); box-shadow: 0 0 16px rgba(255,106,26,0.8); animation: fxP 8.4s linear -2.0s infinite"></span><span style="position: absolute; left: 38%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,178,122,0.7); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 7.0s linear -2.9s infinite"></span><span style="position: absolute; left: 18%; bottom: -40px; width: 10px; height: 10px; border-radius: 99px; background: rgba(255,178,122,0.5); box-shadow: 0 0 20px rgba(255,106,26,0.8); animation: fxP 11.1s linear -5.7s infinite"></span><div style="position: absolute; top: -20%; bottom: -20%; left: 0; width: 38%; background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,200,160,0.10), rgba(255,255,255,0)); animation: fxSweep 5s ease-in-out 1.2s infinite"></div><div style="position: absolute; inset: 0; background: radial-gradient(circle at 50% 40%, rgba(255,150,80,0.5), rgba(10,9,8,0) 60%); animation: fxFlash 1.2s ease-out both"></div></div>
+<div style="position: absolute; top: 600px; right: -500px; width: 1300px; height: 1300px; border-radius: 999px; background: radial-gradient(circle, rgba(255,106,26,0.3), rgba(255,106,26,0) 60%); animation: aGlow 5s ease-in-out infinite"></div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 18px"><img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Growth" style="width: 68px; height: 68px; display: block; animation: aLogo 5s ease-in-out infinite"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; letter-spacing: -0.02em">Ceos Growth</span></div>
+<span style="padding: 12px 22px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 24px; letter-spacing: 0.1em; animation: fxPill 2s ease-out infinite">01 / 05</span>
+</div>
+<div style="display: flex; gap: 10px"><div style="flex: 1; height: 8px; border-radius: 9px; background: rgba(242,237,231,0.14); overflow: hidden"><div style="height: 100%; background: #FF6A1A; box-shadow: 0 0 12px #FF6A1A; animation: aFill 5s linear both"></div></div><div style="flex: 1; height: 8px; border-radius: 9px; background: rgba(242,237,231,0.14); overflow: hidden"></div><div style="flex: 1; height: 8px; border-radius: 9px; background: rgba(242,237,231,0.14); overflow: hidden"></div><div style="flex: 1; height: 8px; border-radius: 9px; background: rgba(242,237,231,0.14); overflow: hidden"></div><div style="flex: 1; height: 8px; border-radius: 9px; background: rgba(242,237,231,0.14); overflow: hidden"></div></div>
+</div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 70px">
+<div style="display: flex; flex-direction: column; gap: 18px">
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 126px; line-height: 0.94; letter-spacing: -0.055em"><span class="fx-w" style="animation-delay: 0.15s">¿Ven</span> <span class="fx-w" style="animation-delay: 0.22s">tu</span> <span class="fx-w" style="animation-delay: 0.29s">oferta</span><br><span class="fx-w" style="animation-delay: 0.36s">y</span> <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A"><span class="fx-w" style="animation-delay: 0.43s">nadie</span><br><span class="fx-w" style="animation-delay: 0.50s">pregunta?</span></span></h1>
+</div>
+<div style="position: relative; border-radius: 44px; background: rgba(18,16,15,0.92); border: 1px solid rgba(242,237,231,0.12); box-shadow: 0 60px 140px -40px rgba(0,0,0,0.9); overflow: hidden; animation: fxTilt 1.3s cubic-bezier(.2,.8,.2,1) .7s both, fxFloat 6s ease-in-out 2s infinite">
+<div style="display: flex; align-items: center; gap: 18px; padding: 26px 30px"><span style="flex-shrink: 0; width: 60px; height: 60px; border-radius: 99px; background: linear-gradient(135deg,#FF6A1A,#FFB27A); display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; color: #0A0908">T</span><div style="display: flex; flex-direction: column"><span style="font-size: 28px; font-weight: 700">Tu negocio</span><span style="font-size: 20px; color: #9C938B">Publicidad</span></div><span style="margin-left: auto; font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #6B635C">EJEMPLO</span></div>
+<div style="padding: 0 30px 20px; font-size: 26px; color: #D9D1C8; line-height: 1.3">Servicios de calidad a tu medida.</div>
+<div style="height: 380px; background: linear-gradient(120deg,#2A1408,#FF6A1A,#3A1A0A,#FF8F45); background-size: 300% 300%; animation: aMedia 6s ease-in-out infinite alternate; display: flex; align-items: center; justify-content: center; padding: 30px; box-sizing: border-box; text-align: center">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 60px; line-height: 1; letter-spacing: -0.04em; color: #0A0908; animation: aPop .6s cubic-bezier(.2,.8,.2,1) 1.4s both">CONSÚLTANOS</span></div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 30px; background: #171412"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px">Los mejores precios</span><span style="flex-shrink: 0; padding: 14px 22px; border-radius: 12px; background: #F2EDE7; color: #0A0908; font-weight: 700; font-size: 24px">Más información</span></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: -30px"><span style="padding: 10px 18px; border-radius: 99px; border: 1px solid rgba(255,106,26,.6); background: rgba(255,106,26,.12); font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: .08em; color: #FFB27A; animation: aPop .5s cubic-bezier(.2,.8,.2,1) 2.4s both">NO DICE QUÉ</span><span style="padding: 10px 18px; border-radius: 99px; border: 1px solid rgba(255,106,26,.6); background: rgba(255,106,26,.12); font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: .08em; color: #FFB27A; animation: aPop .5s cubic-bezier(.2,.8,.2,1) 2.9s both">NI PARA QUIÉN</span><span style="padding: 10px 18px; border-radius: 99px; border: 1px solid rgba(255,106,26,.6); background: rgba(255,106,26,.12); font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: .08em; color: #FFB27A; animation: aPop .5s cubic-bezier(.2,.8,.2,1) 3.4s both">NI POR QUÉ HOY</span></div>
+</div>
+<div style="position: relative; display: flex; align-items: center; justify-content: center; gap: 18px; animation: aIn 1s cubic-bezier(.2,.8,.2,1) 2.4s both">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 46px; letter-spacing: -0.03em">3 pasos para una oferta clara</span>
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#FF6A1A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; transform: rotate(90deg)"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</div>
+</div>
+</x-dc>
+</body>
+</html>

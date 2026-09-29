@@ -1,0 +1,63 @@
+{
+ "topic": "Oferta que se entiende: di qué incluye en concreto, para quién es y por qué decidir ahora (solo con motivos reales)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Ven tu oferta<br>y <em>nadie<br>pregunta?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Servicios de calidad a tu medida.",
+    "media": "CONSÚLTANOS",
+    "headline": "Los mejores precios",
+    "cta": "Más información",
+    "tags": ["NO DICE QUÉ", "NI PARA QUIÉN", "NI POR QUÉ HOY"]
+   },
+   "footer": "3 pasos para una oferta clara"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Di qué<br><em>incluye.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Visita y medición", "Presupuesto cerrado", "Plazo por escrito", "Limpieza al terminar"]
+   },
+   "note": "Lo concreto <b>se entiende y se compra.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Di para<br><em>quién es.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad": ["Para todo el mundo", "Cualquier negocio"],
+    "good": ["Clínicas dentales", "Con huecos en agenda"]
+   },
+   "note": "Si es para todos, <b>no es para nadie.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Dale un<br><em>por qué ahora.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "in", "text": "Me lo pienso y te digo.", "time": "11:20"},
+     {"from": "out", "lines": ["¡Claro! Te aviso:", "este mes quedan", "dos huecos de visita."], "time": "11:22"}
+    ]
+   },
+   "note": "Solo si es verdad: <b>fecha, plazas o temporada.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Una oferta<br><em>que se entiende.</em>",
+   "dur": 6,
+   "items": ["Qué incluye, en concreto", "Para quién es", "Por qué decidir ahora"]
+  }
+ ],
+ "caption": "¿Ven tu oferta y nadie pregunta? 🤔\n\n“Servicios de calidad a tu medida” no le dice al cliente qué se lleva, si es para él ni por qué moverse hoy.\n\n→ Di qué incluye en concreto: visita, presupuesto cerrado, plazo por escrito…\n→ Di para quién es: cuando es para todos, nadie siente que le hablas a él\n→ Dale un motivo para decidir ahora, pero solo si es real: una fecha, plazas limitadas o la temporada\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #oferta #ventas #marketingdigital #captaciondeclientes #emprendedores #pymes"
+}
