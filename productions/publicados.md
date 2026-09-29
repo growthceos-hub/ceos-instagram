@@ -21,4 +21,4 @@
 | 2026-09-28 | reel 10 (meme) | POV: por fin te sale la toma buena… y el vecino empieza a taladrar | https://www.instagram.com/reel/Dd17YLoCISn/ |
 | 2026-09-29 | carrusel C1 | Guion para vídeo corto: la estructura que evita quedarte en blanco a cámara | https://www.instagram.com/p/Dd3KnfRAKtB/ |
 | 2026-09-29 | historias ×5 | Mito vs realidad: 3 mitos que te frenan a grabarte a cámara | https://www.instagram.com/stories/ceos.productions/3996757605129448700 |
-| 2026-09-29 | carrusel C2 | Fondo a cámara: qué hay detrás de ti y cómo convertirlo en un set profesional | en curso |
+| 2026-09-29 | carrusel C2 | Fondo a cámara: qué hay detrás de ti y cómo convertirlo en un set profesional | https://www.instagram.com/p/Dd3Y3gTDaiR/ |
