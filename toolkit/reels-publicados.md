@@ -88,3 +88,23 @@
 | 2026-09-28 | meme | Tres horarios y propone el sábado a las 8 — solo pestaña Reels | https://www.instagram.com/reel/Dd15_FFE3Tc/ |
 | 2026-09-29 | 4 | Cuando te escriben “precio?”: responde en minutos, da un rango orientativo con una pregunta y pásalo a una llamada o cita con hora | https://www.instagram.com/reel/Dd4GFZBoBla/ | Sí |
 | 2026-09-29 | 5 | Agenda comercial para llamar a tiempo: bloques fijos para llamar a los leads, empieza por los más calientes y cierra el día con el CRM al día | https://www.instagram.com/reel/Dd4I80dFRvM/ | Sí |
+| 2026-09-29 | meme | “Precio de amigo” de alguien que conociste ayer — solo pestaña Reels | https://www.instagram.com/reel/Dd4PywgAbuE/ |
+| 2026-09-29 | meme | Campaña de peluquería de barrio con público “toda España” — solo pestaña Reels | https://www.instagram.com/reel/Dd4PzmjCnn7/ |
+| 2026-09-29 | meme | Carpeta con seis presupuestos “final” — solo pestaña Reels | https://www.instagram.com/reel/Dd4P2FmADbn/ |
+| 2026-09-29 | meme | “Te llamo yo en cinco minutos” (3 días después) — solo pestaña Reels | https://www.instagram.com/reel/Dd4P7x4G-49/ |
+| 2026-09-29 | meme | Anuncios que funcionan y caduca la tarjeta — solo pestaña Reels | https://www.instagram.com/reel/Dd4QW7sEXeD/ |
+| 2026-09-29 | meme | “Ya te he hecho la transferencia” (llegan 50 € a cuenta) — solo pestaña Reels | https://www.instagram.com/reel/Dd4QYdmAmrO/ |
+| 2026-09-29 | meme | Reseña de 1 estrella por no coger un domingo a las 23:40 — solo pestaña Reels | https://www.instagram.com/reel/Dd4QR4zjZA0/ |
+| 2026-09-29 | meme | Previsión de ventas de enero vs realidad (Excel) — solo pestaña Reels | https://www.instagram.com/reel/Dd4QShpjwzo/ |
+| 2026-09-29 | meme | “Hazlo más moderno” y la referencia es de 2009 — solo pestaña Reels | https://www.instagram.com/reel/Dd4Qsv3lJzr/ |
+| 2026-09-29 | meme | Formulario “más fácil” y leads basura (asdf, 123456789) — solo pestaña Reels | https://www.instagram.com/reel/Dd4Qwh6FM5h/ |
+| 2026-09-29 | meme | “Una preguntita rápida” el domingo por la mañana — solo pestaña Reels | https://www.instagram.com/reel/Dd4Qt52DbEv/ |
+| 2026-09-29 | meme | Leads de la web llegando a spam durante un mes — solo pestaña Reels | https://www.instagram.com/reel/Dd4Q0G4mtNa/ |
+| 2026-09-29 | meme | La reunión de resultados reprogramada 5 veces — solo pestaña Reels | https://www.instagram.com/reel/Dd4R0RRCPBa/ |
+| 2026-09-29 | meme | Cliente “pensándolo” desde marzo en el CRM — solo pestaña Reels | https://www.instagram.com/reel/Dd4RMz9ALa2/ |
+| 2026-09-29 | meme | Tu web en el móvil: el botón de llamar bajo seis ventanas emergentes — solo pestaña Reels | https://www.instagram.com/reel/Dd4RNFuFMCl/ |
+| 2026-09-29 | meme | Presupuesto abierto 9 veces y sin respuesta — solo pestaña Reels | https://www.instagram.com/reel/Dd4RPNQCbQj/ |
+| 2026-09-29 | meme | Proyecto “de una tarde” en la hoja de horas: 37 h — solo pestaña Reels | https://www.instagram.com/reel/Dd4Ryg0DG1X/ |
+| 2026-09-29 | meme | El recomendado que quiere lo mismo pero gratis — solo pestaña Reels | https://www.instagram.com/reel/Dd4RvcqCcLw/ |
+| 2026-09-29 | meme | Te llama un lead del anuncio para pedirte trabajo — solo pestaña Reels | https://www.instagram.com/reel/Dd4Rv8aAXO8/ |
+| 2026-09-29 | meme | La chincheta del negocio en mitad del río — solo pestaña Reels | https://www.instagram.com/reel/Dd4RwX9DXK2/ |
