@@ -34,4 +34,4 @@
 | 2026-09-29 | reel 8 (tip) | Luz de ventana: dónde colocarte para grabarte a cámara con luz natural (3 posiciones) | https://www.instagram.com/reel/Dd4T7eoijDe/ |
 | 2026-09-29 | carrusel C5 | Cómo cerrar tu vídeo: 3 finales para que no se vayan sin seguirte ni escribirte | https://www.instagram.com/p/Dd4Wqs-ACG4/ |
 | 2026-09-29 | reel 9 (meme) | POV: por fin te animas a grabarte a cámara… y te sale "Almacenamiento lleno" | https://www.instagram.com/reel/Dd4aIWWjISP/ |
-| 2026-09-29 | reel 10 (tip) | Qué hacer con las manos al hablar a cámara: 3 trucos para no parecer nervioso | en curso |
+| 2026-09-29 | reel 10 (tip) | Qué hacer con las manos al hablar a cámara: 3 trucos para no parecer nervioso | https://www.instagram.com/reel/Dd4g_O5lGIm/ |
