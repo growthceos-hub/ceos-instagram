@@ -26,4 +26,4 @@
 | 2026-09-29 | carrusel C3 | Captación: graba en una sola sesión de estudio en Burgos el contenido de varias semanas (deja de grabar a trozos en la oficina) | https://www.instagram.com/p/Dd3mVO8jN-Z/ |
 | 2026-09-29 | reel 2 (tip) | Voz a cámara: 3 trucos para no sonar monótono al grabarte | https://www.instagram.com/reel/Dd3rHbZjl3J/ |
 | 2026-09-29 | reel 3 (meme) | POV: usas las notas del móvil de teleprompter… y a mitad de toma te llama tu madre | https://www.instagram.com/reel/Dd3wOFDiqAN/ |
-| 2026-09-29 | reel 4 (tip) | Antes de tu sesión de grabación: 3 cosas que preparar el día antes para que todo salga a la primera | en curso |
+| 2026-09-29 | reel 4 (tip) | Antes de tu sesión de grabación: 3 cosas que preparar el día antes para que todo salga a la primera | https://www.instagram.com/reel/Dd34BuuDfrU/ |
