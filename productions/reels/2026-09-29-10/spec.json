@@ -1,0 +1,73 @@
+{
+ "topic": "Qué hacer con las manos al hablar a cámara: 3 trucos para no parecer nervioso",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué hago con<br>las <em>manos</em>?",
+   "size": 136,
+   "dur": 5.6,
+   "mock": {
+    "type": "chat",
+    "name": "Lucía",
+    "msgs": [
+     {"from": "out", "lines": ["Grabo en 5 minutos", "¿Y qué hago con las manos?"], "time": "18:02"},
+     {"from": "in", "text": "Ni idea… ¿escóndelas?", "time": "18:03"}
+    ]
+   },
+   "footer": "3 trucos para no parecer nervioso"
+  },
+  {
+   "label": "TRUCO 1",
+   "title": "Manos en plano,<br><em>no escondidas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Manos en los bolsillos", "Brazos cruzados", "Tocarte la cara o el pelo"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Manos a la vista", "Entre el ombligo y el pecho"]
+   },
+   "note": "Manos visibles <b>transmiten confianza.</b>"
+  },
+  {
+   "label": "TRUCO 2",
+   "title": "Que tus manos<br><em>cuenten algo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "SI DICES", "t": "«3 claves»", "s": "Cuéntalas con los dedos"},
+     {"n": "2", "d": "SI DICES", "t": "«Algo enorme»", "s": "Abre las manos"},
+     {"n": "3", "d": "SI DICES", "t": "«Tú y yo»", "s": "Señala a cámara y luego a ti"}
+    ]
+   },
+   "note": "Gestos que acompañan, <b>no que distraen.</b>"
+  },
+  {
+   "label": "TRUCO 3",
+   "title": "Ten una<br><em>posición base.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Manos juntas en el ombligo",
+     "Vuelve ahí tras cada gesto",
+     "Nunca fuera de plano",
+     "Si te ayuda, sujeta un boli"
+    ]
+   },
+   "note": "Una base fija <b>corta los tics de nervios.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Manos a la vista,<br><em>cero nervios.</em>",
+   "dur": 6,
+   "items": [
+    "Manos en plano, no escondidas",
+    "Gestos que acompañan lo que dices",
+    "Vuelve a tu posición base"
+   ]
+  }
+ ],
+ "caption": "¿No sabes qué hacer con las manos cuando te grabas a cámara? 🙌\n\nEsconderlas o moverlas sin parar es lo que más delata los nervios en un vídeo.\n\n→ Mantén las manos en plano, a la vista y entre el ombligo y el pecho: nada de bolsillos ni brazos cruzados\n→ Usa gestos que acompañen lo que dices: cuenta con los dedos, abre las manos, señala a cámara\n→ Ten una posición base (manos juntas a la altura del ombligo) y vuelve a ella después de cada gesto\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #hablaracamara #lenguajecorporal #marcapersonal #tipsdevideo #creaciondecontenido"
+}
