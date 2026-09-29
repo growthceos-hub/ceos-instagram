@@ -30,4 +30,4 @@
 | 2026-09-29 | reel 5 (meme) | POV: te piden una foto profesional para la web… y solo tienes fotos de bodas | https://www.instagram.com/reel/Dd4DRhOk4R7/ |
 | 2026-09-29 | reel 6 (tip) | Grabar en vertical para Reels: 3 reglas de zona segura para que la interfaz no tape tu cara ni tu texto | https://www.instagram.com/reel/Dd4FlbVCYaA/ |
 | 2026-09-29 | carrusel C4 | Posar en fotos de marca personal: 3 trucos para no salir rígido | https://www.instagram.com/p/Dd4HpImj5Zr/ |
-| 2026-09-29 | reel 7 (meme) | POV: escuchas tu voz grabada por primera vez… "¿de verdad sueno así?" | en curso |
+| 2026-09-29 | reel 7 (meme) | POV: escuchas tu voz grabada por primera vez… "¿de verdad sueno así?" | https://www.instagram.com/reel/Dd4L782FU5V/ |
