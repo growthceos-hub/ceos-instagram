@@ -1,0 +1,74 @@
+{
+ "topic": "Voz a cámara: 3 trucos para no sonar monótono al grabarte",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu vídeo no aburre.<br><em>Tu voz, sí.</em>",
+   "size": 132,
+   "dur": 5.6,
+   "mock": {
+    "type": "chat",
+    "name": "Tu audiencia",
+    "msgs": [
+     {"from": "in", "text": "He visto tu vídeo"},
+     {"from": "out", "lines": ["¿Y qué te ha parecido?"]},
+     {"from": "in", "text": "Útil… pero me dormí"}
+    ]
+   },
+   "footer": "3 trucos para no sonar monótono"
+  },
+  {
+   "label": "TRUCO 1",
+   "title": "Marca la palabra<br><em>que importa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU GUION · MARCADO",
+    "lines": [
+     "Esto te <b>ahorra</b> horas",
+     "Y casi <b>nadie</b> lo hace",
+     "Hoy te enseño <b>cómo</b>"
+    ]
+   },
+   "note": "Una palabra por frase: <b>ahí subes la voz.</b>"
+  },
+  {
+   "label": "TRUCO 2",
+   "title": "No dejes caer<br><em>el final.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SUENA PLANO",
+    "bad": ["Mismo tono todo el rato", "Frases que se apagan"],
+    "good_t": "ENGANCHA",
+    "good": ["Subes en lo importante", "Terminas con energía"]
+   },
+   "note": "Acaba cada frase <b>como si fuera la última.</b>"
+  },
+  {
+   "label": "TRUCO 3",
+   "title": "Usa pausas<br><em>a propósito.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ANTES DE LO CLAVE", "t": "Calla un segundo", "s": "Crea expectación"},
+     {"n": "2", "d": "TRAS CADA IDEA", "t": "Respira y sigue", "s": "Da tiempo a entenderla"},
+     {"n": "3", "d": "AL EDITAR", "t": "No las cortes todas", "s": "Deja que respire"}
+    ]
+   },
+   "note": "El silencio también <b>mantiene la atención.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu voz<br><em>también enganche.</em>",
+   "dur": 6,
+   "items": [
+    "Marca la palabra clave",
+    "No dejes caer el final",
+    "Pausas a propósito"
+   ]
+  }
+ ],
+ "caption": "¿Tu contenido es bueno pero la gente se va a mitad del vídeo? 🎙️\n\nMuchas veces no es lo que dices, es cómo suena: una voz plana hace que hasta el mejor consejo parezca aburrido.\n\n→ Marca en tu guion una palabra clave por frase y súbele la voz ahí\n→ No dejes caer el final de las frases: termínalas con energía\n→ Usa pausas a propósito: un segundo de silencio antes de lo importante crea expectación\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #hablaracamara #vozacamara #creaciondecontenido #marcapersonal #tipsdevideo #reels"
+}
