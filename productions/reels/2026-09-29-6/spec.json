@@ -1,0 +1,73 @@
+{
+ "topic": "Grabar en vertical para Reels: 3 reglas de zona segura para que la interfaz no tape tu cara ni tu texto",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Instagram te tapa<br><em>medio vídeo.</em>",
+   "size": 134,
+   "dur": 5.6,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["¿Por qué no se lee", "el título de mi reel?"]},
+     {"from": "in", "text": "Lo tapa la descripción"}
+    ]
+   },
+   "footer": "3 reglas de zona segura"
+  },
+  {
+   "label": "REGLA 1",
+   "title": "Deja libre<br><em>arriba y abajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "QUÉ TAPA LA INTERFAZ",
+    "lines": [
+      "Arriba: <b>nombre y audio</b>",
+      "Abajo: <b>descripción</b>",
+      "Derecha: <b>botones</b>"
+    ]
+   },
+   "note": "Texto y cara, <b>siempre en el centro.</b>"
+  },
+  {
+   "label": "REGLA 2",
+   "title": "Los ojos, en el<br><em>tercio de arriba.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Cara pegada abajo", "Barbilla tras el texto"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Ojos a un tercio", "Poco aire sobre la cabeza"]
+   },
+   "note": "Así la descripción <b>nunca te tapa la cara.</b>"
+  },
+  {
+   "label": "REGLA 3",
+   "title": "Graba en 9:16,<br><em>no recortes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ANTES DE REC", "t": "Móvil en vertical", "s": "9:16 desde el origen"},
+     {"n": "2", "d": "EN EL VISOR", "t": "Activa la cuadrícula", "s": "Centra lo importante"},
+     {"n": "3", "d": "AL EDITAR", "t": "Revísalo en el móvil", "s": "Con la interfaz encima"}
+    ]
+   },
+   "note": "Recortar un horizontal <b>te deja sin aire.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Centra lo que<br><em>importa.</em>",
+   "dur": 6,
+   "items": [
+    "Libre arriba y abajo",
+    "Ojos en el tercio superior",
+    "Graba en 9:16 de origen"
+   ]
+  }
+ ],
+ "caption": "¿Tu reel se ve bien en el ordenador… y en el móvil no se lee nada? 📱\n\nEn Reels, la interfaz de Instagram tapa arriba, abajo y el lateral derecho: si no lo tienes en cuenta al grabar, pierdes cara y texto.\n\n→ Deja libres la franja de arriba y la de abajo: ahí van el nombre, el audio y la descripción\n→ Coloca los ojos a un tercio de la parte de arriba, con poco aire sobre la cabeza\n→ Graba en vertical 9:16 desde el principio y revisa el montaje en el móvil antes de publicar\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #reels #grabarconelmovil #hablaracamara #creaciondecontenido #tipsdevideo #marcapersonal"
+}
