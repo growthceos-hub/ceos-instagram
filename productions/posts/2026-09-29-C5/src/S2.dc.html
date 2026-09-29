@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>02 · El final flojo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+
+@keyframes aHead{0%{left:2%}100%{left:98%}}
+@keyframes aDraw{0%{stroke-dashoffset:1000}80%,100%{stroke-dashoffset:0}}
+@keyframes aDot{0%{offset-distance:0%}80%,100%{offset-distance:100%}}
+@keyframes aZone{0%,55%{opacity:.25}62%,100%{opacity:1}}
+@keyframes aC1{0%,24%{background:#FF3B30;color:#fff;border-color:#FF3B30}33%,100%{background:#12100F;color:#F2EDE7;border-color:rgba(242,237,231,.14)}}
+@keyframes aC2{0%,33%{background:#12100F;color:#F2EDE7;border-color:rgba(242,237,231,.14)}37%,58%{background:#FF3B30;color:#fff;border-color:#FF3B30}66%,100%{background:#12100F;color:#F2EDE7;border-color:rgba(242,237,231,.14)}}
+@keyframes aC3{0%,66%{background:#12100F;color:#F2EDE7;border-color:rgba(242,237,231,.14)}70%,94%{background:#FF3B30;color:#fff;border-color:#FF3B30}100%{background:#12100F;color:#F2EDE7;border-color:rgba(242,237,231,.14)}}
+@keyframes aT1{0%,28%{opacity:1;transform:none}33%,96%{opacity:0;transform:translateY(-10px)}100%{opacity:1}}
+@keyframes aT2{0%,33%{opacity:0;transform:translateY(10px)}37%,62%{opacity:1;transform:none}66%,100%{opacity:0}}
+@keyframes aT3{0%,66%{opacity:0;transform:translateY(10px)}70%,96%{opacity:1;transform:none}100%{opacity:0}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">02 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">EL FINAL FLOJO</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 86px; line-height: 0.96; letter-spacing: -0.055em">Tu vídeo no termina:<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">se va apagando.</span></h1>
+</div>
+<div style="position: relative; height: 660px; display: flex; flex-direction: column; gap: 16px">
+  <div style="position: relative; flex: 1; border-radius: 30px; background: #12100F; border: 2px solid rgba(242,237,231,0.14); box-shadow: 0 50px 120px -40px rgba(255,106,26,0.5); padding: 22px 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px">
+    <div style="position: relative; height: 210px; border-radius: 20px; overflow: hidden; background: linear-gradient(180deg, #1C130D, #0A0908); border: 2px solid rgba(242,237,231,.1)">
+      <div style="position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; line-height: 1.05; letter-spacing: -0.03em; opacity: 0; animation: aT1 4s ease-out infinite"><div style="animation: none">“Bueno… pues eso.<br>Nada más, ¡chao!”</div></div><div style="position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; line-height: 1.05; letter-spacing: -0.03em; opacity: 0; animation: aT2 4s ease-out infinite"><div style="animation: none">“Dale like, comenta, comparte,<br>sígueme y mira el link…”</div></div><div style="position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; line-height: 1.05; letter-spacing: -0.03em; opacity: 0; animation: aT3 4s ease-out infinite"><div style="animation: none"><span style="font-family: 'JetBrains Mono', monospace; font-size: 30px; letter-spacing: .1em; color: #9C938B">[ LOGO + MÚSICA · SILENCIO ]</span></div></div>
+      <div style="position: absolute; left: 18px; top: 14px; display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 17px; letter-spacing: .1em; color: #F2EDE7"><span style="width: 12px; height: 12px; border-radius: 99px; background: #FF3B30; animation: aRec 1s steps(1) infinite"></span>ÚLTIMOS SEGUNDOS</div>
+      <div style="position: absolute; inset: 10px; pointer-events: none"><div style="position: absolute; top: 0; left: 0; width: 40px; height: 40px; border-top: 4px solid rgba(242,237,231,.5); border-left: 4px solid rgba(242,237,231,.5)"></div><div style="position: absolute; top: 0; right: 0; width: 40px; height: 40px; border-top: 4px solid rgba(242,237,231,.5); border-right: 4px solid rgba(242,237,231,.5)"></div><div style="position: absolute; bottom: 0; left: 0; width: 40px; height: 40px; border-bottom: 4px solid rgba(242,237,231,.5); border-left: 4px solid rgba(242,237,231,.5)"></div><div style="position: absolute; bottom: 0; right: 0; width: 40px; height: 40px; border-bottom: 4px solid rgba(242,237,231,.5); border-right: 4px solid rgba(242,237,231,.5)"></div></div>
+    </div>
+    <div style="position: relative; flex: 1">
+      <div style="position: absolute; left: 0; right: 0; top: 0; display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 17px; letter-spacing: .1em; color: #9C938B"><span>GENTE QUE SIGUE VIENDO</span><span style="color: #FF8F45">EJEMPLO</span></div>
+      <svg width="868" height="150" viewBox="0 0 868 240" preserveAspectRatio="none" style="position: absolute; left: 0; top: 30px">
+        <defs><linearGradient id="fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF6A1A" stop-opacity=".35"/><stop offset="1" stop-color="#FF6A1A" stop-opacity="0"/></linearGradient></defs>
+        <rect x="640" y="0" width="228" height="240" fill="rgba(255,59,48,.14)" style="animation: aZone 4s linear infinite"/>
+        <path d="M0 40 C120 44 260 52 420 60 C520 66 580 72 640 82 C690 100 720 150 760 200 C790 225 820 232 868 236 L868 240 L0 240 Z" fill="url(#fa)"/>
+        <path d="M0 40 C120 44 260 52 420 60 C520 66 580 72 640 82 C690 100 720 150 760 200 C790 225 820 232 868 236" fill="none" stroke="#FF6A1A" stroke-width="6" stroke-linecap="round" stroke-dasharray="1000" style="animation: aDraw 4s linear infinite"/>
+      </svg>
+      <div style="position: absolute; left: 650px; top: 38px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; letter-spacing: .08em; color: #FF3B30; animation: aZone 4s linear infinite">AQUÍ SE VAN ↓</div>
+      <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 46px; display: flex; gap: 6px">
+        <div style="flex: 2; border-radius: 10px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; display: flex; align-items: center; padding-left: 12px">GANCHO</div>
+        <div style="flex: 9; border-radius: 10px; background: #1E1A17; border: 2px solid rgba(242,237,231,.2); font-family: 'JetBrains Mono', monospace; font-size: 17px; color: #B5ADA4; display: flex; align-items: center; padding-left: 12px">CONTENIDO</div>
+        <div style="flex: 4; border-radius: 10px; background: repeating-linear-gradient(45deg, rgba(255,59,48,.55) 0 12px, rgba(255,59,48,.25) 12px 24px); font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; color: #fff; display: flex; align-items: center; padding-left: 12px">FINAL FLOJO</div>
+      </div>
+      <div style="position: absolute; top: 24px; bottom: -6px; width: 4px; margin-left: -2px; background: #F2EDE7; box-shadow: 0 0 14px rgba(242,237,231,.8); animation: aHead 4s linear infinite; z-index: 3"><div style="position: absolute; left: -9px; top: -6px; width: 22px; height: 14px; border-radius: 4px; background: #F2EDE7"></div></div>
+    </div>
+  </div>
+  <div style="display: flex; gap: 14px"><div style="flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 16px 20px; border-radius: 20px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aC1 4s ease-in-out infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">ERROR 1</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.02">Despedida eterna</span></div><div style="flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 16px 20px; border-radius: 20px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aC2 4s ease-in-out infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">ERROR 2</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.02">Pedir cinco cosas</span></div><div style="flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 16px 20px; border-radius: 20px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aC3 4s ease-in-out infinite"><span style="font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; opacity: .8">ERROR 3</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.02">Silencio con logo</span></div></div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Los últimos segundos deciden qué hacen.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

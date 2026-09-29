@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>03 · Una sola petición</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+
+@keyframes aShake{0%,100%{transform:translateX(0)}20%{transform:translateX(-4px)}40%{transform:translateX(4px)}60%{transform:translateX(-3px)}80%{transform:translateX(3px)}}
+@keyframes aOut{0%,30%{opacity:1;max-height:70px;margin-bottom:0}42%,92%{opacity:0;max-height:0;margin-bottom:-12px}100%{opacity:1;max-height:70px;margin-bottom:0}}
+@keyframes aStrike{0%,22%{width:0}30%,92%{width:100%}100%{width:0}}
+@keyframes aWin{0%,34%{transform:scale(1);background:#1E1A17;color:#F2EDE7;box-shadow:none}46%,92%{transform:scale(1.1);background:#FF6A1A;color:#0A0908;box-shadow:0 0 60px rgba(255,106,26,.7)}100%{transform:scale(1);background:#1E1A17;color:#F2EDE7;box-shadow:none}}
+@keyframes aTy1{0%,4%{width:0}24%,95%{width:100%}100%{width:0}}
+@keyframes aTy2{0%,24%{width:0}40%,95%{width:100%}100%{width:0}}
+@keyframes aTy3{0%,40%{width:0}54%,95%{width:100%}100%{width:0}}
+@keyframes aCaret{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes aTagIn{0%,40%{opacity:0;transform:translateY(12px)}48%,92%{opacity:1;transform:none}100%{opacity:0}}
+@keyframes aMsg1{0%,36%{opacity:1;transform:none}42%,96%{opacity:0;transform:translateY(-12px)}100%{opacity:1}}
+@keyframes aMsg2{0%,42%{opacity:0;transform:translateY(12px)}48%,94%{opacity:1;transform:none}98%,100%{opacity:0}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">03 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">TRUCO 01 · UNA SOLA PETICIÓN</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 96px; line-height: 0.96; letter-spacing: -0.055em">Pide una cosa,<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">no cinco.</span></h1>
+</div>
+<div style="position: relative; height: 640px; display: flex; gap: 24px">
+  <div style="position: relative; width: 360px; height: 640px; border-radius: 52px; background: #050505; padding: 14px; box-sizing: border-box; box-shadow: 0 0 0 3px rgba(242,237,231,.18), 0 50px 120px -30px rgba(255,106,26,.55); flex: none">
+<div style="position: relative; width: 100%; height: 100%; border-radius: 40px; overflow: hidden; background: #0A0908"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 16%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div>
+<div style="position: absolute; inset: 0; background: rgba(10,9,8,.55)"></div>
+<div style="position: absolute; left: 0; right: 0; top: 70px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 17px; letter-spacing: .12em; color: #9C938B">FINAL DEL VÍDEO</div>
+<div style="position: absolute; left: 20px; right: 20px; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; gap: 12px"><div style="position: relative; align-self: center; overflow: hidden; padding: 14px 26px; border-radius: 16px; background: #1E1A17; border: 2px solid rgba(242,237,231,.2); font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; animation: aOut 4s cubic-bezier(.6,0,.3,1) infinite"><span style="animation: aShake .4s linear infinite; display: inline-block">Dale like</span><div style="position: absolute; left: 8%; top: 50%; height: 4px; background: #FF3B30; animation: aStrike 4s cubic-bezier(.6,0,.3,1) infinite"></div></div><div style="position: relative; align-self: center; overflow: hidden; padding: 14px 26px; border-radius: 16px; background: #1E1A17; border: 2px solid rgba(242,237,231,.2); font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; animation: aOut 4s cubic-bezier(.6,0,.3,1) infinite"><span style="animation: aShake .4s linear infinite; display: inline-block">Comenta</span><div style="position: absolute; left: 8%; top: 50%; height: 4px; background: #FF3B30; animation: aStrike 4s cubic-bezier(.6,0,.3,1) infinite"></div></div><div style="align-self: center; padding: 14px 30px; border-radius: 16px; border: 2px solid #FF6A1A; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; line-height: 1.05; text-align: center; letter-spacing: -0.02em; animation: aWin 4s cubic-bezier(.6,0,.3,1) infinite; position: relative; z-index: 2">Sígueme para la parte 2</div><div style="position: relative; align-self: center; overflow: hidden; padding: 14px 26px; border-radius: 16px; background: #1E1A17; border: 2px solid rgba(242,237,231,.2); font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; animation: aOut 4s cubic-bezier(.6,0,.3,1) infinite"><span style="animation: aShake .4s linear infinite; display: inline-block">Comparte</span><div style="position: absolute; left: 8%; top: 50%; height: 4px; background: #FF3B30; animation: aStrike 4s cubic-bezier(.6,0,.3,1) infinite"></div></div><div style="position: relative; align-self: center; overflow: hidden; padding: 14px 26px; border-radius: 16px; background: #1E1A17; border: 2px solid rgba(242,237,231,.2); font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; animation: aOut 4s cubic-bezier(.6,0,.3,1) infinite"><span style="animation: aShake .4s linear infinite; display: inline-block">Link en la bio</span><div style="position: absolute; left: 8%; top: 50%; height: 4px; background: #FF3B30; animation: aStrike 4s cubic-bezier(.6,0,.3,1) infinite"></div></div></div>
+
+<div style="position: absolute; left: 50%; top: 12px; width: 110px; height: 30px; margin-left: -55px; border-radius: 99px; background: #050505; z-index: 9"></div></div></div>
+  <div style="position: relative; flex: 1; display: flex; flex-direction: column; gap: 18px">
+    <div style="position: relative; flex: 1; border-radius: 30px; background: #12100F; border: 2px solid rgba(242,237,231,0.14); padding: 28px; box-sizing: border-box; box-shadow: 0 50px 120px -40px rgba(255,106,26,0.45)">
+      <div style="display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 18px; letter-spacing: .1em; color: #9C938B"><span>GUION · ÚLTIMA FRASE</span><span style="color: #FF8F45">■ 00:28</span></div>
+      <div style="margin-top: 30px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 50px; line-height: 1.08; letter-spacing: -0.03em; position: relative">
+        <div style="position: relative; overflow: hidden; white-space: nowrap; width: 0; animation: aTy1 4s steps(14) infinite">“Si te ha servido,</div>
+        <div style="position: relative; overflow: hidden; white-space: nowrap; width: 0; animation: aTy2 4s steps(12) infinite"><span style="color: #FF6A1A">sígueme</span> para</div>
+        <div style="position: relative; overflow: hidden; white-space: nowrap; width: 0; animation: aTy3 4s steps(10) infinite">la parte 2.”<span style="display: inline-block; width: 5px; height: 42px; margin-left: 6px; background: #FF6A1A; vertical-align: -4px; animation: aCaret .8s steps(1) infinite"></span></div>
+      </div>
+      <div style="position: absolute; left: 28px; right: 28px; bottom: 26px; display: flex; flex-direction: column; gap: 10px">
+        <div style="display: flex; align-items: center; gap: 12px; opacity: 0; animation: aTagIn 4s ease-out infinite"><span style="width: 36px; height: 36px; border-radius: 99px; background: #FF6A1A; color: #0A0908; display: flex; align-items: center; justify-content: center; font-weight: 800">✓</span><span style="font-size: 25px; color: #F2EDE7">Una acción concreta</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; opacity: 0; animation: aTagIn 4s ease-out .25s infinite"><span style="width: 36px; height: 36px; border-radius: 99px; background: #FF6A1A; color: #0A0908; display: flex; align-items: center; justify-content: center; font-weight: 800">✓</span><span style="font-size: 25px; color: #F2EDE7">Con un motivo para hacerla</span></div>
+      </div>
+    </div>
+    <div style="position: relative; height: 120px; border-radius: 24px; background: #12100F; border: 2px solid rgba(242,237,231,0.14); display: flex; align-items: center; padding: 0 26px; box-sizing: border-box">
+      <div style="position: absolute; left: 26px; right: 26px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; letter-spacing: -0.02em; line-height: 1.05; animation: aMsg1 4s linear infinite">Cinco opciones <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF3B30">= ninguna.</span></div>
+      <div style="position: absolute; left: 26px; right: 26px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; letter-spacing: -0.02em; line-height: 1.05; opacity: 0; animation: aMsg2 4s linear infinite">Una orden clara <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A">= la hacen.</span></div>
+    </div>
+  </div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Elige: seguir, guardar o escribir. Solo una.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
