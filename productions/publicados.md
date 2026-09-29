@@ -19,3 +19,4 @@
 | 2026-09-28 | carrusel C5 | Edición con ritmo: 3 cortes para que no abandonen tu vídeo a mitad | https://www.instagram.com/p/Dd1xw_bgKmG/ |
 | 2026-09-28 | reel 9 (tip) | Foto de perfil profesional: 3 claves para que tu foto transmita confianza | https://www.instagram.com/reel/Dd11JntjBZV/ |
 | 2026-09-28 | reel 10 (meme) | POV: por fin te sale la toma buena… y el vecino empieza a taladrar | https://www.instagram.com/reel/Dd17YLoCISn/ |
+| 2026-09-29 | carrusel C1 | Guion para vídeo corto: la estructura que evita quedarte en blanco a cámara | en curso |
