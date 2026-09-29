@@ -29,3 +29,4 @@
 | 2026-09-29 | reel 4 (tip) | Antes de tu sesión de grabación: 3 cosas que preparar el día antes para que todo salga a la primera | https://www.instagram.com/reel/Dd34BuuDfrU/ |
 | 2026-09-29 | reel 5 (meme) | POV: te piden una foto profesional para la web… y solo tienes fotos de bodas | https://www.instagram.com/reel/Dd4DRhOk4R7/ |
 | 2026-09-29 | reel 6 (tip) | Grabar en vertical para Reels: 3 reglas de zona segura para que la interfaz no tape tu cara ni tu texto | https://www.instagram.com/reel/Dd4FlbVCYaA/ |
+| 2026-09-29 | carrusel C4 | Posar en fotos de marca personal: 3 trucos para no salir rígido | en curso |
