@@ -1,0 +1,60 @@
+{
+ "topic": "Perfil de Instagram que convierte visitas en mensajes: bio con qué haces y para quién, un solo botón con un solo enlace y destacadas que resuelven dudas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Miran tu<br>perfil y<br><em>no escriben?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "TU BIO AHORA",
+    "lines": ["Pasión por lo que hacemos", "Calidad y confianza", "Link en la bio"]
+   },
+   "footer": "3 pasos para que te escriban"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Qué haces<br><em>y para quién.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad": ["Pasión y calidad", "Tu mejor opción"],
+    "good": ["Reformas de baño", "Presupuesto en 48 h"]
+   },
+   "note": "Que se entienda <b>en 3 segundos.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un botón,<br><em>un solo enlace.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Botón del perfil",
+    "fields": [
+     {"q": "Acción", "a": "Enviar WhatsApp"},
+     {"q": "Texto", "a": "Pide tu presupuesto"}
+    ],
+    "badge": "✓ UN SOLO CAMINO"
+   },
+   "note": "Muchas opciones = <b>ninguna decisión.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Destacadas<br><em>que resuelven.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Precios", "Trabajos hechos", "Opiniones", "Cómo trabajamos"]
+   },
+   "note": "Responde las dudas <b>antes de que pregunten.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu perfil,<br><em>tu escaparate.</em>",
+   "dur": 6,
+   "items": ["Qué haces y para quién", "Un botón, un enlace", "Destacadas con respuestas"]
+  }
+ ],
+ "caption": "¿Te visitan el perfil de Instagram y nadie te escribe? 👀\n\nMuchas veces el anuncio o el reel funciona, pero el perfil no explica qué haces ni qué hacer a continuación.\n\n→ En la bio: qué haces, para quién y qué consigue, que se entienda en 3 segundos\n→ Un solo botón con un solo enlace: WhatsApp, cita o presupuesto, no cinco opciones\n→ Destacadas que respondan dudas: precios, trabajos hechos, opiniones y cómo trabajas\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagram #perfildeinstagram #marketingdigital #captaciondeclientes #emprendedores #pymes"
+}
