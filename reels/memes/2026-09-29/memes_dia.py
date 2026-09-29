@@ -532,9 +532,140 @@ class SpamLeads:
         tag(g)
         return im
 
+# ------------------------------------------------------------------ m13. LA REUNIÓN QUE SE MUEVE (calendario)
+class ReunionMovida:
+    POV = 'POV: el cliente mueve la reunión para revisar resultados por quinta vez'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    MOVES = [(0.3, 0, 10.0), (1.0, 1, 12.0), (1.7, 2, 9.0), (2.4, 3, 16.0), (3.1, 4, 8.5)]
+    SFX = ['pop@0.3'] + [f'tick@{a}' for a, _, _ in MOVES[1:]] + ['ding@3.9', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.text((40, 50), 'Septiembre 2026', font=F(800, 40), fill=INK, anchor='lm')
+        days = ['Lun 21', 'Mar 22', 'Mié 23', 'Jue 24', 'Vie 25']; X0, CW, Y0, HH = 100, 170, 110, 90
+        for i, d in enumerate(days): g.text((X0 + i * CW + CW // 2, Y0 + 20), d, font=F(700, 26), fill=MUT, anchor='mm')
+        for h in range(8, 18):
+            y = Y0 + 60 + (h - 8) * HH; g.text((80, y), f'{h}:00', font=F(500, 22), fill=MUT, anchor='rm')
+            g.line([(X0, y), (BW - 30, y)], fill=LINE, width=1)
+        for i in range(6): g.line([(X0 + i * CW, Y0 + 50), (X0 + i * CW, BH - 20)], fill=LINE, width=1)
+        n = sum(1 for a, _, _ in self.MOVES if t >= a)
+        for j, (a, dcol, h) in enumerate(self.MOVES[:n]):
+            y = Y0 + 60 + (h - 8) * HH; x = X0 + dcol * CW
+            last = j == n - 1
+            if last:
+                k = ease((t - a) / .25); l, lg = layer()
+                lg.rounded_rectangle((x + 6, y + 4, x + CW - 6, y + HH - 4), 12, fill=(26, 115, 232, int(255 * k)))
+                lg.text((x + 16, y + 14), 'Revisión', font=F(700, 22), fill=(255, 255, 255, int(255 * k)))
+                lg.text((x + 16, y + 44), 'resultados', font=F(600, 20), fill=(220, 235, 255, int(255 * k)))
+                im.paste(l, (0, 0), l)
+            else:
+                g.rounded_rectangle((x + 6, y + 4, x + CW - 6, y + HH - 4), 12, outline=(180, 190, 205), width=3)
+                g.line([(x + 14, y + HH // 2), (x + CW - 14, y + HH // 2)], fill=(180, 190, 205), width=3)
+        if n > 1:
+            g.rounded_rectangle((BW - 330, 26, BW - 30, 76), 25, fill=(253, 226, 226))
+            g.text((BW - 180, 51), f'Reprogramada ({n - 1})', font=F(700, 26), fill=(200, 40, 40), anchor='mm')
+        banner(im, t, 3.9, 'Calendario · Cliente (clínica)', 'Propone nueva fecha: “mejor la semana que viene”', y=820, icol=(26, 115, 232), ich='C')
+        card(im, t, 5.0, 'Reunión de resultados', '5 cambios', 'y luego: “¿por qué no hay resultados?”', cy=560, big_size=86)
+        return im
+
+
+# ------------------------------------------------------------------ m14. "ME LO PIENSO" DESDE MARZO (ficha del CRM)
+class Pensandolo:
+    POV = 'POV: abres la ficha del cliente que “se lo está pensando”'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = ['pop@0.3', 'pop@0.8', 'pop@1.3', 'pop@1.8', 'count:1.8@2.4', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (247, 248, 250)); g = ImageDraw.Draw(im)
+        appbar(g, 'CRM · Ficha de oportunidad', col=(52, 44, 110))
+        g.rounded_rectangle((30, 160, BW - 30, 960), 22, fill='white', outline=LINE, width=2)
+        g.ellipse((60, 190, 160, 290), fill=(120, 110, 200)); g.text((110, 240), 'CS', font=F(800, 36), fill='white', anchor='mm')
+        g.text((190, 215), 'Clínica Sanz', font=F(800, 42), fill=INK, anchor='lm'); g.text((190, 265), 'Oportunidad: anuncios + web', font=F(500, 28), fill=MUT, anchor='lm')
+        rows = [(0.3, 'Etapa', 'Negociación'), (0.8, 'Último contacto', '14 de marzo'),
+                (1.3, 'Nota', '“Me lo pienso y te digo”'), (1.8, 'Próxima tarea', '—')]
+        for i, (ts, k_, v) in enumerate(rows):
+            if t < ts: continue
+            y = 340 + i * 100
+            g.text((60, y), k_, font=F(600, 28), fill=MUT, anchor='lm'); g.text((380, y), v, font=F(700, 32), fill=INK, anchor='lm')
+            g.line([(60, y + 45), (BW - 60, y + 45)], fill=LINE, width=1)
+        if t >= 2.4:
+            n = int(199 * ease(min(1, (t - 2.4) / 1.8)))
+            g.rounded_rectangle((60, 760, BW - 60, 920), 18, fill=(255, 243, 224))
+            g.text((90, 800), 'Días en “Negociación”', font=F(600, 28), fill=(160, 90, 0), anchor='lm')
+            g.text((90, 870), str(n), font=F(800, 64), fill=(200, 100, 0), anchor='lm')
+        card(im, t, 5.0, 'Días pensándolo', '199', 'y sigue en “Negociación”', cy=560, big_size=110)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m15. TU WEB EN EL MÓVIL (ventanas emergentes)
+class WebMovil:
+    POV = 'POV: abres tu web desde el móvil por primera vez y buscas el botón de llamar'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = ['pop@0.3', 'pop@0.9', 'pop@1.5', 'pop@2.1', 'pop@2.7', 'pop@3.3', 'tick@4.1', 'tick@4.5', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 80), fill=(240, 240, 242)); g.rounded_rectangle((120, 18, BW - 120, 62), 22, fill='white')
+        g.text((BW // 2, 40), 'reformasduero.es', font=F(500, 24), fill=MUT, anchor='mm')
+        g.rectangle((0, 80, BW, 180), fill=(30, 50, 80)); g.text((40, 130), 'REFORMAS DUERO', font=F(800, 36), fill='white', anchor='lm')
+        g.rectangle((0, 180, BW, 520), fill=(200, 190, 175)); g.text((40, 380), 'Reformas integrales', font=F(800, 54), fill='white', anchor='lm')
+        g.rounded_rectangle((40, 560, 460, 650), 45, fill=(230, 90, 30)); g.text((250, 605), 'Llamar ahora', font=F(800, 34), fill='white', anchor='mm')
+        def pop_(ts, box, fillc, lines, col=INK):
+            if t < ts: return
+            k = pop((t - ts) / .3)
+            if k < .15: return
+            x0, y0, x1, y1 = box; cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+            w, h = (x1 - x0) * k, (y1 - y0) * k; l, lg = layer()
+            lg.rounded_rectangle((cx - w / 2 + 6, cy - h / 2 + 8, cx + w / 2 + 6, cy + h / 2 + 8), 20, fill=(0, 0, 0, 60))
+            lg.rounded_rectangle((cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2), 20, fill=fillc)
+            if k > .9:
+                for j, (txt, sz) in enumerate(lines):
+                    lg.text((x0 + 30, y0 + 30 + sum(l_[1] + 16 for l_ in lines[:j])), txt, font=F(700, sz), fill=col)
+                lg.text((x1 - 30, y0 + 20), '×', font=F(700, 30), fill=(150, 150, 150), anchor='ra')
+            im.paste(l, (0, 0), l)
+        pop_(0.3, (0, 800, BW, 1000), (255, 255, 255), [('Usamos cookies para todo.', 30), ('Aceptar · Configurar · Leer 14 páginas', 26)])
+        pop_(0.9, (520, 600, 930, 780), (37, 211, 102), [('¿Hablamos?', 34)], col=(255, 255, 255))
+        pop_(1.5, (80, 420, 880, 720), (255, 250, 230), [('¡Suscríbete a la newsletter!', 36), ('y llévate un 5 % en nada', 28)])
+        pop_(2.1, (40, 230, 700, 470), (230, 240, 255), [('Descarga el catálogo', 36), ('(PDF de 48 MB)', 28)])
+        pop_(2.7, (260, 520, 920, 700), (255, 230, 240), [('¿Te vas ya?', 36), ('¡Espera, gira la ruleta!', 28)])
+        pop_(3.3, (60, 540, 520, 660), (40, 40, 44), [('Valora tu experiencia', 30)], col=(255, 255, 255))
+        if t >= 3.8:
+            k = ease((t - 3.8) / .8); l, lg = layer(); cursor(lg, int(700 - 450 * k + 30 * math.sin(t * 9)), int(950 - 350 * k)); im.paste(l, (0, 0), l)
+        card(im, t, 5.0, 'Botón de llamar', 'Perdido', 'debajo de seis ventanas emergentes', cy=560, big_size=96)
+        return im
+
+
+# ------------------------------------------------------------------ m16. PRESUPUESTO ABIERTO 9 VECES (notificaciones)
+class AbiertoNueve:
+    POV = 'POV: el cliente ha abierto tu presupuesto nueve veces y sigue sin contestar'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 600)
+    TS = [0.3 + i * .45 for i in range(9)]
+    SFX = [f'ding@{a:.2f}' for a in TS] + ['pop@5.0', 'boom@5.8']
+    HOURS = ['lun 10:02', 'lun 10:05', 'lun 16:40', 'mar 08:15', 'mar 13:30', 'mar 22:47', 'mié 07:58', 'mié 12:03', 'hoy 18:21']
+
+    def draw(self, t):
+        im, g = lock_bg('18:21')
+        n = sum(1 for a in self.TS if t >= a)
+        for j in range(max(0, n - 5), n):
+            i = j - max(0, n - 5); ts = self.TS[j]; k = ease((t - ts) / .3); A = int(255 * k); l, lg = layer()
+            yy = 290 + (min(n, 5) - 1 - i) * 112
+            lg.rounded_rectangle((36, yy, BW - 36, yy + 98), 24, fill=(58, 62, 74, int(230 * k)))
+            lg.rounded_rectangle((60, yy + 22, 114, yy + 76), 14, fill=(66, 133, 244, A))
+            lg.text((87, yy + 49), '@', font=F(800, 30), fill=(255, 255, 255, A), anchor='mm')
+            lg.text((136, yy + 16), f'Seguimiento de correo · {self.HOURS[j]}', font=F(500, 22), fill=(190, 192, 200, A))
+            lg.text((136, yy + 48), 'Cliente ha abierto “Presupuesto.pdf”', font=F(700, 28), fill=(255, 255, 255, A))
+            im.paste(l, (0, 0), l)
+        if n:
+            g.text((BW // 2, 900), f'Aperturas: {n}   ·   Respuestas: 0', font=F(700, 36), fill=(255, 190, 150), anchor='mm')
+        card(im, t, 5.0, 'Veces que lo ha abierto', '9', 'respuestas: cero', cy=600, big_size=120)
+        return im
+
 NEW = {'m01-precio-amigo': PrecioAmigo, 'm02-publico-espana': PublicoEspana,
        'm03-carpeta-final': CarpetaFinal, 'm04-cinco-minutos': CincoMinutos,
        'm05-tarjeta-caducada': TarjetaCaducada, 'm06-transferencia': Transferencia,
        'm07-resena-domingo': ResenaDomingo, 'm08-prevision': Prevision,
        'm09-moderno': Moderno, 'm10-formulario-facil': FormularioBasura,
-       'm11-preguntita': Preguntita, 'm12-spam-leads': SpamLeads}
+       'm11-preguntita': Preguntita, 'm12-spam-leads': SpamLeads,
+       'm13-reunion-movida': ReunionMovida, 'm14-pensandolo': Pensandolo,
+       'm15-web-movil': WebMovil, 'm16-abierto-nueve': AbiertoNueve}
