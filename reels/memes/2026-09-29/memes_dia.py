@@ -405,7 +405,136 @@ class Prevision:
         return im
 
 
+# ------------------------------------------------------------------ m09. "HAZLO MÁS MODERNO" (editor de diseño)
+class Moderno:
+    POV = 'POV: el cliente quiere un anuncio “más moderno” y te manda su referencia'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    SFX = ['pop@0.3', 'ding@1.6', 'boom@2.7', 'pop@3.2', 'pop@3.6', 'pop@4.0', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (44, 46, 52)); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 90), fill=(30, 31, 36)); g.text((30, 45), 'Editor de diseño · Anuncio_reformas.png', font=F(600, 28), fill=(220, 220, 225), anchor='lm')
+        g.rectangle((0, 90, 110, BH), fill=(34, 35, 40))
+        for i, lab in enumerate(['T', '▢', '◯', '★', '⌘']):
+            g.rounded_rectangle((20, 120 + i * 100, 90, 190 + i * 100), 14, fill=(52, 54, 60))
+            g.text((55, 155 + i * 100), lab if lab in 'T' else '·', font=F(700, 34), fill=(200, 200, 205), anchor='mm')
+        X0, Y0, X1, Y1 = 170, 150, 900, 900
+        if t < 2.7:
+            g.rectangle((X0, Y0, X1, Y1), fill=(245, 241, 234))
+            g.rectangle((X0, Y0, X1, Y0 + 380), fill=(210, 200, 185))
+            g.text((X0 + 50, Y0 + 450), 'Tu baño nuevo,', font=F(800, 56), fill=(40, 40, 40))
+            g.text((X0 + 50, Y0 + 520), 'sin sustos.', font=F(800, 56), fill=(40, 40, 40))
+            g.rounded_rectangle((X0 + 50, Y0 + 630, X0 + 380, Y0 + 700), 35, fill=(40, 40, 40))
+            g.text((X0 + 215, Y0 + 665), 'Pide presupuesto', font=F(700, 28), fill='white', anchor='mm')
+            banner(im, t, 1.6, 'WhatsApp · Cliente (reformas)', '“Muy bonito, pero más moderno. Como este:”', t1=2.7, y=100)
+        else:
+            for yy in range(Y0, Y1):
+                h = (yy - Y0) / (Y1 - Y0); c = (int(255 * (1 - h)), int(80 + 150 * abs(math.sin(h * 3))), int(255 * h))
+                g.line([(X0, yy), (X1, yy)], fill=c)
+            def outl(txt, xy, size, fill, rot=0, stroke=(0, 0, 0)):
+                f = F(800, size); w = int(f.getlength(txt)) + 40
+                s_ = Image.new('RGBA', (w, size + 40), (0, 0, 0, 0)); sg = ImageDraw.Draw(s_)
+                sg.text((20, 20), txt, font=f, fill=fill, stroke_width=5, stroke_fill=stroke)
+                s_ = s_.rotate(rot, expand=True, resample=Image.BICUBIC); im.paste(s_, xy, s_)
+            if t >= 2.7: outl('¡¡¡OFERTA!!!', (X0 + 30, Y0 + 30), 90, (255, 240, 0), 8, (220, 0, 0))
+            if t >= 3.2: outl('REFORMAS', (X0 + 60, Y0 + 260), 110, (0, 255, 120), -4, (120, 0, 160))
+            if t >= 3.6: outl('¡¡LLAMA YA!!', (X0 + 120, Y0 + 470), 80, (255, 90, 200), 6, (0, 0, 180))
+            if t >= 4.0:
+                stars(g, X0 + 80, Y0 + 650, 5, size=70, on=(255, 215, 0))
+                outl('Presupuesto GRATIS', (X0 + 60, Y0 + 740), 50, (255, 255, 255), -2, (255, 0, 0))
+        card(im, t, 5.0, 'Idea de “moderno”', 'Año 2009', 'seis colores y tres sombras por palabra', cy=560, big_size=90)
+        return im
+
+
+# ------------------------------------------------------------------ m10. EL FORMULARIO "MÁS FÁCIL" (tabla de leads)
+class FormularioBasura:
+    POV = 'POV: quitas preguntas del formulario para que sea “más fácil” y miras los leads'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    ROWS = [('asdf', '123456789', 'a@a.com'), ('Prueba', '666', 'hola'), ('Juan', '600000000', 'nose@nose'),
+            ('xd', '0', 'xd@xd.xd'), ('Pepe', '—', 'pepe'), ('ñññ', '111', 'ñ@ñ.ñ')]
+    SFX = [f'ding@{0.3 + i * .4:.1f}' for i in range(6)] + ['boom@3.2', 'pop@5.0', 'boom@5.8']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), (247, 248, 250)); g = ImageDraw.Draw(im)
+        appbar(g, 'CRM · Leads nuevos', 'Formulario: “Pide info en 5 segundos”', col=(52, 44, 110))
+        cols = [40, 250, 520]; y0 = 170
+        for x, h in zip(cols, ['Nombre', 'Teléfono', 'Email']): g.text((x, y0), h, font=F(700, 28), fill=MUT, anchor='lm')
+        g.line([(30, y0 + 30), (BW - 30, y0 + 30)], fill=LINE, width=2)
+        for i, row in enumerate(self.ROWS):
+            ts = 0.3 + i * .4
+            if t < ts: continue
+            k = ease((t - ts) / .25); y = y0 + 50 + i * 110 + int((1 - k) * 20); l, lg = layer(); A = int(255 * k)
+            lg.rounded_rectangle((30, y, BW - 30, y + 96), 14, fill=(255, 255, 255, A), outline=LINE + (A,), width=2)
+            for x, v in zip(cols, row): lg.text((x, y + 48), v, font=F(600, 32), fill=INK + (A,), anchor='lm')
+            if t >= 3.2:
+                lg.rounded_rectangle((BW - 190, y + 26, BW - 50, y + 70), 22, fill=(253, 226, 226, A))
+                lg.text((BW - 120, y + 48), 'no válido', font=F(700, 22), fill=(200, 40, 40, A), anchor='mm')
+            im.paste(l, (0, 0), l)
+        card(im, t, 5.0, 'Leads que se pueden llamar', '0 de 6', 'pero qué barato sale cada lead', cy=560, big_size=96)
+        tag(g)
+        return im
+
+
+# ------------------------------------------------------------------ m11. "UNA PREGUNTITA RÁPIDA" (WhatsApp)
+class Preguntita(WAChat):
+    POV = 'POV: un cliente te escribe “una preguntita rápida” el domingo por la mañana'
+    DUR, PUNCH, FOCUS = 7.6, 5.8, (480, 560)
+    NAME, LETTER, HOUR = 'Cliente (gimnasio)', 'G', '9:1'
+    MSGS = [(0.3, 'in', '¡Hola! Una preguntita rápida'), (1.1, 'in', 'Bueno, son dos'),
+            (1.8, 'in', 'Lo del logo y lo de la web'), (2.6, 'in', 'Y si podemos cambiar toda la campaña'),
+            (3.6, 'in', 'Para hoy, a ser posible')]
+    TYPING = [(3.0, 3.5)]
+    SFX = ['pop@0.3', 'pop@1.1', 'pop@1.8', 'pop@2.6', 'typing:0.5@3.0', 'pop@3.6', 'pop@5.0', 'boom@5.8']
+
+    def status(self, t):
+        if any(a <= t < b for a, b in self.TYPING): return 'escribiendo...', (0, 168, 132)
+        return 'domingo · en línea', WA_GREY
+
+    def draw(self, t):
+        im, g = self.base(t); self.bubbles(im, t); self.footer(g)
+        card(im, t, 5.0, 'Domingo, 9:14', '“Rápida”', 'rehacer la campaña entera para hoy', cy=560, big_size=90)
+        return im
+
+
+# ------------------------------------------------------------------ m12. LOS LEADS EN SPAM (correo)
+class SpamLeads:
+    POV = 'POV: descubres que los leads de la web llevaban un mes llegando a la carpeta de spam'
+    DUR, PUNCH, FOCUS = 7.8, 6.0, (480, 560)
+    SFX = ['pop@0.3', 'tick@1.6', 'pop@2.0', 'count:1.4@2.2', 'pop@5.2', 'boom@6.0']
+
+    def draw(self, t):
+        im = Image.new('RGB', (BW, BH), 'white'); g = ImageDraw.Draw(im)
+        g.rectangle((0, 0, BW, 110), fill=(242, 245, 250)); g.text((40, 55), 'Correo · contacto@', font=F(700, 34), fill=INK, anchor='lm')
+        inspam = t >= 1.9
+        g.rectangle((0, 110, 300, BH), fill=(246, 248, 252))
+        for i, (lab, n) in enumerate([('Recibidos', '3'), ('Enviados', ''), ('Spam', str(int(214 * min(1, max(0, (t - 2.2) / 1.4)))) if inspam else '214')]):
+            y = 150 + i * 90; sel = (i == 2) == inspam
+            if sel: g.rounded_rectangle((12, y - 30, 290, y + 30), 30, fill=(211, 227, 253))
+            g.text((40, y), lab, font=F(700 if sel else 500, 30), fill=INK, anchor='lm')
+            if n: g.text((270, y), n, font=F(800, 28), fill=(200, 40, 40) if i == 2 else INK, anchor='rm')
+        if t >= 1.0 and t < 1.9:
+            k = ease((t - 1.0) / .6); l, lg = layer(); cursor(lg, int(600 - 400 * k), int(800 - 480 * k)); im.paste(l, (0, 0), l)
+        if not inspam:
+            for i, (who, sub) in enumerate([('Proveedor', 'Factura septiembre'), ('Gestoría', 'Recordatorio IVA'), ('Banco', 'Nuevas condiciones')]):
+                y = 140 + i * 120; g.text((330, y + 20), who, font=F(700, 28), fill=INK); g.text((330, y + 60), sub, font=F(500, 26), fill=MUT)
+                g.line([(320, y + 110), (BW, y + 110)], fill=LINE, width=2)
+        else:
+            dates = ['hoy', 'ayer', '27 sep', '26 sep', '24 sep', '21 sep', '15 sep']
+            for i, d in enumerate(dates):
+                ts = 2.0 + i * .18
+                if t < ts: continue
+                y = 130 + i * 118
+                g.rectangle((300, y, BW, y + 110), fill=(255, 250, 240))
+                g.text((330, y + 18), 'Formulario web', font=F(700, 28), fill=INK); g.text((BW - 30, y + 20), d, font=F(600, 24), fill=MUT, anchor='ra')
+                g.text((330, y + 60), 'Nuevo lead: “quiero presupuesto”', font=F(600, 26), fill=(200, 40, 40))
+                g.line([(300, y + 110), (BW, y + 110)], fill=LINE, width=2)
+        card(im, t, 5.2, 'Leads en spam', '214', 'y tú culpando a los anuncios', cy=560, big_size=110)
+        tag(g)
+        return im
+
 NEW = {'m01-precio-amigo': PrecioAmigo, 'm02-publico-espana': PublicoEspana,
        'm03-carpeta-final': CarpetaFinal, 'm04-cinco-minutos': CincoMinutos,
        'm05-tarjeta-caducada': TarjetaCaducada, 'm06-transferencia': Transferencia,
-       'm07-resena-domingo': ResenaDomingo, 'm08-prevision': Prevision}
+       'm07-resena-domingo': ResenaDomingo, 'm08-prevision': Prevision,
+       'm09-moderno': Moderno, 'm10-formulario-facil': FormularioBasura,
+       'm11-preguntita': Preguntita, 'm12-spam-leads': SpamLeads}
