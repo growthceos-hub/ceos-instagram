@@ -33,4 +33,4 @@
 | 2026-09-29 | reel 7 (meme) | POV: escuchas tu voz grabada por primera vez… "¿de verdad sueno así?" | https://www.instagram.com/reel/Dd4L782FU5V/ |
 | 2026-09-29 | reel 8 (tip) | Luz de ventana: dónde colocarte para grabarte a cámara con luz natural (3 posiciones) | https://www.instagram.com/reel/Dd4T7eoijDe/ |
 | 2026-09-29 | carrusel C5 | Cómo cerrar tu vídeo: 3 finales para que no se vayan sin seguirte ni escribirte | https://www.instagram.com/p/Dd4Wqs-ACG4/ |
-| 2026-09-29 | reel 9 (meme) | POV: por fin te animas a grabar… y te sale "Almacenamiento lleno" | en curso |
+| 2026-09-29 | reel 9 (meme) | POV: por fin te animas a grabarte a cámara… y te sale "Almacenamiento lleno" | https://www.instagram.com/reel/Dd4aIWWjISP/ |
