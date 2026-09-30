@@ -1,0 +1,105 @@
+{
+ "topic": "Brillos en la cara a cámara: 3 trucos para no salir con la frente y la nariz brillantes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te brilla la<br><em>frente</em> en vídeo?",
+   "size": 132,
+   "dur": 5.6,
+   "mock": {
+    "type": "chat",
+    "name": "Dani",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Mira mi vídeo nuevo",
+       "¿qué tal ha quedado?"
+      ],
+      "time": "18:02"
+     },
+     {
+      "from": "in",
+      "text": "Bien, pero tu frente brilla como un espejo",
+      "time": "18:03"
+     }
+    ]
+   },
+   "footer": "3 trucos para un acabado mate"
+  },
+  {
+   "label": "TRUCO 1",
+   "title": "Luz suave,<br><em>no un foco.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Bombilla desnuda cerca",
+     "Luz dura justo de frente"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Softbox o ventana grande",
+     "Luz difusa a 45°"
+    ]
+   },
+   "note": "Luz grande = <b>brillo repartido, no una mancha.</b>"
+  },
+  {
+   "label": "TRUCO 2",
+   "title": "Polvo mate<br><em>donde brilla.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ZONA T EN 30 SEGUNDOS",
+    "lines": [
+     "Papel matificante en frente y nariz",
+     "Polvo traslúcido con brocha grande",
+     "Poca cantidad: mate, no máscara"
+    ]
+   },
+   "note": "Vale igual para <b>hombres y mujeres.</b>"
+  },
+  {
+   "label": "TRUCO 3",
+   "title": "Retoca<br><em>entre tomas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ANTES DE GRABAR",
+      "t": "Cara limpia y seca",
+      "s": "Sin crema grasa justo antes"
+     },
+     {
+      "n": "2",
+      "d": "CADA 2-3 TOMAS",
+      "t": "Mira el visor",
+      "s": "Frente, nariz y barbilla"
+     },
+     {
+      "n": "3",
+      "d": "SI BRILLA",
+      "t": "Toque de papel",
+      "s": "Y sigues grabando"
+     }
+    ]
+   },
+   "note": "Con los focos <b>el brillo vuelve: revísalo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Piel natural,<br><em>sin brillos.</em>",
+   "dur": 6,
+   "items": [
+    "Luz grande y difusa",
+    "Papel y polvo en la zona T",
+    "Revisa el visor entre tomas"
+   ]
+  }
+ ],
+ "caption": "¿Te ves el vídeo y tu frente o tu nariz brillan como un espejo? ✨\n\nNo es tu piel: es la combinación de luz dura y calor. Se arregla en un minuto.\n\n→ Usa una luz grande y suave (softbox o ventana) a 45°, nunca una bombilla desnuda de frente\n→ Antes de grabar, papel matificante y un poco de polvo traslúcido en frente, nariz y barbilla\n→ Cada 2–3 tomas mira el visor: si vuelve el brillo, toque de papel y sigues\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #hablaracamara #iluminacion #tipsdevideo #creaciondecontenido #marcapersonal #grabarvideo"
+}
