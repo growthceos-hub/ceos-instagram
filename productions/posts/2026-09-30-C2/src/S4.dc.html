@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>04 · El montaje</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+
+@keyframes aDash{to{stroke-dashoffset:-36}}
+@keyframes aS1{0%,32%{opacity:1}33.4%,100%{opacity:0}}
+@keyframes aS2{0%,32%{opacity:0}33.4%,65.9%{opacity:1}66.7%,100%{opacity:0}}
+@keyframes aS3{0%,65.9%{opacity:0}66.7%,100%{opacity:1}}
+@keyframes aZoom{0%{transform:scale(1)}100%{transform:scale(1.06)}}
+@keyframes aHead{0%{left:0%}100%{left:100%}}
+@keyframes aC1{0%,32%{background:#FF6A1A;color:#0A0908;box-shadow:0 0 30px rgba(255,106,26,.7)}33.4%,100%{background:#1E1A17;color:#9C938B;box-shadow:none}}
+@keyframes aC2{0%,32%{background:#1E1A17;color:#9C938B;box-shadow:none}33.4%,65.9%{background:#FF6A1A;color:#0A0908;box-shadow:0 0 30px rgba(255,106,26,.7)}66.7%,100%{background:#1E1A17;color:#9C938B;box-shadow:none}}
+@keyframes aC3{0%,65.9%{background:#1E1A17;color:#9C938B;box-shadow:none}66.7%,100%{background:#FF6A1A;color:#0A0908;box-shadow:0 0 30px rgba(255,106,26,.7)}}
+@keyframes aFlash{0%{opacity:.28}8%,100%{opacity:0}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">04 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">REGLA 3 · EL MONTAJE</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 80px; line-height: 0.96; letter-spacing: -0.055em">Plano, contraplano<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">y un general para respirar.</span></h1>
+</div>
+<div style="position: relative; height: 660px; display: flex; flex-direction: column; gap: 18px">
+  <div style="position: relative; height: 420px; border-radius: 26px; overflow: hidden; border: 3px solid rgba(242,237,231,.18); box-shadow: 0 50px 120px -40px rgba(255,106,26,.6)">
+    <div style="position: absolute; inset: 0; opacity: 0; animation: aS1 4s steps(1) infinite">
+<div style="position: absolute; inset: 0; animation: aZoom 1.333s linear infinite"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 35%; top: 6%; width: 360px; height: 86%; margin-left: -180px; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.30), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 14%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div><div style="position: absolute; left: 110px; bottom: -14px; width: 340px; height: 340px"><div style="position: absolute; inset: 0; animation: aBreath 3s ease-in-out infinite; transform-origin: 50% 100%"><svg width="320" height="320" viewBox="0 0 300 300" style="display:block; overflow: visible">
+<defs><linearGradient id="qsa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M36 300 C36 222 92 190 150 190 C208 190 262 222 262 300 Z" fill="url(#qsa)"/>
+<rect x="128" y="148" width="44" height="58" rx="18" fill="url(#qsa)"/>
+<ellipse cx="150" cy="98" rx="62" ry="72" fill="url(#qsa)"/>
+<path d="M204 86 L234 116 L206 124 Z" fill="url(#qsa)"/>
+<path d="M92 70 Q110 22 160 26 Q206 30 212 72 Q170 50 120 64 Z" fill="#0A0908" opacity=".35"/>
+<ellipse cx="124" cy="104" rx="10" ry="16" fill="#0A0908" opacity=".22"/>
+<rect x="182" y="88" width="16" height="7" rx="3.5" fill="#0A0908" opacity=".6"/>
+</svg></div><svg width="150" height="30" viewBox="0 0 150 30" style="position: absolute; left: 300px; top: 104px; overflow: visible">
+<line x1="0" y1="15" x2="132" y2="15" stroke="#FF6A1A" stroke-width="4" stroke-dasharray="10 8" style="animation: aDash 1s linear infinite"/>
+<path d="M128 3 L150 15 L128 27 Z" fill="#FF6A1A"/></svg></div></div>
+<div style="position: absolute; left: 24px; bottom: 22px; padding: 10px 16px; border-radius: 12px; background: rgba(10,9,8,.8); border: 2px solid #FF6A1A; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: .1em; color: #FF6A1A; z-index: 6">PLANO · HABLA A</div></div><div style="position: absolute; inset: 0; opacity: 0; animation: aS2 4s steps(1) infinite">
+<div style="position: absolute; inset: 0; animation: aZoom 1.333s linear infinite"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 65%; top: 6%; width: 360px; height: 86%; margin-left: -180px; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.30), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 14%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div><div style="position: absolute; right: 150px; bottom: -14px; width: 340px; height: 340px; transform: scaleX(-1)"><div style="position: absolute; inset: 0; animation: aBreath 3s ease-in-out infinite; transform-origin: 50% 100%"><svg width="320" height="320" viewBox="0 0 300 300" style="display:block; overflow: visible">
+<defs><linearGradient id="qsb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9D1C8" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M36 300 C36 222 92 190 150 190 C208 190 262 222 262 300 Z" fill="url(#qsb)"/>
+<rect x="128" y="148" width="44" height="58" rx="18" fill="url(#qsb)"/>
+<ellipse cx="150" cy="98" rx="62" ry="72" fill="url(#qsb)"/>
+<path d="M204 86 L234 116 L206 124 Z" fill="url(#qsb)"/>
+<path d="M92 70 Q110 22 160 26 Q206 30 212 72 Q170 50 120 64 Z" fill="#0A0908" opacity=".35"/>
+<ellipse cx="124" cy="104" rx="10" ry="16" fill="#0A0908" opacity=".22"/>
+<rect x="182" y="88" width="16" height="7" rx="3.5" fill="#0A0908" opacity=".6"/>
+</svg></div><svg width="150" height="30" viewBox="0 0 150 30" style="position: absolute; left: 300px; top: 104px; overflow: visible">
+<line x1="0" y1="15" x2="132" y2="15" stroke="#FF6A1A" stroke-width="4" stroke-dasharray="10 8" style="animation: aDash 1s linear infinite"/>
+<path d="M128 3 L150 15 L128 27 Z" fill="#FF6A1A"/></svg></div></div>
+<div style="position: absolute; left: 24px; bottom: 22px; padding: 10px 16px; border-radius: 12px; background: rgba(10,9,8,.8); border: 2px solid #FF6A1A; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: .1em; color: #FF6A1A; z-index: 6">CONTRAPLANO · RESPONDE B</div></div><div style="position: absolute; inset: 0; opacity: 0; animation: aS3 4s steps(1) infinite">
+<div style="position: absolute; inset: 0; animation: aZoom 1.333s linear infinite"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 50%; top: 6%; width: 360px; height: 86%; margin-left: -180px; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.30), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 14%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div><div style="position: absolute; left: 50%; bottom: 30px; width: 420px; height: 70px; margin-left: -210px; border-radius: 16px; background: #1E1A17; border: 3px solid rgba(242,237,231,.2); z-index: 3"></div>
+<div style="position: absolute; left: 190px; bottom: 40px; width: 230px; height: 230px"><svg width="210" height="210" viewBox="0 0 300 300" style="display:block; overflow: visible">
+<defs><linearGradient id="qga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M36 300 C36 222 92 190 150 190 C208 190 262 222 262 300 Z" fill="url(#qga)"/>
+<rect x="128" y="148" width="44" height="58" rx="18" fill="url(#qga)"/>
+<ellipse cx="150" cy="98" rx="62" ry="72" fill="url(#qga)"/>
+<path d="M204 86 L234 116 L206 124 Z" fill="url(#qga)"/>
+<path d="M92 70 Q110 22 160 26 Q206 30 212 72 Q170 50 120 64 Z" fill="#0A0908" opacity=".35"/>
+<ellipse cx="124" cy="104" rx="10" ry="16" fill="#0A0908" opacity=".22"/>
+<rect x="182" y="88" width="16" height="7" rx="3.5" fill="#0A0908" opacity=".6"/>
+</svg></div>
+<div style="position: absolute; right: 190px; bottom: 40px; width: 230px; height: 230px; transform: scaleX(-1)"><svg width="210" height="210" viewBox="0 0 300 300" style="display:block; overflow: visible">
+<defs><linearGradient id="qgb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9D1C8" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M36 300 C36 222 92 190 150 190 C208 190 262 222 262 300 Z" fill="url(#qgb)"/>
+<rect x="128" y="148" width="44" height="58" rx="18" fill="url(#qgb)"/>
+<ellipse cx="150" cy="98" rx="62" ry="72" fill="url(#qgb)"/>
+<path d="M204 86 L234 116 L206 124 Z" fill="url(#qgb)"/>
+<path d="M92 70 Q110 22 160 26 Q206 30 212 72 Q170 50 120 64 Z" fill="#0A0908" opacity=".35"/>
+<ellipse cx="124" cy="104" rx="10" ry="16" fill="#0A0908" opacity=".22"/>
+<rect x="182" y="88" width="16" height="7" rx="3.5" fill="#0A0908" opacity=".6"/>
+</svg></div></div>
+<div style="position: absolute; left: 24px; bottom: 22px; padding: 10px 16px; border-radius: 12px; background: rgba(10,9,8,.8); border: 2px solid #FF6A1A; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: .1em; color: #FF6A1A; z-index: 6">GENERAL · LOS DOS</div></div>
+    <div style="position: absolute; inset: 0; background: #F2EDE7; z-index: 8; pointer-events: none; animation: aFlash 1.333s linear infinite"></div>
+    <div style="position: absolute; left: 26px; top: 22px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 19px; letter-spacing: .1em; color: #F2EDE7; z-index: 6"><span style="width: 13px; height: 13px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 12px #FF3B30; animation: aRec 1s steps(1) infinite"></span>MONTAJE</div>
+  </div>
+  <div style="position: relative; flex: 1; border-radius: 24px; background: #12100F; border: 2px solid rgba(242,237,231,.14); padding: 20px 24px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">
+    <div style="position: relative; flex: 1; display: flex; flex-direction: column; gap: 10px">
+      <div style="position: relative; height: 62px; border-radius: 12px; background: #0A0908; border: 2px solid rgba(242,237,231,.08)"><div style="position: absolute; left: 0%; width: 33.3%; top: 6px; bottom: 6px; border-radius: 10px; animation: aC1 4s steps(1) infinite; display: flex; align-items: center; padding-left: 14px; box-sizing: border-box; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; letter-spacing: .08em">CÁM A</div></div>
+      <div style="position: relative; height: 62px; border-radius: 12px; background: #0A0908; border: 2px solid rgba(242,237,231,.08)"><div style="position: absolute; left: 33.3%; width: 33.3%; top: 6px; bottom: 6px; border-radius: 10px; animation: aC2 4s steps(1) infinite; display: flex; align-items: center; padding-left: 14px; box-sizing: border-box; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; letter-spacing: .08em">CÁM B</div></div>
+      <div style="position: relative; height: 62px; border-radius: 12px; background: #0A0908; border: 2px solid rgba(242,237,231,.08)"><div style="position: absolute; left: 66.6%; width: 33.400000000000006%; top: 6px; bottom: 6px; border-radius: 10px; animation: aC3 4s steps(1) infinite; display: flex; align-items: center; padding-left: 14px; box-sizing: border-box; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; letter-spacing: .08em">GENERAL</div></div>
+      <div style="position: absolute; top: -8px; bottom: -8px; left: 0; width: 0; z-index: 5; animation: aHead 4s linear infinite"><div style="position: absolute; left: -2px; top: 0; bottom: 0; width: 4px; background: #F2EDE7; box-shadow: 0 0 14px #F2EDE7"></div><div style="position: absolute; left: -10px; top: -6px; width: 20px; height: 14px; border-radius: 4px; background: #F2EDE7"></div></div>
+    </div>
+  </div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Corta cuando cambia quien habla.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

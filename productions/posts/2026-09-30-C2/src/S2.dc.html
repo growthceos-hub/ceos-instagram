@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>02 · El eje</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+
+@keyframes aDash{to{stroke-dashoffset:-36}}
+@keyframes aCamPos{0%,34%{left:737px;top:30px}52%,84%{left:737px;top:330px}100%{left:737px;top:30px}}
+@keyframes aCamRot{0%,34%{transform:rotate(161.6deg)}52%,84%{transform:rotate(198.4deg)}100%{transform:rotate(161.6deg)}}
+@keyframes aRedZone{0%,40%{opacity:0}52%,84%{opacity:1}94%,100%{opacity:0}}
+@keyframes aBadOn{0%,44%{opacity:0;transform:translate(-50%,-50%) scale(.8)}52%,84%{opacity:1;transform:translate(-50%,-50%) scale(1)}92%,100%{opacity:0;transform:translate(-50%,-50%) scale(.8)}}
+@keyframes aMonB{0%,44%{border-color:rgba(242,237,231,.18)}52%,84%{border-color:#FF3B30}92%,100%{border-color:rgba(242,237,231,.18)}}
+@keyframes aFlipB{0%,44%{transform:scaleX(-1)}54%,84%{transform:scaleX(1)}94%,100%{transform:scaleX(-1)}}
+@keyframes aTagOk{0%,44%{opacity:1}50%,86%{opacity:0}94%,100%{opacity:1}}
+@keyframes aTagKo{0%,44%{opacity:0}50%,86%{opacity:1}94%,100%{opacity:0}}
+@keyframes aAxis{0%,100%{opacity:.75}50%{opacity:1}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">02 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">REGLA 1 · EL EJE</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 84px; line-height: 0.96; letter-spacing: -0.055em">Hay una línea invisible<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">que no puedes cruzar.</span></h1>
+</div>
+<div style="position: relative; height: 680px; display: flex; flex-direction: column; gap: 16px">
+  <div style="position: relative; height: 420px; border-radius: 28px; overflow: hidden; background: #12100F; border: 2px solid rgba(242,237,231,.14)">
+    <svg width="0" height="0" style="position:absolute"><defs><linearGradient id="fov" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF6A1A" stop-opacity=".38"/><stop offset="1" stop-color="#FF6A1A" stop-opacity="0"/></linearGradient></defs></svg>
+    <div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.05) 1px, transparent 1px); background-size: 40px 40px"></div>
+    <div style="position: absolute; left: 0; right: 0; top: 0; height: 210px; background: linear-gradient(180deg, rgba(255,106,26,.13), rgba(255,106,26,.03))"></div>
+    <div style="position: absolute; left: 0; right: 0; top: 210px; bottom: 0; background: linear-gradient(0deg, rgba(255,59,48,.30), rgba(255,59,48,.06)); opacity: 0; animation: aRedZone 4s ease-in-out infinite"></div>
+    <div style="position: absolute; left: 22px; top: 176px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .1em; color: #FF6A1A">LADO BUENO ↑</div>
+    <div style="position: absolute; left: 0; right: 0; top: 207px; height: 0; border-top: 5px dashed #FF6A1A; animation: aAxis 2s ease-in-out infinite"></div>
+    <div style="position: absolute; right: 22px; top: 222px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .1em; color: #F2EDE7; background: #0A0908; padding: 6px 12px; border-radius: 8px">EJE 180°</div>
+    <div style="position: absolute; left: 350px; top: 160px; width: 220px; height: 100px; border-radius: 50%; background: #1E1A17; border: 3px solid rgba(242,237,231,.18)"></div>
+    <div style="position: absolute; left: 240px; top: 150px; width: 120px; height: 120px; transform: rotate(0deg); z-index: 3">
+<svg width="120" height="120" viewBox="0 0 120 120"><ellipse cx="60" cy="60" rx="54" ry="40" fill="#B5ADA4" opacity=".5"/><circle cx="60" cy="60" r="32" fill="#F2EDE7"/><path d="M88 50 L106 60 L88 70 Z" fill="#F2EDE7"/></svg>
+<div style="position: absolute; left: 110px; top: 46px; width: 0; height: 0"></div></div><div style="position: absolute; left: 560px; top: 150px; width: 120px; height: 120px; transform: rotate(180deg); z-index: 3">
+<svg width="120" height="120" viewBox="0 0 120 120"><ellipse cx="60" cy="60" rx="54" ry="40" fill="#B5ADA4" opacity=".5"/><circle cx="60" cy="60" r="32" fill="#F2EDE7"/><path d="M88 50 L106 60 L88 70 Z" fill="#F2EDE7"/></svg>
+<div style="position: absolute; left: 110px; top: 46px; width: 0; height: 0"></div></div>
+    <div style="position: absolute; left: 97px; top: 30px; width: 86px; height: 52px; transform: rotate(18.4deg); z-index: 4"><svg width="86" height="52" viewBox="0 0 86 52" style="display:block; overflow: visible">
+<path d="M86 26 L270 -40 L270 92 Z" fill="url(#fov)" opacity=".9"/>
+<rect x="2" y="8" width="58" height="36" rx="8" fill="#F2EDE7"/>
+<rect x="12" y="2" width="20" height="8" rx="3" fill="#F2EDE7"/>
+<path d="M60 16 L82 8 L82 44 L60 36 Z" fill="#D9D1C8"/>
+<circle cx="72" cy="26" r="7" fill="#0A0908"/><circle cx="72" cy="26" r="3" fill="#FF6A1A"/>
+<circle cx="14" cy="18" r="4" fill="#FF3B30" style="animation: aRec 1s steps(1) infinite"/>
+</svg></div>
+    <div style="position: absolute; left: 737px; top: 30px; width: 86px; height: 52px; z-index: 5; animation: aCamPos 4s cubic-bezier(.7,0,.3,1) infinite"><div style="width: 86px; height: 52px; animation: aCamRot 4s cubic-bezier(.7,0,.3,1) infinite"><svg width="86" height="52" viewBox="0 0 86 52" style="display:block; overflow: visible">
+<path d="M86 26 L270 -40 L270 92 Z" fill="url(#fov)" opacity=".9"/>
+<rect x="2" y="8" width="58" height="36" rx="8" fill="#F2EDE7"/>
+<rect x="12" y="2" width="20" height="8" rx="3" fill="#F2EDE7"/>
+<path d="M60 16 L82 8 L82 44 L60 36 Z" fill="#D9D1C8"/>
+<circle cx="72" cy="26" r="7" fill="#0A0908"/><circle cx="72" cy="26" r="3" fill="#FF6A1A"/>
+<circle cx="14" cy="18" r="4" fill="#FF3B30" style="animation: aRec 1s steps(1) infinite"/>
+</svg></div></div>
+    <div style="position: absolute; left: 110px; top: 92px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; color: #F2EDE7; z-index: 6">A</div>
+    <div style="position: absolute; left: 50%; top: 330px; white-space: nowrap; padding: 12px 20px; border-radius: 14px; background: #FF3B30; color: #fff; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; z-index: 7; opacity: 0; animation: aBadOn 4s ease-in-out infinite">✗ CÁM B cruzó el eje</div>
+  </div>
+  <div style="position: relative; flex: 1; display: flex; gap: 16px">
+    <div style="position: relative; flex: 1; border-radius: 18px; overflow: hidden; border: 4px solid rgba(242,237,231,.18); ">
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 50%; top: 6%; width: 360px; height: 86%; margin-left: -180px; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.30), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 14%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div><div style="position: absolute; left: 18px; top: 14px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 19px; letter-spacing: .1em; color: #F2EDE7; z-index: 6"><span style="width: 13px; height: 13px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 12px #FF3B30; animation: aRec 1s steps(1) infinite"></span>CÁM A</div>
+<div style="position: absolute; left: 110px; bottom: -4px; width: 190px; height: 190px; "><div style="position: absolute; inset: 0; animation: aBreath 3s ease-in-out infinite; transform-origin: 50% 100%"><svg width="150" height="150" viewBox="0 0 300 300" style="display:block; overflow: visible">
+<defs><linearGradient id="qma" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M36 300 C36 222 92 190 150 190 C208 190 262 222 262 300 Z" fill="url(#qma)"/>
+<rect x="128" y="148" width="44" height="58" rx="18" fill="url(#qma)"/>
+<ellipse cx="150" cy="98" rx="62" ry="72" fill="url(#qma)"/>
+<path d="M204 86 L234 116 L206 124 Z" fill="url(#qma)"/>
+<path d="M92 70 Q110 22 160 26 Q206 30 212 72 Q170 50 120 64 Z" fill="#0A0908" opacity=".35"/>
+<ellipse cx="124" cy="104" rx="10" ry="16" fill="#0A0908" opacity=".22"/>
+<rect x="182" y="88" width="16" height="7" rx="3.5" fill="#0A0908" opacity=".6"/>
+</svg></div><svg width="70" height="30" viewBox="0 0 70 30" style="position: absolute; left: 146px; top: 50px; overflow: visible">
+<line x1="0" y1="15" x2="52" y2="15" stroke="#FF6A1A" stroke-width="4" stroke-dasharray="10 8" style="animation: aDash 1s linear infinite"/>
+<path d="M48 3 L70 15 L48 27 Z" fill="#FF6A1A"/></svg></div>
+</div>
+    <div style="position: relative; flex: 1; border-radius: 18px; overflow: hidden; border: 4px solid rgba(242,237,231,.18); animation: aMonB 4s ease-in-out infinite;">
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 50%; top: 6%; width: 360px; height: 86%; margin-left: -180px; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.30), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 14%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div><div style="position: absolute; left: 18px; top: 14px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 19px; letter-spacing: .1em; color: #F2EDE7; z-index: 6"><span style="width: 13px; height: 13px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 12px #FF3B30; animation: aRec 1s steps(1) infinite"></span>CÁM B</div>
+<div style="position: absolute; left: 190px; bottom: -4px; width: 190px; height: 190px; animation: aFlipB 4s cubic-bezier(.7,0,.3,1) infinite;"><div style="position: absolute; inset: 0; animation: aBreath 3s ease-in-out infinite; transform-origin: 50% 100%"><svg width="150" height="150" viewBox="0 0 300 300" style="display:block; overflow: visible">
+<defs><linearGradient id="qmb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M36 300 C36 222 92 190 150 190 C208 190 262 222 262 300 Z" fill="url(#qmb)"/>
+<rect x="128" y="148" width="44" height="58" rx="18" fill="url(#qmb)"/>
+<ellipse cx="150" cy="98" rx="62" ry="72" fill="url(#qmb)"/>
+<path d="M204 86 L234 116 L206 124 Z" fill="url(#qmb)"/>
+<path d="M92 70 Q110 22 160 26 Q206 30 212 72 Q170 50 120 64 Z" fill="#0A0908" opacity=".35"/>
+<ellipse cx="124" cy="104" rx="10" ry="16" fill="#0A0908" opacity=".22"/>
+<rect x="182" y="88" width="16" height="7" rx="3.5" fill="#0A0908" opacity=".6"/>
+</svg></div><svg width="70" height="30" viewBox="0 0 70 30" style="position: absolute; left: 146px; top: 50px; overflow: visible">
+<line x1="0" y1="15" x2="52" y2="15" stroke="#FF6A1A" stroke-width="4" stroke-dasharray="10 8" style="animation: aDash 1s linear infinite"/>
+<path d="M48 3 L70 15 L48 27 Z" fill="#FF6A1A"/></svg></div>
+</div>
+  </div>
+  <div style="position: relative; height: 50px">
+    <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; letter-spacing: -0.02em; animation: aTagOk 4s steps(1) infinite">Cámaras del mismo lado → <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; font-size: 40px; margin-left: 10px">se miran</span></div>
+    <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; letter-spacing: -0.02em; opacity: 0; animation: aTagKo 4s steps(1) infinite">Cruzas la línea → <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF3B30; font-size: 40px; margin-left: 10px">se dan la espalda</span></div>
+  </div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Todas las cámaras, a un solo lado.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
