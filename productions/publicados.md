@@ -46,3 +46,4 @@
 | 2026-09-30 | reel 5 (tip) | Altura de cámara: 3 reglas para colocar el móvil o la cámara y no salir con papada ni desde arriba | en curso |
 | 2026-09-30 | carrusel C4 | Movimientos de cámara: 3 movimientos (acercamiento, paneo y travelling lateral) para que tus vídeos parezcan de cine | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-09-30 | reel 6 (meme) | POV: llegas a grabar un reel de 30 segundos… con un guion de 14 folios | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-09-30 | reel 7 (tip) | Grabar en exteriores: 3 trucos para que el viento, el sol y el ruido de la calle no arruinen tu vídeo | en curso |
