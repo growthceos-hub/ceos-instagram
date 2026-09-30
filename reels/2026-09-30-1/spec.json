@@ -1,0 +1,76 @@
+{
+ "topic": "Anuncios cansados en Meta: vigila frecuencia y coste por lead, cambia primero el gancho y ten la siguiente versión grabada antes de que caiga",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio ya<br>no <em>trae leads?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Coste por lead",
+    "items": [
+     {"label": "Semana 1", "value": 30},
+     {"label": "Semana 2", "value": 45},
+     {"label": "Semana 3", "value": 70},
+     {"label": "Semana 4", "value": 95, "hi": true}
+    ]
+   },
+   "footer": "3 pasos para renovarlo a tiempo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Vigila las<br><em>señales.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "La frecuencia no para de subir",
+     "El coste por lead, también",
+     "Menos clics con el mismo gasto"
+    ]
+   },
+   "note": "Si pasan a la vez, <b>tu público ya lo ha visto.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cambia primero<br><em>el gancho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Misma oferta, otra forma de empezar.",
+    "media": "¿TE PASA ESTO?",
+    "headline": "Pide tu presupuesto",
+    "cta": "Más información",
+    "tags": ["GANCHO NUEVO", "MISMA OFERTA"]
+   },
+   "note": "Misma oferta, <b>otra forma de abrir.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ten la siguiente<br><em>ya grabada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "LUNES", "t": "Revisa métricas", "s": "Frecuencia y coste por lead"},
+     {"n": "2", "d": "MIÉRCOLES", "t": "Graba 2 ganchos", "s": "Con el mismo móvil vale"},
+     {"n": "3", "d": "VIERNES", "t": "Sube la nueva", "s": "Sin apagar la que va bien"}
+    ]
+   },
+   "note": "Renueva <b>antes de que caiga.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que no se te<br><em>queme el anuncio.</em>",
+   "dur": 6,
+   "items": [
+    "Frecuencia y coste por lead",
+    "Cambia primero el gancho",
+    "Versiones listas cada semana"
+   ]
+  }
+ ],
+ "caption": "¿Tu anuncio ya no trae leads como al principio? 📉\n\nLos anuncios se cansan: tu público lo ve una y otra vez y deja de reaccionar.\n\n→ Vigila las señales: frecuencia y coste por lead subiendo a la vez\n→ Cambia primero el gancho, no toda la campaña\n→ Ten la siguiente versión grabada antes de que el anuncio caiga\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #anuncios #captaciondeclientes #marketingdigital #emprendedores #empresarios"
+}
