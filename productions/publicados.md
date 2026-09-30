@@ -35,4 +35,4 @@
 | 2026-09-29 | carrusel C5 | Cómo cerrar tu vídeo: 3 finales para que no se vayan sin seguirte ni escribirte | https://www.instagram.com/p/Dd4Wqs-ACG4/ |
 | 2026-09-29 | reel 9 (meme) | POV: por fin te animas a grabarte a cámara… y te sale "Almacenamiento lleno" | https://www.instagram.com/reel/Dd4aIWWjISP/ |
 | 2026-09-29 | reel 10 (tip) | Qué hacer con las manos al hablar a cámara: 3 trucos para no parecer nervioso | https://www.instagram.com/reel/Dd4g_O5lGIm/ |
-| 2026-09-30 | carrusel C1 | Formatos de vídeo: 9:16, 4:5 o 16:9 — cómo grabar una vez para que te sirva en Reels, anuncios y YouTube | en curso |
+| 2026-09-30 | carrusel C1 | Formatos de vídeo: 9:16, 4:5 o 16:9 — cómo grabar una vez para que te sirva en Reels, anuncios y YouTube | https://www.instagram.com/p/Dd5wK7YjOUX/ |
