@@ -1,0 +1,74 @@
+{
+ "topic": "Que Meta te traiga leads que compran: marca en tu CRM qué lead es bueno, devuelve ese dato a Meta (API de conversiones) y optimiza la campaña por lead cualificado",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Muchos leads<br><em>y pocos clientes?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu comercial",
+    "msgs": [
+     {"from": "in", "text": "He llamado a los de ayer", "time": "10:02"},
+     {"from": "out", "lines": ["¿Y qué tal?"], "time": "10:03"},
+     {"from": "in", "text": "Ninguno quería comprar", "time": "10:05"}
+    ]
+   },
+   "footer": "3 pasos para cambiarlo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Marca en el CRM<br><em>el lead bueno.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {"q": "¿Contesta al teléfono?", "a": "Sí"},
+     {"q": "¿Agenda una cita?", "a": "Sí"}
+    ],
+    "badge": "LEAD CUALIFICADO"
+   },
+   "note": "El mismo criterio <b>para todo el equipo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Devuelve ese<br><em>dato a Meta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ANUNCIO", "t": "Entra el lead"},
+     {"n": "2", "d": "TU CRM", "t": "Lo marcas bueno"},
+     {"n": "3", "d": "META", "t": "Recibe la señal"}
+    ]
+   },
+   "note": "Conecta tu CRM con <b>la API de conversiones.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Optimiza por<br><em>lead de calidad.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "POR CANTIDAD",
+    "bad": ["Busca quien rellena", "Llegan curiosos"],
+    "good_t": "POR CALIDAD",
+    "good": ["Busca perfiles así", "Como tus clientes"]
+   },
+   "note": "Dale tiempo: <b>necesita datos para aprender.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Enseña a Meta<br><em>qué es un cliente.</em>",
+   "dur": 6,
+   "items": [
+    "Marca los leads buenos",
+    "Envía ese dato a Meta",
+    "Optimiza por calidad"
+   ]
+  }
+ ],
+ "caption": "¿Tu campaña trae muchos leads y pocos clientes? 🎯\n\nMeta busca justo lo que le pides: si solo le dices \"quiero leads\", te trae a quien rellena más fácil, no a quien compra. Así le enseñas la diferencia:\n\n→ Marca en tu CRM qué lead es bueno (contesta, agenda cita, compra), con el mismo criterio para todo el equipo\n→ Devuelve ese dato a Meta conectando tu CRM con la API de conversiones\n→ Optimiza la campaña por lead cualificado y dale tiempo para aprender con tus datos\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #facebookads #captaciondeclientes #crm #marketingdigital #empresarios"
+}
