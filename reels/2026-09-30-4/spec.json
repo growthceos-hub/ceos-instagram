@@ -1,0 +1,98 @@
+{
+ "topic": "Cuánto puedes pagar por un lead: calcula lo que te deja una venta, cuántos leads necesitas para cerrar una y pon tu coste por lead máximo antes de lanzar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus leads son<br><em>caros o baratos?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu socio",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Nos cuesta 30 € cada lead. ¿Es mucho?",
+      "time": "09:14"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Pues... no lo sé.",
+       "Depende, ¿no?"
+      ],
+      "time": "09:16"
+     }
+    ]
+   },
+   "footer": "3 pasos para saberlo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Lo que te <em>deja</em><br><em>una venta.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "form",
+    "title": "Tu venta media",
+    "fields": [
+     {
+      "q": "Precio medio de venta",
+      "a": "1.000 €"
+     },
+     {
+      "q": "Lo que te queda tras costes",
+      "a": "400 €"
+     }
+    ],
+    "badge": "400 € POR VENTA"
+   },
+   "note": "Cuenta el margen, <b>no lo que factura.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Leads para<br><em>cerrar una venta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "De 10 leads...",
+    "items": [
+     {"label": "10 leads", "value": 100},
+     {"label": "5 contestan", "value": 50},
+     {"label": "2 agendan cita", "value": 20},
+     {"label": "1 compra", "value": 10, "hi": true}
+    ]
+   },
+   "note": "Sácalo de <b>tu CRM, no de memoria.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Pon tu <em>límite</em><br><em>por lead.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN LÍMITE",
+    "bad": [
+     "Pagas 50 € por lead",
+     "Cada venta, en pérdidas"
+    ],
+    "good_t": "400 € ÷ 10 = 40 €",
+    "good": [
+     "Objetivo: menos de 40 €",
+     "Lo que baje, es beneficio"
+    ]
+   },
+   "note": "Decídelo <b>antes de lanzar la campaña.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Haz la cuenta<br><em>esta semana.</em>",
+   "dur": 6,
+   "items": [
+    "Margen por venta",
+    "Leads por cada venta",
+    "Margen ÷ leads = tu límite"
+   ]
+  }
+ ],
+ "caption": "¿Tus leads son caros o baratos? 🤔\n\nNo depende de lo que pague la competencia, depende de tus números. Así lo calculas:\n\n→ Apunta lo que te deja una venta después de costes (margen, no facturación)\n→ Mira en tu CRM cuántos leads necesitas para cerrar una venta\n→ Divide: margen ÷ leads por venta = lo máximo que puedes pagar por lead\n\nEjemplo: si una venta te deja 400 € y cierras 1 de cada 10 leads, pagar más de 40 € por lead te hace perder dinero.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #costeporlead #captaciondeclientes #marketingdigital #empresarios #emprendedores"
+}
