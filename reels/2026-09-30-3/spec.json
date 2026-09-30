@@ -1,0 +1,75 @@
+{
+ "topic": "Qué publicar en Instagram cada semana sin quedarte en blanco: rota 3 tipos de publicación (enseña, demuestra, invita), graba la semana en un solo día y repite lo que más guardan",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Abres Instagram<br>y no sabes<br><em>qué publicar?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "HOY EN INSTAGRAM",
+    "lines": [
+     "¿Subo una foto del local?",
+     "¿Un vídeo? ¿Una oferta?",
+     "Bueno, mañana lo pienso…"
+    ]
+   },
+   "footer": "3 pasos para no quedarte en blanco"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Rota 3 tipos<br><em>de publicación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Enseña: un consejo útil",
+     "Demuestra: un caso real",
+     "Invita: tu oferta clara"
+    ]
+   },
+   "note": "Siempre sabes qué toca y <b>nunca empiezas de cero.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Graba la semana<br><em>en un solo día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "LUNES", "t": "Apunta 6 ideas", "s": "Dos de cada tipo"},
+     {"n": "2", "d": "MARTES", "t": "Graba en bloque", "s": "Misma luz, mismo sitio"},
+     {"n": "3", "d": "RESTO", "t": "Solo publicar", "s": "Ya está todo hecho"}
+    ]
+   },
+   "note": "Una sesión y <b>tienes la semana lista.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Repite lo que<br><em>más guardan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Guardados por publicación",
+    "items": [
+     {"label": "Consejo", "value": 78, "hi": true},
+     {"label": "Caso real", "value": 61},
+     {"label": "Foto del local", "value": 17}
+    ]
+   },
+   "note": "Lo que funciona, <b>cuéntalo otra vez con otro ejemplo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Instagram<br><em>sin agobios.</em>",
+   "dur": 6,
+   "items": [
+    "Enseña, demuestra, invita",
+    "Graba la semana en un día",
+    "Repite lo que más guardan"
+   ]
+  }
+ ],
+ "caption": "¿Abres Instagram y no sabes qué publicar? 📱\n\nPublicar sin plan hace que un día subas tres cosas y luego desaparezcas dos semanas.\n\n→ Rota 3 tipos de publicación: enseña un consejo, demuestra con un caso real e invita con tu oferta\n→ Graba la semana en un solo día: apunta las ideas el lunes y graba todo en bloque\n→ Mira qué es lo que más guardan y repítelo con otro ejemplo\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagramparanegocios #contenido #marketingdigital #redessociales #emprendedores #empresarios"
+}
