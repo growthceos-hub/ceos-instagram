@@ -48,3 +48,4 @@
 | 2026-09-30 | reel 6 (meme) | POV: llegas a grabar un reel de 30 segundos… con un guion de 14 folios | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-09-30 | reel 7 (tip) | Grabar en exteriores: 3 trucos para que el viento, el sol y el ruido de la calle no arruinen tu vídeo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-09-30 | reel 8 (meme) | POV: vas a grabar el vídeo de tu vida… y el móvil se queda al 1 % de batería | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-09-30 | carrusel C5 | Sonido limpio: 3 trucos (micro cerca, sala sin eco y 10 s de silencio) para que tu audio suene de estudio | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
