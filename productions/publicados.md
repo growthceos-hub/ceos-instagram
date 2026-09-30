@@ -45,4 +45,4 @@
 | 2026-09-30 | reel 4 (meme) | POV: grabas 10 tomas perfectas… y en todas se te ve la etiqueta de la camisa | https://www.instagram.com/reel/Dd6bwqEDXOg/ |
 | 2026-09-30 | reel 5 (tip) | Altura de cámara: 3 reglas para colocar el móvil o la cámara y no salir con papada ni desde arriba | en curso |
 | 2026-09-30 | carrusel C4 | Movimientos de cámara: 3 movimientos (acercamiento, paneo y travelling lateral) para que tus vídeos parezcan de cine | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-09-30 | reel 6 (meme) | POV: llegas a grabar un reel de 30 segundos… con un guion de 14 folios | en curso |
+| 2026-09-30 | reel 6 (meme) | POV: llegas a grabar un reel de 30 segundos… con un guion de 14 folios | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
