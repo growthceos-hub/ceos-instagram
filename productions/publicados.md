@@ -38,3 +38,4 @@
 | 2026-09-30 | carrusel C1 | Formatos de vídeo: 9:16, 4:5 o 16:9 — cómo grabar una vez para que te sirva en Reels, anuncios y YouTube | https://www.instagram.com/p/Dd5wK7YjOUX/ |
 | 2026-09-30 | historias ×5 | Antes/después de color: por qué sales amarillo o azul en tus vídeos y 3 arreglos para una piel natural | https://www.instagram.com/stories/ceos.productions/3997482260215689988 |
 | 2026-09-30 | carrusel C2 | Entrevistas y podcasts a dos: 3 reglas de cámara (eje de 180°, miradas y plano/contraplano) para que no parezca un lío | https://www.instagram.com/p/Dd5-Yk2iWSY/ |
+| 2026-09-30 | reel 1 (tip) | Gafas a cámara: 3 trucos para que la luz no se refleje en tus lentes | en curso |
