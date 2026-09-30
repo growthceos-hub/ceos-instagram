@@ -1,0 +1,97 @@
+{
+ "topic": "Testimonios de clientes que venden: pídelo justo cuando ve el resultado, guíalo con 3 preguntas y úsalo en tus anuncios y tu web",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus clientes<br>están contentos<br><em>y nadie lo sabe?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "Así no",
+    "bad": [
+     "\"Somos los mejores\"",
+     "\"Calidad garantizada\""
+    ],
+    "good_t": "Así sí",
+    "good": [
+     "Un cliente real",
+     "Contando su antes y después"
+    ]
+   },
+   "footer": "3 pasos para conseguir testimonios"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pídelo cuando<br><em>ve el resultado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¡Ha quedado genial!"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Qué alegría!",
+       "¿Nos grabas un vídeo",
+       "corto contándolo?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Claro, ahora mismo"
+     }
+    ]
+   },
+   "note": "Justo ahí está <b>más contento que nunca.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Guíalo con<br><em>3 preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PREGUNTAS AL CLIENTE",
+    "lines": [
+     "¿Qué problema tenías antes?",
+     "¿Qué ha cambiado ahora?",
+     "¿A quién se lo recomendarías?"
+    ]
+   },
+   "note": "Así cuenta <b>una historia, no un \"todo bien\".</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Úsalo en<br><em>tus anuncios.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Nos lo cuenta un cliente, no nosotros.",
+    "media": "\"ANTES / AHORA\"",
+    "headline": "Pide tu presupuesto",
+    "cta": "Más información",
+    "tags": [
+     "CLIENTE REAL",
+     "ANUNCIO Y WEB"
+    ]
+   },
+   "note": "Lo que dice un cliente <b>pesa más que lo que dices tú.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que hablen<br><em>tus clientes.</em>",
+   "dur": 6,
+   "items": [
+    "Pídelo al ver el resultado",
+    "3 preguntas: antes, ahora, a quién",
+    "Úsalo en anuncios y web"
+   ]
+  }
+ ],
+ "caption": "¿Tus clientes están contentos pero nadie más lo sabe? 🎥\n\nUn testimonio real convence más que cualquier frase que escribas tú sobre tu negocio.\n\n→ Pídelo justo cuando el cliente ve el resultado\n→ Guíalo con 3 preguntas: qué problema tenía, qué ha cambiado y a quién se lo recomendaría\n→ Úsalo en tus anuncios, en tu web y en tus historias destacadas\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #testimonios #metaads #captaciondeclientes #marketingdigital #emprendedores #empresarios"
+}
