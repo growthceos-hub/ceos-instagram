@@ -43,3 +43,4 @@
 | 2026-09-30 | reel 2 (meme) | POV: te haces 60 fotos para la foto de perfil… y acabas eligiendo la primera | https://www.instagram.com/reel/Dd6OEzxIOBI/ |
 | 2026-09-30 | reel 3 (tip) | Brillos en la cara a cámara: 3 trucos para no salir con la frente y la nariz brillantes | https://www.instagram.com/reel/Dd6WkDfjVjH/ |
 | 2026-09-30 | reel 4 (meme) | POV: grabas 10 tomas perfectas… y en todas se te ve la etiqueta de la camisa | https://www.instagram.com/reel/Dd6bwqEDXOg/ |
+| 2026-09-30 | reel 5 (tip) | Altura de cámara: 3 reglas para colocar el móvil o la cámara y no salir con papada ni desde arriba | en curso |
