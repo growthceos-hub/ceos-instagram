@@ -41,3 +41,4 @@
 | 2026-09-30 | reel 1 (tip) | Gafas a cámara: 3 trucos para que la luz no se refleje en tus lentes | https://www.instagram.com/reel/Dd6H2H5Akgi/ |
 | 2026-09-30 | carrusel C3 | Portadas de tus reels: 3 reglas para que tu cuadrícula de Instagram parezca de marca (y den ganas de darle al play) | https://www.instagram.com/p/Dd6LZL_FHB0/ |
 | 2026-09-30 | reel 2 (meme) | POV: te haces 60 fotos para la foto de perfil… y acabas eligiendo la primera | https://www.instagram.com/reel/Dd6OEzxIOBI/ |
+| 2026-09-30 | reel 3 (tip) | Brillos en la cara a cámara: 3 trucos para no salir con la frente y la nariz brillantes | en curso |
