@@ -1,0 +1,74 @@
+{
+ "topic": "Gafas a cámara: 3 trucos para que la luz no se refleje en tus lentes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Reflejos en<br>tus <em>gafas</em>?",
+   "size": 136,
+   "dur": 5.6,
+   "mock": {
+    "type": "chat",
+    "name": "Marta",
+    "msgs": [
+     {"from": "out", "lines": ["Me he grabado con gafas", "y salen dos focos enormes"], "time": "12:14"},
+     {"from": "in", "text": "Se ve la ventana en los cristales", "time": "12:15"}
+    ]
+   },
+   "footer": "3 trucos para quitarlos sin quitártelas"
+  },
+  {
+   "label": "TRUCO 1",
+   "title": "Luz de lado,<br><em>no de frente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Aro de luz justo delante", "Ventana o pantalla de frente"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Luz a 45° de tu cara", "Un poco más alta que tus ojos"]
+   },
+   "note": "Si la luz entra de lado, <b>el reflejo sale de plano.</b>"
+  },
+  {
+   "label": "TRUCO 2",
+   "title": "Inclina las<br><em>gafas un poco.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "EL TRUCO DE LA PATILLA",
+    "lines": [
+     "Sube las patillas 1 cm sobre las orejas",
+     "Las lentes miran un poco al suelo",
+     "El brillo rebota fuera de cámara"
+    ]
+   },
+   "note": "En cámara <b>no se nota nada.</b>"
+  },
+  {
+   "label": "TRUCO 3",
+   "title": "Luz grande<br><em>y suave.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Softbox o ventana, no bombilla",
+     "Baja el brillo de la pantalla",
+     "Mira los cristales en el visor",
+     "Mueve la luz hasta que no brillen"
+    ]
+   },
+   "note": "Una luz grande deja <b>un brillo suave, no un foco.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Con gafas y<br><em>sin reflejos.</em>",
+   "dur": 6,
+   "items": [
+    "Luz a 45°, nunca de frente",
+    "Inclina un poco las gafas",
+    "Luz grande y revisa el visor"
+   ]
+  }
+ ],
+ "caption": "¿Te grabas con gafas y en los cristales se ve la ventana o el aro de luz? 👓\n\nNo hace falta quitártelas: el reflejo depende de dónde pones la luz y de cómo miran tus lentes.\n\n→ Pon la luz a 45° de tu cara y un poco más alta que tus ojos, nunca justo delante\n→ Sube las patillas un centímetro sobre las orejas: las lentes miran un poco al suelo y el brillo sale de cámara\n→ Usa una luz grande y suave (softbox o ventana), baja el brillo de la pantalla y revisa los cristales en el visor antes de grabar\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #grabarcongafas #iluminacion #hablaracamara #tipsdevideo #creaciondecontenido #marcapersonal"
+}
