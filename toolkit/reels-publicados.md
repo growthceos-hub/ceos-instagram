@@ -108,3 +108,4 @@
 | 2026-09-29 | meme | El recomendado que quiere lo mismo pero gratis — solo pestaña Reels | https://www.instagram.com/reel/Dd4RvcqCcLw/ |
 | 2026-09-29 | meme | Te llama un lead del anuncio para pedirte trabajo — solo pestaña Reels | https://www.instagram.com/reel/Dd4Rv8aAXO8/ |
 | 2026-09-29 | meme | La chincheta del negocio en mitad del río — solo pestaña Reels | https://www.instagram.com/reel/Dd4RwX9DXK2/ |
+| 2026-09-30 | 1 | Anuncios cansados en Meta: vigila frecuencia y coste por lead, cambia primero el gancho y ten la siguiente versión grabada antes de que caiga | https://www.instagram.com/reel/Dd6gYdYDHOx/ | No (Zapier sin tareas este mes) |
