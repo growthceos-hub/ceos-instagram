@@ -56,3 +56,4 @@
 | 2026-10-01 | carrusel C2 | Grabar en bloque: 3 claves (guiones listos, cambios de plano y de ropa) para sacar 5 vídeos en una sola tarde | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | reel 1 (meme) | POV: "hola a todos"… toma 47 (empezar a hablar a cámara y no salir nunca de la primera frase) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C3 | Subtítulos que se leen: 3 reglas (tamaño, zona segura y pocas palabras por pantalla) para que vean tu vídeo sin sonido | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-01 | reel 2 (tip) | Muletillas a cámara: 3 trucos para dejar de decir "eeh", "vale" y "bueno" cuando te grabas | en curso |
