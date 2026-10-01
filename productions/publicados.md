@@ -54,3 +54,4 @@
 | 2026-10-01 | carrusel C1 | Fotos de producto con el móvil: 3 claves (fondo limpio, luz lateral suave y ángulo correcto) para que parezcan de catálogo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | historias ×5 | Mini-guion para copiar: preséntate a cámara en 30 segundos (gancho, quién eres, qué consigues y CTA) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C2 | Grabar en bloque: 3 claves (guiones listos, cambios de plano y de ropa) para sacar 5 vídeos en una sola tarde | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-01 | reel 1 (meme) | POV: "hola a todos"… toma 47 (empezar a hablar a cámara y no salir nunca de la primera frase) | en curso |
