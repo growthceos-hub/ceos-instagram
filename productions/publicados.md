@@ -53,3 +53,4 @@
 | 2026-09-30 | reel 10 (meme) | POV: grabas el reel perfecto… y al revisarlo estaba en horizontal | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C1 | Fotos de producto con el móvil: 3 claves (fondo limpio, luz lateral suave y ángulo correcto) para que parezcan de catálogo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | historias ×5 | Mini-guion para copiar: preséntate a cámara en 30 segundos (gancho, quién eres, qué consigues y CTA) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-01 | carrusel C2 | Grabar en bloque: 3 claves (guiones listos, cambios de plano y de ropa) para sacar 5 vídeos en una sola tarde | en curso |
