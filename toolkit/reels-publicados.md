@@ -110,3 +110,4 @@
 | 2026-09-29 | meme | La chincheta del negocio en mitad del río — solo pestaña Reels | https://www.instagram.com/reel/Dd4RwX9DXK2/ |
 | 2026-09-30 | 1 | Anuncios cansados en Meta: vigila frecuencia y coste por lead, cambia primero el gancho y ten la siguiente versión grabada antes de que caiga | https://www.instagram.com/reel/Dd6gYdYDHOx/ | No (Zapier sin tareas este mes) |
 | 2026-10-01 | 1 | Texto del anuncio en Meta que se lee: primera línea con el problema del cliente, beneficio concreto con sus palabras y una sola acción clara — creado en reels/2026-10-01-1, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) | — | No |
+| 2026-10-01 | 2 | Pantalla final del formulario de Meta que trabaja: di qué pasa ahora, avisa de cuándo le llamaréis y deja un botón para el siguiente paso — creado en reels/2026-10-01-2, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) | — | No |
