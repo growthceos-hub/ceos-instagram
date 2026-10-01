@@ -1,0 +1,73 @@
+{
+ "topic": "Pantalla final del formulario de Meta que trabaja: di qué pasa ahora, avisa de cuándo y desde dónde le llamaréis y deja un botón para dar el siguiente paso",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu lead olvida<br>que <em>te escribió?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Pantalla final",
+    "fields": [
+     {"q": "Título", "a": "¡Gracias!"},
+     {"q": "Texto", "a": "Te contactaremos."}
+    ]
+   },
+   "footer": "3 pasos para tu pantalla final"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Dile qué<br><em>pasa ahora.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "AHORA", "t": "Revisamos tu caso", "s": "Ya tenemos tus datos"},
+     {"n": "2", "d": "HOY", "t": "Te llamamos", "s": "Antes de las 19:00"},
+     {"n": "3", "d": "LLAMADA", "t": "15 min sin compromiso", "s": "Vemos qué necesitas"}
+    ]
+   },
+   "note": "Sabe qué esperar y <b>coge el teléfono.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Avisa de<br><em>la llamada.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "script",
+    "title": "TEXTO DE LA PANTALLA",
+    "lines": [
+     "Gracias, ya tenemos tu solicitud.",
+     "Te llamamos hoy por la tarde.",
+     "Guarda nuestro número."
+    ]
+   },
+   "note": "Así <b>no lo cuelga</b> pensando que es spam."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Un botón para<br><em>adelantarse.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO GRACIAS",
+    "bad": ["Sin siguiente paso", "Espera sin saber"],
+    "good_t": "CON BOTÓN",
+    "good": ["Escríbenos por WhatsApp", "Llama ahora"]
+   },
+   "note": "El más interesado <b>da el paso solo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu formulario<br><em>no acabe ahí.</em>",
+   "dur": 6,
+   "items": [
+    "Di qué pasa ahora",
+    "Avisa de la llamada",
+    "Botón de siguiente paso"
+   ]
+  }
+ ],
+ "caption": "¿Tus leads no se acuerdan de que te dejaron sus datos? 📲\n\nLa pantalla que ve justo después de enviar el formulario de Meta suele decir solo \"Gracias\". Es el mejor momento para prepararle para tu llamada:\n\n→ Dile qué pasa ahora: revisáis su caso, le llamáis y para qué\n→ Avisa de cuándo le vais a llamar para que no lo cuelgue como spam\n→ Añade un botón para dar el siguiente paso: escribir por WhatsApp o llamar ya\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #formulariosmeta #captaciondeclientes #leads #marketingdigital #empresarios"
+}
