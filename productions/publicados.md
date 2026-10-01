@@ -65,4 +65,4 @@
 | 2026-10-01 | reel 7 (meme) | POV: el cliente ve su vídeo terminado y pregunta "¿me puedes quitar 10 kilos en edición?" | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | reel 8 (tip) | Vídeo sin temblores sin gimbal: 3 trucos (codos pegados al cuerpo, pasos de pato y un apoyo fijo) para grabar con el móvil a pulso | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-01 | reel 9 (meme) | POV: llevas 20 minutos hablando a cámara… y no le habías dado a REC | en curso |
+| 2026-10-01 | reel 9 (meme) | POV: llevas 20 minutos hablando a cámara… y no le habías dado a REC | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
