@@ -1,0 +1,105 @@
+{
+ "topic": "Testimonios en vídeo de tus clientes: pídelo justo después de un buen resultado, dale 3 preguntas guía para que lo cuente con sus palabras y úsalo en anuncios, web y WhatsApp",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus clientes<br>hablan bien de ti<br><em>y nadie lo ve?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Esto es lo que dicen quienes ya han trabajado con nosotros.",
+    "media": "▶ Testimonio",
+    "headline": "Clientes reales",
+    "cta": "Más información"
+   },
+   "footer": "3 pasos para tu testimonio en vídeo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pídelo en el<br><em>mejor momento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¡Ha quedado genial!",
+      "time": "12:10"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Qué alegría! ¿Nos lo",
+       "cuentas en un vídeo?"
+      ],
+      "time": "12:12"
+     },
+     {
+      "from": "in",
+      "text": "¡Claro! ¿Cómo lo hago?",
+      "time": "12:14"
+     }
+    ]
+   },
+   "note": "Justo después de <b>un buen resultado.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Dale 3<br><em>preguntas guía.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PREGUNTAS PARA EL VÍDEO",
+    "lines": [
+     "¿Cómo estabas antes?",
+     "¿Qué cambió después?",
+     "¿A quién se lo recomiendas?"
+    ]
+   },
+   "note": "Que lo cuente <b>con sus palabras, sin guion.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Úsalo en<br><em>todas partes.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "META ADS",
+      "t": "En tus anuncios",
+      "s": "Como prueba real"
+     },
+     {
+      "n": "2",
+      "d": "WEB",
+      "t": "Junto al botón",
+      "s": "Donde se decide"
+     },
+     {
+      "n": "3",
+      "d": "WHATSAPP",
+      "t": "Antes de cerrar",
+      "s": "A quien aún duda"
+     }
+    ]
+   },
+   "note": "Un vídeo bueno <b>trabaja cada día.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que hablen<br><em>tus clientes.</em>",
+   "dur": 6,
+   "items": [
+    "Pide tras un buen resultado",
+    "3 preguntas guía",
+    "Úsalo en anuncios y web"
+   ]
+  }
+ ],
+ "caption": "¿Tus clientes hablan bien de ti… y nadie más se entera? 🎥\n\nUn cliente contento contando su experiencia convence más que cualquier frase tuya. Así consigues ese vídeo:\n\n→ Pídelo justo después de un buen resultado, cuando está contento\n→ Dale 3 preguntas guía (cómo estaba antes, qué cambió, a quién se lo recomienda) y deja que lo cuente con sus palabras\n→ Úsalo en tus anuncios, en tu web junto al botón y por WhatsApp a quien aún duda\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #testimonios #marketing #metaads #ventas #negocios #empresarios"
+}
