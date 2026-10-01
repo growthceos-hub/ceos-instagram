@@ -1,0 +1,73 @@
+{
+ "topic": "Primera semana de un cliente nuevo: bienvenida el mismo día con qué pasa ahora, llamada de arranque con plan y fechas, y un primer avance visible en los primeros días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu cliente paga<br>y <em>no sabe más?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente nuevo",
+    "msgs": [
+     {"from": "in", "text": "Ya he pagado. ¿Y ahora qué?", "time": "10:02"},
+     {"from": "in", "text": "¿Hola?", "time": "18:40"}
+    ]
+   },
+   "footer": "3 pasos para su primera semana"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Bienvenida<br><em>el mismo día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE DE BIENVENIDA",
+    "lines": [
+     "Gracias por confiar en nosotros.",
+     "Mañana te llamamos para empezar.",
+     "Para cualquier duda, escríbenos aquí."
+    ]
+   },
+   "note": "Que no tenga que <b>preguntar qué pasa.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Llamada con<br><em>plan y fechas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "DÍA 1", "t": "Llamada de arranque", "s": "Objetivos y datos que necesitas"},
+     {"n": "2", "d": "DÍA 3", "t": "Primera entrega", "s": "Algo que pueda ver"},
+     {"n": "3", "d": "DÍA 7", "t": "Revisión juntos", "s": "Qué va bien y qué sigue"}
+    ]
+   },
+   "note": "Con fechas <b>sabe qué esperar.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Un avance<br><em>que se vea.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SEMANA EN SILENCIO",
+    "bad": ["Sin noticias", "Duda si acertó"],
+    "good_t": "PRIMER AVANCE",
+    "good": ["Le enseñas algo hecho", "Confirma que acertó"]
+   },
+   "note": "La primera semana <b>marca toda la relación.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que empiece<br><em>con buen pie.</em>",
+   "dur": 6,
+   "items": [
+    "Bienvenida el mismo día",
+    "Plan con fechas",
+    "Un avance en días"
+   ]
+  }
+ ],
+ "caption": "¿Tus clientes nuevos pagan y luego no saben qué pasa? 🤝\n\nLos primeros días después de comprar son cuando más dudas tiene un cliente. Si nadie le dice nada, empieza a pensar si se ha equivocado:\n\n→ Mándale una bienvenida el mismo día: gracias, qué pasa ahora y por dónde escribirte\n→ Haz una llamada de arranque con un plan y fechas concretas\n→ Enséñale un primer avance en los primeros días, algo que pueda ver\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #clientes #atencionalcliente #fidelizacion #ventas #negocios #empresarios"
+}
