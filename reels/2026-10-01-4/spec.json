@@ -1,0 +1,76 @@
+{
+ "topic": "CRM que no es un cementerio de leads: cada lead en una etapa clara, siempre con próxima acción y fecha, y una revisión semanal para cerrar lo que no sigue",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu CRM es un<br><em>cementerio?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Leads sin tocar desde…",
+    "items": [
+     {"label": "Hace 1 semana", "value": 35},
+     {"label": "Hace 1 mes", "value": 62},
+     {"label": "Hace 3 meses", "value": 88, "hi": true}
+    ]
+   },
+   "footer": "3 pasos para darle vida"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Una etapa<br><em>por lead.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ETAPA 1", "t": "Nuevo", "s": "Aún sin llamar"},
+     {"n": "2", "d": "ETAPA 2", "t": "Cita agendada", "s": "Con día y hora"},
+     {"n": "3", "d": "ETAPA 3", "t": "Propuesta enviada", "s": "Esperando respuesta"}
+    ]
+   },
+   "note": "Ves de un vistazo <b>dónde está cada uno.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Próxima acción<br><em>con fecha.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {"q": "Etapa", "a": "Propuesta enviada"},
+     {"q": "Próxima acción", "a": "Llamar para resolver dudas"},
+     {"q": "Fecha", "a": "Jueves, 10:00"}
+    ],
+    "badge": "✓ NADA SE OLVIDA"
+   },
+   "note": "Lead sin fecha <b>es lead olvidado.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Revisión<br><em>cada semana.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Leads sin próxima acción",
+     "Fechas ya vencidas",
+     "Cierra los que no siguen"
+    ]
+   },
+   "note": "Un rato fijo cada lunes <b>y el CRM sigue vivo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu CRM,<br><em>siempre al día.</em>",
+   "dur": 6,
+   "items": [
+    "Una etapa por lead",
+    "Próxima acción con fecha",
+    "Revisión cada semana"
+   ]
+  }
+ ],
+ "caption": "¿Tu CRM está lleno de leads que nadie toca desde hace meses? 🗂️\n\nUn CRM no vende por tenerlo. Vende cuando cada lead tiene claro en qué punto está y qué es lo siguiente:\n\n→ Pon cada lead en una etapa clara: nuevo, cita agendada, propuesta enviada\n→ Que ninguno se quede sin próxima acción y sin fecha\n→ Revisa una vez por semana: fechas vencidas, leads sin acción y cierra los que ya no siguen\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #crm #ventas #seguimiento #leads #negocios #empresarios"
+}
