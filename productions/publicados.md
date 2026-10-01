@@ -52,3 +52,4 @@
 | 2026-09-30 | reel 9 (tip) | Energía a cámara: 3 trucos para no salir apagado ni aburrido cuando te grabas | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-09-30 | reel 10 (meme) | POV: grabas el reel perfecto… y al revisarlo estaba en horizontal | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C1 | Fotos de producto con el móvil: 3 claves (fondo limpio, luz lateral suave y ángulo correcto) para que parezcan de catálogo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-01 | historias ×5 | Mini-guion para copiar: preséntate a cámara en 30 segundos (gancho, quién eres, qué consigues y CTA) | en curso |
