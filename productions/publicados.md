@@ -51,4 +51,4 @@
 | 2026-09-30 | carrusel C5 | Sonido limpio: 3 trucos (micro cerca, sala sin eco y 10 s de silencio) para que tu audio suene de estudio | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-09-30 | reel 9 (tip) | Energía a cámara: 3 trucos para no salir apagado ni aburrido cuando te grabas | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-09-30 | reel 10 (meme) | POV: grabas el reel perfecto… y al revisarlo estaba en horizontal | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-01 | carrusel C1 | Fotos de producto con el móvil: 3 claves (fondo limpio, luz lateral suave y ángulo correcto) para que parezcan de catálogo | en curso |
+| 2026-10-01 | carrusel C1 | Fotos de producto con el móvil: 3 claves (fondo limpio, luz lateral suave y ángulo correcto) para que parezcan de catálogo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
