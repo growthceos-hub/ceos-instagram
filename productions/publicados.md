@@ -60,3 +60,4 @@
 | 2026-10-01 | reel 3 (meme) | POV: grabas tu mejor toma… y al revisarla ves el tendedero con toda tu ropa detrás | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | reel 4 (tip) | Fotos de equipo para la web: 3 claves (misma luz, mismo fondo y misma altura de cámara) para que parezcáis una marca y no un collage | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | reel 5 (meme) | POV: tu cuñado te presta su ring light… y en el vídeo sales blanco como un fantasma | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-01 | carrusel C4 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
