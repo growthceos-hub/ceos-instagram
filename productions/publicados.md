@@ -57,4 +57,4 @@
 | 2026-10-01 | reel 1 (meme) | POV: "hola a todos"… toma 47 (empezar a hablar a cámara y no salir nunca de la primera frase) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C3 | Subtítulos que se leen: 3 reglas (tamaño, zona segura y pocas palabras por pantalla) para que vean tu vídeo sin sonido | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | reel 2 (tip) | Muletillas a cámara: 3 trucos para dejar de decir "eeh", "vale" y "bueno" cuando te grabas | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-01 | reel 3 (meme) | POV: grabas tu mejor toma… y al revisarla ves el tendedero con toda tu ropa detrás | en curso |
+| 2026-10-01 | reel 3 (meme) | POV: grabas tu mejor toma… y al revisarla ves el tendedero con toda tu ropa detrás | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
