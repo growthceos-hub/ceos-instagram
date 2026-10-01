@@ -62,4 +62,4 @@
 | 2026-10-01 | reel 5 (meme) | POV: tu cuñado te presta su ring light… y en el vídeo sales blanco como un fantasma | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | carrusel C4 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-01 | reel 6 (tip) | Mirar a cámara: 3 trucos para mirar al objetivo y no a tu propia cara en la pantalla | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-01 | reel 7 (meme) | POV: subes tu reel con toda la ilusión… y a las 3 horas lleva 12 visualizaciones (11 son tuyas) | en curso |
+| 2026-10-01 | reel 7 (meme) | POV: el cliente ve su vídeo terminado y pregunta "¿me puedes quitar 10 kilos en edición?" | en curso |
