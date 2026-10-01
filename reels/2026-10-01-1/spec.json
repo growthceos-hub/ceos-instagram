@@ -1,0 +1,65 @@
+{
+ "topic": "Texto del anuncio en Meta que se lee: primera línea con el problema del cliente, beneficio concreto con sus palabras y una sola acción clara al final",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Nadie lee<br><em>tus anuncios?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Somos una empresa líder con más de 20 años de experiencia y un equipo...",
+    "media": "SOMOS LÍDERES",
+    "headline": "Conócenos",
+    "cta": "Más información"
+   },
+   "footer": "3 pasos para el texto"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Empieza por<br><em>su problema.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Somos líderes", "20 años contigo"],
+    "good_t": "ASÍ SÍ",
+    "good": ["¿Pierdes clientes?", "¿No te llaman?"]
+   },
+   "note": "La primera línea <b>decide si siguen leyendo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Di qué gana<br><em>en concreto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Qué consigue", "En cuánto tiempo", "Con sus palabras", "Sin jerga técnica"]
+   },
+   "note": "Nada de \"soluciones integrales\": <b>habla como tu cliente.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra con<br><em>una sola acción.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ÚLTIMA LÍNEA",
+    "lines": ["Pide tu presupuesto aquí", "Rellena 3 datos y te llamamos", "Hoy mismo, sin compromiso"]
+   },
+   "note": "Si das tres opciones, <b>no elige ninguna.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Escribe para<br><em>quien te compra.</em>",
+   "dur": 6,
+   "items": [
+    "Primero, su problema",
+    "Beneficio concreto",
+    "Una sola acción"
+   ]
+  }
+ ],
+ "caption": "¿Pagas anuncios que nadie se para a leer? ✍️\n\nSi tu anuncio empieza hablando de ti, el cliente pasa de largo antes de llegar a lo importante. Así escribes un texto que se lee:\n\n→ Empieza por su problema: la primera línea decide si sigue leyendo\n→ Di qué gana en concreto, con sus palabras y sin jerga técnica\n→ Cierra con una sola acción clara (pedir presupuesto, rellenar el formulario, escribir por WhatsApp)\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #copywriting #anunciosfacebook #captaciondeclientes #marketingdigital #empresarios"
+}
