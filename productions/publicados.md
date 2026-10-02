@@ -69,3 +69,4 @@
 | 2026-10-01 | reel 10 (tip) | Música de fondo en tus reels: 3 reglas (volumen por debajo de la voz, cortes al ritmo y que no tape el gancho) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | carrusel C1 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | historias ×5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-02 | carrusel C2 | (pendiente de Paso 0) | en curso |
