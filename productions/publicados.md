@@ -75,4 +75,4 @@
 | 2026-10-02 | reel 2 (meme) | POV: te pones tu mejor camisa de rayas para grabar… y en cámara empieza a bailar (efecto moiré) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 3 (tip) | Postura a cámara: 3 trucos (hombros atrás, cuerpo ligeramente girado y peso hacia delante) para salir con presencia | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 4 (meme) | POV: grabas el reel perfecto… y los subtítulos automáticos escriben lo que les da la gana | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-02 | reel 5 (tip) | Grabar pensando en la edición: 3 trucos (palmada al empezar, 2 s de silencio entre frases y repetir la frase entera si fallas) para editar en la mitad de tiempo | en curso |
+| 2026-10-02 | reel 5 (tip) | Grabar pensando en la edición: 3 trucos (palmada al empezar, 2 s de silencio entre frases y repetir la frase entera si fallas) para editar en la mitad de tiempo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
