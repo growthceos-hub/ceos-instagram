@@ -82,3 +82,4 @@
 | 2026-10-02 | reel 8 (meme) | POV: hay que grabar el vídeo de la empresa… y en el grupo de WhatsApp nadie quiere salir | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | carrusel C5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 9 (tip) | Vídeo testimonio de un cliente: 3 claves (preguntas abiertas, que repita la pregunta al responder y que mire a quien pregunta, no a cámara) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-02 | reel 10 (meme) | POV: grabas tu reel en la calle… y el viento se come todo el audio | en curso |
