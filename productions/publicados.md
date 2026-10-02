@@ -79,4 +79,4 @@
 | 2026-10-02 | carrusel C4 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 6 (meme) | POV: grabas con la luz de la ventana… y a mitad de toma pasa una nube | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 7 (tip) | Ganchos de los 3 primeros segundos: 3 tipos de gancho (pregunta, error común y resultado primero) para que no hagan scroll | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-02 | reel 8 (meme) | POV: hay que grabar el vídeo de la empresa… y en el grupo de WhatsApp nadie quiere salir | en curso |
+| 2026-10-02 | reel 8 (meme) | POV: hay que grabar el vídeo de la empresa… y en el grupo de WhatsApp nadie quiere salir | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
