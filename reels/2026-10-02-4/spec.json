@@ -1,0 +1,75 @@
+{
+ "topic": "Cuando te dicen “me lo tengo que pensar”: pregunta qué le hace dudar exactamente, resuelve esa duda concreta (no repitas toda la oferta) y cierra con fecha y hora para su respuesta",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te dicen<br><em>“me lo pienso”</em><br>y desaparecen?",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Te paso la propuesta", "¿qué te parece?"], "time": "10:12"},
+     {"from": "in", "text": "Me lo tengo que pensar", "time": "10:40"}
+    ]
+   },
+   "footer": "3 pasos para no perder la venta"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pregunta<br><em>qué le frena.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PREGÚNTALE",
+    "lines": [
+     "\"Claro, ¿qué te hace dudar?\"",
+     "\"¿Es el precio o el momento?\"",
+     "\"¿Qué necesitas para decidir?\""
+    ]
+   },
+   "note": "“Me lo pienso” esconde <b>una duda concreta.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Resuelve<br><em>esa duda.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Precio: dale opciones",
+     "Confianza: casos reales",
+     "Momento: fechas claras",
+     "Socio: llamada con él"
+    ]
+   },
+   "note": "No repitas toda la oferta: <b>solo lo que le frena.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra con<br><em>fecha y hora.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "Acordáis el día", "s": "“¿Te llamo el jueves a las 12?”"},
+     {"n": "2", "d": "JUEVES 12:00", "t": "Le llamas tú", "s": "Apuntado en el CRM"},
+     {"n": "3", "d": "RESPUESTA", "t": "Sí o no claro", "s": "Nada de “ya te diré”"}
+    ]
+   },
+   "note": "Sin fecha, “me lo pienso” <b>es un no.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que “me lo pienso”<br><em>no sea un adiós.</em>",
+   "dur": 6,
+   "items": [
+    "Pregunta qué le frena",
+    "Resuelve solo esa duda",
+    "Fecha y hora de respuesta"
+   ]
+  }
+ ],
+ "caption": "¿Te dicen “me lo tengo que pensar” y ya no vuelves a saber nada? 🤔\n\nCasi nunca es falta de tiempo: detrás suele haber una duda que no te han dicho. Así la sacas y no pierdes la venta:\n\n→ Pregunta qué le hace dudar exactamente: ¿el precio, el momento, la confianza, otra persona que decide?\n→ Resuelve solo esa duda (opciones, casos reales, fechas) en vez de repetir toda la oferta\n→ Cierra con fecha y hora para su respuesta, apúntalo en el CRM y llámale tú ese día\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #cierredeventas #objeciones #empresarios #pymes #captaciondeclientes"
+}
