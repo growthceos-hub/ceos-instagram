@@ -1,0 +1,77 @@
+{
+ "topic": "Cuánto puedes pagar por un lead: calcula lo que te deja un cliente, mira cuántos leads acaban comprando y multiplica para tener tu límite por lead (y quédate por debajo)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Sabes cuánto<br>puedes pagar<br><em>por un lead?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Socio",
+    "msgs": [
+     {"from": "in", "text": "Los leads salen a 12 €", "time": "09:40"},
+     {"from": "out", "lines": ["¿Y eso es caro", "o es barato?"], "time": "09:41"}
+    ]
+   },
+   "footer": "3 pasos para saber tu límite"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Lo que te deja<br><em>un cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu cálculo",
+    "fields": [
+     {"q": "Precio medio de venta", "a": "1.000 €"},
+     {"q": "Lo que te queda limpio", "a": "300 €"}
+    ],
+    "badge": "✓ BENEFICIO: 300 €"
+   },
+   "note": "Lo que te queda, <b>no lo que facturas.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cuántos leads<br><em>acaban comprando.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "De cada 10 leads",
+    "items": [
+     {"label": "10 leads", "value": 100},
+     {"label": "6 contestan", "value": 60},
+     {"label": "3 van a la cita", "value": 30},
+     {"label": "1 compra", "value": 10, "hi": true}
+    ]
+   },
+   "note": "Míralo en tu CRM, <b>no a ojo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Multiplica y<br><em>pon tu límite.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU LÍMITE POR LEAD",
+    "lines": [
+     "300 € de beneficio",
+     "× 1 de cada 10 compra",
+     "= 30 € como máximo"
+    ]
+   },
+   "note": "Quédate por debajo <b>para ganar dinero.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Decide con<br><em>tus números.</em>",
+   "dur": 6,
+   "items": [
+    "Beneficio por cliente",
+    "Cuántos leads compran",
+    "Multiplica: tu límite"
+   ]
+  }
+ ],
+ "caption": "¿Tus leads salen a 12 €… y no sabes si es caro o barato? 🤔\n\nNo hay un precio bueno para todos: depende de lo que te deja cada cliente y de cuántos leads acabas cerrando. Así calculas tu límite:\n\n→ Apunta lo que te queda limpio de un cliente, no lo que facturas\n→ Mira en tu CRM cuántos leads de cada 10 acaban comprando\n→ Multiplica las dos cosas: ese es lo máximo que puedes pagar por lead. Quédate por debajo para ganar dinero\n\n(Las cifras del vídeo son un ejemplo: haz la cuenta con las tuyas.)\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #captaciondeclientes #marketingdigital #ventas #negocios #empresarios"
+}
