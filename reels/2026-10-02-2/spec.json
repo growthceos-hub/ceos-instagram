@@ -1,0 +1,97 @@
+{
+ "topic": "Ficha de Google que trae llamadas: categoría principal y servicios bien puestos, fotos reales y recientes, y horario, teléfono y botones siempre al día",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te buscan<br>en Google y<br><em>no te llaman?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Salíais cerrados en Google",
+      "time": "10:12"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Pero si estábamos",
+       "abiertos!"
+      ],
+      "time": "10:30"
+     }
+    ]
+   },
+   "footer": "3 pasos para tu ficha de Google"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige bien<br><em>tu categoría.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu ficha de Google",
+    "fields": [
+     {
+      "q": "Categoría principal",
+      "a": "Lo que más vendes"
+     },
+     {
+      "q": "Servicios",
+      "a": "Uno por uno, claros"
+     }
+    ],
+    "badge": "✓ TE ENCUENTRAN"
+   },
+   "note": "Que salgas por <b>lo que de verdad haces.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Fotos reales<br><em>y recientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Tu local por fuera",
+     "Tu equipo trabajando",
+     "Trabajos terminados",
+     "Fotos de este mes"
+    ]
+   },
+   "note": "Nada de banco de imágenes: <b>que vean tu negocio.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Horario y<br><em>teléfono al día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Horario antiguo",
+     "Teléfono que no coge"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Festivos puestos",
+     "Botón de llamar"
+    ]
+   },
+   "note": "Si pone cerrado, <b>llaman a otro.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu ficha,<br><em>siempre al día.</em>",
+   "dur": 6,
+   "items": [
+    "Categoría y servicios",
+    "Fotos reales y recientes",
+    "Horario y botones al día"
+   ]
+  }
+ ],
+ "caption": "¿Te buscan en Google… y acaban llamando a otro? 📍\n\nTu ficha de Google es lo primero que ven muchos clientes antes de escribirte. Si está a medias, se van. Así la pones a trabajar:\n\n→ Elige bien la categoría principal (lo que más vendes) y añade tus servicios uno por uno\n→ Sube fotos reales y recientes: tu local, tu equipo trabajando y trabajos terminados\n→ Ten el horario, los festivos, el teléfono y el botón de llamar siempre al día\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #googlemaps #negociolocal #captaciondeclientes #marketingdigital #empresarios #pymes"
+}
