@@ -74,4 +74,4 @@
 | 2026-10-02 | carrusel C3 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 2 (meme) | POV: te pones tu mejor camisa de rayas para grabar… y en cámara empieza a bailar (efecto moiré) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 3 (tip) | Postura a cámara: 3 trucos (hombros atrás, cuerpo ligeramente girado y peso hacia delante) para salir con presencia | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-02 | reel 4 (meme) | POV: grabas el reel perfecto… y los subtítulos automáticos escriben lo que les da la gana | en curso |
+| 2026-10-02 | reel 4 (meme) | POV: grabas el reel perfecto… y los subtítulos automáticos escriben lo que les da la gana | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
