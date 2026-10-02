@@ -1,0 +1,74 @@
+{
+ "topic": "Filtrar curiosos en la primera llamada con 3 preguntas: qué quiere resolver exactamente, para cuándo lo necesita y quién decide (si hay otra persona, que esté en la siguiente llamada)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pierdes horas<br>con leads<br><em>que no compran?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "out", "lines": ["Te mando info", "y lo hablamos"], "time": "11:05"},
+     {"from": "in", "text": "Era solo por curiosidad", "time": "18:32"}
+    ]
+   },
+   "footer": "3 preguntas para filtrar curiosos"
+  },
+  {
+   "label": "PREGUNTA 1",
+   "title": "¿Qué quieres<br><em>resolver?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {"q": "¿Qué quieres resolver?", "a": "Llenar la agenda"},
+     {"q": "¿Qué has probado ya?", "a": "Anuncios por mi cuenta"}
+    ],
+    "badge": "✓ PROBLEMA CLARO"
+   },
+   "note": "Sin un problema concreto <b>no hay venta.</b>"
+  },
+  {
+   "label": "PREGUNTA 2",
+   "title": "¿Para<br><em>cuándo?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CURIOSO",
+    "bad": ["“Algún día”", "“Cuando sea”"],
+    "good_t": "VA EN SERIO",
+    "good": ["“Este mes”", "“Antes de enero”"]
+   },
+   "note": "Con fecha, <b>hay prioridad.</b>"
+  },
+  {
+   "label": "PREGUNTA 3",
+   "title": "¿Quién<br><em>decide?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PREGÚNTALE",
+    "lines": [
+     "\"¿Lo decides tú?\"",
+     "\"¿Alguien más opina?\"",
+     "\"¿Lo vemos juntos?\""
+    ]
+   },
+   "note": "Si hay socio, <b>que esté en la llamada.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu tiempo,<br><em>para quien compra.</em>",
+   "dur": 6,
+   "items": [
+    "Qué quiere resolver",
+    "Para cuándo lo necesita",
+    "Quién decide"
+   ]
+  }
+ ],
+ "caption": "¿Pierdes horas con leads que luego no compran? 🎯\n\nNo hace falta un interrogatorio: con 3 preguntas en la primera llamada sabes si va en serio o es solo curiosidad.\n\n→ ¿Qué quieres resolver exactamente? Sin un problema concreto no hay venta\n→ ¿Para cuándo lo necesitas? “Algún día” no es una fecha; “este mes” sí\n→ ¿Quién decide? Si hay un socio o pareja que opina, que esté en la siguiente llamada\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #leads #cualificarleads #empresarios #pymes #captaciondeclientes"
+}
