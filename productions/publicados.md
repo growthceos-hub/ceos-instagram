@@ -73,3 +73,4 @@
 | 2026-10-02 | reel 1 (tip) | Fondo desenfocado: 3 trucos (sepárate de la pared, acércate a la cámara y aleja el fondo) para que tu vídeo parezca de cine | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | carrusel C3 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 2 (meme) | POV: te pones tu mejor camisa de rayas para grabar… y en cámara empieza a bailar (efecto moiré) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-02 | reel 3 (tip) | Postura a cámara: 3 trucos (hombros atrás, cuerpo ligeramente girado y peso hacia delante) para salir con presencia | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
