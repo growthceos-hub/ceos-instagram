@@ -1,0 +1,74 @@
+{
+ "topic": "Público de Meta para un negocio local: anuncia solo en la zona donde trabajas, no cierres demasiado el público (que el anuncio diga a quién va) y excluye a quien ya es cliente",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te llegan<br>leads de<br><em>fuera de tu zona?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "in", "text": "Hola, ¿vais a Cádiz?", "time": "11:04"},
+     {"from": "out", "lines": ["Solo trabajamos", "en Burgos..."], "time": "11:20"}
+    ]
+   },
+   "footer": "3 pasos para tu público en Meta"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Solo tu<br><em>zona real.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Público del anuncio",
+    "fields": [
+     {"q": "Ubicación", "a": "Donde das servicio"},
+     {"q": "Radio", "a": "Hasta donde llegas"}
+    ],
+    "badge": "✓ SOLO TU ZONA"
+   },
+   "note": "Cada clic de fuera <b>es dinero tirado.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Que el anuncio<br><em>diga a quién.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "¿Tienes un negocio en Burgos y te faltan clientes?",
+    "media": "SOLO EN BURGOS",
+    "headline": "Pide tu cita",
+    "cta": "Más información",
+    "tags": ["ZONA EN EL TEXTO", "PARA QUIÉN ES"]
+   },
+   "note": "No cierres tanto el público: <b>el mensaje filtra.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Excluye a<br><em>tus clientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Anuncio a quien ya compró", "Pagas por clientes tuyos"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Lista de clientes fuera", "Solo gente nueva"]
+   },
+   "note": "Sube tu lista y <b>exclúyela del público.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu público,<br><em>bien elegido.</em>",
+   "dur": 6,
+   "items": [
+    "Solo tu zona real",
+    "El anuncio dice a quién va",
+    "Clientes actuales fuera"
+   ]
+  }
+ ],
+ "caption": "¿Pagas anuncios y te escriben desde la otra punta de España? 📍\n\nSi tienes un negocio local, el público de tus anuncios en Meta decide a quién le llega tu dinero. Así lo ajustas:\n\n→ Anuncia solo en la zona donde de verdad das servicio, con el radio hasta donde llegas\n→ No cierres demasiado el público: que el propio anuncio diga a quién va y dónde trabajas\n→ Sube tu lista de clientes y exclúyela para no pagar por quien ya te compra\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #negociolocal #publicidadonline #captaciondeclientes #empresarios #pymes"
+}
