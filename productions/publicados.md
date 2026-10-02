@@ -78,4 +78,4 @@
 | 2026-10-02 | reel 5 (tip) | Grabar pensando en la edición: 3 trucos (palmada al empezar, 2 s de silencio entre frases y repetir la frase entera si fallas) para editar en la mitad de tiempo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | carrusel C4 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 6 (meme) | POV: grabas con la luz de la ventana… y a mitad de toma pasa una nube | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-02 | reel 7 (tip) | Ganchos de los 3 primeros segundos: 3 tipos de gancho (pregunta, error común y resultado primero) para que no hagan scroll | en curso |
+| 2026-10-02 | reel 7 (tip) | Ganchos de los 3 primeros segundos: 3 tipos de gancho (pregunta, error común y resultado primero) para que no hagan scroll | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
