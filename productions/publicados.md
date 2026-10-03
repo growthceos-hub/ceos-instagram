@@ -91,3 +91,4 @@
 | 2026-10-03 | reel 2 (tip) | Calentar antes de grabar: 3 ejercicios de 1 minuto (respiración, labios y voz) para no trabarte en la primera toma | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | reel 3 (meme) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | reel 4 (tip) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-03 | reel 5 (meme) | POV: hablas a cámara mirándote en la pantalla… y en el vídeo parece que miras al suelo | en curso |
