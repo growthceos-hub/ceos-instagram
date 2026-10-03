@@ -1,0 +1,93 @@
+{
+ "topic": "Comentarios en tus anuncios de Meta: responde a cada comentario el mismo día, lleva las preguntas de precio al privado y oculta solo el spam (las críticas se responden con calma, no se borran)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Comentarios<br>en tus anuncios<br><em>sin responder?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Reforma tu baño en 10 días, sin sorpresas en el precio.",
+    "media": "¿PRECIO?",
+    "headline": "Pide presupuesto",
+    "cta": "Más información",
+    "tags": [
+     "SIN RESPUESTA"
+    ]
+   },
+   "footer": "3 pasos para convertirlos en leads"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Responde a<br><em>cada comentario.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Comentario",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Trabajáis en Burgos?",
+      "time": "10:12"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Sí! En toda la",
+       "provincia. ¿Qué",
+       "necesitas?"
+      ],
+      "time": "10:20"
+     }
+    ]
+   },
+   "note": "Mismo día y <b>con una pregunta.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Lleva el precio<br><em>al privado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "RESPUESTA EN PÚBLICO",
+    "lines": [
+     "¡Hola! Depende de",
+     "lo que necesites.",
+     "Te escribimos por privado"
+    ]
+   },
+   "note": "En privado <b>pides su teléfono.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Oculta el spam,<br><em>no las críticas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Borrar las quejas"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Responder con calma",
+     "Ocultar solo el spam"
+    ]
+   },
+   "note": "Una buena respuesta <b>también vende.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Comentarios que<br><em>acaban en citas.</em>",
+   "dur": 6,
+   "items": [
+    "Responde a cada comentario",
+    "El precio, por privado",
+    "Oculta spam, no críticas"
+   ]
+  }
+ ],
+ "caption": "¿Tus anuncios tienen comentarios que nadie responde? 💬\n\nCada comentario es alguien que ha levantado la mano en público, y los demás ven cómo le contestas. Así los conviertes en conversaciones:\n\n→ Responde a cada comentario el mismo día y termina con una pregunta\n→ Si preguntan precio, contesta en público con amabilidad y sigue por privado para pedir su teléfono\n→ Oculta solo el spam; las quejas se responden con calma, no se borran\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #captaciondeclientes #marketingdigital #publicidadonline #negocios #empresarios"
+}
