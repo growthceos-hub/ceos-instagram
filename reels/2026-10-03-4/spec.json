@@ -1,0 +1,68 @@
+{
+ "topic": "Clientes que traen clientes: pide la recomendación justo después de un buen resultado, pregunta por alguien concreto (no 'si sabes de alguien') y dale un mensaje ya escrito para reenviar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus clientes<br>están contentos<br><em>y no te recomiendan?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Trabajo bien hecho", "Cliente contento", "¿Y la recomendación?"]
+   },
+   "footer": "3 pasos para pedirla bien"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pídelo cuando<br><em>está contento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ENTREGA", "t": "Trabajo terminado"},
+     {"n": "2", "d": "RESULTADO", "t": "Te da las gracias", "s": "Este es el momento"},
+     {"n": "3", "d": "SIGUIENTE PASO", "t": "Pide la recomendación"}
+    ]
+   },
+   "note": "No esperes <b>a que se le olvide.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pregunta por<br><em>alguien concreto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["“Si sabes de alguien…”"],
+    "good_t": "ASÍ SÍ",
+    "good": ["“¿Algún vecino o", "amigo que también", "lo necesite?”"]
+   },
+   "note": "Le pones <b>una cara en la cabeza.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Dale el mensaje<br><em>ya escrito.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Te dejo un texto", "para reenviar con", "nuestro contacto"], "time": "18:02"},
+     {"from": "in", "text": "¡Hecho, se lo paso!", "time": "18:05"}
+    ]
+   },
+   "note": "Cuanto más fácil, <b>más lo comparte.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Clientes que<br><em>traen clientes.</em>",
+   "dur": 6,
+   "items": [
+    "Pide tras un buen resultado",
+    "Pregunta por alguien concreto",
+    "Dale el mensaje ya escrito"
+   ]
+  }
+ ],
+ "caption": "¿Tus clientes están contentos pero nunca te recomiendan? 🤝\n\nNo es que no quieran: es que nadie se lo pide en el momento ni se lo pone fácil. Así conviertes clientes contentos en nuevos clientes:\n\n→ Pide la recomendación justo después de un buen resultado, cuando te da las gracias\n→ Pregunta por alguien concreto (un vecino, un amigo, un socio) en vez de \"si sabes de alguien…\"\n→ Dale un mensaje ya escrito con tu contacto para que solo tenga que reenviarlo\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #captaciondeclientes #recomendaciones #bocaaboca #ventas #negocios #empresarios"
+}
