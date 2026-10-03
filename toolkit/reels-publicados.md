@@ -123,3 +123,4 @@
 | 2026-10-02 | meme-pendiente | Oferta “solo 24 horas”: la primera venta a las 23:57 (panel de pagos) — creado en reels/memes/2026-10-02/m02-oferta-24h, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) | — | No |
 | 2026-10-02 | meme-pendiente | “Sin prisa, cuando puedas” que dura 90 minutos (correo) — creado en reels/memes/2026-10-02/m03-sin-prisa, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) | — | No |
 | 2026-10-02 | meme-pendiente | El lead que nunca coge llama 6 veces cuando dejas el móvil en el coche — creado en reels/memes/2026-10-02/m04-movil-coche, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) | — | No |
+| 2026-10-03 | 1 | Comentarios en tus anuncios de Meta: responde a cada comentario el mismo día, lleva las preguntas de precio al privado y oculta solo el spam (las críticas se responden con calma) — creado en reels/2026-10-03-1, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) | — | No |
