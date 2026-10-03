@@ -84,7 +84,7 @@
 | 2026-10-02 | reel 9 (tip) | Vídeo testimonio de un cliente: 3 claves (preguntas abiertas, que repita la pregunta al responder y que mire a quien pregunta, no a cámara) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-02 | reel 10 (meme) | POV: grabas tu reel en la calle… y el viento se come todo el audio | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | carrusel C1 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-03 | historias ×5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
+| 2026-10-03 | historias ×5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible; reintento 14:11 también bloqueado |
 | 2026-10-03 | carrusel C2 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | reel 1 (meme) | POV: subes tu reel… y la portada que elige Instagram eres tú con los ojos cerrados | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | carrusel C3 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
