@@ -1,0 +1,61 @@
+{
+ "topic": "Grabar varios anuncios en una sola mañana: escribe los ganchos antes, monta un solo sitio con luz, micro y trípode, y graba varios ganchos con el mismo cuerpo para tener versiones que probar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Grabar anuncios<br>te lleva <em>semanas?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Un vídeo cuando hay hueco"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Una mañana reservada", "Varios anuncios listos"]
+   },
+   "footer": "3 pasos para grabar varios de golpe"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Escribe los<br><em>ganchos antes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "GANCHOS",
+    "lines": ["¿Tu web no trae clientes?", "¿Pierdes llamadas a diario?", "¿Tus anuncios no venden?"]
+   },
+   "note": "Llegas con todo escrito. <b>Nada de improvisar.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un solo sitio,<br><em>todo montado.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Luz de frente (ventana)", "Micro de solapa", "Móvil vertical en trípode"]
+   },
+   "note": "Montas una vez <b>y grabas seguido.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Varios ganchos,<br><em>un mismo cuerpo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "TOMA 1", "t": "Gancho 1 + cuerpo"},
+     {"n": "B", "d": "TOMA 2", "t": "Gancho 2 + cuerpo"},
+     {"n": "C", "d": "TOMA 3", "t": "Gancho 3 + cuerpo"}
+    ]
+   },
+   "note": "Cambias solo el inicio: <b>versiones para probar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Reserva una<br><em>mañana y graba.</em>",
+   "dur": 6,
+   "items": ["Ganchos escritos antes", "Un sitio con luz y micro", "Varios ganchos, un cuerpo"]
+  }
+ ],
+ "caption": "¿Grabar tus anuncios te lleva semanas? 🎬\n\nSi grabas un vídeo cada vez que encuentras un hueco, nunca tendrás anuncios nuevos a tiempo. Mejor una mañana bien preparada:\n\n→ Escribe los ganchos antes: llegas con cada inicio pensado y no improvisas delante del móvil\n→ Un solo sitio, todo montado: luz de frente, micro de solapa y el móvil en vertical en un trípode\n→ Varios ganchos con el mismo cuerpo: cambias solo el inicio y tienes varias versiones para probar en Meta\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #anuncios #creatividades #marketingdigital #emprendedores #empresarios"
+}
