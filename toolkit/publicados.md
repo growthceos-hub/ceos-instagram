@@ -11,8 +11,8 @@
 | 2026-09-30 | Valor | Cómo preparar una llamada de venta de 15 minutos: abrir la ficha del CRM antes, 3 preguntas, 4 partes (saludo, preguntas, propuesta, siguiente paso), que hable él, nunca colgar sin fecha (IG carrusel animado https://www.instagram.com/p/Dd6FeRjCY_o/ + FB vídeo + LinkedIn con imagen) |
 | 2026-10-01 | Valor | Cómo responder a un lead en los primeros minutos: aviso al momento a quien llama, llamar en cuanto entra, si no coge WhatsApp corto (nombre + motivo + pregunta fácil), todo al CRM — creado en posts/2026-10-01, NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
 | 2026-10-02 | Valor | Qué poner en el formulario de Meta para que lleguen mejores leads: si se envía con un toque lo rellena cualquiera, 1–2 preguntas que filtren, formulario de mayor intención (revisar y confirmar datos), respuestas al CRM — creado en posts/2026-10-02 (con descripcion.txt), NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
+| 2026-10-03 | Valor | Qué debe tener un guion de anuncio que convierte: el anuncio se juega en los primeros segundos (gancho que frena el scroll), no empezar hablando de ti, 4 partes (gancho, problema, prueba, qué hacer), terminar con un solo paso claro → lead al CRM — creado en posts/2026-10-03 (con descripcion.txt), NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
 
 ## Ideas pendientes (valor)
-- Qué debe tener un guion de anuncio que convierte
 - Cómo filtrar leads para no perder tiempo con curiosos
 - Errores típicos al grabar anuncios con el móvil
