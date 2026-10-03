@@ -96,3 +96,4 @@
 | 2026-10-03 | reel 6 (tip) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (17:19) |
 | 2026-10-03 | reel 7 (meme) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (18:19) |
 | 2026-10-03 | reel 8 (tip) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (19:19) |
+| 2026-10-03 | carrusel C5 | (pendiente de Paso 0) | en curso |
