@@ -94,3 +94,4 @@
 | 2026-10-03 | reel 5 (meme) | POV: hablas a cámara mirándote en la pantalla… y en el vídeo parece que miras al suelo | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | carrusel C4 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | reel 6 (tip) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (17:19) |
+| 2026-10-03 | reel 7 (meme) | (tema por decidir tras Paso 0) | en curso |
