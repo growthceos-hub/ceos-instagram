@@ -86,4 +86,4 @@
 | 2026-10-03 | carrusel C1 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | historias ×5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
 | 2026-10-03 | carrusel C2 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
-| 2026-10-03 | reel 1 (meme) | POV: subes tu reel… y la portada que elige Instagram eres tú con los ojos cerrados | en curso |
+| 2026-10-03 | reel 1 (meme) | POV: subes tu reel… y la portada que elige Instagram eres tú con los ojos cerrados | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible |
