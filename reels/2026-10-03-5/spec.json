@@ -1,0 +1,72 @@
+{
+ "topic": "Saber de qué anuncio viene cada venta: ponle un nombre claro a cada anuncio, guarda el origen en la ficha del CRM (y pregúntalo en la primera llamada) y revisa cada semana ventas por anuncio, no solo leads",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Sabes de qué<br>anuncio viene<br><em>cada venta?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente nuevo",
+    "msgs": [
+     {"from": "out", "text": "¿Cómo nos conociste?", "time": "10:14"},
+     {"from": "in", "text": "Por un anuncio, creo…", "time": "10:15"}
+    ]
+   },
+   "footer": "3 pasos para saberlo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Un nombre claro<br><em>por anuncio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "NOMBRES DE TUS ANUNCIOS",
+    "lines": ["Gancho precio · v1", "Gancho problema · v2", "Testimonio · v1"]
+   },
+   "note": "Si todos se llaman igual, <b>no sabrás cuál vende.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Guarda el origen<br><em>en el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {"q": "Origen", "a": "Meta · Gancho precio v1"},
+     {"q": "¿Cómo nos conoció?", "a": "Anuncio de Instagram"}
+    ],
+    "badge": "✓ ORIGEN GUARDADO"
+   },
+   "note": "Y pregúntalo <b>en la primera llamada.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cuenta ventas,<br><em>no solo leads.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Ventas por anuncio",
+    "items": [
+     {"label": "Gancho precio · v1", "value": 78, "hi": true},
+     {"label": "Gancho problema · v2", "value": 42},
+     {"label": "Testimonio · v1", "value": 20}
+    ]
+   },
+   "note": "Revísalo cada semana y <b>apuesta por el que vende.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Sabes qué<br><em>anuncio vende.</em>",
+   "dur": 6,
+   "items": [
+    "Un nombre claro por anuncio",
+    "El origen en cada ficha",
+    "Ventas por anuncio cada semana"
+   ]
+  }
+ ],
+ "caption": "¿Sabes de qué anuncio viene cada una de tus ventas? 🎯\n\nSi no lo sabes, acabas apagando el anuncio que te trae clientes y dejando el que solo trae curiosos. Así lo tienes claro:\n\n→ Ponle un nombre claro a cada anuncio (gancho y versión) para distinguirlos\n→ Guarda el origen en la ficha del CRM y pregúntalo también en la primera llamada\n→ Revisa cada semana las ventas por anuncio, no solo los leads, y mete el presupuesto en el que vende\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #publicidadonline #crm #captaciondeclientes #ventas #empresarios"
+}
