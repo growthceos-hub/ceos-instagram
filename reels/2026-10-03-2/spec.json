@@ -1,0 +1,64 @@
+{
+ "topic": "Cómo decir el precio en la llamada de venta: antes resume lo que necesita el cliente, di un solo precio claro (sin rodeos ni tres opciones) y después calla y pregunta qué le parece",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Se te enfría<br>el cliente al<br><em>decir el precio?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Vale, ¿y cuánto sería?", "time": "12:04"},
+     {"from": "out", "lines": ["Pues mira, depende,", "es que incluye...", "bueno, te lo paso..."], "time": "12:05"}
+    ]
+   },
+   "footer": "3 pasos para decirlo con seguridad"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Antes, resume<br><em>lo que necesita.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Qué quiere resolver", "Para cuándo lo necesita", "Qué le pasa si no actúa"]
+   },
+   "note": "Que diga <b>«sí, eso es».</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un solo precio,<br><em>dicho claro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["«Depende, es que...»", "Tres precios a la vez"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Una cifra, una vez", "Ligada a lo que necesita"]
+   },
+   "note": "Sin rodeos <b>ni disculpas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Después,<br><em>calla y pregunta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "PRIMERO", "t": "Dices el precio", "s": "Una vez y claro"},
+     {"n": "2", "d": "DESPUÉS", "t": "Silencio", "s": "Deja que lo piense"},
+     {"n": "3", "d": "Y LUEGO", "t": "¿Qué te parece?", "s": "Y escucha su duda"}
+    ]
+   },
+   "note": "El silencio <b>no es tu enemigo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Di tu precio<br><em>sin temblar.</em>",
+   "dur": 6,
+   "items": ["Resume lo que necesita", "Un solo precio, claro", "Calla y pregunta"]
+  }
+ ],
+ "caption": "¿Notas que el cliente se enfría justo cuando dices el precio? 💸\n\nMuchas veces no es el precio, es cómo se dice: con rodeos, varias cifras a la vez y justificándote sin parar. Así lo dices con seguridad:\n\n→ Antes del precio, resume lo que necesita y para cuándo, hasta que te diga «sí, eso es»\n→ Di un solo precio, una vez y claro, ligado a lo que te ha contado\n→ Después, calla. Deja que lo piense y pregunta «¿qué te parece?» para escuchar su duda real\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #llamadadeventa #captaciondeclientes #negocios #empresarios #emprendedores"
+}
