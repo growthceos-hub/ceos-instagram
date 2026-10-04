@@ -1,0 +1,102 @@
+{
+ "topic": "Leads antiguos que no compraron: haz una lista en el CRM con los que no compraron y por qué (precio, momento o duda), escríbeles un mensaje corto y sin vender, y si contestan llámales ese mismo día",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Leads que<br>no compraron<br><em>y olvidaste?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO HABITUAL",
+    "bad": [
+     "No compró",
+     "Se queda en el CRM"
+    ],
+    "good_t": "LO QUE FUNCIONA",
+    "good": [
+     "Le escribes otra vez",
+     "Vuelve a hablar contigo"
+    ]
+   },
+   "footer": "3 pasos para recuperar leads antiguos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Haz la lista<br><em>de dormidos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Filtro del CRM",
+    "fields": [
+     {
+      "q": "Estado",
+      "a": "No compró"
+     },
+     {
+      "q": "Último contacto",
+      "a": "Hace más de 3 meses"
+     },
+     {
+      "q": "Por qué no compró",
+      "a": "Precio · Momento · Duda"
+     }
+    ],
+    "badge": "✓ LISTA CREADA"
+   },
+   "note": "Apunta por qué no compró: <b>precio, momento o duda.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Escribe corto<br><em>y sin vender.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead antiguo",
+    "msgs": [
+     {
+      "from": "out",
+      "text": "¿Sigues con la reforma?",
+      "time": "11:02"
+     },
+     {
+      "from": "in",
+      "text": "¡Sí! Lo tenía parado",
+      "time": "11:20"
+     },
+     {
+      "from": "out",
+      "text": "¿Te llamo hoy y lo vemos?",
+      "time": "11:21"
+     }
+    ]
+   },
+   "note": "Una pregunta sencilla <b>reabre la conversación.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Si contesta,<br><em>llama hoy.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timer",
+    "head": "Lead antiguo contesta",
+    "sub": "TIEMPO HASTA LLAMAR",
+    "secs": 240,
+    "side": "Le llamas<br>mientras aún<br>tiene ganas",
+    "badge": "✓ LLAMADA HECHA"
+   },
+   "note": "Y en el CRM, <b>pásalo a una etapa activa.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tus leads viejos<br><em>aún venden.</em>",
+   "dur": 6,
+   "items": [
+    "Lista de los que no compraron",
+    "Mensaje corto, sin vender",
+    "Si contesta, llamada hoy"
+   ]
+  }
+ ],
+ "caption": "¿Tienes leads que no compraron y nunca volviste a escribirles? 💤\n\nUn lead que dijo que no hace meses no siempre es un no para siempre: a veces no era su momento. Así los recuperas:\n\n→ Haz una lista en tu CRM con los que no compraron y apunta por qué: precio, momento o una duda que no resolviste\n→ Escríbeles un mensaje corto y sin vender, con una pregunta sencilla: \"¿Sigues con lo de…?\"\n→ Si contestan, llámales ese mismo día y pásalos en el CRM a una etapa activa con próxima acción y fecha\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #captaciondeclientes #leads #crm #ventas #marketingdigital #empresarios"
+}
