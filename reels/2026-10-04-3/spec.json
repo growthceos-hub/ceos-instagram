@@ -1,0 +1,102 @@
+{
+ "topic": "Ideas para publicar que no se acaban: apunta las preguntas que te hacen tus clientes, responde una por vídeo corto (la pregunta tal cual al principio) y la que más mensajes traiga conviértela en anuncio",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿No sabes<br>qué publicar<br><em>esta semana?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Cuánto se tarda?",
+      "time": "10:12"
+     },
+     {
+      "from": "in",
+      "text": "¿Y si no me convence?",
+      "time": "10:13"
+     },
+     {
+      "from": "out",
+      "text": "¡Buena pregunta!",
+      "time": "10:15"
+     }
+    ]
+   },
+   "footer": "3 pasos para no quedarte sin ideas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Apunta lo que<br><em>te preguntan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "¿Cuánto cuesta?",
+     "¿Cuánto se tarda?",
+     "¿Y si no me sirve?"
+    ]
+   },
+   "note": "Cada duda de un cliente <b>es una publicación.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Una pregunta,<br><em>un vídeo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "VÍDEO CORTO",
+    "lines": [
+     "La pregunta, tal cual",
+     "Respuesta clara y corta",
+     "Qué hacer si le pasa"
+    ]
+   },
+   "note": "Responde rápido, <b>sin rodeos.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "La que funcione,<br><em>a anuncio.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "SEMANA 1",
+      "t": "Publica varias",
+      "s": "Una pregunta por vídeo"
+     },
+     {
+      "n": "2",
+      "d": "SEMANA 2",
+      "t": "Elige la mejor",
+      "s": "La que más mensajes trae"
+     },
+     {
+      "n": "3",
+      "d": "SEMANA 3",
+      "t": "Hazla anuncio",
+      "s": "Con una sola acción clara"
+     }
+    ]
+   },
+   "note": "Lo orgánico te dice <b>qué anunciar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ideas que<br><em>no se acaban.</em>",
+   "dur": 6,
+   "items": [
+    "Apunta sus preguntas",
+    "Una pregunta, un vídeo",
+    "La mejor, a anuncio"
+   ]
+  }
+ ],
+ "caption": "¿Nunca sabes qué publicar en tus redes? 💡\n\nTus clientes te dan las ideas cada día: solo hay que apuntarlas. Así no te quedas en blanco:\n\n→ Apunta las preguntas que te hacen por WhatsApp, en llamadas y en comentarios: cuánto cuesta, cuánto se tarda, qué pasa si no le sirve\n→ Responde una pregunta por vídeo corto: empieza con la pregunta tal cual, da una respuesta clara y di qué hacer\n→ Mira cuál te trae más mensajes y conviértela en anuncio, con una sola acción clara\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #contenidoparaempresas #ideasdecontenido #marketingdigital #metaads #redessociales #empresarios"
+}
