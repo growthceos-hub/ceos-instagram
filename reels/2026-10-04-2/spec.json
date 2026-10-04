@@ -1,0 +1,62 @@
+{
+ "topic": "Anuncio de imagen en Meta que frena el scroll: foto real de tu trabajo (no de banco), pocas palabras en la imagen con el problema del cliente y versión vertical para historias y reels",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br>de imagen<br><em>no lo mira nadie?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Somos líderes del sector con calidad y confianza.",
+    "media": "CALIDAD, SERVICIO Y CONFIANZA",
+    "headline": "Tu marca",
+    "cta": "Más información",
+    "tags": ["FOTO DE BANCO", "MUCHO TEXTO", "SOLO CUADRADA"]
+   },
+   "footer": "3 pasos para que frene el scroll"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Foto real<br><em>de tu trabajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Foto de banco", "Gente posando"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Tu equipo trabajando", "Un antes y después real"]
+   },
+   "note": "Que se vea <b>que eres tú de verdad.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pocas palabras<br><em>en la imagen.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TEXTO EN LA IMAGEN",
+    "lines": ["Su problema, no tu logo", "Una frase que se lea", "El resto, en el texto"]
+   },
+   "note": "Si hay que pararse a leer, <b>pasan de largo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Hazla también<br><em>en vertical.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": ["Cuadrada para el feed", "Vertical 9:16 para historias", "Texto lejos de los bordes"]
+   },
+   "note": "Una sola foto, <b>cada sitio con su formato.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Imagen que<br><em>frena el scroll.</em>",
+   "dur": 6,
+   "items": ["Foto real de tu trabajo", "Pocas palabras en la imagen", "Versión vertical también"]
+  }
+ ],
+ "caption": "¿Tu anuncio de imagen en Meta pasa sin que nadie se pare? 🖼️\n\nEn el móvil se decide en un vistazo si se mira o no. Así haces una imagen que frena el scroll:\n\n→ Usa una foto real de tu trabajo o de tu equipo, no una de banco con gente posando\n→ Pon pocas palabras en la imagen: el problema de tu cliente en una frase, el resto va en el texto del anuncio\n→ Prepárala también en vertical 9:16 para historias y reels, con el texto lejos de los bordes\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #anunciosenfacebook #publicidadonline #creatividades #marketingdigital #empresarios"
+}
