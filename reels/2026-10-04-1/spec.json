@@ -1,0 +1,104 @@
+{
+ "topic": "Subir el presupuesto de un anuncio de Meta que funciona sin estropearlo: confirma que trae ventas (no solo leads), súbelo poco a poco sin tocar el anuncio y vigila coste por lead, leads que contestan y citas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Subes el<br>presupuesto y<br><em>se estropea?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Socio",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Ayer dupliqué el",
+       "presupuesto del anuncio."
+      ],
+      "time": "09:40"
+     },
+     {
+      "from": "in",
+      "text": "¿Y por qué hoy cada lead sale más caro?",
+      "time": "09:42"
+     }
+    ]
+   },
+   "footer": "3 pasos para escalar bien"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Confirma que<br><em>trae ventas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "AÚN NO ESCALES",
+    "bad": [
+     "Muchos formularios",
+     "Nadie llega a comprar"
+    ],
+    "good_t": "LISTO PARA ESCALAR",
+    "good": [
+     "Leads que contestan",
+     "Ventas en el CRM"
+    ]
+   },
+   "note": "Escala lo que vende, <b>no lo que da likes.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Súbelo<br><em>poco a poco.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "SEMANA 1",
+      "t": "Presupuesto actual",
+      "s": "Comprueba que se mantiene"
+     },
+     {
+      "n": "2",
+      "d": "SEMANA 2",
+      "t": "Una subida pequeña",
+      "s": "Sin tocar el anuncio"
+     },
+     {
+      "n": "3",
+      "d": "SEMANA 3",
+      "t": "Otra subida",
+      "s": "Solo si el coste aguanta"
+     }
+    ]
+   },
+   "note": "Nada de <b>duplicarlo de golpe.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Vigila coste<br><em>y calidad.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Coste por lead",
+     "Leads que contestan",
+     "Citas y ventas"
+    ]
+   },
+   "note": "Si empeora, <b>vuelve al paso anterior.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Escala sin<br><em>romperlo.</em>",
+   "dur": 6,
+   "items": [
+    "Primero, que traiga ventas",
+    "Súbelo poco a poco",
+    "Vigila coste y calidad"
+   ]
+  }
+ ],
+ "caption": "¿Subes el presupuesto de tu anuncio y de repente deja de funcionar? 📈\n\nUn anuncio que va bien no se escala a lo loco. Así lo haces sin estropearlo:\n\n→ Antes de subir, confirma que trae ventas en el CRM, no solo formularios\n→ Sube el presupuesto poco a poco y sin tocar el anuncio, nada de duplicarlo de golpe\n→ Vigila cada semana coste por lead, leads que contestan y citas; si empeora, vuelve al presupuesto anterior\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #facebookads #publicidadonline #captaciondeclientes #marketingdigital #empresarios"
+}
