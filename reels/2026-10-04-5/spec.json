@@ -1,0 +1,75 @@
+{
+ "topic": "Historias de Instagram que traen mensajes: haz que respondan con una encuesta o caja de preguntas, enseña tu trabajo por dentro (antes, durante y resultado) y cierra con una acción clara, como escribir una palabra por privado",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Subes historias<br>y nadie<br><em>te escribe?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Tus historias de hoy",
+    "fields": [
+     {"q": "Historia 1", "a": "Foto del local"},
+     {"q": "Historia 2", "a": "Un post compartido"},
+     {"q": "Mensajes recibidos", "a": "Ninguno"}
+    ]
+   },
+   "footer": "3 pasos para que tus historias traigan mensajes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Haz que<br><em>respondan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Encuesta de 2 opciones",
+     "Caja de preguntas",
+     "Responde en otra historia"
+    ]
+   },
+   "note": "Si te responden, <b>ya estáis hablando.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Enseña tu<br><em>trabajo por dentro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ANTES", "t": "Cómo estaba", "s": "El problema del cliente"},
+     {"n": "2", "d": "DURANTE", "t": "Cómo lo hacéis", "s": "Tu equipo trabajando"},
+     {"n": "3", "d": "DESPUÉS", "t": "El resultado", "s": "Real, sin filtros"}
+    ]
+   },
+   "note": "La gente compra <b>lo que ve hacer.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra con<br><em>una acción.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "chat",
+    "name": "Respuesta a tu historia",
+    "msgs": [
+     {"from": "in", "text": "PRESUPUESTO", "time": "19:04"},
+     {"from": "out", "text": "¡Hola! ¿Qué necesitas?", "time": "19:06"},
+     {"from": "in", "text": "Reformar la cocina", "time": "19:07"}
+    ]
+   },
+   "note": "Última historia: <b>«Escríbeme PRESUPUESTO».</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Historias que<br><em>abren chats.</em>",
+   "dur": 6,
+   "items": [
+    "Encuesta o caja de preguntas",
+    "Antes, durante y después",
+    "Una acción clara al final"
+   ]
+  }
+ ],
+ "caption": "¿Subes historias cada día y nadie te escribe? 📲\n\nLas historias las ve sobre todo gente que ya te sigue y te conoce: es el sitio perfecto para empezar conversaciones. Así las conviertes en mensajes:\n\n→ Haz que respondan: una encuesta de dos opciones o una caja de preguntas, y contesta las mejores en otra historia\n→ Enseña tu trabajo por dentro: cómo estaba, cómo lo hacéis y el resultado real\n→ Cierra con una acción clara en la última historia: \"Escríbeme PRESUPUESTO y te cuento\", y contesta cada mensaje el mismo día\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagramparanegocios #historiasdeinstagram #captaciondeclientes #marketingdigital #ventas #empresarios"
+}
