@@ -1,0 +1,104 @@
+{
+ "topic": "Cuando un cliente te dice «ya trabajo con otra empresa»: pregunta qué le funciona y qué echa en falta, ofrécete justo para eso (sin criticar al otro) y propón una primera prueba pequeña con fecha",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te dicen<br>«ya tengo<br><em>a alguien»?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "¿Te viene bien que",
+       "te cuente la propuesta?"
+      ],
+      "time": "10:15"
+     },
+     {
+      "from": "in",
+      "text": "Gracias, pero ya trabajo con otra empresa.",
+      "time": "10:17"
+     }
+    ]
+   },
+   "footer": "3 pasos para no perderlo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pregunta qué<br><em>echa en falta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PREGUNTA, NO DISCUTAS",
+    "lines": [
+     "¿Qué es lo que más te gusta de cómo trabajáis?",
+     "¿Y qué cambiarías si pudieras?"
+    ]
+   },
+   "note": "Escucha. <b>Ahí está tu hueco.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Ofrece justo<br><em>lo que falta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Criticar al otro",
+     "Contar todo lo que haces"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Hablar de lo que le falta",
+     "Un ejemplo parecido"
+    ]
+   },
+   "note": "Nunca hables mal <b>de su proveedor.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Propón una<br><em>prueba pequeña.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "HOY",
+      "t": "Una prueba concreta",
+      "s": "Algo pequeño y medible"
+     },
+     {
+      "n": "2",
+      "d": "EN 2 SEMANAS",
+      "t": "Revisáis juntos",
+      "s": "Con datos, no opiniones"
+     },
+     {
+      "n": "3",
+      "d": "DESPUÉS",
+      "t": "Él decide",
+      "s": "Sin presión"
+     }
+    ]
+   },
+   "note": "Que decir sí <b>le cueste poco.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "No te rindas<br><em>a la primera.</em>",
+   "dur": 6,
+   "items": [
+    "Pregunta qué echa en falta",
+    "Ofrece justo eso",
+    "Propón una prueba pequeña"
+   ]
+  }
+ ],
+ "caption": "¿Te han dicho alguna vez «ya trabajo con otra empresa» y ahí se acabó la conversación? 🤝\n\nEsa frase no siempre es un no: muchas veces es un «convénceme de que merece la pena cambiar». Así lo trabajas:\n\n→ Pregunta qué le gusta de cómo trabaja ahora y qué cambiaría si pudiera\n→ Ofrece justo lo que echa en falta, con un ejemplo parecido y sin criticar a su proveedor\n→ Propón una primera prueba pequeña con fecha para revisarla juntos, que decir sí le cueste poco\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #tecnicasdeventa #captaciondeclientes #empresarios #pymes #negocioslocales"
+}
