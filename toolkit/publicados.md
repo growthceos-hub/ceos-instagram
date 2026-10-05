@@ -13,7 +13,7 @@
 | 2026-10-02 | Valor | Qué poner en el formulario de Meta para que lleguen mejores leads: si se envía con un toque lo rellena cualquiera, 1–2 preguntas que filtren, formulario de mayor intención (revisar y confirmar datos), respuestas al CRM — creado en posts/2026-10-02 (con descripcion.txt), NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
 | 2026-10-03 | Valor | Qué debe tener un guion de anuncio que convierte: el anuncio se juega en los primeros segundos (gancho que frena el scroll), no empezar hablando de ti, 4 partes (gancho, problema, prueba, qué hacer), terminar con un solo paso claro → lead al CRM — creado en posts/2026-10-03 (con descripcion.txt), NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
 | 2026-10-04 | Método | Ganamos cuando tú vendes: comisión sobre ventas vs cuota fija, con comisión cada lead importa (anuncio→lead→CRM→llamada→venta), 12 meses de Meta Ads sin permanencia, +17 clientes activos y muchos +2 años; palabra VENTAS — creado en posts/2026-10-04 (con descripcion.txt), NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
+| 2026-10-05 | Valor | Errores típicos al grabar anuncios con el móvil: grabar en horizontal (graba 9:16), la luz a tu espalda (de cara a la ventana), que no se te oiga (micro cerca, sin eco), checklist con móvil fijo y mirar a la lente — creado en posts/2026-10-05 (con descripcion.txt), NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado) |
 
 ## Ideas pendientes (valor)
 - Cómo filtrar leads para no perder tiempo con curiosos
-- Errores típicos al grabar anuncios con el móvil
