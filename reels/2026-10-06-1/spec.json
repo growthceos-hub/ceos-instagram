@@ -1,0 +1,66 @@
+{
+ "topic": "Garantía que quita el miedo a comprar: pregunta qué le frena al cliente, promete algo concreto y medible (no «satisfacción garantizada») y dilo pronto en el anuncio, la web y la llamada, y cúmplelo siempre",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te dicen<br>«¿y si no<br><em>me funciona?»</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Te paso el presupuesto", "con todo lo que incluye."], "time": "12:40"},
+     {"from": "in", "text": "Me interesa, pero ¿y si luego no me sirve?", "time": "12:46"}
+    ]
+   },
+   "footer": "3 pasos para quitarle el miedo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Descubre<br><em>qué le frena.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PREGUNTA ANTES DE PROMETER",
+    "lines": ["¿Qué es lo que más te preocupa de dar el paso?", "¿Qué tendría que pasar para que digas que sí?"]
+   },
+   "note": "Su miedo <b>es tu garantía.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Promete algo<br><em>concreto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["«Satisfacción garantizada»", "«Calidad total»"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Qué haces si no cumples", "Plazo y condición claros"]
+   },
+   "note": "Si no se puede comprobar, <b>no tranquiliza.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Dila antes<br><em>de que pregunte.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "¿Te da miedo que no salga como esperas? Te lo dejamos por escrito.",
+    "media": "GARANTÍA CLARA",
+    "headline": "Sin letra pequeña",
+    "cta": "Más información",
+    "tags": ["EN EL ANUNCIO", "EN LA WEB", "EN LA LLAMADA"]
+   },
+   "note": "Y cúmplela <b>siempre.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que comprarte<br><em>no dé miedo.</em>",
+   "dur": 6,
+   "items": ["Pregunta qué le frena", "Promete algo concreto", "Dilo pronto y cúmplelo"]
+  }
+ ],
+ "caption": "¿Tus clientes se interesan pero no se deciden por miedo a que no les salga bien? 🛡️\n\nMuchas veces no es el precio: es el riesgo de equivocarse. Una buena garantía les quita ese peso de encima:\n\n→ Pregunta qué le frena exactamente antes de prometer nada\n→ Promete algo concreto y comprobable: qué haces si no cumples, en qué plazo y con qué condición (nada de «satisfacción garantizada»)\n→ Dilo pronto, en el anuncio, en la web y en la llamada, y cúmplelo siempre\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #captaciondeclientes #marketingdigital #empresarios #pymes #negocioslocales"
+}
