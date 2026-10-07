@@ -1,0 +1,67 @@
+{
+ "topic": "Quien coge el teléfono en tu negocio: saluda con el nombre del negocio y «¿en qué te ayudo?», apunta nombre, teléfono y qué necesita antes de nada, y cuelga con una cita de día y hora (no «ya te llamaremos»)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Así cogen<br>el teléfono<br><em>en tu negocio?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE OYE TU CLIENTE",
+    "lines": ["«¿Sí? ¿Dígame?»", "«Ahora no está, llame luego.»"]
+   },
+   "footer": "3 pasos para no perder esa llamada"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Saluda con<br><em>tu negocio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["«¿Sí? ¿Dígame?»"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Nombre del negocio", "Tu nombre", "«¿En qué te ayudo?»"]
+   },
+   "note": "Que sepa <b>que ha llamado bien.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Apunta sus<br><em>datos primero.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha de la llamada",
+    "fields": [
+     {"q": "Nombre", "a": "Marta"},
+     {"q": "Teléfono", "a": "600 000 000"},
+     {"q": "¿Qué necesita?", "a": "Presupuesto de reforma"}
+    ],
+    "badge": "✓ GUARDADO EN EL CRM"
+   },
+   "note": "Si se corta, <b>puedes devolverle la llamada.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cuelga con<br><em>día y hora.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "chat",
+    "name": "Marta",
+    "msgs": [
+     {"from": "out", "lines": ["Te confirmo la visita:", "jueves a las 10:30."], "time": "11:05"},
+     {"from": "in", "text": "Perfecto, allí estaré.", "time": "11:07"}
+    ]
+   },
+   "note": "Nada de <b>«ya te llamaremos».</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cada llamada<br><em>es un cliente.</em>",
+   "dur": 6,
+   "items": ["Saluda con tu negocio", "Apunta sus datos primero", "Cuelga con día y hora"]
+  }
+ ],
+ "caption": "¿Sabes cómo cogen el teléfono en tu negocio cuando tú no estás? 📞\n\nPagas anuncios para que te llamen, y la llamada se pierde con un «¿sí, dígame?». Dale a quien coja el teléfono este guion de 3 pasos:\n\n→ Saluda con el nombre del negocio, tu nombre y «¿en qué te ayudo?»\n→ Apunta nombre, teléfono y qué necesita antes de nada (si se corta, puedes devolverle la llamada)\n→ Cuelga con una cita de día y hora, no con «ya te llamaremos»\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #atencionalcliente #captaciondeclientes #empresarios #pymes #negocioslocales"
+}
