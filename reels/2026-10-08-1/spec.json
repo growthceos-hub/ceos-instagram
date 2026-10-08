@@ -1,0 +1,61 @@
+{
+ "topic": "Cómo responder a una reseña negativa en Google: contesta con calma (quien lee la respuesta es tu próximo cliente), reconoce el fallo concreto y di qué vas a cambiar sin excusas, y lleva la conversación al privado o al teléfono para arreglarlo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te han dejado<br>una reseña<br><em>de 1 estrella?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "RESEÑA EN GOOGLE",
+    "lines": ["«Nadie me llamó.»", "«No lo recomiendo.»"]
+   },
+   "footer": "3 pasos para responderla bien"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Responde<br><em>con calma.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["«Eso es mentira.»"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Gracias por contarlo", "Lo sentimos", "Sin discutir"]
+   },
+   "note": "Quien la lee <b>es tu próximo cliente.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Di qué<br><em>vas a cambiar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Nombra el fallo concreto", "Explica qué cambias", "Sin excusas ni culpas"]
+   },
+   "note": "Que se vea <b>que escuchas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Sigue<br><em>en privado.</em>",
+   "dur": 6,
+   "mock": {
+    "type": "chat",
+    "name": "Javier",
+    "msgs": [
+     {"from": "out", "lines": ["Hola Javier, vimos", "tu reseña. ¿Te llamamos", "hoy para arreglarlo?"], "time": "10:12"},
+     {"from": "in", "text": "Vale, a las 17:00.", "time": "10:20"}
+    ]
+   },
+   "note": "Arréglalo <b>por teléfono, no en público.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Una mala reseña<br><em>bien respondida.</em>",
+   "dur": 6,
+   "items": ["Responde con calma", "Di qué vas a cambiar", "Sigue en privado"]
+  }
+ ],
+ "caption": "¿Te han dejado una reseña de 1 estrella en Google y no sabes qué contestar? ⭐\n\nEsa respuesta no la lee solo quien se quejó: la leen todos los que te buscan antes de llamarte. Haz esto:\n\n→ Responde con calma: da las gracias por contarlo y no discutas en público\n→ Nombra el fallo concreto y di qué vas a cambiar, sin excusas ni culpas\n→ Ofrece seguir en privado o por teléfono para arreglarlo de verdad\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #reseñasgoogle #atencionalcliente #negocioslocales #empresarios #pymes #marketinglocal"
+}
