@@ -1,5 +1,7 @@
 # 20 reels meme diarios de Ceos Growth — instrucciones
 
+> **CANCELADO (08-10-2026, decisión de Hugo): no se hacen ni se publican reels meme en NINGUNA cuenta (@ceos.growth ni @ceos.productions).** Si una tarea pide memes, no los hagas y termina.
+
 Cada día se crean **20 reels meme nuevos** (formato POV, como `reels/meme-*`) y se van **publicando uno a uno en cuanto cada meme está listo** (desde las ~19:00) (Madrid) en Instagram @ceos.growth. **Solo en la pestaña Reels**: siempre `share_to_feed=false`.
 
 ## Formato (no cambiar)
