@@ -125,5 +125,5 @@
 | 2026-10-07 | historias ×5 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (10:15) |
 | 2026-10-07 | reel 1 (tip) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (12:20) |
 | 2026-10-08 | carrusel C1 | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (08:49) |
-| 2026-10-08 | reel 1 | (tema por decidir) | en curso |
+| 2026-10-08 | reel 1 (tip) | Fotos de producto: 3 claves para que parezcan de catálogo (fondo, luz y ángulos) | en curso |
 | 2026-10-08 | historias | (por definir) | en curso |
