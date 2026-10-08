@@ -1,0 +1,26 @@
+{
+ "topic": "Fotos de producto: 3 claves para que parezcan de catálogo (fondo, luz y ángulos)",
+ "scenes": [
+  {"kind": "hook", "title": "¿Tu producto<br>sale <em>casero?</em>", "size": 138, "dur": 5.6,
+   "mock": {"type": "chat", "name": "Tienda online", "msgs": [
+     {"from": "out", "lines": ["Te paso las fotos", "para la web"], "time": "11:02"},
+     {"from": "in", "text": "Se ve la encimera y la taza de detrás", "time": "11:03"}]},
+   "footer": "3 claves para fotos de catálogo"},
+  {"label": "CLAVE 1", "title": "Fondo liso<br><em>y limpio.</em>", "dur": 6.5,
+   "mock": {"type": "compare", "bad_t": "ASÍ NO", "bad": ["Mesa de la cocina", "Objetos detrás"],
+            "good_t": "ASÍ SÍ", "good": ["Cartulina blanca", "Curva sin esquina"]},
+   "note": "El producto tiene que ser <b>lo único que se mira.</b>"},
+  {"label": "CLAVE 2", "title": "Luz lateral<br><em>y suave.</em>", "dur": 6.5,
+   "mock": {"type": "timeline", "rows": [
+     {"n": "1", "d": "LUZ PRINCIPAL", "t": "Ventana a un lado", "s": "O un softbox a 45°"},
+     {"n": "2", "d": "RELLENO", "t": "Cartón blanco", "s": "En el lado contrario"},
+     {"n": "3", "d": "RESULTADO", "t": "Sombra suave", "s": "Volumen sin recortes duros"}]},
+   "note": "Nunca el <b>flash del móvil de frente.</b>"},
+  {"label": "CLAVE 3", "title": "Más de<br><em>un ángulo.</em>", "dur": 6.5,
+   "mock": {"type": "checklist", "items": ["Frontal y centrado", "Tres cuartos a 45°", "Detalle de textura", "En uso o a escala"]},
+   "note": "Que lo vean <b>como si lo tuvieran en la mano.</b>"},
+  {"kind": "cta", "title": "Fotos de<br><em>catálogo.</em>", "dur": 6,
+   "items": ["Fondo liso y limpio", "Luz lateral + relleno", "Frontal, 45°, detalle y uso"]}
+ ],
+ "caption": "¿Tus fotos de producto parecen hechas en la cocina? 📸\n\nNo hace falta otra cámara: lo que separa una foto casera de una de catálogo es el fondo, la luz y los ángulos.\n\n→ Fondo liso y limpio: cartulina blanca en curva, sin objetos detrás\n→ Luz lateral y suave (ventana o softbox) y un cartón blanco al otro lado de relleno; nunca el flash de frente\n→ Varios ángulos: frontal, tres cuartos a 45°, detalle de textura y el producto en uso\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #fotografiadeproducto #fotografia #tiendaonline #ecommerce #tipsdefotografia #creaciondecontenido"
+}
