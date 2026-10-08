@@ -7,3 +7,4 @@
 | 2026-09-27 | Serie 5×15 s: tus anuncios traen curiosos, no clientes (lo que cuesta + 3 tips: preguntas filtro, formulario de mayor intención, llamar primero a los calientes) |
 | 2026-09-28 | Serie 5×15 s: si nadie te recomienda, no vendes (depender del boca a boca + 3 tips: reseña el mismo día, escribir a antiguos clientes, anuncio local con oferta clara) |
 | 2026-09-29 | Serie 5×15 s: pagas los clics y tu web los deja escapar (lo que cuesta + 3 tips: titular que diga qué ganas, un solo botón arriba, formulario de 3 datos) — publicada 17:15 tras fallo de la tarea |
+| 2026-10-08 | Serie 5×15 s: ¿de dónde viene cada cliente? Si no lo sabes, inviertes a ciegas (lo que cuesta + 3 tips: preguntar "¿cómo nos conociste?", apuntar el origen en cada lead, revisar cada mes el coste por cliente por canal) — publicada 19:16–19:19, 5/5 verificadas |
