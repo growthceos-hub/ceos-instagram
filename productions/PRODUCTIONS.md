@@ -1,5 +1,7 @@
 # Publicación diaria de Ceos Productions (@ceos.productions) — instrucciones
 
+> **Carruseles SIEMPRE animados (08-10-2026):** se publican solo como VIDEO (los 5 MP4). Nunca subir los JPG ni usar Windsor create_carousel_post (solo fotos). Si el vídeo falla, no se publica y se guarda la incidencia (ver `toolkit/AUTOMATIZACION.md`).
+
 > **CANCELADO (08-10-2026, decisión de Hugo): no se hacen ni se publican reels meme en NINGUNA cuenta (@ceos.growth ni @ceos.productions).** Si una tarea pide memes, no los hagas y termina.
 
 Ceos Productions es el **estudio de grabación y fotografía en Burgos** (empresa distinta de Ceos Growth). Público: **cualquiera que necesite grabarse o fotografiarse** — empresas, marcas personales, creadores, profesionales, emprendedores.

@@ -1,5 +1,7 @@
 # Publicación diaria de Ceos Growth — instrucciones
 
+> **Carruseles SIEMPRE animados (08-10-2026):** se publican solo como VIDEO (los 5 MP4). Nunca subir los JPG ni usar Windsor create_carousel_post (solo fotos). Si el vídeo falla, no se publica y se guarda la incidencia (ver `toolkit/AUTOMATIZACION.md`).
+
 Cada día a las 12:00 (Madrid) se crea y publica un carrusel animado de 5 slides.
 
 ## Plan semanal
