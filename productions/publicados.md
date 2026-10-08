@@ -126,4 +126,4 @@
 | 2026-10-07 | reel 1 (tip) | (sin tema: Paso 0 bloqueado antes de construir) | NO PUBLICADO: Zapier sin tareas (límite del plan alcanzado), Paso 0 imposible (12:20) |
 | 2026-10-08 | carrusel C1 | Luz dura vs luz suave: 3 trucos (difusor, rebotar la luz y acercar la fuente) para que tu cara no tenga sombras duras a cámara | en curso |
 | 2026-10-08 | reel 1 (tip) | Fotos de producto: 3 claves para que parezcan de catálogo (fondo, luz y ángulos) | en curso |
-| 2026-10-08 | historias | Checklist antes de grabar tu podcast o entrevista: 3 cosas que se olvidan (móviles en modo avión, agua a mano y temas en tarjetas) | NO PUBLICADO: Windsor create_story sin acceso a la cuenta 17841447505872534 (solo está conectada ceos.growth); 0/5, vídeos listos en productions/historias/2026-10-08 (19:05) |
+| 2026-10-08 | historias | Checklist antes de grabar tu podcast o entrevista: 3 cosas que se olvidan (móviles en modo avión, agua a mano y temas en tarjetas) | NO PUBLICADO: Windsor create_story sin acceso a la cuenta 17841447505872534 (solo está conectada ceos.growth); 0/5, vídeos listos en productions/historias/2026-10-08 (19:05); reintento 19:10 igual |
