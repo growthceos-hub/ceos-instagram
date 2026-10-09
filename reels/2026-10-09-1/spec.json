@@ -1,0 +1,70 @@
+{
+ "topic": "Pedir una señal al cerrar la venta para que el cliente no se eche atrás: pídela en la misma llamada en la que dice que sí, manda el enlace de pago al momento (que pague en un toque) y confirma por escrito qué pasa ahora y la fecha de inicio",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te dicen «sí»<br>y luego<br><em>desaparecen?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Marta",
+    "msgs": [
+     {"from": "in", "text": "¡Me encaja, adelante!", "time": "12:03"},
+     {"from": "out", "lines": ["Genial. ¿Empezamos", "el lunes?"], "time": "12:05"}
+    ]
+   },
+   "footer": "3 pasos para cerrar con señal"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pide la señal<br><em>en la llamada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["«Ya me dices algo»"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Señal el mismo día", "Fecha de inicio", "Plaza reservada"]
+   },
+   "note": "Un sí sin señal <b>es solo un quizá.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Manda el enlace<br><em>al momento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Pago de la señal",
+    "fields": [
+     {"q": "Concepto", "a": "Reserva de inicio"},
+     {"q": "Importe", "a": "La señal acordada"},
+     {"q": "Cómo pagar", "a": "Tarjeta o Bizum"}
+    ],
+    "badge": "✓ PLAZA RESERVADA"
+   },
+   "note": "Que pague <b>en un toque, sin esperas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Confírmalo<br><em>por escrito.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "Recibo de la señal", "s": "Lo que incluye, por escrito"},
+     {"n": "2", "d": "MAÑANA", "t": "Qué necesitas de él", "s": "Datos, accesos, materiales"},
+     {"n": "3", "d": "DÍA DE INICIO", "t": "Arrancáis", "s": "Fecha y hora cerradas"}
+    ]
+   },
+   "note": "Que sepa <b>qué pasa ahora.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un sí con señal<br><em>es un cliente.</em>",
+   "dur": 6,
+   "items": ["Pide la señal en la llamada", "Enlace de pago al momento", "Confirma fecha por escrito"]
+  }
+ ],
+ "caption": "¿Te dicen «sí, adelante» y luego desaparecen antes de empezar? 🤝\n\nEntre el «sí» y el primer pago el cliente se enfría, le entran dudas o le llama otro. Ciérralo en el momento:\n\n→ Pide la señal en la misma llamada en la que dice que sí, con fecha de inicio\n→ Mándale el enlace de pago al momento, para que pague en un toque\n→ Confirma por escrito qué pasa ahora, qué necesitas de él y cuándo empezáis\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #cerrarventas #empresarios #pymes #negocioslocales #emprendedores"
+}

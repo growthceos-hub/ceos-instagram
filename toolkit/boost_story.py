@@ -10,6 +10,7 @@ CSS = """
 @keyframes fxSpin{to{transform:rotate(360deg)}}
 @keyframes fxSweep{0%{transform:translateX(-140%) rotate(18deg)}45%,100%{transform:translateX(160%) rotate(18deg)}}
 @keyframes fxP{0%{transform:translateY(0) scale(.6);opacity:0}12%{opacity:1}85%{opacity:.9}100%{transform:translateY(-2100px) scale(1.2);opacity:0}}
+@keyframes fxHook{from{transform:scale(1.07)}to{transform:none}}
 @keyframes fxWord{from{opacity:0;transform:translateY(.55em) rotate(4deg) scale(.9);filter:blur(14px)}to{opacity:1;transform:none;filter:blur(0)}}
 @keyframes fxTilt{from{opacity:0;transform:perspective(1600px) rotateX(28deg) translateY(120px) scale(.88);filter:blur(10px)}to{opacity:1;transform:perspective(1600px) rotateX(0) translateY(0) scale(1);filter:blur(0)}}
 @keyframes fxFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
@@ -80,8 +81,13 @@ def boost(path, seed):
     s = s[:m.end()] + fx_layer(seed) + '\n' + s[m.end():]
     # titular palabra a palabra
     hm = re.search(r'(<h[12][^>]*>)(.*?)(</h[12]>)', s, re.S)
-    inner = words(hm.group(2))
     open_tag = re.sub(r'; animation: aIn[^";]*', '', hm.group(1))
+    if open_tag.startswith('<h1'):
+        # gancho (h1): legible desde el fotograma 0, sin aparición palabra a palabra
+        inner = hm.group(2)
+        open_tag = open_tag.replace('style="', 'style="transform-origin: 0 50%; animation: fxHook .9s cubic-bezier(.2,.8,.2,1) both; ', 1)
+    else:
+        inner = words(hm.group(2))
     s = s[:hm.start()] + open_tag + inner + hm.group(3) + s[hm.end():]
     # el contenedor del titular ya no debe hacer blur a la vez
     s = s.replace('gap: 18px; animation: aIn 1s cubic-bezier(.2,.8,.2,1) .1s both', 'gap: 18px')
