@@ -8,3 +8,4 @@
 | 2026-09-28 | Serie 5×15 s: si nadie te recomienda, no vendes (depender del boca a boca + 3 tips: reseña el mismo día, escribir a antiguos clientes, anuncio local con oferta clara) |
 | 2026-09-29 | Serie 5×15 s: pagas los clics y tu web los deja escapar (lo que cuesta + 3 tips: titular que diga qué ganas, un solo botón arriba, formulario de 3 datos) — publicada 17:15 tras fallo de la tarea |
 | 2026-10-08 | Serie 5×15 s: ¿de dónde viene cada cliente? Si no lo sabes, inviertes a ciegas (lo que cuesta + 3 tips: preguntar "¿cómo nos conociste?", apuntar el origen en cada lead, revisar cada mes el coste por cliente por canal) — publicada 19:16–19:19, 5/5 verificadas |
+| 2026-10-09 | Serie 5×15 s: tu WhatsApp esconde clientes que nadie contestó (lo que cuesta: contestas tarde y se va con otro + 3 tips: mensaje de bienvenida automático, etiquetar cada chat por fase, pasar cada lead del chat al CRM) — publicada 13:36–13:39, 5/5 verificadas |
