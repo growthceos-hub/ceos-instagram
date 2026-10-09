@@ -1,0 +1,23 @@
+{
+ "topic": "Parpadeo en tus vídeos (flicker): por qué la luz parpadea al grabar y 3 arreglos (25/50 fps, obturador a 1/50 o 1/100 y cambiar la fuente de luz)",
+ "scenes": [
+  {"kind": "hook", "title": "¿Tu vídeo<br><em>parpadea?</em>", "size": 140, "dur": 5.6,
+   "mock": {"type": "chat", "name": "Revisión del vídeo", "msgs": [
+     {"from": "out", "lines": ["Ya lo tengo grabado", "te lo paso"], "time": "12:14"},
+     {"from": "in", "text": "Salen rayas y la luz va a golpes", "time": "12:15"}]},
+   "footer": "3 arreglos para el flicker"},
+  {"label": "ARREGLO 1", "title": "Graba a<br><em>25 o 50 fps.</em>", "dur": 6.5,
+   "mock": {"type": "compare", "bad_t": "ASÍ NO", "bad": ["30 o 60 fps", "Con luz de oficina"],
+            "good_t": "ASÍ SÍ", "good": ["25 o 50 fps", "Red eléctrica a 50 Hz"]},
+   "note": "En España la luz va a <b>50 Hz: graba a su ritmo.</b>"},
+  {"label": "ARREGLO 2", "title": "Obturador<br><em>a 1/50.</em>", "dur": 6.5,
+   "mock": {"type": "script", "title": "MODO PRO · AJUSTES", "lines": ["Obturador a 1/50 o 1/100", "El doble de los fps", "Bloquea la exposición"]},
+   "note": "Si el móvil lo decide solo, <b>aparecen las bandas.</b>"},
+  {"label": "ARREGLO 3", "title": "Cambia la<br><em>fuente de luz.</em>", "dur": 6.5,
+   "mock": {"type": "checklist", "items": ["Apaga fluorescentes", "Fuera bombillas LED baratas", "Usa luz de ventana", "O luz continua de vídeo"]},
+   "note": "Haz <b>una prueba de 5 segundos</b> antes de grabar."},
+  {"kind": "cta", "title": "Adiós al<br><em>parpadeo.</em>", "dur": 6,
+   "items": ["Graba a 25 o 50 fps", "Obturador a 1/50 o 1/100", "Luz de vídeo o ventana"]}
+ ],
+ "caption": "¿Tu vídeo sale con rayas o la luz parpadea? 💡\n\nEs el flicker: la cámara y las luces de la sala van a ritmos distintos. Se arregla antes de darle a REC.\n\n→ Graba a 25 o 50 fps: en España la red eléctrica va a 50 Hz\n→ Obturador a 1/50 o 1/100 (en modo pro) y bloquea la exposición para que el móvil no lo cambie solo\n→ Cambia la fuente de luz: apaga fluorescentes y LED baratos y usa luz de ventana o luz continua de vídeo\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #grabarvideo #tipsdevideo #iluminacion #creaciondecontenido #reels #videomarketing"
+}
