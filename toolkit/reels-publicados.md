@@ -141,3 +141,4 @@
 | 2026-10-08 | meme | Pide descuento sin saber el precio (WhatsApp) — solo pestaña Reels (tanda 2026-10-04, parada a petición en 4/20) | media id 18166402939466927 |
 | 2026-10-08 | meme | “info” por privado → “info de qué” (DM Instagram) — solo pestaña Reels (tanda 2026-10-04, parada a petición en 4/20) | media id 17964917450982203 |
 | 2026-10-08 | meme | Notas del comercial nuevo en el CRM — solo pestaña Reels (tanda 2026-10-04, parada a petición en 4/20) | media id 18097277021390734 |
+| 2026-10-09 | 1 | Pedir una señal al cerrar la venta para que el cliente no se eche atrás: pídela en la misma llamada en la que dice que sí, manda el enlace de pago al momento y confirma por escrito qué pasa ahora y la fecha de inicio — publicado 16:06 vía el escenario de Make «Claude · Publicar reel en Instagram», solo pestaña Reels; gancho legible desde el fotograma 0 | https://www.instagram.com/reel/DeRrxYBiSpd/ | No (Facebook en pausa) |
