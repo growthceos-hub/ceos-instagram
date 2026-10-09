@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>02 · El problema</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+
+@keyframes aI{0%,100%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}}
+@keyframes aCut{0%,4%{opacity:0;transform:scale(1.6) rotate(-14deg)}9%,22%{opacity:1;transform:scale(1) rotate(-14deg)}25%,100%{opacity:0;transform:scale(1) rotate(-14deg)}}
+@keyframes aRecDot{0%,4%{opacity:1}5%,24%{opacity:.15}25%,100%{opacity:1}}
+@keyframes aTilt{0%,100%{transform:rotate(0)}50%{transform:rotate(-1.5deg) translateX(-6px)}}
+@keyframes aBarP{0%{width:0%}100%{width:100%}}
+@keyframes aIn0{0%,21%{background:#1E1A17;border-color:#FF3B30;transform:translateX(-12px)}25%,100%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}}
+@keyframes aIc0{0%,0%{transform:scale(1)}5%{transform:scale(1.3)}10%,100%{transform:scale(1)}}
+@keyframes aIn1{0%,24.9%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}28%,46%{background:#1E1A17;border-color:#FF3B30;transform:translateX(-12px)}50%,100%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}}
+@keyframes aIc1{0%,24.9%{transform:scale(1)}30%{transform:scale(1.3)}35%,100%{transform:scale(1)}}
+@keyframes aIn2{0%,49.9%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}53%,71%{background:#1E1A17;border-color:#FF3B30;transform:translateX(-12px)}75%,100%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}}
+@keyframes aIc2{0%,49.9%{transform:scale(1)}55%{transform:scale(1.3)}60%,100%{transform:scale(1)}}
+@keyframes aIn3{0%,74.9%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}78%,96%{background:#1E1A17;border-color:#FF3B30;transform:translateX(-12px)}100%,100%{background:#12100F;border-color:rgba(242,237,231,.14);transform:none}}
+@keyframes aIc3{0%,74.9%{transform:scale(1)}80%{transform:scale(1.3)}85%,100%{transform:scale(1)}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">02 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">EL PROBLEMA</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 76px; line-height: 0.96; letter-spacing: -0.055em">Grabar en la oficina:<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">toma 14 y sigue sin salir.</span></h1>
+</div>
+<div style="position: relative; height: 650px; display: flex; gap: 24px">
+  <div style="position: relative; flex: none; width: 420px; border-radius: 30px; overflow: hidden; border: 2px solid rgba(242,237,231,.16); box-shadow: 0 50px 120px -40px rgba(255,59,48,.35)"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #3B3D38 0%, #2B2D29 70%, #20211E 100%)"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 15%; background: #1A1B18; border-top: 3px solid #44463F"></div>
+<div style="position: absolute; left: 50%; bottom: -10px; width: 300px; margin-left: -150px; animation: aTilt 2s ease-in-out infinite; transform-origin: 50% 100%"><svg width="300" height="300" viewBox="0 0 420 420" style="display:block">
+<defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9CCC2" stop-opacity="1"/><stop offset="1" stop-color="#7C8077" stop-opacity=".9"/></linearGradient></defs>
+<path d="M40 420 C40 300 110 250 210 250 C310 250 380 300 380 420 Z" fill="url(#g2)"/>
+<rect x="178" y="200" width="64" height="70" rx="26" fill="url(#g2)"/>
+<ellipse cx="210" cy="125" rx="78" ry="92" fill="url(#g2)"/>
+<rect x="168" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/><rect x="234" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/>
+</svg></div>
+<div style="position: absolute; inset: 18px; pointer-events: none"><div style="position: absolute; top: 0; left: 0; width: 40px; height: 40px; border-top: 4px solid #F2EDE7; border-left: 4px solid #F2EDE7"></div><div style="position: absolute; top: 0; right: 0; width: 40px; height: 40px; border-top: 4px solid #F2EDE7; border-right: 4px solid #F2EDE7"></div><div style="position: absolute; bottom: 0; left: 0; width: 40px; height: 40px; border-bottom: 4px solid #F2EDE7; border-left: 4px solid #F2EDE7"></div><div style="position: absolute; bottom: 0; right: 0; width: 40px; height: 40px; border-bottom: 4px solid #F2EDE7; border-right: 4px solid #F2EDE7"></div></div>
+<div style="position: absolute; left: 34px; top: 34px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: .1em; color: #F2EDE7; z-index: 5"><span style="width: 14px; height: 14px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 12px #FF3B30; animation: aRecDot 1s steps(1) infinite"></span>REC</div>
+<div style="position: absolute; right: 34px; top: 30px; width: 150px; height: 30px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 22px; letter-spacing: .08em; color: #F2EDE7; text-align: right; z-index: 5"><span style="position: absolute; left: 0; right: 0; opacity: 0; animation: aStep 4s steps(1) -4s infinite; text-align: right">TOMA 11</span><span style="position: absolute; left: 0; right: 0; opacity: 0; animation: aStep 4s steps(1) -3s infinite; text-align: right">TOMA 12</span><span style="position: absolute; left: 0; right: 0; opacity: 0; animation: aStep 4s steps(1) -2s infinite; text-align: right">TOMA 13</span><span style="position: absolute; left: 0; right: 0; opacity: 0; animation: aStep 4s steps(1) -1s infinite; text-align: right">TOMA 14</span></div>
+<div style="position: absolute; left: 50%; top: 42%; margin-left: -130px; width: 260px; padding: 14px 0; text-align: center; border: 6px solid #FF3B30; border-radius: 14px; color: #FF3B30; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 54px; letter-spacing: .02em; background: rgba(10,9,8,.55); z-index: 6; animation: aCut 1s ease-out infinite">¡CORTA!</div>
+<div style="position: absolute; left: 34px; right: 34px; bottom: 30px; height: 8px; border-radius: 99px; background: rgba(242,237,231,.18); overflow: hidden; z-index: 5"><div style="height: 100%; background: #FF3B30; animation: aBarP 1s linear infinite"></div></div>
+</div>
+  <div style="position: relative; flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 14px"><div style="display: flex; align-items: center; gap: 18px; padding: 18px 20px; border-radius: 22px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aIn0 4s cubic-bezier(.6,0,.3,1) infinite">
+<span style="flex: none; width: 62px; height: 62px; border-radius: 16px; background: #0A0908; border: 2px solid rgba(242,237,231,.14); display: flex; align-items: center; justify-content: center; font-size: 32px; animation: aIc0 4s ease-out infinite">📞</span>
+<span style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.05">Te llaman</span><span style="font-size: 21px; color: #B5ADA4">justo en la mejor toma</span></span></div><div style="display: flex; align-items: center; gap: 18px; padding: 18px 20px; border-radius: 22px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aIn1 4s cubic-bezier(.6,0,.3,1) infinite">
+<span style="flex: none; width: 62px; height: 62px; border-radius: 16px; background: #0A0908; border: 2px solid rgba(242,237,231,.14); display: flex; align-items: center; justify-content: center; font-size: 32px; animation: aIc1 4s ease-out infinite">🔊</span>
+<span style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.05">Ruido de fondo</span><span style="font-size: 21px; color: #B5ADA4">la calle, la impresora, el pasillo</span></span></div><div style="display: flex; align-items: center; gap: 18px; padding: 18px 20px; border-radius: 22px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aIn2 4s cubic-bezier(.6,0,.3,1) infinite">
+<span style="flex: none; width: 62px; height: 62px; border-radius: 16px; background: #0A0908; border: 2px solid rgba(242,237,231,.14); display: flex; align-items: center; justify-content: center; font-size: 32px; animation: aIc2 4s ease-out infinite">🙋</span>
+<span style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.05">"¿Tienes un minuto?"</span><span style="font-size: 21px; color: #B5ADA4">y se corta el ritmo</span></span></div><div style="display: flex; align-items: center; gap: 18px; padding: 18px 20px; border-radius: 22px; border: 2px solid rgba(242,237,231,.14); background: #12100F; animation: aIn3 4s cubic-bezier(.6,0,.3,1) infinite">
+<span style="flex: none; width: 62px; height: 62px; border-radius: 16px; background: #0A0908; border: 2px solid rgba(242,237,231,.14); display: flex; align-items: center; justify-content: center; font-size: 32px; animation: aIc3 4s ease-out infinite">🌥️</span>
+<span style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; line-height: 1.05">Cambia la luz</span><span style="font-size: 21px; color: #B5ADA4">y la toma anterior ya no casa</span></span></div>
+    <div style="margin-top: 6px; padding: 20px 22px; border-radius: 22px; background: #0A0908; border: 2px dashed #FF6A1A">
+      <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 27px; letter-spacing: -0.02em; line-height: 1.12">No eres tú. Es que la oficina <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; font-size: 33px">no es un set.</span></span>
+    </div>
+  </div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Una tarde entera para un vídeo que no te convence.</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

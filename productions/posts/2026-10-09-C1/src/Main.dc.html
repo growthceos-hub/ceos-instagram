@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>01 · Gancho</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+
+@keyframes aWipe{0%,8%{clip-path:inset(0 0 0 58%)}46%,58%{clip-path:inset(0 0 0 22%)}96%,100%{clip-path:inset(0 0 0 58%)}}
+@keyframes aDiv{0%,8%{left:58%}46%,58%{left:22%}96%,100%{left:58%}}
+@keyframes aFlick{0%,100%{opacity:1}7%{opacity:.35}9%{opacity:1}31%{opacity:.5}33%{opacity:1}64%{opacity:.25}66%{opacity:.9}68%{opacity:.4}70%{opacity:1}}
+@keyframes aShake{0%,100%{transform:translate(0,0) rotate(-2.2deg)}20%{transform:translate(-7px,4px) rotate(-1deg)}40%{transform:translate(5px,-3px) rotate(-3deg)}60%{transform:translate(-4px,-5px) rotate(-1.6deg)}80%{transform:translate(6px,3px) rotate(-2.8deg)}}
+@keyframes aNoise{0%,100%{transform:scaleY(.25)}30%{transform:scaleY(1)}55%{transform:scaleY(.45)}75%{transform:scaleY(.9)}}
+@keyframes aClean{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(.8)}}
+@keyframes aBat{0%,49%{opacity:1}50%,100%{opacity:.25}}
+@keyframes aTagO{0%,40%{opacity:1;transform:none}48%,90%{opacity:.0;transform:translateY(-8px)}98%,100%{opacity:1;transform:none}}
+@keyframes aKnob{0%,100%{box-shadow:0 0 0 0 rgba(255,106,26,.6)}50%{box-shadow:0 0 0 18px rgba(255,106,26,0)}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">01 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">ESTUDIO EN BURGOS</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 84px; line-height: 0.96; letter-spacing: -0.055em">¿Tus vídeos parecen<br>hechos en la oficina?<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">Es que lo están.</span></h1>
+</div><div style="position: relative; height: 640px; border-radius: 28px; overflow: hidden; border: 2px solid rgba(242,237,231,.16); box-shadow: 0 50px 120px -40px rgba(255,106,26,.6)">
+<div style="position: absolute; inset: 0"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #3B3D38 0%, #2B2D29 70%, #20211E 100%)"></div>
+<div style="position: absolute; left: 60px; right: 60px; top: 0; height: 14px; border-radius: 0 0 8px 8px; background: #E9F2CF; box-shadow: 0 0 60px 14px rgba(233,242,207,.35); animation: aFlick 2.2s steps(1) infinite"></div>
+<div style="position: absolute; left: 36px; top: 70px; width: 170px; height: 230px; border: 6px solid #55574F; background: linear-gradient(160deg, #6E7366, #4A4D45)"></div>
+<div style="position: absolute; left: 36px; top: 180px; width: 170px; height: 6px; background: #55574F"></div>
+<div style="position: absolute; right: 30px; top: 110px; width: 120px; height: 340px; background: #34362F; border: 3px solid #44463F"></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 15%; background: #1A1B18; border-top: 3px solid #44463F"></div>
+<div style="position: absolute; left: 50%; bottom: -10px; width: 380px; margin-left: -190px; animation: aShake 0.9s ease-in-out infinite; transform-origin: 50% 100%"><svg width="380" height="380" viewBox="0 0 420 420" style="display:block">
+<defs><linearGradient id="go" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9CCC2" stop-opacity="1"/><stop offset="1" stop-color="#7C8077" stop-opacity=".9"/></linearGradient></defs>
+<path d="M40 420 C40 300 110 250 210 250 C310 250 380 300 380 420 Z" fill="url(#go)"/>
+<rect x="178" y="200" width="64" height="70" rx="26" fill="url(#go)"/>
+<ellipse cx="210" cy="125" rx="78" ry="92" fill="url(#go)"/>
+<rect x="168" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/><rect x="234" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/>
+</svg></div>
+<div style="position: absolute; left: 22px; bottom: 26px; display: flex; align-items: center; gap: 5px; height: 70px; z-index: 4"><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 0.90s ease-in-out -0.00s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.03s ease-in-out -0.17s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.16s ease-in-out -0.34s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.29s ease-in-out -0.51s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.42s ease-in-out -0.68s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 0.90s ease-in-out -0.85s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.03s ease-in-out -1.02s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.16s ease-in-out -1.19s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.29s ease-in-out -1.36s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.42s ease-in-out -1.53s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 0.90s ease-in-out -1.70s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.03s ease-in-out -1.87s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.16s ease-in-out -2.04s infinite"></span><span style="width: 8px; height: 64px; border-radius: 99px; background: #C9CCC2; transform-origin: 50% 50%; animation: aNoise 1.29s ease-in-out -2.21s infinite"></span></div>
+<div style="position: absolute; left: 24px; top: 22px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 19px; letter-spacing: .1em; color: #C9CCC2; z-index: 4">
+  <span style="display: inline-block; width: 40px; height: 20px; border: 2px solid #C9CCC2; border-radius: 5px; position: relative"><span style="position: absolute; left: 2px; top: 2px; bottom: 2px; width: 5px; background: #FF3B30; animation: aBat 1s steps(1) infinite"></span></span>3% · MÓVIL</div>
+<div style="position: absolute; left: 24px; top: 330px; display: flex; flex-direction: column; gap: 10px; z-index: 5; animation: aTagO 4s ease-in-out infinite">
+  <span style="align-self: flex-start; white-space: nowrap; padding: 8px 14px; border-radius: 10px; background: #FF3B30; color: #fff; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em">✕ LUZ DEL TECHO</span><span style="align-self: flex-start; white-space: nowrap; padding: 8px 14px; border-radius: 10px; background: #FF3B30; color: #fff; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em">✕ ECO</span><span style="align-self: flex-start; white-space: nowrap; padding: 8px 14px; border-radius: 10px; background: #FF3B30; color: #fff; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em">✕ PULSO</span>
+</div>
+</div>
+<div style="position: absolute; inset: 0; animation: aWipe 4s cubic-bezier(.6,0,.3,1) infinite"><div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+<div style="position: absolute; left: 50%; top: 4%; width: 620px; height: 90%; margin-left: -310px; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.34), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: absolute; left: 4%; top: 12%; width: 110px; height: 300px; z-index: 2">
+<div style="width: 110px; height: 150px; border-radius: 12px; background: linear-gradient(180deg, #FFFFFF, #D9D1C8); transform: perspective(300px) rotateY(14deg); box-shadow: 0 0 70px 18px rgba(255,178,122,.35); animation: aSoft 4s ease-in-out infinite"></div>
+<div style="margin: 0 auto; width: 6px; height: 150px; background: #6B635C"></div></div><div style="position: absolute; right: 4%; top: 12%; width: 110px; height: 300px; z-index: 2">
+<div style="width: 110px; height: 150px; border-radius: 12px; background: linear-gradient(180deg, #FFFFFF, #D9D1C8); transform: perspective(300px) rotateY(-14deg); box-shadow: 0 0 70px 18px rgba(255,178,122,.35); animation: aSoft 4s ease-in-out infinite"></div>
+<div style="margin: 0 auto; width: 6px; height: 150px; background: #6B635C"></div></div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 15%; background: linear-gradient(180deg, #171412, #0A0908); border-top: 2px solid rgba(242,237,231,.06)"></div>
+<div style="position: absolute; left: 50%; bottom: -10px; width: 380px; margin-left: -190px; animation: aBreath 3s ease-in-out infinite; transform-origin: 50% 100%"><svg width="380" height="380" viewBox="0 0 420 420" style="display:block">
+<defs><linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".95"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".55"/></linearGradient></defs>
+<path d="M40 420 C40 300 110 250 210 250 C310 250 380 300 380 420 Z" fill="url(#pg)"/>
+<rect x="178" y="200" width="64" height="70" rx="26" fill="url(#pg)"/>
+<ellipse cx="210" cy="125" rx="78" ry="92" fill="url(#pg)"/>
+<rect x="168" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/><rect x="234" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/>
+</svg></div>
+<div style="position: absolute; right: 22px; bottom: 26px; display: flex; align-items: center; gap: 5px; height: 70px; z-index: 4"><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 0.90s ease-in-out -0.00s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.03s ease-in-out -0.17s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.16s ease-in-out -0.34s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.29s ease-in-out -0.51s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.42s ease-in-out -0.68s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 0.90s ease-in-out -0.85s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.03s ease-in-out -1.02s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.16s ease-in-out -1.19s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.29s ease-in-out -1.36s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.42s ease-in-out -1.53s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 0.90s ease-in-out -1.70s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.03s ease-in-out -1.87s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.16s ease-in-out -2.04s infinite"></span><span style="width: 8px; height: 56px; border-radius: 99px; background: #FF6A1A; transform-origin: 50% 50%; animation: aClean 1.29s ease-in-out -2.21s infinite"></span></div>
+<div style="position: absolute; left: 70px; top: 34px; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: .1em; color: #F2EDE7; z-index: 5"><span style="width: 14px; height: 14px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 12px #FF3B30; animation: aRec 1s steps(1) infinite"></span>REC</div><div style="position: absolute; right: 70px; top: 34px; width: 150px; height: 26px; font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: .08em; color: #F2EDE7; z-index: 5"><span style="position: absolute; right: 0; opacity: 0; animation: aStep 4s steps(1) -4s infinite">00:00:01</span><span style="position: absolute; right: 0; opacity: 0; animation: aStep 4s steps(1) -3s infinite">00:00:02</span><span style="position: absolute; right: 0; opacity: 0; animation: aStep 4s steps(1) -2s infinite">00:00:03</span><span style="position: absolute; right: 0; opacity: 0; animation: aStep 4s steps(1) -1s infinite">00:00:04</span></div>
+<div style="position: absolute; right: 24px; top: 330px; display: flex; flex-direction: column; align-items: flex-end; gap: 10px; z-index: 5">
+  <span style="white-space: nowrap; padding: 8px 14px; border-radius: 10px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em">✓ LUZ QUE FAVORECE</span><span style="white-space: nowrap; padding: 8px 14px; border-radius: 10px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em">✓ SONIDO LIMPIO</span><span style="white-space: nowrap; padding: 8px 14px; border-radius: 10px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .08em">✓ PLANO FIJO</span>
+</div>
+<div style="position: absolute; inset: 0; pointer-events: none"><div style="position: absolute; top: 0; left: 0; width: 40px; height: 40px; border-top: 4px solid #F2EDE7; border-left: 4px solid #F2EDE7"></div><div style="position: absolute; top: 0; right: 0; width: 40px; height: 40px; border-top: 4px solid #F2EDE7; border-right: 4px solid #F2EDE7"></div><div style="position: absolute; bottom: 0; left: 0; width: 40px; height: 40px; border-bottom: 4px solid #F2EDE7; border-left: 4px solid #F2EDE7"></div><div style="position: absolute; bottom: 0; right: 0; width: 40px; height: 40px; border-bottom: 4px solid #F2EDE7; border-right: 4px solid #F2EDE7"></div></div>
+</div>
+<div style="position: absolute; top: 0; bottom: 0; left: 58%; width: 0; z-index: 8; animation: aDiv 4s cubic-bezier(.6,0,.3,1) infinite">
+  <div style="position: absolute; top: 0; bottom: 0; left: -3px; width: 6px; background: #F2EDE7; box-shadow: 0 0 30px rgba(255,106,26,.8)"></div>
+  <div style="position: absolute; top: 50%; left: -34px; width: 68px; height: 68px; margin-top: -34px; border-radius: 99px; background: #F2EDE7; display: flex; align-items: center; justify-content: center; animation: aKnob 1.4s ease-out infinite">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></div>
+  <div style="position: absolute; bottom: 120px; right: 16px; white-space: nowrap; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .14em; color: #F2EDE7; background: rgba(0,0,0,.55); padding: 6px 10px; border-radius: 8px">OFICINA</div>
+  <div style="position: absolute; bottom: 120px; left: 16px; white-space: nowrap; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 18px; letter-spacing: .14em; color: #0A0908; background: #FF6A1A; padding: 6px 10px; border-radius: 8px">ESTUDIO</div>
+</div>
+</div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Así es grabar en un estudio de verdad.</span>
+<span style="display: inline-flex; align-items: center; gap: 10px; background: #FF6A1A; color: #0A0908; font-weight: 700; font-size: 24px; padding: 14px 26px; border-radius: 999px">Desliza<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="2.8" style="animation: aNudge 2s ease-in-out infinite"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
