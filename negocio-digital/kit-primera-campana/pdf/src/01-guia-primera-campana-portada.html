@@ -26,7 +26,7 @@ body{margin:0;background:var(--bg);color:var(--ink);
  font-size:10.6pt;line-height:1.55;}
 h1,h2,h3,.code,.kick,.toc h2,.cover .t{font-family:'Bricolage Grotesque','Instrument Sans','Arial Black',sans-serif;}
 .mk{position:absolute;left:0;top:0;font-size:2px;color:#F7F3EE;line-height:1;white-space:nowrap;}
-h2,h3{position:relative;}
+h2,h3,section,.keep{position:relative;}
 /* Portada */
 .cover{height:297mm;width:210mm;background:var(--ink);color:var(--bg);position:relative;overflow:hidden;
  padding:24mm 20mm;display:flex;flex-direction:column;break-after:page;}
@@ -58,7 +58,7 @@ h3{font-size:13.5pt;line-height:1.25;font-weight:700;margin:7mm 0 2.5mm;}
 .keep{break-inside:avoid;}
 .newpage{break-before:page;}
 .newpage>h2,.keep.newpage>h2,h2.newpage{margin-top:0;}
-h2.group{break-before:page;font-size:0;margin:0;height:0;overflow:hidden;}
+h2.group{display:none;}
 h2.group::before{display:none;}
 p{margin:0 0 3mm;}
 ul,ol{margin:0 0 3.5mm;padding-left:6mm;}
