@@ -289,7 +289,7 @@ def transform(doc, body_html):
         else:
             if el.find_parent("section", class_="card"):
                 continue
-            text = el.get_text(" ").strip()
+            text = re.sub(r"\s+", " ", el.get_text("")).strip()
             target = el
         if kind not in doc["toc_levels"]:
             continue
@@ -343,16 +343,16 @@ h2,h3{position:relative;}
 .cover .t{font-size:38pt;line-height:1.02;font-weight:800;margin:6mm 0 7mm;letter-spacing:-.01em;}
 .cover .s{font-size:13.5pt;line-height:1.45;color:#D9D0C6;max-width:150mm;}
 .cover .n{margin-top:6mm;font-size:11pt;color:var(--bg);border-left:3px solid var(--org);padding-left:4mm;max-width:150mm;}
-.cover .foot{margin-top:22mm;display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid #3A332D;padding-top:5mm;font-size:10.5pt;}
+.cover .foot{margin-top:22mm;display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid #3A332D;padding-top:6mm;font-size:10.5pt;}
 .cover .foot b{font-family:'Bricolage Grotesque',sans-serif;font-size:13pt;}
 .cover .ver{color:var(--org);font-weight:600;}
 .cover .big{position:absolute;right:-28mm;top:40mm;width:150mm;opacity:.07;}
 /* Índice */
 .toc{break-after:page;}
-.toc h2{font-size:24pt;margin:0 0 6mm;}
+.toc h2{font-size:24pt;margin:0 0 4mm;}
 .toc ol{list-style:none;padding:0;margin:0;}
 .toc.cols ol{column-count:2;column-gap:10mm;}
-.toc li{display:flex;align-items:baseline;gap:2mm;padding:1mm 0;border-bottom:1px solid var(--line);break-inside:avoid;}
+.toc li{display:flex;align-items:baseline;gap:2mm;padding:.8mm 0;border-bottom:1px solid var(--line);break-inside:avoid;}
 .toc li a{color:inherit;text-decoration:none;flex:1;}
 .toc li .pg{font-variant-numeric:tabular-nums;font-weight:600;color:var(--org);}
 .toc li.l-h2{font-weight:700;font-family:'Bricolage Grotesque',sans-serif;font-size:11pt;padding-top:2.2mm;border-bottom:2px solid var(--ink);}
@@ -462,13 +462,13 @@ def page_html(doc, body, meta, toc, pages=None):
 
 def header_footer(doc):
     base = ("<style>html,body{margin:0;padding:0;-webkit-print-color-adjust:exact;}</style>")
-    style = ("width:100%;height:17mm;margin:0;background:#F7F3EE;"
+    style = ("width:100%;height:21mm;margin:0;background:#F7F3EE;"
              "font-family:'Instrument Sans',Arial,sans-serif;font-size:8pt;color:#6B625A;"
              "display:flex;justify-content:space-between;align-items:center;padding:0 17mm;box-sizing:border-box;")
-    header = (f'{base}<div style="{style}align-items:flex-end;padding-bottom:5mm;">'
+    header = (f'{base}<div style="{style}align-items:flex-end;padding-bottom:6mm;">'
               f'<span>Ceos Growth · Kit Primera Campaña</span>'
               f'<span style="color:#FF6A1A;font-weight:700;">{html.escape(doc["short"])}</span></div>')
-    footer = (f'{base}<div style="{style}align-items:flex-start;padding-top:5mm;">'
+    footer = (f'{base}<div style="{style}align-items:flex-start;padding-top:6mm;">'
               f'<span>{html.escape(COPY)}</span>'
               f'<span style="font-weight:700;color:#1A1714;font-size:9pt;"><span class="pageNumber"></span>'
               f'<span style="color:#6B625A;font-weight:400;"> / <span class="totalPages"></span></span></span></div>')
