@@ -58,7 +58,7 @@ Se prueba diseño animado frente a capturas sin pulir; no se da por hecho que ga
 | Medición | Make → Conversions API (Purchase con `event_id`, deduplicado con el Pixel de la página de gracias); Windsor lee el coste por compra a diario | 0 € |
 
 ## Legal y fiscal
-- **Decisión de Hugo (10-10-2026):** es una rama de Ceos Growth y factura CEOS GROWTH, S.L. con la estructura fiscal actual. Al llegar a **20.000 € facturados** en esta rama se revisa si pasa a una sociedad propia. Hasta entonces, sus ingresos y gastos van separados (etiqueta propia en Stripe y en la contabilidad) para medir su rentabilidad y saber cuándo se cruza el umbral.
+- **Decisión de Hugo (10-10-2026):** es una rama de Ceos Growth y factura **Hugo Fraile Montes como autónomo** (no una S.L.), con su estructura fiscal actual. Al llegar a **20.000 € facturados** en esta rama se revisa si pasa a una sociedad propia. Hasta entonces, sus ingresos y gastos van separados (etiqueta propia en Stripe y en la contabilidad) para medir su rentabilidad y saber cuándo se cruza el umbral.
 - Añadir el epígrafe de venta de contenidos digitales si la S.L. no lo tiene, y emitir factura simplificada por venta (confirmar con el gestor).
 - Aviso legal con NIF visible, condiciones, privacidad y cookies.
 - Casilla obligatoria de entrega inmediata y pérdida del desistimiento (art. 103 m TRLGDCU), más la garantía voluntaria de 14 días.
