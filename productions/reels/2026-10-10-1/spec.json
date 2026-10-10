@@ -1,0 +1,24 @@
+{
+ "topic": "Balance de blancos: por qué sales naranja o azul en tus vídeos y 3 arreglos (no mezclar luces, balance de blancos fijo y prueba con un folio blanco)",
+ "scenes": [
+  {"kind": "hook", "title": "¿Sales naranja<br>en tus <em>vídeos?</em>", "size": 132, "dur": 5.6,
+   "mock": {"type": "compare", "bad_t": "LO QUE SALE", "bad": ["Cara naranja", "Pared azulada"],
+            "good_t": "LO QUE QUIERES", "good": ["Piel natural", "Blancos de verdad"]},
+   "footer": "3 arreglos para el color"},
+  {"label": "ARREGLO 1", "title": "No mezcles<br><em>luces.</em>", "dur": 6.5,
+   "mock": {"type": "checklist", "items": ["Apaga la luz del techo", "Ventana o lámpara, no las dos", "Bombillas del mismo tono"]},
+   "note": "Cada luz tiene su color: <b>quédate con una.</b>"},
+  {"label": "ARREGLO 2", "title": "Balance de<br><em>blancos fijo.</em>", "dur": 6.5,
+   "mock": {"type": "script", "title": "MODO PRO · BALANCE DE BLANCOS", "lines": ["Quita el modo automático", "Luz de día: unos 5600 K", "Bombilla cálida: unos 3200 K"]},
+   "note": "En automático <b>el color cambia a mitad de toma.</b>"},
+  {"label": "ARREGLO 3", "title": "Prueba con<br><em>un folio.</em>", "dur": 6.5,
+   "mock": {"type": "timeline", "rows": [
+     {"n": "1", "d": "ANTES DE GRABAR", "t": "Folio en tu sitio", "s": "Con la misma luz que tu cara"},
+     {"n": "2", "d": "MIRA LA PANTALLA", "t": "¿Sale blanco?", "s": "Ni naranja ni azul"},
+     {"n": "3", "d": "AJUSTA Y GRABA", "t": "Bloquea y REC", "s": "No lo toques en toda la sesión"}]},
+   "note": "<b>10 segundos</b> que te ahorras en edición."},
+  {"kind": "cta", "title": "Colores<br><em>de verdad.</em>", "dur": 6,
+   "items": ["Una sola fuente de luz", "Balance de blancos fijo", "Prueba con un folio"]}
+ ],
+ "caption": "¿Te ves naranja o azul cuando te grabas? 💡\n\nPasa cuando la cámara no sabe qué es blanco: mezclas luces y el móvil va cambiando el color él solo.\n\n→ No mezcles luces: apaga la del techo y quédate con la ventana o con tu lámpara, no con las dos\n→ Fija el balance de blancos en modo pro: unos 5600 K con luz de día y unos 3200 K con bombilla cálida\n→ Pon un folio blanco donde vas a estar: si en pantalla sale blanco, bloquea el ajuste y graba\n\nPara nosotros el automático es lo primero que hay que quitar antes de grabar.\n\n¿Grabas con luz de ventana o con lámpara? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #grabarvideo #tipsdevideo #iluminacion #balancedeblancos #creaciondecontenido #reels"
+}
