@@ -1,0 +1,100 @@
+{
+ "topic": "Tres pruebas antes de encender una campaña de Meta: manda un lead de prueba (que llegue al CRM y salte el aviso), mira el anuncio en tu móvil (que el texto se lea y el botón lleve donde toca) y deja decidido quién llama a cada lead y con qué guion",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Encendiste<br>la campaña<br><em>sin probarla?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead del anuncio",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Pedí cita y nadie llamó",
+      "time": "18:40"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Perdona, ¿qué",
+       "formulario?"
+      ],
+      "time": "21:15"
+     }
+    ]
+   },
+   "footer": "3 pruebas antes de lanzar"
+  },
+  {
+   "label": "PRUEBA 1",
+   "title": "Mándate<br><em>un lead falso.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lead de prueba",
+    "fields": [
+     {
+      "q": "Nombre",
+      "a": "PRUEBA – no llamar"
+     },
+     {
+      "q": "¿Llega al CRM?",
+      "a": "Sí, con su anuncio"
+     },
+     {
+      "q": "¿Salta el aviso?",
+      "a": "Sí, en el móvil"
+     }
+    ],
+    "badge": "✓ CIRCUITO PROBADO"
+   },
+   "note": "Si no te llega a ti, <b>no le llega a nadie.</b>"
+  },
+  {
+   "label": "PRUEBA 2",
+   "title": "Míralo<br><em>en tu móvil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "¿Tu caldera hace ruido? Te la revisamos esta semana.",
+    "media": "REVISIÓN EN 48 H",
+    "headline": "Pide tu cita",
+    "cta": "Más información",
+    "tags": [
+     "SE LEE",
+     "BOTÓN BIEN"
+    ]
+   },
+   "note": "Pulsa el botón: <b>que lleve a donde toca.</b>"
+  },
+  {
+   "label": "PRUEBA 3",
+   "title": "Decide<br><em>quién llama.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DEL PRIMER LEAD",
+    "lines": [
+     "Quién llama a cada lead",
+     "En qué horario llama",
+     "Qué dice en la llamada"
+    ]
+   },
+   "note": "El lead llega solo; <b>la llamada no.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Prueba primero,<br><em>luego paga.</em>",
+   "dur": 6,
+   "items": [
+    "Lead de prueba al CRM",
+    "El anuncio en tu móvil",
+    "Quién llama y qué dice"
+   ]
+  }
+ ],
+ "caption": "¿Encendiste la campaña de Meta sin hacer una sola prueba? 📲\n\nSi el formulario no llega a nadie, pagas por leads que nunca recibes. Antes de poner el primer euro, haz esto:\n\n→ Mándate un lead de prueba y mira que entra en el CRM con su anuncio y que te salta el aviso al móvil\n→ Mira el anuncio en tu propio móvil: que el texto se lea sin ampliar y que el botón lleve a donde toca\n→ Deja decidido quién llama a cada lead, en qué horario y qué dice en la llamada\n\nPara nosotros, una campaña no se enciende hasta que el primer lead de prueba ha llegado al móvil de quien va a llamar.\n\n¿Cuál de las tres te has saltado alguna vez? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #captaciondeclientes #leads #pymes #negocioslocales #emprendedores"
+}
