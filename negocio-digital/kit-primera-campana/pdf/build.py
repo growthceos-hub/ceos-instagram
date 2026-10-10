@@ -204,7 +204,7 @@ def transform(doc, body_html):
                 only_cards = False; break
             n += 1; sib = sib.find_next_sibling()
         if only_cards and n:
-            h2["class"] = "group"
+            h2["class"] = ["group"]
 
     # Tablas cortas: enteras en una página
     for t in soup.find_all("table"):
@@ -273,6 +273,12 @@ def transform(doc, body_html):
             if h2.get_text().startswith("Parte") or h2.get_text().startswith("Resumen"):
                 h2["class"] = (h2.get("class") or []) + ["newpage"]
 
+    # Sección normal tras una tarjeta de guion: en página nueva
+    for h2 in soup.find_all("h2"):
+        prev = h2.find_previous_sibling()
+        if prev is not None and prev.name == "section" and "card" in (prev.get("class") or []):
+            h2["class"] = (h2.get("class") or []) + ["newpage"]
+
     # Títulos nunca solos al pie: título + primer bloque juntos
     for h in list(soup.find_all(["h2", "h3"])):
         if h.find_parent("section", class_="card") or h.find_parent("header"):
@@ -309,7 +315,8 @@ def transform(doc, body_html):
         else:
             if el.find_parent("section", class_="card"):
                 continue
-            text = re.sub(r"\s+", " ", el.get_text("")).strip()
+            text = re.sub(r"\s+", " ", el.get_text(" ")).strip()
+            text = re.sub(r"\(\s+", "(", re.sub(r"\s+\)", ")", text))
             target = el
         if kind not in doc["toc_levels"]:
             continue
@@ -440,7 +447,8 @@ section.card h3{font-size:24pt;line-height:1.08;margin:0;font-weight:800;}
 .msg .bubble{background:#fff;border:1px solid var(--line);border-radius:1mm 4mm 4mm 4mm;padding:3.5mm 4.5mm;font-size:11.5pt;line-height:1.5;margin-left:9.5mm;}
 .msg .bubble p{margin:0;}
 /* Plantillas */
-section.tpl{break-inside:auto;margin:0 0 4mm;padding-top:2mm;}
+section.tpl{break-before:page;font-size:11.4pt;}
+section.tpl .canva{margin-top:7mm;font-size:10.5pt;}
 section.tpl>.keep>h2,section.tpl>h2{display:flex;align-items:center;gap:3.5mm;}
 section.tpl h2::before{display:none;}
 section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radius:2.5mm;padding:1mm 3mm;min-width:11mm;text-align:center;}
@@ -469,7 +477,7 @@ def page_html(doc, body, meta, toc, pages=None):
     if toc:
         items = []
         for tid, kind, text in toc:
-            pg = str(pages.get(tid, "")) if pages else "00"
+            pg = str(pages[tid] + 1) if pages and tid in pages else "00"  # +1: portada
             items.append(f'<li class="l-{kind}"><a href="#{tid}">{html.escape(text)}</a><span class="pg">{pg}</span></li>')
         cls = "toc cols" if doc.get("toc_cols") == 2 else "toc"
         toc_html = f'<nav class="{cls}"><h2>{html.escape(doc["toc_title"])}</h2><ol>{"".join(items)}</ol></nav>'
@@ -491,7 +499,7 @@ def chrome_html(doc, n):
             f'<div class="pg"><div class="hd"><span>Ceos Growth · Kit Primera Campaña</span>'
             f'<span class="sh">{html.escape(doc["short"])}</span></div>'
             f'<div class="ft"><span>{html.escape(COPY)}</span>'
-            f'<span class="no"><b>{i}</b> / {n}</span></div></div>')
+            f'<span class="no"><b>{i + 1}</b> / {n + 1}</span></div></div>')
     css = """@page{size:A4;margin:0}html,body{margin:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .pg{width:210mm;height:297mm;background:#F7F3EE;position:relative;break-after:page;overflow:hidden;
  font-family:'Instrument Sans',Arial,sans-serif;font-size:8pt;color:#6B625A}

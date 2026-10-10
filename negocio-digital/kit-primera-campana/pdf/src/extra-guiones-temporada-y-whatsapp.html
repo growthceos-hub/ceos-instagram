@@ -26,7 +26,7 @@ body{margin:0;background:var(--bg);color:var(--ink);
  font-size:10.6pt;line-height:1.55;}
 h1,h2,h3,.code,.kick,.toc h2,.cover .t{font-family:'Bricolage Grotesque','Instrument Sans','Arial Black',sans-serif;}
 .mk{position:absolute;left:0;top:0;font-size:2px;color:#F7F3EE;line-height:1;white-space:nowrap;}
-h2,h3{position:relative;}
+h2,h3,section,.keep{position:relative;}
 /* Portada */
 .cover{height:297mm;width:210mm;background:var(--ink);color:var(--bg);position:relative;overflow:hidden;
  padding:24mm 20mm;display:flex;flex-direction:column;break-after:page;}
@@ -58,7 +58,7 @@ h3{font-size:13.5pt;line-height:1.25;font-weight:700;margin:7mm 0 2.5mm;}
 .keep{break-inside:avoid;}
 .newpage{break-before:page;}
 .newpage>h2,.keep.newpage>h2,h2.newpage{margin-top:0;}
-h2.group{break-before:page;font-size:0;margin:0;height:0;overflow:hidden;}
+h2.group{display:none;}
 h2.group::before{display:none;}
 p{margin:0 0 3mm;}
 ul,ol{margin:0 0 3.5mm;padding-left:6mm;}
@@ -113,14 +113,15 @@ section.card h3{font-size:24pt;line-height:1.08;margin:0;font-weight:800;}
 .msg .bubble{background:#fff;border:1px solid var(--line);border-radius:1mm 4mm 4mm 4mm;padding:3.5mm 4.5mm;font-size:11.5pt;line-height:1.5;margin-left:9.5mm;}
 .msg .bubble p{margin:0;}
 /* Plantillas */
-section.tpl{break-inside:auto;margin:0 0 4mm;padding-top:2mm;}
+section.tpl{break-before:page;font-size:11.4pt;}
+section.tpl .canva{margin-top:7mm;font-size:10.5pt;}
 section.tpl>.keep>h2,section.tpl>h2{display:flex;align-items:center;gap:3.5mm;}
 section.tpl h2::before{display:none;}
 section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radius:2.5mm;padding:1mm 3mm;min-width:11mm;text-align:center;}
 .canva{display:grid;grid-template-columns:auto 1fr;gap:1mm 5mm;border:1.5px dashed var(--org);border-radius:2.5mm;padding:3mm 4.5mm;margin:4mm 0 2mm;font-size:9.6pt;break-inside:avoid;}
 .canva .lbl{font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:.08em;font-size:8.8pt;grid-row:span 2;align-self:center;}
 .canva .pending{color:var(--mut);font-style:italic;}
-</style></head><body><nav class="toc cols"><h2>Índice</h2><ol><li class="l-h2"><a href="#t1">Parte 1. 10 guiones de temporada</a><span class="pg">2</span></li><li class="l-card"><a href="#t2">T1 · Enero · Gimnasio · Empezar el año</a><span class="pg">1</span></li><li class="l-card"><a href="#t3">T2 · Rebajas · Peluquería o estética · Precio de enero o julio</a><span class="pg">1</span></li><li class="l-card"><a href="#t4">T3 · San Valentín · Restaurante</a><span class="pg">1</span></li><li class="l-card"><a href="#t5">T4 · Primavera · Inmobiliaria · Vender antes del verano</a><span class="pg">1</span></li><li class="l-card"><a href="#t6">T5 · Mayo · Peluquería y estética · Bodas y comuniones</a><span class="pg">1</span></li><li class="l-card"><a href="#t7">T6 · Antes de vacaciones · Taller · Revisión pre-viaje</a><span class="pg">1</span></li><li class="l-card"><a href="#t8">T7 · Verano · Fisioterapia · Volver a moverse</a><span class="pg">1</span></li><li class="l-card"><a href="#t9">T8 · Septiembre · Academia · Vuelta al cole</a><span class="pg">1</span></li><li class="l-card"><a href="#t10">T9 · Otoño · Reformas · Antes de Navidad</a><span class="pg">1</span></li><li class="l-card"><a href="#t11">T10 · Navidad · Restaurante · Cenas de empresa</a><span class="pg">1</span></li><li class="l-h2"><a href="#t12">Parte 2. 15 mensajes de WhatsApp para responder a los contactos</a><span class="pg">13</span></li><li class="l-h3"><a href="#t13">Primer mensaje (en los primeros 5 minutos)</a><span class="pg">13</span></li><li class="l-h3"><a href="#t14">Seguimiento</a><span class="pg">14</span></li><li class="l-h3"><a href="#t15">Dudas frecuentes</a><span class="pg">14</span></li><li class="l-h3"><a href="#t16">Citas</a><span class="pg">15</span></li><li class="l-h3"><a href="#t17">No-show (no se presentó)</a><span class="pg">15</span></li><li class="l-h3"><a href="#t18">Reactivación</a><span class="pg">15</span></li><li class="l-h2"><a href="#t19">Cuándo mandar cada uno</a><span class="pg">16</span></li></ol></nav><main>
+</style></head><body><nav class="toc cols"><h2>Índice</h2><ol><li class="l-h2"><a href="#t1">Parte 1. 10 guiones de temporada</a><span class="pg">3</span></li><li class="l-card"><a href="#t2">T1 · Enero · Gimnasio · Empezar el año</a><span class="pg">4</span></li><li class="l-card"><a href="#t3">T2 · Rebajas · Peluquería o estética · Precio de enero o julio</a><span class="pg">5</span></li><li class="l-card"><a href="#t4">T3 · San Valentín · Restaurante</a><span class="pg">6</span></li><li class="l-card"><a href="#t5">T4 · Primavera · Inmobiliaria · Vender antes del verano</a><span class="pg">7</span></li><li class="l-card"><a href="#t6">T5 · Mayo · Peluquería y estética · Bodas y comuniones</a><span class="pg">8</span></li><li class="l-card"><a href="#t7">T6 · Antes de vacaciones · Taller · Revisión pre-viaje</a><span class="pg">9</span></li><li class="l-card"><a href="#t8">T7 · Verano · Fisioterapia · Volver a moverse</a><span class="pg">10</span></li><li class="l-card"><a href="#t9">T8 · Septiembre · Academia · Vuelta al cole</a><span class="pg">11</span></li><li class="l-card"><a href="#t10">T9 · Otoño · Reformas · Antes de Navidad</a><span class="pg">12</span></li><li class="l-card"><a href="#t11">T10 · Navidad · Restaurante · Cenas de empresa</a><span class="pg">13</span></li><li class="l-h2"><a href="#t12">Parte 2. 15 mensajes de WhatsApp para responder a los contactos</a><span class="pg">14</span></li><li class="l-h3"><a href="#t13">Primer mensaje (en los primeros 5 minutos)</a><span class="pg">14</span></li><li class="l-h3"><a href="#t14">Seguimiento</a><span class="pg">15</span></li><li class="l-h3"><a href="#t15">Dudas frecuentes</a><span class="pg">15</span></li><li class="l-h3"><a href="#t16">Citas</a><span class="pg">16</span></li><li class="l-h3"><a href="#t17">No-show (no se presentó)</a><span class="pg">16</span></li><li class="l-h3"><a href="#t18">Reactivación</a><span class="pg">16</span></li><li class="l-h2"><a href="#t19">Cuándo mandar cada uno</a><span class="pg">17</span></li></ol></nav><main>
 
 
 <div class="keep"><h2 id="t1">Parte 1. 10 guiones de temporada</h2><p>Mismo formato que los 30 guiones del kit: para grabar con el móvil, de 20 a 40 segundos. Lo que va entre corchetes se cambia por lo tuyo. Los precios, fechas y números son <span class="kw">EJEMPLO</span>.</p></div>
@@ -149,7 +150,7 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 <section class="card" data-kicker="10 guiones de temporada" data-toc="T10 · Navidad · Restaurante · Cenas de empresa" id="t11"><header><div class="kick">10 guiones de temporada</div><div class="ct"><span class="code">T10</span><h3>Navidad · Restaurante · Cenas de empresa</h3></div></header><div class="row gancho"><div class="lbl">Gancho (0-3 s)</div><div class="txt">"Si te ha tocado organizar la cena de empresa, esto te quita trabajo."</div></div><div class="row cuerpo"><div class="lbl">Cuerpo</div><div class="txt">"En [NOMBRE NEGOCIO] tenemos menús de Navidad para grupos con precio cerrado por persona. Nos dices cuántos sois y el día, te mandamos las opciones y te guardamos la sala. Las fechas de diciembre se reservan en octubre y noviembre."</div></div><div class="row cta"><div class="lbl">CTA</div><div class="txt">"Pide los menús de grupo en el formulario y te los mandamos hoy por WhatsApp."</div></div><div class="row pantalla"><div class="lbl">En pantalla</div><div class="txt">mesa larga decorada; platos del menú; tú a cámara; texto "Cenas de empresa · Precio cerrado".</div></div><div class="row porque"><div class="lbl">Por qué engancha</div><div class="txt">El encargado de la cena de empresa tiene un problema este mes, y el anuncio le ofrece quitárselo.</div></div></section>
 
 
-<div class="keep"><h2 id="t12">Parte 2. 15 mensajes de WhatsApp para responder a los contactos</h2><div class="keep"><p><strong>Antes de usarlos:</strong></p><ul>
+<div class="keep newpage"><h2 class="newpage" id="t12">Parte 2. 15 mensajes de WhatsApp para responder a los contactos</h2><div class="keep"><p><strong>Antes de usarlos:</strong></p><ul>
 <li>Guárdalos como respuestas rápidas en WhatsApp Business (Herramientas para la empresa → Respuestas rápidas; el nombre del menú puede variar). Luego escribes "/" y el atajo.</li>
 <li>Cambia lo que va entre corchetes. Firma siempre con tu nombre: a una persona se le contesta antes que a una empresa.</li>
 <li>Apunta en la hoja de contactos del kit la hora de cada primer mensaje y en qué quedó.</li>

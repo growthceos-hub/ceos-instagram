@@ -26,7 +26,7 @@ body{margin:0;background:var(--bg);color:var(--ink);
  font-size:10.6pt;line-height:1.55;}
 h1,h2,h3,.code,.kick,.toc h2,.cover .t{font-family:'Bricolage Grotesque','Instrument Sans','Arial Black',sans-serif;}
 .mk{position:absolute;left:0;top:0;font-size:2px;color:#F7F3EE;line-height:1;white-space:nowrap;}
-h2,h3{position:relative;}
+h2,h3,section,.keep{position:relative;}
 /* Portada */
 .cover{height:297mm;width:210mm;background:var(--ink);color:var(--bg);position:relative;overflow:hidden;
  padding:24mm 20mm;display:flex;flex-direction:column;break-after:page;}
@@ -58,7 +58,7 @@ h3{font-size:13.5pt;line-height:1.25;font-weight:700;margin:7mm 0 2.5mm;}
 .keep{break-inside:avoid;}
 .newpage{break-before:page;}
 .newpage>h2,.keep.newpage>h2,h2.newpage{margin-top:0;}
-h2.group{break-before:page;font-size:0;margin:0;height:0;overflow:hidden;}
+h2.group{display:none;}
 h2.group::before{display:none;}
 p{margin:0 0 3mm;}
 ul,ol{margin:0 0 3.5mm;padding-left:6mm;}
@@ -113,14 +113,15 @@ section.card h3{font-size:24pt;line-height:1.08;margin:0;font-weight:800;}
 .msg .bubble{background:#fff;border:1px solid var(--line);border-radius:1mm 4mm 4mm 4mm;padding:3.5mm 4.5mm;font-size:11.5pt;line-height:1.5;margin-left:9.5mm;}
 .msg .bubble p{margin:0;}
 /* Plantillas */
-section.tpl{break-inside:auto;margin:0 0 4mm;padding-top:2mm;}
+section.tpl{break-before:page;font-size:11.4pt;}
+section.tpl .canva{margin-top:7mm;font-size:10.5pt;}
 section.tpl>.keep>h2,section.tpl>h2{display:flex;align-items:center;gap:3.5mm;}
 section.tpl h2::before{display:none;}
 section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radius:2.5mm;padding:1mm 3mm;min-width:11mm;text-align:center;}
 .canva{display:grid;grid-template-columns:auto 1fr;gap:1mm 5mm;border:1.5px dashed var(--org);border-radius:2.5mm;padding:3mm 4.5mm;margin:4mm 0 2mm;font-size:9.6pt;break-inside:avoid;}
 .canva .lbl{font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:.08em;font-size:8.8pt;grid-row:span 2;align-self:center;}
 .canva .pending{color:var(--mut);font-style:italic;}
-</style></head><body><nav class="toc"><h2>Índice</h2><ol><li class="l-h2"><a href="#t1">Reglas comunes a las 10</a><span class="pg">2</span></li><li class="l-h2"><a href="#t2">1Oferta directa</a><span class="pg">3</span></li><li class="l-h2"><a href="#t3">2Pregunta gancho</a><span class="pg">3</span></li><li class="l-h2"><a href="#t4">3Tu primera visita en 3 pasos</a><span class="pg">4</span></li><li class="l-h2"><a href="#t5">4Tres preguntas antes de contratar</a><span class="pg">4</span></li><li class="l-h2"><a href="#t6">5Error común</a><span class="pg">5</span></li><li class="l-h2"><a href="#t7">6Plazas limitadas</a><span class="pg">5</span></li><li class="l-h2"><a href="#t8">7Habla el dueño</a><span class="pg">6</span></li><li class="l-h2"><a href="#t9">8Reseña de cliente</a><span class="pg">7</span></li><li class="l-h2"><a href="#t10">9Qué incluye</a><span class="pg">7</span></li><li class="l-h2"><a href="#t11">10Fecha o temporada</a><span class="pg">8</span></li><li class="l-h2"><a href="#t12">Cómo combinarlas en tu primera campaña</a><span class="pg">8</span></li></ol></nav><main>
+</style></head><body><nav class="toc"><h2>Índice</h2><ol><li class="l-h2"><a href="#t1">Reglas comunes a las 10</a><span class="pg">3</span></li><li class="l-h2"><a href="#t2">1 Oferta directa</a><span class="pg">4</span></li><li class="l-h2"><a href="#t3">2 Pregunta gancho</a><span class="pg">5</span></li><li class="l-h2"><a href="#t4">3 Tu primera visita en 3 pasos</a><span class="pg">6</span></li><li class="l-h2"><a href="#t5">4 Tres preguntas antes de contratar</a><span class="pg">7</span></li><li class="l-h2"><a href="#t6">5 Error común</a><span class="pg">8</span></li><li class="l-h2"><a href="#t7">6 Plazas limitadas</a><span class="pg">9</span></li><li class="l-h2"><a href="#t8">7 Habla el dueño</a><span class="pg">10</span></li><li class="l-h2"><a href="#t9">8 Reseña de cliente</a><span class="pg">11</span></li><li class="l-h2"><a href="#t10">9 Qué incluye</a><span class="pg">12</span></li><li class="l-h2"><a href="#t11">10 Fecha o temporada</a><span class="pg">13</span></li><li class="l-h2"><a href="#t12">Cómo combinarlas en tu primera campaña</a><span class="pg">13</span></li></ol></nav><main>
 
 <div class="notice"><strong>Enlaces de Canva:</strong> las plantillas editables se añadirán en la próxima actualización del kit. Cada plantilla tiene un hueco reservado para su enlace. Mientras tanto, con esta especificación puedes montarlas tú en Canva.</div><div class="keep"><p>Especificación para diseñar en Canva. Cada plantilla se entrega en dos tamaños:</p><ul>
 <li><strong>1080 × 1350 px (4:5)</strong>: feed de Instagram y Facebook.</li>
