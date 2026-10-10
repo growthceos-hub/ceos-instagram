@@ -33,7 +33,7 @@ Estos guiones están escritos para que los digas tú, el dueño o la dueña del 
 
 ### P1. El retoque a las dos semanas
 - **Gancho (0-3 s):** "Si sales de la peluquería y a las dos semanas ya tienes que volver, el problema es el corte."
-- **Cuerpo:** "Soy [NOMBRE], de [NOMBRE NEGOCIO], en [BARRIO]. Antes de coger las tijeras te pregunto cómo te peinas en casa, cuánto tiempo le dedicas y qué te molesta del corte que llevas. Y cortamos para que aguante. Para que te veas bien el día 20, no solo el día que sales de aquí."
+- **Cuerpo:** "Soy [NOMBRE], de [NOMBRE NEGOCIO], en [BARRIO]. Antes de coger las tijeras te pregunto cómo te peinas en casa, cuánto tiempo le dedicas y qué te molesta del corte que llevas. Y cortamos para que aguante. Que el día 20 te sigas viendo bien."
 - **CTA:** "Pide tu primera cita en el formulario y te escribimos hoy por WhatsApp para darte hora."
 - **En pantalla:** tú a cámara en el sillón vacío; plano de las tijeras; plano corto de un peinado terminado (de alguien que haya dado permiso); texto "Corte que aguanta" al final.
 - **Por qué funciona el gancho:** nombra una molestia que casi todo el mundo ha vivido y le da la vuelta en la misma frase.
@@ -54,14 +54,14 @@ Estos guiones están escritos para que los digas tú, el dueño o la dueña del 
 
 ### P4. Barbería: la cita en dos mensajes
 - **Gancho (0-3 s):** "Pedir cita en la barbería no debería costarte tres llamadas."
-- **Cuerpo:** "En [NOMBRE NEGOCIO] nos dejas el teléfono, te escribimos por WhatsApp con los huecos libres y eliges. Dos mensajes. Llegas, no esperas, te sientas. Corte, barba o las dos cosas, en [BARRIO]."
+- **Cuerpo:** "En [NOMBRE NEGOCIO] nos dejas el teléfono, te escribimos por WhatsApp con los huecos libres y eliges. Dos mensajes, y llegas y te sientas sin esperar. Corte, barba o las dos cosas, en [BARRIO]."
 - **CTA:** "Toca el botón, deja tu número y te pasamos los huecos de esta semana."
 - **En pantalla:** plano del móvil con un chat de WhatsApp de ejemplo (sin datos reales); tú cortando; texto "Cita en 2 mensajes".
 - **Por qué funciona el gancho:** promete quitar una molestia pequeña pero muy repetida.
 
 ### P5. El color que no era
 - **Gancho (0-3 s):** "Pediste castaño claro y saliste con un naranja que no te esperabas. A más de una le ha pasado."
-- **Cuerpo:** "Por eso antes de cualquier color hacemos una prueba en un mechón y te enseñamos el tono con luz natural, al lado de la ventana. Si no te convence, no seguimos. Así de simple."
+- **Cuerpo:** "Por eso antes de cualquier color hacemos una prueba en un mechón y te enseñamos el tono con luz natural, al lado de la ventana. Si no te convence, no seguimos."
 - **CTA:** "Pide tu valoración de color gratis en el formulario. Te escribimos hoy."
 - **En pantalla:** tú a cámara junto a la ventana; plano de la carta de colores; plano de un mechón de prueba; texto "Prueba de color antes de empezar".
 - **Por qué funciona el gancho:** describe una escena concreta que quien la ha vivido reconoce al momento.
@@ -132,7 +132,7 @@ Estos guiones están escritos para que los digas tú, el dueño o la dueña del 
 
 ### R4. Cocina abierta
 - **Gancho (0-3 s):** "Te enseño lo que pasa en nuestra cocina a las diez de la mañana."
-- **Cuerpo:** "Llega el producto. Lo revisamos. Empezamos los fondos, cortamos, preparamos. Todo lo que comes a mediodía empezó aquí hace horas. Así cocinamos en [NOMBRE NEGOCIO], y así lo vas a probar."
+- **Cuerpo:** "Llega el producto. Lo revisamos. Empezamos los fondos, cortamos, preparamos. Todo lo que comes a mediodía empezó aquí hace horas. Y eso es lo que llega a tu mesa en [NOMBRE NEGOCIO]."
 - **CTA:** "Reserva tu mesa en el formulario. Te contestamos por WhatsApp."
 - **En pantalla:** planos rápidos de cocina: cajas de producto, cuchillo, olla, manos trabajando; al final tú a cámara; texto con la hora "10:00".
 - **Por qué funciona el gancho:** promete enseñar algo que normalmente no se ve.
@@ -256,7 +256,7 @@ Estos guiones están escritos para que los digas tú, el dueño o la dueña del 
 
 ### A5. Profesor que se acuerda de ti
 - **Gancho (0-3 s):** "En una clase de treinta, nadie se da cuenta de que no te has enterado."
-- **Cuerpo:** "En [NOMBRE NEGOCIO] los grupos son de [NÚMERO] como mucho. Si algo no lo pillas, se nota, y lo repetimos hasta que salga. Así se aprende de verdad."
+- **Cuerpo:** "En [NOMBRE NEGOCIO] los grupos son de [NÚMERO] como mucho. Si algo no lo pillas, se nota, y lo repetimos hasta que salga."
 - **CTA:** "Ven a una clase de prueba. Deja tu teléfono y te damos día."
 - **En pantalla:** aula con pocos alumnos; profesor explicando a uno en concreto; texto con el tamaño máximo del grupo.
 - **Por qué funciona el gancho:** recuerda una experiencia que casi todo el mundo ha tenido en el colegio.

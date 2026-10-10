@@ -184,24 +184,22 @@ Con poco presupuesto, cada división reparte el dinero en trozos que no aprenden
 2. Objetivo: **Clientes potenciales**. Verás seis: Reconocimiento, Tráfico, Interacción, Clientes potenciales, Promoción de la app y Ventas. Para citas y presupuestos, Clientes potenciales.
 3. Si Meta te propone una configuración de campaña Advantage+ (automatizada), puedes aceptarla. Revisa igualmente cada punto de esta lista, porque tienes que poner tú la zona, el presupuesto y el formulario.
 4. **Categoría especial de anuncio**: si eres inmobiliaria o anuncias algo relacionado con vivienda (alquiler, venta, hipotecas), tienes que declararla. Meta limitará algunas opciones de segmentación, como la edad o un radio muy pequeño. Si no la declaras, te pueden rechazar anuncios o restringir la cuenta. Una empresa de reformas normalmente no entra; revisa la definición de Meta si dudas.
-5. Nombre de la campaña: algo que entiendas dentro de tres meses. **EJEMPLO:** "Captación · Valoración gratis · Oct".
 
 ### 4.2 El conjunto de anuncios
 
 1. **Ubicación de la conversión**: Formularios instantáneos (o Sitio web si vas por el camino del píxel, o WhatsApp si vas por mensajes).
 2. **Presupuesto diario**: el que calculaste. En el conjunto o en la campaña: con un solo conjunto da igual.
-3. **Calendario**: sin fecha de fin al principio. La apagarás tú cuando toque.
+3. **Calendario**: sin fecha de fin.
 4. **Público**:
    - Ubicación: tu ciudad o un radio alrededor de tu dirección. Elige la opción de personas que **viven** en esa zona o han estado allí recientemente, y evita "personas de viaje en esta ubicación" si tu servicio es para gente del barrio.
    - Edad: el mínimo legal o el que tenga sentido para tu servicio. Ten en cuenta que, con el público Advantage+, la edad que pones puede funcionar como sugerencia y no como límite estricto, salvo que la marques como control obligatorio.
    - Intereses: ninguno al empezar.
-   - Idioma: déjalo en blanco salvo que tu negocio atienda en un idioma concreto.
 5. **Ubicaciones** (dónde se ven los anuncios): deja las ubicaciones Advantage+ activadas. Meta repartirá entre Instagram, Facebook y el resto según dónde encuentre contactos más baratos.
-6. **Objetivo de rendimiento**: maximizar el número de clientes potenciales. Si te aparece una opción de clientes potenciales de conversión (que optimiza según lo que pasa después en tu CRM), déjala para más adelante: necesita que le devuelvas datos de qué contactos acabaron comprando.
+6. **Objetivo de rendimiento**: maximizar el número de clientes potenciales. Si ves una opción de clientes potenciales de conversión, déjala para más adelante: necesita que le devuelvas a Meta qué contactos acabaron comprando.
 
 ### 4.3 Los tres anuncios
 
-Van en el mismo conjunto y Meta dará más presupuesto al que mejor funcione. Cada uno con un **gancho distinto**: si los tres empiezan igual y solo cambia el color, no aprendes nada. Una combinación para empezar:
+Van en el mismo conjunto y Meta dará más presupuesto al que mejor funcione. Cada uno con un **gancho distinto**: si los tres empiezan igual y solo cambia el color, no aprendes nada. Por ejemplo:
 
 - **Anuncio 1**: vídeo tuyo hablando a cámara con un gancho de pregunta o de problema (guiones del kit).
 - **Anuncio 2**: vídeo tuyo con otro gancho, de otro ángulo (por ejemplo, el de "error común" o el de "lo que pasa en la primera visita").
@@ -217,7 +215,7 @@ Para cada anuncio:
 6. **Formulario**: el que creaste.
 7. **Mejoras automáticas de contenido** (Meta las llama mejoras de Advantage+ creative): pueden recortar, añadir música o cambiar el brillo. Revísalas una por una y desactiva las que cambien tu mensaje o le pongan música que no pega con tu negocio.
 
-Antes de publicar, mira la vista previa en Instagram Stories, Reels y feed. Comprueba que el texto importante no queda tapado por los botones de la app.
+Antes de publicar, mira la vista previa en Stories, Reels y feed: que los botones de la app no tapen el texto importante.
 
 ### 4.4 Publicar
 
@@ -238,11 +236,11 @@ Para estas revisiones te bastan cuatro columnas en el Administrador de anuncios 
 | Coste por resultado | Cuánto te cuesta cada contacto |
 | CTR (porcentaje de clics en el enlace) | Si el anuncio hace que la gente toque |
 
-Si usas vídeo, añade una quinta: las reproducciones de 3 segundos divididas entre impresiones (algunos paneles lo llaman tasa de retención o "hook rate"). Te dice si el gancho para el scroll.
+Si usas vídeo, añade las reproducciones de 3 segundos: te dicen si el gancho para el scroll.
 
 ### Día 1: ¿funciona la tubería?
 
-No mires si es caro o barato. Mira si todo está conectado.
+Hoy no importa si es caro. Importa que todo esté conectado.
 
 - ¿Los anuncios están **activos** y gastando? Si alguno sigue "en revisión" tras 24 horas o está rechazado, arréglalo.
 - ¿Ha entrado algún contacto? Si sí, ¿te ha llegado el aviso al momento? ¿Le has escrito en menos de 5 minutos?
@@ -253,7 +251,7 @@ Qué cambiar el día 1: solo lo que esté roto. Un formulario que no notifica, u
 ### Día 3: primeras señales
 
 - **¿Cuánto has gastado frente a tu coste máximo por contacto?** Si llevas gastado menos de dos veces tu coste máximo, aún no tienes datos suficientes para juzgar. Espera.
-- **¿Qué anuncio se está llevando el presupuesto?** Normal que uno se lleve la mayor parte. Meta ya ve algo en él.
+- **¿Qué anuncio se lleva el presupuesto?** Es normal que uno se lleve casi todo.
 - **¿Qué tal son los contactos?** Esto es lo más importante y no sale en el panel. ¿Contestan? ¿Piden cita? ¿O nadie coge el teléfono?
 
 Qué cambiar el día 3:
@@ -263,7 +261,7 @@ Qué cambiar el día 3:
 
 ### Día 7: primera decisión de verdad
 
-Con una semana tienes una foto razonable. Coge papel y apunta:
+Coge papel y apunta:
 
 1. Gasto total.
 2. Contactos totales.
@@ -282,9 +280,7 @@ Y decide con esta tabla:
 | Casi nadie ve el anuncio entero (si es vídeo) | Los 3 primeros segundos no paran el scroll. Regraba solo el inicio con otro gancho |
 | Sin contactos en toda la semana | Revisa por este orden: que el formulario funciona, que la zona no sea demasiado pequeña, que la oferta se entienda. Luego cambia los tres anuncios |
 
-**Cómo cambiar anuncios sin romper nada.** Al cambiar, apaga el peor anuncio y añade uno nuevo en el mismo conjunto. No dupliques la campaña ni crees una nueva cada semana: pierdes lo que Meta ya ha aprendido.
-
-**Cómo subir presupuesto.** Poco a poco. Saltos grandes de golpe suelen descolocar la entrega unos días.
+Para cambiar anuncios, apaga el peor y añade uno nuevo en el mismo conjunto. No dupliques la campaña cada semana: pierdes lo que Meta ya ha aprendido. Y el presupuesto, súbelo poco a poco.
 
 ### A partir de la semana 2
 
@@ -300,8 +296,8 @@ Aquí se pierden muchos contactos que ya habías pagado. Quien acaba de rellenar
 
 ### 6.1 Prepara el sistema antes de lanzar
 
-1. **Decide quién contesta.** Una persona concreta por franja horaria. Si sois dos, repartid: mañanas tú, tardes ella.
-2. **Decide desde dónde.** Lo más práctico es WhatsApp Business desde el móvil del negocio. Configura el perfil con el nombre del negocio, la dirección, el horario y una foto reconocible.
+1. **Decide quién contesta.** Una persona concreta por franja horaria.
+2. **Decide desde dónde.** Lo más práctico es WhatsApp Business desde el móvil del negocio. Con nombre, dirección, horario y foto del negocio en el perfil.
 3. **Ten los mensajes preparados.** En WhatsApp Business puedes guardar respuestas rápidas: escribes "/" y eliges el mensaje. Guarda ahí el primer mensaje, el de seguimiento y el de confirmación de cita. El pack de WhatsApp del kit (order bump) trae 15 listos.
 4. **Que suene el aviso.** Comprueba con una prueba real que, cuando entra un contacto, suena en el móvil de quien contesta.
 5. **Fuera de horario.** Si entra un contacto a las 23:00, contesta a primera hora y dilo en la pantalla final del formulario ("Te escribimos en horario de 9 a 20 h").
@@ -312,12 +308,9 @@ Corto, con tu nombre, recordando lo que pidió, y con una pregunta fácil de con
 
 > Hola, Laura. Soy Marta, de [NOMBRE NEGOCIO]. Te escribo porque acabas de pedir la valoración gratis. ¿Te viene mejor esta semana por la mañana o por la tarde?
 
-Por qué funciona: se presenta, recuerda de dónde viene (mucha gente rellena formularios sin acordarse luego), y le da dos opciones en vez de una pregunta abierta.
+Se presenta, le recuerda qué pidió (hay quien rellena formularios y luego no se acuerda) y le da dos opciones en vez de una pregunta abierta.
 
-Evita:
-- Mensajes largos con todo tu catálogo.
-- Mandar solo el enlace de reservas sin presentarte.
-- Llamar sin avisar antes por escrito. Hay gente que no coge números desconocidos; un WhatsApp primero y luego la llamada funciona mejor.
+Evita mandar todo tu catálogo o solo un enlace de reservas sin presentarte. Y escribe antes de llamar: mucha gente no coge números desconocidos.
 
 ### 6.3 Si no contesta
 
@@ -326,7 +319,7 @@ Evita:
 - **A las 72 horas**, un último mensaje que le deje la puerta abierta.
 - Después, para. Marca el contacto como "frío" y vuelve a escribirle dentro de unas semanas solo si tienes algo nuevo (una fecha, una oferta de temporada).
 
-Más de tres o cuatro intentos seguidos molesta y puede hacer que te bloqueen el número.
+Más intentos molestan y pueden hacer que te bloqueen el número.
 
 ### 6.4 Apunta cada contacto
 
@@ -338,51 +331,26 @@ Sin esta hoja sabrás cuántos contactos entraron, pero no cuántos clientes.
 
 ## Parte 7. Errores típicos
 
-Si ya probaste los anuncios y te fue mal, probablemente fue por alguno de estos.
+Si ya probaste y te fue mal, seguramente fue por alguno de estos.
 
-1. **Usar el botón "Promocionar" de Instagram.** Es cómodo, pero suele optimizar para visitas o interacciones, no para contactos. Para captar, usa el Administrador de anuncios.
-2. **Elegir el objetivo equivocado.** Interacción o Reconocimiento traen "me gusta" y alcance. Si quieres citas, Clientes potenciales.
-3. **Repartir poco dinero en muchos conjuntos.** Uno con 10 € al día aprende; cinco con 2 € cada uno, no.
-4. **Oferta genérica.** "Ven a conocernos" no da motivo para escribir.
-5. **Tardar en contestar.** Si no puedes atender rápido, gasta menos y atiende bien.
-6. **Tocar la campaña cada día o apagarla a los dos días.** Revisa los días 1, 3 y 7 y juzga con al menos dos veces tu coste máximo por contacto gastado.
-7. **Anuncios que parecen anuncios.** Una foto de banco de imágenes con "OFERTA" en grande se pasa sin mirar. Un vídeo tuyo, en tu local, hablando como hablas con tus clientes, para el scroll.
-8. **Hablar de ti antes que del cliente.** "Llevamos 20 años en el sector" interesa poco en el segundo uno. Empieza por el problema de quien mira; tu experiencia va después.
-9. **Segmentar de más.** Diez intereses, una franja de edad estrecha y un radio de un kilómetro dejan un público diminuto y caro.
-10. **Formulario largo.** Nombre, teléfono y una pregunta.
-11. **No apuntar quién se hace cliente.** Un contacto barato que nunca compra sale carísimo.
-12. **Prometer lo que el anuncio no puede decir**, o no declarar la categoría de vivienda si eres inmobiliaria. Meta rechaza anuncios y, si se repite, limita la cuenta.
+1. **Usar el botón "Promocionar" de Instagram.** Es cómodo, pero suele optimizar para visitas o interacciones. Para captar, Administrador de anuncios y objetivo Clientes potenciales.
+2. **Oferta genérica.** "Ven a conocernos" no da motivo para escribir.
+3. **Tardar en contestar.** Si no puedes atender rápido, gasta menos y atiende bien.
+4. **Tocar la campaña cada día, o apagarla a los dos días.** Revisa los días 1, 3 y 7.
+5. **Anuncios que parecen anuncios.** Una foto de banco de imágenes con "OFERTA" en grande se pasa sin mirar. Un vídeo tuyo en tu local, hablando como hablas con tus clientes, se mira.
+6. **Hablar de ti antes que del cliente.** "Llevamos 20 años en el sector" interesa poco en el primer segundo. Empieza por el problema de quien mira.
+7. **Segmentar de más.** Diez intereses y un radio de un kilómetro dejan un público diminuto y caro.
+8. **No apuntar quién se hace cliente.** Un contacto barato que nunca compra sale carísimo.
+9. **Prometer lo que el anuncio no puede decir**, o no declarar la categoría de vivienda si eres inmobiliaria. Meta rechaza anuncios y, si se repite, limita la cuenta.
 
 ---
 
 ## Resumen en una página
 
-**Antes:**
-- [ ] Oferta concreta, en una frase, que puedas cumplir.
-- [ ] Cliente ideal en una línea.
-- [ ] Coste máximo por contacto calculado.
-- [ ] Presupuesto diario decidido (presupuesto mensual entre 30).
-
-**Cuenta:**
-- [ ] Portfolio comercial a tu nombre, con página e Instagram.
-- [ ] Cuenta publicitaria en euros y hora de Madrid.
-- [ ] Método de pago y límite de gasto.
-- [ ] Verificación en dos pasos.
-
-**Campaña:**
-- [ ] Objetivo Clientes potenciales.
-- [ ] Categoría especial si es vivienda.
-- [ ] Un conjunto: tu zona, sin intereses, ubicaciones Advantage+.
-- [ ] Formulario de mayor intención: nombre, teléfono, una pregunta, privacidad.
-- [ ] Tres anuncios con tres ganchos distintos.
-- [ ] Prueba del formulario hecha y aviso recibido.
-
-**Después:**
-- [ ] Contestar en menos de 5 minutos con el primer mensaje preparado.
-- [ ] Seguimiento a las 24 h y 72 h.
-- [ ] Hoja de contactos al día.
-- [ ] Revisión los días 1, 3 y 7 con la tabla de decisiones.
-- [ ] Un anuncio nuevo por semana en lugar del peor.
+- **Antes:** oferta concreta que puedas cumplir, cliente ideal en una línea, coste máximo por contacto, presupuesto diario (mensual entre 30).
+- **Cuenta:** portfolio comercial a tu nombre con página e Instagram, cuenta en euros y hora de Madrid, límite de gasto, verificación en dos pasos.
+- **Campaña:** Clientes potenciales, categoría especial si es vivienda, un conjunto con tu zona y sin intereses, formulario de mayor intención con una sola pregunta, tres anuncios con tres ganchos, prueba del formulario hecha.
+- **Después:** contestar en menos de 5 minutos, seguimiento a las 24 y 72 horas, hoja de contactos al día, revisión los días 1, 3 y 7, un anuncio nuevo por semana en lugar del peor.
 
 ---
 
