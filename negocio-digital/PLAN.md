@@ -52,7 +52,8 @@ Se prueba diseño animado frente a capturas sin pulir; no se da por hecho que ga
 | Landing | Cloudflare Pages (GitHub Pages prohíbe tiendas en sus condiciones) | 0 € |
 | Dominio | .es en DonDominio | ≈6 €/año |
 | Cobro | Stripe Payment Link con venta cruzada + factura | 1,5 % + 0,25 € por venta |
-| Entrega | Webhook de Stripe → Make → email con Brevo | 0 € (planes gratis) |
+| Entrega | Webhook de Stripe → Make → email con Gmail de Ceos (ya conectado en Make); Brevo cuando haya volumen | 0 € |
+| Registro de ventas | Google Sheets (ya conectado en Make) | 0 € |
 | CRM | HubSpot | 0 € |
 | Medición | Make → Conversions API (Purchase con `event_id`, deduplicado con el Pixel de la página de gracias); Windsor lee el coste por compra a diario | 0 € |
 
