@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Política de cookies | Ceos Growth</title>
 <meta name="description" content="Qué cookies usa esta web y cómo gestionarlas.">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="noindex,follow">
 <link rel="canonical" href="https://{{DOMINIO}}/cookies.html">
 <link rel="icon" type="image/png" href="media/logo.png">
 <link rel="apple-touch-icon" href="media/logo.png">
@@ -16,7 +16,11 @@
 <meta property="og:description" content="Qué cookies usa esta web y cómo gestionarlas.">
 <meta property="og:url" content="https://{{DOMINIO}}/cookies.html">
 <meta property="og:image" content="https://{{DOMINIO}}/media/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kit Primera Campaña, 27 euros. Ceos Growth, Burgos.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://{{DOMINIO}}/media/og.jpg">
 <meta name="theme-color" content="#0A0908">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -30,10 +34,12 @@
 <h1>Política de cookies</h1>
 
 <h2>Qué usamos</h2>
+<div tabindex="0" role="region" aria-label="Tabla de cookies">
 <table><thead><tr><th>Nombre</th><th>Quién</th><th>Para qué</th><th>Cuándo se activa</th><th>Duración</th></tr></thead><tbody>
-<tr><td>ceos_cookies (almacenamiento local)</td><td>Esta web</td><td>Recordar si aceptaste o rechazaste</td><td>Siempre (técnica, necesaria)</td><td>Hasta que la borres</td></tr>
+<tr><td>ceos_cookies (almacenamiento local)</td><td>Esta web</td><td>Recordar si aceptaste o rechazaste</td><td>Siempre (técnica, necesaria)</td><td>12 meses; después te volvemos a preguntar</td></tr>
 <tr><td>_fbp, _fbc</td><td>Meta (Pixel)</td><td>Saber si la visita viene de un anuncio y si acaba en compra</td><td>Solo si pulsas "Aceptar"</td><td>Hasta 90 días</td></tr>
 </tbody></table>
+</div>
 <p>No usamos cookies de analítica de terceros ni publicidad de otras empresas. Las fuentes de la web se sirven desde el propio dominio, sin llamadas a Google.</p>
 <h2>Cómo cambiar tu decisión</h2>
 <p>Pulsa "Ajustar cookies" en el pie de cualquier página. También puedes borrar las cookies desde los ajustes de tu navegador.</p>
@@ -45,10 +51,10 @@
 <p class="nota">Última actualización: 10 de octubre de 2026.</p></div></main>
 <footer><div class="wrap">
 <p><strong>CEOS GROWTH, S.L.</strong> · CIF {{NIF}} · C/ Ricardo Pérez 84, 09001 Burgos · <a href="mailto:{{EMAIL_SOPORTE}}">{{EMAIL_SOPORTE}}</a></p>
-<nav aria-label="Legal"><a href="aviso-legal.html">Aviso legal</a><a href="condiciones.html">Condiciones de compra</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="#" id="reabrir-cookies">Ajustar cookies</a></nav>
+<nav aria-label="Legal"><a href="aviso-legal.html">Aviso legal</a><a href="condiciones.html">Condiciones de compra</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><button type="button" class="linklike" id="reabrir-cookies">Ajustar cookies</button></nav>
 <p>Precios con IVA incluido. Kit Primera Campaña es un producto de Ceos Growth. No está afiliado ni respaldado por Meta, Instagram ni Canva.</p>
 </div></footer>
-<div class="cookies" id="cookies" role="region" aria-label="Cookies" hidden>
+<div class="cookies" id="cookies" role="dialog" aria-modal="false" aria-label="Preferencias de cookies" tabindex="-1" hidden>
 <p>Usamos una cookie de medición de Meta para saber si nuestros anuncios funcionan, y solo si nos dejas. Sin ella, la web funciona igual. <a href="cookies.html">Más información</a></p>
 <div class="acc"><button class="btn" type="button" data-si>Aceptar</button><button class="btn sec" type="button" data-no>Rechazar</button></div>
 </div>

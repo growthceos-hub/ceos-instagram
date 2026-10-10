@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Política de privacidad | Ceos Growth</title>
 <meta name="description" content="Cómo tratamos tus datos personales al comprar el Kit Primera Campaña.">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="noindex,follow">
 <link rel="canonical" href="https://{{DOMINIO}}/privacidad.html">
 <link rel="icon" type="image/png" href="media/logo.png">
 <link rel="apple-touch-icon" href="media/logo.png">
@@ -16,7 +16,11 @@
 <meta property="og:description" content="Cómo tratamos tus datos personales al comprar el Kit Primera Campaña.">
 <meta property="og:url" content="https://{{DOMINIO}}/privacidad.html">
 <meta property="og:image" content="https://{{DOMINIO}}/media/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kit Primera Campaña, 27 euros. Ceos Growth, Burgos.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://{{DOMINIO}}/media/og.jpg">
 <meta name="theme-color" content="#0A0908">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -32,6 +36,7 @@
 <h2>Responsable</h2>
 <p><strong>CEOS GROWTH, S.L.</strong><br>CIF {{NIF}}<br>C/ Ricardo Pérez 84, 09001 Burgos (España)<br>Email: <a href="mailto:{{EMAIL_SOPORTE}}">{{EMAIL_SOPORTE}}</a></p>
 <h2>Qué datos tratamos y para qué</h2>
+<div tabindex="0" role="region" aria-label="Tabla de tratamientos de datos">
 <table><thead><tr><th>Finalidad</th><th>Datos</th><th>Base legal</th><th>Plazo</th></tr></thead><tbody>
 <tr><td>Vender el kit y cobrar</td><td>Nombre, email, datos de facturación, importe. Los datos de tarjeta los gestiona Stripe; nosotros no los vemos.</td><td>Ejecución del contrato (art. 6.1.b RGPD)</td><td>Mientras dure la compra y la garantía</td></tr>
 <tr><td>Entregar el kit por email</td><td>Nombre, email</td><td>Ejecución del contrato</td><td>Mientras dure la compra y la garantía</td></tr>
@@ -40,12 +45,14 @@
 <tr><td>Mandarte emails que no son de la compra (novedades, ofertas como la auditoría)</td><td>Nombre, email</td><td>Tu consentimiento (art. 6.1.a), que puedes retirar cuando quieras</td><td>Hasta que te des de baja</td></tr>
 <tr><td>Medir si nuestros anuncios funcionan (Pixel y API de conversiones de Meta)</td><td>Identificadores de navegador, página visitada, compra, email con hash</td><td>Tu consentimiento</td><td>Según Meta; puedes retirarlo en "Ajustar cookies"</td></tr>
 </tbody></table>
+</div>
 <p>Cada email comercial lleva enlace de baja.</p>
 <h2>Quién más accede a los datos</h2>
 <p>Usamos proveedores que tratan datos por nuestra cuenta como encargados del tratamiento, con contrato:</p>
 <ul>
 <li><strong>Stripe</strong>: cobro, recibos y facturas.</li>
-<li><strong>Brevo</strong>: envío de los emails.</li>
+<li><strong>Google</strong> (Gmail y Google Sheets): correo de entrega y de soporte, y registro de ventas.</li>
+<li><strong>Cloudflare</strong>: alojamiento de la web; trata tu IP y registros técnicos.</li>
 <li><strong>HubSpot</strong>: gestión de contactos y soporte.</li>
 <li><strong>Make</strong>: automatiza el paso de datos entre esas herramientas.</li>
 <li><strong>Meta</strong>: medición de anuncios, solo con tu consentimiento. En este caso Meta puede actuar también por su cuenta; consulta su política.</li>
@@ -61,10 +68,10 @@
 <p class="nota">Última actualización: 10 de octubre de 2026.</p></div></main>
 <footer><div class="wrap">
 <p><strong>CEOS GROWTH, S.L.</strong> · CIF {{NIF}} · C/ Ricardo Pérez 84, 09001 Burgos · <a href="mailto:{{EMAIL_SOPORTE}}">{{EMAIL_SOPORTE}}</a></p>
-<nav aria-label="Legal"><a href="aviso-legal.html">Aviso legal</a><a href="condiciones.html">Condiciones de compra</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="#" id="reabrir-cookies">Ajustar cookies</a></nav>
+<nav aria-label="Legal"><a href="aviso-legal.html">Aviso legal</a><a href="condiciones.html">Condiciones de compra</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><button type="button" class="linklike" id="reabrir-cookies">Ajustar cookies</button></nav>
 <p>Precios con IVA incluido. Kit Primera Campaña es un producto de Ceos Growth. No está afiliado ni respaldado por Meta, Instagram ni Canva.</p>
 </div></footer>
-<div class="cookies" id="cookies" role="region" aria-label="Cookies" hidden>
+<div class="cookies" id="cookies" role="dialog" aria-modal="false" aria-label="Preferencias de cookies" tabindex="-1" hidden>
 <p>Usamos una cookie de medición de Meta para saber si nuestros anuncios funcionan, y solo si nos dejas. Sin ella, la web funciona igual. <a href="cookies.html">Más información</a></p>
 <div class="acc"><button class="btn" type="button" data-si>Aceptar</button><button class="btn sec" type="button" data-no>Rechazar</button></div>
 </div>

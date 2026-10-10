@@ -20,7 +20,7 @@ body{margin:0;background:#0A0908}
 @keyframes cDraw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 @keyframes pop{0%{opacity:0;transform:scale(.6) rotate(var(--r,0deg))}70%{opacity:1;transform:scale(1.08) rotate(var(--r,0deg))}100%{opacity:1;transform:scale(1) rotate(var(--r,0deg))}}
 @keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
-@keyframes dim{to{opacity:.42;filter:saturate(.4)}}
+@keyframes dim{to{opacity:.6;filter:saturate(.4)}}
 @keyframes nudgeY{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
 @keyframes nudgeX{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
 @keyframes hot{0%,100%{box-shadow:0 30px 80px -30px rgba(255,106,26,.45);border-color:rgba(255,106,26,.55)}50%{box-shadow:0 30px 120px -20px rgba(255,106,26,.85);border-color:rgba(255,106,26,1)}}
@@ -32,6 +32,8 @@ body{margin:0;background:#0A0908}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important}}
 .tag{position:absolute;display:flex;align-items:center;gap:10px;padding:10px 16px 10px 10px;border-radius:14px;background:#FF4A3D;color:#0A0908;font-family:'Instrument Sans',sans-serif;font-weight:700;font-size:25px;line-height:1.1;box-shadow:0 18px 40px -18px rgba(255,74,61,.9)}
 .tag b{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:99px;background:#0A0908;color:#FF4A3D;font-family:'JetBrains Mono',monospace;font-size:20px}
+.xbar{position:absolute;left:50%;top:54%;width:360px;height:7px;border-radius:9px;background:#FF4A3D;box-shadow:0 0 18px rgba(255,74,61,.6)}
+@keyframes xDraw{from{transform:translate(-50%,-50%) rotate(var(--a)) scaleX(0)}to{transform:translate(-50%,-50%) rotate(var(--a)) scaleX(1)}}
 .fl{height:30px;border-radius:8px;background:rgba(242,237,231,0.08);display:flex;align-items:center;padding:0 12px;font-size:17px;color:#9C938B}
 </style>
 </helmet>
@@ -72,13 +74,13 @@ body{margin:0;background:#0A0908}
 <div style="position: absolute; right: 0; top: 300px; width: 300px; border-radius: 22px; background: #171412; border: 1px solid rgba(242,237,231,0.14); padding: 18px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px; transform: rotate(3deg)">
 <span class="mono" style="font-size: 16px; letter-spacing: 0.1em; color: #9C938B">FORMULARIO</span>
 <div class="fl">Nombre</div><div class="fl">Apellidos</div><div class="fl">Email</div><div class="fl">Teléfono</div><div class="fl">Código postal</div><div class="fl">Fecha de nacimiento</div><div class="fl">¿Cómo nos conociste?</div>
-<svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position: absolute; inset: 30px 16px 16px 16px; width: calc(100% - 32px); height: calc(100% - 46px)" aria-hidden="true"><path d="M4 4 L96 96" pathLength="1" fill="none" stroke="#FF4A3D" stroke-width="3" stroke-linecap="round" stroke-dasharray="1" vector-effect="non-scaling-stroke" style="stroke-width:6px;animation: cDraw .35s ease-out 1.8s both"/><path d="M96 4 L4 96" pathLength="1" fill="none" stroke="#FF4A3D" stroke-linecap="round" stroke-dasharray="1" vector-effect="non-scaling-stroke" style="stroke-width:6px;animation: cDraw .35s ease-out 2.05s both"/></svg>
+<div class="xbar" style="--a:50deg; animation: xDraw .35s ease-out 1.8s both"></div><div class="xbar" style="--a:-50deg; animation: xDraw .35s ease-out 2.05s both"></div>
 </div>
 
 <!-- etiquetas de fallo -->
 <div class="tag" style="left: 600px; top: 40px; --r: 2deg; animation: pop .45s ease-out .55s both"><b>1</b>Sin gancho</div>
 <div class="tag" style="left: 600px; top: 150px; --r: -2deg; animation: pop .45s ease-out 1.0s both"><b>2</b>Sin oferta</div>
-<div class="tag" style="left: 330px; top: 590px; --r: -1deg; animation: pop .45s ease-out 1.65s both"><b>3</b>Botón que no dice nada</div>
+<div class="tag" style="left: 150px; top: 585px; --r: -1deg; animation: pop .45s ease-out 1.65s both"><b>3</b>Botón que no dice nada</div>
 <div class="tag" style="right: 10px; top: 236px; --r: 3deg; animation: pop .45s ease-out 2.2s both"><b>4</b>Formulario eterno</div>
 </div>
 
