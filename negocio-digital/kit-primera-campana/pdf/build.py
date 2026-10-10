@@ -460,28 +460,31 @@ def page_html(doc, body, meta, toc, pages=None):
     return head + f"</head><body>{toc_html}<main>{body}</main></body></html>", cover_doc
 
 
-def header_footer(doc):
-    base = ("<style>html,body{margin:0;padding:0;-webkit-print-color-adjust:exact;}</style>")
-    style = ("width:100%;height:21mm;margin:0;background:#F7F3EE;"
-             "font-family:'Instrument Sans',Arial,sans-serif;font-size:8pt;color:#6B625A;"
-             "display:flex;justify-content:space-between;align-items:center;padding:0 17mm;box-sizing:border-box;")
-    header = (f'{base}<div style="{style}align-items:flex-end;padding-bottom:6mm;">'
-              f'<span>Ceos Growth · Kit Primera Campaña</span>'
-              f'<span style="color:#FF6A1A;font-weight:700;">{html.escape(doc["short"])}</span></div>')
-    footer = (f'{base}<div style="{style}align-items:flex-start;padding-top:6mm;">'
-              f'<span>{html.escape(COPY)}</span>'
-              f'<span style="font-weight:700;color:#1A1714;font-size:9pt;"><span class="pageNumber"></span>'
-              f'<span style="color:#6B625A;font-weight:400;"> / <span class="totalPages"></span></span></span></div>')
-    return header, footer
+def chrome_html(doc, n):
+    """Una página A4 crema por cada página del cuerpo, con cabecera y pie
+    (número de página). Se coloca debajo de cada página del cuerpo."""
+    pages = []
+    for i in range(1, n + 1):
+        pages.append(
+            f'<div class="pg"><div class="hd"><span>Ceos Growth · Kit Primera Campaña</span>'
+            f'<span class="sh">{html.escape(doc["short"])}</span></div>'
+            f'<div class="ft"><span>{html.escape(COPY)}</span>'
+            f'<span class="no"><b>{i}</b> / {n}</span></div></div>')
+    css = """@page{size:A4;margin:0}html,body{margin:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.pg{width:210mm;height:297mm;background:#F7F3EE;position:relative;break-after:page;overflow:hidden;
+ font-family:'Instrument Sans',Arial,sans-serif;font-size:8pt;color:#6B625A}
+.hd,.ft{position:absolute;left:17mm;right:17mm;display:flex;justify-content:space-between;align-items:center}
+.hd{top:9mm;padding-bottom:2mm;border-bottom:1px solid #E2D9CE}
+.ft{bottom:9mm;padding-top:2mm;border-top:1px solid #E2D9CE}
+.sh{color:#FF6A1A;font-weight:700}.no{color:#6B625A;font-size:9pt}.no b{color:#1A1714}"""
+    return f'<!doctype html><html><head><meta charset="utf-8"><style>{font_css()}{css}</style></head><body>{"".join(pages)}</body></html>'
 
 
-def render(page, html_path, pdf_path, doc):
+def render(page, html_path, pdf_path, doc=None):
     page.goto(html_path.as_uri())
     page.wait_for_load_state("networkidle")
     page.evaluate("document.fonts.ready")
-    header, footer = header_footer(doc)
-    page.pdf(path=str(pdf_path), format="A4", print_background=True, display_header_footer=True,
-             header_template=header, footer_template=footer, prefer_css_page_size=True)
+    page.pdf(path=str(pdf_path), format="A4", print_background=True, prefer_css_page_size=True)
 
 
 def marker_pages(pdf_path):
@@ -511,7 +514,7 @@ def main():
         page = browser.new_page()
         for doc in DOCS:
             md_text = (KIT / doc["md"]).read_text(encoding="utf-8")
-            body = markdown.markdown(norm_md(md_text), extensions=["tables", "sane_lists"])
+            body = markdown.markdown(norm_md(md_text), extensions=["tables", "sane_lists", "nl2br"])
             body, meta, toc = transform(doc, body)
             html_path = SRC / (Path(doc["out"]).stem + ".html")
             pdf_path = HERE / doc["out"]
@@ -543,10 +546,18 @@ def main():
                 page.goto(cover_path.as_uri())
                 page.evaluate("document.fonts.ready")
                 page.pdf(path=str(cover_pdf), format="A4", print_background=True, prefer_css_page_size=True)
+                body_r = PdfReader(str(body_pdf))
+                n_body = len(body_r.pages)
+                chrome_path = SRC / (stem + "-cabecera-pie.html")
+                chrome_path.write_text(chrome_html(doc, n_body), encoding="utf-8")
+                chrome_pdf = Path(td) / "chrome.pdf"
+                render(page, chrome_path, chrome_pdf)
+                chrome_r = PdfReader(str(chrome_pdf))
                 w = PdfWriter()
-                for f in (cover_pdf, body_pdf):
-                    for pg in PdfReader(str(f)).pages:
-                        w.add_page(pg)
+                w.add_page(PdfReader(str(cover_pdf)).pages[0])
+                for i, bp in enumerate(body_r.pages):
+                    w.add_page(chrome_r.pages[i])
+                    w.pages[-1].merge_page(bp)
                 w.add_metadata({"/Title": meta["title"], "/Author": "Ceos Growth, S.L.",
                                 "/Subject": "Kit Primera Campaña " + VERSION})
                 w.compress_identical_objects() if hasattr(w, "compress_identical_objects") else None

@@ -115,7 +115,7 @@ Los nombres de los menús de Meta cambian a menudo. Si algo no aparece exactamen
    Moneda y zona horaria son difíciles o imposibles de cambiar después. Revísalas dos veces.
 5. Añade un **método de pago** y pon un límite de gasto de la cuenta en la configuración de pagos. Te protege si te equivocas al escribir un presupuesto.
 6. Activa la **verificación en dos pasos** en tu perfil. Recuperar una cuenta robada puede llevar semanas.
-7. **Beneficiario y pagador.** Por una ley europea (la Ley de Servicios Digitales), Meta pide en todos los anuncios que se ven en la Unión Europea dos datos: quién se beneficia del anuncio (el negocio que se anuncia) y quién lo paga, si es otra persona o empresa. Sin ellos no te deja publicar. Te los pedirá al crear el conjunto de anuncios, y en la configuración de la cuenta publicitaria puedes dejarlos guardados para no escribirlos cada vez. Si el negocio es tuyo y lo pagas tú, pon en los dos el nombre de tu negocio tal como figura en tus facturas (razón social, o tu nombre si eres autónomo). Estos datos aparecen en la Biblioteca de anuncios de Meta, que es pública. Si te ayuda alguien y paga con su tarjeta, consulta con él quién debe figurar como pagador.
+7. **Beneficiario y pagador.** Por una ley europea (la Ley de Servicios Digitales), Meta pide en todos los anuncios que se ven en la Unión Europea dos datos: quién se beneficia del anuncio (el negocio que se anuncia) y quién lo paga, si es otra persona o empresa. Sin ellos no te deja publicar. Te los pide al crear el conjunto de anuncios; según la cuenta, también puedes dejarlos guardados en la configuración para no escribirlos cada vez. Si el negocio es tuyo y lo pagas tú, pon como beneficiario el nombre de tu negocio tal como figura en tus facturas (razón social, o tu nombre si eres autónomo) y, si te pide pagador, el mismo. Estos datos aparecen en la Biblioteca de anuncios de Meta, que es pública. Si te ayuda alguien y paga con su tarjeta, consulta con él quién debe figurar como pagador.
 
 Si alguien te ayuda, dale acceso con su propio perfil desde la configuración del portfolio. Y si te montó la cuenta otra persona, comprueba que tú eres administrador y que la página y la cuenta publicitaria están dentro de tu portfolio.
 
@@ -357,7 +357,7 @@ El kit trae `hoja-de-contactos.csv`, una hoja vacía con las columnas ya puestas
 
 La primera fila es un EJEMPLO: bórrala cuando empieces.
 
-Sin esta hoja sabrás cuántos contactos entraron, pero no cuántos clientes. Es la que te da el dato del punto 4 del día 7 y la que te deja corregir tu coste máximo cada mes.
+Meta te dice cuántos contactos entraron; la hoja te dice cuántos se hicieron clientes. Es la que te da el dato del punto 4 del día 7 y la que te deja corregir tu coste máximo cada mes.
 
 Los datos de la hoja son datos personales: guárdala con acceso solo para quien atiende, no la compartas con enlace público y borra a quien te pida que lo borres.
 
@@ -391,7 +391,7 @@ Peluquería Lola no existe. Es un caso inventado para que veas todas las piezas 
 
 **Las cuentas.** Usa el EJEMPLO de 1.3: coste máximo por contacto, unos 12 €. Puede gastar 150 € al mes, así que pone 5 € al día. Sabe que la campaña no llega al gasto mínimo (24 €) hasta el día 5.
 
-**La cuenta.** Portfolio comercial a nombre de la peluquería, cuenta publicitaria en euros y hora de Madrid, límite de gasto de 160 €, verificación en dos pasos. Como beneficiario y pagador pone en los dos el nombre que sale en sus facturas, porque el negocio es suyo y paga ella.
+**La cuenta.** Portfolio comercial a nombre de la peluquería, cuenta publicitaria en euros y hora de Madrid, límite de gasto de 160 €, verificación en dos pasos. Como beneficiario pone el nombre que sale en sus facturas, y el mismo como pagador, porque el negocio es suyo y paga ella.
 
 **La privacidad.** No tiene web. Publica el texto del Anexo A, con sus datos, en una página gratuita y copia la dirección para el formulario. Antes se lo enseña a su gestoría.
 
