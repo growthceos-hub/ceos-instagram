@@ -6,7 +6,7 @@ Grabar con el móvil en vertical, a la altura de los ojos, con luz de ventana de
 >
 > Muchos negocios pequeños nos escriben y no podemos llevarles la campaña porque tienen poco presupuesto.
 >
-> Así que hemos juntado en un kit lo que hacemos nosotros: los guiones, las plantillas y los pasos para lanzar tu primer anuncio con menos de 300 euros al mes.
+> Así que he escrito un kit con el método que seguimos nosotros: los guiones, las plantillas y los pasos para lanzar tu primer anuncio con menos de 300 euros al mes.
 >
 > Cuesta 27 euros. Si en 14 días no te sirve, te devolvemos el dinero.
 >

@@ -1,6 +1,6 @@
 # Web de venta del Kit Primera Campaña
 
-HTML + CSS puro, sin frameworks ni CDNs de JS. Un solo `styles.css` y un `cookies.js` de 1 KB (banner y carga del Pixel tras aceptar). Tipografías: pila del sistema (no se llama a Google Fonts, por RGPD); si se quiere Bricolage Grotesque + Instrument Sans, descargar los woff2, ponerlos en `media/` y declarar `@font-face` con `font-display:swap` y `<link rel="preload">`.
+HTML + CSS puro, sin frameworks ni CDNs de JS. Un solo `styles.css`, `cookies.js` (banner, consentimiento de 12 meses y carga del Pixel tras aceptar), `gracias.js` (evento Purchase) y `media.js` (marcadores de medios que faltan). Sin scripts ni estilos en línea, para poder activar la CSP. Tipografías: pila del sistema (no se llama a Google Fonts, por RGPD); si se quiere Bricolage Grotesque + Instrument Sans, descargar los woff2, ponerlos en `media/` y declarar `@font-face` con `font-display:swap` y `<link rel="preload">`.
 
 ## Placeholders a sustituir (buscar `{{` en todo el directorio)
 | Placeholder | Qué poner |
@@ -11,19 +11,25 @@ HTML + CSS puro, sin frameworks ni CDNs de JS. Un solo `styles.css` y un `cookie
 | `{{EMAIL_SOPORTE}}` | Email único de soporte |
 | `{{REGISTRO_MERCANTIL}}` | Datos de inscripción en el Registro Mercantil (aviso-legal.html) |
 | `{{DOMINIO}}` | Dominio final sin `https://` (canonical, Open Graph, schema) |
-| `{{PIXEL_ID}}` | ID del Pixel nuevo de Meta, en `cookies.js` y en el bloque comentado de `gracias.html` |
+| `{{PIXEL_ID}}` | ID del Pixel nuevo de Meta, solo en `cookies.js` |
 
 Con sed: `grep -rl '{{NIF}}' . | xargs sed -i 's/{{NIF}}/B12345678/g'`. Ojo: en `mailto:` el placeholder funciona igual.
 
 ## Archivos de medios que faltan (los pone Hugo o Claude)
-- `media/hugo-30s.mp4` y `media/hugo-poster.jpg` (vídeo vertical 9:16 de 30 s y su fotograma). Mientras no existan se ve un texto de aviso.
-- `media/kit-1.jpg`, `kit-2.jpg`, `kit-3.jpg` (4:3, capturas reales del kit: un guion, una plantilla, una página de la guía). Sin ellas se ve un hueco punteado.
-- `media/og.jpg` (1200x630) para Open Graph.
-- `media/logo.png` ya está (256 px, copiado de `toolkit/logo.png`; sirve de favicon).
+- `media/hugo-30s.mp4` y `media/hugo-poster.jpg` (vídeo 9:16 de 30 s). Si el mp4 falta, se ve el aviso de vídeo no cargado. `media/hugo-30s.es.vtt` y la transcripción ya están: si Hugo cambia el guion, actualizar ambos.
+- `media/kit-1.jpg`, `kit-2.jpg`, `kit-3.jpg` (4:3, capturas reales). Sin ellas se ve "Imagen del kit (pendiente)"; no publicar mientras exista ese texto.
+- `media/og.jpg` (1200x630) ya generada; `media/logo.png` también.
+
+## Antes de publicar
+1. `grep -rn '{{' .` no debe devolver nada (salvo `PIXEL_ID` si aún no hay Pixel, que mantiene el Pixel apagado).
+2. `grep -rn 'pendiente' index.html` solo debe mostrar los alt/clases, y en el navegador no debe verse "Imagen del kit (pendiente)".
+3. Cabeceras: `_headers` lleva la CSP en modo `Content-Security-Policy-Report-Only`. Tras comprobar en la consola que no bloquea nada, renombrar a `Content-Security-Policy`.
+4. `robots.txt` y `sitemap.xml` (solo la portada) usan `{{DOMINIO}}`. Las páginas legales van con `noindex,follow` y `gracias.html` con `noindex,nofollow`.
 
 ## Pixel de Meta
 - `cookies.js` carga el Pixel solo tras pulsar "Aceptar" y no hace nada mientras `PIXEL_ID` siga siendo el placeholder.
-- `gracias.html` tiene un bloque `<script>` comentado con `fbq('init')` y `Purchase` con `eventID` = parámetro `session_id` de la URL. Descomentarlo al tener ID. Make debe enviar a la Conversions API ese mismo `session_id` como `event_id` para deduplicar.
+- `gracias.js` valida `session_id` (`^cs_(test|live)_[A-Za-z0-9]{10,200}$`) y manda `Purchase` con `eventID` = session_id, sin importe: el valor lo envía solo el servidor (Conversions API desde Make) y Meta deduplica por `event_id`. Make debe enviar ese mismo `session_id` como `event_id` con `value` y `currency`.
+- El consentimiento se guarda con fecha y caduca a los 12 meses.
 - Pendiente de revisar con el gestor/DPO: la API de conversiones envía el email con hash; la política de privacidad la declara bajo consentimiento, así que Make solo debería enviarla si hubo consentimiento (o cambiar el texto).
 
 ## Desplegar en Cloudflare Pages

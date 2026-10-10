@@ -17,7 +17,7 @@ body{margin:0;background:#0A0908}
 @keyframes aShim{0%{transform:translateX(-160%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
 @keyframes tIn{from{opacity:0}to{opacity:1}}
 @keyframes sDraw{from{background-size:0% 6px}to{background-size:100% 6px}}
-@keyframes cDraw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes cDraw{0%{stroke-dashoffset:1;opacity:0}2%{opacity:1}100%{stroke-dashoffset:0;opacity:1}}
 @keyframes pop{0%{opacity:0;transform:scale(.6) rotate(var(--r,0deg))}70%{opacity:1;transform:scale(1.08) rotate(var(--r,0deg))}100%{opacity:1;transform:scale(1) rotate(var(--r,0deg))}}
 @keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
 @keyframes dim{to{opacity:.6;filter:saturate(.4)}}
@@ -61,12 +61,12 @@ body{margin:0;background:#0A0908}
 <div style="display: flex; flex-direction: column; gap: 2px; flex: 1"><span style="font-weight: 700; font-size: 25px">Peluquería Lola</span><span style="font-size: 19px; color: #9C938B">Publicidad</span></div>
 <span class="mono" style="padding: 8px 12px; border-radius: 10px; border: 2px solid #FF6A1A; color: #FF6A1A; font-weight: 600; font-size: 18px; letter-spacing: 0.12em">EJEMPLO</span>
 </div>
-<p style="margin: 0; font-size: 26px; line-height: 1.32; color: #D9D1C8"><span class="strike" style="animation: sDraw .7s cubic-bezier(.3,.7,.2,1) .15s both">¡¡Bienvenidos a nuestra página!! Somos un equipo joven y con mucha ilusión.</span> <span class="strike" style="animation: sDraw .5s cubic-bezier(.3,.7,.2,1) .8s both">Síguenos para no perderte nada.</span></p>
+<p style="margin: 0; font-size: 26px; line-height: 1.32; color: #D9D1C8"><span class="strike" style="animation: sDraw .7s cubic-bezier(.3,.7,.2,1) -1s both">¡¡Bienvenidos a nuestra página!! Somos un equipo joven y con mucha ilusión.</span> <span class="strike" style="animation: sDraw .5s cubic-bezier(.3,.7,.2,1) -1s both">Síguenos para no perderte nada.</span></p>
 <div style="height: 210px; border-radius: 16px; background: repeating-linear-gradient(135deg, #1E1A17 0 18px, #1A1714 18px 36px); display: flex; align-items: center; justify-content: center"><span class="bri" style="font-size: 30px; color: #6B635C">PELUQUERÍA LOLA</span></div>
 <div style="position: relative; display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-radius: 14px; background: #12100F">
 <span style="font-size: 20px; color: #9C938B">peluquerialola.es</span>
 <span style="padding: 12px 20px; border-radius: 10px; background: rgba(242,237,231,0.12); font-weight: 600; font-size: 21px">Más información</span>
-<svg viewBox="0 0 240 90" preserveAspectRatio="none" style="position: absolute; right: -14px; top: -14px; width: 250px; height: 96px; overflow: visible" aria-hidden="true"><ellipse cx="120" cy="45" rx="116" ry="40" pathLength="1" fill="none" stroke="#FF4A3D" stroke-width="5" stroke-linecap="round" stroke-dasharray="1" style="animation: cDraw .6s ease-out 1.3s both"/></svg>
+<svg viewBox="0 0 240 90" preserveAspectRatio="none" style="position: absolute; right: -14px; top: -14px; width: 250px; height: 96px; overflow: visible" aria-hidden="true"><ellipse cx="120" cy="45" rx="116" ry="40" pathLength="1" fill="none" stroke="#FF4A3D" stroke-width="5" stroke-linecap="round" stroke-dasharray="1" style="animation: cDraw .6s ease-out .3s both"/></svg>
 </div>
 </div>
 
@@ -74,14 +74,14 @@ body{margin:0;background:#0A0908}
 <div style="position: absolute; right: 0; top: 300px; width: 300px; border-radius: 22px; background: #171412; border: 1px solid rgba(242,237,231,0.14); padding: 18px; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px; transform: rotate(3deg)">
 <span class="mono" style="font-size: 16px; letter-spacing: 0.1em; color: #9C938B">FORMULARIO</span>
 <div class="fl">Nombre</div><div class="fl">Apellidos</div><div class="fl">Email</div><div class="fl">Teléfono</div><div class="fl">Código postal</div><div class="fl">Fecha de nacimiento</div><div class="fl">¿Cómo nos conociste?</div>
-<div class="xbar" style="--a:50deg; animation: xDraw .35s ease-out 1.8s both"></div><div class="xbar" style="--a:-50deg; animation: xDraw .35s ease-out 2.05s both"></div>
+<div class="xbar" style="--a:50deg; animation: xDraw .35s ease-out 1.0s both"></div><div class="xbar" style="--a:-50deg; animation: xDraw .35s ease-out 1.25s both"></div>
 </div>
 
 <!-- etiquetas de fallo -->
-<div class="tag" style="left: 600px; top: 40px; --r: 2deg; animation: pop .45s ease-out .55s both"><b>1</b>Sin gancho</div>
-<div class="tag" style="left: 600px; top: 150px; --r: -2deg; animation: pop .45s ease-out 1.0s both"><b>2</b>Sin oferta</div>
-<div class="tag" style="left: 150px; top: 585px; --r: -1deg; animation: pop .45s ease-out 1.65s both"><b>3</b>Botón que no dice nada</div>
-<div class="tag" style="right: 10px; top: 236px; --r: 3deg; animation: pop .45s ease-out 2.2s both"><b>4</b>Formulario eterno</div>
+<div class="tag" style="left: 600px; top: 40px; --r: 2deg; animation: pop .45s ease-out -1s both"><b>1</b>Sin gancho</div>
+<div class="tag" style="left: 600px; top: 150px; --r: -2deg; animation: pop .45s ease-out -1s both"><b>2</b>Sin oferta</div>
+<div class="tag" style="left: 150px; top: 585px; --r: -1deg; animation: pop .45s ease-out .75s both"><b>3</b>Botón que no dice nada</div>
+<div class="tag" style="right: 10px; top: 236px; --r: 3deg; animation: pop .45s ease-out 1.6s both"><b>4</b>Formulario eterno</div>
 </div>
 
 <div style="position: relative; display: flex; flex-direction: column; gap: 26px">
