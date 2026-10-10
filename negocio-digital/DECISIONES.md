@@ -12,3 +12,6 @@
 - **Autonomía:** Claude lanza, pausa y cambia anuncios dentro del presupuesto aprobado sin preguntar. Subir presupuesto o abrir tienda nueva → se pregunta.
 - **Informe:** resumen diario corto (ventas, gasto, coste por venta, cambios y qué hace falta de Hugo).
 - **Consumo de Claude:** el consejo completo (5 + revisiones) solo para decisiones grandes; el día a día, directo y con un revisor como mucho.
+- **Un negocio que pierde dinero se para.** Se aplican sus reglas de corte; si tras cambiar gancho y oferta sigue en pérdidas, se apaga y el dinero va al siguiente.
+- **Libertad total de nicho, negocio y país**, siempre ganando dinero. Claude pide equipo o aplicaciones nuevas cuando hagan falta, justificando el gasto.
+- **Al día con lo nuevo:** la rutina "Estudio diario @revolutia.ai" (08:12) actualiza cada día `toolkit/APRENDIZAJES.md` y las skills de `.claude/skills/` en ceos-instagram. La rutina diaria del negocio digital las lee antes de crear producto, anuncios o webs, y aplica también la skill de prospección (`captacion-whatsapp-prospeccion`) cuando haya ventas a empresas.
