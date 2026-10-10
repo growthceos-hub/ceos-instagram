@@ -70,6 +70,7 @@ blockquote{margin:0 0 3.5mm;padding:3mm 4.5mm;background:var(--card);border-left
 blockquote p:last-child{margin-bottom:0;}
 .tag{display:inline-block;background:var(--org);color:#fff;font-weight:700;font-size:7.6pt;letter-spacing:.08em;
  padding:.4mm 1.8mm;border-radius:1mm;margin-right:1.5mm;vertical-align:1px;line-height:1.5;}
+.kw{color:var(--org);font-weight:700;letter-spacing:.02em;}
 .ejemplo{background:var(--soft);border:1px solid #F6C9AC;border-left:4px solid var(--org);border-radius:2.5mm;
  padding:3.5mm 4.5mm;margin:0 0 4mm;break-inside:avoid;}
 .ejemplo p:last-child,.ejemplo ul:last-child,.ejemplo blockquote:last-child{margin-bottom:0;}
@@ -77,6 +78,7 @@ blockquote p:last-child{margin-bottom:0;}
 table{width:100%;border-collapse:collapse;margin:1mm 0 5mm;font-size:9.8pt;break-inside:auto;}
 thead{display:table-header-group;}
 tr{break-inside:avoid;}
+table.short{break-inside:avoid;}
 th{background:var(--ink);color:var(--bg);text-align:left;padding:2mm 3mm;font-weight:700;}
 th:first-child{border-top-left-radius:2mm;} th:last-child{border-top-right-radius:2mm;}
 td{padding:2mm 3mm;border-bottom:1px solid var(--line);vertical-align:top;}
@@ -118,32 +120,32 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 .canva{display:grid;grid-template-columns:auto 1fr;gap:1mm 5mm;border:1.5px dashed var(--org);border-radius:2.5mm;padding:3mm 4.5mm;margin:4mm 0 2mm;font-size:9.6pt;break-inside:avoid;}
 .canva .lbl{font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:.08em;font-size:8.8pt;grid-row:span 2;align-self:center;}
 .canva .pending{color:var(--mut);font-style:italic;}
-</style></head><body><nav class="toc"><h2>Índice</h2><ol><li class="l-h2"><a href="#t1">Reglas comunes a las 10</a><span class="pg">2</span></li><li class="l-h2"><a href="#t2">1Oferta directa</a><span class="pg">3</span></li><li class="l-h2"><a href="#t3">2Pregunta gancho</a><span class="pg">3</span></li><li class="l-h2"><a href="#t4">3Tu primera visita en 3 pasos</a><span class="pg">4</span></li><li class="l-h2"><a href="#t5">4Tres preguntas antes de contratar</a><span class="pg">4</span></li><li class="l-h2"><a href="#t6">5Error común</a><span class="pg">5</span></li><li class="l-h2"><a href="#t7">6Plazas limitadas</a><span class="pg">5</span></li><li class="l-h2"><a href="#t8">7Habla el dueño</a><span class="pg">6</span></li><li class="l-h2"><a href="#t9">8Reseña de cliente</a><span class="pg">6</span></li><li class="l-h2"><a href="#t10">9Qué incluye</a><span class="pg">7</span></li><li class="l-h2"><a href="#t11">10Fecha o temporada</a><span class="pg">8</span></li><li class="l-h2"><a href="#t12">Cómo combinarlas en tu primera campaña</a><span class="pg">8</span></li></ol></nav><main>
+</style></head><body><nav class="toc"><h2>Índice</h2><ol><li class="l-h2"><a href="#t1">Reglas comunes a las 10</a><span class="pg">2</span></li><li class="l-h2"><a href="#t2">1Oferta directa</a><span class="pg">3</span></li><li class="l-h2"><a href="#t3">2Pregunta gancho</a><span class="pg">3</span></li><li class="l-h2"><a href="#t4">3Tu primera visita en 3 pasos</a><span class="pg">4</span></li><li class="l-h2"><a href="#t5">4Tres preguntas antes de contratar</a><span class="pg">4</span></li><li class="l-h2"><a href="#t6">5Error común</a><span class="pg">5</span></li><li class="l-h2"><a href="#t7">6Plazas limitadas</a><span class="pg">5</span></li><li class="l-h2"><a href="#t8">7Habla el dueño</a><span class="pg">6</span></li><li class="l-h2"><a href="#t9">8Reseña de cliente</a><span class="pg">7</span></li><li class="l-h2"><a href="#t10">9Qué incluye</a><span class="pg">7</span></li><li class="l-h2"><a href="#t11">10Fecha o temporada</a><span class="pg">8</span></li><li class="l-h2"><a href="#t12">Cómo combinarlas en tu primera campaña</a><span class="pg">8</span></li></ol></nav><main>
 
-<div class="notice"><strong>Enlaces de Canva:</strong> las plantillas editables se añadirán en la próxima actualización del kit. Cada plantilla tiene un hueco reservado para su enlace. Mientras tanto, con esta especificación puedes montarlas tú en Canva.</div><p>Especificación para diseñar en Canva. Cada plantilla se entrega en dos tamaños:</p>
-<ul>
+<div class="notice"><strong>Enlaces de Canva:</strong> las plantillas editables se añadirán en la próxima actualización del kit. Cada plantilla tiene un hueco reservado para su enlace. Mientras tanto, con esta especificación puedes montarlas tú en Canva.</div><div class="keep"><p>Especificación para diseñar en Canva. Cada plantilla se entrega en dos tamaños:</p><ul>
 <li><strong>1080 × 1350 px (4:5)</strong>: feed de Instagram y Facebook.</li>
 <li><strong>1080 × 1920 px (9:16)</strong>: Stories y Reels.</li>
-</ul>
+</ul></div>
+
 
 <div class="keep"><h2 id="t1">Reglas comunes a las 10</h2><p><strong>Zonas seguras en 9:16.</strong> En Stories y Reels, la app tapa la parte de arriba (nombre de la cuenta) y sobre todo la de abajo (texto del anuncio y botón). Deja sin texto unos 270 px arriba y unos 670 px abajo; en esa franja inferior solo fondo o foto. Antes de publicar, compruébalo en la vista previa del Administrador de anuncios, porque Meta cambia la interfaz de vez en cuando.</p></div>
 
 <p><strong>Márgenes en 4:5.</strong> Al menos 60 px por cada lado.</p>
-<p><strong>Jerarquía.</strong> Cada plantilla tiene como mucho tres niveles de texto:</p>
-<ul>
+<div class="keep"><p><strong>Jerarquía.</strong> Cada plantilla tiene como mucho tres niveles de texto:</p><ul>
 <li><strong>Titular</strong>: lo que se lee en el primer segundo. Grande, en negrita, máximo 8 palabras.</li>
 <li><strong>Apoyo</strong>: una o dos líneas que aclaran. Tamaño medio.</li>
 <li><strong>Acción o dato</strong>: el botón dibujado, el precio o la condición. Pequeño pero con contraste.</li>
-</ul>
+</ul></div>
+
 <p>Si una plantilla necesita más texto que eso, sobra texto.</p>
 <p><strong>Tipografía.</strong> Una sola familia con dos grosores (por ejemplo, una sans serif de las que trae Canva, en Bold para titulares y Regular para el resto). Titular entre 90 y 130 px en 1080 de ancho; apoyo entre 44 y 56 px; nada por debajo de 36 px.</p>
 <p><strong>Color.</strong> El color principal del negocio, un neutro (blanco roto o casi negro) y un color de acento solo para el botón o el dato importante. Contraste alto: texto oscuro sobre claro o claro sobre oscuro, nunca texto sobre una zona movida de la foto sin una capa de color detrás.</p>
 <p><strong>Fotos.</strong> Siempre del negocio real: el local, el dueño, el equipo, el trabajo hecho. Nada de bancos de imágenes. Si sale un cliente, con su permiso por escrito.</p>
 <p><strong>Logo.</strong> Pequeño, en una esquina superior o abajo del todo en 4:5. En 9:16, dentro de la zona segura.</p>
 <p><strong>Lo que no se pone:</strong> antes y después en estética, salud o peso; frases que señalen un atributo personal de quien mira ("¿Tienes sobrepeso?"); garantías de resultados; cifras que no puedas demostrar.</p>
-<p><strong>Huecos para rellenar:</strong> todo lo que va entre corchetes. [NOMBRE NEGOCIO], [BARRIO], [OFERTA], [PRECIO], [FECHA], etc. Los precios y números que aparecen son <span class="tag">EJEMPLO</span>.</p>
+<p><strong>Huecos para rellenar:</strong> todo lo que va entre corchetes. [NOMBRE NEGOCIO], [BARRIO], [OFERTA], [PRECIO], [FECHA], etc. Los precios y números que aparecen son <span class="kw">EJEMPLO</span>.</p>
 
-<section class="tpl"><div class="keep"><h2 id="t2"><span class="code">1</span>Oferta directa</h2><p><strong>Para qué sirve:</strong> el anuncio más simple. Si la oferta es buena, con esto basta. Ideal como tercer anuncio junto a dos vídeos.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t2"><span class="code">1</span>Oferta directa</h2><p><strong>Para qué sirve:</strong> el anuncio más simple. Si la oferta es buena, con esto basta. Ideal como tercer anuncio junto a dos vídeos.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Titular: "[OFERTA] en [BARRIO]"<ul>
 <li><span class="tag">EJEMPLO</span> "Primera valoración gratis en Gamonal"</li>
 </ul>
@@ -151,14 +153,14 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 <li>Apoyo: "Te damos hora esta semana. Plazas limitadas."</li>
 <li>Acción: botón dibujado "Pide tu cita →"</li>
 <li>Pie: [NOMBRE NEGOCIO] · [DIRECCIÓN CORTA]</li>
-</ul><p><strong>Jerarquía:</strong> titular arriba en dos líneas, ocupando el 40 % del ancho vertical disponible. Foto del local o del servicio en la mitad inferior (4:5) o en el centro (9:16). Botón entre titular y foto.</p><p><strong>Estilo visual:</strong> fondo de color principal liso en la mitad superior, foto a sangre en la inferior. Botón en color de acento con esquinas redondeadas.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> titular arriba en dos líneas, ocupando el 40 % del ancho vertical disponible. Foto del local o del servicio en la mitad inferior (4:5) o en el centro (9:16). Botón entre titular y foto.</p><p><strong>Estilo visual:</strong> fondo de color principal liso en la mitad superior, foto a sangre en la inferior. Botón en color de acento con esquinas redondeadas.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t3"><span class="code">2</span>Pregunta gancho</h2><p><strong>Para qué sirve:</strong> parar el scroll con una pregunta que el cliente ideal responde "sí" en su cabeza. Útil para probar ángulos sin grabar vídeo.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t3"><span class="code">2</span>Pregunta gancho</h2><p><strong>Para qué sirve:</strong> parar el scroll con una pregunta que el cliente ideal responde "sí" en su cabeza. Útil para probar ángulos sin grabar vídeo.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Titular (pregunta): "[PREGUNTA SOBRE UNA SITUACIÓN, NO SOBRE LA PERSONA]"<ul>
 <li><span class="tag">EJEMPLO</span> peluquería: "¿Y si el corte aguantara un mes entero?"</li>
 <li><span class="tag">EJEMPLO</span> reformas: "¿Cuántos presupuestos te han llegado a tiempo?"</li>
@@ -166,41 +168,41 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 </li>
 <li>Apoyo: "En [NOMBRE NEGOCIO] [RESPUESTA EN UNA FRASE]."</li>
 <li>Acción: "Pide [OFERTA] →"</li>
-</ul><p><strong>Jerarquía:</strong> la pregunta enorme, centrada, ocupando casi todo el espacio. Apoyo y acción pequeños abajo (en 9:16, por encima de la zona segura inferior).</p><p><strong>Estilo visual:</strong> fondo liso de color fuerte, sin foto o con una foto muy pequeña en círculo (la cara del dueño). Signos de interrogación en color de acento.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> la pregunta enorme, centrada, ocupando casi todo el espacio. Apoyo y acción pequeños abajo (en 9:16, por encima de la zona segura inferior).</p><p><strong>Estilo visual:</strong> fondo liso de color fuerte, sin foto o con una foto muy pequeña en círculo (la cara del dueño). Signos de interrogación en color de acento.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t4"><span class="code">3</span>Tu primera visita en 3 pasos</h2><p><strong>Para qué sirve:</strong> quitar el miedo a lo desconocido. Funciona en fisioterapia, estética, gimnasios y academias.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t4"><span class="code">3</span>Tu primera visita en 3 pasos</h2><p><strong>Para qué sirve:</strong> quitar el miedo a lo desconocido. Funciona en fisioterapia, estética, gimnasios y academias.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Titular: "Tu primera visita a [NOMBRE NEGOCIO]"</li>
-<li>Paso 1: "[QUÉ PASA AL LLEGAR]" (<span class="tag">EJEMPLO</span> "Hablamos 10 minutos")</li>
-<li>Paso 2: "[QUÉ HACÉIS]" (<span class="tag">EJEMPLO</span> "Te valoramos")</li>
-<li>Paso 3: "[CON QUÉ SE VA]" (<span class="tag">EJEMPLO</span> "Te llevas un plan por escrito")</li>
+<li>Paso 1: "[QUÉ PASA AL LLEGAR]" (<span class="kw">EJEMPLO</span> "Hablamos 10 minutos")</li>
+<li>Paso 2: "[QUÉ HACÉIS]" (<span class="kw">EJEMPLO</span> "Te valoramos")</li>
+<li>Paso 3: "[CON QUÉ SE VA]" (<span class="kw">EJEMPLO</span> "Te llevas un plan por escrito")</li>
 <li>Acción: "Pide tu primera cita →"</li>
-</ul><p><strong>Jerarquía:</strong> titular arriba. Tres bloques numerados en columna, cada uno con número grande en color de acento y texto de una línea. Acción abajo.</p><p><strong>Estilo visual:</strong> fondo claro. Números en círculos de color. Una foto pequeña del espacio (sala, cabina, aula) en la parte superior o como fondo con capa clara encima.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> titular arriba. Tres bloques numerados en columna, cada uno con número grande en color de acento y texto de una línea. Acción abajo.</p><p><strong>Estilo visual:</strong> fondo claro. Números en círculos de color. Una foto pequeña del espacio (sala, cabina, aula) en la parte superior o como fondo con capa clara encima.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t5"><span class="code">4</span>Tres preguntas antes de contratar</h2><p><strong>Para qué sirve:</strong> dar algo útil y posicionarte como el que responde bien. Para reformas, talleres, academias e inmobiliarias.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t5"><span class="code">4</span>Tres preguntas antes de contratar</h2><p><strong>Para qué sirve:</strong> dar algo útil y posicionarte como el que responde bien. Para reformas, talleres, academias e inmobiliarias.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Titular: "3 preguntas antes de elegir [TIPO DE NEGOCIO]"</li>
-<li>1: "[PREGUNTA 1]" (<span class="tag">EJEMPLO</span> "¿Me lo das por escrito y desglosado?")</li>
-<li>2: "[PREGUNTA 2]" (<span class="tag">EJEMPLO</span> "¿Quién estará en la obra cada día?")</li>
-<li>3: "[PREGUNTA 3]" (<span class="tag">EJEMPLO</span> "¿Qué pasa si hay retraso?")</li>
+<li>1: "[PREGUNTA 1]" (<span class="kw">EJEMPLO</span> "¿Me lo das por escrito y desglosado?")</li>
+<li>2: "[PREGUNTA 2]" (<span class="kw">EJEMPLO</span> "¿Quién estará en la obra cada día?")</li>
+<li>3: "[PREGUNTA 3]" (<span class="kw">EJEMPLO</span> "¿Qué pasa si hay retraso?")</li>
 <li>Apoyo: "En [NOMBRE NEGOCIO] te respondemos a las tres antes de empezar."</li>
 <li>Acción: "Pide presupuesto →"</li>
-</ul><p><strong>Jerarquía:</strong> titular arriba, lista numerada en el centro con aire entre líneas, frase de apoyo destacada en una franja de color, acción abajo.</p><p><strong>Estilo visual:</strong> aspecto de nota o checklist. Fondo blanco roto, números en color principal, franja de apoyo en color de acento.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> titular arriba, lista numerada en el centro con aire entre líneas, frase de apoyo destacada en una franja de color, acción abajo.</p><p><strong>Estilo visual:</strong> aspecto de nota o checklist. Fondo blanco roto, números en color principal, franja de apoyo en color de acento.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t6"><span class="code">5</span>Error común</h2><p><strong>Para qué sirve:</strong> enseñar un error que el cliente reconoce y colocarte como quien lo evita.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t6"><span class="code">5</span>Error común</h2><p><strong>Para qué sirve:</strong> enseñar un error que el cliente reconoce y colocarte como quien lo evita.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Etiqueta pequeña arriba: "Error común"</li>
 <li>Titular: "[EL ERROR]" con una línea tachada encima o una cruz<ul>
 <li><span class="tag">EJEMPLO</span> taller: "Esperar a que el ruido se vaya solo"</li>
@@ -209,14 +211,14 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 </li>
 <li>Apoyo: "[LO QUE HACÉIS VOSOTROS EN UNA FRASE]"</li>
 <li>Acción: "Pide [OFERTA] →"</li>
-</ul><p><strong>Jerarquía:</strong> etiqueta pequeña en color de acento, titular tachado grande, apoyo debajo en tamaño medio, acción abajo.</p><p><strong>Estilo visual:</strong> fondo oscuro, titular en blanco con la línea de tachado en rojo o en el color de acento. Sin foto, o una foto pequeña del dueño.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> etiqueta pequeña en color de acento, titular tachado grande, apoyo debajo en tamaño medio, acción abajo.</p><p><strong>Estilo visual:</strong> fondo oscuro, titular en blanco con la línea de tachado en rojo o en el color de acento. Sin foto, o una foto pequeña del dueño.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t7"><span class="code">6</span>Plazas limitadas</h2><p><strong>Para qué sirve:</strong> dar un motivo honesto para pedirlo ahora. Solo si las plazas son de verdad limitadas.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t7"><span class="code">6</span>Plazas limitadas</h2><p><strong>Para qué sirve:</strong> dar un motivo honesto para pedirlo ahora. Solo si las plazas son de verdad limitadas.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Titular: "[NÚMERO] plazas en [MES]"<ul>
 <li><span class="tag">EJEMPLO</span> "10 plazas en noviembre"</li>
 </ul>
@@ -224,33 +226,33 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 <li>Apoyo: "Para [OFERTA] en [NOMBRE NEGOCIO]."</li>
 <li>Detalle: "Cuando se llenen, pasamos a [MES SIGUIENTE]."</li>
 <li>Acción: "Reserva la tuya →"</li>
-</ul><p><strong>Jerarquía:</strong> el número enorme como elemento principal, el mes debajo, apoyo y detalle en tamaño medio, acción abajo.</p><p><strong>Estilo visual:</strong> imagen de calendario o de casillas (unas marcadas, otras libres, solo si refleja la realidad). Fondo de color principal, número en blanco.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> el número enorme como elemento principal, el mes debajo, apoyo y detalle en tamaño medio, acción abajo.</p><p><strong>Estilo visual:</strong> imagen de calendario o de casillas (unas marcadas, otras libres, solo si refleja la realidad). Fondo de color principal, número en blanco.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t8"><span class="code">7</span>Habla el dueño</h2><p><strong>Para qué sirve:</strong> poner cara al negocio. En negocios locales la confianza en la persona pesa mucho.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t8"><span class="code">7</span>Habla el dueño</h2><p><strong>Para qué sirve:</strong> poner cara al negocio. En negocios locales la confianza en la persona pesa mucho.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Cita entre comillas: "[FRASE TUYA SOBRE CÓMO TRABAJAS]"<ul>
 <li><span class="tag">EJEMPLO</span> "Aquí no se toca un coche sin que sepas cuánto vas a pagar."</li>
 </ul>
 </li>
 <li>Firma: "[TU NOMBRE], [CARGO] de [NOMBRE NEGOCIO]"</li>
 <li>Acción: "Pide cita →"</li>
-</ul><p><strong>Jerarquía:</strong> foto del dueño ocupando más de la mitad, cita superpuesta en una caja de color o al lado, firma pequeña, acción abajo.</p><p><strong>Estilo visual:</strong> foto real, natural, en el local, mirando a cámara y con buena luz. Comillas grandes en color de acento como elemento gráfico.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> foto del dueño ocupando más de la mitad, cita superpuesta en una caja de color o al lado, firma pequeña, acción abajo.</p><p><strong>Estilo visual:</strong> foto real, natural, en el local, mirando a cámara y con buena luz. Comillas grandes en color de acento como elemento gráfico.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t9"><span class="code">8</span>Reseña de cliente</h2><p><strong>Para qué sirve:</strong> prueba social. Solo con una reseña real y el permiso del cliente para usarla en un anuncio.</p></div><p><strong>Texto:</strong></p><ul>
+<section class="tpl"><div class="keep"><h2 id="t9"><span class="code">8</span>Reseña de cliente</h2><p><strong>Para qué sirve:</strong> prueba social. Solo con una reseña real y el permiso del cliente para usarla en un anuncio.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
 <li>Estrellas (solo si la reseña las tiene).</li>
 <li>Reseña: "[TEXTO LITERAL DE LA RESEÑA, RECORTADO SIN CAMBIAR EL SENTIDO]"</li>
 <li>Autor: "[NOMBRE E INICIAL DEL APELLIDO], cliente de [NOMBRE NEGOCIO]"</li>
 <li>Acción: "Pide tu cita →"</li>
-</ul><p><strong>Jerarquía:</strong> reseña en grande en el centro, estrellas encima, autor debajo en pequeño, acción abajo.</p><p><strong>Estilo visual:</strong> fondo claro con una tarjeta blanca y sombra suave que recuerde a una captura de reseña, sin copiar el diseño de Google ni de ninguna otra web. Logo del negocio pequeño.</p><p><strong>Ojo:</strong> nada de reseñas inventadas ni "adaptadas". Si no tienes ninguna con permiso, usa otra plantilla.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> reseña en grande en el centro, estrellas encima, autor debajo en pequeño, acción abajo.</p><p><strong>Estilo visual:</strong> fondo claro con una tarjeta blanca y sombra suave que recuerde a una captura de reseña, sin copiar el diseño de Google ni de ninguna otra web. Logo del negocio pequeño.</p><p><strong>Ojo:</strong> nada de reseñas inventadas ni "adaptadas". Si no tienes ninguna con permiso, usa otra plantilla.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 
@@ -269,7 +271,7 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 <li>"[ELEMENTO 3]"</li>
 </ul>
 </li>
-<li>Detalle: "[CONDICIÓN]" (<span class="tag">EJEMPLO</span> "De lunes a jueves, grupos desde 8 personas")</li>
+<li>Detalle: "[CONDICIÓN]" (<span class="kw">EJEMPLO</span> "De lunes a jueves, grupos desde 8 personas")</li>
 <li>Acción: "Pide el menú →"</li>
 </ul><p><strong>Jerarquía:</strong> titular con el precio destacado en color de acento, lista en el centro, condición en pequeño, acción abajo.</p><p><strong>Estilo visual:</strong> foto del producto o del servicio a un lado (4:5) o arriba (9:16), lista sobre fondo liso. Checks en color de acento.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
@@ -278,15 +280,15 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 
 
 
-<section class="tpl"><div class="keep"><h2 id="t11"><span class="code">10</span>Fecha o temporada</h2><p><strong>Para qué sirve:</strong> aprovechar un momento del año (vuelta al cole, Navidad, verano, ITV antes de vacaciones, rebajas). Se combina con los guiones de temporada del pack extra.</p></div><p><strong>Texto:</strong></p><ul>
-<li>Etiqueta: "[TEMPORADA]" (<span class="tag">EJEMPLO</span> "Antes de vacaciones")</li>
+<section class="tpl"><div class="keep"><h2 id="t11"><span class="code">10</span>Fecha o temporada</h2><p><strong>Para qué sirve:</strong> aprovechar un momento del año (vuelta al cole, Navidad, verano, ITV antes de vacaciones, rebajas). Se combina con los guiones de temporada del pack extra.</p></div><div class="keep"><p><strong>Texto:</strong></p><ul>
+<li>Etiqueta: "[TEMPORADA]" (<span class="kw">EJEMPLO</span> "Antes de vacaciones")</li>
 <li>Titular: "[OFERTA LIGADA A LA FECHA]"<ul>
 <li><span class="tag">EJEMPLO</span> "Revisión pre-viaje antes del 31 de julio"</li>
 </ul>
 </li>
 <li>Apoyo: "En [NOMBRE NEGOCIO], [BARRIO]."</li>
 <li>Acción: "Reserva tu hueco →"</li>
-</ul><p><strong>Jerarquía:</strong> etiqueta de temporada en una cinta o franja arriba, titular grande, fecha límite destacada, acción abajo.</p><p><strong>Estilo visual:</strong> el estilo de siempre del negocio con un detalle de temporada discreto (un color, un elemento gráfico). Evita el exceso de adornos navideños o veraniegos que tapan el mensaje.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
+</ul></div><p><strong>Jerarquía:</strong> etiqueta de temporada en una cinta o franja arriba, titular grande, fecha límite destacada, acción abajo.</p><p><strong>Estilo visual:</strong> el estilo de siempre del negocio con un detalle de temporada discreto (un color, un elemento gráfico). Evita el exceso de adornos navideños o veraniegos que tapan el mensaje.</p><div class="canva"><div class="lbl">Plantilla en Canva</div><div>4:5 (1080 × 1350) · 9:16 (1080 × 1920)</div><div class="pending">Enlace: se añadirá en la próxima actualización del kit</div></div></section>
 
 
 

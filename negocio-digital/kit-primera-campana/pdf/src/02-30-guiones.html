@@ -70,6 +70,7 @@ blockquote{margin:0 0 3.5mm;padding:3mm 4.5mm;background:var(--card);border-left
 blockquote p:last-child{margin-bottom:0;}
 .tag{display:inline-block;background:var(--org);color:#fff;font-weight:700;font-size:7.6pt;letter-spacing:.08em;
  padding:.4mm 1.8mm;border-radius:1mm;margin-right:1.5mm;vertical-align:1px;line-height:1.5;}
+.kw{color:var(--org);font-weight:700;letter-spacing:.02em;}
 .ejemplo{background:var(--soft);border:1px solid #F6C9AC;border-left:4px solid var(--org);border-radius:2.5mm;
  padding:3.5mm 4.5mm;margin:0 0 4mm;break-inside:avoid;}
 .ejemplo p:last-child,.ejemplo ul:last-child,.ejemplo blockquote:last-child{margin-bottom:0;}
@@ -77,6 +78,7 @@ blockquote p:last-child{margin-bottom:0;}
 table{width:100%;border-collapse:collapse;margin:1mm 0 5mm;font-size:9.8pt;break-inside:auto;}
 thead{display:table-header-group;}
 tr{break-inside:avoid;}
+table.short{break-inside:avoid;}
 th{background:var(--ink);color:var(--bg);text-align:left;padding:2mm 3mm;font-weight:700;}
 th:first-child{border-top-left-radius:2mm;} th:last-child{border-top-right-radius:2mm;}
 td{padding:2mm 3mm;border-bottom:1px solid var(--line);vertical-align:top;}
@@ -123,21 +125,21 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 
 <div class="keep"><h2 id="t1">Antes de grabar</h2><p>Estos guiones están escritos para que los digas tú, el dueño o la dueña del negocio, con tu móvil y en tu local. No hace falta actor, ni foco, ni micrófono caro.</p></div>
 
-<p><strong>Cómo grabar:</strong></p>
-<ul>
+<div class="keep"><p><strong>Cómo grabar:</strong></p><ul>
 <li>Móvil en vertical, a la altura de los ojos. Apóyalo en algo o usa un trípode barato.</li>
 <li>Luz de frente: ponte mirando a una ventana, nunca de espaldas a ella.</li>
 <li>Sonido: graba en un sitio sin eco ni música de fondo. Si el local es ruidoso, graba antes de abrir.</li>
 <li>Di cada frase por separado y luego las unes. No hace falta aprenderse el guion entero.</li>
 <li>Repite el gancho tres o cuatro veces con tonos distintos. Es lo que más importa del vídeo.</li>
 <li>Pon subtítulos. Mucha gente ve los vídeos sin sonido. CapCut, Edits (la app de Instagram) o el editor de Instagram los generan solos; revisa que no haya errores.</li>
-</ul>
-<p><strong>Cómo adaptarlos:</strong></p>
-<ul>
+</ul></div>
+
+<div class="keep"><p><strong>Cómo adaptarlos:</strong></p><ul>
 <li>Cambia lo que va entre corchetes: [NOMBRE NEGOCIO], [BARRIO], [OFERTA], [PRECIO].</li>
 <li>Cambia las palabras que no dirías tú. Si en tu zona se dice "presupuesto" y no "valoración", usa "presupuesto". Tiene que sonar a ti.</li>
-<li>Donde aparece un precio o un número, es un <span class="tag">EJEMPLO</span>. Pon los tuyos y solo si son verdad.</li>
-</ul>
+<li>Donde aparece un precio o un número, es un <span class="kw">EJEMPLO</span>. Pon los tuyos y solo si son verdad.</li>
+</ul></div>
+
 <p><strong>Duración:</strong> cada guion dura entre 20 y 40 segundos dicho a ritmo normal. Si te pasa de 40, quita frases del cuerpo, nunca del gancho ni de la llamada a la acción.</p>
 <p><strong>Cuidado con las normas de Meta:</strong> no digas ni insinúes cosas personales de quien mira (salud, peso, dinero, edad). "¿Te duele la espalda?" puede hacer que te rechacen el anuncio. "Si trabajas muchas horas sentado…" o "En la primera sesión revisamos…" no suelen dar problemas. Tampoco pongas imágenes de antes y después de tratamientos de salud, estética o peso.</p>
 <p><strong>Elige tres para tu primera campaña</strong>, cada uno con un tipo de gancho distinto (por ejemplo, uno de pregunta, uno de error y uno de "qué pasa en la primera visita"). Así sabrás qué ángulo funciona con tu público.</p>
@@ -175,7 +177,7 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 
 <section class="card" data-kicker="Restaurantes" data-toc="R4 · Cocina abierta" id="t18"><header><div class="kick">Restaurantes</div><div class="ct"><span class="code">R4</span><h3>Cocina abierta</h3></div></header><div class="row gancho"><div class="lbl">Gancho (0-3 s)</div><div class="txt">"Te enseño lo que pasa en nuestra cocina a las diez de la mañana."</div></div><div class="row cuerpo"><div class="lbl">Cuerpo</div><div class="txt">"Llega el producto. Lo revisamos. Empezamos los fondos, cortamos, preparamos. Todo lo que comes a mediodía empezó aquí hace horas. Y eso es lo que llega a tu mesa en [NOMBRE NEGOCIO]."</div></div><div class="row cta"><div class="lbl">CTA</div><div class="txt">"Reserva tu mesa en el formulario. Te contestamos por WhatsApp."</div></div><div class="row pantalla"><div class="lbl">En pantalla</div><div class="txt">planos rápidos de cocina: cajas de producto, cuchillo, olla, manos trabajando; al final tú a cámara; texto con la hora "10:00".</div></div><div class="row porque"><div class="lbl">Por qué engancha</div><div class="txt">La cocina a las diez de la mañana es un sitio donde el cliente nunca entra, y la curiosidad hace el resto.</div></div></section>
 
-<section class="card" data-kicker="Restaurantes" data-toc="R5 · Menú del día para el trabajo" id="t19"><header><div class="kick">Restaurantes</div><div class="ct"><span class="code">R5</span><h3>Menú del día para el trabajo</h3></div></header><div class="row gancho"><div class="lbl">Gancho (0-3 s)</div><div class="txt">"Si trabajas por [BARRIO] y comes cada día lo mismo, mira esto."</div></div><div class="row cuerpo"><div class="lbl">Cuerpo</div><div class="txt">"Menú del día en [NOMBRE NEGOCIO]: primero, segundo, postre y bebida por [PRECIO]. Cambia cada día. Y si tienes poco tiempo, nos lo dices al llegar y en media hora estás fuera."</div></div><div class="row cta"><div class="lbl">CTA</div><div class="txt">"Deja tu teléfono y te mandamos el menú de cada día por WhatsApp."</div></div><div class="row pantalla"><div class="lbl">En pantalla</div><div class="txt">pizarra con el menú del día; plano de los tres platos; tú a cámara; texto con el precio (<span class="tag">EJEMPLO</span>, pon el tuyo).</div></div><div class="row porque"><div class="lbl">Por qué engancha</div><div class="txt">Barrio y rutina en la misma frase: el que come por allí sabe en un segundo que va con él.</div></div></section>
+<section class="card" data-kicker="Restaurantes" data-toc="R5 · Menú del día para el trabajo" id="t19"><header><div class="kick">Restaurantes</div><div class="ct"><span class="code">R5</span><h3>Menú del día para el trabajo</h3></div></header><div class="row gancho"><div class="lbl">Gancho (0-3 s)</div><div class="txt">"Si trabajas por [BARRIO] y comes cada día lo mismo, mira esto."</div></div><div class="row cuerpo"><div class="lbl">Cuerpo</div><div class="txt">"Menú del día en [NOMBRE NEGOCIO]: primero, segundo, postre y bebida por [PRECIO]. Cambia cada día. Y si tienes poco tiempo, nos lo dices al llegar y en media hora estás fuera."</div></div><div class="row cta"><div class="lbl">CTA</div><div class="txt">"Deja tu teléfono y te mandamos el menú de cada día por WhatsApp."</div></div><div class="row pantalla"><div class="lbl">En pantalla</div><div class="txt">pizarra con el menú del día; plano de los tres platos; tú a cámara; texto con el precio (<span class="kw">EJEMPLO</span>, pon el tuyo).</div></div><div class="row porque"><div class="lbl">Por qué engancha</div><div class="txt">Barrio y rutina en la misma frase: el que come por allí sabe en un segundo que va con él.</div></div></section>
 
 
 <h2 class="group" id="t20">4. Gimnasios y centros deportivos</h2>
@@ -214,13 +216,13 @@ section.tpl h2 .code{background:var(--org);color:#fff;font-size:15pt;border-radi
 <section class="card" data-kicker="Academias" data-toc="A5 · Profesor que se acuerda de ti" id="t37"><header><div class="kick">Academias</div><div class="ct"><span class="code">A5</span><h3>Profesor que se acuerda de ti</h3></div></header><div class="row gancho"><div class="lbl">Gancho (0-3 s)</div><div class="txt">"En una clase de treinta, es fácil que el profesor no note que no te has enterado."</div></div><div class="row cuerpo"><div class="lbl">Cuerpo</div><div class="txt">"En [NOMBRE NEGOCIO] los grupos son de [NÚMERO] como mucho. Si algo no lo pillas, se nota, y lo repetimos hasta que salga."</div></div><div class="row cta"><div class="lbl">CTA</div><div class="txt">"Ven a una clase de prueba. Deja tu teléfono y te damos día."</div></div><div class="row pantalla"><div class="lbl">En pantalla</div><div class="txt">aula con pocos alumnos; profesor explicando a uno en concreto; texto con el tamaño máximo del grupo.</div></div><div class="row porque"><div class="lbl">Por qué engancha</div><div class="txt">Una clase de treinta es un recuerdo de colegio casi universal, y el tamaño del grupo es la respuesta.</div></div></section>
 
 
-<div class="keep"><h2 id="t38">Ganchos de recambio</h2><p>Si un anuncio no para el scroll, regraba solo los primeros 3 segundos con uno de estos y mantén el resto:</p></div>
-
-<ul>
+<div class="keep"><h2 id="t38">Ganchos de recambio</h2><div class="keep"><p>Si un anuncio no para el scroll, regraba solo los primeros 3 segundos con uno de estos y mantén el resto:</p><ul>
 <li>"Esto es lo que pasa cuando vienes por primera vez a [NOMBRE NEGOCIO]."</li>
 <li>"Tres preguntas que deberías hacer antes de elegir [TIPO DE NEGOCIO]."</li>
 <li>"Un error muy común al elegir [TIPO DE NEGOCIO]."</li>
 <li>"Si vives en [BARRIO], esto te interesa."</li>
 <li>"Te enseño lo que no se ve de [TU SERVICIO]."</li>
 <li>"Lo que me preguntan siempre antes de [TU SERVICIO]."</li>
-</ul></main></body></html>
+</ul></div></div>
+
+</main></body></html>

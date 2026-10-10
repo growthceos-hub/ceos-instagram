@@ -132,6 +132,11 @@ def transform(doc, body_html):
         for n in new:
             tn.insert_before(n)
         tn.extract()
+    # Etiqueta solo al inicio de un bloque; dentro de una frase, palabra destacada
+    for t in soup.find_all("span", class_="tag"):
+        before = "".join(x.get_text() if hasattr(x, "get_text") else str(x) for x in t.previous_siblings)
+        if before.strip() or t.parent.name in ("h1", "h2", "h3", "h4"):
+            t["class"] = "kw"
     # Cajas de ejemplo
     for p in list(soup.find_all("p")):
         kids = [k for k in p.contents if not (isinstance(k, NavigableString) and not k.strip())]
@@ -145,7 +150,8 @@ def transform(doc, body_html):
         if starts and p.parent.name in ("[document]", None) or (starts and p.parent is soup):
             box = soup.new_tag("div", attrs={"class": "ejemplo"})
             p.insert_before(box); box.append(p.extract())
-            if nxt and nxt.name in ("blockquote", "ul", "ol") and p.get_text().strip().endswith(":"):
+            only_tag = len(kids) == 1
+            if nxt and nxt.name in ("blockquote", "ul", "ol", "table") and (only_tag or p.get_text().strip().endswith(":")):
                 box.append(nxt.extract())
         elif ends and nxt and nxt.name in ("blockquote", "ul", "ol"):
             last.extract()
@@ -199,6 +205,20 @@ def transform(doc, body_html):
             n += 1; sib = sib.find_next_sibling()
         if only_cards and n:
             h2["class"] = "group"
+
+    # Tablas cortas: enteras en una página
+    for t in soup.find_all("table"):
+        if len(t.find_all("tr")) <= 8:
+            t["class"] = "short"
+
+    # Frase de entrada ("...:") pegada a su tabla o lista corta
+    for p in list(soup.find_all("p")):
+        nxt = p.find_next_sibling()
+        if p.parent is soup and p.get_text().strip().endswith(":") and nxt is not None and (
+                (nxt.name == "table" and "short" in (nxt.get("class") or []))
+                or (nxt.name in ("ul", "ol") and len(nxt.find_all("li")) <= 6)):
+            keep = soup.new_tag("div", attrs={"class": "keep"})
+            p.insert_before(keep); keep.append(p.extract()); keep.append(nxt.extract())
 
     # Mensajes de WhatsApp: <p><strong>título</strong></p> + <blockquote>
     for p in list(soup.find_all("p")):
@@ -377,6 +397,7 @@ blockquote{margin:0 0 3.5mm;padding:3mm 4.5mm;background:var(--card);border-left
 blockquote p:last-child{margin-bottom:0;}
 .tag{display:inline-block;background:var(--org);color:#fff;font-weight:700;font-size:7.6pt;letter-spacing:.08em;
  padding:.4mm 1.8mm;border-radius:1mm;margin-right:1.5mm;vertical-align:1px;line-height:1.5;}
+.kw{color:var(--org);font-weight:700;letter-spacing:.02em;}
 .ejemplo{background:var(--soft);border:1px solid #F6C9AC;border-left:4px solid var(--org);border-radius:2.5mm;
  padding:3.5mm 4.5mm;margin:0 0 4mm;break-inside:avoid;}
 .ejemplo p:last-child,.ejemplo ul:last-child,.ejemplo blockquote:last-child{margin-bottom:0;}
@@ -384,6 +405,7 @@ blockquote p:last-child{margin-bottom:0;}
 table{width:100%;border-collapse:collapse;margin:1mm 0 5mm;font-size:9.8pt;break-inside:auto;}
 thead{display:table-header-group;}
 tr{break-inside:avoid;}
+table.short{break-inside:avoid;}
 th{background:var(--ink);color:var(--bg);text-align:left;padding:2mm 3mm;font-weight:700;}
 th:first-child{border-top-left-radius:2mm;} th:last-child{border-top-right-radius:2mm;}
 td{padding:2mm 3mm;border-bottom:1px solid var(--line);vertical-align:top;}
@@ -560,7 +582,10 @@ def main():
                     w.pages[-1].merge_page(bp)
                 w.add_metadata({"/Title": meta["title"], "/Author": "Ceos Growth, S.L.",
                                 "/Subject": "Kit Primera Campaña " + VERSION})
-                w.compress_identical_objects() if hasattr(w, "compress_identical_objects") else None
+                for pg in w.pages:
+                    pg.compress_content_streams()
+                if hasattr(w, "compress_identical_objects"):
+                    w.compress_identical_objects()
                 with open(pdf_path, "wb") as fh:
                     w.write(fh)
             n = len(PdfReader(str(pdf_path)).pages)
