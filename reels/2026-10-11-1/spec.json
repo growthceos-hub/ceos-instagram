@@ -1,0 +1,74 @@
+{
+ "topic": "Los tres números que mirar cada lunes en 15 minutos: leads que entraron (sacados del CRM, no de memoria), citas que se hicieron de verdad (no las pedidas) y ventas cerradas; donde más se cae el paso de uno a otro, ahí trabajas esa semana",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuántos leads<br>perdiste<br><em>esta semana?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Socio",
+    "msgs": [
+     {"from": "in", "text": "¿Qué tal fue la semana?", "time": "09:02"},
+     {"from": "out", "lines": ["Bien... creo.", "No lo he mirado."], "time": "09:05"}
+    ]
+   },
+   "footer": "3 números cada lunes"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Leads que<br><em>entraron.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Leads de la semana",
+    "items": [
+     {"label": "Anuncios de Meta", "value": 78, "hi": true},
+     {"label": "Google", "value": 42},
+     {"label": "Recomendados", "value": 26}
+    ]
+   },
+   "note": "Del CRM, <b>no de memoria.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Citas que<br><em>se hicieron.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "NO CUENTA",
+    "bad": ["Citas pedidas", "Citas «a confirmar»"],
+    "good_t": "SÍ CUENTA",
+    "good": ["Citas hechas", "Con resultado apuntado"]
+   },
+   "note": "Si no se hizo, <b>no es una cita.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Ventas<br><em>cerradas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CADA LUNES · 15 MIN",
+    "lines": [
+     "De leads a citas: ¿llamas?",
+     "De citas a ventas: ¿cierras?",
+     "Arregla solo el que cae"
+    ]
+   },
+   "note": "Donde más se cae, <b>ahí trabajas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tres números,<br><em>cada lunes.</em>",
+   "dur": 6,
+   "items": [
+    "Leads que entraron",
+    "Citas que se hicieron",
+    "Ventas cerradas"
+   ]
+  }
+ ],
+ "caption": "¿Sabes cuántos leads perdiste la semana pasada? 📊\n\nSi no lo miras, no sabes si el problema está en el anuncio, en la llamada o en la cita. Cada lunes, 15 minutos con estos tres números:\n\n→ Leads que entraron: sácalos del CRM, no de memoria, y mira de qué canal vienen\n→ Citas que se hicieron: solo las que pasaron de verdad, no las pedidas ni las «a confirmar»\n→ Ventas cerradas: y compara cada número con el anterior\n\nDonde más se caiga el paso de uno a otro, ahí trabajas esa semana. Si entran leads y no hay citas, mira cómo y cuándo llamas. Si hay citas y no hay ventas, mira la llamada de venta. Para nosotros, gastar más en anuncios es lo último que se toca.\n\n¿Cuál de los tres números no sabrías decir ahora mismo? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #captaciondeclientes #leads #crm #ventas #pymes #negocioslocales"
+}
