@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>02 · Cambio 1: el gancho</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 100px rgba(255,106,26,.7)}}
+@keyframes aShim{0%{transform:translateX(-160%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes tIn{from{opacity:0}to{opacity:1}}
+@keyframes sDraw{from{background-size:0% 6px}to{background-size:100% 6px}}
+@keyframes cDraw{0%{stroke-dashoffset:1;opacity:0}2%{opacity:1}100%{stroke-dashoffset:0;opacity:1}}
+@keyframes pop{0%{opacity:0;transform:scale(.6) rotate(var(--r,0deg))}70%{opacity:1;transform:scale(1.08) rotate(var(--r,0deg))}100%{opacity:1;transform:scale(1) rotate(var(--r,0deg))}}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
+@keyframes dim{to{opacity:.6;filter:saturate(.4)}}
+@keyframes nudgeY{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+@keyframes nudgeX{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+@keyframes hot{0%,100%{box-shadow:0 30px 80px -30px rgba(255,106,26,.45);border-color:rgba(255,106,26,.55)}50%{box-shadow:0 30px 120px -20px rgba(255,106,26,.85);border-color:rgba(255,106,26,1)}}
+@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.strike{background:linear-gradient(#FF4A3D,#FF4A3D) no-repeat 0 58%/0% 6px;-webkit-box-decoration-break:slice;box-decoration-break:slice}
+.mono{font-family:'JetBrains Mono',monospace}
+.bri{font-family:'Bricolage Grotesque',sans-serif;font-weight:800}
+.ser{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important}}
+.lbl{font-family:'JetBrains Mono',monospace;font-size:19px;letter-spacing:0.12em;font-weight:600}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; top: 160px; right: -440px; width: 1100px; height: 1100px; border-radius: 999px; background: radial-gradient(circle, rgba(255,106,26,0.24), rgba(255,106,26,0) 62%); animation: aGlow 4s ease-in-out infinite"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Growth" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span class="bri" style="font-size: 30px; letter-spacing: -0.02em">Ceos Growth</span>
+</div>
+<span class="mono" style="font-size: 20px; letter-spacing: 0.12em; color: #9C938B">02 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: flex; align-items: flex-end; gap: 26px">
+<span class="bri" style="font-size: 150px; line-height: 0.78; letter-spacing: -0.07em; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">01</span>
+<span class="mono" style="margin-bottom: 4px; padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(242,237,231,0.2); font-size: 20px; letter-spacing: 0.1em; color: #B5ADA4">EL GANCHO · 0 A 3 S</span>
+</div>
+<h2 class="bri" style="margin: 0; font-size: 84px; line-height: 0.96; letter-spacing: -0.05em">Lo primero que se lee,<br><span class="ser" style="color: #FF6A1A; font-size: 92px; letter-spacing: -0.02em">para tu cliente.</span></h2>
+<p style="margin: 0; font-size: 33px; line-height: 1.3; color: #D9D1C8">En los 3 primeros segundos nombra su problema. Quiénes sois puede ir en la segunda línea.</p>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 14px">
+<div style="padding: 24px 32px; border-radius: 24px; background: #12100F; border: 1px solid rgba(242,237,231,0.1); display: flex; flex-direction: column; gap: 10px; animation: dim .5s ease-out 1.25s both">
+<span class="lbl" style="color: #FF4A3D">ANTES</span>
+<span style="font-size: 31px; line-height: 1.3; color: #D9D1C8"><span class="strike" style="animation: sDraw .8s cubic-bezier(.3,.7,.2,1) .2s both">¡Bienvenidos a Peluquería Lola! Somos un equipo joven y con mucha ilusión.</span></span>
+</div>
+<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#FF6A1A" stroke-width="2.6" aria-hidden="true" style="align-self: center; animation: nudgeY 1.4s ease-in-out infinite"><path d="M12 4v15M6 13l6 6 6-6"></path></svg>
+<div style="position: relative; overflow: hidden; padding: 26px 32px 30px; border-radius: 24px; background: linear-gradient(160deg, #2A150A, #12100F 75%); border: 2px solid #FF6A1A; display: flex; flex-direction: column; gap: 14px; animation: rise .5s ease-out 1.25s both, hot 4s ease-in-out infinite">
+<div style="display: flex; justify-content: space-between; align-items: center"><span class="lbl" style="color: #FF6A1A">DESPUÉS</span><span class="lbl" style="color: #9C938B; font-weight: 400">EJEMPLO</span></div>
+<span class="bri" style="font-size: 50px; line-height: 1.02; letter-spacing: -0.035em; min-height: 102px"><span style="animation:tIn .01s linear 1.450s both">¿</span><span style="animation:tIn .01s linear 1.470s both">P</span><span style="animation:tIn .01s linear 1.490s both">e</span><span style="animation:tIn .01s linear 1.510s both">l</span><span style="animation:tIn .01s linear 1.530s both">o</span><span style="animation:tIn .01s linear 1.550s both"> </span><span style="animation:tIn .01s linear 1.570s both">e</span><span style="animation:tIn .01s linear 1.590s both">n</span><span style="animation:tIn .01s linear 1.610s both">c</span><span style="animation:tIn .01s linear 1.630s both">r</span><span style="animation:tIn .01s linear 1.650s both">e</span><span style="animation:tIn .01s linear 1.670s both">s</span><span style="animation:tIn .01s linear 1.690s both">p</span><span style="animation:tIn .01s linear 1.710s both">a</span><span style="animation:tIn .01s linear 1.730s both">d</span><span style="animation:tIn .01s linear 1.750s both">o</span><span style="animation:tIn .01s linear 1.770s both"> </span><span style="animation:tIn .01s linear 1.790s both">n</span><span style="animation:tIn .01s linear 1.810s both">a</span><span style="animation:tIn .01s linear 1.830s both">d</span><span style="animation:tIn .01s linear 1.850s both">a</span><span style="animation:tIn .01s linear 1.870s both"> </span><span style="animation:tIn .01s linear 1.890s both">m</span><span style="animation:tIn .01s linear 1.910s both">á</span><span style="animation:tIn .01s linear 1.930s both">s</span><span style="animation:tIn .01s linear 1.950s both"> </span><span style="animation:tIn .01s linear 1.970s both">s</span><span style="animation:tIn .01s linear 1.990s both">a</span><span style="animation:tIn .01s linear 2.010s both">l</span><span style="animation:tIn .01s linear 2.030s both">i</span><span style="animation:tIn .01s linear 2.050s both">r</span><span style="animation:tIn .01s linear 2.070s both"> </span><span style="animation:tIn .01s linear 2.090s both">d</span><span style="animation:tIn .01s linear 2.110s both">e</span><span style="animation:tIn .01s linear 2.130s both"> </span><span style="animation:tIn .01s linear 2.150s both">c</span><span style="animation:tIn .01s linear 2.170s both">a</span><span style="animation:tIn .01s linear 2.190s both">s</span><span style="animation:tIn .01s linear 2.210s both">a</span><span style="animation:tIn .01s linear 2.230s both">?</span><span style="animation:tIn .01s linear 2.250s both"> </span><span style="animation:tIn .01s linear 2.270s both">E</span><span style="animation:tIn .01s linear 2.290s both">m</span><span style="animation:tIn .01s linear 2.310s both">p</span><span style="animation:tIn .01s linear 2.330s both">i</span><span style="animation:tIn .01s linear 2.350s both">e</span><span style="animation:tIn .01s linear 2.370s both">z</span><span style="animation:tIn .01s linear 2.390s both">a</span><span style="animation:tIn .01s linear 2.410s both"> </span><span style="animation:tIn .01s linear 2.430s both">p</span><span style="animation:tIn .01s linear 2.450s both">o</span><span style="animation:tIn .01s linear 2.470s both">r</span><span style="animation:tIn .01s linear 2.490s both"> </span><span style="animation:tIn .01s linear 2.510s both">e</span><span style="animation:tIn .01s linear 2.530s both">l</span><span style="animation:tIn .01s linear 2.550s both"> </span><span style="animation:tIn .01s linear 2.570s both">c</span><span style="animation:tIn .01s linear 2.590s both">o</span><span style="animation:tIn .01s linear 2.610s both">r</span><span style="animation:tIn .01s linear 2.630s both">t</span><span style="animation:tIn .01s linear 2.650s both">e</span><span style="animation:tIn .01s linear 2.670s both">.</span></span>
+<div style="display: flex; align-items: center; gap: 14px">
+<span class="mono" style="font-size: 18px; color: #FFB27A">0 s</span>
+<div style="position: relative; flex: 1; height: 10px; border-radius: 99px; background: rgba(242,237,231,0.1); overflow: hidden"><div style="position: absolute; inset: 0; border-radius: 99px; background: linear-gradient(90deg, #FF6A1A, #FFB27A); transform-origin: left; animation: fill 2.2s linear 1.5s both"></div></div>
+<span class="mono" style="font-size: 18px; color: #FFB27A">3 s</span>
+</div>
+<div style="position: absolute; top: 0; bottom: 0; left: 0; width: 18%; background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,178,122,0.14), rgba(255,255,255,0)); animation: aShim 4s ease-in-out .6s infinite"></div>
+</div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 24px; color: #B5ADA4">Habla de lo que le pasa, luego de ti.</span>
+<span class="mono" style="font-size: 22px; letter-spacing: 0.12em; color: #FF6A1A">DESLIZA →</span>
+</div>
+</div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
