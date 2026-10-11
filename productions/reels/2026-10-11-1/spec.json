@@ -1,0 +1,24 @@
+{
+ "topic": "Calidad al subir a Instagram: por qué tu reel se ve pixelado al publicarlo y 3 arreglos (exportar a 1080×1920 y 30 fps, no pasarlo por WhatsApp y activar subir con la máxima calidad)",
+ "scenes": [
+  {"kind": "hook", "title": "¿Tu reel sale<br><em>pixelado?</em>", "size": 134, "dur": 5.6,
+   "mock": {"type": "compare", "bad_t": "LO QUE SUBES", "bad": ["Imagen borrosa", "Colores lavados"],
+            "good_t": "LO QUE GRABASTE", "good": ["Imagen nítida", "Color de verdad"]},
+   "footer": "3 arreglos antes de publicar"},
+  {"label": "ARREGLO 1", "title": "Exporta en<br><em>9:16 a 1080.</em>", "dur": 6.5,
+   "mock": {"type": "script", "title": "AJUSTES DE EXPORTACIÓN", "lines": ["Tamaño: 1080 × 1920", "Formato vertical 9:16", "Mismos fps que grabaste"]},
+   "note": "Si exportas en horizontal, <b>Instagram recorta y estira.</b>"},
+  {"label": "ARREGLO 2", "title": "Nada de<br><em>WhatsApp.</em>", "dur": 6.5,
+   "mock": {"type": "timeline", "rows": [
+     {"n": "1", "d": "EXPORTAS", "t": "Archivo original", "s": "Guárdalo en tu móvil"},
+     {"n": "2", "d": "SI LO PASAS", "t": "Usa AirDrop o cable", "s": "O sube a la nube el original"},
+     {"n": "3", "d": "NUNCA", "t": "Mandártelo por chat", "s": "WhatsApp comprime el vídeo"}]},
+   "note": "Cada reenvío por chat <b>le quita calidad.</b>"},
+  {"label": "ARREGLO 3", "title": "Sube en<br><em>máxima calidad.</em>", "dur": 6.5,
+   "mock": {"type": "checklist", "items": ["Ajustes de la app", "Calidad de multimedia", "Subir con la máxima calidad"]},
+   "note": "Y publica <b>con wifi, no con poca cobertura.</b>"},
+  {"kind": "cta", "title": "Que se vea<br><em>como lo grabaste.</em>", "dur": 6,
+   "items": ["Exporta a 1080 × 1920", "Nada de pasarlo por chat", "Máxima calidad activada"]}
+ ],
+ "caption": "¿Tu reel se ve perfecto en el móvil y pixelado al publicarlo? 📉\n\nCasi nunca es culpa de la cámara: el vídeo pierde calidad por el camino, entre la edición y el botón de publicar.\n\n→ Exporta en vertical 9:16 a 1080 × 1920 y con los mismos fps con los que grabaste\n→ No te pases el vídeo por WhatsApp: comprime cada envío. Usa AirDrop, cable o la nube con el archivo original\n→ En los ajustes de Instagram, en calidad de los archivos multimedia, activa subir con la máxima calidad y publica con wifi\n\nPara nosotros el paso por WhatsApp es el que más vídeos estropea, y nadie lo ve venir.\n\n¿Editas en el móvil o en el ordenador? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más 🎬\n\n#ceosproductions #grabarvideo #tipsdevideo #reels #edicióndevideo #creaciondecontenido #instagramtips"
+}
