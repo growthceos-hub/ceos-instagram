@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>01 · Gancho</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0908}
+@keyframes aLogo{0%,100%{filter:drop-shadow(0 0 6px rgba(255,106,26,.35))}50%{filter:drop-shadow(0 0 16px rgba(255,106,26,.75))}}
+@keyframes aGlow{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.07)}}
+@keyframes aHeat{0%,100%{text-shadow:0 0 50px rgba(255,106,26,.3)}50%{text-shadow:0 0 110px rgba(255,106,26,.75)}}
+@keyframes aShim{0%{transform:translateX(-140%) skewX(-20deg)}60%,100%{transform:translateX(620%) skewX(-20deg)}}
+@keyframes aNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes aRec{0%,49%{opacity:1}50%,100%{opacity:.15}}
+@keyframes aScan{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+
+@keyframes aStep{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+@keyframes aBreath{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.01)}}
+@keyframes aPing{0%{transform:scale(.6);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@keyframes aSoft{0%,100%{filter:brightness(1)}50%{filter:brightness(1.12)}}
+@keyframes aShake{0.00%{transform:translate(0.0px,0.0px) rotate(0.00deg)}1.79%{transform:translate(-2.9px,-10.3px) rotate(-1.42deg)}3.57%{transform:translate(-1.3px,6.2px) rotate(-0.25deg)}5.36%{transform:translate(0.1px,-7.1px) rotate(-0.15deg)}7.14%{transform:translate(-4.5px,6.5px) rotate(-0.53deg)}8.93%{transform:translate(2.6px,-8.5px) rotate(-1.27deg)}10.71%{transform:translate(-1.5px,1.5px) rotate(-0.10deg)}12.50%{transform:translate(-10.6px,7.5px) rotate(1.44deg)}14.29%{transform:translate(0.8px,4.0px) rotate(0.13deg)}16.07%{transform:translate(-7.4px,4.8px) rotate(-1.78deg)}17.86%{transform:translate(9.6px,-5.9px) rotate(1.62deg)}19.64%{transform:translate(10.2px,-8.1px) rotate(0.93deg)}21.43%{transform:translate(-9.0px,-2.0px) rotate(-1.08deg)}23.21%{transform:translate(-6.9px,0.3px) rotate(1.56deg)}25.00%{transform:translate(-0.7px,-9.8px) rotate(-1.47deg)}26.79%{transform:translate(-8.1px,-7.8px) rotate(-1.53deg)}28.57%{transform:translate(-6.8px,0.7px) rotate(-1.06deg)}30.36%{transform:translate(-6.8px,8.6px) rotate(-2.04deg)}32.14%{transform:translate(-1.1px,-9.5px) rotate(-1.32deg)}33.93%{transform:translate(-4.2px,-8.0px) rotate(-0.06deg)}35.71%{transform:translate(-1.3px,-4.4px) rotate(-0.70deg)}37.50%{transform:translate(-3.6px,-1.2px) rotate(1.16deg)}39.29%{transform:translate(-8.7px,10.5px) rotate(1.20deg)}41.07%{transform:translate(2.9px,-9.3px) rotate(-1.52deg)}42.86%{transform:translate(-6.5px,-10.1px) rotate(2.16deg)}44.64%{transform:translate(1.6px,-2.0px) rotate(0.12deg)}46.43%{transform:translate(6.4px,-5.9px) rotate(-0.82deg)}48.21%{transform:translate(-4.0px,-1.2px) rotate(-1.58deg)}50.00%{transform:translate(-1.2px,7.4px) rotate(1.16deg)}51.79%{transform:translate(-0.4px,-7.4px) rotate(-1.53deg)}53.57%{transform:translate(8.5px,-3.9px) rotate(2.04deg)}55.36%{transform:translate(-5.6px,-3.1px) rotate(1.99deg)}57.14%{transform:translate(-4.8px,-8.6px) rotate(0.53deg)}58.93%{transform:translate(-2.3px,1.8px) rotate(-0.80deg)}60.71%{transform:translate(-9.9px,6.6px) rotate(0.92deg)}62.50%{transform:translate(-4.5px,3.2px) rotate(-2.10deg)}64.29%{transform:translate(2.1px,0.4px) rotate(-0.38deg)}66.07%{transform:translate(9.1px,10.6px) rotate(0.94deg)}67.86%{transform:translate(-7.0px,-5.5px) rotate(1.03deg)}69.64%{transform:translate(-2.8px,2.1px) rotate(-0.79deg)}71.43%{transform:translate(6.9px,-5.6px) rotate(-1.64deg)}73.21%{transform:translate(2.2px,7.0px) rotate(1.03deg)}75.00%{transform:translate(-9.4px,5.8px) rotate(1.66deg)}76.79%{transform:translate(6.0px,-0.0px) rotate(0.18deg)}78.57%{transform:translate(7.5px,2.8px) rotate(0.40deg)}80.36%{transform:translate(-2.8px,-9.8px) rotate(-0.97deg)}82.14%{transform:translate(7.3px,3.7px) rotate(1.69deg)}83.93%{transform:translate(-3.3px,-1.5px) rotate(1.60deg)}85.71%{transform:translate(-2.8px,0.1px) rotate(1.04deg)}87.50%{transform:translate(8.1px,-10.8px) rotate(-1.66deg)}89.29%{transform:translate(-2.9px,-5.6px) rotate(-2.04deg)}91.07%{transform:translate(5.9px,-0.2px) rotate(1.95deg)}92.86%{transform:translate(10.0px,-5.0px) rotate(2.08deg)}94.64%{transform:translate(-8.9px,-5.3px) rotate(-0.80deg)}96.43%{transform:translate(6.9px,-1.2px) rotate(1.43deg)}98.21%{transform:translate(-9.0px,-1.3px) rotate(1.52deg)}100.00%{transform:translate(0.0px,0.0px) rotate(0.00deg)}}
+
+@keyframes aBlur{0%,100%{filter:blur(0)}20%{filter:blur(1.6px)}40%{filter:blur(.4px)}60%{filter:blur(2px)}80%{filter:blur(.8px)}}
+@keyframes aScroll{0%{transform:translateX(0)}100%{transform:translateX(-916px)}}
+@keyframes aBub{0%,100%{transform:translateX(-50%)}50%{transform:translateX(-50%) scale(1.15)}}
+@keyframes aBubBad{0%{left:20%}13%{left:78%}27%{left:30%}41%{left:70%}55%{left:18%}69%{left:82%}84%{left:35%}100%{left:20%}}
+@keyframes aHL{0%,100%{border-color:#FF3B30;box-shadow:0 0 40px -6px rgba(255,59,48,.6)}50%{border-color:rgba(255,59,48,.4);box-shadow:none}}
+@keyframes aHR{0%,100%{border-color:rgba(255,106,26,.4);box-shadow:none}50%{border-color:#FF6A1A;box-shadow:0 0 40px -6px rgba(255,106,26,.7)}}
+
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 72px 80px; position: relative; overflow: hidden; background: #0A0908; color: #F2EDE7; font-family: 'Instrument Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(242,237,231,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(242,237,231,0.035) 1px, transparent 1px); background-size: 90px 90px"></div>
+<div style="position: relative; display: flex; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 16px">
+<img src="/_blob/70b4b68a06f5599a991cdf05ef629fec" alt="Ceos Productions" style="width: 56px; height: 56px; display: block; animation: aLogo 4s ease-in-out infinite">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Ceos Productions</span>
+</div>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 20px; letter-spacing: 0.12em; color: #9C938B">01 / 05</span>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; padding: 10px 18px; border-radius: 999px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 20px; letter-spacing: 0.1em">VÍDEO ESTABLE SIN GIMBAL</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 88px; line-height: 0.96; letter-spacing: -0.055em">Tu vídeo tiembla.<br><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: #FF6A1A; animation: aHeat 4s ease-in-out infinite">Y el móvil no tiene la culpa.</span></h1>
+</div>
+<div style="position: relative; display: flex; flex-direction: column; gap: 20px">
+  <div style="display: flex; gap: 20px"><div style="position: relative; width: 448px; height: 470px; border-radius: 26px; overflow: hidden; border: 3px solid #FF3B30; animation: aHL 2s ease-in-out infinite">
+<div style="position: absolute; inset: -30px; animation: aBlur .5s linear infinite">
+ <div style="position: absolute; inset: 0; animation: aShake 4s linear infinite">
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div>
+  <div style="position: absolute; left: 0; right: 0; top: 66%; height: 2px; background: rgba(242,237,231,.25)"></div>
+  <div style="position: absolute; left: 89px; top: 120px; width: 330px"><svg width="330" height="550" viewBox="0 0 420 700" style="display:block">
+<defs><linearGradient id="tphb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".6"/></linearGradient></defs>
+<path d="M8 700 L8 400 C8 300 96 262 210 262 C324 262 412 300 412 400 L412 700 Z" fill="url(#tphb)"/>
+<rect x="178" y="196" width="64" height="80" rx="26" fill="url(#tphb)"/>
+<ellipse cx="210" cy="125" rx="78" ry="92" fill="url(#tphb)"/>
+<rect x="168" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/><rect x="234" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/>
+<path d="M190 172 Q210 184 230 172" fill="none" stroke="#0A0908" stroke-width="5" stroke-linecap="round" opacity=".35"/>
+</svg></div>
+ </div>
+</div>
+<div style="position: absolute; left: 0; right: 0; top: 156.7px; height: 2px; background: rgba(242,237,231,.12); z-index: 4"></div><div style="position: absolute; left: 0; right: 0; top: 313.3px; height: 2px; background: rgba(242,237,231,.12); z-index: 4"></div><div style="position: absolute; top: 0; bottom: 0; left: 149.3px; width: 2px; background: rgba(242,237,231,.12); z-index: 4"></div><div style="position: absolute; top: 0; bottom: 0; left: 298.7px; width: 2px; background: rgba(242,237,231,.12); z-index: 4"></div>
+<div style="position: absolute; left: 50%; top: 22px; width: 190px; height: 34px; margin-left: -95px; border-radius: 99px; background: rgba(10,9,8,.8); border: 2px solid rgba(242,237,231,.3); z-index: 6">
+  <div style="position: absolute; left: 50%; top: 4px; bottom: 4px; width: 2px; background: rgba(242,237,231,.5)"></div>
+  <div style="position: absolute; top: 5px; width: 22px; height: 22px; margin-left: -11px; border-radius: 99px; background: #FF3B30; box-shadow: 0 0 14px #FF3B30; left: 20%; animation: aBubBad 4s ease-in-out infinite"></div>
+</div>
+<div style="position: absolute; left: 18px; bottom: 18px; white-space: nowrap; padding: 10px 18px; border-radius: 12px; background: #FF3B30; color: #fff; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 21px; letter-spacing: .08em; z-index: 8">✕ A PULSO</div>
+<div style="position: absolute; left: 18px; top: 26px; display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 17px; letter-spacing: .1em; color: #F2EDE7; z-index: 6"><span style="width: 12px; height: 12px; border-radius: 99px; background: #FF3B30; animation: aRec 1s steps(1) infinite"></span>REC</div>
+</div><div style="position: relative; width: 448px; height: 470px; border-radius: 26px; overflow: hidden; border: 3px solid #FF6A1A; animation: aHR 2s ease-in-out infinite">
+<div style="position: absolute; inset: -30px">
+ <div style="position: absolute; inset: 0; animation: aBreath 3s ease-in-out infinite">
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #1C130D 0%, #12100F 70%, #0A0908 100%)"></div><div style="position: absolute; left: 50%; top: 2%; width: 74%; height: 96%; margin-left: -37%; border-radius: 50%; background: radial-gradient(circle, rgba(255,106,26,.32), rgba(255,106,26,0) 70%); animation: aGlow 4s ease-in-out infinite"></div>
+  <div style="position: absolute; left: 0; right: 0; top: 66%; height: 2px; background: rgba(242,237,231,.25)"></div>
+  <div style="position: absolute; left: 89px; top: 120px; width: 330px"><svg width="330" height="550" viewBox="0 0 420 700" style="display:block">
+<defs><linearGradient id="tphg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2EDE7" stop-opacity=".97"/><stop offset="1" stop-color="#B5ADA4" stop-opacity=".6"/></linearGradient></defs>
+<path d="M8 700 L8 400 C8 300 96 262 210 262 C324 262 412 300 412 400 L412 700 Z" fill="url(#tphg)"/>
+<rect x="178" y="196" width="64" height="80" rx="26" fill="url(#tphg)"/>
+<ellipse cx="210" cy="125" rx="78" ry="92" fill="url(#tphg)"/>
+<rect x="168" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/><rect x="234" y="118" width="18" height="8" rx="4" fill="#0A0908" opacity=".55"/>
+<path d="M190 172 Q210 184 230 172" fill="none" stroke="#0A0908" stroke-width="5" stroke-linecap="round" opacity=".35"/>
+</svg></div>
+ </div>
+</div>
+<div style="position: absolute; left: 0; right: 0; top: 156.7px; height: 2px; background: rgba(242,237,231,.12); z-index: 4"></div><div style="position: absolute; left: 0; right: 0; top: 313.3px; height: 2px; background: rgba(242,237,231,.12); z-index: 4"></div><div style="position: absolute; top: 0; bottom: 0; left: 149.3px; width: 2px; background: rgba(242,237,231,.12); z-index: 4"></div><div style="position: absolute; top: 0; bottom: 0; left: 298.7px; width: 2px; background: rgba(242,237,231,.12); z-index: 4"></div>
+<div style="position: absolute; left: 50%; top: 22px; width: 190px; height: 34px; margin-left: -95px; border-radius: 99px; background: rgba(10,9,8,.8); border: 2px solid rgba(242,237,231,.3); z-index: 6">
+  <div style="position: absolute; left: 50%; top: 4px; bottom: 4px; width: 2px; background: rgba(242,237,231,.5)"></div>
+  <div style="position: absolute; top: 5px; width: 22px; height: 22px; margin-left: -11px; border-radius: 99px; background: #FF6A1A; box-shadow: 0 0 14px #FF6A1A; left: 50%; transform: translateX(-50%); animation: aBub 2s ease-in-out infinite"></div>
+</div>
+<div style="position: absolute; right: 18px; bottom: 18px; white-space: nowrap; padding: 10px 18px; border-radius: 12px; background: #FF6A1A; color: #0A0908; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 21px; letter-spacing: .08em; z-index: 8">✓ ESTABLE</div>
+<div style="position: absolute; left: 18px; top: 26px; display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 17px; letter-spacing: .1em; color: #F2EDE7; z-index: 6"><span style="width: 12px; height: 12px; border-radius: 99px; background: #FF3B30; animation: aRec 1s steps(1) infinite"></span>REC</div>
+</div></div>
+  <div style="position: relative; width: 916px; height: 132px; border-radius: 22px; overflow: hidden; background: #12100F; border: 2px solid rgba(242,237,231,.14)">
+<div style="position: absolute; left: 20px; top: 12px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; letter-spacing: .1em; color: #9C938B; z-index: 3">MOVIMIENTO DE LA IMAGEN</div>
+<div style="position: absolute; left: 0; right: 0; top: 66px; height: 1px; background: rgba(242,237,231,.12)"></div>
+<svg width="1832" height="132" viewBox="0 0 1832 132" style="position: absolute; left: 0; top: 0; animation: aScroll 4s linear infinite">
+ <g transform="translate(0,4)"><path d="M0.0 62.0 L13.1 65.1 L26.2 77.7 L39.3 85.5 L52.3 30.7 L65.4 46.0 L78.5 75.3 L91.6 36.4 L104.7 79.4 L117.8 31.3 L130.9 54.3 L143.9 68.6 L157.0 89.5 L170.1 53.6 L183.2 47.3 L196.3 58.6 L209.4 34.6 L222.5 26.4 L235.5 87.9 L248.6 96.6 L261.7 49.5 L274.8 41.7 L287.9 26.5 L301.0 39.0 L314.1 41.6 L327.1 30.4 L340.2 50.6 L353.3 53.7 L366.4 67.1 L379.5 37.1 L392.6 38.6 L405.7 49.6 L418.7 48.4 L431.8 71.2 L444.9 60.9 L458.0 63.5 L471.1 48.6 L484.2 57.3 L497.3 33.0 L510.3 37.0 L523.4 89.9 L536.5 89.6 L549.6 46.9 L562.7 86.9 L575.8 54.8 L588.9 27.1 L601.9 79.5 L615.0 30.5 L628.1 59.9 L641.2 77.8 L654.3 61.4 L667.4 43.1 L680.5 69.9 L693.5 76.6 L706.6 92.2 L719.7 30.2 L732.8 58.6 L745.9 38.9 L759.0 95.3 L772.1 77.7 L785.1 58.3 L798.2 73.1 L811.3 55.9 L824.4 95.7 L837.5 63.4 L850.6 43.1 L863.7 84.0 L876.7 62.8 L889.8 61.9 L902.9 72.2 L916.0 62.0 L929.1 65.1 L942.2 77.7 L955.3 85.5 L968.3 30.7 L981.4 46.0 L994.5 75.3 L1007.6 36.4 L1020.7 79.4 L1033.8 31.3 L1046.9 54.3 L1059.9 68.6 L1073.0 89.5 L1086.1 53.6 L1099.2 47.3 L1112.3 58.6 L1125.4 34.6 L1138.5 26.4 L1151.5 87.9 L1164.6 96.6 L1177.7 49.5 L1190.8 41.7 L1203.9 26.5 L1217.0 39.0 L1230.1 41.6 L1243.1 30.4 L1256.2 50.6 L1269.3 53.7 L1282.4 67.1 L1295.5 37.1 L1308.6 38.6 L1321.7 49.6 L1334.7 48.4 L1347.8 71.2 L1360.9 60.9 L1374.0 63.5 L1387.1 48.6 L1400.2 57.3 L1413.3 33.0 L1426.3 37.0 L1439.4 89.9 L1452.5 89.6 L1465.6 46.9 L1478.7 86.9 L1491.8 54.8 L1504.9 27.1 L1517.9 79.5 L1531.0 30.5 L1544.1 59.9 L1557.2 77.8 L1570.3 61.4 L1583.4 43.1 L1596.5 69.9 L1609.5 76.6 L1622.6 92.2 L1635.7 30.2 L1648.8 58.6 L1661.9 38.9 L1675.0 95.3 L1688.1 77.7 L1701.1 58.3 L1714.2 73.1 L1727.3 55.9 L1740.4 95.7 L1753.5 63.4 L1766.6 43.1 L1779.7 84.0 L1792.7 62.8 L1805.8 61.9 L1818.9 72.2 L1832.0 62.0" fill="none" stroke="#FF3B30" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+ <g transform="translate(0,10)"><path d="M0.0 62.0 L50.9 63.8 L101.8 63.4 L152.7 60.9 L203.6 62.8 L254.4 63.3 L305.3 62.8 L356.2 63.8 L407.1 60.4 L458.0 63.6 L508.9 59.9 L559.8 62.7 L610.7 63.3 L661.6 63.3 L712.4 63.9 L763.3 60.4 L814.2 62.8 L865.1 62.9 L916.0 62.0 L966.9 63.8 L1017.8 63.4 L1068.7 60.9 L1119.6 62.8 L1170.4 63.3 L1221.3 62.8 L1272.2 63.8 L1323.1 60.4 L1374.0 63.6 L1424.9 59.9 L1475.8 62.7 L1526.7 63.3 L1577.6 63.3 L1628.4 63.9 L1679.3 60.4 L1730.2 62.8 L1781.1 62.9 L1832.0 62.0" fill="none" stroke="#FF6A1A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g>
+</svg>
+<div style="position: absolute; right: 18px; top: 12px; display: flex; gap: 18px; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 17px; letter-spacing: .08em; z-index: 3"><span style="color: #FF3B30">━ A PULSO</span><span style="color: #FF6A1A">━ CON LOS 3 TRUCOS</span></div>
+</div>
+</div>
+
+<div style="position: relative; display: flex; flex-direction: column; gap: 26px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px"><div style="height: 6px; border-radius: 99px; background: #FF6A1A"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div><div style="height: 6px; border-radius: 99px; background: rgba(242,237,231,0.12)"></div></div>
+<div style="display: flex; align-items: center; justify-content: space-between">
+<span style="font-size: 25px; color: #B5ADA4">Mismo móvil, misma persona: 3 trucos.</span>
+<span style="display: inline-flex; align-items: center; gap: 10px; background: #FF6A1A; color: #0A0908; font-weight: 700; font-size: 24px; padding: 14px 26px; border-radius: 999px">Desliza<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0A0908" stroke-width="2.8" style="animation: aNudge 2s ease-in-out infinite"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
