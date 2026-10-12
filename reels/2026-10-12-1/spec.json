@@ -1,0 +1,113 @@
+{
+ "topic": "Que el cliente vuelva a comprarte (segunda venta): apunta en el CRM cuándo le tocará volver, escríbele antes de que lo necesite (nombre + lo que hicisteis + fecha concreta) y ofrécele un solo siguiente paso, no todo el catálogo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Te compró<br>una vez.<br><em>¿Y luego?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "text": "¡Gracias por tu compra!",
+      "time": "Marzo"
+     },
+     {
+      "from": "in",
+      "time": "Octubre",
+      "text": "Este año lo he hecho<br>con otra empresa."
+     }
+    ]
+   },
+   "footer": "3 pasos para que repita"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Apunta cuándo<br><em>le toca volver.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "MES 1",
+      "t": "Compra",
+      "s": "Servicio hecho"
+     },
+     {
+      "n": "2",
+      "d": "MES 5",
+      "t": "Aviso en el CRM",
+      "s": "Tarea con fecha"
+     },
+     {
+      "n": "3",
+      "d": "MES 6",
+      "t": "Le toca repetir",
+      "s": "Ya le has escrito"
+     }
+    ]
+   },
+   "note": "Cada cliente, <b>con fecha de vuelta.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Escríbele<br><em>antes que otros.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Marta (cliente)",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola Marta, ¿qué tal va",
+       "lo que hicimos en marzo?",
+       "Te toca la revisión."
+      ],
+      "time": "10:02"
+     },
+     {
+      "from": "in",
+      "text": "¡Sí! ¿El martes a las 10?",
+      "time": "10:09"
+     }
+    ]
+   },
+   "note": "Nombre, lo que hicisteis <b>y una fecha.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ofrece el<br><em>siguiente paso.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Todo tu catálogo",
+     "«Lo que necesites»"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Lo que va después",
+     "Una sola propuesta"
+    ]
+   },
+   "note": "Una propuesta, <b>no un catálogo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu cliente<br><em>repita.</em>",
+   "dur": 6,
+   "items": [
+    "Fecha de vuelta en el CRM",
+    "Escríbele antes que otros",
+    "Un solo siguiente paso"
+   ]
+  }
+ ],
+ "caption": "Te compró una vez. ¿Sabes cuándo le toca volver? 🔁\n\nSi no le escribes tú, cuando lo necesite otra vez buscará en Google y le escribirá a quien salga primero. Para que repita contigo:\n\n→ Apunta cuándo le toca volver: al cerrar cada trabajo, crea en el CRM una tarea con la fecha en la que lo volverá a necesitar\n→ Escríbele antes de que lo necesite: su nombre, lo que hicisteis juntos y una fecha concreta para el siguiente paso\n→ Ofrece un solo siguiente paso: lo que va justo después de lo que compró, no la lista entera de servicios\n\nPara nosotros, un cliente que ya confió en ti merece la misma atención que un lead nuevo, y casi nadie se la da.\n\n¿Cada cuánto tiempo vuelve a necesitarte un cliente tuyo? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #fidelizacion #clientes #crm #ventas #pymes #negocioslocales"
+}
