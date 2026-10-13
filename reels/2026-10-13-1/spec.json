@@ -1,0 +1,69 @@
+{
+ "topic": "Convertir un trabajo terminado en un caso de cliente que vende: guarda el antes y pide permiso el primer día, cuéntalo en 3 partes (cómo estaba con sus palabras, qué hicisteis, cómo quedó) y úsalo donde te comparan (anuncio, web y junto a cada presupuesto)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu mejor trabajo<br>no lo ha visto<br><em>nadie.</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¡Ha quedado genial!<br>Muchas gracias.", "time": "18:40"},
+     {"from": "out", "text": "¡Gracias a ti!", "time": "18:41"}
+    ]
+   },
+   "footer": "3 pasos para que venda por ti"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Guarda el antes<br><em>el primer día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del trabajo",
+    "fields": [
+     {"q": "Foto del antes", "a": "Hecha · 3 fotos"},
+     {"q": "¿Permiso para enseñarlo?", "a": "Sí, sin apellidos"},
+     {"q": "Su problema, con sus palabras", "a": "«No puedo ni abrirlo»"}
+    ],
+    "badge": "✓ LISTO PARA CASO"
+   },
+   "note": "Foto y permiso <b>antes de empezar.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cuéntalo<br><em>en 3 partes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CASO DE CLIENTE",
+    "lines": ["Cómo estaba, con sus palabras", "Qué hicisteis, paso a paso", "Cómo quedó y en cuánto tiempo"]
+   },
+   "note": "Sin jerga: <b>que lo entienda cualquiera.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Úsalo donde<br><em>te comparan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Así estaba. Así quedó. Te contamos cómo lo hicimos.",
+    "media": "ANTES → DESPUÉS",
+    "headline": "Caso real de cliente",
+    "cta": "Pedir presupuesto",
+    "tags": ["ANUNCIO", "WEB", "CON CADA PRESUPUESTO"]
+   },
+   "note": "Un caso real <b>pesa más que tu promesa.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu trabajo<br><em>venda por ti.</em>",
+   "dur": 6,
+   "items": ["Antes y permiso, día 1", "Antes, qué hicimos, después", "Anuncio, web y presupuesto"]
+  }
+ ],
+ "caption": "¿Dónde está tu mejor trabajo ahora mismo? Seguramente en la galería de tu móvil 📸\n\nEl cliente te dijo que había quedado genial y ahí se quedó. Quien te está comparando con otro nunca lo va a ver. Para convertir cada trabajo en un caso que vende:\n\n→ Guarda el antes el primer día: haz las fotos antes de tocar nada, pide permiso para enseñarlo y apunta su problema tal y como te lo contó\n→ Cuéntalo en 3 partes: cómo estaba (con sus palabras), qué hicisteis paso a paso y cómo quedó, sin palabras técnicas\n→ Úsalo donde te comparan: en tus anuncios, en tu web junto al botón de contacto y adjunto a cada presupuesto que mandas\n\nPara nosotros, un caso real de un cliente con nombre de pila y fotos convence más que cualquier frase sobre lo bien que trabajas.\n\n¿Cuántas fotos del antes tienes guardadas de tus últimos trabajos? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #casosdeexito #clientes #marketinglocal #ventas #pymes #negocioslocales"
+}
