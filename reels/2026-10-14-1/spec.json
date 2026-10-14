@@ -1,0 +1,65 @@
+{
+ "topic": "Ficha de Google (Perfil de Empresa) que trae llamadas: elige la categoría principal tal y como te busca el cliente, sube fotos reales de tu trabajo (una nueva cada mes) y ten al día teléfono, horario de festivos y web para que te puedan llamar en un toque",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Te buscan<br>en Google y<br><em>llaman a otro.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Tu ficha de Google",
+    "fields": [
+     {"q": "Categoría principal", "a": "Servicios integrales"},
+     {"q": "Fotos de tu trabajo", "a": "Ninguna"},
+     {"q": "Horario de festivos", "a": "Sin poner"}
+    ]
+   },
+   "footer": "3 pasos para que te llamen a ti"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige bien<br><em>tu categoría.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Servicios integrales", "Soluciones para el hogar"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Fontanero", "+ categorías extra reales"]
+   },
+   "note": "La palabra que <b>busca tu cliente, tal cual.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Fotos reales<br><em>de tu trabajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Tu local o tu furgoneta", "Trabajos terminados", "Una foto nueva cada mes"]
+   },
+   "note": "Nada de fotos <b>de bancos de imágenes.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Datos al día<br><em>para llamarte.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "Un teléfono que se coge"},
+     {"n": "2", "d": "CADA FESTIVO", "t": "Horario especial"},
+     {"n": "3", "d": "SI ALGO CAMBIA", "t": "Web y dirección"}
+    ]
+   },
+   "note": "Si llama y no cogéis, <b>llama al siguiente.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que te llamen<br><em>a ti.</em>",
+   "dur": 6,
+   "items": ["Categoría que busca el cliente", "Fotos reales, una al mes", "Teléfono y horario al día"]
+  }
+ ],
+ "caption": "¿Cuándo fue la última vez que abriste tu ficha de Google? 📍\n\nAlguien busca lo que haces en tu zona, le salen tres negocios y llama al que tiene fotos, horario y un teléfono que se coge. Tu ficha (el Perfil de Empresa de Google, lo que sale en el mapa al buscarte) se arregla en una tarde:\n\n→ Elige bien la categoría principal: pon la palabra exacta con la que te busca el cliente («Fontanero», no «Servicios integrales») y añade como extra solo las que de verdad haces\n→ Sube fotos reales de tu trabajo: tu local o tu furgoneta para que te reconozcan, trabajos terminados y una foto nueva cada mes. Nada de fotos de bancos de imágenes\n→ Ten los datos al día: un teléfono que alguien coge, el horario especial en cada festivo y la web y la dirección correctas. Si llaman y no contestáis, llaman al siguiente de la lista\n\nPara nosotros, la ficha de Google es el anuncio gratis que más negocios tienen abandonado. Antes de pagar un euro en anuncios, deja esto bien.\n\n¿Qué categoría principal tiene ahora tu ficha? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #fichadegoogle #negocioslocales #marketinglocal #pymes #clientes #ventas"
+}
