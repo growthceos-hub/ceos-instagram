@@ -1,0 +1,99 @@
+{
+ "topic": "Enlace de WhatsApp con el mensaje ya escrito (wa.me): crea el enlace con tu número y ?text=, escribe tú el primer mensaje («Hola, quiero presupuesto para…») para que solo tenga que enviarlo, y usa un enlace distinto en la web, la bio de Instagram y el QR de tu tarjeta para saber de dónde viene cada conversación",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Te escriben<br>«hola» y no<br><em>sabes de qué.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Contacto nuevo",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "hola",
+      "time": "22:14"
+     },
+     {
+      "from": "in",
+      "text": "info",
+      "time": "22:14"
+     }
+    ]
+   },
+   "footer": "3 pasos para que te escriban con motivo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Crea tu<br><em>enlace wa.me</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU ENLACE DE WHATSAPP",
+    "lines": [
+     "wa.me/34 + tu número",
+     "Sin +, sin espacios",
+     "?text= + tu mensaje"
+    ]
+   },
+   "note": "Al pulsarlo, <b>el chat se abre ya escrito.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Escribe tú<br><em>su mensaje.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "«Escríbenos»",
+     "Chat en blanco"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "«Quiero presupuesto»",
+     "Solo darle a enviar"
+    ]
+   },
+   "note": "Que no tenga que <b>pensar qué poner.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Un enlace<br><em>por cada sitio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "EN LA WEB",
+      "t": "«Vengo de la web»"
+     },
+     {
+      "n": "2",
+      "d": "BIO DE INSTAGRAM",
+      "t": "«Vengo de Instagram»"
+     },
+     {
+      "n": "3",
+      "d": "QR DE TU TARJETA",
+      "t": "«Vengo por la tarjeta»"
+     }
+    ]
+   },
+   "note": "Sabes <b>de dónde llega cada chat.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que te escriban<br><em>con motivo.</em>",
+   "dur": 6,
+   "items": [
+    "Enlace wa.me con texto",
+    "El mensaje lo pones tú",
+    "Un enlace por cada sitio"
+   ]
+  }
+ ],
+ "caption": "¿Te escriben «hola» por WhatsApp y te toca adivinar qué quieren? 💬\n\nWhatsApp tiene un enlace gratis que abre tu chat con el primer mensaje ya escrito. Se llama enlace wa.me y se monta en un par de minutos:\n\n→ Crea tu enlace: wa.me/34 seguido de tu número (sin + y sin espacios) y detrás ?text= con el mensaje. Quien lo pulsa abre tu chat con ese texto puesto. Si el mensaje lleva espacios, escríbelos como %20 o usa un generador gratuito de enlaces de WhatsApp\n→ Escribe tú su mensaje: en vez de «Escríbenos», algo como «Hola, quiero presupuesto para…». Solo tiene que completar la frase y darle a enviar\n→ Usa un enlace distinto en cada sitio: uno en la web («Vengo de la web»), otro en la bio de Instagram y otro en el QR de tu tarjeta o de tu local. Así sabes de dónde llega cada conversación sin preguntar\n\nPara nosotros, un botón de «Escríbenos» a secas es como darle a alguien un folio en blanco: lo abre, no sabe qué poner y lo cierra.\n\n¿Qué suele decir tu cliente en el primer mensaje? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #whatsappbusiness #whatsapp #captaciondeclientes #negocioslocales #pymes #ventas"
+}
