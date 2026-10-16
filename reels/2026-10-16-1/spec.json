@@ -1,0 +1,74 @@
+{
+ "topic": "Página de gracias después del formulario: dile qué pasa ahora (quién le llama, desde qué número y cuándo), deja que reserve la llamada ahí mismo con un calendario y pon un vídeo tuyo de 30 segundos para que llegue a la llamada conociéndote",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Deja sus datos<br>y tu web solo<br><em>dice «Gracias».</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Tu formulario",
+    "fields": [
+     {"q": "Nombre", "a": "Laura"},
+     {"q": "Teléfono", "a": "600 000 000"}
+    ],
+    "badge": "✓ ENVIADO. ¿Y AHORA?"
+   },
+   "footer": "3 pasos para una página de gracias que trae citas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Dile qué<br><em>pasa ahora.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU PÁGINA DE GRACIAS",
+    "lines": [
+     "Quién le va a llamar",
+     "Desde qué número",
+     "En cuánto tiempo"
+    ]
+   },
+   "note": "Así <b>reconoce tu llamada.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Que reserve<br><em>la llamada ahí.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ELIGE EL DÍA", "t": "Hoy o mañana"},
+     {"n": "2", "d": "ELIGE LA HORA", "t": "La que le va bien"},
+     {"n": "3", "d": "CONFIRMACIÓN", "t": "Le llega al momento"}
+    ]
+   },
+   "note": "Sale de tu web <b>con la cita hecha.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Un vídeo tuyo<br><em>de 30 segundos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Solo «Gracias»", "Página en blanco"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Tu cara y tu nombre", "De qué hablaréis"]
+   },
+   "note": "Llega a la llamada <b>conociéndote.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu «gracias»<br><em>trabaje.</em>",
+   "dur": 6,
+   "items": [
+    "Di qué pasa ahora",
+    "Que reserve la llamada",
+    "Vídeo corto tuyo"
+   ]
+  }
+ ],
+ "caption": "¿Qué ve tu cliente justo después de rellenar tu formulario? 👀\n\nSe llama página de gracias: la pantalla que sale al enviar sus datos. Casi siempre pone «Gracias, te contactaremos» y nada más, en el momento en que más ganas tiene de hablar contigo. Tres cambios para aprovecharla:\n\n→ Dile qué pasa ahora: quién le va a llamar, desde qué número y en cuánto tiempo. Si sabe que le llamas tú, coge el teléfono aunque no tenga tu número guardado\n→ Deja que reserve la llamada ahí mismo: un calendario donde elige día y hora (mejor hoy o mañana) y recibe la confirmación al momento. Sale de tu web con la cita ya puesta\n→ Pon un vídeo tuyo de 30 segundos: tu cara, tu nombre y de qué vais a hablar en la llamada. Grabado con el móvil vale. Cuando le llamas ya no eres un desconocido\n\nPara nosotros es la página más olvidada de cualquier web, y la ve justo la gente que ya ha dicho que le interesa.\n\n¿Qué pone ahora la tuya después de enviar el formulario? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #captaciondeclientes #landingpage #paginaweb #marketingdigital #pymes #ventas"
+}
