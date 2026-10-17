@@ -1,0 +1,75 @@
+{
+ "topic": "Precios en tu web sin asustar: pon un precio «desde» con lo que incluye, explica qué hace que suba o baje (tamaño, material, plazo) y enseña un trabajo real con lo que pedía el cliente, lo que hicisteis y su precio final",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu web no enseña<br>ningún precio.<br><em>Y elige a otro.</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Laura",
+    "msgs": [
+     {"from": "in", "text": "¿Cuánto cuesta, más o menos?", "time": "10:02"},
+     {"from": "out", "lines": ["Depende de cada caso,", "pide presupuesto"], "time": "10:40"},
+     {"from": "in", "text": "Vale, ya miro otros", "time": "10:41"}
+    ]
+   },
+   "footer": "3 pasos para poner precios en tu web sin asustar"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pon un precio<br><em>«desde».</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU WEB · SERVICIOS",
+    "lines": [
+     "Reforma de baño completa",
+     "Desde 3.500 €",
+     "Incluye material y obra"
+    ]
+   },
+   "note": "Una cifra <b>orienta, no te ata.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Di qué lo<br><em>sube o baja.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "El tamaño o los metros",
+     "La calidad del material",
+     "El plazo que necesita"
+    ]
+   },
+   "note": "Así entiende <b>por qué cambia.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Enseña un<br><em>trabajo real.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "QUÉ PEDÍA", "t": "Cambiar la bañera"},
+     {"n": "2", "d": "QUÉ HICIMOS", "t": "Plato y alicatado"},
+     {"n": "3", "d": "LO QUE COSTÓ", "t": "Su precio final"}
+    ]
+   },
+   "note": "Con eso <b>ya se hace una idea.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu web<br><em>dé una cifra.</em>",
+   "dur": 6,
+   "items": [
+    "Precio «desde»",
+    "Qué lo sube o lo baja",
+    "Un trabajo con su precio"
+   ]
+  }
+ ],
+ "caption": "¿Tu web dice cuánto cuestas o solo pone «pide presupuesto»? 💶\n\nQuien entra en tu web quiere saber si puede permitírselo antes de hablar contigo. Si no ve ninguna cifra, muchas veces no pregunta: abre la web de al lado. Tres cambios para enseñar precios sin asustar:\n\n→ Pon un precio «desde» en cada servicio y di qué incluye ese precio. Una cifra orienta al cliente y no te obliga a cobrar eso a todo el mundo\n→ Explica qué hace que suba o baje: el tamaño o los metros, la calidad del material, el plazo que necesita. Así entiende por qué su presupuesto puede ser distinto\n→ Enseña un trabajo real con su precio final: qué pedía el cliente, qué hicisteis y cuánto costó (con su permiso). Con un caso parecido al suyo ya se hace una idea\n\nPara nosotros esconder el precio no te protege de los clientes que buscan lo más barato. Lo que hace es quitarte a los que sí podían pagarlo y no se atrevieron a preguntar.\n\n¿Tú enseñas precios en tu web o prefieres darlos por teléfono? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #captaciondeclientes #paginaweb #precios #marketingdigital #pymes #ventas"
+}
