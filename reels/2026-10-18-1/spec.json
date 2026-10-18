@@ -1,0 +1,75 @@
+{
+ "topic": "Llamadas perdidas mientras trabajas: devuélvela en tu primera pausa (no al final del día), si aún no puedes llamar manda un WhatsApp con quién eres y a qué hora le llamas, y apunta cada número en el CRM con qué necesita y cuándo vuelves a intentarlo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Te llaman<br>mientras trabajas.<br><em>Y llaman a otro.</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "11:04", "t": "Llamada perdida"},
+     {"n": "2", "d": "11:05", "t": "Llama al siguiente"},
+     {"n": "3", "d": "19:30", "t": "Le devuelves: tarde"}
+    ]
+   },
+   "footer": "3 pasos para que no se te escape ni una llamada"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Devuélvela en<br><em>tu primera pausa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timer",
+    "head": "Llamada perdida",
+    "sub": "HASTA DEVOLVERLA",
+    "secs": 272,
+    "side": "Al acabar<br>el trabajo,<br>no a la noche",
+    "badge": "✓ DEVUELTA"
+   },
+   "note": "Antes de que <b>llame a otro.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "¿No puedes?<br><em>Escríbele.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Marta",
+    "msgs": [
+     {"from": "out", "lines": ["Hola, soy de Reformas Sur.", "Estoy en una obra,", "te llamo a las 13:00"], "time": "11:06"},
+     {"from": "in", "text": "Perfecto, a esa hora sí", "time": "11:07"}
+    ]
+   },
+   "note": "Sabe que le has visto <b>y te espera.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Apunta<br><em>cada número.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha en el CRM",
+    "fields": [
+     {"q": "Quién llamó", "a": "Marta"},
+     {"q": "Qué necesita", "a": "Reformar la cocina"},
+     {"q": "Próximo intento", "a": "Hoy, 13:00"}
+    ],
+    "badge": "✓ APUNTADO"
+   },
+   "note": "Si no lo coge, <b>prueba otra hora.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ninguna llamada<br><em>sin devolver.</em>",
+   "dur": 6,
+   "items": [
+    "Devuélvela en tu pausa",
+    "Si no puedes, WhatsApp",
+    "Apúntala en el CRM"
+   ]
+  }
+ ],
+ "caption": "¿Cuántas llamadas perdidas tienes ahora mismo sin devolver? 📞\n\nSi estás en una obra, con un cliente o conduciendo, no puedes coger el teléfono. Pero quien te llama para pedir un servicio rara vez espera a la noche: si no le atiendes, marca el siguiente número que le salió en Google. Tres hábitos para que una llamada perdida no acabe en un cliente perdido:\n\n→ Devuélvela en tu primera pausa, no al final del día. Mira las perdidas al acabar cada trabajo y antes de comer\n→ Si todavía no puedes llamar, mándale un WhatsApp con quién eres, que estás en un trabajo y a qué hora le llamas («Te llamo a las 13:00, ¿te va bien?»). Así sabe que le has visto y te espera\n→ Apunta cada número en tu CRM o en una hoja: quién es, qué necesita y cuándo vuelves a intentarlo. Si no lo coge, prueba otra vez a otra hora\n\nPara nosotros una llamada de un número que no tienes guardado merece el mismo trato que un lead por el que has pagado un anuncio.\n\n¿Tú devuelves las llamadas en el momento o al final del día? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #captaciondeclientes #llamadas #atencionalcliente #pymes #ventas #whatsappbusiness"
+}
