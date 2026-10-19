@@ -1,0 +1,77 @@
+{
+ "topic": "Preguntar por qué no te compraron: al oír el «no», haz una sola pregunta corta («¿qué te hizo decidir otra cosa?»), apunta el motivo en el CRM con una etiqueta (precio, plazo, confianza, otro) y cada mes mira qué motivo se repite más y cambia una cosa para ese",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Te dijo que no.<br>¿Sabes <em>por qué?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Javier",
+    "msgs": [
+     {"from": "in", "text": "Al final lo dejamos, gracias", "time": "10:12"},
+     {"from": "out", "lines": ["Gracias por avisar"], "time": "10:15"}
+    ]
+   },
+   "footer": "3 pasos para aprender de cada venta perdida"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Haz una sola<br><em>pregunta corta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Javier",
+    "msgs": [
+     {"from": "out", "lines": ["Sin problema, Javier.", "Una cosa rápida:", "¿qué te hizo decidir", "otra cosa?"], "time": "10:15"},
+     {"from": "in", "text": "El plazo, lo necesitaba ya", "time": "10:18"}
+    ]
+   },
+   "note": "Sin insistir ni <b>volver a vender.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Apunta el motivo<br><em>con etiqueta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Venta perdida · CRM",
+    "fields": [
+     {"q": "Cliente", "a": "Javier"},
+     {"q": "Motivo", "a": "Plazo"},
+     {"q": "Sus palabras", "a": "Lo necesitaba ya"}
+    ],
+    "badge": "✓ APUNTADO"
+   },
+   "note": "Precio, plazo, confianza <b>u otro.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cada mes, arregla<br><em>el que más sale.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Motivos del mes",
+    "items": [
+     {"label": "Plazo", "value": 82, "hi": true},
+     {"label": "Precio", "value": 48},
+     {"label": "Confianza", "value": 30},
+     {"label": "Otro", "value": 14}
+    ]
+   },
+   "note": "Una sola cosa <b>cada mes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cada «no»<br><em>te enseña algo.</em>",
+   "dur": 6,
+   "items": [
+    "Una pregunta corta",
+    "Motivo en el CRM",
+    "Arregla el que más sale"
+   ]
+  }
+ ],
+ "caption": "¿Sabes por qué no te compró el último cliente que te dijo que no? 🤔\n\nCuando alguien dice «al final lo dejamos», casi todos contestan «vale, gracias» y pasan al siguiente. Y con eso se pierde lo más útil que te podía dar ese cliente: el motivo.\n\n→ Haz una sola pregunta corta, sin insistir ni volver a vender: «Sin problema. Una cosa rápida, ¿qué te hizo decidir otra cosa?». Si te lo dice por teléfono, apúntalo con sus palabras\n→ Guarda el motivo en tu CRM o en una hoja con una etiqueta fija: precio, plazo, confianza u otro. Así luego puedes contarlos\n→ Una vez al mes, mira qué motivo se repite más y cambia una sola cosa para ese. Si es el plazo, di antes cuándo puedes empezar; si es la confianza, enseña trabajos reales\n\nPara nosotros un «no» con motivo vale más que un «sí» que no sabes por qué llegó.\n\n¿Cuál es el motivo que más te dan cuando no te compran? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #captaciondeclientes #crm #pymes #negocioslocales #atencionalcliente"
+}
