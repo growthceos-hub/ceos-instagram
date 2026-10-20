@@ -1,0 +1,75 @@
+{
+ "topic": "Decirle a Meta qué leads acaban comprando: marca en el CRM la fase de cada lead (cita hecha, venta, no compra), conecta el CRM con Meta (API de conversiones o la integración de tu CRM) para enviarle esas fases y optimiza la campaña por leads de conversión en vez de por formularios",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Meta te trae leads.<br>¿Sabe cuáles <em>compran?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "¿Quieres reformar tu baño este año?",
+    "media": "PRESUPUESTO EN 24 H",
+    "headline": "Pide tu presupuesto",
+    "cta": "Más información",
+    "tags": ["LEAD", "¿CITA?", "¿VENTA?"]
+   },
+   "footer": "3 pasos para que Meta busque clientes, no curiosos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Marca cada lead<br><em>en el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lead · CRM",
+    "fields": [
+     {"q": "Origen", "a": "Anuncio de Meta"},
+     {"q": "Fase", "a": "Cita hecha"},
+     {"q": "Resultado", "a": "Venta"}
+    ],
+    "badge": "✓ VENTA"
+   },
+   "note": "Cita, venta o <b>no compra.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Conecta el CRM<br><em>con Meta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "LEAD", "t": "Entra del anuncio", "s": "Meta ya lo sabe"},
+     {"n": "2", "d": "CITA", "t": "La marcas en el CRM", "s": "Se lo envía a Meta"},
+     {"n": "3", "d": "VENTA", "t": "Cierras la venta", "s": "Meta ve quién compra"}
+    ]
+   },
+   "note": "Con la <b>API de conversiones.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Pide leads<br><em>que compran.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "OPTIMIZAR POR FORMULARIOS",
+    "bad": ["Cuenta cualquier lead", "También los curiosos"],
+    "good_t": "OPTIMIZAR POR CONVERSIÓN",
+    "good": ["Cuenta citas y ventas", "Busca gente parecida"]
+   },
+   "note": "Objetivo: <b>leads de conversión.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que Meta aprenda<br><em>quién compra.</em>",
+   "dur": 6,
+   "items": [
+    "Fase de cada lead en el CRM",
+    "CRM conectado a Meta",
+    "Optimiza por conversión"
+   ]
+  }
+ ],
+ "caption": "¿Tu campaña de Meta sabe cuáles de tus leads acaban comprando? 🤔\n\nSi no se lo dices, Meta solo ve que alguien rellenó el formulario. Para él cuenta igual el curioso que no coge el teléfono que el cliente que te firmó, y sigue buscando más gente como los dos.\n\n→ Marca en tu CRM la fase de cada lead que entra del anuncio: cita hecha, venta o no compra. Sin este paso no hay nada que enviar\n→ Conecta el CRM con Meta para que le lleguen esas fases. Muchos CRM traen la integración ya hecha; si no, se hace con la API de conversiones (la forma de enviar a Meta lo que pasa después del formulario)\n→ Cuando ya le lleguen citas y ventas, optimiza la campaña por leads de conversión (en el Administrador de anuncios sale como optimización de clientes potenciales de conversión) en vez de por cantidad de formularios\n\nPara nosotros una campaña que solo cuenta formularios aprende a traerte formularios. Si quieres ventas, tiene que ver las ventas.\n\n¿Tu CRM le dice hoy a Meta qué leads te compran, o se queda todo en el CRM? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #captaciondeclientes #crm #publicidadonline #pymes #negocioslocales"
+}
