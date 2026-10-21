@@ -1,0 +1,92 @@
+{
+ "topic": "Mandar el presupuesto con un vídeo de 1 minuto: graba la pantalla con el PDF abierto (Loom o la grabación de pantalla del móvil), explica en 4 partes lo que te contó, qué incluye y por qué ese precio, la opción que recomiendas y cuándo le llamas, y mándalo por WhatsApp junto al PDF con día y hora para hablar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu presupuesto<br><em>se explica solo?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO EL PDF",
+    "bad": [
+     "Lo mira por encima",
+     "Compara solo el precio"
+    ],
+    "good_t": "PDF + VÍDEO DE 1 MIN",
+    "good": [
+     "Entiende qué paga",
+     "Te pone cara y voz"
+    ]
+   },
+   "footer": "3 pasos para mandarlo con un vídeo de 1 minuto"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba la pantalla<br><em>con el PDF.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Abre el PDF en pantalla",
+     "Pulsa grabar: Loom o móvil",
+     "Habla 1 minuto, sin repetir"
+    ]
+   },
+   "note": "Con Loom o <b>la grabación del móvil.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Explícalo<br><em>en 4 partes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "GUION DEL VÍDEO · 60 S",
+    "lines": [
+     "1. Lo que me contaste",
+     "2. Qué incluye y por qué",
+     "3. La opción que recomiendo",
+     "4. Cuándo te llamo"
+    ]
+   },
+   "note": "Di <b>por qué cuesta eso.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Mándalo<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Laura",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Te explico tu",
+       "presupuesto en 1 min",
+       "¿Hablamos el jueves?"
+      ],
+      "time": "18:02"
+     },
+     {
+      "from": "in",
+      "text": "Visto. El jueves me va bien",
+      "time": "18:40"
+     }
+    ]
+   },
+   "note": "Con <b>día y hora</b> para hablar."
+  },
+  {
+   "kind": "cta",
+   "title": "Que el precio<br><em>tenga tu voz.</em>",
+   "dur": 6,
+   "items": [
+    "Graba 1 min con el PDF",
+    "Explícalo en 4 partes",
+    "Mándalo con día y hora"
+   ]
+  }
+ ],
+ "caption": "¿Tu presupuesto se explica solo cuando lo mandas en PDF? 📄\n\nEl cliente lo abre sin ti delante. Ve una cifra, no sabe qué incluye ni por qué cuesta eso, y lo compara con el más barato que le llegó.\n\n→ Abre el PDF en el ordenador y graba la pantalla con tu voz. Sirve Loom (tiene plan gratis) o la grabación de pantalla del móvil. Un minuto, sin repetirlo veinte veces\n→ Explícalo en 4 partes: lo que te contó que necesita, qué incluye el presupuesto y por qué ese precio, qué opción le recomiendas tú y cuándo le llamas para resolver dudas\n→ Mándalo por WhatsApp junto al PDF, con su nombre en el primer mensaje y una propuesta de día y hora para hablar. Apunta esa llamada en el CRM\n\nNosotros lo vemos así: un PDF solo deja que el cliente decida por el precio. Con tu voz explicándolo, decide sabiendo qué se lleva.\n\n¿Cómo mandas tú los presupuestos: PDF por correo, por WhatsApp o los explicas en persona? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #presupuestos #ventas #whatsappbusiness #captaciondeclientes #pymes #negocioslocales"
+}
