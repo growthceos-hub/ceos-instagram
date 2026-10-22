@@ -1,0 +1,77 @@
+{
+ "topic": "3 señales de que tu agencia de marketing no te sirve: no sabes cuánto vendes, llevas meses con los mismos anuncios y los leads se enfrían sin llamada; cómo lo cubre Ceos Growth (comisión sobre ventas, estudio propio, CRM)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu agencia<br><em>te funciona?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Informe del mes",
+    "items": [
+     {"label": "Impresiones", "value": 92},
+     {"label": "Clics", "value": 58},
+     {"label": "Ventas: sin dato", "value": 3, "hi": true}
+    ]
+   },
+   "footer": "3 señales de que no"
+  },
+  {
+   "label": "SEÑAL 1",
+   "title": "No sabes<br><em>cuánto vendes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Pregunta a tu agencia",
+    "fields": [
+     {"q": "Ventas este mes", "a": "Sin datos"},
+     {"q": "Coste por venta", "a": "No lo sabemos"}
+    ]
+   },
+   "note": "Pide <b>ventas, no alcance.</b>"
+  },
+  {
+   "label": "SEÑAL 2",
+   "title": "Los mismos<br><em>anuncios de siempre.</em>",
+   "size": 100,
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ENERO", "t": "Anuncio 1"},
+     {"n": "2", "d": "MARZO", "t": "Anuncio 1"},
+     {"n": "3", "d": "JUNIO", "t": "Anuncio 1", "s": "Sin nada nuevo grabado"}
+    ]
+   },
+   "note": "Nosotros grabamos <b>15–20 en estudio.</b>"
+  },
+  {
+   "label": "SEÑAL 3",
+   "title": "Los leads<br><em>se enfrían.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "in", "text": "Pedí información el lunes", "time": "LUN 09:10"},
+     {"from": "out", "lines": ["Hola, perdona,", "¿sigues interesado?"], "time": "JUE 17:30"}
+    ]
+   },
+   "note": "Con CRM, <b>cada lead tiene su llamada.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Si te suena,<br><em>hablemos.</em>",
+   "dur": 6,
+   "items": ["Pide ventas, no alcance", "Anuncios nuevos, grabados", "Leads con seguimiento"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Tu agencia de marketing no funciona: 3 señales para darte cuenta",
+  "text": "Tu agencia de marketing no funciona si te pasa esto 🚩👇\nUn informe con impresiones y clics no te dice si has vendido. Mira estas tres señales.\n→ No sabes cuánto vendes: pide ventas y coste por venta, no alcance\n→ Llevas meses con los mismos anuncios: nosotros grabamos 15–20 en estudio propio\n→ Los leads se enfrían sin llamada: con CRM, cada lead tiene su seguimiento\n¿Cuántas de las tres te pasan ahora?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #leads #crm #empresarios"
+ },
+ "caption": "Tu agencia de marketing no funciona si te pasa esto 🚩👇\nUn informe con impresiones y clics no te dice si has vendido. Mira estas tres señales.\n→ No sabes cuánto vendes: pide ventas y coste por venta, no alcance\n→ Llevas meses con los mismos anuncios: nosotros grabamos 15–20 en estudio propio\n→ Los leads se enfrían sin llamada: con CRM, cada lead tiene su seguimiento\n¿Cuántas de las tres te pasan ahora?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #leads #crm #empresarios"
+}

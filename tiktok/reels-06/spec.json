@@ -1,0 +1,99 @@
+{
+ "topic": "3 cosas que debe tener el reel de una obra de reformas: el antes grabado desde un punto fijo, el proceso en tomas cortas y el después desde el mismo sitio. Reels al Vuelo: tú grabas con el móvil y te devolvemos el reel editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus obras<br><em>sin grabar?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DÍA 1",
+      "t": "El antes",
+      "s": "Desde la puerta"
+     },
+     {
+      "n": "2",
+      "d": "DURANTE",
+      "t": "El proceso",
+      "s": "Tomas cortas"
+     },
+     {
+      "n": "3",
+      "d": "ÚLTIMO DÍA",
+      "t": "El después",
+      "s": "Desde la misma puerta"
+     }
+    ]
+   },
+   "footer": "3 cosas que debe tener el reel de tu reforma"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "El antes,<br><em>desde un punto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Desde la puerta",
+     "Móvil en vertical",
+     "Luz encendida"
+    ]
+   },
+   "note": "Apunta <b>desde dónde grabas.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "El proceso,<br><em>en tomas cortas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TOMAS DE OBRA",
+    "lines": [
+     "Picando el alicatado",
+     "Las tomas de agua",
+     "Colocando el plato"
+    ]
+   },
+   "note": "Unos segundos <b>cada una.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "El después,<br><em>mismo sitio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "DESDE OTRO SITIO",
+    "bad": [
+     "No se nota el cambio",
+     "Parece otra casa"
+    ],
+    "good_t": "MISMO ENCUADRE",
+    "good": [
+     "Se ve el cambio",
+     "Se entiende tu trabajo"
+    ]
+   },
+   "note": "El resto <b>lo montamos nosotros.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Grabas la obra,<br><em>la editamos.</em>",
+   "dur": 6,
+   "items": [
+    "Editado en 24 h",
+    "Subtítulos, música y logo",
+    "Primer reel por 1,99 €"
+   ],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para empresas de reformas 👇\nUn baño antes y después vende tu trabajo mejor que cualquier texto, pero solo si el antes y el después están grabados desde el mismo sitio. Entre medias, tomas cortas de la obra.\nTú grabas con el móvil y en 24 h te devolvemos el reel con subtítulos, ritmo, música libre y tu logo.\n¿Qué obra tienes ahora que merece un antes y después?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#reformas #construccion #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para empresas de reformas: cómo grabar el antes y después",
+  "text": "Edición de reels para empresas de reformas 👇\nUn baño antes y después vende tu trabajo mejor que cualquier texto, pero solo si el antes y el después están grabados desde el mismo sitio. Entre medias, tomas cortas de la obra.\nTú grabas con el móvil y en 24 h te devolvemos el reel con subtítulos, ritmo, música libre y tu logo.\n¿Qué obra tienes ahora que merece un antes y después?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#reformas #construccion #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

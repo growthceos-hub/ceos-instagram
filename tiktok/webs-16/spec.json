@@ -1,0 +1,104 @@
+{
+ "topic": "Las 3 objeciones de un restaurante o bar para no tener web: ya tengo Instagram, no tengo tiempo y ¿y si no me gusta? Respuestas: carta, reservas, mapa y horario en un enlace; contestas 5 preguntas y el primer diseño llega en 2 días; si no te convence se rehace gratis. 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "«Ya tengo<br><em>Instagram»</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE DICE EL DUEÑO",
+    "lines": [
+     "Ya tengo Instagram",
+     "No tengo tiempo",
+     "¿Y si no me gusta?"
+    ]
+   },
+   "footer": "3 excusas de tu restaurante para no tener web"
+  },
+  {
+   "label": "EXCUSA 1",
+   "title": "Ya tengo<br><em>Instagram.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO INSTAGRAM",
+    "bad": [
+     "La carta en una foto",
+     "El horario en un post"
+    ],
+    "good_t": "CON WEB",
+    "good": [
+     "Carta que se lee",
+     "Botón de reservar"
+    ]
+   },
+   "note": "Instagram enamora, <b>la web reserva.</b>"
+  },
+  {
+   "label": "EXCUSA 2",
+   "title": "No tengo<br><em>tiempo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ENTRE SERVICIOS",
+      "t": "5 preguntas",
+      "s": "Lo contestas en el móvil"
+     },
+     {
+      "n": "2",
+      "d": "DÍA 2",
+      "t": "Primer diseño",
+      "s": "Carta, mapa y horario"
+     }
+    ]
+   },
+   "note": "Desde el móvil, <b>en un rato.</b>"
+  },
+  {
+   "label": "EXCUSA 3",
+   "title": "¿Y si<br><em>no me gusta?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Web al Vuelo",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "El diseño no me",
+       "acaba de convencer"
+      ],
+      "time": "17:30"
+     },
+     {
+      "from": "in",
+      "text": "Lo rehacemos gratis",
+      "time": "17:36"
+     }
+    ]
+   },
+   "note": "Se rehace <b>sin pagar más.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>una vez.</em>",
+   "dur": 6,
+   "items": [
+    "Carta, reservas y mapa",
+    "Primer diseño en 2 días",
+    "Si no convence, se rehace"
+   ],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para restaurantes y bares 👇\nInstagram está bien para que te vean. Pero la carta en una foto y el horario perdido en un post no ayudan al que quiere reservar esta noche.\nContestas 5 preguntas entre servicio y servicio, y en 2 días tienes el primer diseño. Si no te convence, se rehace gratis. 79 €, una vez, sin cuotas.\n¿Cuál de las tres excusas te has dicho?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#restaurantes #bares #hosteleria #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para restaurantes: «ya tengo Instagram» y otras 2 excusas",
+  "text": "Página web para restaurantes y bares 👇\nInstagram está bien para que te vean. Pero la carta en una foto y el horario perdido en un post no ayudan al que quiere reservar esta noche.\nContestas 5 preguntas entre servicio y servicio, y en 2 días tienes el primer diseño. Si no te convence, se rehace gratis. 79 €, una vez, sin cuotas.\n¿Cuál de las tres excusas te has dicho?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#restaurantes #bares #hosteleria #autonomos #paginaweb #webalvuelo"
+ }
+}

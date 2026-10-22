@@ -1,0 +1,66 @@
+{
+ "topic": "Cómo grabar el tour de un piso para una inmobiliaria (entrada, la estancia con más luz y las vistas o el detalle que lo diferencia) y la cuenta de Reels al Vuelo: primer reel por 1,99 € y 10 reels por 59 €, que salen a 5,90 € cada uno, sin cuotas y el vídeo es tuyo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pisos<br><em>sin vídeo?</em>",
+   "size": 140,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO FOTOS",
+    "bad": ["No se entiende el piso", "Todas se parecen"],
+    "good_t": "CON REEL",
+    "good": ["Se recorre entero", "Se ve la luz real"]
+   },
+   "footer": "Cómo grabarlo y cuánto cuesta editarlo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba<br><em>el recorrido.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "TOMA 1", "t": "La entrada", "s": "Abriendo la puerta"},
+     {"n": "2", "d": "TOMA 2", "t": "La luz", "s": "La estancia más luminosa"},
+     {"n": "3", "d": "TOMA 3", "t": "El detalle", "s": "Vistas, terraza o cocina"}
+    ]
+   },
+   "note": "Despacio <b>y en vertical.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Nos lo mandas,<br><em>te llega en 24 h.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Subtítulos", "Ritmo y música libre", "Tu logo", "Revisado por una persona"]
+   },
+   "note": "Listo para <b>subir con el anuncio.</b>"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "Un reel por piso<br><em>sin cuotas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE PAGAS",
+    "lines": ["Primer reel: 1,99 €", "10 reels: 59 €", "59 / 10 = 5,90 € por reel", "Sin cuotas"]
+   },
+   "note": "Y los vídeos <b>son tuyos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu primer reel<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Grabas con el móvil", "Editado en 24 h", "10 reels por 59 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para inmobiliarias 👇\nGraba cada piso en tres tomas: la entrada abriendo la puerta, la estancia con más luz y el detalle que lo diferencia. Despacio y en vertical.\nNos lo mandas y en 24 h te llega editado con subtítulos, música libre y tu logo. 10 reels por 59 € salen a 5,90 € cada uno. Sin cuotas, y los vídeos son tuyos.\n¿Cuántos pisos tienes ahora sin vídeo?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#inmobiliaria #agenteinmobiliario #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para inmobiliarias: cómo grabar un piso y cuánto cuesta",
+  "text": "Edición de reels para inmobiliarias 👇\nGraba cada piso en tres tomas: la entrada abriendo la puerta, la estancia con más luz y el detalle que lo diferencia. Despacio y en vertical.\nNos lo mandas y en 24 h te llega editado con subtítulos, música libre y tu logo. 10 reels por 59 € salen a 5,90 € cada uno. Sin cuotas, y los vídeos son tuyos.\n¿Cuántos pisos tienes ahora sin vídeo?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#inmobiliaria #agenteinmobiliario #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

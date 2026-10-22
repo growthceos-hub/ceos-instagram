@@ -1,0 +1,78 @@
+{
+ "topic": "Para qué sirve el CRM en el sistema de Ceos Growth: cada lead de Meta Ads entra solo, sabes a quién llamar hoy y ves qué anuncio trae ventas (y sobre esas ventas cobramos comisión)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Dónde apuntas<br><em>tus leads?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "in", "text": "Hola, pedí información", "time": "09:12"},
+     {"from": "in", "text": "¿Hay alguien por ahí?", "time": "18:40"}
+    ]
+   },
+   "footer": "Para qué sirve el CRM en el sistema"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Cada lead<br><em>entra solo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lead de Meta Ads",
+    "fields": [
+     {"q": "Origen", "a": "Formulario de Meta"},
+     {"q": "Interés", "a": "Pide información"}
+    ],
+    "badge": "✓ EN EL CRM"
+   },
+   "note": "Sin <b>copiar y pegar.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Sabes a quién<br><em>llamar hoy.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timer",
+    "head": "Nuevo lead · Meta",
+    "sub": "TIEMPO HASTA LA LLAMADA",
+    "secs": 272,
+    "side": "Le llamas<br>mientras aún<br>se acuerda",
+    "badge": "✓ LLAMADO"
+   },
+   "note": "Ningún lead <b>se queda olvidado.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Y ves<br><em>qué vende.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Ventas por anuncio",
+    "items": [
+     {"label": "Anuncio 1", "value": 40},
+     {"label": "Anuncio 2", "value": 76, "hi": true},
+     {"label": "Anuncio 3", "value": 22}
+    ]
+   },
+   "note": "Y cobramos <b>sobre esas ventas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que ningún lead<br><em>se pierda.</em>",
+   "size": 100,
+   "dur": 6,
+   "items": ["Cada lead entra solo", "Sabes a quién llamar", "Ves qué anuncio vende"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "CRM para leads de Meta Ads: para qué lo usamos en Ceos Growth",
+  "text": "CRM para tus leads: ¿o siguen en WhatsApp y en una libreta? 📋👇\nUn lead que pide información y nadie le llama es dinero que ya has pagado en anuncios. Por eso el CRM va dentro de nuestro sistema.\n→ Cada lead de Meta Ads entra solo, sin copiar y pegar\n→ Sabes a quién tienes que llamar hoy\n→ Ves qué anuncio trae ventas, y sobre esas ventas cobramos comisión\n¿Dónde apuntas tú los leads ahora?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #crm #leads #metaads #captaciondeclientes #ventas"
+ },
+ "caption": "CRM para tus leads: ¿o siguen en WhatsApp y en una libreta? 📋👇\nUn lead que pide información y nadie le llama es dinero que ya has pagado en anuncios. Por eso el CRM va dentro de nuestro sistema.\n→ Cada lead de Meta Ads entra solo, sin copiar y pegar\n→ Sabes a quién tienes que llamar hoy\n→ Ves qué anuncio trae ventas, y sobre esas ventas cobramos comisión\n¿Dónde apuntas tú los leads ahora?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #crm #leads #metaads #captaciondeclientes #ventas"
+}

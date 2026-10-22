@@ -1,0 +1,69 @@
+{
+ "topic": "Antes y después de un centro de estética en internet: de pasar la lista de precios por mensaje uno a uno a una web con tratamientos, botón de pedir cita y WhatsApp, reseñas, mapa y horario. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Mandas precios<br><em>uno a uno?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Clienta",
+    "msgs": [
+     {"from": "in", "text": "¿Cuánto es la limpieza?", "time": "15:10"},
+     {"from": "in", "text": "¿Y tenéis láser?", "time": "15:11"}
+    ]
+   },
+   "footer": "El antes y el después de tu centro de estética"
+  },
+  {
+   "label": "ANTES",
+   "title": "Todo<br><em>por mensaje.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["Precios por WhatsApp", "Citas entre cabinas"],
+    "good_t": "DESPUÉS",
+    "good": ["Tratamientos en la web", "Cita en un toque"]
+   },
+   "note": "Contestas lo mismo <b>una y otra vez.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Lo ve<br><em>sin preguntar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Tratamientos y precios", "Pedir cita", "Reseñas de clientas"]
+   },
+   "note": "Te escribe <b>ya decidida.</b>"
+  },
+  {
+   "label": "CÓMO SE HACE",
+   "title": "5 preguntas<br><em>y 2 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "5 preguntas", "s": "Tratamientos, horario, zona"},
+     {"n": "2", "d": "DÍA 2", "t": "Primer diseño", "s": "Si no te convence, se rehace"},
+     {"n": "3", "d": "LUEGO", "t": "Sin cuotas", "s": "La web es tuya"}
+    ]
+   },
+   "note": "<b>79 €, pago único.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Tratamientos y cita", "Mapa, horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para centros de estética 👇\nSi entre cabina y cabina contestas \"¿cuánto es la limpieza?\" por WhatsApp, esa respuesta puede estar en tu web, con botón para pedir cita.\nTratamientos, reseñas, mapa y horario. Contestas 5 preguntas y el primer diseño llega en 2 días. Si no te convence, se rehace gratis. 79 €, una vez.\n¿Cuántas veces al día te piden la lista de precios?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#centrodeestetica #estetica #belleza #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para centros de estética: el antes y el después",
+  "text": "Página web para centros de estética 👇\nSi entre cabina y cabina contestas \"¿cuánto es la limpieza?\" por WhatsApp, esa respuesta puede estar en tu web, con botón para pedir cita.\nTratamientos, reseñas, mapa y horario. Contestas 5 preguntas y el primer diseño llega en 2 días. Si no te convence, se rehace gratis. 79 €, una vez.\n¿Cuántas veces al día te piden la lista de precios?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#centrodeestetica #estetica #belleza #autonomos #paginaweb #webalvuelo"
+ }
+}

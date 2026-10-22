@@ -1,0 +1,66 @@
+{
+ "topic": "Las 3 excusas de una academia para no subir reels: no sé grabar (móvil en vertical y una explicación corta en la pizarra), no tengo tiempo de editar (te lo devolvemos editado en 24 h) y ¿y si no queda bien? (lo revisa una persona y la prueba cuesta 1,99 €)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu academia<br><em>no sube reels?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LAS EXCUSAS DE SIEMPRE",
+    "lines": ["No sé grabar", "No tengo tiempo", "¿Y si queda mal?"]
+   },
+   "footer": "3 excusas y lo que hay detrás"
+  },
+  {
+   "label": "EXCUSA 1",
+   "title": "No sé<br><em>grabar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Móvil en vertical", "Una duda de examen", "Explicada en la pizarra"]
+   },
+   "note": "Lo que explicas en clase <b>ya es un reel.</b>"
+  },
+  {
+   "label": "EXCUSA 2",
+   "title": "No tengo<br><em>tiempo de editar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "TÚ", "t": "Grabas", "s": "Al acabar la clase"},
+     {"n": "2", "d": "NOSOTROS", "t": "Editamos", "s": "Subtítulos, ritmo, música"},
+     {"n": "3", "d": "EN 24 H", "t": "Lo subes", "s": "Con tu logo"}
+    ]
+   },
+   "note": "Editar <b>es cosa nuestra.</b>"
+  },
+  {
+   "label": "EXCUSA 3",
+   "title": "¿Y si<br><em>queda mal?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE TEMES",
+    "bad": ["Un vídeo cutre", "Pagar una cuota"],
+    "good_t": "REELS AL VUELO",
+    "good": ["Lo revisa una persona", "Pruebas por 1,99 €"]
+   },
+   "note": "<b>Sin cuotas</b> y el vídeo es tuyo."
+  },
+  {
+   "kind": "cta",
+   "title": "Pruébalo<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Grabas con el móvil", "Editado en 24 h", "10 reels por 59 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para academias 👇\nUna duda típica de examen explicada en la pizarra, grabada con el móvil en vertical, ya es un reel. Lo que falta es editarlo, y eso no tienes por qué hacerlo tú.\nNos lo mandas y en 24 h te llega con subtítulos, ritmo, música libre y tu logo, revisado por una persona. Sin cuotas.\n¿Cuál de las tres excusas es la tuya?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#academia #profesores #edicionvideo #reels #formacion #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para academias: 3 excusas para no grabar y su respuesta",
+  "text": "Edición de reels para academias 👇\nUna duda típica de examen explicada en la pizarra, grabada con el móvil en vertical, ya es un reel. Lo que falta es editarlo, y eso no tienes por qué hacerlo tú.\nNos lo mandas y en 24 h te llega con subtítulos, ritmo, música libre y tu logo, revisado por una persona. Sin cuotas.\n¿Cuál de las tres excusas es la tuya?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#academia #profesores #edicionvideo #reels #formacion #reelsalvuelo"
+ }
+}

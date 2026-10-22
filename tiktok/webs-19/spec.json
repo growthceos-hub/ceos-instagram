@@ -1,0 +1,71 @@
+{
+ "topic": "Antes y después de un gimnasio o entrenador personal en internet: de responder por DM cada pregunta de horario y precio a una web con clases, horario, mapa, reseñas y botón de WhatsApp para apuntarse o pedir una clase de prueba. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu gimnasio,<br><em>antes y después.</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["Todo por DM", "Horario en una historia"],
+    "good_t": "DESPUÉS",
+    "good": ["Clases y horario en la web", "WhatsApp en un toque"]
+   },
+   "footer": "Lo que cambia con una web en tu gimnasio"
+  },
+  {
+   "label": "ANTES",
+   "title": "Contestas<br><em>lo mismo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Interesado",
+    "msgs": [
+     {"from": "in", "text": "¿Qué cuesta la cuota?", "time": "07:02"},
+     {"from": "in", "text": "¿Hay spinning hoy?", "time": "07:03"}
+    ]
+   },
+   "note": "Y mientras, <b>estás dando clase.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Lo ve<br><em>todo solo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Clases y horario", "Cómo apuntarse", "Mapa y reseñas", "Botón de WhatsApp"]
+   },
+   "note": "Te escribe <b>para apuntarse.</b>"
+  },
+  {
+   "label": "CÓMO SE HACE",
+   "title": "5 preguntas<br><em>y 2 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu gimnasio",
+    "fields": [
+     {"q": "Pregunta 1 de 5", "a": "Sala, clases y PT"},
+     {"q": "Pregunta 2 de 5", "a": "De 7 a 22 h"},
+     {"q": "Pregunta 3 de 5", "a": "Por WhatsApp"}
+    ],
+    "badge": "PRIMER DISEÑO EN 2 DÍAS"
+   },
+   "note": "Si no te convence, <b>se rehace gratis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Clases, horario y mapa", "Botón de WhatsApp", "Sin cuotas"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para gimnasios y entrenadores personales 👇\nAntes: contestar por DM qué cuesta la cuota y si hay spinning hoy, entre clase y clase. Después: lo ve en tu web y te escribe para apuntarse.\nClases, horario, mapa, reseñas y botón de WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, y la web es tuya.\n¿Cuántos DM contestas a la semana?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#gimnasio #entrenadorpersonal #fitness #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para gimnasios y entrenadores: el antes y el después",
+  "text": "Página web para gimnasios y entrenadores personales 👇\nAntes: contestar por DM qué cuesta la cuota y si hay spinning hoy, entre clase y clase. Después: lo ve en tu web y te escribe para apuntarse.\nClases, horario, mapa, reseñas y botón de WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, y la web es tuya.\n¿Cuántos DM contestas a la semana?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#gimnasio #entrenadorpersonal #fitness #autonomos #paginaweb #webalvuelo"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "topic": "Mandar un resumen por WhatsApp justo después de una llamada de venta: en 3 líneas lo que necesita con sus palabras, lo que le propones y el siguiente paso con día y hora; mándalo en los 10 minutos siguientes y guárdalo en el CRM",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Colgáis<br>y a los dos días<br><em>no se acuerda.</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO LA LLAMADA",
+    "bad": [
+     "Cada uno recuerda algo",
+     "Nadie sabe qué toca"
+    ],
+    "good_t": "LLAMADA + RESUMEN",
+    "good": [
+     "Todo por escrito",
+     "Siguiente paso claro"
+    ]
+   },
+   "footer": "Mándale esto en los 10 minutos siguientes"
+  },
+  {
+   "label": "LÍNEA 1",
+   "title": "Lo que necesita,<br><em>con sus palabras.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE ME CONTASTE",
+    "lines": [
+     "Quieres más citas",
+     "entre semana",
+     "sin bajar precios"
+    ]
+   },
+   "note": "Que se vea <b>que le escuchaste.</b>"
+  },
+  {
+   "label": "LÍNEA 2",
+   "title": "Lo que<br><em>le propones.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Qué vas a hacer",
+     "Qué incluye",
+     "Cuánto cuesta"
+    ]
+   },
+   "note": "Corto. <b>El detalle, en la propuesta.</b>"
+  },
+  {
+   "label": "LÍNEA 3",
+   "title": "Siguiente paso<br><em>con fecha.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Pedro",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Te llamo el jueves",
+       "a las 10 para cerrarlo",
+       "¿Te va bien?"
+      ],
+      "time": "12:42"
+     },
+     {
+      "from": "in",
+      "text": "Perfecto, el jueves",
+      "time": "12:50"
+     }
+    ]
+   },
+   "note": "Y guárdalo <b>en el CRM.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que la llamada<br><em>quede escrita.</em>",
+   "dur": 6,
+   "items": [
+    "Lo que necesita",
+    "Lo que propones",
+    "Siguiente paso con fecha"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Resumen después de una llamada de venta: el WhatsApp que tienes que mandar",
+  "text": "Resumen después de la llamada de venta: a los dos días el cliente ya no recuerda lo que hablasteis ✍️👇\n\nEn la llamada todo queda claro. Luego cada uno recuerda una parte, y la venta se queda en el aire.\n\n→ Primera línea: lo que necesita, con sus palabras. Que vea que le escuchaste\n→ Segunda línea: lo que le propones, en corto. El detalle va en la propuesta\n→ Tercera línea: el siguiente paso con día y hora, y una pregunta para que confirme\n\nMándalo en los 10 minutos siguientes a colgar y guárdalo en la ficha del CRM. Nosotros lo hacemos así porque un mensaje que el cliente puede releer trabaja por ti cuando no estás.\n\n¿Mandas algo por escrito después de tus llamadas o lo dejas todo de palabra? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #whatsapp #llamadasdeventa #crm #pymes #ceosgrowth"
+ },
+ "caption": "Resumen después de la llamada de venta: a los dos días el cliente ya no recuerda lo que hablasteis ✍️👇\n\nEn la llamada todo queda claro. Luego cada uno recuerda una parte, y la venta se queda en el aire.\n\n→ Primera línea: lo que necesita, con sus palabras. Que vea que le escuchaste\n→ Segunda línea: lo que le propones, en corto. El detalle va en la propuesta\n→ Tercera línea: el siguiente paso con día y hora, y una pregunta para que confirme\n\nMándalo en los 10 minutos siguientes a colgar y guárdalo en la ficha del CRM. Nosotros lo hacemos así porque un mensaje que el cliente puede releer trabaja por ti cuando no estás.\n\n¿Mandas algo por escrito después de tus llamadas o lo dejas todo de palabra? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #whatsapp #llamadasdeventa #crm #pymes #ceosgrowth"
+}

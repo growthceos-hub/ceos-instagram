@@ -1,0 +1,99 @@
+{
+ "topic": "Usar tus reseñas de Google en los anuncios: elige la reseña que responde a la duda que más te ponen (precio, plazo, limpieza…), ponla como captura real con nombre y estrellas (pide permiso al cliente) y úsala de gancho o como anuncio de prueba social",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tus reseñas<br>venden. ¿Las usas<br><em>en tus anuncios?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "RESEÑAS SOLO EN GOOGLE",
+    "bad": [
+     "Las ve quien ya te busca",
+     "Nadie más"
+    ],
+    "good_t": "RESEÑAS EN EL ANUNCIO",
+    "good": [
+     "Las ve gente nueva",
+     "Quitan dudas antes"
+    ]
+   },
+   "footer": "3 pasos para convertirlas en anuncios"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige la que<br><em>quita una duda.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "¿Le preocupa el precio?",
+     "¿Le preocupa el plazo?",
+     "Busca la reseña que lo dice"
+    ]
+   },
+   "note": "La duda que <b>más te repiten.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Captura real<br><em>y con permiso.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Marta",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Tu reseña nos encantó",
+       "¿Podemos usarla",
+       "en un anuncio?"
+      ],
+      "time": "11:05"
+     },
+     {
+      "from": "in",
+      "text": "Claro, sin problema",
+      "time": "11:20"
+     }
+    ]
+   },
+   "note": "Con <b>nombre y estrellas,</b> sin retocar."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Úsala<br><em>de gancho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Lo que dicen quienes ya nos llamaron:",
+    "media": "“ACABARON A TIEMPO”",
+    "headline": "Pide presupuesto",
+    "cta": "Más información",
+    "tags": [
+     "RESEÑA REAL",
+     "5 ESTRELLAS"
+    ]
+   },
+   "note": "La frase del cliente, <b>lo primero.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que hablen<br><em>tus clientes.</em>",
+   "dur": 6,
+   "items": [
+    "Reseña que quita una duda",
+    "Captura real con permiso",
+    "Úsala de gancho"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Reseñas de Google en tus anuncios de Meta: cómo usarlas para vender más",
+  "text": "Reseñas de Google en tus anuncios: las tienes ahí y solo las ve quien ya te busca ⭐👇\n\nUna reseña dice lo que tú no puedes decir de ti mismo sin sonar a anuncio. Llevarla al anuncio hace que la vea gente que aún no te conoce.\n\n→ Elige la reseña que responde a la duda que más te ponen: precio, plazo, limpieza, trato…\n→ Pide permiso al cliente y usa la captura real, con su nombre y las estrellas, sin retocar el texto\n→ Úsala de gancho: la frase del cliente lo primero, en grande, y debajo qué ofreces y qué tiene que pulsar\n\nPara nosotros una reseña que quita una duda concreta vale más que diez que solo dicen “muy bien todo”.\n\n¿Cuál es la duda que más te repiten tus clientes antes de comprar? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#reseñas #metaads #anuncios #googlemaps #negocioslocales #ceosgrowth"
+ },
+ "caption": "Reseñas de Google en tus anuncios: las tienes ahí y solo las ve quien ya te busca ⭐👇\n\nUna reseña dice lo que tú no puedes decir de ti mismo sin sonar a anuncio. Llevarla al anuncio hace que la vea gente que aún no te conoce.\n\n→ Elige la reseña que responde a la duda que más te ponen: precio, plazo, limpieza, trato…\n→ Pide permiso al cliente y usa la captura real, con su nombre y las estrellas, sin retocar el texto\n→ Úsala de gancho: la frase del cliente lo primero, en grande, y debajo qué ofreces y qué tiene que pulsar\n\nPara nosotros una reseña que quita una duda concreta vale más que diez que solo dicen “muy bien todo”.\n\n¿Cuál es la duda que más te repiten tus clientes antes de comprar? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#reseñas #metaads #anuncios #googlemaps #negocioslocales #ceosgrowth"
+}

@@ -1,0 +1,67 @@
+{
+ "topic": "3 mitos sobre reels para abogados y asesorías: que los reels no son serios, que hay que hacer bailes o tendencias y que editar lleva una tarde. Idea: contestar en un vídeo corto una pregunta que te hacen siempre. Reels al Vuelo: editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Un abogado<br><em>haciendo reels?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE DICE",
+    "lines": ["No es serio", "Hay que bailar", "Editar lleva una tarde"]
+   },
+   "footer": "3 mitos que frenan a tu despacho"
+  },
+  {
+   "label": "MITO 1",
+   "title": "Los reels<br><em>no son serios.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Me pueden echar del piso?", "time": "12:40"},
+     {"from": "in", "text": "¿Prescribe esta deuda?", "time": "12:41"}
+    ]
+   },
+   "note": "Lo que te preguntan <b>ya es el guion.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "Hay que<br><em>bailar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "INICIO", "t": "La pregunta", "s": "Tal cual te la hacen"},
+     {"n": "2", "d": "MEDIO", "t": "La respuesta", "s": "Corta y sin tecnicismos"},
+     {"n": "3", "d": "FINAL", "t": "Qué hacer", "s": "Pide cita si es tu caso"}
+    ]
+   },
+   "note": "A cámara, <b>sentado en tu despacho.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "Editar<br><em>lleva una tarde.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Subtítulos", "Ritmo y música libre", "Tu logo", "En 24 h"]
+   },
+   "note": "Tú grabas, <b>nosotros editamos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pruébalo<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Grabas con el móvil", "Revisado por una persona", "Sin cuotas"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para abogados y asesorías 👇\nNo hace falta bailar. Coge una pregunta que te hacen siempre, léela tal cual y contéstala sin tecnicismos, sentado en tu despacho. Al final, que pidan cita si es su caso.\nTú grabas con el móvil y en 24 h te lo devolvemos con subtítulos, ritmo, música libre y tu logo, revisado por una persona.\n¿Qué pregunta te hacen más veces?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#abogados #asesoria #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para abogados y asesorías: 3 mitos que te frenan",
+  "text": "Edición de reels para abogados y asesorías 👇\nNo hace falta bailar. Coge una pregunta que te hacen siempre, léela tal cual y contéstala sin tecnicismos, sentado en tu despacho. Al final, que pidan cita si es su caso.\nTú grabas con el móvil y en 24 h te lo devolvemos con subtítulos, ritmo, música libre y tu logo, revisado por una persona.\n¿Qué pregunta te hacen más veces?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#abogados #asesoria #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

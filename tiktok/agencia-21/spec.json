@@ -1,0 +1,117 @@
+{
+ "topic": "Catálogo de WhatsApp Business para servicios: sube cada servicio con foto real, precio «desde» y qué incluye en 2 líneas, ordena primero los que más te piden, y cuando te pregunten mándales el servicio del catálogo con una pregunta para seguir",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Explicas precios<br><em>chat a chat?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CHAT A CHAT",
+    "bad": [
+     "Escribes lo mismo cada vez",
+     "Tardas en responder"
+    ],
+    "good_t": "CATÁLOGO DE WHATSAPP",
+    "good": [
+     "Mandas el servicio",
+     "Respondes en segundos"
+    ]
+   },
+   "footer": "3 pasos para montar tu catálogo de WhatsApp"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Cada servicio<br><em>bien explicado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Nuevo artículo",
+    "fields": [
+     {
+      "q": "Foto",
+      "a": "Trabajo real"
+     },
+     {
+      "q": "Precio",
+      "a": "Desde 45 €"
+     },
+     {
+      "q": "Incluye",
+      "a": "Revisión y limpieza"
+     }
+    ],
+    "badge": "✓ EN EL CATÁLOGO"
+   },
+   "note": "Precio <b>“desde”</b> y qué incluye."
+  },
+  {
+   "label": "PASO 2",
+   "title": "Primero,<br><em>lo más pedido.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Orden del catálogo",
+    "items": [
+     {
+      "label": "1. El que más te piden",
+      "value": 90,
+      "hi": true
+     },
+     {
+      "label": "2. El segundo",
+      "value": 60
+     },
+     {
+      "label": "3. El resto",
+      "value": 30
+     }
+    ]
+   },
+   "note": "Lo que más vendes, <b>arriba.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Mándalo<br><em>con una pregunta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Nuria",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Te paso este servicio",
+       "¿Para cuándo",
+       "lo necesitarías?"
+      ],
+      "time": "09:14"
+     },
+     {
+      "from": "in",
+      "text": "Para la semana que viene",
+      "time": "09:20"
+     }
+    ]
+   },
+   "note": "La pregunta <b>sigue la conversación.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu catálogo,<br><em>en el chat.</em>",
+   "dur": 6,
+   "items": [
+    "Foto, precio e incluye",
+    "Lo más pedido arriba",
+    "Mándalo con una pregunta"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Catálogo de WhatsApp Business para servicios: cómo montarlo en 3 pasos",
+  "text": "Catálogo de WhatsApp Business: deja de explicar tus servicios uno a uno en cada chat 🛍️👇\n\nSirve también para servicios: cada uno con su foto, su precio y lo que incluye, listo para mandar.\n\n→ Sube cada servicio con una foto real de tu trabajo, precio “desde” y qué incluye en dos líneas\n→ Ordena el catálogo con lo que más te piden arriba del todo\n→ Cuando te pregunten, manda el servicio del catálogo y añade una pregunta para seguir: “¿para cuándo lo necesitarías?”\n\nPara nosotros el catálogo ahorra tiempo, pero lo que vende es la pregunta que va detrás. Sin ella, el cliente mira y se va.\n\n¿Tienes el catálogo de WhatsApp montado o ni sabías que existía? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #catalogo #ventas #negocioslocales #pymes #ceosgrowth"
+ },
+ "caption": "Catálogo de WhatsApp Business: deja de explicar tus servicios uno a uno en cada chat 🛍️👇\n\nSirve también para servicios: cada uno con su foto, su precio y lo que incluye, listo para mandar.\n\n→ Sube cada servicio con una foto real de tu trabajo, precio “desde” y qué incluye en dos líneas\n→ Ordena el catálogo con lo que más te piden arriba del todo\n→ Cuando te pregunten, manda el servicio del catálogo y añade una pregunta para seguir: “¿para cuándo lo necesitarías?”\n\nPara nosotros el catálogo ahorra tiempo, pero lo que vende es la pregunta que va detrás. Sin ella, el cliente mira y se va.\n\n¿Tienes el catálogo de WhatsApp montado o ni sabías que existía? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #catalogo #ventas #negocioslocales #pymes #ceosgrowth"
+}

@@ -1,0 +1,66 @@
+{
+ "topic": "Antes y después de un vídeo de taller mecánico: del vídeo en bruto del móvil (largo, con ruido y sin contexto) al reel editado con subtítulos, ritmo, música libre y tu logo. Qué grabar en el taller. Reels al Vuelo: editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Bruto<br><em>o editado?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EN BRUTO",
+    "bad": ["Minutos sin pasar nada", "Solo se oye el compresor"],
+    "good_t": "EDITADO",
+    "good": ["Lo bueno, al principio", "Subtítulos y música"]
+   },
+   "footer": "El mismo vídeo de tu taller, antes y después"
+  },
+  {
+   "label": "ANTES",
+   "title": "Lo que<br><em>grabas tú.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["La pieza gastada", "El cambio, de cerca", "El coche listo"]
+   },
+   "note": "Con el móvil <b>y sin pensar en planos.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Lo que<br><em>te devolvemos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "INICIO", "t": "La pieza gastada", "s": "Lo que engancha"},
+     {"n": "2", "d": "MEDIO", "t": "El cambio", "s": "Con subtítulos y ritmo"},
+     {"n": "3", "d": "FINAL", "t": "Tu logo", "s": "Para que sepan quién eres"}
+    ]
+   },
+   "note": "Editado <b>en 24 h.</b>"
+  },
+  {
+   "label": "EL DETALLE",
+   "title": "Lo revisa<br><em>una persona.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE ENTREGAR",
+    "lines": ["Subtítulos bien escritos", "Música libre de derechos", "Ritmo que no aburre"]
+   },
+   "note": "Y el vídeo <b>es tuyo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu primer reel<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Grabas con el móvil", "Editado en 24 h", "Sin cuotas"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para talleres mecánicos 👇\nUn cambio de pastillas grabado con el móvil son minutos de ruido. Editado, son unos segundos que enseñan cómo trabajas: la pieza gastada, el cambio y el coche listo.\nTú grabas y en 24 h te lo devolvemos con subtítulos, ritmo, música libre y tu logo, revisado por una persona.\n¿Qué reparación de esta semana grabarías?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#tallermecanico #mecanica #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para talleres mecánicos: tu vídeo en bruto vs editado",
+  "text": "Edición de reels para talleres mecánicos 👇\nUn cambio de pastillas grabado con el móvil son minutos de ruido. Editado, son unos segundos que enseñan cómo trabajas: la pieza gastada, el cambio y el coche listo.\nTú grabas y en 24 h te lo devolvemos con subtítulos, ritmo, música libre y tu logo, revisado por una persona.\n¿Qué reparación de esta semana grabarías?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#tallermecanico #mecanica #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

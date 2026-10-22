@@ -1,0 +1,66 @@
+{
+ "topic": "3 cosas que debe tener la web de un despacho de abogados o una asesoría: qué asuntos llevas explicado claro, un botón para pedir cita o llamar, y dirección, horario y reseñas. Web al Vuelo: 79 € pago único, la web es tuya",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu despacho<br><em>da confianza?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE PREGUNTA ANTES",
+    "lines": ["¿Llevan mi caso?", "¿Cómo pido cita?", "¿Son de fiar?"]
+   },
+   "footer": "3 cosas que debe tener la web de tu despacho"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Qué llevas,<br><em>claro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Soluciones integrales", "Servicios jurídicos"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Herencias y divorcios", "Rentas y autónomos"]
+   },
+   "note": "Que se reconozca <b>en una línea.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Pedir cita<br><em>sin llamar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Es por una herencia", "time": "16:20"},
+     {"from": "out", "lines": ["Claro, ¿te va bien", "el jueves a las 11?"], "time": "16:34"}
+    ]
+   },
+   "note": "Botón de <b>cita, llamar y WhatsApp.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Dónde estás<br><em>y qué opinan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Mapa del despacho", "Horario de atención", "Reseñas de clientes"]
+   },
+   "note": "La confianza <b>empieza antes de entrar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Cita, llamar y WhatsApp", "Mapa, horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para abogados y asesorías 👇\nQuien tiene un problema con una herencia o con Hacienda quiere saber tres cosas antes de llamar: si llevas su asunto, cómo pedir cita y si se puede fiar.\nTu web con lo que llevas explicado claro, botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, y la web es tuya.\n¿Se entiende en una línea qué llevas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#abogados #asesoria #despacho #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para abogados y asesorías: 3 cosas que debe tener",
+  "text": "Página web para abogados y asesorías 👇\nQuien tiene un problema con una herencia o con Hacienda quiere saber tres cosas antes de llamar: si llevas su asunto, cómo pedir cita y si se puede fiar.\nTu web con lo que llevas explicado claro, botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, y la web es tuya.\n¿Se entiende en una línea qué llevas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#abogados #asesoria #despacho #autonomos #paginaweb #webalvuelo"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "topic": "12 meses de Meta Ads sin permanencia: por qué Ceos Growth no ata a sus clientes con contratos y cobra comisión sobre ventas, para tener que ganarse cada mes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te piden<br>permanencia<br><em>para empezar?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Contrato de agencia",
+    "fields": [
+     {"q": "Duración", "a": "12 meses obligatorios"},
+     {"q": "Si quieres salir", "a": "Penalización"}
+    ]
+   },
+   "footer": "Por qué trabajamos sin permanencia"
+  },
+  {
+   "label": "PUNTO 1",
+   "title": "12 meses<br><em>de Meta Ads.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "MES 1", "t": "Implantación", "s": "Sistema en marcha en 26 días"},
+     {"n": "12", "d": "MES 12", "t": "Un año de campañas", "s": "Tiempo para aprender y escalar"}
+    ]
+   },
+   "note": "Un año <b>de campañas de Meta Ads.</b>"
+  },
+  {
+   "label": "PUNTO 2",
+   "title": "Sin<br><em>permanencia.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Sin meses obligatorios", "Sigues si te funciona", "Y te vas si no"]
+   },
+   "note": "Nos tenemos que <b>ganar cada mes.</b>"
+  },
+  {
+   "label": "PUNTO 3",
+   "title": "Y cobramos<br><em>por ventas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CUOTA + PERMANENCIA",
+    "bad": ["Cobra aunque no vendas", "Y no te puedes ir"],
+    "good_t": "COMISIÓN, SIN ATARTE",
+    "good": ["Ganamos si vendes", "Te quedas si te sirve"]
+   },
+   "note": "<b>Comisión sobre ventas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Quédate<br><em>porque funciona.</em>",
+   "dur": 6,
+   "items": ["12 meses de Meta Ads", "Sin permanencia", "Comisión sobre ventas"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia de Meta Ads sin permanencia: 12 meses de campañas sin atarte",
+  "text": "Agencia de Meta Ads sin permanencia: por qué no te atamos con un contrato 🔓👇\nSi una agencia necesita obligarte a quedarte, pregúntate por qué. Nosotros lo hacemos así.\n→ 12 meses de campañas de Meta Ads, después de una implantación de 26 días\n→ Sin permanencia: sigues si te funciona y te vas si no\n→ Cobramos comisión sobre ventas, así que ganamos cuando tú vendes\n¿Has firmado alguna vez una permanencia con una agencia?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #agenciademarketing #sinpermanencia #captaciondeclientes #empresarios"
+ },
+ "caption": "Agencia de Meta Ads sin permanencia: por qué no te atamos con un contrato 🔓👇\nSi una agencia necesita obligarte a quedarte, pregúntate por qué. Nosotros lo hacemos así.\n→ 12 meses de campañas de Meta Ads, después de una implantación de 26 días\n→ Sin permanencia: sigues si te funciona y te vas si no\n→ Cobramos comisión sobre ventas, así que ganamos cuando tú vendes\n¿Has firmado alguna vez una permanencia con una agencia?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #agenciademarketing #sinpermanencia #captaciondeclientes #empresarios"
+}

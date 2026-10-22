@@ -1,0 +1,99 @@
+{
+ "topic": "Escuchar tus propias llamadas de venta para mejorar: grábalas avisando al cliente (Meet, Zoom o la centralita lo hacen), escucha una a la semana buscando el momento en que se enfría la conversación, y cambia una sola frase para la semana siguiente",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿En qué minuto<br><em>pierdes la venta?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "MIN 0–3",
+      "t": "Va todo bien",
+      "s": "Pregunta y escucha"
+     },
+     {
+      "n": "2",
+      "d": "MIN 4",
+      "t": "Dices el precio",
+      "s": "Silencio"
+     },
+     {
+      "n": "3",
+      "d": "MIN 5",
+      "t": "“Ya te diré”",
+      "s": "Aquí se enfrió"
+     }
+    ]
+   },
+   "footer": "3 pasos para encontrarlo escuchándote"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba<br><em>avisando.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Meet o Zoom: grabar",
+     "Centralita: grabación",
+     "Avisa al empezar"
+    ]
+   },
+   "note": "Dile al cliente <b>que se graba.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Escucha<br><em>una por semana.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "QUÉ BUSCAR",
+    "lines": [
+     "¿Quién habla más?",
+     "¿Dónde se queda callado?",
+     "¿Hubo siguiente paso?"
+    ]
+   },
+   "note": "Busca <b>dónde se enfría.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cambia<br><em>una frase.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": [
+     "“El precio es 900 €…”",
+     "Y explicas sin parar"
+    ],
+    "good_t": "SEMANA SIGUIENTE",
+    "good": [
+     "Precio y pregunta",
+     "“¿Qué te parece?”"
+    ]
+   },
+   "note": "Una cosa por semana, <b>no diez.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Escúchate<br><em>para vender más.</em>",
+   "dur": 6,
+   "items": [
+    "Graba avisando",
+    "Una llamada por semana",
+    "Cambia una sola frase"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Grabar y escuchar tus llamadas de venta: cómo saber dónde pierdes la venta",
+  "text": "Escuchar tus llamadas de venta: casi nadie lo hace y es donde está lo que falla 🎧👇\n\nDespués de una llamada que no cierra, la recuerdas a tu favor. Grabada, oyes justo el momento en que el cliente se enfría.\n\n→ Grábalas avisando al cliente al empezar. Meet y Zoom tienen botón de grabar y muchas centralitas también graban\n→ Escucha una a la semana y busca tres cosas: quién habla más, en qué momento se queda callado y si hubo siguiente paso\n→ Cambia una sola frase para la semana siguiente. Por ejemplo, después de decir el precio, calla y pregunta qué le parece\n\nPara nosotros escuchar una llamada propia enseña más que leer diez libros de ventas. Cuesta oírse, pero se nota enseguida.\n\n¿Te has escuchado alguna vez en una llamada de venta? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #llamadasdeventa #comercial #formacion #pymes #ceosgrowth"
+ },
+ "caption": "Escuchar tus llamadas de venta: casi nadie lo hace y es donde está lo que falla 🎧👇\n\nDespués de una llamada que no cierra, la recuerdas a tu favor. Grabada, oyes justo el momento en que el cliente se enfría.\n\n→ Grábalas avisando al cliente al empezar. Meet y Zoom tienen botón de grabar y muchas centralitas también graban\n→ Escucha una a la semana y busca tres cosas: quién habla más, en qué momento se queda callado y si hubo siguiente paso\n→ Cambia una sola frase para la semana siguiente. Por ejemplo, después de decir el precio, calla y pregunta qué le parece\n\nPara nosotros escuchar una llamada propia enseña más que leer diez libros de ventas. Cuesta oírse, pero se nota enseguida.\n\n¿Te has escuchado alguna vez en una llamada de venta? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #llamadasdeventa #comercial #formacion #pymes #ceosgrowth"
+}

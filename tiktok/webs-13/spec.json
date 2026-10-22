@@ -1,0 +1,110 @@
+{
+ "topic": "3 mitos sobre la web de una clínica dental: que con el boca a boca basta, que la web es solo para quedar bien y que hacerla es un lío. Web al Vuelo: 79 € pago único, 5 preguntas y primer diseño en 2 días, con cita, mapa, reseñas y horario",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te recomiendan<br><em>y no te ven?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Amiga",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Ve a mi dentista,",
+       "es muy bueno"
+      ],
+      "time": "18:40"
+     },
+     {
+      "from": "in",
+      "text": "¿Cómo se llama? No lo veo",
+      "time": "18:52"
+     }
+    ]
+   },
+   "footer": "3 mitos sobre la web de tu clínica dental"
+  },
+  {
+   "label": "MITO 1",
+   "title": "Con el boca<br><em>a boca basta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LE RECOMIENDAN",
+      "t": "Tu clínica",
+      "s": "Por un amigo"
+     },
+     {
+      "n": "2",
+      "d": "LO BUSCA",
+      "t": "En el móvil",
+      "s": "Antes de llamar"
+     },
+     {
+      "n": "3",
+      "d": "LO QUE VE",
+      "t": "¿Tu web?",
+      "s": "O la de otra clínica"
+     }
+    ]
+   },
+   "note": "La recomendación <b>acaba en una búsqueda.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "La web es<br><em>para quedar bien.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Pedir cita",
+     "Llamar en un toque",
+     "Ver dónde estás",
+     "Leer reseñas"
+    ]
+   },
+   "note": "Una web <b>sirve para que te llamen.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "Hacerla<br><em>es un lío.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE TEMES",
+    "bad": [
+     "Escribir los textos",
+     "Meses de espera"
+    ],
+    "good_t": "WEB AL VUELO",
+    "good": [
+     "Contestas 5 preguntas",
+     "Primer diseño en 2 días"
+    ]
+   },
+   "note": "Si no te convence, <b>se rehace gratis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": [
+    "Cita, llamar y WhatsApp",
+    "Mapa, horario y reseñas",
+    "Sin cuotas"
+   ],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para dentistas y clínicas dentales 👇\nAunque te recomienden, el paciente nuevo te busca en el móvil antes de llamar. Si no encuentra tu web, ve la de la clínica de enfrente.\nContestas 5 preguntas y el primer diseño llega en 2 días, con botón de cita, mapa, horario y reseñas. 79 €, una vez, sin cuotas.\n¿Qué sale cuando buscan tu clínica?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#dentista #clinicadental #odontologia #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para dentistas: 3 mitos sobre la web de tu clínica",
+  "text": "Página web para dentistas y clínicas dentales 👇\nAunque te recomienden, el paciente nuevo te busca en el móvil antes de llamar. Si no encuentra tu web, ve la de la clínica de enfrente.\nContestas 5 preguntas y el primer diseño llega en 2 días, con botón de cita, mapa, horario y reseñas. 79 €, una vez, sin cuotas.\n¿Qué sale cuando buscan tu clínica?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#dentista #clinicadental #odontologia #autonomos #paginaweb #webalvuelo"
+ }
+}

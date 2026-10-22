@@ -1,0 +1,69 @@
+{
+ "topic": "POV de un fotógrafo al que le piden ver trabajos y precio y solo puede mandar fotos sueltas por WhatsApp o su perfil de Instagram. Qué debe tener su web: trabajos ordenados por tipo, reseñas y botón de WhatsApp o cita. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: te piden<br><em>ver tu trabajo.</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Tienes web con bodas?", "time": "22:15"},
+     {"from": "out", "lines": ["Te mando unas fotos", "por aquí..."], "time": "22:31"}
+    ]
+   },
+   "footer": "Lo que debería ver antes de pedirte precio"
+  },
+  {
+   "label": "LO QUE PASA",
+   "title": "Fotos sueltas<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FOTOS SUELTAS",
+    "bad": ["Comprimidas", "Sin orden ni contexto"],
+    "good_t": "TU WEB",
+    "good": ["Bodas, retratos, empresa", "Cada trabajo en su sitio"]
+   },
+   "note": "Tu trabajo <b>se ve peor de lo que es.</b>"
+  },
+  {
+   "label": "LO QUE DEBE VER",
+   "title": "Tu web,<br><em>en un enlace.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Trabajos por tipo", "Reseñas de clientes", "Zona donde trabajas", "Botón de WhatsApp"]
+   },
+   "note": "Llega a ti <b>ya convencido.</b>"
+  },
+  {
+   "label": "CÓMO SE HACE",
+   "title": "5 preguntas,<br><em>2 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "5 preguntas", "s": "Qué fotografías y dónde"},
+     {"n": "2", "d": "DÍA 2", "t": "Primer diseño", "s": "Si no te convence, se rehace"},
+     {"n": "3", "d": "Y YA", "t": "Es tuya", "s": "79 €, sin cuotas"}
+    ]
+   },
+   "note": "<b>Pago único.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Tus trabajos ordenados", "Reseñas y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para fotógrafos 👇\nTe preguntan \"¿tienes web para ver bodas?\" y acabas mandando fotos comprimidas por WhatsApp. Tu trabajo se ve peor de lo que es.\nUna web con tus trabajos por tipo, reseñas y botón de WhatsApp, en un enlace. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Qué mandas tú cuando te piden ver trabajos?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fotografo #fotografodebodas #fotografia #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para fotógrafos: POV, te piden ver tu trabajo",
+  "text": "Página web para fotógrafos 👇\nTe preguntan \"¿tienes web para ver bodas?\" y acabas mandando fotos comprimidas por WhatsApp. Tu trabajo se ve peor de lo que es.\nUna web con tus trabajos por tipo, reseñas y botón de WhatsApp, en un enlace. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Qué mandas tú cuando te piden ver trabajos?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fotografo #fotografodebodas #fotografia #autonomos #paginaweb #webalvuelo"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "topic": "Lo que cuesta montar por tu cuenta un sistema de captación: un equipo que grabe, lleve Meta Ads y siga cada lead, un estudio y un CRM; en total 32.900 € al año frente a la comisión sobre ventas de Ceos Growth",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Montarlo tú<br><em>sale más barato?</em>",
+   "size": 112,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Montarlo por tu cuenta",
+    "fields": [
+     {"q": "Coste al año", "a": "32.900 €"}
+    ]
+   },
+   "footer": "Lo que hay detrás de esa cifra"
+  },
+  {
+   "label": "PIEZA 1",
+   "title": "Necesitas<br><em>un equipo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Quien grabe y edite", "Quien lleve Meta Ads", "Quien siga cada lead"]
+   },
+   "note": "Nosotros somos <b>10 perfiles.</b>"
+  },
+  {
+   "label": "PIEZA 2",
+   "title": "Y un sitio<br><em>donde grabar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PARA GRABAR BIEN",
+    "lines": ["Un sitio fijo", "Luz y sonido cuidados", "15–20 anuncios listos"]
+   },
+   "note": "Nosotros tenemos <b>estudio propio.</b>"
+  },
+  {
+   "label": "PIEZA 3",
+   "title": "Y un CRM<br><em>montado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "CRM",
+    "fields": [
+     {"q": "Lead", "a": "Solicitud de Meta"},
+     {"q": "Siguiente paso", "a": "Llamar hoy"}
+    ],
+    "badge": "✓ CONECTADO"
+   },
+   "note": "Todo junto: <b>32.900 € al año.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "O lo montas tú<br><em>o lo montamos.</em>",
+   "size": 100,
+   "dur": 6,
+   "items": ["Tú solo: 32.900 € al año", "Nosotros: comisión", "En marcha en 26 días"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Sistema de captación de clientes: lo que cuesta montarlo por tu cuenta",
+  "text": "Sistema de captación de clientes: ¿cuánto cuesta montarlo por tu cuenta? 💶👇\nHacerlo tú parece más barato hasta que sumas todo lo que hace falta. Nuestra cuenta: 32.900 € al año.\n→ Un equipo: alguien que grabe y edite, alguien que lleve Meta Ads y alguien que siga cada lead\n→ Un sitio donde grabar con luz y sonido, y tiempo para sacar 15–20 anuncios\n→ Un CRM montado y conectado a tus anuncios\nCon Ceos Growth: 10 perfiles, estudio propio y CRM, a comisión sobre ventas.\n¿Qué parte llevas hoy tú solo?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #captaciondeclientes #metaads #crm #agenciademarketing #empresarios"
+ },
+ "caption": "Sistema de captación de clientes: ¿cuánto cuesta montarlo por tu cuenta? 💶👇\nHacerlo tú parece más barato hasta que sumas todo lo que hace falta. Nuestra cuenta: 32.900 € al año.\n→ Un equipo: alguien que grabe y edite, alguien que lleve Meta Ads y alguien que siga cada lead\n→ Un sitio donde grabar con luz y sonido, y tiempo para sacar 15–20 anuncios\n→ Un CRM montado y conectado a tus anuncios\nCon Ceos Growth: 10 perfiles, estudio propio y CRM, a comisión sobre ventas.\n¿Qué parte llevas hoy tú solo?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #captaciondeclientes #metaads #crm #agenciademarketing #empresarios"
+}

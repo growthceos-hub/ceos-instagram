@@ -1,0 +1,113 @@
+{
+ "topic": "Usar los estados de WhatsApp para que te escriban: publica tu trabajo real del día (antes, durante y terminado), cuenta una pregunta que te han hecho y su respuesta corta, y cierra con una acción clara («responde a este estado y te digo precio»)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué enseñas<br><em>en tus estados?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Qué subes a tus estados",
+    "items": [
+     {
+      "label": "Memes y frases",
+      "value": 60
+     },
+     {
+      "label": "Fotos del finde",
+      "value": 30
+     },
+     {
+      "label": "Tu trabajo",
+      "value": 10,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 estados que hacen que te escriban"
+  },
+  {
+   "label": "ESTADO 1",
+   "title": "Tu trabajo<br><em>de hoy.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "9:00",
+      "t": "Cómo estaba",
+      "s": "Foto del antes"
+     },
+     {
+      "n": "2",
+      "d": "12:00",
+      "t": "Trabajando",
+      "s": "Vídeo de 10 s"
+     },
+     {
+      "n": "3",
+      "d": "18:00",
+      "t": "Terminado",
+      "s": "Foto del después"
+     }
+    ]
+   },
+   "note": "Real y del día, <b>sin retocar.</b>"
+  },
+  {
+   "label": "ESTADO 2",
+   "title": "Una pregunta<br><em>de cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TEXTO DEL ESTADO",
+    "lines": [
+     "Me preguntan:",
+     "¿cuánto tarda una reforma?",
+     "Respuesta corta y real"
+    ]
+   },
+   "note": "Lo que otro <b>también se pregunta.</b>"
+  },
+  {
+   "label": "ESTADO 3",
+   "title": "Pide<br><em>que respondan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Eva",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Respondió a tu estado",
+      "time": "20:14"
+     },
+     {
+      "from": "in",
+      "text": "¿Cuánto sería en mi casa?",
+      "time": "20:14"
+     }
+    ]
+   },
+   "note": "“Responde y <b>te digo precio.</b>”"
+  },
+  {
+   "kind": "cta",
+   "title": "Estados<br><em>que venden.</em>",
+   "dur": 6,
+   "items": [
+    "Tu trabajo del día",
+    "Una pregunta de cliente",
+    "Pide que respondan"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Estados de WhatsApp para vender: 3 estados que hacen que tus clientes te escriban",
+  "text": "Estados de WhatsApp: los ven tus clientes cada día y casi nadie los usa para su negocio 📲👇\n\nQuien te tiene guardado ve tus estados sin buscarte. Es el escaparate más barato que tienes.\n\n→ Sube tu trabajo real del día: cómo estaba por la mañana, trabajando a mediodía y terminado por la tarde\n→ Cuenta una pregunta que te ha hecho un cliente y respóndela en corto. Otros se están preguntando lo mismo\n→ Cierra con una acción clara: “responde a este estado y te digo precio”\n\nPara nosotros funciona mejor un estado con tu trabajo de verdad, aunque esté hecho con prisa, que una imagen bonita de oferta.\n\n¿Usas los estados de WhatsApp para tu negocio? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #whatsapp #ventas #negocioslocales #autonomos #ceosgrowth"
+ },
+ "caption": "Estados de WhatsApp: los ven tus clientes cada día y casi nadie los usa para su negocio 📲👇\n\nQuien te tiene guardado ve tus estados sin buscarte. Es el escaparate más barato que tienes.\n\n→ Sube tu trabajo real del día: cómo estaba por la mañana, trabajando a mediodía y terminado por la tarde\n→ Cuenta una pregunta que te ha hecho un cliente y respóndela en corto. Otros se están preguntando lo mismo\n→ Cierra con una acción clara: “responde a este estado y te digo precio”\n\nPara nosotros funciona mejor un estado con tu trabajo de verdad, aunque esté hecho con prisa, que una imagen bonita de oferta.\n\n¿Usas los estados de WhatsApp para tu negocio? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #whatsapp #ventas #negocioslocales #autonomos #ceosgrowth"
+}

@@ -1,0 +1,69 @@
+{
+ "topic": "Qué cambia cuando tu agencia cobra comisión sobre ventas: se mide en ventas y no en clics, le importa cada lead (por eso el CRM) y no necesita atarte con permanencia",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu agencia<br>cobra aunque<br><em>no vendas?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Agencia",
+    "msgs": [
+     {"from": "out", "lines": ["Este mes no", "hemos vendido nada"], "time": "11:20"},
+     {"from": "in", "text": "La cuota es la misma", "time": "11:52"}
+    ]
+   },
+   "footer": "Qué cambia con la comisión"
+  },
+  {
+   "label": "CAMBIO 1",
+   "title": "Se mide<br><em>en ventas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SE MIDE EN CLICS",
+    "bad": ["Alcance", "Me gusta"],
+    "good_t": "SE MIDE EN VENTAS",
+    "good": ["Leads que compran", "Ventas cerradas"]
+   },
+   "note": "Cuenta <b>lo que vendes.</b>"
+  },
+  {
+   "label": "CAMBIO 2",
+   "title": "Importa<br><em>cada lead.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Que el lead conteste", "Que se le llame a tiempo", "Que acabe en venta"]
+   },
+   "note": "Por eso montamos <b>el CRM.</b>"
+  },
+  {
+   "label": "CAMBIO 3",
+   "title": "Y no hace falta<br><em>atarte.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "26 DÍAS", "t": "Implantación", "s": "Anuncios, campañas y CRM"},
+     {"n": "2", "d": "12 MESES", "t": "Meta Ads", "s": "Sin permanencia"}
+    ]
+   },
+   "note": "Si no te sirve, <b>te vas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que gane<br><em>si tú ganas.</em>",
+   "dur": 6,
+   "items": ["Se mide en ventas", "Cada lead importa", "Sin permanencia"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia a comisión sobre ventas: qué cambia para tu negocio",
+  "text": "Agencia a comisión sobre ventas: qué cambia para ti 🤝👇\nCon una cuota fija, la agencia cobra lo mismo vendas o no. En Ceos Growth cobramos comisión sobre ventas, y eso cambia cómo trabajamos.\n→ Se mide en ventas cerradas, no en clics ni en me gusta\n→ Importa cada lead: por eso el CRM va dentro del sistema\n→ No hace falta atarte: 12 meses de Meta Ads sin permanencia\n¿Cómo te cobra hoy tu agencia?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #comisionsobreventas #metaads #captaciondeclientes #empresarios"
+ },
+ "caption": "Agencia a comisión sobre ventas: qué cambia para ti 🤝👇\nCon una cuota fija, la agencia cobra lo mismo vendas o no. En Ceos Growth cobramos comisión sobre ventas, y eso cambia cómo trabajamos.\n→ Se mide en ventas cerradas, no en clics ni en me gusta\n→ Importa cada lead: por eso el CRM va dentro del sistema\n→ No hace falta atarte: 12 meses de Meta Ads sin permanencia\n¿Cómo te cobra hoy tu agencia?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #comisionsobreventas #metaads #captaciondeclientes #empresarios"
+}

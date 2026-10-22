@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores de la web de un fisio o una clínica: no decir qué tratas con palabras del paciente, esconder el teléfono y el botón de cita, y no tener reseñas, mapa ni horario. Web al Vuelo: 79 € pago único, primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te duele<br><em>y no te llaman?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA EL PACIENTE",
+    "lines": ["fisio cerca de mí", "dolor de espalda", "pedir cita hoy"]
+   },
+   "footer": "3 errores de la web de tu clínica"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Hablar<br><em>como un libro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Terapia miofascial", "Abordaje integral"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Dolor de espalda", "Esguinces y lesiones"]
+   },
+   "note": "Escribe <b>como lo dice el paciente.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Esconder<br><em>la cita.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de pedir cita", "Botón de llamar", "WhatsApp a la vista"]
+   },
+   "note": "Arriba, <b>sin tener que buscarlo.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Sin reseñas<br><em>ni mapa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {"from": "in", "text": "¿Dónde estáis exactamente?", "time": "10:12"},
+     {"from": "in", "text": "¿Abrís por la tarde?", "time": "10:13"}
+    ]
+   },
+   "note": "Mapa y horario <b>contestan solos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Cita, llamar y WhatsApp", "Mapa, horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para fisios y clínicas 👇\nEl paciente no busca \"terapia miofascial\", busca \"me duele la espalda\". Si tu web habla como un libro y esconde el botón de cita, llama a otra clínica.\nTu web con lo que tratas dicho claro, botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Cómo describe tu paciente lo que le pasa?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fisioterapia #fisioterapeuta #clinica #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para fisios y clínicas: 3 errores que te quitan pacientes",
+  "text": "Página web para fisios y clínicas 👇\nEl paciente no busca \"terapia miofascial\", busca \"me duele la espalda\". Si tu web habla como un libro y esconde el botón de cita, llama a otra clínica.\nTu web con lo que tratas dicho claro, botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Cómo describe tu paciente lo que le pasa?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fisioterapia #fisioterapeuta #clinica #autonomos #paginaweb #webalvuelo"
+ }
+}

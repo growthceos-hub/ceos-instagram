@@ -1,0 +1,105 @@
+{
+ "topic": "Anuncios de Meta que abren un chat de WhatsApp: crea la campaña con objetivo interacción y WhatsApp como destino, escribe un mensaje de bienvenida con 2–3 preguntas frecuentes para que pulsen una, y contesta en minutos (si tardas horas el chat se enfría)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br>abre <em>un WhatsApp?</em>",
+   "size": 120,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "¿Dudas con tu reforma? Escríbenos.",
+    "media": "ESCRÍBENOS AQUÍ",
+    "headline": "Respuesta hoy",
+    "cta": "Enviar mensaje",
+    "tags": [
+     "CHAT",
+     "SIN FORMULARIO"
+    ]
+   },
+   "footer": "3 pasos para montarlo bien"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Destino:<br><em>WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Nueva campaña",
+    "fields": [
+     {
+      "q": "Objetivo",
+      "a": "Interacción"
+     },
+     {
+      "q": "Destino",
+      "a": "WhatsApp"
+     },
+     {
+      "q": "Número",
+      "a": "El de tu empresa"
+     }
+    ],
+    "badge": "✓ CONECTADO"
+   },
+   "note": "Con <b>WhatsApp Business</b> vinculado."
+  },
+  {
+   "label": "PASO 2",
+   "title": "Bienvenida<br><em>con preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Javier",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola, ¿en qué te ayudo?",
+       "· ¿Cuánto cuesta?",
+       "· ¿Cuándo podéis venir?"
+      ],
+      "time": "10:02"
+     },
+     {
+      "from": "in",
+      "text": "¿Cuándo podéis venir?",
+      "time": "10:02"
+     }
+    ]
+   },
+   "note": "Que solo tenga que <b>pulsar una.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Contesta<br><em>en minutos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timer",
+    "head": "Chat nuevo · anuncio",
+    "sub": "SIN RESPONDER",
+    "secs": 180,
+    "side": "Responde<br>mientras aún<br>tiene el móvil",
+    "badge": "✓ RESPONDIDO"
+   },
+   "note": "Si tardas horas, <b>ya no contesta.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Del anuncio<br><em>al chat.</em>",
+   "dur": 6,
+   "items": [
+    "Destino: WhatsApp",
+    "Bienvenida con preguntas",
+    "Respuesta en minutos"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Anuncios de WhatsApp en Meta Ads: cómo montar una campaña de clic a WhatsApp",
+  "text": "Anuncios de clic a WhatsApp: que el cliente te escriba directamente desde el anuncio 💬👇\n\nHay gente que no rellena un formulario pero sí manda un mensaje.\n\n→ Crea la campaña con objetivo interacción y elige WhatsApp como destino, con tu número de WhatsApp Business vinculado\n→ Escribe un mensaje de bienvenida con 2 o 3 preguntas frecuentes (“¿cuánto cuesta?”, “¿cuándo podéis venir?”) para que solo tenga que pulsar una\n→ Contesta en minutos. Si respondes a las tres horas, ese chat ya se ha enfriado\n\nPara nosotros este anuncio solo tiene sentido si alguien está pendiente del móvil. Si no puedes contestar rápido, mejor un formulario.\n\n¿Prefieres que tus clientes te llamen, te escriban o rellenen un formulario? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #metaads #anuncios #captaciondeclientes #negocioslocales #ceosgrowth"
+ },
+ "caption": "Anuncios de clic a WhatsApp: que el cliente te escriba directamente desde el anuncio 💬👇\n\nHay gente que no rellena un formulario pero sí manda un mensaje.\n\n→ Crea la campaña con objetivo interacción y elige WhatsApp como destino, con tu número de WhatsApp Business vinculado\n→ Escribe un mensaje de bienvenida con 2 o 3 preguntas frecuentes (“¿cuánto cuesta?”, “¿cuándo podéis venir?”) para que solo tenga que pulsar una\n→ Contesta en minutos. Si respondes a las tres horas, ese chat ya se ha enfriado\n\nPara nosotros este anuncio solo tiene sentido si alguien está pendiente del móvil. Si no puedes contestar rápido, mejor un formulario.\n\n¿Prefieres que tus clientes te llamen, te escriban o rellenen un formulario? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #metaads #anuncios #captaciondeclientes #negocioslocales #ceosgrowth"
+}

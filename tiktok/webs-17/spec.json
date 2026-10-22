@@ -1,0 +1,69 @@
+{
+ "topic": "La cuenta de pagar cuota por la web de una peluquería o barbería: 30 € al mes son 1.800 € en 5 años y la web no es tuya; con Web al Vuelo pagas 79 € una vez, sin cuotas, con botón de cita, WhatsApp, mapa, reseñas y horario",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "1.800 €<br><em>por tu web.</em>",
+   "size": 140,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "AÑO 1", "t": "360 €", "s": "30 € x 12 meses"},
+     {"n": "3", "d": "AÑO 3", "t": "1.080 €", "s": "Y sigues pagando"},
+     {"n": "5", "d": "AÑO 5", "t": "1.800 €", "s": "Y la web no es tuya"}
+    ]
+   },
+   "footer": "Lo que suma una cuota de 30 € al mes"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "30 € al mes<br><em>suman.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Lo que pagas en 5 años",
+    "items": [
+     {"label": "Cuota de 30 €/mes · 1.800 €", "value": 100},
+     {"label": "Web al Vuelo · 79 €", "value": 5, "hi": true}
+    ]
+   },
+   "note": "Es <b>aritmética</b>, nada más."
+  },
+  {
+   "label": "LA PREGUNTA",
+   "title": "¿De quién<br><em>es tu web?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CON CUOTA",
+    "bad": ["Dejas de pagar", "Te quedas sin web"],
+    "good_t": "PAGO ÚNICO",
+    "good": ["Pagas 79 € una vez", "La web es tuya"]
+   },
+   "note": "Pregúntalo <b>antes de firmar.</b>"
+  },
+  {
+   "label": "LO QUE LLEVA",
+   "title": "Lo que pide<br><em>tu cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de pedir cita", "WhatsApp", "Mapa y horario", "Reseñas"]
+   },
+   "note": "Primer diseño <b>en 2 días.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>Sin cuotas.</em>",
+   "dur": 6,
+   "items": ["La web es tuya", "Cita, WhatsApp y mapa", "Si no convence, se rehace"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para peluquerías y barberías 👇\n30 € al mes no parece nada. En 5 años son 1.800 €, y si dejas de pagar te quedas sin web.\nTu web por 79 €, una vez, sin cuotas y es tuya. Botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Has sumado alguna vez lo que llevas pagado?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#peluqueria #barberia #peluqueros #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para peluquerías: lo que suman 30 € al mes en 5 años",
+  "text": "Página web para peluquerías y barberías 👇\n30 € al mes no parece nada. En 5 años son 1.800 €, y si dejas de pagar te quedas sin web.\nTu web por 79 €, una vez, sin cuotas y es tuya. Botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Has sumado alguna vez lo que llevas pagado?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#peluqueria #barberia #peluqueros #autonomos #paginaweb #webalvuelo"
+ }
+}

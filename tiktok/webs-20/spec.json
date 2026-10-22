@@ -1,0 +1,66 @@
+{
+ "topic": "3 mitos de los talleres mecánicos sobre tener web: mis clientes ya me conocen, una web es para talleres grandes y no tengo tiempo para eso. Web al Vuelo: 79 € pago único, 5 preguntas, primer diseño en 2 días, con llamar, WhatsApp, mapa, reseñas y horario",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "«Mi taller<br><em>no necesita web»</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE OYE EN EL TALLER",
+    "lines": ["Ya me conocen", "Eso es para los grandes", "No tengo tiempo"]
+   },
+   "footer": "3 mitos sobre la web de un taller"
+  },
+  {
+   "label": "MITO 1",
+   "title": "Ya me<br><em>conocen.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "VECINO NUEVO", "t": "No te conoce", "s": "Se acaba de mudar"},
+     {"n": "2", "d": "SE LE AVERÍA", "t": "Busca en el móvil", "s": "Taller cerca de mí"},
+     {"n": "3", "d": "ELIGE", "t": "Al que ve", "s": "Con horario y reseñas"}
+    ]
+   },
+   "note": "Los de siempre te conocen; <b>los nuevos, no.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "Es para<br><em>los grandes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE CREES",
+    "bad": ["Miles de euros", "Cuota cada mes"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "Sin cuotas, es tuya"]
+   },
+   "note": "Un taller de barrio <b>también se busca.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "No tengo<br><em>tiempo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Contestas 5 preguntas", "Primer diseño en 2 días", "Si no convence, se rehace"]
+   },
+   "note": "Menos que <b>un cambio de aceite.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Llamar y WhatsApp", "Mapa, horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para talleres mecánicos 👇\nLos clientes de siempre ya te conocen. El vecino que se acaba de mudar, no: cuando se le averíe el coche buscará taller en el móvil y elegirá al que vea con horario y reseñas.\nContestas 5 preguntas y el primer diseño llega en 2 días. Botón de llamar, WhatsApp, mapa y reseñas. 79 €, una vez, sin cuotas.\n¿Cuál de los tres mitos has dicho tú?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#tallermecanico #taller #mecanico #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para talleres mecánicos: 3 mitos que te cuestan clientes",
+  "text": "Página web para talleres mecánicos 👇\nLos clientes de siempre ya te conocen. El vecino que se acaba de mudar, no: cuando se le averíe el coche buscará taller en el móvil y elegirá al que vea con horario y reseñas.\nContestas 5 preguntas y el primer diseño llega en 2 días. Botón de llamar, WhatsApp, mapa y reseñas. 79 €, una vez, sin cuotas.\n¿Cuál de los tres mitos has dicho tú?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#tallermecanico #taller #mecanico #autonomos #paginaweb #webalvuelo"
+ }
+}

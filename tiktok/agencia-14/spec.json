@@ -1,0 +1,95 @@
+{
+ "topic": "Los primeros 20 segundos al llamar a un lead de un anuncio: di quién eres y recuérdale el anuncio y lo que pidió (muchos no se acuerdan), pregunta si es buen momento para hablar 2 minutos, y abre con una pregunta sobre lo que quiere resolver",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te responden<br><em>“¿quién eres?”</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "timer",
+    "head": "Llamada a lead · Meta",
+    "sub": "EN CURSO",
+    "secs": 20,
+    "side": "En 20 segundos<br>sigue o<br>te cuelga",
+    "badge": "✓ SIGUE EN LÍNEA"
+   },
+   "footer": "3 frases para los primeros 20 segundos"
+  },
+  {
+   "label": "SEG 0–5",
+   "title": "Recuérdale<br><em>el anuncio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "FRASE 1",
+    "lines": [
+     "Te llamo de Reformas Sur.",
+     "Ayer pediste información",
+     "en el anuncio del baño."
+    ]
+   },
+   "note": "Muchos <b>no se acuerdan</b> de rellenarlo."
+  },
+  {
+   "label": "SEG 5–10",
+   "title": "Pide<br><em>2 minutos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLTAR TODO",
+    "bad": [
+     "Hablas sin parar",
+     "Te corta y cuelga"
+    ],
+    "good_t": "PEDIR PERMISO",
+    "good": [
+     "“¿Tienes 2 minutos?”",
+     "Si no, día y hora"
+    ]
+   },
+   "note": "Si no puede, <b>cierra hora para llamar.</b>"
+  },
+  {
+   "label": "SEG 10–20",
+   "title": "Pregunta<br><em>qué quiere.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lucía",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "¿Qué te gustaría",
+       "cambiar del baño?"
+      ],
+      "time": "10:31"
+     },
+     {
+      "from": "in",
+      "text": "La bañera, quiero ducha",
+      "time": "10:31"
+     }
+    ]
+   },
+   "note": "Que <b>hable él</b> desde el principio."
+  },
+  {
+   "kind": "cta",
+   "title": "20 segundos<br><em>que lo deciden.</em>",
+   "dur": 6,
+   "items": [
+    "Quién eres y qué pidió",
+    "¿Tienes 2 minutos?",
+    "Pregunta qué quiere"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Llamar a un lead de Meta Ads: qué decir en los primeros 20 segundos",
+  "text": "Llamar a un lead del anuncio: si te contesta “¿quién eres?”, los primeros segundos fallaron 📞👇\n\nQuien rellena un formulario de Meta lo hace en dos toques y a veces ni se acuerda. Si arrancas vendiendo, cuelga.\n\n→ Di quién eres y recuérdale el anuncio y lo que pidió: “Te llamo de [negocio], me pediste información ayer en el anuncio de [servicio]”\n→ Pregunta si tiene 2 minutos. Si no puede, deja cerrado día y hora para volver a llamar\n→ Abre con una pregunta sobre lo que quiere resolver y deja que hable él\n\nPara nosotros la llamada se gana o se pierde antes de hablar de precio, en esos 20 segundos.\n\n¿Con qué frase empiezas tú las llamadas a leads? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #llamadasdeventa #leads #metaads #pymes #ceosgrowth"
+ },
+ "caption": "Llamar a un lead del anuncio: si te contesta “¿quién eres?”, los primeros segundos fallaron 📞👇\n\nQuien rellena un formulario de Meta lo hace en dos toques y a veces ni se acuerda. Si arrancas vendiendo, cuelga.\n\n→ Di quién eres y recuérdale el anuncio y lo que pidió: “Te llamo de [negocio], me pediste información ayer en el anuncio de [servicio]”\n→ Pregunta si tiene 2 minutos. Si no puede, deja cerrado día y hora para volver a llamar\n→ Abre con una pregunta sobre lo que quiere resolver y deja que hable él\n\nPara nosotros la llamada se gana o se pierde antes de hablar de precio, en esos 20 segundos.\n\n¿Con qué frase empiezas tú las llamadas a leads? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #llamadasdeventa #leads #metaads #pymes #ceosgrowth"
+}

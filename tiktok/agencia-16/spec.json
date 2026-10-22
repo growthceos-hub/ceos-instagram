@@ -1,0 +1,109 @@
+{
+ "topic": "Videollamada de venta que da confianza: prepara la cámara a la altura de los ojos con luz de frente y sin ruido, ten abierto un ejemplo real para compartir pantalla (un trabajo parecido al suyo con su precio) y cierra en la misma llamada el siguiente paso con fecha",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus videollamadas<br><em>se ven desde abajo?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "VIDEOLLAMADA IMPROVISADA",
+    "bad": [
+     "Cámara en la papada",
+     "Ventana a tu espalda"
+    ],
+    "good_t": "VIDEOLLAMADA PREPARADA",
+    "good": [
+     "Cámara a los ojos",
+     "Luz de frente"
+    ]
+   },
+   "footer": "3 pasos para que vender por vídeo funcione"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Prepara<br><em>la cámara.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Cámara a la altura de ojos",
+     "Ventana delante, no detrás",
+     "Auriculares con micro"
+    ]
+   },
+   "note": "Libros debajo del portátil <b>sirven.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Enseña<br><em>un caso real.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ANTES",
+      "t": "Cómo estaba",
+      "s": "Un caso como el suyo"
+     },
+     {
+      "n": "2",
+      "d": "TRABAJO",
+      "t": "Qué se hizo",
+      "s": "Fotos o pantallas"
+     },
+     {
+      "n": "3",
+      "d": "PRECIO",
+      "t": "Cuánto costó",
+      "s": "Para que se haga idea"
+     }
+    ]
+   },
+   "note": "Tenlo <b>abierto antes de empezar.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cierra el paso<br><em>con fecha.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Antes de colgar",
+    "fields": [
+     {
+      "q": "Siguiente paso",
+      "a": "Visita técnica"
+     },
+     {
+      "q": "Día",
+      "a": "Martes 24"
+     },
+     {
+      "q": "Hora",
+      "a": "10:00"
+     }
+    ],
+    "badge": "✓ EN EL CALENDARIO"
+   },
+   "note": "Mándale la invitación <b>sin colgar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Vende<br><em>por vídeo.</em>",
+   "dur": 6,
+   "items": [
+    "Cámara y luz de frente",
+    "Un caso real preparado",
+    "Siguiente paso con fecha"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Videollamada de venta: 3 pasos para dar confianza y cerrar el siguiente paso",
+  "text": "Videollamada de venta: si se te ve desde abajo y a contraluz, el cliente se fija en eso y no en lo que dices 💻👇\n\nCada vez más ventas se hacen por Meet, Zoom o WhatsApp. Diez minutos de preparación cambian cómo te ve el cliente.\n\n→ Cámara a la altura de los ojos (unos libros debajo del portátil sirven), la ventana delante de ti y auriculares con micro\n→ Ten abierto un caso real parecido al suyo: cómo estaba, qué hicisteis y cuánto costó, para compartir pantalla\n→ Antes de colgar, cierra el siguiente paso con día y hora y mándale la invitación en la misma llamada\n\nPara nosotros enseñar un trabajo real en pantalla vale más que cualquier explicación de cómo trabajas.\n\n¿Vendes más en persona, por teléfono o por videollamada? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #videollamada #teletrabajo #clientes #pymes #ceosgrowth"
+ },
+ "caption": "Videollamada de venta: si se te ve desde abajo y a contraluz, el cliente se fija en eso y no en lo que dices 💻👇\n\nCada vez más ventas se hacen por Meet, Zoom o WhatsApp. Diez minutos de preparación cambian cómo te ve el cliente.\n\n→ Cámara a la altura de los ojos (unos libros debajo del portátil sirven), la ventana delante de ti y auriculares con micro\n→ Ten abierto un caso real parecido al suyo: cómo estaba, qué hicisteis y cuánto costó, para compartir pantalla\n→ Antes de colgar, cierra el siguiente paso con día y hora y mándale la invitación en la misma llamada\n\nPara nosotros enseñar un trabajo real en pantalla vale más que cualquier explicación de cómo trabajas.\n\n¿Vendes más en persona, por teléfono o por videollamada? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #videollamada #teletrabajo #clientes #pymes #ceosgrowth"
+}

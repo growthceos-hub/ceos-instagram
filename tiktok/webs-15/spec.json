@@ -1,0 +1,69 @@
+{
+ "topic": "Paso a paso de Web al Vuelo para una autoescuela: contestas 5 preguntas (permisos, horario de teórica, zona), en 2 días llega el primer diseño con permisos, horario, mapa, reseñas y botón de WhatsApp o llamar, y lo revisas: si no te convence se rehace gratis. 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu autoescuela<br><em>sin web?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Alumno",
+    "msgs": [
+     {"from": "in", "text": "¿Cuánto cuesta el B?", "time": "17:45"},
+     {"from": "in", "text": "¿A qué hora es la teórica?", "time": "17:46"}
+    ]
+   },
+   "footer": "Así se hace la web de tu autoescuela en 3 pasos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Contestas<br><em>5 preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu autoescuela",
+    "fields": [
+     {"q": "Pregunta 1 de 5", "a": "Permisos B, A2 y C"},
+     {"q": "Pregunta 2 de 5", "a": "Teórica de tarde"},
+     {"q": "Pregunta 3 de 5", "a": "WhatsApp y llamada"}
+    ],
+    "badge": "LISTO"
+   },
+   "note": "Lo que ya sabes <b>de memoria.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "En 2 días,<br><em>el diseño.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Permisos que das", "Horario de teórica", "Mapa y reseñas", "Botón de WhatsApp"]
+   },
+   "note": "Lo que te preguntan <b>a diario, ya contestado.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Lo revisas<br><em>con calma.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CUANDO LO VES",
+    "lines": ["¿No te convence?", "Se rehace gratis", "¿Te gusta? 79 €, una vez"]
+   },
+   "note": "Y la web <b>es tuya.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Contestas 5 preguntas", "Primer diseño en 2 días", "Si no convence, se rehace"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para autoescuelas 👇\n\"¿Cuánto cuesta el B?\" \"¿A qué hora es la teórica?\" Si lo contestas por mensaje cada día, lo puede contestar tu web.\nContestas 5 preguntas, en 2 días tienes el primer diseño con permisos, horario, mapa, reseñas y botón de WhatsApp, y si no te convence se rehace gratis. 79 €, una vez.\n¿Qué es lo que más te preguntan?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#autoescuela #carnetdeconducir #permisob #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para autoescuelas: cómo tenerla en 3 pasos por 79 €",
+  "text": "Página web para autoescuelas 👇\n\"¿Cuánto cuesta el B?\" \"¿A qué hora es la teórica?\" Si lo contestas por mensaje cada día, lo puede contestar tu web.\nContestas 5 preguntas, en 2 días tienes el primer diseño con permisos, horario, mapa, reseñas y botón de WhatsApp, y si no te convence se rehace gratis. 79 €, una vez.\n¿Qué es lo que más te preguntan?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#autoescuela #carnetdeconducir #permisob #autonomos #paginaweb #webalvuelo"
+ }
+}

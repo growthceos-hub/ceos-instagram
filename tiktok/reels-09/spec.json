@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores al grabar reels en una tienda de barrio: grabar la tienda de lejos en vez del producto en la mano, no enseñar lo que acaba de llegar y no decir dónde está la tienda. Reels al Vuelo: grabas con el móvil y te devolvemos el reel editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu tienda<br><em>sale en vídeo?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["La tienda de lejos", "Sin decir dónde estás"],
+    "good_t": "ASÍ SÍ",
+    "good": ["El producto en la mano", "La calle al final"]
+   },
+   "footer": "3 errores al grabar reels en tu tienda"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Grabar<br><em>de lejos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["El producto en la mano", "Cerca y con luz", "Que se vea el detalle"]
+   },
+   "note": "Se compra <b>lo que se ve de cerca.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "No enseñar<br><em>lo nuevo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "IDEAS QUE YA TIENES",
+    "lines": ["Abriendo la caja de hoy", "Lo que más te piden", "Lo que queda poco"]
+   },
+   "note": "Lo que llega <b>es una excusa para grabar.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "No decir<br><em>dónde estás.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "INICIO", "t": "El producto", "s": "En la mano"},
+     {"n": "2", "d": "MEDIO", "t": "Por qué mola", "s": "En una frase"},
+     {"n": "3", "d": "FINAL", "t": "La calle", "s": "La puerta de tu tienda"}
+    ]
+   },
+   "note": "Al final, <b>la puerta y la calle.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú grabas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Subtítulos, música y logo", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para tiendas de barrio 👇\nGrabar la tienda de lejos no vende nada. El producto en la mano, lo que acaba de llegar y, al final, la puerta y la calle para que sepan dónde estás.\nTú grabas con el móvil y en 24 h te lo devolvemos editado con subtítulos, ritmo, música libre y tu logo. Sin cuotas y el vídeo es tuyo.\n¿Qué te ha llegado esta semana que merece un vídeo?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#comerciolocal #tiendadebarrio #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para tiendas de barrio: 3 errores al grabar tu tienda",
+  "text": "Edición de reels para tiendas de barrio 👇\nGrabar la tienda de lejos no vende nada. El producto en la mano, lo que acaba de llegar y, al final, la puerta y la calle para que sepan dónde estás.\nTú grabas con el móvil y en 24 h te lo devolvemos editado con subtítulos, ritmo, música libre y tu logo. Sin cuotas y el vídeo es tuyo.\n¿Qué te ha llegado esta semana que merece un vídeo?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#comerciolocal #tiendadebarrio #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

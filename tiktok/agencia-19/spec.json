@@ -1,0 +1,96 @@
+{
+ "topic": "Listas de difusión de WhatsApp Business en vez de grupos: el mensaje llega a cada cliente en privado (solo si te tiene guardado en sus contactos), haz listas separadas por etiqueta (clientes, presupuestos pendientes, leads fríos) y manda poco y útil, con una sola pregunta al final",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus clientes,<br><em>en un grupo?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "GRUPO DE WHATSAPP",
+    "bad": [
+     "Todos ven a todos",
+     "Lo silencian"
+    ],
+    "good_t": "LISTA DE DIFUSIÓN",
+    "good": [
+     "Le llega en privado",
+     "Te responde a ti"
+    ]
+   },
+   "footer": "3 pasos para usar bien las listas de difusión"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pídele que<br><em>te guarde.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Sonia",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Guárdanos en contactos",
+       "y te avisamos de",
+       "huecos libres"
+      ],
+      "time": "16:20"
+     },
+     {
+      "from": "in",
+      "text": "Hecho, guardado",
+      "time": "16:25"
+     }
+    ]
+   },
+   "note": "Si no te tiene guardado, <b>no le llega.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Una lista<br><em>por etiqueta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Clientes actuales",
+     "Presupuesto pendiente",
+     "Leads que no compraron"
+    ]
+   },
+   "note": "A cada uno, <b>su mensaje.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Poco<br><em>y útil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE DE DIFUSIÓN",
+    "lines": [
+     "Hola, Sonia:",
+     "esta semana quedan 2 huecos",
+     "¿Te reservo uno?"
+    ]
+   },
+   "note": "Acaba con <b>una sola pregunta.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Difusión,<br><em>no grupos.</em>",
+   "dur": 6,
+   "items": [
+    "Que te guarden el número",
+    "Listas por etiqueta",
+    "Mensaje corto y útil"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Listas de difusión de WhatsApp Business: cómo usarlas con tus clientes",
+  "text": "Listas de difusión de WhatsApp Business: deja de meter a tus clientes en grupos 📲👇\n\nEn un grupo todos ven los números de todos, el chat se llena y acaban silenciándolo. Con una lista de difusión le llega a cada uno en privado y te responde solo a ti.\n\n→ Pide a tus clientes que te guarden en sus contactos. Si no te tienen guardado, el mensaje de difusión no les llega\n→ Haz una lista por etiqueta: clientes actuales, presupuestos pendientes, leads que no compraron\n→ Manda poco y útil, con una sola pregunta al final (“¿te reservo uno?”)\n\nPara nosotros una lista de difusión es para avisar de algo que le sirve al cliente. Si la usas para mandar publicidad cada día, te bloquean.\n\n¿Usas listas de difusión o grupos con tus clientes? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #whatsapp #clientes #negocioslocales #pymes #ceosgrowth"
+ },
+ "caption": "Listas de difusión de WhatsApp Business: deja de meter a tus clientes en grupos 📲👇\n\nEn un grupo todos ven los números de todos, el chat se llena y acaban silenciándolo. Con una lista de difusión le llega a cada uno en privado y te responde solo a ti.\n\n→ Pide a tus clientes que te guarden en sus contactos. Si no te tienen guardado, el mensaje de difusión no les llega\n→ Haz una lista por etiqueta: clientes actuales, presupuestos pendientes, leads que no compraron\n→ Manda poco y útil, con una sola pregunta al final (“¿te reservo uno?”)\n\nPara nosotros una lista de difusión es para avisar de algo que le sirve al cliente. Si la usas para mandar publicidad cada día, te bloquean.\n\n¿Usas listas de difusión o grupos con tus clientes? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #whatsapp #clientes #negocioslocales #pymes #ceosgrowth"
+}

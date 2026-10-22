@@ -1,0 +1,104 @@
+{
+ "topic": "Dejar de descargar el Excel de leads de Meta: conecta el formulario de Meta con tu CRM (integración del propio CRM o con Make o Zapier), haz que cada lead llegue con nombre, teléfono, respuestas y anuncio de origen, y que salte un aviso al móvil de quien llama",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Bajas los leads<br><em>en un Excel?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LUNES 9:00",
+      "t": "Entra un lead",
+      "s": "Nadie se entera"
+     },
+     {
+      "n": "2",
+      "d": "VIERNES",
+      "t": "Bajas el Excel",
+      "s": "Lo copias a mano"
+     },
+     {
+      "n": "3",
+      "d": "VIERNES 18:00",
+      "t": "Le llamas",
+      "s": "Ya no se acuerda"
+     }
+    ]
+   },
+   "footer": "3 pasos para que lleguen solos al CRM"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Conecta Meta<br><em>con tu CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Integración de tu CRM",
+     "O con Make o Zapier",
+     "Prueba con un lead tuyo"
+    ]
+   },
+   "note": "Muchos CRM <b>ya la traen hecha.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Que llegue<br><em>con todo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {
+      "q": "Nombre y teléfono",
+      "a": "Lucía · 600 000 000"
+     },
+     {
+      "q": "Respuestas",
+      "a": "Baño completo"
+     },
+     {
+      "q": "Anuncio",
+      "a": "Vídeo antes/después"
+     }
+    ],
+    "badge": "✓ ENTRA SOLO"
+   },
+   "note": "También <b>de qué anuncio viene.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Aviso<br><em>al móvil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timer",
+    "head": "Nuevo lead · Meta",
+    "sub": "AVISO AL COMERCIAL",
+    "secs": 95,
+    "side": "Le llamas<br>mientras aún<br>está con el móvil",
+    "badge": "✓ LLAMADO"
+   },
+   "note": "A quien llama, <b>al momento.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ni un lead<br><em>a mano.</em>",
+   "dur": 6,
+   "items": [
+    "Meta conectado al CRM",
+    "Ficha completa",
+    "Aviso al momento"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Leads de Meta al CRM automáticamente: deja de descargar el Excel",
+  "text": "Leads de Meta en Excel: si los descargas una vez a la semana, llamas tarde a todos 📥👇\n\nEl formulario de Meta guarda los leads y no avisa a nadie. Si alguien tiene que acordarse de bajarlos, se enfrían esperando.\n\n→ Conecta el formulario de Meta con tu CRM. Muchos CRM traen la integración hecha; si no, se hace con Make o Zapier\n→ Que cada lead llegue con nombre, teléfono, las respuestas del formulario y el anuncio del que viene\n→ Que salte un aviso al móvil de quien llama en cuanto entra el lead\n\nAntes de encender la campaña, mándate un lead de prueba y comprueba que llega entero. Para nosotros un lead que se copia a mano es un lead que se llama tarde.\n\n¿Cómo te llegan hoy los leads de tus anuncios? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#crm #metaads #automatizacion #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Leads de Meta en Excel: si los descargas una vez a la semana, llamas tarde a todos 📥👇\n\nEl formulario de Meta guarda los leads y no avisa a nadie. Si alguien tiene que acordarse de bajarlos, se enfrían esperando.\n\n→ Conecta el formulario de Meta con tu CRM. Muchos CRM traen la integración hecha; si no, se hace con Make o Zapier\n→ Que cada lead llegue con nombre, teléfono, las respuestas del formulario y el anuncio del que viene\n→ Que salte un aviso al móvil de quien llama en cuanto entra el lead\n\nAntes de encender la campaña, mándate un lead de prueba y comprueba que llega entero. Para nosotros un lead que se copia a mano es un lead que se llama tarde.\n\n¿Cómo te llegan hoy los leads de tus anuncios? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#crm #metaads #automatizacion #captaciondeclientes #pymes #ceosgrowth"
+}

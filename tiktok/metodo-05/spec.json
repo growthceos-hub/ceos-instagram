@@ -1,0 +1,68 @@
+{
+ "topic": "Estudio propio de Ceos Growth: por qué grabamos los anuncios en estudio y no a salto de mata; se graba con un plan, salen 15–20 anuncios y van directos a Meta Ads",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus anuncios<br><em>se ven caseros?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "GRABAR A RATOS",
+    "bad": ["Cada vez en un sitio", "Sin plan ni luz"],
+    "good_t": "ESTUDIO PROPIO",
+    "good": ["15–20 anuncios", "Listos para Meta Ads"]
+   },
+   "footer": "Cómo grabamos en estudio propio"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Primero,<br><em>el plan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE GRABAR",
+    "lines": ["Qué quieres vender", "A quién va dirigido", "Qué ganchos probar"]
+   },
+   "note": "Se graba <b>sabiendo para qué.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Grabamos<br><em>15–20 anuncios.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["En estudio propio", "Luz y sonido cuidados", "Varios ganchos por idea"]
+   },
+   "note": "Material <b>para testear de verdad.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Y van<br><em>a Meta Ads.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Grabado en nuestro estudio.",
+    "media": "TU ANUNCIO",
+    "headline": "Pide información",
+    "cta": "Más información",
+    "tags": ["ESTUDIO PROPIO", "LISTO PARA META"]
+   },
+   "note": "Dentro de la <b>implantación de 26 días.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu marca,<br><em>bien grabada.</em>",
+   "dur": 6,
+   "items": ["Se graba con un plan", "15–20 anuncios en estudio", "Listos para Meta Ads"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Grabar anuncios en estudio propio: cómo lo hacemos en Ceos Growth",
+  "text": "Grabar anuncios en estudio: por qué no lo dejamos al móvil y a las prisas 🎬👇\nSi cada anuncio se graba en un sitio distinto y sin plan, se nota. En Ceos Growth los grabamos en nuestro estudio.\n→ Primero el plan: qué vendes, a quién y qué ganchos probar\n→ Grabamos entre 15 y 20 anuncios en estudio propio\n→ Van directos a tus campañas de Meta Ads, dentro de los 26 días de implantación\n¿Dónde grabas tú tus anuncios ahora?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #anunciosenvideo #metaads #estudiodegrabacion #agenciademarketing #pymes"
+ },
+ "caption": "Grabar anuncios en estudio: por qué no lo dejamos al móvil y a las prisas 🎬👇\nSi cada anuncio se graba en un sitio distinto y sin plan, se nota. En Ceos Growth los grabamos en nuestro estudio.\n→ Primero el plan: qué vendes, a quién y qué ganchos probar\n→ Grabamos entre 15 y 20 anuncios en estudio propio\n→ Van directos a tus campañas de Meta Ads, dentro de los 26 días de implantación\n¿Dónde grabas tú tus anuncios ahora?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #anunciosenvideo #metaads #estudiodegrabacion #agenciademarketing #pymes"
+}

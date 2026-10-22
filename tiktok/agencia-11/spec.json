@@ -1,0 +1,109 @@
+{
+ "topic": "Público similar en Meta a partir de tus clientes: exporta del CRM la lista de quienes ya te compraron (nombre, teléfono, email), súbela como público personalizado con lista de clientes y crea un público similar del 1 % en tu país para usarlo en un conjunto de anuncios",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Meta busca gente<br><em>como tus clientes?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "TUS CLIENTES",
+      "t": "Lista del CRM",
+      "s": "Los que ya pagaron"
+     },
+     {
+      "n": "2",
+      "d": "META",
+      "t": "Busca parecidos",
+      "s": "Público similar"
+     },
+     {
+      "n": "3",
+      "d": "ANUNCIO",
+      "t": "Llega a gente nueva",
+      "s": "Que se les parece"
+     }
+    ]
+   },
+   "footer": "3 pasos para crear un público similar"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Saca la lista<br><em>de clientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Exportar del CRM",
+    "fields": [
+     {
+      "q": "Quiénes",
+      "a": "Solo los que compraron"
+     },
+     {
+      "q": "Datos",
+      "a": "Teléfono y email"
+     },
+     {
+      "q": "Formato",
+      "a": "CSV"
+     }
+    ],
+    "badge": "✓ CSV PREPARADO"
+   },
+   "note": "Clientes, <b>no todos los leads.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Súbela<br><em>a Meta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Públicos > Crear",
+     "Público personalizado",
+     "Lista de clientes"
+    ]
+   },
+   "note": "Meta <b>cifra los datos</b> al subirlos."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Crea el similar<br><em>del 1 %.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIMILAR DEL 10 %",
+    "bad": [
+     "Más gente",
+     "Se parece menos"
+    ],
+    "good_t": "SIMILAR DEL 1 %",
+    "good": [
+     "Los más parecidos",
+     "Para empezar"
+    ]
+   },
+   "note": "Úsalo en <b>un conjunto aparte.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Busca más<br><em>como ellos.</em>",
+   "dur": 6,
+   "items": [
+    "Lista de quien compró",
+    "Público personalizado",
+    "Similar del 1 %"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Público similar en Meta Ads: cómo crearlo con la lista de tus clientes",
+  "text": "Público similar en Meta Ads: dile a Meta que busque gente parecida a tus clientes 🎯👇\n\nTu lista de clientes es lo mejor que tienes para enseñarle a Meta a quién buscar. Y casi siempre se queda sin usar.\n\n→ Exporta del CRM solo a los que ya te compraron, con teléfono y email, en CSV\n→ Súbela a Meta en Públicos > Crear público personalizado > Lista de clientes. Los datos se cifran al subirlos\n→ Crea un público similar del 1 % en España a partir de esa lista y pruébalo en un conjunto de anuncios aparte\n\nPara nosotros funciona mejor con clientes que con leads: si le das curiosos, te busca más curiosos. Y pide permiso a tus clientes para usar sus datos así.\n\n¿Tienes tu lista de clientes ordenada o repartida en papeles y WhatsApp? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #publicoobjetivo #facebookads #crm #pymes #ceosgrowth"
+ },
+ "caption": "Público similar en Meta Ads: dile a Meta que busque gente parecida a tus clientes 🎯👇\n\nTu lista de clientes es lo mejor que tienes para enseñarle a Meta a quién buscar. Y casi siempre se queda sin usar.\n\n→ Exporta del CRM solo a los que ya te compraron, con teléfono y email, en CSV\n→ Súbela a Meta en Públicos > Crear público personalizado > Lista de clientes. Los datos se cifran al subirlos\n→ Crea un público similar del 1 % en España a partir de esa lista y pruébalo en un conjunto de anuncios aparte\n\nPara nosotros funciona mejor con clientes que con leads: si le das curiosos, te busca más curiosos. Y pide permiso a tus clientes para usar sus datos así.\n\n¿Tienes tu lista de clientes ordenada o repartida en papeles y WhatsApp? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #publicoobjetivo #facebookads #crm #pymes #ceosgrowth"
+}
