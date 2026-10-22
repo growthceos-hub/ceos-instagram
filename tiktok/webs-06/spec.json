@@ -1,0 +1,75 @@
+{
+ "topic": "Las 3 dudas de una empresa de reformas antes de hacerse la web: ¿y si no me gusta? (se rehace gratis), ¿y si no sé qué poner? (contestas 5 preguntas) y ¿cuánto pago luego? (nada, 79 € una vez y la web es tuya)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y si la web<br><em>no me gusta?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Reformas",
+    "msgs": [
+     {"from": "out", "lines": ["¿Y si el diseño", "no me convence?"], "time": "20:03"},
+     {"from": "in", "text": "Se rehace gratis", "time": "20:05"}
+    ]
+   },
+   "footer": "3 dudas de las reformas antes de hacer la web"
+  },
+  {
+   "label": "DUDA 1",
+   "title": "No sé<br><em>qué poner.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Contestas 5 preguntas",
+    "fields": [
+     {"q": "Pregunta 1 de 5", "a": "Reformas integrales"},
+     {"q": "Pregunta 2 de 5", "a": "Baños y cocinas"},
+     {"q": "Pregunta 3 de 5", "a": "Toda la provincia"}
+    ],
+    "badge": "PRIMER DISEÑO EN 2 DÍAS"
+   },
+   "note": "Lo que contestas <b>es la base de la web.</b>"
+  },
+  {
+   "label": "DUDA 2",
+   "title": "¿Y si<br><em>no me convence?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "DÍA 2", "t": "Primer diseño", "s": "Lo miras con calma"},
+     {"n": "2", "d": "NO TE CONVENCE", "t": "Se rehace", "s": "Gratis"},
+     {"n": "3", "d": "TE GUSTA", "t": "Es tuya", "s": "Sin cuotas"}
+    ]
+   },
+   "note": "Si no te convence, <b>se rehace gratis.</b>"
+  },
+  {
+   "label": "DUDA 3",
+   "title": "¿Y luego<br><em>cuánto pago?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE TEMES",
+    "bad": ["Cuota cada mes", "Permanencia"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "La web es tuya"]
+   },
+   "note": "Pagas <b>una vez.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €.<br><em>Si no, se rehace.</em>",
+   "dur": 6,
+   "items": ["5 preguntas y listo", "Primer diseño en 2 días", "Llamar, WhatsApp y mapa"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para empresas de reformas 👇\n\"¿Y si no me gusta?\" Se rehace gratis. \"¿Y si no sé qué poner?\" Contestas 5 preguntas. \"¿Y luego cuánto pago?\" Nada más: 79 € una vez y la web es tuya.\nEl primer diseño llega en 2 días, con botón de llamar, WhatsApp, mapa y reseñas para que te pidan presupuesto.\n¿Qué otra duda te frena?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#reformas #reformasintegrales #construccion #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para empresas de reformas: ¿y si no me gusta?",
+  "text": "Página web para empresas de reformas 👇\n\"¿Y si no me gusta?\" Se rehace gratis. \"¿Y si no sé qué poner?\" Contestas 5 preguntas. \"¿Y luego cuánto pago?\" Nada más: 79 € una vez y la web es tuya.\nEl primer diseño llega en 2 días, con botón de llamar, WhatsApp, mapa y reseñas para que te pidan presupuesto.\n¿Qué otra duda te frena?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#reformas #reformasintegrales #construccion #autonomos #paginaweb #webalvuelo"
+ }
+}

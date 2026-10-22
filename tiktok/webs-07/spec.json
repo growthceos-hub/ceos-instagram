@@ -1,0 +1,106 @@
+{
+ "topic": "Paso a paso de Web al Vuelo para una inmobiliaria: contestas 5 preguntas, en 2 días te llega el primer diseño con botón de llamar, WhatsApp, cita, mapa de la oficina, reseñas y horario, y si no te convence se rehace gratis. 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Solo estás<br><em>en portales?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "HOY",
+      "t": "5 preguntas",
+      "s": "Lo que haces y dónde"
+     },
+     {
+      "n": "2",
+      "d": "DÍA 2",
+      "t": "Primer diseño",
+      "s": "Lo revisas"
+     },
+     {
+      "n": "3",
+      "d": "DESPUÉS",
+      "t": "Web tuya",
+      "s": "79 €, pago único"
+     }
+    ]
+   },
+   "footer": "Así tienes la web de tu inmobiliaria en 3 pasos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Contestas<br><em>5 preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu inmobiliaria",
+    "fields": [
+     {
+      "q": "Pregunta 1 de 5",
+      "a": "Venta y alquiler"
+     },
+     {
+      "q": "Pregunta 2 de 5",
+      "a": "Tu barrio y alrededores"
+     },
+     {
+      "q": "Pregunta 3 de 5",
+      "a": "Llamada y WhatsApp"
+     }
+    ],
+    "badge": "LISTO"
+   },
+   "note": "Lo que ya sabes <b>de tu agencia.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "En 2 días,<br><em>el diseño.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Botón de llamar",
+     "Pedir cita para visita",
+     "Mapa de la oficina",
+     "Reseñas y horario"
+    ]
+   },
+   "note": "El que vende su piso <b>quiere saber quién eres.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Te convence<br><em>o se rehace.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CUANDO VES EL DISEÑO",
+    "lines": [
+     "¿Te convence? Es tuya",
+     "¿No? Se rehace gratis",
+     "Pagas 79 €, una vez"
+    ]
+   },
+   "note": "<b>Sin cuotas</b> después."
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": [
+    "Contestas 5 preguntas",
+    "Primer diseño en 2 días",
+    "Si no te convence, se rehace"
+   ],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para inmobiliarias 👇\nEn los portales eres un anuncio más. El que quiere vender su piso busca tu nombre para saber quién eres, dónde está la oficina y qué opinan de ti.\nContestas 5 preguntas, en 2 días tienes el primer diseño y, si no te convence, se rehace gratis. Botón de llamar, WhatsApp, cita, mapa y reseñas. 79 €, una vez.\n¿Qué encuentra hoy quien busca tu agencia?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#inmobiliaria #agenteinmobiliario #inmobiliarias #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para inmobiliarias: cómo tenerla en 3 pasos por 79 €",
+  "text": "Página web para inmobiliarias 👇\nEn los portales eres un anuncio más. El que quiere vender su piso busca tu nombre para saber quién eres, dónde está la oficina y qué opinan de ti.\nContestas 5 preguntas, en 2 días tienes el primer diseño y, si no te convence, se rehace gratis. Botón de llamar, WhatsApp, cita, mapa y reseñas. 79 €, una vez.\n¿Qué encuentra hoy quien busca tu agencia?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#inmobiliaria #agenteinmobiliario #inmobiliarias #autonomos #paginaweb #webalvuelo"
+ }
+}

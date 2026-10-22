@@ -1,0 +1,66 @@
+{
+ "topic": "POV de un entrenador personal o gimnasio con la galería llena de vídeos de ejercicios sin editar: qué grabar para un reel (técnica, error común y corrección) y cómo Reels al Vuelo te lo devuelve editado en 24 h. Primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: tu galería<br><em>llena de vídeos.</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "VÍDEOS SIN SUBIR",
+    "lines": ["sentadilla_tecnica.mp4", "clase_martes.mp4", "peso_muerto_2.mp4"]
+   },
+   "footer": "Qué grabar y quién lo edita"
+  },
+  {
+   "label": "LO QUE GRABAS",
+   "title": "Un ejercicio,<br><em>tres tomas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "TOMA 1", "t": "El error", "s": "Cómo lo hace casi todo el mundo"},
+     {"n": "2", "d": "TOMA 2", "t": "La corrección", "s": "Qué cambiar y por qué"},
+     {"n": "3", "d": "TOMA 3", "t": "Bien hecho", "s": "De lado, para que se vea"}
+    ]
+   },
+   "note": "Cada toma, <b>pocos segundos.</b>"
+  },
+  {
+   "label": "LO QUE PASA",
+   "title": "Se queda<br><em>en el móvil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN TIEMPO",
+    "bad": ["Lo editas el domingo", "O no lo editas"],
+    "good_t": "CON REELS AL VUELO",
+    "good": ["Lo mandas al acabar", "Editado en 24 h"]
+   },
+   "note": "Tú <b>sigues entrenando.</b>"
+  },
+  {
+   "label": "LO QUE TE LLEGA",
+   "title": "Listo<br><em>para subir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Subtítulos", "Ritmo y música libre", "Tu logo", "Revisado por una persona"]
+   },
+   "note": "Y el vídeo <b>es tuyo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu primer reel<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Grabas con el móvil", "Editado en 24 h", "10 reels por 59 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para gimnasios y entrenadores personales 👇\nTienes la galería llena de sentadillas, clases y técnicas que nunca has subido. Graba un ejercicio en tres tomas: el error, la corrección y bien hecho.\nNos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Sin cuotas.\n¿Cuántos vídeos tienes ahora mismo sin subir?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#entrenadorpersonal #gimnasio #edicionvideo #reels #fitness #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para gimnasios y entrenadores: POV, galería llena",
+  "text": "Edición de reels para gimnasios y entrenadores personales 👇\nTienes la galería llena de sentadillas, clases y técnicas que nunca has subido. Graba un ejercicio en tres tomas: el error, la corrección y bien hecho.\nNos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Sin cuotas.\n¿Cuántos vídeos tienes ahora mismo sin subir?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#entrenadorpersonal #gimnasio #edicionvideo #reels #fitness #reelsalvuelo"
+ }
+}

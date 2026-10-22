@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores de una tienda de barrio en internet: que no se sepa si abre ahora, que no haya forma rápida de preguntar si tienes algo y que no se vean reseñas ni el mapa. Web al Vuelo: 79 € pago único, sin cuotas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Abres hoy?<br><em>Nadie lo sabe.</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCAN DE TU TIENDA",
+    "lines": ["¿Abre ahora?", "¿Tiene lo que necesito?", "¿Dónde está?"]
+   },
+   "footer": "3 errores de las tiendas de barrio"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Horario<br><em>que no se ve.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN HORARIO",
+    "bad": ["Va y está cerrado", "No vuelve"],
+    "good_t": "CON HORARIO",
+    "good": ["Sabe cuándo ir", "Va a tiro hecho"]
+   },
+   "note": "Un viaje en balde <b>no se olvida.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "No poder<br><em>preguntar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Vecina",
+    "msgs": [
+     {"from": "in", "text": "¿Te quedan pilas de botón?", "time": "11:02"},
+     {"from": "out", "lines": ["Sí, te las guardo", "hasta las 14 h"], "time": "11:05"}
+    ]
+   },
+   "note": "Un botón de WhatsApp <b>y te escribe antes de ir.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Sin mapa<br><em>ni reseñas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Mapa para llegar", "Reseñas de vecinos", "Botón de llamar"]
+   },
+   "note": "La tienda de toda la vida <b>también se busca.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Horario y mapa", "WhatsApp y llamar", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para tiendas de barrio 👇\nEl vecino que va a tu tienda y se la encuentra cerrada no siempre vuelve. Si ve tu horario y puede escribirte para preguntar si te queda algo, va a tiro hecho.\nTu web con horario, mapa, reseñas y botón de WhatsApp y llamar. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Qué es lo que más te preguntan por teléfono?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#comerciolocal #tiendadebarrio #comercio #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para tiendas de barrio: 3 errores que te cuestan clientes",
+  "text": "Página web para tiendas de barrio 👇\nEl vecino que va a tu tienda y se la encuentra cerrada no siempre vuelve. Si ve tu horario y puede escribirte para preguntar si te queda algo, va a tiro hecho.\nTu web con horario, mapa, reseñas y botón de WhatsApp y llamar. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Qué es lo que más te preguntan por teléfono?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#comerciolocal #tiendadebarrio #comercio #autonomos #paginaweb #webalvuelo"
+ }
+}

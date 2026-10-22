@@ -1,0 +1,99 @@
+{
+ "topic": "Grabar un anuncio hablando a cámara sin teleprompter y sin aprenderte el guion: divide el guion en frases cortas, graba frase a frase (léela, mira a la cámara y dila) y mira al objetivo de la cámara, no a tu cara en la pantalla",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te bloqueas<br><em>al darle a grabar?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "TOMA 14",
+    "lines": [
+     "“Hola, somos… eh…”",
+     "“Espera, otra vez”",
+     "“Hola, somos…”"
+    ]
+   },
+   "footer": "3 pasos para grabar sin teleprompter"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Parte el guion<br><em>en frases.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "¿Tu caldera hace ruido?",
+     "La revisamos en 24 h",
+     "Pide cita en el botón"
+    ]
+   },
+   "note": "Una idea <b>por frase.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Graba<br><em>frase a frase.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LEE",
+      "t": "Mira la frase",
+      "s": "Solo una"
+     },
+     {
+      "n": "2",
+      "d": "MIRA",
+      "t": "Levanta la vista",
+      "s": "A la cámara"
+     },
+     {
+      "n": "3",
+      "d": "DILA",
+      "t": "Dila con tus palabras",
+      "s": "Y corta"
+     }
+    ]
+   },
+   "note": "Luego <b>las unes al editar.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Mira<br><em>al objetivo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MIRAR LA PANTALLA",
+    "bad": [
+     "Parece que miras abajo",
+     "No conectas"
+    ],
+    "good_t": "MIRAR EL OBJETIVO",
+    "good": [
+     "Le hablas a él",
+     "Pega un punto al lado"
+    ]
+   },
+   "note": "Una pegatina junto a la cámara <b>ayuda.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Sin aprenderte<br><em>el guion.</em>",
+   "dur": 6,
+   "items": [
+    "Guion en frases cortas",
+    "Una frase por toma",
+    "Mirada al objetivo"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Grabar un anuncio hablando a cámara sin teleprompter ni aprenderte el guion",
+  "text": "Grabar anuncios hablando a cámara: no hace falta aprenderte el guion de memoria 🎥👇\n\nSi intentas decirlo todo de una vez, a la tercera frase te trabas y vuelves a empezar. Y a la toma 14 ya no te sale natural.\n\n→ Parte el guion en frases cortas, una idea por frase\n→ Graba frase a frase: la lees, levantas la vista a la cámara y la dices con tus palabras. Luego las unes al editar\n→ Mira al objetivo de la cámara, no a tu cara en la pantalla. Una pegatina pequeña al lado del objetivo ayuda\n\nPara nosotros un anuncio dicho con tus palabras, aunque no sea perfecto, conecta más que uno leído de memoria.\n\n¿Cuántas tomas necesitas para grabar un vídeo de un minuto? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#grabarvideos #anuncios #videomarketing #metaads #emprendedores #ceosgrowth"
+ },
+ "caption": "Grabar anuncios hablando a cámara: no hace falta aprenderte el guion de memoria 🎥👇\n\nSi intentas decirlo todo de una vez, a la tercera frase te trabas y vuelves a empezar. Y a la toma 14 ya no te sale natural.\n\n→ Parte el guion en frases cortas, una idea por frase\n→ Graba frase a frase: la lees, levantas la vista a la cámara y la dices con tus palabras. Luego las unes al editar\n→ Mira al objetivo de la cámara, no a tu cara en la pantalla. Una pegatina pequeña al lado del objetivo ayuda\n\nPara nosotros un anuncio dicho con tus palabras, aunque no sea perfecto, conecta más que uno leído de memoria.\n\n¿Cuántas tomas necesitas para grabar un vídeo de un minuto? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#grabarvideos #anuncios #videomarketing #metaads #emprendedores #ceosgrowth"
+}

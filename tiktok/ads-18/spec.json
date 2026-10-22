@@ -1,0 +1,67 @@
+{
+ "topic": "Cómo terminar un anuncio en vídeo para Meta Ads: 3 errores en el final. Acabar con «bueno, pues eso», dar tres opciones a la vez y cortar sin un clip de margen. Lo bueno: una sola llamada a la acción clara y un clip extra en silencio mirando a cámara",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br>acaba en<br><em>«pues eso»?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "FINALES QUE NO VENDEN",
+    "lines": ["«Bueno, pues eso»", "«Llama, escribe o ven»", "Corte seco a negro"]
+   },
+   "footer": "3 errores al terminar tu anuncio"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Acabar<br><em>sin pedir nada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["«Bueno, pues eso»", "«Nada, eso era»"],
+    "good_t": "ASÍ SÍ",
+    "good": ["«Pide tu cita»", "«Entra en el enlace»"]
+   },
+   "note": "Si no lo pides, <b>no lo hacen.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Tres opciones<br><em>a la vez.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Una sola acción, la misma del botón.",
+    "media": "PIDE TU CITA AQUÍ",
+    "headline": "Primera cita",
+    "cta": "Reservar",
+    "tags": ["1 ACCIÓN", "IGUAL AL BOTÓN"]
+   },
+   "note": "Que el final <b>diga lo mismo que el botón.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Sin clip<br><em>de margen.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Di la acción 3 veces", "Graba 3 s en silencio", "Mirando a cámara"]
+   },
+   "note": "En la edición <b>se elige la mejor toma.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Graba el final<br><em>y lo editamos.</em>",
+   "dur": 6,
+   "items": ["Guía de grabación gratis", "3 versiones con su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Cómo terminar un anuncio en vídeo para Meta Ads 🎬👇\nEl final es donde se pide la acción, y muchas veces se graba con prisas. Tres errores:\n→ Acabar con «bueno, pues eso» sin pedir nada\n→ Dar tres opciones a la vez: llama, escribe, ven. Mejor una y que coincida con el botón\n→ No grabar margen: di la acción tres veces y graba unos segundos en silencio mirando a cámara\nTienes la guía de grabación gratis en ads.ceosgrowth.com/guia-grabar-anuncios\n¿Cómo acaba tu último anuncio?\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #anunciosenvideo #llamadaalaaccion #publicidadonline #marketingdigital",
+ "tiktok": {
+  "title": "Anuncios en vídeo para Meta Ads: 3 errores al terminar tu anuncio",
+  "text": "Cómo terminar un anuncio en vídeo para Meta Ads 🎬👇\nEl final es donde se pide la acción, y muchas veces se graba con prisas. Tres errores:\n→ Acabar con «bueno, pues eso» sin pedir nada\n→ Dar tres opciones a la vez: llama, escribe, ven. Mejor una y que coincida con el botón\n→ No grabar margen: di la acción tres veces y graba unos segundos en silencio mirando a cámara\nTienes la guía de grabación gratis en ads.ceosgrowth.com/guia-grabar-anuncios\n¿Cómo acaba tu último anuncio?\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #anunciosenvideo #llamadaalaaccion #publicidadonline #marketingdigital"
+ }
+}

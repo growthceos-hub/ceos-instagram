@@ -1,0 +1,98 @@
+{
+ "topic": "Saber por qué un anuncio no trae leads mirando dónde se cae la gente: si casi nadie ve más de 3 segundos falla el gancho, si lo ven pero no hacen clic falla la oferta o el texto, y si hacen clic pero no rellenan falla el formulario o la web",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio no trae<br><em>leads? Mira dónde</em><br>se caen.",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "De 100 personas que lo ven",
+    "items": [
+     {
+      "label": "Ven 3 segundos",
+      "value": 70
+     },
+     {
+      "label": "Hacen clic",
+      "value": 18
+     },
+     {
+      "label": "Dejan sus datos",
+      "value": 3,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 sitios donde se pierde la gente"
+  },
+  {
+   "label": "CAÍDA 1",
+   "title": "No pasan de<br><em>3 segundos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "GANCHO FLOJO",
+    "bad": [
+     "Empieza con tu logo",
+     "Saludo y presentación"
+    ],
+    "good_t": "GANCHO QUE FRENA",
+    "good": [
+     "Su problema en la 1ª frase",
+     "Texto grande en pantalla"
+    ]
+   },
+   "note": "Falla <b>el gancho.</b> Cambia el inicio."
+  },
+  {
+   "label": "CAÍDA 2",
+   "title": "Lo ven, pero<br><em>no hacen clic.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Somos expertos con años de experiencia.",
+    "media": "¿Y QUÉ GANO YO?",
+    "headline": "Conócenos",
+    "cta": "Más información",
+    "tags": [
+     "SIN OFERTA",
+     "SIN MOTIVO"
+    ]
+   },
+   "note": "Falla <b>la oferta</b> o el texto."
+  },
+  {
+   "label": "CAÍDA 3",
+   "title": "Clic, pero<br><em>no rellenan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Quita campos que sobran",
+     "Prueba el formulario tú",
+     "Revisa la web en el móvil"
+    ]
+   },
+   "note": "Falla <b>el formulario</b> o la web."
+  },
+  {
+   "kind": "cta",
+   "title": "Arregla<br><em>donde se cae.</em>",
+   "dur": 6,
+   "items": [
+    "3 segundos: el gancho",
+    "Clics: la oferta",
+    "Datos: el formulario"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Anuncio de Meta sin leads: cómo saber si falla el gancho, la oferta o el formulario",
+  "text": "Anuncio de Meta que no trae leads: antes de apagarlo, mira dónde se cae la gente 🔎👇\n\nUn anuncio sin resultados no siempre es un mal anuncio. A veces falla una sola parte y basta con cambiar esa.\n\n→ Si casi nadie lo ve más de 3 segundos, falla el gancho. Cambia la primera frase y la primera imagen\n→ Si lo ven pero no hacen clic, falla la oferta o el texto. Dale un motivo claro para pedirte información\n→ Si hacen clic pero no dejan sus datos, falla el formulario o la web. Rellénalo tú desde el móvil y quita lo que sobre\n\nTodo esto sale en el Administrador de anuncios. Para nosotros apagar un anuncio sin mirar dónde falla es tirar también lo que sí funcionaba.\n\n¿En cuál de los tres se te cae más gente? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #anuncios #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Anuncio de Meta que no trae leads: antes de apagarlo, mira dónde se cae la gente 🔎👇\n\nUn anuncio sin resultados no siempre es un mal anuncio. A veces falla una sola parte y basta con cambiar esa.\n\n→ Si casi nadie lo ve más de 3 segundos, falla el gancho. Cambia la primera frase y la primera imagen\n→ Si lo ven pero no hacen clic, falla la oferta o el texto. Dale un motivo claro para pedirte información\n→ Si hacen clic pero no dejan sus datos, falla el formulario o la web. Rellénalo tú desde el móvil y quita lo que sobre\n\nTodo esto sale en el Administrador de anuncios. Para nosotros apagar un anuncio sin mirar dónde falla es tirar también lo que sí funcionaba.\n\n¿En cuál de los tres se te cae más gente? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #anuncios #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+}

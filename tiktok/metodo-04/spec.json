@@ -1,0 +1,71 @@
+{
+ "topic": "Por qué Ceos Growth trabaja con 10 perfiles y no con una persona para todo: grabación en estudio propio, campañas de Meta Ads y seguimiento de leads con CRM, cada parte en manos de quien sabe",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Quién lleva<br><em>tu marketing?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UNA PERSONA PARA TODO",
+    "bad": ["Graba y lanza anuncios", "Y además lleva el CRM"],
+    "good_t": "10 PERFILES",
+    "good": ["Cada uno en lo suyo", "Un solo sistema"]
+   },
+   "footer": "Cómo se reparten 10 perfiles"
+  },
+  {
+   "label": "ANUNCIOS",
+   "title": "Quien graba,<br><em>graba.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Grabación en estudio", "Entre 15 y 20 anuncios", "Edición para Meta Ads"]
+   },
+   "note": "Todo en <b>nuestro estudio.</b>"
+  },
+  {
+   "label": "CAMPAÑAS",
+   "title": "Quien lanza,<br><em>mide.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Anuncios en test",
+    "items": [
+     {"label": "Anuncio 1", "value": 61},
+     {"label": "Anuncio 2", "value": 82, "hi": true},
+     {"label": "Anuncio 3", "value": 44}
+    ]
+   },
+   "note": "<b>Meta Ads</b>, 12 meses sin permanencia."
+  },
+  {
+   "label": "SEGUIMIENTO",
+   "title": "Quien atiende,<br><em>tiene el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead",
+    "msgs": [
+     {"from": "out", "lines": ["Hola, hemos visto", "tu solicitud.", "¿Te llamo hoy?"], "time": "16:05"},
+     {"from": "in", "text": "Sí, a las 17:00 me va bien", "time": "16:12"}
+    ]
+   },
+   "note": "Cada lead, <b>en el CRM.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "10 perfiles,<br><em>un sistema.</em>",
+   "dur": 6,
+   "items": ["Anuncios de estudio propio", "Meta Ads sin permanencia", "Seguimiento con CRM"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Equipo de marketing con 10 perfiles: por qué no basta una persona para todo",
+  "text": "Equipo de marketing: ¿una persona para todo o 10 perfiles? 👥👇\nGrabar anuncios, lanzar campañas y llamar a los leads son tres trabajos distintos. En Ceos Growth los lleva un equipo de 10 perfiles.\n→ Quien graba, graba: anuncios en nuestro estudio propio\n→ Quien lanza, mide: Meta Ads durante 12 meses, sin permanencia\n→ Quien atiende, tiene el CRM: cada lead a la vista\n¿Quién lleva hoy el marketing en tu negocio?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #equipodemarketing #metaads #crm #captaciondeclientes #empresarios"
+ },
+ "caption": "Equipo de marketing: ¿una persona para todo o 10 perfiles? 👥👇\nGrabar anuncios, lanzar campañas y llamar a los leads son tres trabajos distintos. En Ceos Growth los lleva un equipo de 10 perfiles.\n→ Quien graba, graba: anuncios en nuestro estudio propio\n→ Quien lanza, mide: Meta Ads durante 12 meses, sin permanencia\n→ Quien atiende, tiene el CRM: cada lead a la vista\n¿Quién lleva hoy el marketing en tu negocio?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #equipodemarketing #metaads #crm #captaciondeclientes #empresarios"
+}

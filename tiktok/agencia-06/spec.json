@@ -1,0 +1,120 @@
+{
+ "topic": "Dejar las condiciones por escrito antes de empezar un trabajo: qué incluye y qué no (con lo que cuesta un extra), plazos y qué pasa si se retrasa algo por parte del cliente, y cómo y cuándo se paga; mándalo por WhatsApp o email y pide un «de acuerdo» por escrito",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿“Eso entraba<br><em>en el precio”?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Pensaba que pintar entraba",
+      "time": "19:40"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Eso no lo hablamos",
+       "en el presupuesto…"
+      ],
+      "time": "19:52"
+     }
+    ]
+   },
+   "footer": "3 cosas que dejar por escrito antes de empezar"
+  },
+  {
+   "label": "PUNTO 1",
+   "title": "Qué incluye<br><em>y qué no.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "“TODO INCLUIDO”",
+    "bad": [
+     "Cada uno entiende algo",
+     "Discusión al final"
+    ],
+    "good_t": "LISTA CERRADA",
+    "good": [
+     "Incluye: esto y esto",
+     "Extra: esto, a X €"
+    ]
+   },
+   "note": "Los extras, <b>con su precio.</b>"
+  },
+  {
+   "label": "PUNTO 2",
+   "title": "Plazos<br><em>y retrasos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "INICIO",
+      "t": "Día que empiezas",
+      "s": "Si te da lo necesario"
+     },
+     {
+      "n": "2",
+      "d": "ENTREGA",
+      "t": "Día que terminas",
+      "s": "Fecha concreta"
+     },
+     {
+      "n": "3",
+      "d": "RETRASO",
+      "t": "Si falta algo suyo",
+      "s": "La fecha se mueve"
+     }
+    ]
+   },
+   "note": "Qué pasa <b>si se retrasa él.</b>"
+  },
+  {
+   "label": "PUNTO 3",
+   "title": "Cómo<br><em>se paga.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Condiciones de pago",
+    "fields": [
+     {
+      "q": "Señal",
+      "a": "Al aceptar"
+     },
+     {
+      "q": "Resto",
+      "a": "Al entregar"
+     },
+     {
+      "q": "Forma de pago",
+      "a": "Transferencia"
+     }
+    ],
+    "badge": "✓ “DE ACUERDO”"
+   },
+   "note": "Y pide un <b>“de acuerdo” por escrito.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Por escrito,<br><em>sin sustos.</em>",
+   "dur": 6,
+   "items": [
+    "Qué incluye y qué no",
+    "Plazos y retrasos",
+    "Cómo y cuándo se paga"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Condiciones por escrito antes de empezar un trabajo: 3 cosas para evitar discusiones",
+  "text": "Condiciones por escrito: si al final te dicen “eso entraba en el precio”, falló el principio 📝👇\n\nCasi todas las discusiones con clientes vienen de algo que se habló de palabra y cada uno recuerda a su manera.\n\n→ Qué incluye y qué no. Y lo que no incluye, con su precio si lo quiere como extra\n→ Plazos: cuándo empiezas, cuándo terminas y qué pasa con la fecha si se retrasa algo que depende del cliente\n→ Cómo y cuándo se paga: señal al aceptar, resto al entregar y la forma de pago\n\nNo hace falta un contrato de diez páginas. Para nosotros un mensaje claro por WhatsApp o email con un “de acuerdo” del cliente ya evita la mayoría de líos.\n\n¿Te ha pasado alguna vez lo de “pensaba que eso entraba”? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#autonomos #clientes #ventas #pymes #emprendedores #ceosgrowth"
+ },
+ "caption": "Condiciones por escrito: si al final te dicen “eso entraba en el precio”, falló el principio 📝👇\n\nCasi todas las discusiones con clientes vienen de algo que se habló de palabra y cada uno recuerda a su manera.\n\n→ Qué incluye y qué no. Y lo que no incluye, con su precio si lo quiere como extra\n→ Plazos: cuándo empiezas, cuándo terminas y qué pasa con la fecha si se retrasa algo que depende del cliente\n→ Cómo y cuándo se paga: señal al aceptar, resto al entregar y la forma de pago\n\nNo hace falta un contrato de diez páginas. Para nosotros un mensaje claro por WhatsApp o email con un “de acuerdo” del cliente ya evita la mayoría de líos.\n\n¿Te ha pasado alguna vez lo de “pensaba que eso entraba”? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#autonomos #clientes #ventas #pymes #emprendedores #ceosgrowth"
+}

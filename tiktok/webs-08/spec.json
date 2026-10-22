@@ -1,0 +1,72 @@
+{
+ "topic": "3 mitos sobre la web de una academia: que con Instagram basta, que una web es cara y que se tarda meses en tenerla. Web al Vuelo: 79 € pago único, 5 preguntas y primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu academia<br><em>sin web?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Familia",
+    "msgs": [
+     {"from": "in", "text": "¿Qué horario tiene inglés?", "time": "21:30"},
+     {"from": "in", "text": "¿Dónde estáis exactamente?", "time": "21:31"}
+    ]
+   },
+   "footer": "3 mitos sobre la web de una academia"
+  },
+  {
+   "label": "MITO 1",
+   "title": "Con Instagram<br><em>me basta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO INSTAGRAM",
+    "bad": ["Horario perdido", "Sin dirección clara"],
+    "good_t": "CON WEB",
+    "good": ["Cursos y horario", "Mapa y botón de llamar"]
+   },
+   "note": "Los padres <b>buscan en Google.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "Una web<br><em>es cara.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Web con cuota vs pago único",
+    "items": [
+     {"label": "30 €/mes durante 5 años · 1.800 €", "value": 100},
+     {"label": "Web al Vuelo · 79 €, una vez", "value": 5, "hi": true}
+    ]
+   },
+   "note": "<b>79 €, pago único</b> y es tuya."
+  },
+  {
+   "label": "MITO 3",
+   "title": "Se tarda<br><em>meses.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "5 preguntas", "s": "Cursos, edades, horario"},
+     {"n": "2", "d": "DÍA 2", "t": "Primer diseño", "s": "Si no te convence, se rehace"}
+    ]
+   },
+   "note": "Llega <b>antes de la matrícula.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Cursos, horario y mapa", "Botón de llamar y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para academias 👇\nCuando una familia busca academia, quiere ver cursos, horario y dónde estáis sin tener que bajar por cuarenta publicaciones de Instagram.\nTu web por 79 €, una vez, sin cuotas. Contestas 5 preguntas y el primer diseño llega en 2 días. Con botón de llamar, WhatsApp, mapa y reseñas.\n¿Cuál de los tres mitos te habías creído?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#academia #academiadeingles #formacion #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para academias: 3 mitos que te hacen perder alumnos",
+  "text": "Página web para academias 👇\nCuando una familia busca academia, quiere ver cursos, horario y dónde estáis sin tener que bajar por cuarenta publicaciones de Instagram.\nTu web por 79 €, una vez, sin cuotas. Contestas 5 preguntas y el primer diseño llega en 2 días. Con botón de llamar, WhatsApp, mapa y reseñas.\n¿Cuál de los tres mitos te habías creído?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#academia #academiadeingles #formacion #autonomos #paginaweb #webalvuelo"
+ }
+}

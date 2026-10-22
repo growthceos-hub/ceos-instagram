@@ -1,0 +1,103 @@
+{
+ "topic": "Anuncio carrusel en Meta que se desliza: la primera tarjeta con el gancho (el problema del cliente, no tu logo), una tarjeta por paso o servicio con foto real, y la última con la oferta y qué tiene que pulsar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu carrusel<br>se queda en la<br><em>primera foto?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Desliza y mira cómo lo hacemos.",
+    "media": "TARJETA 1 DE 5",
+    "headline": "Desliza",
+    "cta": "Más información",
+    "tags": [
+     "GANCHO",
+     "PASOS",
+     "OFERTA"
+    ]
+   },
+   "footer": "3 pasos para que lo deslicen hasta el final"
+  },
+  {
+   "label": "TARJETA 1",
+   "title": "El gancho,<br><em>no tu logo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Tu logo grande",
+     "“Bienvenidos”"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Su problema en grande",
+     "Una flecha: desliza"
+    ]
+   },
+   "note": "Si no engancha, <b>no desliza.</b>"
+  },
+  {
+   "label": "TARJETAS 2–4",
+   "title": "Una idea<br><em>por tarjeta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "2",
+      "d": "ANTES",
+      "t": "Cómo estaba",
+      "s": "Foto real"
+     },
+     {
+      "n": "3",
+      "d": "PROCESO",
+      "t": "Qué hicisteis",
+      "s": "Foto real"
+     },
+     {
+      "n": "4",
+      "d": "DESPUÉS",
+      "t": "Cómo quedó",
+      "s": "Foto real"
+     }
+    ]
+   },
+   "note": "Fotos tuyas, <b>no de banco.</b>"
+  },
+  {
+   "label": "TARJETA 5",
+   "title": "Oferta<br><em>y botón.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Qué le ofreces",
+     "Qué tiene que pulsar",
+     "Qué pasa después"
+    ]
+   },
+   "note": "La última <b>le dice qué hacer.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que lleguen<br><em>al final.</em>",
+   "dur": 6,
+   "items": [
+    "Tarjeta 1: el gancho",
+    "Una idea por tarjeta",
+    "Última: oferta y botón"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Anuncio carrusel en Meta Ads: cómo montarlo para que lo deslicen hasta el final",
+  "text": "Anuncio carrusel en Meta: si la primera tarjeta es tu logo, nadie desliza 👉👇\n\nEl carrusel funciona muy bien para enseñar un trabajo paso a paso, pero solo si la primera tarjeta hace que quieran ver la segunda.\n\n→ Tarjeta 1: el problema del cliente en letras grandes y una flecha que invite a deslizar. Nada de “bienvenidos”\n→ Tarjetas del medio: una idea por tarjeta con fotos reales de tu trabajo. Por ejemplo antes, proceso y después\n→ Última tarjeta: la oferta, qué tiene que pulsar y qué pasa cuando lo hace\n\nPara nosotros el carrusel es el formato que más se olvida en negocios de servicios, y es el que mejor enseña cómo trabajas.\n\n¿Has probado alguna vez un anuncio en carrusel? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #carrusel #anuncios #publicidadonline #negocioslocales #ceosgrowth"
+ },
+ "caption": "Anuncio carrusel en Meta: si la primera tarjeta es tu logo, nadie desliza 👉👇\n\nEl carrusel funciona muy bien para enseñar un trabajo paso a paso, pero solo si la primera tarjeta hace que quieran ver la segunda.\n\n→ Tarjeta 1: el problema del cliente en letras grandes y una flecha que invite a deslizar. Nada de “bienvenidos”\n→ Tarjetas del medio: una idea por tarjeta con fotos reales de tu trabajo. Por ejemplo antes, proceso y después\n→ Última tarjeta: la oferta, qué tiene que pulsar y qué pasa cuando lo hace\n\nPara nosotros el carrusel es el formato que más se olvida en negocios de servicios, y es el que mejor enseña cómo trabajas.\n\n¿Has probado alguna vez un anuncio en carrusel? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #carrusel #anuncios #publicidadonline #negocioslocales #ceosgrowth"
+}
