@@ -1,0 +1,66 @@
+{
+ "topic": "POV de un propietario que quiere vender su piso y busca inmobiliaria en su barrio: compara una agencia sin web con otra con web, reseñas, oficina en el mapa y botón para llamar o pedir valoración por WhatsApp. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: vendes<br><em>tu piso.</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA EN EL MÓVIL",
+    "lines": ["inmobiliaria en mi barrio", "vender piso rápido", "opiniones inmobiliaria"]
+   },
+   "footer": "Lo que mira antes de llamarte"
+  },
+  {
+   "label": "LO QUE VE",
+   "title": "Dos agencias,<br><em>una con web.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["Solo pisos en portales", "No sabe quién hay detrás"],
+    "good_t": "CON WEB",
+    "good": ["Oficina en el mapa", "Reseñas de vendedores"]
+   },
+   "note": "Va a dejarte las llaves: <b>quiere saber quién eres.</b>"
+  },
+  {
+   "label": "LO QUE HACE",
+   "title": "Escribe<br><em>a la que ve.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Propietario",
+    "msgs": [
+     {"from": "in", "text": "Quiero vender mi piso", "time": "20:10"},
+     {"from": "in", "text": "¿Podéis venir a verlo?", "time": "20:11"}
+    ]
+   },
+   "note": "Desde el <b>botón de WhatsApp.</b>"
+  },
+  {
+   "label": "LO QUE NECESITAS",
+   "title": "Tu web<br><em>en 2 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de llamar y WhatsApp", "Oficina en el mapa", "Horario y reseñas"]
+   },
+   "note": "Contestas <b>5 preguntas</b> y llega el primer diseño."
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["WhatsApp, mapa y reseñas", "Primer diseño en 2 días", "Sin cuotas, es tuya"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para inmobiliarias 👇\nQuien va a vender su piso no elige agencia solo por los portales. Busca quién hay detrás, dónde está la oficina y qué dicen otros vendedores, y escribe a la que se lo pone fácil.\nContestas 5 preguntas y el primer diseño de tu web llega en 2 días. Botón de llamar, WhatsApp, mapa, horario y reseñas. 79 €, una vez, sin cuotas.\n¿Qué ve hoy quien busca tu agencia?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#inmobiliaria #venderpiso #agenteinmobiliario #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para inmobiliarias: POV, alguien quiere vender su piso",
+  "text": "Página web para inmobiliarias 👇\nQuien va a vender su piso no elige agencia solo por los portales. Busca quién hay detrás, dónde está la oficina y qué dicen otros vendedores, y escribe a la que se lo pone fácil.\nContestas 5 preguntas y el primer diseño de tu web llega en 2 días. Botón de llamar, WhatsApp, mapa, horario y reseñas. 79 €, una vez, sin cuotas.\n¿Qué ve hoy quien busca tu agencia?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#inmobiliaria #venderpiso #agenteinmobiliario #autonomos #paginaweb #webalvuelo"
+ }
+}
