@@ -1,0 +1,69 @@
+{
+ "topic": "Usar la Biblioteca de anuncios de Meta para ver qué anuncia tu competencia: busca por nombre a 3–5 competidores de tu zona, fíjate en los anuncios que llevan meses activos (si siguen, les funcionan) y apunta su gancho, su oferta y su formato para hacer tu versión",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Has visto<br>los anuncios de<br><em>tu competencia?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu competencia",
+    "copy": "¿Buscas reformar tu cocina sin obras eternas?",
+    "media": "COCINA EN 10 DÍAS",
+    "headline": "Pide presupuesto",
+    "cta": "Más información",
+    "tags": ["ACTIVO", "DESDE MARZO", "3 VERSIONES"]
+   },
+   "footer": "3 pasos para mirarlos gratis en la Biblioteca de anuncios"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Busca<br><em>a 3 o 5 rivales.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Biblioteca de anuncios", "País: España", "Escribe su nombre"]
+   },
+   "note": "Es pública y <b>no hace falta cuenta.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Mira los que<br><em>llevan meses.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Días activo",
+    "items": [
+     {"label": "Anuncio de oferta", "value": 88, "hi": true},
+     {"label": "Anuncio con testimonio", "value": 54},
+     {"label": "Anuncio de marca", "value": 12}
+    ]
+   },
+   "note": "Si sigue activo, <b>le está funcionando.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Apunta<br><em>3 cosas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "FICHA DEL ANUNCIO",
+    "lines": ["Gancho: la primera frase", "Oferta: qué regala o promete", "Formato: vídeo, foto o carrusel"]
+   },
+   "note": "Y haz <b>tu versión, no una copia.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Mira antes<br><em>de grabar.</em>",
+   "dur": 6,
+   "items": ["Busca a tus rivales", "Fíjate en los más antiguos", "Gancho, oferta y formato"],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Biblioteca de anuncios de Meta: cómo ver los anuncios de tu competencia",
+  "text": "Biblioteca de anuncios de Meta: tu competencia te enseña lo que le funciona 👀👇\n\nCualquiera puede ver los anuncios activos de cualquier página de Facebook e Instagram. Gratis y sin cuenta.\n\n→ Entra en la Biblioteca de anuncios, elige España y busca por nombre a 3 o 5 competidores de tu zona\n→ Fíjate en los anuncios que llevan meses activos: nadie paga tanto tiempo un anuncio que no le trae clientes\n→ Apunta de cada uno el gancho (la primera frase), la oferta y el formato, y haz tu versión con tu forma de trabajar\n\nNosotros lo hacemos antes de escribir cualquier guion. Copiar tal cual no sirve, pero saber qué ya funciona en tu zona te ahorra semanas de pruebas.\n\n¿Has mirado alguna vez los anuncios de tu competencia? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #publicidadonline #competencia #marketingdigital #pymes #ceosgrowth"
+ },
+ "caption": "Biblioteca de anuncios de Meta: tu competencia te enseña lo que le funciona 👀👇\n\nCualquiera puede ver los anuncios activos de cualquier página de Facebook e Instagram. Gratis y sin cuenta.\n\n→ Entra en la Biblioteca de anuncios, elige España y busca por nombre a 3 o 5 competidores de tu zona\n→ Fíjate en los anuncios que llevan meses activos: nadie paga tanto tiempo un anuncio que no le trae clientes\n→ Apunta de cada uno el gancho (la primera frase), la oferta y el formato, y haz tu versión con tu forma de trabajar\n\nNosotros lo hacemos antes de escribir cualquier guion. Copiar tal cual no sirve, pero saber qué ya funciona en tu zona te ahorra semanas de pruebas.\n\n¿Has mirado alguna vez los anuncios de tu competencia? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #publicidadonline #competencia #marketingdigital #pymes #ceosgrowth"
+}

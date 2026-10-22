@@ -1,0 +1,67 @@
+{
+ "topic": "3 preguntas antes de contratar una agencia de marketing: cómo cobráis (cuota fija o comisión sobre ventas), cuándo arrancamos (implantación en 26 días) y si hay permanencia (12 meses de Meta Ads sin permanencia)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Vas a contratar<br><em>una agencia?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE FIRMAR",
+    "lines": ["¿Cómo cobráis?", "¿Cuándo arrancamos?", "¿Hay permanencia?"]
+   },
+   "footer": "3 preguntas antes de firmar"
+  },
+  {
+   "label": "PREGUNTA 1",
+   "title": "¿Cómo<br><em>cobráis?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO CUOTA FIJA",
+    "bad": ["Cobra, vendas o no", "Te habla de clics"],
+    "good_t": "COMISIÓN SOBRE VENTAS",
+    "good": ["Gana si tú vendes", "Te habla de ventas"]
+   },
+   "note": "Nosotros: <b>comisión sobre ventas.</b>"
+  },
+  {
+   "label": "PREGUNTA 2",
+   "title": "¿Cuándo<br><em>arrancamos?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "DÍA 1", "t": "Empieza la implantación", "s": "Anuncios, campañas y CRM"},
+     {"n": "26", "d": "DÍA 26", "t": "Sistema funcionando", "s": "Captando clientes"}
+    ]
+   },
+   "note": "Pide <b>una fecha</b>, no un «pronto»."
+  },
+  {
+   "label": "PREGUNTA 3",
+   "title": "¿Hay<br><em>permanencia?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["12 meses de Meta Ads", "Sin permanencia", "Sigues si te funciona"]
+   },
+   "note": "Si te atan, <b>pregunta por qué.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pregunta<br><em>antes de firmar.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": ["¿Cómo cobráis?", "¿Cuándo arrancamos?", "¿Hay permanencia?"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Contratar una agencia de marketing: 3 preguntas que tienes que hacer antes de firmar",
+  "text": "Contratar una agencia de marketing: pregunta esto antes de firmar 🧐👇\nCon estas tres respuestas sabes si la agencia se juega algo contigo o solo cobra la cuota.\n→ ¿Cómo cobráis? En Ceos Growth, comisión sobre ventas\n→ ¿Cuándo arrancamos? Nuestra implantación dura 26 días\n→ ¿Hay permanencia? 12 meses de Meta Ads, sin permanencia\n¿Qué le preguntaste tú a tu última agencia?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #captaciondeclientes #pymes #empresarios"
+ },
+ "caption": "Contratar una agencia de marketing: pregunta esto antes de firmar 🧐👇\nCon estas tres respuestas sabes si la agencia se juega algo contigo o solo cobra la cuota.\n→ ¿Cómo cobráis? En Ceos Growth, comisión sobre ventas\n→ ¿Cuándo arrancamos? Nuestra implantación dura 26 días\n→ ¿Hay permanencia? 12 meses de Meta Ads, sin permanencia\n¿Qué le preguntaste tú a tu última agencia?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #captaciondeclientes #pymes #empresarios"
+}

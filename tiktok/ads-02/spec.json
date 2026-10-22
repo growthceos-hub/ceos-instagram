@@ -1,0 +1,71 @@
+{
+ "topic": "Por qué un anuncio por conjunto se queda corto en Meta Ads: saca 3 versiones de cada vídeo, súbelas al mismo conjunto con el mismo público y copy, y decide con ventanas de 7 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Un anuncio<br>por conjunto<br><em>y a esperar?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "1 ANUNCIO POR CONJUNTO",
+    "bad": ["Si falla, no sabes por qué", "Meta no puede comparar"],
+    "good_t": "3 VERSIONES POR CONJUNTO",
+    "good": ["Meta reparte entre las 3", "Ves qué enfoque gana"]
+   },
+   "footer": "3 pasos para darle variedad a Meta"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Saca 3 versiones<br><em>de cada vídeo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "DINÁMICA", "t": "Zoom y tarjetas", "s": "Ritmo rápido"},
+     {"n": "B", "d": "DIRECTA", "t": "Frase fuerte primero", "s": "Cortes apretados"},
+     {"n": "C", "d": "NATIVA", "t": "Parece orgánico", "s": "Subtítulos palabra a palabra"}
+    ]
+   },
+   "note": "Mismo bruto, <b>tres enfoques.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Mismo público,<br><em>mismo copy.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["1 conjunto, 3 anuncios", "Mismo público y texto", "Solo cambia el vídeo"]
+   },
+   "note": "Si cambias todo, <b>no aprendes nada.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Decide<br><em>a los 7 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Resultados por versión",
+    "items": [
+     {"label": "A · Dinámica", "value": 54},
+     {"label": "B · Directa", "value": 78, "hi": true},
+     {"label": "C · Nativa", "value": 47}
+    ]
+   },
+   "note": "No decidas <b>por un día suelto.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Dale a Meta<br><em>con qué comparar.</em>",
+   "size": 100,
+   "dur": 6,
+   "items": ["3 versiones por conjunto", "Solo cambia el vídeo", "Ads al Vuelo: 3 por bruto"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Un anuncio por conjunto en Meta Ads se queda corto: así le das variedad",
+  "text": "Un anuncio por conjunto en Meta Ads se queda corto 📉👇\nSi ese anuncio falla, no sabes si fue el gancho, el ritmo o el formato. Y Meta no tiene nada con qué compararlo.\n→ Saca 3 versiones de cada vídeo: dinámica, directa y nativa\n→ Súbelas al mismo conjunto, con el mismo público y el mismo texto\n→ Decide con 7 días de datos, no con un día suelto\n¿Cuántos anuncios metes tú en cada conjunto?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #facebookads #mediabuyer #creatividades #publicidadonline"
+ },
+ "caption": "Un anuncio por conjunto en Meta Ads se queda corto 📉👇\nSi ese anuncio falla, no sabes si fue el gancho, el ritmo o el formato. Y Meta no tiene nada con qué compararlo.\n→ Saca 3 versiones de cada vídeo: dinámica, directa y nativa\n→ Súbelas al mismo conjunto, con el mismo público y el mismo texto\n→ Decide con 7 días de datos, no con un día suelto\n¿Cuántos anuncios metes tú en cada conjunto?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #facebookads #mediabuyer #creatividades #publicidadonline"
+}

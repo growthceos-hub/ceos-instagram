@@ -1,0 +1,69 @@
+{
+ "topic": "Fatiga creativa en Meta Ads: cómo detectarla (frecuencia que sube, clics que bajan, coste por lead que sube), cambiar el gancho primero y tener versiones de relevo ya editadas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br>ya no rinde<br><em>como antes?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Clics por semana · mismo anuncio",
+    "items": [
+     {"label": "Semana 1", "value": 82, "hi": true},
+     {"label": "Semana 2", "value": 63},
+     {"label": "Semana 3", "value": 41},
+     {"label": "Semana 4", "value": 26}
+    ]
+   },
+   "footer": "3 pasos contra la fatiga creativa"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Mira la<br><em>frecuencia.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Frecuencia que sube", "Clics que bajan", "Coste por lead que sube"]
+   },
+   "note": "Si van juntas, <b>es fatiga.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cambia primero<br><em>el gancho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MISMO VÍDEO · OTRO INICIO",
+    "lines": ["Antes: «Hola, somos…»", "Nuevo: una pregunta", "Nuevo: el resultado"]
+   },
+   "note": "Es lo que <b>más mueve el resultado.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ten el relevo<br><em>ya editado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "AHORA", "t": "Versión A activa"},
+     {"n": "B", "d": "CUANDO CANSE", "t": "Entra la versión B"},
+     {"n": "C", "d": "DESPUÉS", "t": "Entra la versión C"}
+    ]
+   },
+   "note": "Que no te pille <b>sin vídeo nuevo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cambia antes<br><em>de que canse.</em>",
+   "dur": 6,
+   "items": ["Vigila la frecuencia", "Cambia el gancho primero", "Ten la B y la C listas"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Fatiga creativa en Meta Ads: cómo detectarla y qué cambiar primero",
+  "text": "Fatiga creativa en Meta Ads: tu anuncio no ha muerto, está cansado 🥱👇\nEl público ya lo ha visto demasiadas veces. Antes de pausarlo o grabar otro desde cero, haz esto.\n→ Mira tres señales juntas: frecuencia que sube, clics que bajan y coste por lead que sube\n→ Cambia primero el gancho: mismo vídeo, otro inicio\n→ Ten la versión de relevo ya editada para no quedarte sin anuncio\n¿Cada cuánto cambias tú los creativos?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #fatigacreativa #creatividades #facebookads #publicidadonline"
+ },
+ "caption": "Fatiga creativa en Meta Ads: tu anuncio no ha muerto, está cansado 🥱👇\nEl público ya lo ha visto demasiadas veces. Antes de pausarlo o grabar otro desde cero, haz esto.\n→ Mira tres señales juntas: frecuencia que sube, clics que bajan y coste por lead que sube\n→ Cambia primero el gancho: mismo vídeo, otro inicio\n→ Ten la versión de relevo ya editada para no quedarte sin anuncio\n¿Cada cuánto cambias tú los creativos?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #fatigacreativa #creatividades #facebookads #publicidadonline"
+}

@@ -1,0 +1,113 @@
+{
+ "topic": "Fase de aprendizaje de Meta: no toques la campaña cada día (cambiar presupuesto, público o anuncio la reinicia), espera al menos 7 días antes de juzgarla y decide con el coste por lead de la semana, no con el de ayer",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tocas la campaña<br><em>cada mañana?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LUNES",
+      "t": "Subes presupuesto",
+      "s": "Vuelve a aprender"
+     },
+     {
+      "n": "2",
+      "d": "MIÉRCOLES",
+      "t": "Cambias el público",
+      "s": "Vuelve a aprender"
+     },
+     {
+      "n": "3",
+      "d": "VIERNES",
+      "t": "La apagas",
+      "s": "Sin datos para decidir"
+     }
+    ]
+   },
+   "footer": "3 reglas para la fase de aprendizaje"
+  },
+  {
+   "label": "REGLA 1",
+   "title": "No la toques<br><em>cada día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Presupuesto: igual",
+     "Público: igual",
+     "Anuncios: los mismos"
+    ]
+   },
+   "note": "Cada cambio grande <b>la reinicia.</b>"
+  },
+  {
+   "label": "REGLA 2",
+   "title": "Espera<br><em>7 días.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Coste por lead · día a día",
+    "items": [
+     {
+      "label": "Día 1",
+      "value": 90
+     },
+     {
+      "label": "Día 3",
+      "value": 62
+     },
+     {
+      "label": "Día 5",
+      "value": 45
+     },
+     {
+      "label": "Día 7",
+      "value": 38,
+      "hi": true
+     }
+    ]
+   },
+   "note": "Los primeros días <b>salen más caros.</b>"
+  },
+  {
+   "label": "REGLA 3",
+   "title": "Decide con<br><em>la semana.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MIRAR SOLO AYER",
+    "bad": [
+     "Un día malo asusta",
+     "Cambias sin motivo"
+    ],
+    "good_t": "MIRAR 7 DÍAS",
+    "good": [
+     "Coste por lead medio",
+     "Decides con datos"
+    ]
+   },
+   "note": "Un día malo <b>no es una tendencia.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Déjala<br><em>aprender.</em>",
+   "dur": 6,
+   "items": [
+    "Sin cambios a diario",
+    "Mínimo 7 días",
+    "Coste por lead semanal"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Fase de aprendizaje Meta Ads: por qué no debes tocar la campaña cada día",
+  "text": "Fase de aprendizaje en Meta Ads: si tocas la campaña cada mañana, nunca termina ⏳👇\n\nCuando lanzas una campaña, Meta pasa unos días probando a quién enseñar tus anuncios. Si cambias algo grande, empieza de cero.\n\n→ No cambies presupuesto, público ni anuncios cada día. Cada cambio grande reinicia el aprendizaje\n→ Espera al menos 7 días antes de juzgarla. Los primeros días suelen ser más caros e irregulares\n→ Decide con el coste por lead de toda la semana, no con el de ayer. Un día malo no dice nada\n\nNosotros preferimos una campaña regular que se deja trabajar a una que se retoca cada mañana por nervios.\n\n¿Cuántos días aguantas sin tocar una campaña nueva? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #facebookads #publicidadonline #campañas #pymes #ceosgrowth"
+ },
+ "caption": "Fase de aprendizaje en Meta Ads: si tocas la campaña cada mañana, nunca termina ⏳👇\n\nCuando lanzas una campaña, Meta pasa unos días probando a quién enseñar tus anuncios. Si cambias algo grande, empieza de cero.\n\n→ No cambies presupuesto, público ni anuncios cada día. Cada cambio grande reinicia el aprendizaje\n→ Espera al menos 7 días antes de juzgarla. Los primeros días suelen ser más caros e irregulares\n→ Decide con el coste por lead de toda la semana, no con el de ayer. Un día malo no dice nada\n\nNosotros preferimos una campaña regular que se deja trabajar a una que se retoca cada mañana por nervios.\n\n¿Cuántos días aguantas sin tocar una campaña nueva? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #facebookads #publicidadonline #campañas #pymes #ceosgrowth"
+}

@@ -1,0 +1,71 @@
+{
+ "topic": "Comprobar que el píxel de Meta funciona: instala Meta Pixel Helper en Chrome y abre tu web, haz que el evento Lead salte solo en la página de gracias y mándate un lead de prueba en Administrador de eventos (Probar eventos)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu píxel de Meta<br><em>cuenta tus leads?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "PÍXEL SIN REVISAR",
+    "bad": ["Meta no ve los leads", "Optimiza a ciegas"],
+    "good_t": "PÍXEL COMPROBADO",
+    "good": ["Cada lead cuenta", "Meta aprende rápido"]
+   },
+   "footer": "3 pasos para comprobarlo en 10 minutos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Instala<br><em>Pixel Helper.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Extensión gratis de Chrome", "Abre tu web con ella", "Mira si sale tu píxel"]
+   },
+   "note": "Si no sale, <b>no está instalado.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "El evento Lead,<br><em>en la de gracias.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "VISITA", "t": "Entra en tu web", "s": "PageView"},
+     {"n": "2", "d": "FORMULARIO", "t": "Rellena sus datos", "s": "Aún no es lead"},
+     {"n": "3", "d": "GRACIAS", "t": "Ve la confirmación", "s": "Aquí salta Lead"}
+    ]
+   },
+   "note": "Si salta antes, <b>cuenta leads falsos.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Prueba con<br><em>un lead tuyo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Probar eventos",
+    "fields": [
+     {"q": "Evento recibido", "a": "Lead"},
+     {"q": "Origen", "a": "Tu página de gracias"},
+     {"q": "Estado", "a": "Activo"}
+    ],
+    "badge": "✓ EVENTO RECIBIDO"
+   },
+   "note": "En el <b>Administrador de eventos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que Meta vea<br><em>cada lead.</em>",
+   "dur": 6,
+   "items": ["Revisa con Pixel Helper", "Lead solo en la de gracias", "Haz un lead de prueba"],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Píxel de Meta: cómo comprobar que cuenta tus leads en 10 minutos",
+  "text": "Píxel de Meta: ¿seguro que está contando tus leads? 🔍👇\n\nSi el píxel falla, Meta no sabe quién te deja sus datos y busca gente al azar. Y casi nadie lo revisa después de instalarlo.\n\n→ Instala Meta Pixel Helper (extensión gratis de Chrome), abre tu web y mira si aparece tu píxel\n→ Haz que el evento Lead salte solo en la página de gracias, no al abrir el formulario\n→ Rellena tu propio formulario y mira en Administrador de eventos, en Probar eventos, que llega el Lead\n\nPara nosotros es lo primero que se mira antes de gastar un euro: una campaña con el píxel roto aprende cosas que no son.\n\n¿Cuándo fue la última vez que comprobaste tu píxel? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #pixeldemeta #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Píxel de Meta: ¿seguro que está contando tus leads? 🔍👇\n\nSi el píxel falla, Meta no sabe quién te deja sus datos y busca gente al azar. Y casi nadie lo revisa después de instalarlo.\n\n→ Instala Meta Pixel Helper (extensión gratis de Chrome), abre tu web y mira si aparece tu píxel\n→ Haz que el evento Lead salte solo en la página de gracias, no al abrir el formulario\n→ Rellena tu propio formulario y mira en Administrador de eventos, en Probar eventos, que llega el Lead\n\nPara nosotros es lo primero que se mira antes de gastar un euro: una campaña con el píxel roto aprende cosas que no son.\n\n¿Cuándo fue la última vez que comprobaste tu píxel? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metaads #pixeldemeta #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+}

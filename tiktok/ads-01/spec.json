@@ -1,0 +1,68 @@
+{
+ "topic": "Testear ganchos en Meta Ads: graba 3 frases de arranque para el mismo vídeo, sube las 3 versiones al mismo conjunto y quédate con la que más retiene",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Es el anuncio<br>o es <em>el inicio?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UN SOLO INICIO",
+    "bad": ["No sabes qué falló", "Cambias todo a ciegas"],
+    "good_t": "3 INICIOS DISTINTOS",
+    "good": ["Meta te dice cuál", "Cambias solo el gancho"]
+   },
+   "footer": "3 pasos para testear ganchos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba 3 frases<br><em>de arranque.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "3 GANCHOS · MISMO VÍDEO",
+    "lines": ["Una pregunta al cliente", "El resultado que busca", "El error que comete"]
+   },
+   "note": "Mismo cuerpo, <b>otro arranque.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Súbelos al<br><em>mismo conjunto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["3 anuncios, 1 conjunto", "Mismo público y copy", "Sin tocar de 3 a 7 días"]
+   },
+   "note": "Así <b>solo cambia el gancho.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Quédate<br><em>con el que gane.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Retención a 3 segundos",
+    "items": [
+     {"label": "Gancho A · pregunta", "value": 44},
+     {"label": "Gancho B · resultado", "value": 72, "hi": true},
+     {"label": "Gancho C · error", "value": 36}
+    ]
+   },
+   "note": "Y prueba <b>ganchos nuevos</b> sobre ese."
+  },
+  {
+   "kind": "cta",
+   "title": "Testea el gancho<br><em>antes que el vídeo.</em>",
+   "size": 96,
+   "dur": 6,
+   "items": ["3 inicios, mismo vídeo", "Mismo conjunto, 3 a 7 días", "Ads al Vuelo: 3 versiones"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Testear ganchos en Meta Ads: 3 inicios distintos para el mismo anuncio",
+  "text": "Testear ganchos en Meta Ads sin grabar tres vídeos 🎯👇\nSi tu anuncio no funciona, mira primero cómo empieza. Con un solo inicio no sabes qué ha fallado.\n→ Graba 3 frases de arranque para el mismo vídeo: una pregunta, el resultado, el error\n→ Sube las 3 versiones al mismo conjunto y no toques nada de 3 a 7 días\n→ Quédate con la que más retiene y prueba ganchos nuevos sobre ella\n¿Cuántos ganchos pruebas tú en cada anuncio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #ganchos #anunciosenvideo #publicidadonline #marketingdigital"
+ },
+ "caption": "Testear ganchos en Meta Ads sin grabar tres vídeos 🎯👇\nSi tu anuncio no funciona, mira primero cómo empieza. Con un solo inicio no sabes qué ha fallado.\n→ Graba 3 frases de arranque para el mismo vídeo: una pregunta, el resultado, el error\n→ Sube las 3 versiones al mismo conjunto y no toques nada de 3 a 7 días\n→ Quédate con la que más retiene y prueba ganchos nuevos sobre ella\n¿Cuántos ganchos pruebas tú en cada anuncio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #ganchos #anunciosenvideo #publicidadonline #marketingdigital"
+}
