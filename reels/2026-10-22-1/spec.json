@@ -1,0 +1,79 @@
+{
+ "topic": "No tocar la campaña de Meta cada día (fase de aprendizaje): un día fijo a la semana para revisarla (leads, citas del CRM y un solo cambio), evitar los cambios que la reinician (doblar presupuesto de golpe, cambiar público u objetivo, anuncios nuevos en el mismo conjunto; subir en pasos pequeños y probar en un conjunto aparte) y decidir con 7 días de datos, apagando lo que no trae citas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tocas tu campaña<br><em>cada mañana?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "L", "d": "LUNES", "t": "Subes presupuesto"},
+     {"n": "M", "d": "MARTES", "t": "Cambias el público"},
+     {"n": "X", "d": "MIÉRCOLES", "t": "Vuelve a empezar", "s": "Meta reinicia el aprendizaje"}
+    ]
+   },
+   "footer": "3 reglas para dejar que tu campaña aprenda"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Un día fijo<br><em>para tocarla.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "REVISIÓN DEL LUNES · 15 MIN",
+    "lines": [
+     "Leads de la semana",
+     "Citas que salieron (CRM)",
+     "Un solo cambio, si hace falta"
+    ]
+   },
+   "note": "El resto de la semana, <b>no la toques.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Evita lo que<br><em>la reinicia.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LA REINICIA",
+    "bad": [
+     "Doblar el presupuesto",
+     "Cambiar el público"
+    ],
+    "good_t": "MEJOR ASÍ",
+    "good": [
+     "Subir en pasos pequeños",
+     "Probar en otro conjunto"
+    ]
+   },
+   "note": "Meta lo llama <b>fase de aprendizaje.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Decide con<br><em>7 días de datos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Mira 7 días, no 1",
+     "Cuenta las citas en el CRM",
+     "Apaga lo que no trae citas"
+    ]
+   },
+   "note": "No apagues por <b>un mal día.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Déjala<br><em>aprender.</em>",
+   "dur": 6,
+   "items": [
+    "Un día fijo para tocarla",
+    "Nada que la reinicie",
+    "Decide con 7 días"
+   ]
+  }
+ ],
+ "caption": "¿Tocas tu campaña de Meta cada mañana? 📉\n\nCada cambio grande hace que Meta vuelva a probar a quién enseñar tu anuncio. Lo llama fase de aprendizaje, y mientras dura los resultados bailan y el lead suele salir más caro.\n\n→ Elige un día fijo para revisarla, por ejemplo el lunes, y dale 15 minutos: leads que entraron esa semana, citas que salieron de ellos (míralo en el CRM, no de memoria) y un solo cambio si hace falta\n→ Evita lo que la reinicia: doblar el presupuesto de golpe, cambiar el público o el objetivo, meter anuncios nuevos en el mismo conjunto. Si quieres subir, hazlo en pasos pequeños. Si quieres probar un anuncio, mejor en un conjunto aparte\n→ Decide con 7 días de datos, no con un mal martes. Apaga lo que no trae citas, aunque el coste por lead parezca bueno\n\nNosotros lo vemos así: una campaña que se toca cada día nunca llega a enseñarte qué funciona.\n\n¿Cada cuánto miras tú tus anuncios: todos los días, una vez a la semana o cuando te acuerdas? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #facebookads #publicidadonline #captaciondeclientes #pymes #negocioslocales"
+}
