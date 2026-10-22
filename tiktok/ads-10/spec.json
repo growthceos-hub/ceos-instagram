@@ -1,0 +1,68 @@
+{
+ "topic": "Ganchos para anuncios cuando te quedas en blanco: 3 tipos para empezar (la pregunta que le duele, llamar a tu nicho y el error que comete) y la lista de 36 ganchos gratis en ads.ceosgrowth.com/ganchos-para-anuncios",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te quedas<br>en blanco<br><em>con el gancho?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "TIPOS DE GANCHO",
+    "lines": ["La pregunta que duele", "La llamada a tu nicho", "El error que comete"]
+   },
+   "footer": "3 tipos de gancho para empezar"
+  },
+  {
+   "label": "TIPO 1",
+   "title": "La pregunta<br><em>que le duele.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Gancho de pregunta.",
+    "media": "¿TUS VÍDEOS SIGUEN EN LA CARPETA?",
+    "headline": "Más información",
+    "cta": "Ver más",
+    "tags": ["PREGUNTA", "0–3 S"]
+   },
+   "note": "Que piense <b>«eso me pasa a mí».</b>"
+  },
+  {
+   "label": "TIPO 2",
+   "title": "Llama<br><em>a tu cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["«Si tienes una clínica…»", "«Si vendes pisos…»", "«Si das clases…»"]
+   },
+   "note": "Que <b>se reconozca</b> en la frase."
+  },
+  {
+   "label": "TIPO 3",
+   "title": "El error<br><em>que comete.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "GANCHO GENÉRICO",
+    "bad": ["«Hoy te cuento algo»", "«Mira esto»"],
+    "good_t": "GANCHO CON ERROR",
+    "good": ["«Deja de hacer esto»", "«El fallo de tu anuncio»"]
+   },
+   "note": "Graba <b>los tres</b> y que Meta elija."
+  },
+  {
+   "kind": "cta",
+   "title": "Elige 3 ganchos<br><em>y grábalos.</em>",
+   "size": 104,
+   "dur": 6,
+   "items": ["La pregunta que duele", "La llamada a tu nicho", "El error que comete"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Ganchos para anuncios: 36 gratis y 3 tipos para no quedarte en blanco",
+  "text": "Ganchos para anuncios: 3 tipos para cuando te quedas en blanco ✍️👇\nEl gancho es lo primero que se oye y lo que decide si alguien se queda. Empieza por uno de estos:\n→ La pregunta que le duele: algo que le pase a tu cliente hoy\n→ La llamada a tu nicho: «Si tienes una clínica…», «Si vendes pisos…»\n→ El error que comete: lo que está haciendo mal sin saberlo\nTienes 36 ganchos gratis en ads.ceosgrowth.com/ganchos-para-anuncios\n¿Cuál de los tres vas a probar primero?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #ganchos #copywriting #metaads #anunciosenvideo #marketingdigital"
+ },
+ "caption": "Ganchos para anuncios: 3 tipos para cuando te quedas en blanco ✍️👇\nEl gancho es lo primero que se oye y lo que decide si alguien se queda. Empieza por uno de estos:\n→ La pregunta que le duele: algo que le pase a tu cliente hoy\n→ La llamada a tu nicho: «Si tienes una clínica…», «Si vendes pisos…»\n→ El error que comete: lo que está haciendo mal sin saberlo\nTienes 36 ganchos gratis en ads.ceosgrowth.com/ganchos-para-anuncios\n¿Cuál de los tres vas a probar primero?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #ganchos #copywriting #metaads #anunciosenvideo #marketingdigital"
+}

@@ -1,0 +1,67 @@
+{
+ "topic": "Negocio local con anuncios grabados que se quedan en el móvil: elige los 4 mejores, no pierdas la tarde editando en CapCut y súbelos en bruto para recibir 3 versiones con su texto",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tienes anuncios<br>grabados<br><em>y sin subir?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EN LA GALERÍA",
+    "bad": ["Grabado hace un mes", "Sin editar"],
+    "good_t": "EN META ADS",
+    "good": ["Editado en 3 versiones", "Con su texto"]
+   },
+   "footer": "3 pasos para sacarlos del móvil"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige<br><em>los 4 mejores.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Se te ve y se te oye", "Dices qué ofreces", "Dura menos de 1 minuto"]
+   },
+   "note": "No hace falta <b>que sea perfecto.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "No te dejes<br><em>la tarde.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU TARDE EN CAPCUT",
+    "lines": ["Cortar silencios", "Poner subtítulos", "Buscar música"]
+   },
+   "note": "Y el vídeo <b>se queda a medias.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Súbelo<br><em>y a lo tuyo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Tu vídeo, editado y con texto.",
+    "media": "VERSIÓN C · NATIVA",
+    "headline": "Pide tu cita",
+    "cta": "Reservar",
+    "tags": ["CON COPY", "LISTO PARA META"]
+   },
+   "note": "Te llegan <b>3 versiones por email.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Del móvil<br><em>a Meta Ads.</em>",
+   "dur": 6,
+   "items": ["Elige los 4 mejores", "No pierdas la tarde", "4 anuncios, 12 versiones"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Anuncios grabados con el móvil y sin subir: cómo sacarlos a Meta Ads",
+  "text": "Anuncios grabados con el móvil que nunca llegas a subir 📱👇\nLos grabas entre cliente y cliente, y se quedan en la galería porque editarlos te lleva la tarde.\n→ Elige los 4 mejores: que se te vea, se te oiga y digas qué ofreces\n→ No te dejes la tarde cortando silencios, subtítulos y música\n→ Súbelos en bruto y te llegan por email 3 versiones de cada uno, con su texto para Meta\nSi alguno no se puede editar, recuperas el crédito.\n¿Cuántos vídeos tienes ahora mismo en la galería?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #negocioslocales #metaads #anunciosenvideo #pymes #capcut"
+ },
+ "caption": "Anuncios grabados con el móvil que nunca llegas a subir 📱👇\nLos grabas entre cliente y cliente, y se quedan en la galería porque editarlos te lleva la tarde.\n→ Elige los 4 mejores: que se te vea, se te oiga y digas qué ofreces\n→ No te dejes la tarde cortando silencios, subtítulos y música\n→ Súbelos en bruto y te llegan por email 3 versiones de cada uno, con su texto para Meta\nSi alguno no se puede editar, recuperas el crédito.\n¿Cuántos vídeos tienes ahora mismo en la galería?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #negocioslocales #metaads #anunciosenvideo #pymes #capcut"
+}

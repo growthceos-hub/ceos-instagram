@@ -1,0 +1,67 @@
+{
+ "topic": "Anuncios para ecommerce: graba el producto en uso con el móvil y prueba 3 ganchos distintos (el problema que resuelve, el momento de uso y el detalle que nadie enseña). Ads al Vuelo: 3 versiones editadas con su copy desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu producto<br>en un fondo<br><em>blanco?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FOTO DE CATÁLOGO",
+    "bad": ["Fondo blanco", "Nadie lo usa"],
+    "good_t": "VÍDEO CON EL MÓVIL",
+    "good": ["El producto en uso", "Parece de verdad"]
+   },
+   "footer": "3 ganchos para el vídeo de tu producto"
+  },
+  {
+   "label": "GANCHO 1",
+   "title": "El problema<br><em>que resuelve.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu tienda",
+    "copy": "Gancho de problema.",
+    "media": "¿SE TE ENREDAN LOS CABLES?",
+    "headline": "Envío en 24 h",
+    "cta": "Comprar",
+    "tags": ["PROBLEMA", "0–3 S"]
+  },
+   "note": "Que piense <b>«eso me pasa».</b>"
+  },
+  {
+   "label": "GANCHO 2",
+   "title": "El momento<br><em>de usarlo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "QUÉ GRABAR",
+    "lines": ["Las manos usándolo", "En casa, no en estudio", "De cerca y en vertical"]
+   },
+   "note": "Parece un vídeo <b>de un cliente.</b>"
+  },
+  {
+   "label": "GANCHO 3",
+   "title": "El detalle<br><em>que nadie enseña.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["El cierre, de cerca", "Cómo se dobla", "Lo que trae la caja"]
+   },
+   "note": "Graba <b>los tres</b> y que Meta elija."
+  },
+  {
+   "kind": "cta",
+   "title": "Un vídeo,<br><em>tres anuncios.</em>",
+   "dur": 6,
+   "items": ["Dinámica, Directa y Nativa", "Cada una con su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para ecommerce: 3 ganchos para el vídeo de tu producto 📦👇\nEn Meta, un vídeo grabado con el móvil con el producto en uso suele parecer más real que la foto de catálogo.\n→ El problema que resuelve, dicho en la primera frase\n→ El momento de usarlo: manos, casa, de cerca\n→ El detalle que nadie enseña: el cierre, la caja, cómo se dobla\nSubes el bruto y te llegan 3 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #ecommerce #metaads #ugc #anunciosenvideo #tiendaonline",
+ "tiktok": {
+  "title": "Anuncios para ecommerce: 3 ganchos para el vídeo de tu producto",
+  "text": "Anuncios para ecommerce: 3 ganchos para el vídeo de tu producto 📦👇\nEn Meta, un vídeo grabado con el móvil con el producto en uso suele parecer más real que la foto de catálogo.\n→ El problema que resuelve, dicho en la primera frase\n→ El momento de usarlo: manos, casa, de cerca\n→ El detalle que nadie enseña: el cierre, la caja, cómo se dobla\nSubes el bruto y te llegan 3 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #ecommerce #metaads #ugc #anunciosenvideo #tiendaonline"
+ }
+}

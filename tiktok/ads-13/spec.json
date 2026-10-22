@@ -1,0 +1,67 @@
+{
+ "topic": "Infoproductores con un lanzamiento a la vista y sin creativos: graba todo en una mañana con varios ganchos, multiplica cada bruto por tres versiones y lanza con variedad (12 brutos = 36 versiones por 129 €)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Lanzamiento<br>a la vista y<br><em>sin creativos?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu equipo",
+    "msgs": [
+     {"from": "in", "text": "10 creativos para el jueves", "time": "LUN 09:30"},
+     {"from": "out", "lines": ["Grabo hoy.", "¿Y quién lo edita?"], "time": "LUN 09:34"}
+    ]
+   },
+   "footer": "3 pasos para llegar al lanzamiento"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba todo<br><em>en una mañana.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["4 ideas de anuncio", "3 ganchos por idea", "Todo de un tirón"]
+   },
+   "note": "Grabas bien: <b>lo que falta es tiempo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Multiplica<br><em>por tres.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "DE 12 BRUTOS",
+    "lines": ["12 anuncios en bruto", "× 3 versiones cada uno", "= 36 para testear"]
+   },
+   "note": "Pack Growth: <b>36 versiones, 129 €.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Lanza<br><em>con variedad.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "POR LA MAÑANA", "t": "Subes los brutos"},
+     {"n": "2", "d": "NORMALMENTE, EL MISMO DÍA", "t": "Te llegan A, B y C"},
+     {"n": "3", "d": "LANZAMIENTO", "t": "Todo en sus conjuntos"}
+    ]
+   },
+   "note": "El plazo <b>lo ves en directo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Lanza<br><em>con munición.</em>",
+   "dur": 6,
+   "items": ["Graba todo de un tirón", "3 versiones de cada uno", "Plazo visible en directo"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Creativos para un lanzamiento: cómo tener 36 anuncios listos para Meta Ads",
+  "text": "Creativos para tu lanzamiento: de 12 vídeos en bruto a 36 anuncios 🚀👇\nAntes de cada lanzamiento necesitas muchas piezas en pocos días. Grabar no es el problema: montarlas sí.\n→ Graba todo en una mañana: 4 ideas, 3 ganchos por idea, de un tirón\n→ Multiplica por tres: cada bruto sale en versión dinámica, directa y nativa\n→ Lanza con variedad: el plazo lo ves en directo y normalmente te llegan el mismo día\nPack Growth: 12 anuncios, 36 versiones, 129 €.\n¿Cuántos creativos preparas para cada lanzamiento?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #infoproductos #lanzamiento #metaads #creatividades #marcapersonal"
+ },
+ "caption": "Creativos para tu lanzamiento: de 12 vídeos en bruto a 36 anuncios 🚀👇\nAntes de cada lanzamiento necesitas muchas piezas en pocos días. Grabar no es el problema: montarlas sí.\n→ Graba todo en una mañana: 4 ideas, 3 ganchos por idea, de un tirón\n→ Multiplica por tres: cada bruto sale en versión dinámica, directa y nativa\n→ Lanza con variedad: el plazo lo ves en directo y normalmente te llegan el mismo día\nPack Growth: 12 anuncios, 36 versiones, 129 €.\n¿Cuántos creativos preparas para cada lanzamiento?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #infoproductos #lanzamiento #metaads #creatividades #marcapersonal"
+}

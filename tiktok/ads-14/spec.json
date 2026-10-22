@@ -1,0 +1,69 @@
+{
+ "topic": "Cómo funciona Ads al Vuelo y qué pasa si no te gusta: subes el bruto, te llegan A, B y C con su copy por email (normalmente el mismo día), tienes una ronda de cambios por anuncio y, si no se puede editar, recuperas el crédito",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y si no<br>me gusta<br><em>la edición?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Ads al Vuelo",
+    "msgs": [
+     {"from": "out", "lines": ["La versión B,", "¿puede empezar", "por otra frase?"], "time": "12:10"},
+     {"from": "in", "text": "Ronda de cambios en marcha", "time": "12:11"}
+    ]
+   },
+   "footer": "Cómo funciona, en 3 pasos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Sube<br><em>tu bruto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Grabado con el móvil", "Uno o varios clips", "Tal cual, sin editar"]
+   },
+   "note": "Con la guía <b>sale mejor.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Recibe<br><em>A, B y C.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "DINÁMICA", "t": "Zoom y tarjetas", "s": "Con su copy"},
+     {"n": "B", "d": "DIRECTA", "t": "Lo fuerte primero", "s": "Con su copy"},
+     {"n": "C", "d": "NATIVA", "t": "Parece orgánico", "s": "Con su copy"}
+    ]
+   },
+   "note": "Por email, <b>normalmente el mismo día.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "¿No te<br><em>convence?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO DE SIEMPRE",
+    "bad": ["Pagas y te aguantas", "Sin cambios"],
+    "good_t": "ADS AL VUELO",
+    "good": ["Una ronda de cambios", "Si no se puede, crédito"]
+   },
+   "note": "Si no se puede editar, <b>recuperas el crédito.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pruébalo<br><em>con 4 anuncios.</em>",
+   "dur": 6,
+   "items": ["4 anuncios en bruto", "12 versiones con copy", "Desde 49 €"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Edición de anuncios para Meta Ads: cómo funciona Ads al Vuelo y qué pasa si no te gusta",
+  "text": "Edición de anuncios: ¿y si no te gusta lo que te llega? 🤷👇\nEs la duda lógica antes de subir tu primer vídeo. Así funciona Ads al Vuelo, paso a paso.\n→ Subes tu anuncio grabado con el móvil, en bruto, uno o varios clips\n→ Te llegan por email 3 versiones (A Dinámica, B Directa, C Nativa), cada una con su gancho y su copy, normalmente el mismo día\n→ Tienes una ronda de cambios por anuncio y, si no se puede editar, recuperas el crédito\n¿Qué le cambiarías primero a tu último anuncio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #ediciondeanuncios #anunciosenvideo #creatividades #negocioslocales"
+ },
+ "caption": "Edición de anuncios: ¿y si no te gusta lo que te llega? 🤷👇\nEs la duda lógica antes de subir tu primer vídeo. Así funciona Ads al Vuelo, paso a paso.\n→ Subes tu anuncio grabado con el móvil, en bruto, uno o varios clips\n→ Te llegan por email 3 versiones (A Dinámica, B Directa, C Nativa), cada una con su gancho y su copy, normalmente el mismo día\n→ Tienes una ronda de cambios por anuncio y, si no se puede editar, recuperas el crédito\n¿Qué le cambiarías primero a tu último anuncio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #ediciondeanuncios #anunciosenvideo #creatividades #negocioslocales"
+}

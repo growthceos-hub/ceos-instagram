@@ -1,0 +1,67 @@
+{
+ "topic": "Copy de anuncios en Meta Ads: 3 pasos para el texto principal y el titular. La primera línea repite el gancho del vídeo, el cuerpo dice qué ofreces y cómo, y el titular cabe en 40 caracteres con la acción. Ads al Vuelo entrega cada versión con su copy",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y qué pongo<br><em>en el texto</em><br><em>del anuncio?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Texto principal: ¿?",
+    "media": "TU VÍDEO YA EDITADO",
+    "headline": "Titular: ¿?",
+    "cta": "Más información",
+    "tags": ["TEXTO", "TITULAR"]
+   },
+   "footer": "3 pasos para el copy de tu anuncio"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Repite<br><em>el gancho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "PRIMERA LÍNEA FLOJA",
+    "bad": ["«Somos una empresa…»", "«Hoy te presentamos…»"],
+    "good_t": "EL GANCHO DEL VÍDEO",
+    "good": ["«¿Te duele la espalda?»", "La misma idea, escrita"]
+   },
+   "note": "Es lo único que se ve <b>sin pulsar «más».</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Qué ofreces<br><em>y cómo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CUERPO DEL TEXTO",
+    "lines": ["Qué le das", "Cómo funciona, en 2 líneas", "Qué tiene que hacer"]
+   },
+   "note": "Frases cortas, <b>como se habla.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Titular de<br><em>40 caracteres.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Cabe en una línea", "Dice la acción", "Sin repetir el texto"]
+   },
+   "note": "Ejemplo: <b>«Pide tu primera cita».</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cada versión<br><em>con su copy.</em>",
+   "dur": 6,
+   "items": ["Texto principal y titular", "3 versiones por anuncio", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Copy de anuncios en Meta Ads: qué poner en el texto y en el titular ✍️👇\nEl vídeo está listo y te quedas mirando la caja del texto principal. Tres pasos:\n→ La primera línea repite el gancho del vídeo: es lo único que se ve sin pulsar «más»\n→ Luego qué ofreces, cómo funciona y qué tiene que hacer, en frases cortas\n→ El titular, en 40 caracteres como mucho y con la acción\nEn Ads al Vuelo cada versión llega con su titular y su texto, escritos a partir de lo que dices en el vídeo.\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #copywriting #anunciosenvideo #publicidadonline #marketingdigital",
+ "tiktok": {
+  "title": "Copy de anuncios en Meta Ads: texto principal y titular en 3 pasos",
+  "text": "Copy de anuncios en Meta Ads: qué poner en el texto y en el titular ✍️👇\nEl vídeo está listo y te quedas mirando la caja del texto principal. Tres pasos:\n→ La primera línea repite el gancho del vídeo: es lo único que se ve sin pulsar «más»\n→ Luego qué ofreces, cómo funciona y qué tiene que hacer, en frases cortas\n→ El titular, en 40 caracteres como mucho y con la acción\nEn Ads al Vuelo cada versión llega con su titular y su texto, escritos a partir de lo que dices en el vídeo.\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #copywriting #anunciosenvideo #publicidadonline #marketingdigital"
+ }
+}

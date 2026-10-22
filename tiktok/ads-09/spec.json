@@ -1,0 +1,66 @@
+{
+ "topic": "Guía para grabar anuncios con el móvil: luz de frente, móvil en vertical a la altura de los ojos y grabar de un tirón repitiendo el gancho varias veces (guía gratis en ads.ceosgrowth.com/guia-grabar-anuncios)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Grabas tus<br>anuncios<br><em>con el móvil?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Luz de frente", "Móvil en vertical", "Gancho repetido"]
+   },
+   "footer": "3 pasos para grabar mejor"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Luz<br><em>de frente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CONTRALUZ",
+    "bad": ["Ventana detrás", "Cara a oscuras"],
+    "good_t": "LUZ DE FRENTE",
+    "good": ["Ventana delante", "Cara bien iluminada"]
+   },
+   "note": "La ventana, <b>delante de ti.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Vertical<br><em>y a tu altura.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ENCUADRE",
+    "lines": ["Móvil en vertical", "A la altura de los ojos", "Cabeza y hombros"]
+   },
+   "note": "Mira <b>a la cámara</b>, no a la pantalla."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Graba<br><em>de un tirón.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "GANCHO", "t": "Dilo 3 veces", "s": "Cada vez distinto"},
+     {"n": "2", "d": "CUERPO", "t": "Del tirón", "s": "Si fallas, sigue"},
+     {"n": "3", "d": "CIERRE", "t": "Una sola acción", "s": "Qué tiene que hacer"}
+    ]
+   },
+   "note": "Los silencios <b>se quitan al editar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Grábalo hoy,<br><em>con el móvil.</em>",
+   "dur": 6,
+   "items": ["Luz de frente", "Vertical y a tu altura", "Varios ganchos seguidos"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Grabar anuncios con el móvil: luz, encuadre y cómo grabar el gancho",
+  "text": "Grabar anuncios con el móvil sin que parezca casero 📲👇\nNo hace falta cámara ni estudio. Hace falta luz, buen encuadre y grabar pensando en la edición.\n→ Luz de frente: la ventana delante de ti, nunca detrás\n→ Móvil en vertical, a la altura de los ojos, y mira a la cámara\n→ Graba de un tirón y repite el gancho 3 veces, cada vez distinto\nGuía gratis de 1 página: ads.ceosgrowth.com/guia-grabar-anuncios\n¿Qué es lo que más te cuesta al grabarte?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #grabarconelmovil #anunciosenvideo #metaads #contenidoenvideo #negocioslocales"
+ },
+ "caption": "Grabar anuncios con el móvil sin que parezca casero 📲👇\nNo hace falta cámara ni estudio. Hace falta luz, buen encuadre y grabar pensando en la edición.\n→ Luz de frente: la ventana delante de ti, nunca detrás\n→ Móvil en vertical, a la altura de los ojos, y mira a la cámara\n→ Graba de un tirón y repite el gancho 3 veces, cada vez distinto\nGuía gratis de 1 página: ads.ceosgrowth.com/guia-grabar-anuncios\n¿Qué es lo que más te cuesta al grabarte?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #grabarconelmovil #anunciosenvideo #metaads #contenidoenvideo #negocioslocales"
+}

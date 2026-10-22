@@ -1,0 +1,66 @@
+{
+ "topic": "Media buyers y agencias: cuando el editor es el cuello de botella y los vídeos del cliente se quedan en la carpeta; cuenta las ediciones, sube el bruto tal cual y entrega cada versión con su copy para Meta",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Media buyer:<br>¿y los vídeos<br><em>sin editar?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Te mandé 6 vídeos el lunes", "time": "LUN 10:00"},
+     {"from": "in", "text": "¿Cuándo salen los anuncios?", "time": "VIE 12:15"}
+    ]
+   },
+   "footer": "3 pasos para vaciar la carpeta"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Cuenta<br><em>las ediciones.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA REAL",
+    "lines": ["6 vídeos del cliente", "× 3 versiones cada uno", "= 18 ediciones"]
+   },
+   "note": "Por eso <b>se quedan en la carpeta.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Sube<br><em>el bruto tal cual.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EDITARLO TÚ EN CAPCUT",
+    "bad": ["Horas fuera de las cuentas", "Una versión por vídeo"],
+    "good_t": "SUBIR EL BRUTO",
+    "good": ["3 versiones por vídeo", "Normalmente el mismo día"]
+   },
+   "note": "Tú, <b>a gestionar cuentas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Entrega<br><em>con copy.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Titular para Meta", "Texto principal", "Factura a tu agencia"]
+   },
+   "note": "Los vídeos son <b>tuyos y de tu cliente.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que la carpeta<br><em>no te frene.</em>",
+   "dur": 6,
+   "items": ["Cuenta las ediciones", "Sube el bruto tal cual", "Recibe A, B y C con copy"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Media buyer: cómo sacar los vídeos del cliente de la carpeta y testear más creativos",
+  "text": "Media buyer: el problema no está en la cuenta, está en la carpeta de vídeos 📂👇\nEl cliente te manda los vídeos el lunes y el viernes siguen sin editar. Meta pide variedad y no llegas.\n→ Haz la cuenta: 6 vídeos × 3 versiones son 18 ediciones\n→ Sube el bruto tal cual y recibe 3 versiones, normalmente el mismo día\n→ Entrega cada versión con titular y texto para Meta, y factura a nombre de tu agencia\n¿Cuántos vídeos tienes ahora mismo sin editar?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #mediabuyer #metaads #agenciademarketing #creatividades #facebookads"
+ },
+ "caption": "Media buyer: el problema no está en la cuenta, está en la carpeta de vídeos 📂👇\nEl cliente te manda los vídeos el lunes y el viernes siguen sin editar. Meta pide variedad y no llegas.\n→ Haz la cuenta: 6 vídeos × 3 versiones son 18 ediciones\n→ Sube el bruto tal cual y recibe 3 versiones, normalmente el mismo día\n→ Entrega cada versión con titular y texto para Meta, y factura a nombre de tu agencia\n¿Cuántos vídeos tienes ahora mismo sin editar?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #mediabuyer #metaads #agenciademarketing #creatividades #facebookads"
+}

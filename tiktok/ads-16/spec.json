@@ -1,0 +1,66 @@
+{
+ "topic": "Anuncios para agencias y media buyers: la cuenta de las versiones. 4 anuncios en bruto del cliente se convierten en 12 versiones (Dinámica, Directa y Nativa) con su copy por 49 €, 4,08 € por versión, y con 3 versiones por conjunto Meta tiene con qué comparar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuánto te<br>cuesta cada<br><em>creativo?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA",
+    "lines": ["4 anuncios en bruto", "x 3 versiones = 12", "49 € / 12 = 4,08 €"]
+   },
+   "footer": "La cuenta para agencias y media buyers"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "4 brutos,<br><em>12 versiones.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "DINÁMICA", "t": "x 4 anuncios", "s": "Zoom, tarjetas, ritmo"},
+     {"n": "B", "d": "DIRECTA", "t": "x 4 anuncios", "s": "Lo fuerte primero"},
+     {"n": "C", "d": "NATIVA", "t": "x 4 anuncios", "s": "Parece orgánico"}
+    ]
+   },
+   "note": "Cada versión <b>con su copy para Meta.</b>"
+  },
+  {
+   "label": "EN LA CUENTA",
+   "title": "3 versiones<br><em>por conjunto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "1 VÍDEO POR CONJUNTO",
+    "bad": ["Nada con qué comparar", "No sabes qué falló"],
+    "good_t": "A, B Y C JUNTAS",
+    "good": ["Meta reparte entre 3", "Ves qué estilo gana"]
+   },
+   "note": "Para <b>4 conjuntos</b> con un solo pack."
+  },
+  {
+   "label": "TU TIEMPO",
+   "title": "Tú gestionas,<br><em>no editas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Subes el bruto del cliente", "Llegan 3 versiones", "Normalmente el mismo día"]
+   },
+   "note": "Y hay <b>una ronda de cambios.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "12 versiones<br><em>por 49 €.</em>",
+   "dur": 6,
+   "items": ["4 anuncios en bruto", "3 versiones con copy", "Ronda de cambios"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para agencias y media buyers: la cuenta de cada creativo 🧮👇\nEl cliente te manda 4 vídeos grabados con el móvil. Con eso tienes 4 anuncios… o 12 versiones para testear.\n→ Cada bruto sale en 3 versiones: Dinámica, Directa y Nativa, con su copy\n→ 4 brutos = 12 versiones por 49 €, 4,08 € cada una\n→ 3 versiones por conjunto y Meta tiene con qué comparar\nNormalmente llegan el mismo día y hay una ronda de cambios.\n¿Cuántos vídeos de clientes tienes esperando en la carpeta?\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #mediabuyer #agenciademarketing #metaads #creatividades #anunciosenvideo",
+ "tiktok": {
+  "title": "Anuncios para agencias y media buyers: 12 versiones por 49 €, la cuenta",
+  "text": "Anuncios para agencias y media buyers: la cuenta de cada creativo 🧮👇\nEl cliente te manda 4 vídeos grabados con el móvil. Con eso tienes 4 anuncios… o 12 versiones para testear.\n→ Cada bruto sale en 3 versiones: Dinámica, Directa y Nativa, con su copy\n→ 4 brutos = 12 versiones por 49 €, 4,08 € cada una\n→ 3 versiones por conjunto y Meta tiene con qué comparar\nNormalmente llegan el mismo día y hay una ronda de cambios.\n¿Cuántos vídeos de clientes tienes esperando en la carpeta?\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #mediabuyer #agenciademarketing #metaads #creatividades #anunciosenvideo"
+ }
+}

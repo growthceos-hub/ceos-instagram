@@ -1,0 +1,68 @@
+{
+ "topic": "Versión A, B o C de un anuncio: qué cambia en la Dinámica (zoom y tarjetas), la Directa (abre con la frase más fuerte) y la Nativa (parece un vídeo orgánico), y por qué se testean las tres a la vez",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Dinámica,<br>directa<br><em>o nativa?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["A · Dinámica", "B · Directa", "C · Nativa"]
+   },
+   "footer": "Qué cambia en cada versión"
+  },
+  {
+   "label": "VERSIÓN A",
+   "title": "Dinámica:<br><em>zoom y tarjetas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "A · DINÁMICA",
+    "lines": ["El gancho, reforzado", "Zoom en cada corte", "2–4 tarjetas animadas"]
+   },
+   "note": "Ritmo <b>con urgencia.</b>"
+  },
+  {
+   "label": "VERSIÓN B",
+   "title": "Directa:<br><em>lo fuerte primero.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Abre con la frase más fuerte.",
+    "media": "EMPIEZA POR EL RESULTADO",
+    "headline": "Pide información",
+    "cta": "Más información",
+    "tags": ["CORTES APRETADOS", "MÚSICA CONSTANTE"]
+   },
+   "note": "Arranca <b>por lo que más pesa.</b>"
+  },
+  {
+   "label": "VERSIÓN C",
+   "title": "Nativa:<br><em>parece orgánico.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "PARECE UN ANUNCIO",
+    "bad": ["Tarjetas y destellos", "Música alta"],
+    "good_t": "PARECE UN VÍDEO NORMAL",
+    "good": ["Subtítulos palabra a palabra", "Música casi inaudible"]
+   },
+   "note": "La frase <b>más personal</b> delante."
+  },
+  {
+   "kind": "cta",
+   "title": "No elijas:<br><em>testea las tres.</em>",
+   "dur": 6,
+   "items": ["A · Dinámica", "B · Directa", "C · Nativa"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Versiones de un anuncio para Meta Ads: dinámica, directa o nativa, ¿cuál funciona?",
+  "text": "Versiones de un anuncio: ¿dinámica, directa o nativa? 🤔👇\nDel mismo vídeo en bruto salen tres anuncios distintos. Cada uno cambia el gancho y el estilo.\n→ A Dinámica: el gancho del guion reforzado, zoom en cada corte y tarjetas animadas\n→ B Directa: abre con la frase más fuerte, cortes más apretados y música constante\n→ C Nativa: parece un vídeo normal, subtítulos palabra a palabra y sin tarjetas\nNo tienes que elegir: subes las tres al mismo conjunto y Meta te dice cuál gana.\n¿Cuál apuestas a que gana en tu negocio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #anunciosenvideo #creatividades #ugc #publicidadonline"
+ },
+ "caption": "Versiones de un anuncio: ¿dinámica, directa o nativa? 🤔👇\nDel mismo vídeo en bruto salen tres anuncios distintos. Cada uno cambia el gancho y el estilo.\n→ A Dinámica: el gancho del guion reforzado, zoom en cada corte y tarjetas animadas\n→ B Directa: abre con la frase más fuerte, cortes más apretados y música constante\n→ C Nativa: parece un vídeo normal, subtítulos palabra a palabra y sin tarjetas\nNo tienes que elegir: subes las tres al mismo conjunto y Meta te dice cuál gana.\n¿Cuál apuestas a que gana en tu negocio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #anunciosenvideo #creatividades #ugc #publicidadonline"
+}
