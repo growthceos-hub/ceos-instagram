@@ -1,0 +1,100 @@
+{
+ "topic": "Que el lead reserve la cita solo: pon un calendario de reservas justo después del formulario o en la página de gracias, enseña solo los huecos que de verdad quieres llenar y pide 2 o 3 datos para preparar la cita",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Persigues leads<br><em>para dar cita?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LUNES",
+      "t": "Deja sus datos",
+      "s": "Le llamas, no coge"
+     },
+     {
+      "n": "2",
+      "d": "MIÉRCOLES",
+      "t": "Por fin le pillas",
+      "s": "Y ya no se acuerda"
+     }
+    ]
+   },
+   "footer": "3 pasos para que reserve solo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Calendario<br><em>tras el formulario.</em>",
+   "dur": 6.5,
+   "size": 100,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Envía el formulario",
+     "Ve tu calendario",
+     "Elige día y hora"
+    ]
+   },
+   "note": "Justo cuando <b>más ganas tiene.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Solo los huecos<br><em>que quieres.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TODA LA AGENDA",
+    "bad": [
+     "Huecos sueltos",
+     "Te rompe el día"
+    ],
+    "good_t": "BLOQUES FIJOS",
+    "good": [
+     "Martes y jueves tarde",
+     "Tú decides cuándo"
+    ]
+   },
+   "note": "Tu agenda <b>la mandas tú.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Pide 2 o 3<br><em>datos clave.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Reserva tu cita",
+    "fields": [
+     {
+      "q": "¿Qué necesitas?",
+      "a": "Reforma de cocina"
+     },
+     {
+      "q": "¿Para cuándo?",
+      "a": "Antes del verano"
+     }
+    ],
+    "badge": "✓ CITA RESERVADA"
+   },
+   "note": "Llegas a la cita <b>sabiendo de qué va.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que reserve<br><em>él solo.</em>",
+   "dur": 6,
+   "items": [
+    "Calendario tras el formulario",
+    "Solo tus bloques",
+    "Dos o tres datos clave"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Reservas de citas online: cómo hacer que tus leads reserven solos sin perseguirlos",
+  "text": "Reservas de citas online: deja que tus leads elijan hora ellos solos 🗓️👇\n\nEntre que alguien deja sus datos y por fin le pillas al teléfono pueden pasar días. Y en esos días se enfría.\n\n→ Pon un calendario de reservas justo después del formulario o en la página de gracias\n→ Enseña solo los huecos que quieres llenar, en bloques fijos, para que no te rompan el día\n→ Pide dos o tres datos (qué necesita y para cuándo) y llegarás a la cita preparado\n\nSigue llamando a los que no reservan, pero los que sí ya tienen su hora.\n\n¿Tus clientes pueden reservar contigo sin llamarte?\n\nSíguenos para más tips 🧡\n\n#citasonline #agenda #captaciondeclientes #metaads #pymes #ceosgrowth"
+ },
+ "caption": "Reservas de citas online: deja que tus leads elijan hora ellos solos 🗓️👇\n\nEntre que alguien deja sus datos y por fin le pillas al teléfono pueden pasar días. Y en esos días se enfría.\n\n→ Pon un calendario de reservas justo después del formulario o en la página de gracias\n→ Enseña solo los huecos que quieres llenar, en bloques fijos, para que no te rompan el día\n→ Pide dos o tres datos (qué necesita y para cuándo) y llegarás a la cita preparado\n\nSigue llamando a los que no reservan, pero los que sí ya tienen su hora.\n\n¿Tus clientes pueden reservar contigo sin llamarte?\n\nSíguenos para más tips 🧡\n\n#citasonline #agenda #captaciondeclientes #metaads #pymes #ceosgrowth"
+}

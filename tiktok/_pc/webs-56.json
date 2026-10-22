@@ -1,0 +1,66 @@
+{
+ "topic": "POV para academias de idiomas: a alguien le piden el B2 de inglés para un trabajo, busca academia cerca esa misma noche y se apunta en la que le enseña grupos y horarios, preparación del examen y un botón para pedir prueba de nivel por WhatsApp. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: te piden<br><em>el B2</em><br><em>ya.</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA ESA NOCHE",
+    "lines": ["Academia de inglés cerca", "Preparación B2", "Grupos de tarde"]
+   },
+   "footer": "Lo que tiene que ver en la web de tu academia"
+  },
+  {
+   "label": "LO PRIMERO",
+   "title": "¿Preparáis<br><em>el examen?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["No sabe si lo dais", "Tiene que llamar"],
+    "good_t": "CON WEB",
+    "good": ["Preparación B2 y C1", "Fechas de los cursos"]
+   },
+   "note": "Si no lo ve, <b>sigue buscando.</b>"
+  },
+  {
+   "label": "LO SEGUNDO",
+   "title": "Un grupo<br><em>que le cuadre.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Lunes y miércoles, 19:00", "Martes y jueves, 20:00", "Intensivo de sábados"]
+   },
+   "note": "Horarios <b>a la vista.</b>"
+  },
+  {
+   "label": "LO TERCERO",
+   "title": "Pide la prueba<br><em>de nivel.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu academia",
+    "msgs": [
+     {"from": "out", "lines": ["Necesito el B2", "¿cuándo hago la prueba?"], "time": "23:05"},
+     {"from": "in", "text": "Mañana a las 18:00", "time": "09:10"}
+    ]
+   },
+   "note": "Escribe <b>a la hora que sea.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Grupos y horarios", "Prueba de nivel", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para academias de idiomas 👇\nPOV: a alguien le piden el B2 para un trabajo y esa misma noche busca academia. Se apunta en la que le dice si prepara el examen, qué grupos hay y cómo pedir la prueba de nivel.\nTu web con cursos, horarios, botón de WhatsApp y de prueba de nivel, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Tu web dice qué exámenes preparáis?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#academiadeidiomas #ingles #b2 #academia #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para academias de idiomas: POV, te piden el B2 para un trabajo",
+  "text": "Página web para academias de idiomas 👇\nPOV: a alguien le piden el B2 para un trabajo y esa misma noche busca academia. Se apunta en la que le dice si prepara el examen, qué grupos hay y cómo pedir la prueba de nivel.\nTu web con cursos, horarios, botón de WhatsApp y de prueba de nivel, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Tu web dice qué exámenes preparáis?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#academiadeidiomas #ingles #b2 #academia #paginaweb #webalvuelo"
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "topic": "Bonos y packs de sesiones pagados por adelantado (fisios, estética, gimnasios, peluquerías): un número de sesiones que encaje con el resultado, un pequeño ahorro frente a pagar suelto, caducidad clara y ofrecerlo al terminar la primera sesión",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cobras<br><em>sesión a sesión?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SESIÓN SUELTA",
+    "bad": [
+     "Viene cuando se acuerda",
+     "Lo deja a medias"
+    ],
+    "good_t": "BONO PAGADO",
+    "good": [
+     "Ya tiene sus citas",
+     "Termina el tratamiento"
+    ]
+   },
+   "footer": "3 pasos para montar tu bono"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Sesiones<br><em>que den resultado.</em>",
+   "dur": 6.5,
+   "size": 100,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Fisio: bono de 5 sesiones",
+     "Estética: tratamiento de 6",
+     "Gimnasio: 3 meses"
+    ]
+   },
+   "note": "Lo que de verdad <b>necesita para notarlo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un ahorro<br><em>pequeño y claro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "5 sesiones",
+    "items": [
+     {
+      "label": "Sueltas · 5 × 45 € = 225 €",
+      "value": 95
+     },
+     {
+      "label": "En bono · 199 €",
+      "value": 82,
+      "hi": true
+     }
+    ]
+   },
+   "note": "Lo justo para que <b>compense pagar antes.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ofrécelo<br><em>al terminar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "AL ACABAR LA PRIMERA",
+    "lines": [
+     "Para que lo notes, necesitas",
+     "unas cinco sesiones más.",
+     "Con el bono te sale mejor."
+    ]
+   },
+   "note": "Con <b>caducidad clara</b>, por escrito."
+  },
+  {
+   "kind": "cta",
+   "title": "Cobra antes,<br><em>trabaja tranquilo.</em>",
+   "dur": 6,
+   "items": [
+    "Sesiones con sentido",
+    "Ahorro pequeño",
+    "Ofrécelo al terminar"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Bonos de sesiones prepago: cómo venderlos en tu clínica, centro o gimnasio",
+  "text": "Bonos de sesiones: cobrar por adelantado también ayuda a tu cliente 💳👇\n\nQuien paga sesión a sesión viene cuando se acuerda y muchas veces lo deja a medias. Con el bono ya tiene sus citas y termina el tratamiento.\n\n→ Elige un número de sesiones que de verdad dé resultado, no uno al azar\n→ Dale un ahorro pequeño frente a pagar suelto, lo justo para que compense pagar antes\n→ Ofrécelo al terminar la primera sesión, cuando ya sabe cómo trabajas, y con caducidad clara por escrito\n\nLos precios del vídeo son un ejemplo: haz la cuenta con los tuyos.\n\n¿Tienes bonos en tu negocio o cobras cada sesión?\n\nSíguenos para más tips 🧡\n\n#bonos #fisioterapia #centrodeestetica #gimnasio #pymes #ceosgrowth"
+ },
+ "caption": "Bonos de sesiones: cobrar por adelantado también ayuda a tu cliente 💳👇\n\nQuien paga sesión a sesión viene cuando se acuerda y muchas veces lo deja a medias. Con el bono ya tiene sus citas y termina el tratamiento.\n\n→ Elige un número de sesiones que de verdad dé resultado, no uno al azar\n→ Dale un ahorro pequeño frente a pagar suelto, lo justo para que compense pagar antes\n→ Ofrécelo al terminar la primera sesión, cuando ya sabe cómo trabajas, y con caducidad clara por escrito\n\nLos precios del vídeo son un ejemplo: haz la cuenta con los tuyos.\n\n¿Tienes bonos en tu negocio o cobras cada sesión?\n\nSíguenos para más tips 🧡\n\n#bonos #fisioterapia #centrodeestetica #gimnasio #pymes #ceosgrowth"
+}

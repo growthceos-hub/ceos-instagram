@@ -1,0 +1,100 @@
+{
+ "topic": "Imán de leads para quien aún no está listo para comprar: una guía o checklist de una página que resuelva una duda concreta antes de contratarte, que se pide dejando el contacto, y una llamada o mensaje a los pocos días para ver si le sirvió",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y el que aún<br><em>no se decide?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO «PIDE PRESUPUESTO»",
+    "bad": [
+     "Solo entra el decidido",
+     "El resto se va"
+    ],
+    "good_t": "CON UNA GUÍA GRATIS",
+    "good": [
+     "Entra el que duda",
+     "Y te conoce antes"
+    ]
+   },
+   "footer": "3 pasos para tu imán de leads"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Una duda,<br><em>una página.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Reformas: qué preguntar",
+     "Clínica: cuándo ir al fisio",
+     "Academia: cómo elegir curso"
+    ]
+   },
+   "note": "Corta, útil y <b>que se lea en 3 minutos.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "A cambio<br><em>del contacto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Descarga la guía gratis",
+    "fields": [
+     {
+      "q": "Nombre",
+      "a": "Tu futuro cliente"
+     },
+     {
+      "q": "WhatsApp",
+      "a": "600 000 000"
+     }
+    ],
+    "badge": "✓ GUÍA ENVIADA"
+   },
+   "note": "Mándala <b>por WhatsApp</b>, no solo por email."
+  },
+  {
+   "label": "PASO 3",
+   "title": "A los 3 días,<br><em>pregunta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu futuro cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "¿Te sirvió la guía?",
+       "Si quieres, miramos",
+       "tu caso en 10 minutos."
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Pues sí, ¿el jueves?"
+     }
+    ]
+   },
+   "note": "La guía abre <b>la conversación.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Capta también<br><em>al que duda.</em>",
+   "dur": 6,
+   "items": [
+    "Una guía de una página",
+    "A cambio del contacto",
+    "Pregunta a los 3 días"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Imán de leads: cómo captar contactos de clientes que aún no están listos para comprar",
+  "text": "Imán de leads: no todo el que ve tu anuncio quiere un presupuesto hoy 🧲👇\n\nSi tu única opción es «pide presupuesto», solo entra el que ya está decidido. El que aún está mirando se va, y a lo mejor te habría comprado en un mes.\n\n→ Haz una guía o checklist de una página que resuelva una duda concreta antes de contratarte\n→ Pídela a cambio del nombre y el WhatsApp, y mándala por ahí\n→ A los tres días escríbele: ¿te sirvió? Si quiere, miráis su caso\n\nLa guía no vende sola. Te da una excusa buena para hablar con él.\n\n¿Qué duda te preguntan siempre antes de contratarte?\n\nSíguenos para más tips 🧡\n\n#imandeleads #leadmagnet #captaciondeclientes #metaads #pymes #ceosgrowth"
+ },
+ "caption": "Imán de leads: no todo el que ve tu anuncio quiere un presupuesto hoy 🧲👇\n\nSi tu única opción es «pide presupuesto», solo entra el que ya está decidido. El que aún está mirando se va, y a lo mejor te habría comprado en un mes.\n\n→ Haz una guía o checklist de una página que resuelva una duda concreta antes de contratarte\n→ Pídela a cambio del nombre y el WhatsApp, y mándala por ahí\n→ A los tres días escríbele: ¿te sirvió? Si quiere, miráis su caso\n\nLa guía no vende sola. Te da una excusa buena para hablar con él.\n\n¿Qué duda te preguntan siempre antes de contratarte?\n\nSíguenos para más tips 🧡\n\n#imandeleads #leadmagnet #captaciondeclientes #metaads #pymes #ceosgrowth"
+}

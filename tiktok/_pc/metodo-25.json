@@ -1,0 +1,100 @@
+{
+ "topic": "3 errores del propio negocio al delegar sus Meta Ads en una agencia y cómo los evitamos en Ceos Growth: dejar leads sin atender (cada lead en el CRM), no contar qué leads compraron (cobramos comisión sobre ventas, así que se mide en el CRM) y cambiar todo cada pocas semanas (12 meses de Meta Ads, sin permanencia)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Delegas anuncios<br><em>y no funciona?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "ERRORES DE TU LADO",
+    "lines": [
+     "Leads sin atender",
+     "No contar qué se vendió",
+     "Cambiarlo todo cada mes"
+    ]
+   },
+   "footer": "3 errores que no son de la agencia"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Leads<br><em>sin atender.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead de ayer",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Pedí información ayer"
+     },
+     {
+      "from": "in",
+      "text": "Ya he llamado a otro"
+     }
+    ]
+   },
+   "note": "Por eso cada lead <b>entra en el CRM.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "No contar<br><em>qué se vendió.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN DATOS DE VENTA",
+    "bad": [
+     "Se mide por leads",
+     "Se sube lo que no vende"
+    ],
+    "good_t": "VENTAS EN EL CRM",
+    "good": [
+     "Se ve qué anuncio vende",
+     "Comisión sobre ventas"
+    ]
+   },
+   "note": "Si cobramos por ventas, <b>las medimos.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Cambiarlo<br><em>todo cada mes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DÍAS 1–26",
+      "t": "Implantación",
+      "s": "Anuncios, campañas y CRM"
+     },
+     {
+      "n": "12",
+      "d": "12 MESES",
+      "t": "Meta Ads",
+      "s": "Sin permanencia"
+     }
+    ]
+   },
+   "note": "Las campañas necesitan <b>tiempo para aprender.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Delega<br><em>bien.</em>",
+   "dur": 6,
+   "items": [
+    "Atiende cada lead",
+    "Marca qué se vende",
+    "Dale tiempo al sistema"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Delegar Meta Ads en una agencia: 3 errores de tu lado que hacen que no funcione",
+  "text": "Delegar Meta Ads en una agencia: a veces lo que falla no está en los anuncios 👀👇\n\nUna agencia puede traerte leads, pero hay cosas que pasan dentro de tu negocio. En Ceos Growth lo tenemos en cuenta desde el principio.\n\n→ Leads sin atender: un lead que espera un día puede haber llamado ya a otro. Por eso cada lead entra en el CRM\n→ No contar qué se vendió: cobramos comisión sobre ventas, así que las ventas se marcan en el CRM\n→ Cambiarlo todo cada mes: tras los 26 días de implantación vienen 12 meses de Meta Ads, sin permanencia\n\nUn sistema que se cambia cada pocas semanas no llega a aprender nada.\n\n¿Cuál de los tres te ha pasado alguna vez?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #agenciademarketing #crm #leads #pymes"
+ },
+ "caption": "Delegar Meta Ads en una agencia: a veces lo que falla no está en los anuncios 👀👇\n\nUna agencia puede traerte leads, pero hay cosas que pasan dentro de tu negocio. En Ceos Growth lo tenemos en cuenta desde el principio.\n\n→ Leads sin atender: un lead que espera un día puede haber llamado ya a otro. Por eso cada lead entra en el CRM\n→ No contar qué se vendió: cobramos comisión sobre ventas, así que las ventas se marcan en el CRM\n→ Cambiarlo todo cada mes: tras los 26 días de implantación vienen 12 meses de Meta Ads, sin permanencia\n\nUn sistema que se cambia cada pocas semanas no llega a aprender nada.\n\n¿Cuál de los tres te ha pasado alguna vez?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #agenciademarketing #crm #leads #pymes"
+}

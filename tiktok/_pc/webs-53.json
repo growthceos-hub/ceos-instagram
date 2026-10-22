@@ -1,0 +1,66 @@
+{
+ "topic": "3 excusas de una guardería o escuela infantil para no tener web y su respuesta: «nos llegan por el boca a boca» (y antes de visitar te buscan), «estamos llenos este curso» (la matrícula del siguiente empieza meses antes) y «no tengo tiempo de hacerla» (contestas 5 preguntas y el primer diseño llega en 2 días). 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu escuela<br>infantil<br><em>sin web?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LAS 3 EXCUSAS",
+    "lines": ["Nos llega el boca a boca", "Estamos llenos", "No tengo tiempo"]
+   },
+   "footer": "3 excusas para no tener web y su respuesta"
+  },
+  {
+   "label": "EXCUSA 1",
+   "title": "«Boca<br><em>a boca.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "EN EL PARQUE", "t": "Les hablan de ti", "s": "Otra familia"},
+     {"n": "2", "d": "ESA NOCHE", "t": "Te buscan", "s": "Fotos, horario, comedor"},
+     {"n": "3", "d": "DECIDEN", "t": "Piden visita", "s": "O no"}
+    ]
+   },
+   "note": "El boca a boca <b>acaba en Google.</b>"
+  },
+  {
+   "label": "EXCUSA 2",
+   "title": "«Estamos<br><em>llenos.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["Lista de espera en papel", "Familias que no vuelven"],
+    "good_t": "CON WEB",
+    "good": ["Plazas para el próximo curso", "Formulario de interés"]
+   },
+   "note": "Llenos hoy, <b>¿y en septiembre?</b>"
+  },
+  {
+   "label": "EXCUSA 3",
+   "title": "«No tengo<br><em>tiempo.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Contestas 5 preguntas", "Primer diseño en 2 días", "Si no convence, se rehace"]
+   },
+   "note": "Y es <b>79 €, pago único.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Fotos, horario y comedor", "Botón de pedir visita", "Sin cuotas"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para guarderías y escuelas infantiles 👇\n«Nos llegan por el boca a boca». Sí, y esa misma noche la familia busca tu escuela para ver fotos, horario y comedor antes de pedir visita.\n«Estamos llenos». Este curso. La matrícula del siguiente empieza mucho antes.\n«No tengo tiempo». Contestas 5 preguntas y el primer diseño llega en 2 días. Si no te convence, se rehace gratis. 79 € pago único, sin cuotas.\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#guarderia #escuelainfantil #educacioninfantil #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para guarderías: «nos llega el boca a boca» y otras 2 excusas",
+  "text": "Página web para guarderías y escuelas infantiles 👇\n«Nos llegan por el boca a boca». Sí, y esa misma noche la familia busca tu escuela para ver fotos, horario y comedor antes de pedir visita.\n«Estamos llenos». Este curso. La matrícula del siguiente empieza mucho antes.\n«No tengo tiempo». Contestas 5 preguntas y el primer diseño llega en 2 días. Si no te convence, se rehace gratis. 79 € pago único, sin cuotas.\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#guarderia #escuelainfantil #educacioninfantil #autonomos #paginaweb #webalvuelo"
+ }
+}

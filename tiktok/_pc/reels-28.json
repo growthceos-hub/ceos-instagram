@@ -1,0 +1,95 @@
+{
+ "topic": "3 dudas de una floristería antes de probar Reels al Vuelo: «¿tengo que saber grabar?» (con el móvil montando un ramo basta), «¿cuánto cuesta?» (primer reel 1,99 €, 10 reels por 59 €) y «¿hay permanencia?» (sin cuotas). Editado en 24 h con subtítulos, ritmo, música libre y tu logo, revisado por una persona",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Montas ramos<br><em>y no los</em><br><em>enseñas?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LAS 3 DUDAS",
+    "lines": [
+     "¿Tengo que saber grabar?",
+     "¿Cuánto cuesta?",
+     "¿Hay permanencia?"
+    ]
+   },
+   "footer": "3 dudas resueltas para tu floristería"
+  },
+  {
+   "label": "DUDA 1",
+   "title": "«¿Tengo que<br><em>saber grabar?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Móvil apoyado, vertical",
+     "El ramo desde arriba",
+     "Tus manos montándolo"
+    ]
+   },
+   "note": "Lo demás <b>es cosa de la edición.</b>"
+  },
+  {
+   "label": "DUDA 2",
+   "title": "«¿Cuánto<br><em>cuesta?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE PAGAS",
+    "lines": [
+     "Primer reel: 1,99 €",
+     "10 reels: 59 €",
+     "= 5,90 € cada uno"
+    ]
+   },
+   "note": "Primero pruebas <b>con uno.</b>"
+  },
+  {
+   "label": "DUDA 3",
+   "title": "«¿Hay<br><em>permanencia?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "HOY",
+      "t": "Grabas el ramo",
+      "s": "Y nos lo mandas"
+     },
+     {
+      "n": "2",
+      "d": "EN 24 H",
+      "t": "Reel editado",
+      "s": "Subtítulos, música y logo"
+     },
+     {
+      "n": "3",
+      "d": "DESPUÉS",
+      "t": "Tú decides",
+      "s": "Sin cuotas"
+     }
+    ]
+   },
+   "note": "Lo revisa <b>una persona.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú montas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": [
+    "Primer reel por 1,99 €",
+    "10 reels por 59 €",
+    "Sin cuotas"
+   ],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para floristerías 👇\nTres dudas antes de probar:\n¿Tengo que saber grabar? No. Móvil apoyado, el ramo desde arriba y tus manos montándolo.\n¿Cuánto cuesta? El primer reel, 1,99 €. Si te gusta, 10 reels por 59 €.\n¿Hay permanencia? No, sin cuotas.\nEn 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona.\n¿Qué ramo grabarías primero?\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#floristeria #flores #ramos #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para floristerías: 3 dudas resueltas antes de probar",
+  "text": "Edición de reels para floristerías 👇\nTres dudas antes de probar:\n¿Tengo que saber grabar? No. Móvil apoyado, el ramo desde arriba y tus manos montándolo.\n¿Cuánto cuesta? El primer reel, 1,99 €. Si te gusta, 10 reels por 59 €.\n¿Hay permanencia? No, sin cuotas.\nEn 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona.\n¿Qué ramo grabarías primero?\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#floristeria #flores #ramos #edicionvideo #reels #reelsalvuelo"
+ }
+}

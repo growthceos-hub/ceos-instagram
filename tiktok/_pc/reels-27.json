@@ -1,0 +1,66 @@
+{
+ "topic": "3 mitos de una academia de idiomas sobre los reels: «hay que hacer clases enteras» (basta un error típico en 20 segundos), «tiene que salir un nativo» (sale quien da la clase) y «editar en dos idiomas es un lío» (Reels al Vuelo te lo devuelve con subtítulos en 24 h). Primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu academia<br><em>no hace</em><br><em>reels?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE CREE",
+    "lines": ["Hay que dar la clase entera", "Tiene que salir un nativo", "Editar en 2 idiomas, un lío"]
+   },
+   "footer": "3 mitos sobre los reels de tu academia"
+  },
+  {
+   "label": "MITO 1",
+   "title": "«La clase<br><em>entera.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE CREES",
+    "bad": ["Media hora de gramática", "Pizarra y teoría"],
+    "good_t": "LO QUE FUNCIONA",
+    "good": ["Un error típico", "Contado en 20 s"]
+   },
+   "note": "Ejemplo: <b>«I agree», no «I am agree».</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "«Tiene que<br><em>ser nativo.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["El profe de siempre", "Un alumno, con permiso", "Tus manos en la pizarra"]
+   },
+   "note": "Que vean <b>quién les va a dar clase.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "«Editarlo<br><em>es un lío.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "EN EL DESCANSO", "t": "Grabas 20 s", "s": "Con el móvil"},
+     {"n": "2", "d": "AL MOMENTO", "t": "Nos lo mandas", "s": "Tal cual"},
+     {"n": "3", "d": "EN 24 H", "t": "Con subtítulos", "s": "Ritmo, música y logo"}
+    ]
+   },
+   "note": "Lo revisa <b>una persona.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú enseñas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Sin cuotas", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para academias de idiomas 👇\nNo hace falta grabar una clase entera ni que salga un nativo. Un error típico explicado en 20 segundos por el profe de siempre ya es un reel.\nLo grabas con el móvil en el descanso, nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Cuál es el error que más corriges en clase?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#academiadeidiomas #ingles #idiomas #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para academias de idiomas: 3 mitos que te frenan",
+  "text": "Edición de reels para academias de idiomas 👇\nNo hace falta grabar una clase entera ni que salga un nativo. Un error típico explicado en 20 segundos por el profe de siempre ya es un reel.\nLo grabas con el móvil en el descanso, nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Cuál es el error que más corriges en clase?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#academiadeidiomas #ingles #idiomas #edicionvideo #reels #reelsalvuelo"
+ }
+}

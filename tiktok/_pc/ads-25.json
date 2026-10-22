@@ -1,0 +1,72 @@
+{
+ "topic": "Anuncios para tiendas de ropa: 3 dudas antes de anunciarte en Meta y su respuesta. «Mis vídeos se ven caseros» (la versión Nativa aprovecha justo eso), «no sé qué gancho poner» (cada versión trae uno distinto) y «editar me lleva la tarde» (subes el bruto y te llegan 3 versiones, normalmente el mismo día)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu tienda<br>sin anuncios<br><em>en vídeo?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE TE FRENA",
+    "lines": ["Se ve casero", "No sé qué gancho poner", "Editar me lleva la tarde"]
+   },
+   "footer": "3 dudas resueltas para tu tienda de ropa"
+  },
+  {
+   "label": "DUDA 1",
+   "title": "«Se ve<br><em>casero.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE CREES",
+    "bad": ["Necesito un estudio", "Y una modelo"],
+    "good_t": "VERSIÓN NATIVA",
+    "good": ["Tu probador, tal cual", "Parece un reel tuyo"]
+   },
+   "note": "Lo casero <b>no parece anuncio.</b>"
+  },
+  {
+   "label": "DUDA 2",
+   "title": "«No sé<br><em>qué gancho.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu tienda",
+    "copy": "Versión B · Directa.",
+    "media": "EL VESTIDO QUE TODAS PREGUNTAN",
+    "headline": "Ven a probártelo",
+    "cta": "Cómo llegar",
+    "tags": ["GANCHO B", "LO FUERTE PRIMERO"]
+   },
+   "note": "Cada versión <b>trae uno distinto.</b>"
+  },
+  {
+   "label": "DUDA 3",
+   "title": "«Editar<br><em>me lleva horas.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "AL CERRAR", "t": "Subes el bruto", "s": "Grabado en el probador"},
+     {"n": "2", "d": "NORMALMENTE", "t": "El mismo día", "s": "Te llegan A, B y C"},
+     {"n": "3", "d": "Y SI ALGO NO", "t": "Ronda de cambios", "s": "Con tus palabras"}
+    ]
+   },
+   "note": "Cada una <b>con su copy para Meta.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Grabas uno,<br><em>te llegan tres.</em>",
+   "size": 96,
+   "dur": 6,
+   "items": ["4 anuncios en bruto", "12 versiones con copy", "Desde 49 €"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para tiendas de ropa: 3 dudas antes de anunciarte en Meta 👗👇\n→ «Mis vídeos se ven caseros»: la versión Nativa aprovecha justo eso, parece un reel tuyo y no un anuncio\n→ «No sé qué gancho poner»: cada una de las 3 versiones trae uno distinto\n→ «Editar me lleva la tarde»: subes el bruto y te llegan A, B y C con su copy, normalmente el mismo día\nY tienes una ronda de cambios por anuncio.\n¿Qué prenda anunciarías primero?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #tiendaderopa #moda #metaads #anunciosenvideo #comerciolocal",
+ "tiktok": {
+  "title": "Anuncios para tiendas de ropa: 3 dudas resueltas antes de anunciarte",
+  "text": "Anuncios para tiendas de ropa: 3 dudas antes de anunciarte en Meta 👗👇\n→ «Mis vídeos se ven caseros»: la versión Nativa aprovecha justo eso, parece un reel tuyo y no un anuncio\n→ «No sé qué gancho poner»: cada una de las 3 versiones trae uno distinto\n→ «Editar me lleva la tarde»: subes el bruto y te llegan A, B y C con su copy, normalmente el mismo día\nY tienes una ronda de cambios por anuncio.\n¿Qué prenda anunciarías primero?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #tiendaderopa #moda #metaads #anunciosenvideo #comerciolocal"
+ }
+}

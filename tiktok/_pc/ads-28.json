@@ -1,0 +1,68 @@
+{
+ "topic": "Anuncios para clínicas veterinarias: 3 ganchos para grabar con el móvil. La duda que repite cada dueño («¿cada cuánto le vacuno?»), el aviso de temporada (procesionaria en primavera, golpe de calor en verano) y la clínica por dentro con el equipo recibiendo a un paciente. Ads al Vuelo: 3 versiones con su copy desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué grabas<br>en tu clínica<br><em>veterinaria?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "3 GANCHOS PARA GRABAR",
+    "lines": ["La duda del dueño", "El aviso de temporada", "La clínica por dentro"]
+   },
+   "footer": "3 ganchos para el anuncio de tu clínica"
+  },
+  {
+   "label": "GANCHO 1",
+   "title": "La duda<br><em>del dueño.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Dueño",
+    "msgs": [
+     {"from": "in", "text": "¿Cada cuánto le vacuno?", "time": "12:30"},
+     {"from": "in", "text": "¿Y la pipeta cuándo toca?", "time": "12:31"}
+    ]
+   },
+   "note": "La respuesta, <b>en 20 segundos a cámara.</b>"
+  },
+  {
+   "label": "GANCHO 2",
+   "title": "El aviso<br><em>de temporada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu clínica",
+    "copy": "Gancho de aviso.",
+    "media": "OJO CON LA PROCESIONARIA",
+    "headline": "Pide cita",
+    "cta": "Llamar",
+    "tags": ["AVISO", "PRIMAVERA"]
+   },
+   "note": "En verano, <b>el golpe de calor.</b>"
+  },
+  {
+   "label": "GANCHO 3",
+   "title": "La clínica<br><em>por dentro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["El equipo recibiendo", "La consulta, limpia", "Con permiso del dueño"]
+   },
+   "note": "Graba <b>los tres</b> y que Meta elija."
+  },
+  {
+   "kind": "cta",
+   "title": "Tres ganchos,<br><em>tres versiones.</em>",
+   "dur": 6,
+   "items": ["Dinámica, Directa y Nativa", "Cada una con su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para clínicas veterinarias: 3 ganchos para grabar con el móvil 🐾👇\n→ La duda que repite cada dueño: «¿cada cuánto le vacuno?», respondida en 20 segundos a cámara\n→ El aviso de temporada: procesionaria en primavera, golpe de calor en verano\n→ La clínica por dentro: el equipo recibiendo a un paciente, con permiso del dueño\nSubes el bruto y te llegan 3 versiones editadas para Meta Ads (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nMás ganchos gratis: ads.ceosgrowth.com/ganchos-para-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #veterinario #clinicaveterinaria #metaads #anunciosenvideo #mascotas",
+ "tiktok": {
+  "title": "Anuncios para clínicas veterinarias: 3 ganchos para grabar con el móvil",
+  "text": "Anuncios para clínicas veterinarias: 3 ganchos para grabar con el móvil 🐾👇\n→ La duda que repite cada dueño: «¿cada cuánto le vacuno?», respondida en 20 segundos a cámara\n→ El aviso de temporada: procesionaria en primavera, golpe de calor en verano\n→ La clínica por dentro: el equipo recibiendo a un paciente, con permiso del dueño\nSubes el bruto y te llegan 3 versiones editadas para Meta Ads (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nMás ganchos gratis: ads.ceosgrowth.com/ganchos-para-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #veterinario #clinicaveterinaria #metaads #anunciosenvideo #mascotas"
+ }
+}

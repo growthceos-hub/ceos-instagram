@@ -1,0 +1,67 @@
+{
+ "topic": "La cuenta de la cuota para un estudio de yoga o pilates: una web o plataforma de 25 € al mes son 300 € al año y 1.500 € en 5 años; con Web al Vuelo pagas 79 € una vez y la web es tuya. Con horario de clases, clase de prueba por WhatsApp, mapa y reseñas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuánto pagas<br><em>al año</em><br><em>por tu web?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA DE LA CUOTA",
+    "lines": ["25 € al mes", "x 12 = 300 € al año", "x 5 años = 1.500 €"]
+   },
+   "footer": "Haz la cuenta de tu estudio de yoga o pilates"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "Recibo<br><em>tras recibo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Pagado en cuotas de 25 €/mes",
+    "items": [
+     {"label": "Año 1 · 300 €", "value": 20},
+     {"label": "Año 3 · 900 €", "value": 60},
+     {"label": "Año 5 · 1.500 €", "value": 100, "hi": true}
+    ]
+   },
+   "note": "Y la web <b>sigue sin ser tuya.</b>"
+  },
+  {
+   "label": "LA OTRA OPCIÓN",
+   "title": "79 €<br><em>una vez.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CON CUOTA",
+    "bad": ["Un recibo cada mes", "Si dejas de pagar, adiós"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "La web es tuya"]
+   },
+   "note": "Menos que <b>cuatro meses de cuota.</b>"
+  },
+  {
+   "label": "LO QUE LLEVA",
+   "title": "Lo que busca<br><em>tu alumna.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Horario de clases", "Clase de prueba", "Reservar por WhatsApp", "Mapa y reseñas"]
+   },
+   "note": "Que venga <b>a probar sin llamarte.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>La web es tuya.</em>",
+   "dur": 6,
+   "items": ["Horario y clase de prueba", "Botón de WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para estudios de yoga y pilates 👇\nHaz la cuenta: 25 € al mes son 300 € al año y 1.500 € en cinco años. Y si dejas de pagar, te quedas sin web.\nCon Web al Vuelo pagas 79 € una vez, menos que cuatro meses de cuota. Con horario de clases, clase de prueba, botón de WhatsApp, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuántos recibos llevas pagados?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#yoga #pilates #estudiodeyoga #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para yoga y pilates: lo que suman 25 € al mes en 5 años",
+  "text": "Página web para estudios de yoga y pilates 👇\nHaz la cuenta: 25 € al mes son 300 € al año y 1.500 € en cinco años. Y si dejas de pagar, te quedas sin web.\nCon Web al Vuelo pagas 79 € una vez, menos que cuatro meses de cuota. Con horario de clases, clase de prueba, botón de WhatsApp, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuántos recibos llevas pagados?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#yoga #pilates #estudiodeyoga #autonomos #paginaweb #webalvuelo"
+ }
+}

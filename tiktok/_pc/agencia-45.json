@@ -1,0 +1,103 @@
+{
+ "topic": "Delegar una tarea sin que salga mal: graba la pantalla o tu voz mientras la haces tú, conviértelo en una lista de pasos con cómo se ve el trabajo bien hecho, y revisa las primeras veces juntos antes de soltarla",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Delegas<br><em>y lo rehaces tú?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu equipo",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Así está bien?"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Déjalo,",
+       "ya lo hago yo."
+      ]
+     }
+    ]
+   },
+   "footer": "3 pasos para delegar de verdad"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Grábate<br><em>haciéndolo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Graba la pantalla",
+     "Explica en voz alta",
+     "Hazlo una vez normal"
+    ]
+   },
+   "note": "No escribas un manual: <b>dale al botón.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pasos y<br><em>cómo se ve bien.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TAREA: PRESUPUESTO",
+    "lines": [
+     "1. Copia la plantilla",
+     "2. Rellena medidas y precio",
+     "Bien hecho: enviado en 24 h"
+    ]
+   },
+   "note": "Si no dices cómo es <b>«bien», no lo sabrá.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Revisad<br><em>las primeras.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "SEMANA 1",
+      "t": "Lo hace y lo revisas",
+      "s": "Corriges juntos"
+     },
+     {
+      "n": "2",
+      "d": "SEMANA 2",
+      "t": "Revisas una de cada tres",
+      "s": "Ya casi solo"
+     },
+     {
+      "n": "3",
+      "d": "SEMANA 3",
+      "t": "Lo suelta solo",
+      "s": "Y tú a otra cosa"
+     }
+    ]
+   },
+   "note": "Corregir ahora <b>te ahorra rehacerlo siempre.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Delega<br><em>sin rehacer.</em>",
+   "dur": 6,
+   "items": [
+    "Grábate haciéndolo",
+    "Pasos y cómo se ve bien",
+    "Revisad las primeras"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Delegar tareas en tu negocio: 3 pasos para no acabar rehaciéndolo tú",
+  "text": "Delegar en tu negocio: si siempre acabas rehaciéndolo tú, revisa cómo lo explicas 🧩👇\n\nCasi nunca sale bien a la primera porque lo que tienes en la cabeza no está escrito en ningún sitio.\n\n→ Grábate haciendo la tarea una vez, con la pantalla o el móvil, explicándolo en voz alta\n→ Pásalo a una lista de pasos y añade cómo se ve el trabajo bien hecho\n→ Revisad juntos las primeras veces y ve soltando poco a poco\n\nEmpieza por la tarea que más te repites cada semana.\n\n¿Qué tarea de tu negocio te gustaría no volver a hacer tú?\n\nSíguenos para más tips 🧡\n\n#delegar #productividad #empresarios #gestiondeequipos #pymes #ceosgrowth"
+ },
+ "caption": "Delegar en tu negocio: si siempre acabas rehaciéndolo tú, revisa cómo lo explicas 🧩👇\n\nCasi nunca sale bien a la primera porque lo que tienes en la cabeza no está escrito en ningún sitio.\n\n→ Grábate haciendo la tarea una vez, con la pantalla o el móvil, explicándolo en voz alta\n→ Pásalo a una lista de pasos y añade cómo se ve el trabajo bien hecho\n→ Revisad juntos las primeras veces y ve soltando poco a poco\n\nEmpieza por la tarea que más te repites cada semana.\n\n¿Qué tarea de tu negocio te gustaría no volver a hacer tú?\n\nSíguenos para más tips 🧡\n\n#delegar #productividad #empresarios #gestiondeequipos #pymes #ceosgrowth"
+}

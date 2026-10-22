@@ -1,0 +1,66 @@
+{
+ "topic": "3 cosas que debe tener el reel de una joyería: la pieza puesta en una mano o en el cuello (no en la vitrina), el brillo con luz de ventana y un trozo del taller (grabado, engaste, arreglo). Reels al Vuelo: grabas con el móvil y te lo devolvemos editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus joyas<br><em>no brillan</em><br><em>en vídeo?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EN LA VITRINA",
+    "bad": ["Reflejos del cristal", "Luz de tubo"],
+    "good_t": "EN UNA MANO",
+    "good": ["Luz de ventana", "Movimiento lento"]
+   },
+   "footer": "3 cosas que debe tener el reel de tu joyería"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "La pieza<br><em>puesta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["El anillo en el dedo", "El collar en el cuello", "Un giro de muñeca"]
+   },
+   "note": "Que se imagine <b>llevándola.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "El brillo<br><em>con luz natural.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CÓMO GRABARLO",
+    "lines": ["Junto a la ventana", "Móvil a un palmo", "Mueve la pieza, no el móvil"]
+   },
+   "note": "El destello <b>lo da la luz.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Un trozo<br><em>del taller.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ANTES", "t": "La pieza en bruto", "s": "O el arreglo pendiente"},
+     {"n": "2", "d": "EN EL TALLER", "t": "Grabado o engaste", "s": "Tus manos, de cerca"},
+     {"n": "3", "d": "DESPUÉS", "t": "La pieza lista", "s": "En su caja"}
+    ]
+   },
+   "note": "El oficio <b>da confianza.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú grabas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Música libre y tu logo", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para joyerías 👇\nUna joya en la vitrina se ve con reflejos y luz de tubo. Puesta en una mano, junto a la ventana y moviéndose despacio, se ve como es.\nGraba la pieza puesta, el brillo con luz natural y un trozo del taller. Nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Qué pieza grabarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#joyeria #joyas #joyeriaartesanal #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para joyerías: 3 cosas que debe tener tu vídeo",
+  "text": "Edición de reels para joyerías 👇\nUna joya en la vitrina se ve con reflejos y luz de tubo. Puesta en una mano, junto a la ventana y moviéndose despacio, se ve como es.\nGraba la pieza puesta, el brillo con luz natural y un trozo del taller. Nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Qué pieza grabarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#joyeria #joyas #joyeriaartesanal #edicionvideo #reels #reelsalvuelo"
+ }
+}

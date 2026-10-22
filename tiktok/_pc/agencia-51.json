@@ -1,0 +1,88 @@
+{
+ "topic": "Campaña de Navidad para un negocio local: prepárala con semanas de margen; a finales de octubre cierra la oferta (bono regalo, pack o fechas), en noviembre graba los anuncios y lanza, y en diciembre recuerda la fecha límite a quien ya te vio",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu campaña<br><em>de Navidad?</em>",
+   "size": 134,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EL 15 DE DICIEMBRE",
+    "bad": [
+     "Anuncio con prisas",
+     "Ya han comprado"
+    ],
+    "good_t": "DESDE ESTA SEMANA",
+    "good": [
+     "Oferta pensada",
+     "Llegas a tiempo"
+    ]
+   },
+   "footer": "El calendario en 3 pasos"
+  },
+  {
+   "label": "SEMANA 1",
+   "title": "Cierra<br><em>la oferta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Bono regalo",
+     "Pack de Navidad",
+     "Fechas para reservar"
+    ]
+   },
+   "note": "Una sola oferta, <b>fácil de regalar.</b>"
+  },
+  {
+   "label": "SEMANA 2",
+   "title": "Graba<br><em>y lanza.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "El regalo que sí van a usar.",
+    "media": "BONO REGALO DE NAVIDAD",
+    "headline": "Lo recibes por WhatsApp",
+    "cta": "Comprar",
+    "tags": [
+     "GRABADO CON TIEMPO",
+     "TIEMPO PARA PROBAR"
+    ]
+   },
+   "note": "Lanzar pronto te da <b>tiempo para corregir.</b>"
+  },
+  {
+   "label": "DICIEMBRE",
+   "title": "Recuerda<br><em>la fecha límite.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANUNCIO A QUIEN YA TE VIO",
+    "lines": [
+     "Último día para pedir",
+     "tu bono antes de Navidad:",
+     "el 20 de diciembre."
+    ]
+   },
+   "note": "Para quien vio el anuncio <b>y aún no compró.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "La Navidad<br><em>empieza ya.</em>",
+   "dur": 6,
+   "items": [
+    "Semana 1: la oferta",
+    "Semana 2: grabar y lanzar",
+    "Diciembre: fecha límite"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Campaña de Navidad para negocio local: el plan para las próximas 3 semanas",
+  "text": "Campaña de Navidad: si la empiezas el 15 de diciembre, llegas tarde 🎄👇\n\nEn pleno diciembre los anuncios se lanzan con prisas y mucha gente ya tiene los regalos pensados. Si lo ves ahora, aún llegas bien.\n\n→ Esta semana: cierra una sola oferta fácil de regalar (un bono, un pack o fechas para reservar)\n→ La semana que viene: graba los anuncios y lánzalos, así tienes tiempo para corregir lo que no funcione\n→ En diciembre: enseña un recordatorio con la fecha límite a quien vio el anuncio y aún no compró\n\nVale para peluquerías, estética, restaurantes, tiendas y casi cualquier negocio local.\n\n¿Qué podrías vender tú como regalo de Navidad?\n\nSíguenos para más tips 🧡\n\n#campañadenavidad #metaads #negociolocal #bonoregalo #pymes #ceosgrowth"
+ },
+ "caption": "Campaña de Navidad: si la empiezas el 15 de diciembre, llegas tarde 🎄👇\n\nEn pleno diciembre los anuncios se lanzan con prisas y mucha gente ya tiene los regalos pensados. Si lo ves ahora, aún llegas bien.\n\n→ Esta semana: cierra una sola oferta fácil de regalar (un bono, un pack o fechas para reservar)\n→ La semana que viene: graba los anuncios y lánzalos, así tienes tiempo para corregir lo que no funcione\n→ En diciembre: enseña un recordatorio con la fecha límite a quien vio el anuncio y aún no compró\n\nVale para peluquerías, estética, restaurantes, tiendas y casi cualquier negocio local.\n\n¿Qué podrías vender tú como regalo de Navidad?\n\nSíguenos para más tips 🧡\n\n#campañadenavidad #metaads #negociolocal #bonoregalo #pymes #ceosgrowth"
+}

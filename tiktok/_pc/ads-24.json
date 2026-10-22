@@ -1,0 +1,67 @@
+{
+ "topic": "Checklist antes de subir un anuncio en vídeo a Meta Ads: vertical 9:16, gancho en los primeros 3 segundos, subtítulos para verlo sin sonido, texto y cara dentro de la zona segura, una sola llamada a la acción y copy con titular de 40 caracteres. Ads al Vuelo entrega cada versión así",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br><em>está listo</em><br><em>para Meta?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Vertical 9:16", "Gancho en 3 s", "Subtítulos"]
+   },
+   "footer": "La checklist antes de subir tu anuncio"
+  },
+  {
+   "label": "CHECK 1",
+   "title": "Vertical<br><em>y gancho en 3 s.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "NO PASA",
+    "bad": ["Grabado en horizontal", "Empieza con el logo"],
+    "good_t": "PASA",
+    "good": ["1080 × 1920", "La frase fuerte primero"]
+   },
+   "note": "El primer segundo <b>decide si se quedan.</b>"
+  },
+  {
+   "label": "CHECK 2",
+   "title": "Subtítulos<br><em>y zona segura.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Texto dentro de la zona segura.",
+    "media": "SE ENTIENDE SIN SONIDO",
+    "headline": "Más información",
+    "cta": "Ver más",
+    "tags": ["SUBTÍTULOS", "NADA TAPA LA CARA"]
+   },
+   "note": "Que no lo tapen <b>los botones de Instagram.</b>"
+  },
+  {
+   "label": "CHECK 3",
+   "title": "Una acción<br><em>y su copy.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE PUBLICAR",
+    "lines": ["Una sola acción al final", "Titular de 40 caracteres", "Primera línea = gancho"]
+   },
+   "note": "Si falla uno, <b>arréglalo antes de gastar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Te llegan<br><em>con todo esto.</em>",
+   "dur": 6,
+   "items": ["3 versiones en 9:16", "Subtítulos y su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncio en vídeo para Meta Ads: la checklist antes de subirlo ✅👇\n→ Vertical, 1080 × 1920, y la frase fuerte en los primeros 3 segundos\n→ Subtítulos para verlo sin sonido, con texto y cara dentro de la zona segura\n→ Una sola llamada a la acción, titular de 40 caracteres y la primera línea del texto repitiendo el gancho\nCon Ads al Vuelo subes el bruto y cada una de las 3 versiones llega así, con su copy, normalmente el mismo día.\n¿Cuántos checks pasa tu último anuncio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #anunciosenvideo #creatividades #publicidadonline #marketingdigital",
+ "tiktok": {
+  "title": "Anuncio en vídeo para Meta Ads: la checklist antes de subirlo",
+  "text": "Anuncio en vídeo para Meta Ads: la checklist antes de subirlo ✅👇\n→ Vertical, 1080 × 1920, y la frase fuerte en los primeros 3 segundos\n→ Subtítulos para verlo sin sonido, con texto y cara dentro de la zona segura\n→ Una sola llamada a la acción, titular de 40 caracteres y la primera línea del texto repitiendo el gancho\nCon Ads al Vuelo subes el bruto y cada una de las 3 versiones llega así, con su copy, normalmente el mismo día.\n¿Cuántos checks pasa tu último anuncio?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #metaads #anunciosenvideo #creatividades #publicidadonline #marketingdigital"
+ }
+}

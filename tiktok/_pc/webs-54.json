@@ -1,0 +1,67 @@
+{
+ "topic": "La cuenta de la cuota para un coach: una web por suscripción de 20 € al mes son 240 € al año y 1.200 € en 5 años; con Web al Vuelo pagas 79 € una vez, menos que 4 meses de cuota, y la web es tuya. Con a quién ayudas, cómo son tus sesiones, reseñas y botón de cita o WhatsApp",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "1.200 €<br><em>por una web</em><br><em>de coach.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA DE LA CUOTA",
+    "lines": ["20 € al mes", "x 12 = 240 € al año", "x 5 años = 1.200 €"]
+   },
+   "footer": "Haz la cuenta de tu web de coaching"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "Sin darte<br><em>cuenta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Pagado en cuotas de 20 €/mes",
+    "items": [
+     {"label": "Año 1 · 240 €", "value": 20},
+     {"label": "Año 3 · 720 €", "value": 60},
+     {"label": "Año 5 · 1.200 €", "value": 100, "hi": true}
+    ]
+   },
+   "note": "Y si cancelas, <b>la web desaparece.</b>"
+  },
+  {
+   "label": "LA OTRA CUENTA",
+   "title": "79 €,<br><em>una vez.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CON SUSCRIPCIÓN",
+    "bad": ["20 € cada mes", "Si cancelas, adiós"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "La web es tuya"]
+   },
+   "note": "Menos que <b>cuatro meses de cuota.</b>"
+  },
+  {
+   "label": "LO QUE LLEVA",
+   "title": "Lo que busca<br><em>tu cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["A quién ayudas", "Cómo son las sesiones", "Reseñas", "Cita o WhatsApp"]
+   },
+   "note": "Que reserve <b>la primera sesión</b> sin rodeos."
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>La web es tuya.</em>",
+   "dur": 6,
+   "items": ["Sin cuotas", "Botón de cita y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para coaches 👇\nHaz la cuenta: 20 € al mes son 240 € al año y 1.200 € en cinco años. Y si un día cancelas, la web desaparece.\nCon Web al Vuelo pagas 79 € una vez, menos que cuatro meses de cuota, y la web es tuya. Con a quién ayudas, cómo son tus sesiones, reseñas y botón de cita o WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuánto llevas pagado ya en suscripciones?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#coach #coaching #marcapersonal #emprendedores #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para coaches: lo que suman 20 € al mes en 5 años",
+  "text": "Página web para coaches 👇\nHaz la cuenta: 20 € al mes son 240 € al año y 1.200 € en cinco años. Y si un día cancelas, la web desaparece.\nCon Web al Vuelo pagas 79 € una vez, menos que cuatro meses de cuota, y la web es tuya. Con a quién ayudas, cómo son tus sesiones, reseñas y botón de cita o WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuánto llevas pagado ya en suscripciones?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#coach #coaching #marcapersonal #emprendedores #paginaweb #webalvuelo"
+ }
+}

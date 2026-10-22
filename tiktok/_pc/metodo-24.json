@@ -1,0 +1,98 @@
+{
+ "topic": "Hacer un curso de Meta Ads o que lo haga una agencia como Ceos Growth: el curso te enseña campañas pero no te graba los anuncios (nosotros grabamos 15–20 en estudio propio), no te monta el CRM ni te da un equipo (10 perfiles), y lo pagas vendas o no (nosotros, comisión sobre ventas)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Curso de Meta<br><em>o agencia?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CURSO",
+    "bad": [
+     "Aprendes la teoría",
+     "Lo haces tú de noche"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "Lo hace un equipo",
+     "Tú, a tu negocio"
+    ]
+   },
+   "footer": "3 cosas que un curso no te da"
+  },
+  {
+   "label": "NO TE DA 1",
+   "title": "Los<br><em>anuncios.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Guion y ganchos",
+     "15–20 anuncios grabados",
+     "En estudio propio"
+    ]
+   },
+   "note": "Sin anuncios, <b>la campaña no tiene qué enseñar.</b>"
+  },
+  {
+   "label": "NO TE DA 2",
+   "title": "El equipo<br><em>y el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "CON CURSO",
+      "t": "Tú solo",
+      "s": "Campañas, leads y todo lo demás"
+     },
+     {
+      "n": "10",
+      "d": "CON CEOS GROWTH",
+      "t": "Equipo de 10 perfiles",
+      "s": "Y cada lead en el CRM"
+     }
+    ]
+   },
+   "note": "Saber hacerlo <b>no te da tiempo para hacerlo.</b>"
+  },
+  {
+   "label": "NO TE DA 3",
+   "title": "Pagar<br><em>solo si vendes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CURSO",
+    "bad": [
+     "Lo pagas al apuntarte",
+     "Vendas o no"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "Comisión sobre ventas",
+     "Sin permanencia"
+    ]
+   },
+   "note": "Y en <b>26 días</b> funcionando."
+  },
+  {
+   "kind": "cta",
+   "title": "Aprender<br><em>o delegar.</em>",
+   "dur": 6,
+   "items": [
+    "15–20 anuncios en estudio",
+    "Equipo de 10 perfiles y CRM",
+    "Comisión sobre ventas"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Curso de Meta Ads o agencia: qué te conviene si tienes un negocio y poco tiempo",
+  "text": "Curso de Meta Ads o agencia: antes de apuntarte, piensa quién lo va a hacer después 🎓👇\n\nUn buen curso te enseña a montar campañas. Lo que no hace es grabar tus anuncios ni ordenar tus leads mientras tú atiendes el negocio.\n\n→ Los anuncios: en Ceos Growth grabamos 15–20 en nuestro estudio propio\n→ El equipo y el CRM: 10 perfiles y cada lead a la vista, en vez de hacerlo tú de noche\n→ El pago: comisión sobre ventas y 12 meses de Meta Ads sin permanencia\n\nSi te gusta aprender y tienes tiempo, el curso puede ser buena idea. Si no, delega.\n\n¿Has hecho alguna vez un curso de Meta Ads?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #cursometaads #agenciademarketing #empresarios #pymes"
+ },
+ "caption": "Curso de Meta Ads o agencia: antes de apuntarte, piensa quién lo va a hacer después 🎓👇\n\nUn buen curso te enseña a montar campañas. Lo que no hace es grabar tus anuncios ni ordenar tus leads mientras tú atiendes el negocio.\n\n→ Los anuncios: en Ceos Growth grabamos 15–20 en nuestro estudio propio\n→ El equipo y el CRM: 10 perfiles y cada lead a la vista, en vez de hacerlo tú de noche\n→ El pago: comisión sobre ventas y 12 meses de Meta Ads sin permanencia\n\nSi te gusta aprender y tienes tiempo, el curso puede ser buena idea. Si no, delega.\n\n¿Has hecho alguna vez un curso de Meta Ads?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #cursometaads #agenciademarketing #empresarios #pymes"
+}

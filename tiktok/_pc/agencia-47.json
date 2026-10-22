@@ -1,0 +1,89 @@
+{
+ "topic": "Ganchos que nombran a tu cliente: empieza el anuncio llamando a quien quieres (oficio, zona o situación), añade el momento concreto en que tiene el problema y prueba varias versiones cambiando solo esa primera frase",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br><em>le habla a todos?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "PARA TODO EL MUNDO",
+    "bad": [
+     "«¿Quieres más clientes?»",
+     "Nadie se da por aludido"
+    ],
+    "good_t": "CON NOMBRE",
+    "good": [
+     "«Dueños de taller…»",
+     "Ese se para a mirar"
+    ]
+   },
+   "footer": "3 formas de nombrar a tu cliente"
+  },
+  {
+   "label": "FORMA 1",
+   "title": "Por su<br><em>oficio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "GANCHO",
+    "lines": [
+     "Si tienes una peluquería",
+     "y los martes no entra nadie…"
+    ]
+   },
+   "note": "Quien no lo es <b>pasa, y está bien.</b>"
+  },
+  {
+   "label": "FORMA 2",
+   "title": "Por su<br><em>zona.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Para vecinos de Gamonal",
+    "media": "¿VIVES EN GAMONAL Y TU CALDERA HACE RUIDO?",
+    "headline": "Técnico en el día",
+    "cta": "Llamar",
+    "tags": [
+     "ZONA",
+     "PROBLEMA",
+     "MOMENTO"
+    ]
+   },
+   "note": "Para negocio local, <b>la zona es oro.</b>"
+  },
+  {
+   "label": "FORMA 3",
+   "title": "Por su<br><em>momento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "«Si acabas de abrir…»",
+     "«Si te casas en verano…»",
+     "«Si te acaban de dar llaves…»"
+    ]
+   },
+   "note": "Prueba varias <b>cambiando solo el gancho.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Llama a tu cliente<br><em>por su nombre.</em>",
+   "dur": 6,
+   "size": 94,
+   "items": [
+    "Por su oficio",
+    "Por su zona",
+    "Por su momento"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Ganchos para anuncios: cómo nombrar a tu cliente en la primera frase",
+  "text": "Ganchos para anuncios: si le hablas a todo el mundo, nadie se para 🎣👇\n\n«¿Quieres más clientes?» lo dice todo el mundo. «Si tienes una peluquería y los martes no entra nadie…» solo lo escucha quien tiene que escucharlo.\n\n→ Nómbralo por su oficio: «si tienes un taller…»\n→ Nómbralo por su zona: «si vives en Gamonal…». Para negocio local funciona muy bien\n→ Nómbralo por su momento: «si acabas de comprar piso…»\n\nGraba el mismo anuncio con tres primeras frases distintas y deja que Meta te diga cuál engancha más.\n\n¿Cómo empieza ahora tu anuncio?\n\nSíguenos para más tips 🧡\n\n#ganchos #anuncios #metaads #copywriting #pymes #ceosgrowth"
+ },
+ "caption": "Ganchos para anuncios: si le hablas a todo el mundo, nadie se para 🎣👇\n\n«¿Quieres más clientes?» lo dice todo el mundo. «Si tienes una peluquería y los martes no entra nadie…» solo lo escucha quien tiene que escucharlo.\n\n→ Nómbralo por su oficio: «si tienes un taller…»\n→ Nómbralo por su zona: «si vives en Gamonal…». Para negocio local funciona muy bien\n→ Nómbralo por su momento: «si acabas de comprar piso…»\n\nGraba el mismo anuncio con tres primeras frases distintas y deja que Meta te diga cuál engancha más.\n\n¿Cómo empieza ahora tu anuncio?\n\nSíguenos para más tips 🧡\n\n#ganchos #anuncios #metaads #copywriting #pymes #ceosgrowth"
+}

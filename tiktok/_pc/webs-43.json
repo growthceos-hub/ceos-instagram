@@ -1,0 +1,74 @@
+{
+ "topic": "POV para wedding planners: una pareja se acaba de prometer, busca organizadora de bodas y quiere ver bodas que has hecho, cómo trabajas y cómo pedir una primera reunión. Qué tiene que ver en tu web. Web al Vuelo: 79 € pago único, primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: se acaban<br><em>de prometer.</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Pareja",
+    "msgs": [
+     {"from": "in", "text": "Nos casamos en junio", "time": "23:12"},
+     {"from": "in", "text": "¿Tienes la fecha libre?", "time": "23:13"}
+    ]
+   },
+   "footer": "Lo que tiene que ver en tu web de bodas"
+  },
+  {
+   "label": "LO PRIMERO",
+   "title": "Bodas<br><em>que has hecho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO UN PERFIL",
+    "bad": ["Fotos sueltas", "Sin explicar nada"],
+    "good_t": "TU WEB",
+    "good": ["Bodas por estilo", "Finca, playa, ciudad"]
+   },
+   "note": "Busca bodas <b>que se parezcan a la suya.</b>"
+  },
+  {
+   "label": "LO SEGUNDO",
+   "title": "Cómo<br><em>trabajas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "REUNIÓN", "t": "Os conocéis", "s": "Qué boda quieren"},
+     {"n": "2", "d": "PROPUESTA", "t": "Lo que incluye", "s": "Organización completa o día B"},
+     {"n": "3", "d": "EL DÍA", "t": "Tú lo coordinas", "s": "Ellos solo disfrutan"}
+    ]
+   },
+   "note": "Lo entiende <b>sin tener que llamarte.</b>"
+  },
+  {
+   "label": "LO TERCERO",
+   "title": "Pedir<br><em>la reunión.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Primera reunión",
+    "fields": [
+     {"q": "Fecha de la boda", "a": "Junio del año que viene"},
+     {"q": "Número de invitados", "a": "Unos 120"}
+    ],
+    "badge": "✓ SOLICITUD ENVIADA"
+   },
+   "note": "O un toque <b>a tu WhatsApp.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Bodas por estilo", "Pedir reunión o WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para wedding planners 👇\nPOV: una pareja se acaba de prometer y esa misma noche busca organizadora de bodas. Quiere ver bodas parecidas a la suya, entender cómo trabajas y pedir una reunión sin rodeos.\nTu web con bodas por estilo, cómo trabajas, botón de reunión o WhatsApp y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Qué tipo de boda te gusta más organizar?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#weddingplanner #bodas #organizaciondebodas #novias #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para wedding planners: POV, una pareja se acaba de prometer",
+  "text": "Página web para wedding planners 👇\nPOV: una pareja se acaba de prometer y esa misma noche busca organizadora de bodas. Quiere ver bodas parecidas a la suya, entender cómo trabajas y pedir una reunión sin rodeos.\nTu web con bodas por estilo, cómo trabajas, botón de reunión o WhatsApp y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Qué tipo de boda te gusta más organizar?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#weddingplanner #bodas #organizaciondebodas #novias #paginaweb #webalvuelo"
+ }
+}

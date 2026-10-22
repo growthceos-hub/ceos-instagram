@@ -1,0 +1,111 @@
+{
+ "topic": "Qué mide Ceos Growth y por qué: como cobramos comisión sobre ventas, lo que importa no son los likes ni las visitas sino los leads que entran en el CRM y las ventas que salen de ellos; el informe que deberías pedir a cualquier agencia",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu agencia<br><em>te habla de likes?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Informe de tu agencia",
+    "items": [
+     {
+      "label": "Me gusta",
+      "value": 90
+     },
+     {
+      "label": "Alcance",
+      "value": 75
+     },
+     {
+      "label": "Ventas",
+      "value": 8,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 números que sí importan"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Leads<br><em>en el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Cada lead de Meta Ads",
+     "Con su anuncio de origen",
+     "Y su próxima acción"
+    ]
+   },
+   "note": "Si no está en el CRM, <b>no existe.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Ventas<br><em>de esos leads.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ENTRA",
+      "t": "Lead de Meta Ads",
+      "s": "Al CRM"
+     },
+     {
+      "n": "2",
+      "d": "HABLA",
+      "t": "Cita o llamada",
+      "s": "Seguimiento en el CRM"
+     },
+     {
+      "n": "3",
+      "d": "COMPRA",
+      "t": "Venta marcada",
+      "s": "Y de qué anuncio vino"
+     }
+    ]
+   },
+   "note": "Así sabes <b>qué anuncio vende.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Lo que<br><em>nos llevamos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "COBRAR POR LIKES",
+    "bad": [
+     "Informe bonito",
+     "Cobra vendas o no"
+    ],
+    "good_t": "COMISIÓN SOBRE VENTAS",
+    "good": [
+     "Medimos ventas",
+     "Ganamos si vendes"
+    ]
+   },
+   "note": "Por eso nos importan <b>tus ventas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pide un informe<br><em>de ventas.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": [
+    "Leads en el CRM",
+    "Ventas de esos leads",
+    "Comisión sobre ventas"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Informe de tu agencia de marketing: los 3 números que importan más que los likes",
+  "text": "Informe de tu agencia de marketing: si te habla de likes y alcance, pide otra cosa 📈👇\n\nLos me gusta no pagan facturas. En Ceos Growth cobramos comisión sobre ventas, así que miramos lo que de verdad te da dinero.\n\n→ Los leads que entran en el CRM, cada uno con el anuncio del que vino\n→ Las ventas que salen de esos leads, marcadas en el CRM\n→ Lo que nos llevamos: una comisión sobre esas ventas, no sobre las visitas\n\nPídele este informe a tu agencia, sea la que sea. Si no puede dártelo, ya sabes algo.\n\n¿Qué números te enseña ahora tu agencia cada mes?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #metricas #agenciademarketing #ventas #pymes"
+ },
+ "caption": "Informe de tu agencia de marketing: si te habla de likes y alcance, pide otra cosa 📈👇\n\nLos me gusta no pagan facturas. En Ceos Growth cobramos comisión sobre ventas, así que miramos lo que de verdad te da dinero.\n\n→ Los leads que entran en el CRM, cada uno con el anuncio del que vino\n→ Las ventas que salen de esos leads, marcadas en el CRM\n→ Lo que nos llevamos: una comisión sobre esas ventas, no sobre las visitas\n\nPídele este informe a tu agencia, sea la que sea. Si no puede dártelo, ya sabes algo.\n\n¿Qué números te enseña ahora tu agencia cada mes?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #metricas #agenciademarketing #ventas #pymes"
+}

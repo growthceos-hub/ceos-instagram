@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores al grabar reels en una bodega: la botella quieta encima de una mesa, quitar el sonido del descorche y del vino al servirse, y no enseñar la viña ni las barricas. Reels al Vuelo: grabas con el móvil y te lo devolvemos editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu vino<br><em>sale aburrido</em><br><em>en vídeo?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO DE SIEMPRE",
+    "bad": ["Botella en la mesa", "Música encima de todo"],
+    "good_t": "LO QUE ENGANCHA",
+    "good": ["El vino cayendo", "El sonido del corcho"]
+   },
+   "footer": "3 errores al grabar reels en tu bodega"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "La botella<br><em>quieta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Sirve la copa de cerca", "Gira la copa a contraluz", "Mano en la botella"]
+   },
+   "note": "Que algo <b>se mueva en el primer segundo.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Quitar<br><em>el sonido.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "SONIDOS QUE SE GRABAN",
+    "lines": ["El corcho al salir", "El vino en la copa", "Los pasos en la nave"]
+   },
+   "note": "Con el móvil <b>a un palmo.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "No enseñar<br><em>de dónde sale.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "LA VIÑA", "t": "La uva en la cepa", "s": "Con luz de tarde"},
+     {"n": "2", "d": "LA NAVE", "t": "Barricas y depósitos", "s": "Caminando despacio"},
+     {"n": "3", "d": "LA MESA", "t": "La copa servida", "s": "Y dónde visitarte"}
+    ]
+   },
+   "note": "Nos lo mandas <b>y lo montamos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú grabas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Subtítulos y música libre", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para bodegas 👇\nUna botella quieta en una mesa no para el scroll. El vino cayendo en la copa, el corcho al salir y un paseo entre barricas, sí.\nLo grabas con el móvil en la viña o en la nave, nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Qué parte de la bodega enseñarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#bodega #vino #enoturismo #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para bodegas: 3 errores al grabar tu vino",
+  "text": "Edición de reels para bodegas 👇\nUna botella quieta en una mesa no para el scroll. El vino cayendo en la copa, el corcho al salir y un paseo entre barricas, sí.\nLo grabas con el móvil en la viña o en la nave, nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Qué parte de la bodega enseñarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#bodega #vino #enoturismo #edicionvideo #reels #reelsalvuelo"
+ }
+}
