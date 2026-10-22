@@ -1,0 +1,76 @@
+{
+ "topic": "3 errores de agencias de marketing que paga el empresario: informar de clics y no de ventas, anuncios sin grabar y leads sin seguimiento; cómo lo resuelve Ceos Growth con comisión sobre ventas, estudio propio y CRM",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "3 errores<br>de agencia<br><em>que pagas tú.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Agencia",
+    "msgs": [
+     {"from": "out", "lines": ["¿Cuántas ventas", "salieron este mes?"], "time": "10:14"},
+     {"from": "in", "text": "Llevamos 3.000 clics", "time": "12:30"}
+    ]
+   },
+   "footer": "3 errores y qué pedir a cambio"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Hablarte de clics,<br><em>no de ventas.</em>",
+   "size": 102,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EL INFORME DE SIEMPRE",
+    "bad": ["Impresiones", "Clics"],
+    "good_t": "LO QUE TE IMPORTA",
+    "good": ["Leads que contestan", "Ventas cerradas"]
+   },
+   "note": "Con comisión, <b>se habla de ventas.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Anuncios<br><em>sin grabar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "La foto de banco de siempre.",
+    "media": "FOTO DE BANCO",
+    "headline": "Pide información",
+    "cta": "Más información",
+    "tags": ["SIN CARA", "SIN VOZ"]
+   },
+   "note": "Nosotros grabamos <b>en estudio propio.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Leads<br><em>sin seguimiento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timer",
+    "head": "Nuevo lead · Meta",
+    "sub": "TIEMPO SIN RESPUESTA",
+    "secs": 272,
+    "side": "Con CRM,<br>nadie se<br>queda sin llamar",
+    "badge": "✓ EN EL CRM"
+  },
+   "note": "El CRM va <b>dentro del sistema.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pide ventas,<br><em>no clics.</em>",
+   "dur": 6,
+   "items": ["Comisión sobre ventas", "Anuncios de estudio propio", "Cada lead dentro del CRM"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Errores de agencias de marketing: 3 que acabas pagando tú",
+  "text": "Errores de agencias de marketing que acabas pagando tú 💸👇\nSi tu agencia te manda informes llenos de clics y no sabes cuántas ventas salieron, mira esto.\n→ Te hablan de clics y no de ventas. Nosotros cobramos comisión sobre ventas\n→ Anuncios sin grabar, con fotos de banco. Nosotros grabamos en estudio propio\n→ Leads sin seguimiento. En nuestro sistema, cada lead entra en el CRM\n¿Qué te manda tu agencia cada mes?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #crm #captaciondeclientes #empresarios"
+ },
+ "caption": "Errores de agencias de marketing que acabas pagando tú 💸👇\nSi tu agencia te manda informes llenos de clics y no sabes cuántas ventas salieron, mira esto.\n→ Te hablan de clics y no de ventas. Nosotros cobramos comisión sobre ventas\n→ Anuncios sin grabar, con fotos de banco. Nosotros grabamos en estudio propio\n→ Leads sin seguimiento. En nuestro sistema, cada lead entra en el CRM\n¿Qué te manda tu agencia cada mes?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #crm #captaciondeclientes #empresarios"
+}
