@@ -1,0 +1,70 @@
+{
+ "topic": "Qué monta Ceos Growth en los 26 días de implantación: 15–20 anuncios grabados en estudio propio, campañas de Meta Ads (12 meses sin permanencia) y el CRM con cada lead",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué pasa<br>en <em>26 días?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Anuncios grabados", "Campañas en Meta Ads", "CRM con tus leads"]
+   },
+   "footer": "Lo que montamos en la implantación"
+  },
+  {
+   "label": "PARTE 1",
+   "title": "Grabamos<br><em>en estudio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ESTUDIO PROPIO",
+    "lines": ["Grabamos tus anuncios", "Entre 15 y 20 piezas", "Listas para Meta Ads"]
+   },
+   "note": "<b>15–20 anuncios</b> en estudio propio."
+  },
+  {
+   "label": "PARTE 2",
+   "title": "Lanzamos<br><em>Meta Ads.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Tu anuncio, grabado en estudio.",
+    "media": "TU ANUNCIO",
+    "headline": "Reserva tu cita",
+    "cta": "Reservar",
+    "tags": ["ESTUDIO PROPIO", "META ADS"]
+   },
+   "note": "<b>12 meses</b> y sin permanencia."
+  },
+  {
+   "label": "PARTE 3",
+   "title": "Montamos<br><em>el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lead nuevo en el CRM",
+    "fields": [
+     {"q": "Origen", "a": "Anuncio de Meta"},
+     {"q": "Estado", "a": "Por llamar"}
+    ],
+    "badge": "✓ EN EL CRM"
+   },
+   "note": "Cada lead, <b>a la vista.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "26 días<br><em>y en marcha.</em>",
+   "dur": 6,
+   "items": ["Anuncios de estudio propio", "Campañas de Meta Ads", "CRM con tus leads"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Implantación en 26 días: qué monta Ceos Growth en tu negocio",
+  "text": "Implantación en 26 días: esto es lo que montamos 🛠️👇\nCuando empiezas con Ceos Growth, en 26 días tienes el sistema de captación funcionando. Tiene tres partes.\n→ Grabamos entre 15 y 20 anuncios en nuestro estudio propio\n→ Lanzamos tus campañas de Meta Ads: 12 meses, sin permanencia\n→ Montamos el CRM para que cada lead quede a la vista\n¿Cuál de las tres partes te falta hoy?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #crm #captaciondeclientes #agenciademarketing #negocioslocales"
+ },
+ "caption": "Implantación en 26 días: esto es lo que montamos 🛠️👇\nCuando empiezas con Ceos Growth, en 26 días tienes el sistema de captación funcionando. Tiene tres partes.\n→ Grabamos entre 15 y 20 anuncios en nuestro estudio propio\n→ Lanzamos tus campañas de Meta Ads: 12 meses, sin permanencia\n→ Montamos el CRM para que cada lead quede a la vista\n¿Cuál de las tres partes te falta hoy?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #crm #captaciondeclientes #agenciademarketing #negocioslocales"
+}
