@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores de la web de un restaurante o bar: la carta en PDF que no se lee en el móvil, no tener botón para reservar o llamar, y no poner el horario ni el mapa. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu carta<br><em>es un PDF?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Abrís hoy a mediodía?", "time": "13:05"},
+     {"from": "in", "text": "No encuentro el horario", "time": "13:06"}
+    ]
+   },
+   "footer": "3 errores de la web de un restaurante"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Carta en PDF<br><em>que no se lee.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CARTA EN PDF",
+    "bad": ["Hay que hacer zoom", "Tarda en abrir"],
+    "good_t": "CARTA EN LA WEB",
+    "good": ["Se lee en el móvil", "Platos y precios claros"]
+   },
+   "note": "El que tiene hambre <b>no hace zoom.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Sin botón<br><em>para reservar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de llamar", "Botón de WhatsApp", "Reservar mesa"]
+   },
+   "note": "Un toque y <b>ya tienes la reserva.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Ni horario<br><em>ni mapa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA ANTES DE IR",
+    "lines": ["¿Abren ahora?", "¿Dónde está?", "¿Qué dicen las reseñas?"]
+   },
+   "note": "Si no lo ve, <b>va al de al lado.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Carta, mapa y horario", "Botón de reservar", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para restaurantes y bares 👇\nSi tu carta es un PDF que hay que ampliar con dos dedos, el que busca dónde comer cerca ya se ha ido al de al lado.\nCarta legible, botón de reservar, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Tu carta se lee bien en el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#restaurantes #bares #hosteleria #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para restaurantes y bares: 3 errores que te quitan reservas",
+  "text": "Página web para restaurantes y bares 👇\nSi tu carta es un PDF que hay que ampliar con dos dedos, el que busca dónde comer cerca ya se ha ido al de al lado.\nCarta legible, botón de reservar, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Tu carta se lee bien en el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#restaurantes #bares #hosteleria #autonomos #paginaweb #webalvuelo"
+ }
+}
