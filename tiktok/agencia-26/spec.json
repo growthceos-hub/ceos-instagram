@@ -1,0 +1,101 @@
+{
+ "topic": "Hacer una hoja de objeciones para ti y tu equipo: apunta durante dos semanas cada pega que te ponen los clientes con sus palabras, escribe para las 5 que más se repiten una respuesta corta que acabe en pregunta, y tenla a mano en cada llamada y revísala cada mes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Improvisas<br><em>ante cada pega?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Pegas de un mes",
+    "items": [
+     {
+      "label": "“Es caro”",
+      "value": 80,
+      "hi": true
+     },
+     {
+      "label": "“Me lo pienso”",
+      "value": 65
+     },
+     {
+      "label": "“Ahora no”",
+      "value": 40
+     }
+    ]
+   },
+   "footer": "3 pasos para tener las respuestas escritas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Apunta<br><em>cada pega.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Pega del día",
+    "fields": [
+     {
+      "q": "Lo que dijo",
+      "a": "“Lo veo caro”"
+     },
+     {
+      "q": "En qué momento",
+      "a": "Al decir el precio"
+     },
+     {
+      "q": "Servicio",
+      "a": "Reforma de baño"
+     }
+    ],
+    "badge": "✓ APUNTADA"
+   },
+   "note": "Dos semanas, <b>con sus palabras.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Responde<br><em>las 5 primeras.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "“LO VEO CARO”",
+    "lines": [
+     "Te entiendo.",
+     "¿Con qué lo comparas?",
+     "Así vemos qué incluye cada uno"
+    ]
+   },
+   "note": "Corta y <b>acabando en pregunta.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "A mano<br><em>en cada llamada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Impresa junto al teléfono",
+     "En el CRM, fijada",
+     "Se revisa cada mes"
+    ]
+   },
+   "note": "Que todo el equipo <b>responda igual.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cada pega,<br><em>con respuesta.</em>",
+   "dur": 6,
+   "items": [
+    "Apunta las pegas",
+    "Responde las 5 más comunes",
+    "Tenla en cada llamada"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Hoja de objeciones de venta: cómo preparar respuestas para tu equipo",
+  "text": "Hoja de objeciones: si cada vez que te ponen una pega improvisas, a veces te sale bien y a veces no 📋👇\n\nLas pegas que te ponen los clientes se repiten mucho más de lo que parece. Si las tienes escritas, respondes igual de bien un lunes a las 9 que un viernes a las 7.\n\n→ Durante dos semanas, apunta cada pega con las palabras exactas del cliente y en qué momento salió\n→ Para las 5 que más se repitan, escribe una respuesta corta que acabe en pregunta\n→ Tenla a mano en cada llamada (impresa o fijada en el CRM) y revísala cada mes con lo que haya funcionado\n\nPara nosotros esto es lo que más rápido sube el nivel de alguien nuevo en ventas. Y de paso te dice qué tienes que aclarar en tus anuncios.\n\n¿Cuál es la pega que más te ponen? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #objeciones #equipocomercial #llamadasdeventa #pymes #ceosgrowth"
+ },
+ "caption": "Hoja de objeciones: si cada vez que te ponen una pega improvisas, a veces te sale bien y a veces no 📋👇\n\nLas pegas que te ponen los clientes se repiten mucho más de lo que parece. Si las tienes escritas, respondes igual de bien un lunes a las 9 que un viernes a las 7.\n\n→ Durante dos semanas, apunta cada pega con las palabras exactas del cliente y en qué momento salió\n→ Para las 5 que más se repitan, escribe una respuesta corta que acabe en pregunta\n→ Tenla a mano en cada llamada (impresa o fijada en el CRM) y revísala cada mes con lo que haya funcionado\n\nPara nosotros esto es lo que más rápido sube el nivel de alguien nuevo en ventas. Y de paso te dice qué tienes que aclarar en tus anuncios.\n\n¿Cuál es la pega que más te ponen? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #objeciones #equipocomercial #llamadasdeventa #pymes #ceosgrowth"
+}

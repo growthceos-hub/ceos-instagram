@@ -1,0 +1,106 @@
+{
+ "topic": "Poner fecha de validez al presupuesto: escribe «válido hasta el día X» (por ejemplo 15 días) con un motivo real (precio de materiales, huecos en la agenda), recuérdalo unos días antes de que caduque con un mensaje corto, y al caducar rehaz el presupuesto en vez de mantenerlo para siempre",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu presupuesto<br><em>vale para siempre?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN FECHA",
+    "bad": [
+     "“Ya lo miraré”",
+     "Lo deja en el cajón"
+    ],
+    "good_t": "CON FECHA DE VALIDEZ",
+    "good": [
+     "Sabe cuándo decidir",
+     "Tienes motivo para llamar"
+    ]
+   },
+   "footer": "3 pasos para ponerle fecha"
+  },
+  {
+   "label": "PASO 1",
+   "title": "“Válido hasta<br><em>el día 15.”</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Presupuesto",
+    "fields": [
+     {
+      "q": "Total",
+      "a": "2.400 €"
+     },
+     {
+      "q": "Válido hasta",
+      "a": "15 de noviembre"
+     },
+     {
+      "q": "Motivo",
+      "a": "Precio de materiales"
+     }
+    ],
+    "badge": "✓ CON FECHA"
+   },
+   "note": "Con un <b>motivo real.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Recuérdalo<br><em>antes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Luis",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Tu presupuesto vale",
+       "hasta el viernes",
+       "¿Lo vemos mañana?"
+      ],
+      "time": "09:40"
+     },
+     {
+      "from": "in",
+      "text": "Sí, llámame a las 12",
+      "time": "10:05"
+     }
+    ]
+   },
+   "note": "Unos días antes, <b>no el último.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Si caduca,<br><em>se rehace.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Revisa precios",
+     "Revisa fechas",
+     "Mándalo nuevo"
+    ]
+   },
+   "note": "Si no, la fecha <b>no significa nada.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Presupuesto<br><em>con fecha.</em>",
+   "dur": 6,
+   "items": [
+    "Válido hasta el día X",
+    "Aviso antes de caducar",
+    "Si caduca, se rehace"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Presupuesto con fecha de validez: cómo ponerla para que el cliente decida",
+  "text": "Presupuesto con fecha de validez: si vale para siempre, nadie tiene prisa por decidir 📅👇\n\nUn presupuesto sin fecha se queda en el cajón “para mirarlo”. Con fecha, el cliente sabe cuándo tiene que decidir y tú tienes un motivo para llamar.\n\n→ Escribe “válido hasta el día X” con un motivo real: el precio de los materiales o los huecos que tienes en la agenda\n→ Recuérdaselo unos días antes de que caduque con un mensaje corto y una propuesta de hora para hablar\n→ Si caduca, rehazlo revisando precios y fechas. Si lo mantienes igual, la fecha deja de valer\n\nPara nosotros la fecha tiene que ser verdad. Inventar prisas se nota y quita confianza.\n\n¿Tus presupuestos llevan fecha de validez? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#presupuestos #ventas #autonomos #reformas #pymes #ceosgrowth"
+ },
+ "caption": "Presupuesto con fecha de validez: si vale para siempre, nadie tiene prisa por decidir 📅👇\n\nUn presupuesto sin fecha se queda en el cajón “para mirarlo”. Con fecha, el cliente sabe cuándo tiene que decidir y tú tienes un motivo para llamar.\n\n→ Escribe “válido hasta el día X” con un motivo real: el precio de los materiales o los huecos que tienes en la agenda\n→ Recuérdaselo unos días antes de que caduque con un mensaje corto y una propuesta de hora para hablar\n→ Si caduca, rehazlo revisando precios y fechas. Si lo mantienes igual, la fecha deja de valer\n\nPara nosotros la fecha tiene que ser verdad. Inventar prisas se nota y quita confianza.\n\n¿Tus presupuestos llevan fecha de validez? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#presupuestos #ventas #autonomos #reformas #pymes #ceosgrowth"
+}

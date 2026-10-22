@@ -1,0 +1,67 @@
+{
+ "topic": "Paso a paso para que una clínica veterinaria tenga reels sin editar: elige un consejo que das en consulta, grábalo con el móvil con permiso del dueño del animal, y mándalo para recibirlo editado en 24 h con subtítulos, música libre y tu logo. Primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu consulta<br><em>da para reels.</em>",
+   "size": 120,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE EXPLICAS CADA DÍA",
+    "lines": ["Cómo cortar las uñas", "Cuándo desparasitar", "Qué no puede comer"]
+   },
+   "footer": "3 pasos para tener reels sin editar tú"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige<br><em>un consejo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Dueño",
+    "msgs": [
+     {"from": "in", "text": "¿Puede comer uvas?", "time": "10:30"},
+     {"from": "in", "text": "¿Cada cuánto le baño?", "time": "10:31"}
+    ]
+   },
+   "note": "Lo que te preguntan <b>es el tema.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Grábalo<br><em>con el móvil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Permiso del dueño", "Animal tranquilo", "Móvil en vertical", "Tú explicándolo"]
+   },
+   "note": "Sin repetir <b>veinte veces.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Mándalo,<br><em>vuelve editado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "Nos lo mandas", "s": "El vídeo tal cual"},
+     {"n": "2", "d": "EN 24 H", "t": "Te llega editado", "s": "Subtítulos, ritmo, música libre"},
+     {"n": "3", "d": "Y YA", "t": "Lo subes", "s": "Con tu logo"}
+    ]
+   },
+   "note": "Lo revisa <b>una persona.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pruébalo<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Grabas con el móvil", "Editado en 24 h", "Sin cuotas, vídeo tuyo"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para veterinarios 👇\nLo que explicas en consulta cada día ya es contenido: cómo cortar las uñas, qué no puede comer, cada cuánto bañarle. Graba uno con el móvil, con permiso del dueño y el animal tranquilo.\nNos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Sin cuotas.\n¿Qué pregunta te hacen más en consulta?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#veterinario #clinicaveterinaria #edicionvideo #reels #mascotas #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para veterinarios: 3 pasos para grabar sin editar tú",
+  "text": "Edición de reels para veterinarios 👇\nLo que explicas en consulta cada día ya es contenido: cómo cortar las uñas, qué no puede comer, cada cuánto bañarle. Graba uno con el móvil, con permiso del dueño y el animal tranquilo.\nNos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Sin cuotas.\n¿Qué pregunta te hacen más en consulta?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#veterinario #clinicaveterinaria #edicionvideo #reels #mascotas #reelsalvuelo"
+ }
+}

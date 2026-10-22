@@ -1,0 +1,71 @@
+{
+ "topic": "Qué tener a mano antes de la llamada gratis con Ceos Growth: qué vendes y a qué precio (para calcular la comisión sobre ventas), cómo te llegan hoy los clientes y qué has probado ya",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Antes de tu<br>llamada, <em>ten<br>esto a mano.</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Qué vendes y a cuánto", "Cómo te llegan clientes", "Qué has probado ya"]
+   },
+   "footer": "3 datos para aprovechar la llamada"
+  },
+  {
+   "label": "DATO 1",
+   "title": "Qué vendes<br><em>y a cuánto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu negocio",
+    "fields": [
+     {"q": "Servicio principal", "a": "Sesión de fisioterapia"},
+     {"q": "Precio medio", "a": "60 €"}
+    ]
+   },
+   "note": "Cobramos <b>comisión sobre ventas.</b>"
+  },
+  {
+   "label": "DATO 2",
+   "title": "Cómo te llegan<br><em>los clientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "De dónde vienen hoy",
+    "items": [
+     {"label": "Boca a boca", "value": 70, "hi": true},
+     {"label": "Redes sociales", "value": 35},
+     {"label": "Anuncios", "value": 15}
+    ]
+   },
+   "note": "Así sabemos <b>de dónde partimos.</b>"
+  },
+  {
+   "label": "DATO 3",
+   "title": "Qué has<br><em>probado ya.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE NO FUE BIEN",
+    "bad": ["Agencia a cuota fija", "Anuncios sin grabar"],
+    "good_t": "CÓMO LO HACEMOS",
+    "good": ["Comisión sobre ventas", "Anuncios de estudio"]
+   },
+   "note": "Así <b>no repetimos lo que falló.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Llega con<br><em>tus datos.</em>",
+   "dur": 6,
+   "items": ["Qué vendes y a cuánto", "Cómo te llegan clientes", "Qué has probado ya"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Llamada con una agencia de marketing: 3 datos que tienes que llevar preparados",
+  "text": "Llamada con una agencia de marketing: lleva estos 3 datos 📝👇\nEn la llamada gratis con Ceos Growth vemos si el sistema encaja en tu negocio. Con esto a mano, la aprovechas entera.\n→ Qué vendes y a qué precio: cobramos comisión sobre ventas y hay que hacer números\n→ Cómo te llegan hoy los clientes: boca a boca, redes, anuncios\n→ Qué has probado ya y qué no funcionó, para no repetirlo\n¿Cuál de los tres datos no tienes claro todavía?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #captaciondeclientes #metaads #pymes #empresarios"
+ },
+ "caption": "Llamada con una agencia de marketing: lleva estos 3 datos 📝👇\nEn la llamada gratis con Ceos Growth vemos si el sistema encaja en tu negocio. Con esto a mano, la aprovechas entera.\n→ Qué vendes y a qué precio: cobramos comisión sobre ventas y hay que hacer números\n→ Cómo te llegan hoy los clientes: boca a boca, redes, anuncios\n→ Qué has probado ya y qué no funcionó, para no repetirlo\n¿Cuál de los tres datos no tienes claro todavía?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #captaciondeclientes #metaads #pymes #empresarios"
+}

@@ -1,0 +1,92 @@
+{
+ "topic": "3 errores de la web de un centro de estética: nombres de tratamientos que nadie entiende, pedir cita solo por teléfono en horario de cabina y no enseñar reseñas, mapa ni horario. Web al Vuelo: 79 € pago único, primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Se entiende<br><em>tu carta?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE PONE TU CARTA",
+    "lines": [
+     "Protocolo Glow Plus",
+     "Ritual Detox Premium",
+     "Tratamiento 360"
+    ]
+   },
+   "footer": "3 errores de la web de tu centro de estética"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Nombres<br><em>raros.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Ritual Detox Premium",
+     "Protocolo Glow"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Limpieza facial, 60 min",
+     "Para piel con granitos"
+    ]
+   },
+   "note": "Di <b>qué es y para quién.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Cita solo<br><em>por teléfono.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Clienta",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Os he llamado y nada",
+      "time": "12:40"
+     },
+     {
+      "from": "in",
+      "text": "¿Tenéis hueco el viernes?",
+      "time": "12:41"
+     }
+    ]
+   },
+   "note": "Estás en cabina: <b>que pueda escribirte.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Sin reseñas<br><em>ni mapa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Reseñas de clientas",
+     "Mapa para llegar",
+     "Horario a la vista"
+    ]
+   },
+   "note": "Antes de tocar su cara, <b>quiere confiar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": [
+    "Tratamientos claros",
+    "Cita y WhatsApp",
+    "Primer diseño en 2 días"
+   ],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para centros de estética 👇\n\"Ritual Detox Premium\" suena bien, pero nadie sabe qué es. Mejor \"limpieza facial, 60 minutos\". Y si solo se pide cita por teléfono mientras estás en cabina, la clienta se va a otro centro.\nTratamientos claros, botón de cita y WhatsApp, reseñas, mapa y horario. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Se entienden tus tratamientos a la primera?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#centrodeestetica #estetica #esteticista #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para centros de estética: 3 errores que te quitan citas",
+  "text": "Página web para centros de estética 👇\n\"Ritual Detox Premium\" suena bien, pero nadie sabe qué es. Mejor \"limpieza facial, 60 minutos\". Y si solo se pide cita por teléfono mientras estás en cabina, la clienta se va a otro centro.\nTratamientos claros, botón de cita y WhatsApp, reseñas, mapa y horario. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Se entienden tus tratamientos a la primera?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#centrodeestetica #estetica #esteticista #autonomos #paginaweb #webalvuelo"
+ }
+}

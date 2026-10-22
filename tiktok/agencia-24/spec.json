@@ -1,0 +1,104 @@
+{
+ "topic": "Cuando te piden descuento: no bajes el precio sin más; quita algo del trabajo si quiere pagar menos, o da descuento solo a cambio de algo que te sirva (pago por adelantado, fecha que te venga bien, una reseña o un vídeo), o añade un extra que a ti te cueste poco en vez de descontar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿“Me haces<br><em>un descuento?”</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Jorge",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Me lo dejas en 800?",
+      "time": "18:21"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Venga, vale…"
+      ],
+      "time": "18:22"
+     }
+    ]
+   },
+   "footer": "3 respuestas mejores que bajar el precio"
+  },
+  {
+   "label": "OPCIÓN 1",
+   "title": "Menos precio,<br><em>menos trabajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MISMO TRABAJO",
+    "bad": [
+     "Por menos dinero",
+     "Pierdes margen"
+    ],
+    "good_t": "QUITAS UNA PARTE",
+    "good": [
+     "Precio más bajo",
+     "Margen intacto"
+    ]
+   },
+   "note": "“Por 800, <b>sin esta parte.</b>”"
+  },
+  {
+   "label": "OPCIÓN 2",
+   "title": "Descuento,<br><em>a cambio de algo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Pago por adelantado",
+     "Fecha que te venga bien",
+     "Una reseña o un vídeo"
+    ]
+   },
+   "note": "Que <b>a ti te sirva.</b>"
+  },
+  {
+   "label": "OPCIÓN 3",
+   "title": "Añade<br><em>en vez de bajar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu respuesta",
+    "fields": [
+     {
+      "q": "Precio",
+      "a": "El mismo"
+     },
+     {
+      "q": "Extra",
+      "a": "Revisión a los 6 meses"
+     },
+     {
+      "q": "A ti te cuesta",
+      "a": "Poco"
+     }
+    ],
+    "badge": "✓ ACEPTADO"
+   },
+   "note": "Algo que valga para él <b>y te cueste poco.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "No regales<br><em>tu margen.</em>",
+   "dur": 6,
+   "items": [
+    "Menos precio, menos trabajo",
+    "Descuento a cambio de algo",
+    "Añade un extra"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Cuando te piden descuento: 3 respuestas mejores que bajar el precio",
+  "text": "Cuando te piden descuento: si dices “venga, vale” a la primera, le acabas de enseñar que tu precio no era el de verdad 💸👇\n\nUn descuento sin más sale entero de tu margen. Hay formas de ayudar al cliente sin regalar tu trabajo.\n\n→ Si quiere pagar menos, quita una parte del trabajo: “por 800 se puede, sin esta parte”\n→ Si haces descuento, que sea a cambio de algo que te sirva: pago por adelantado, una fecha que te venga bien o una reseña\n→ O mantén el precio y añade un extra que para él valga y a ti te cueste poco, como una revisión gratis a los 6 meses\n\nPara nosotros el precio se defiende mejor con opciones que con rebajas.\n\n¿Cuántas veces a la semana te piden descuento? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #precios #negociacion #autonomos #pymes #ceosgrowth"
+ },
+ "caption": "Cuando te piden descuento: si dices “venga, vale” a la primera, le acabas de enseñar que tu precio no era el de verdad 💸👇\n\nUn descuento sin más sale entero de tu margen. Hay formas de ayudar al cliente sin regalar tu trabajo.\n\n→ Si quiere pagar menos, quita una parte del trabajo: “por 800 se puede, sin esta parte”\n→ Si haces descuento, que sea a cambio de algo que te sirva: pago por adelantado, una fecha que te venga bien o una reseña\n→ O mantén el precio y añade un extra que para él valga y a ti te cueste poco, como una revisión gratis a los 6 meses\n\nPara nosotros el precio se defiende mejor con opciones que con rebajas.\n\n¿Cuántas veces a la semana te piden descuento? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #precios #negociacion #autonomos #pymes #ceosgrowth"
+}

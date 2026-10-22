@@ -1,0 +1,68 @@
+{
+ "topic": "Agencia, freelancers o hacerlo tú solo: qué supone cada camino para captar clientes (tu tiempo y 32.900 € al año, piezas sueltas que nadie une, o un equipo de 10 perfiles con implantación en 26 días y comisión sobre ventas)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Agencia,<br>freelancers<br><em>o tú solo?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "TRES CAMINOS",
+    "lines": ["Hacerlo tú solo", "Contratar freelancers", "Un equipo con sistema"]
+   },
+   "footer": "Qué supone cada opción"
+  },
+  {
+   "label": "TÚ SOLO",
+   "title": "Lo pagas<br><em>con tu tiempo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Grabar y editar", "Lanzar campañas", "Llamar a cada lead"]
+   },
+   "note": "Montarlo cuesta <b>32.900 € al año.</b>"
+  },
+  {
+   "label": "FREELANCERS",
+   "title": "Cada uno<br><em>por su lado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Freelance",
+    "msgs": [
+     {"from": "out", "lines": ["¿Tienes ya", "los anuncios?"], "time": "10:00"},
+     {"from": "in", "text": "Espero los vídeos del editor", "time": "16:45"}
+    ]
+   },
+   "note": "Nadie <b>une las piezas.</b>"
+  },
+  {
+   "label": "CEOS GROWTH",
+   "title": "Un equipo,<br><em>un sistema.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "10", "d": "PERFILES", "t": "Un solo equipo"},
+     {"n": "26", "d": "DÍAS", "t": "Implantación"},
+     {"n": "12", "d": "MESES", "t": "Meta Ads sin permanencia"}
+    ]
+   },
+   "note": "Y cobramos <b>comisión sobre ventas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Elige<br><em>con números.</em>",
+   "dur": 6,
+   "items": ["Tú solo: 32.900 € al año", "Freelancers: piezas sueltas", "Nosotros: un sistema"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia de marketing, freelancers o hacerlo tú: qué te conviene para captar clientes",
+  "text": "Agencia de marketing, freelancers o hacerlo tú solo: ¿qué te conviene? ⚖️👇\nLas tres opciones sirven para captar clientes. Cambia lo que te cuestan y quién une las piezas.\n→ Tú solo: grabas, lanzas campañas y llamas a cada lead. Montarlo por tu cuenta cuesta 32.900 € al año\n→ Freelancers: cada uno hace su parte y nadie une el sistema\n→ Ceos Growth: 10 perfiles, implantación en 26 días y 12 meses de Meta Ads sin permanencia, a comisión sobre ventas\n¿Cuál de los tres caminos has probado?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #freelancers #captaciondeclientes #metaads #empresarios"
+ },
+ "caption": "Agencia de marketing, freelancers o hacerlo tú solo: ¿qué te conviene? ⚖️👇\nLas tres opciones sirven para captar clientes. Cambia lo que te cuestan y quién une las piezas.\n→ Tú solo: grabas, lanzas campañas y llamas a cada lead. Montarlo por tu cuenta cuesta 32.900 € al año\n→ Freelancers: cada uno hace su parte y nadie une el sistema\n→ Ceos Growth: 10 perfiles, implantación en 26 días y 12 meses de Meta Ads sin permanencia, a comisión sobre ventas\n¿Cuál de los tres caminos has probado?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #freelancers #captaciondeclientes #metaads #empresarios"
+}

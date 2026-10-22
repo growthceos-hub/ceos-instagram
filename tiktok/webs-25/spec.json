@@ -1,0 +1,66 @@
+{
+ "topic": "Antes y después de un despacho de abogados o una asesoría en internet: de un nombre y un teléfono sin más a una web que explica qué asuntos llevas, con botón de pedir cita, WhatsApp, mapa del despacho, horario y reseñas. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu despacho,<br><em>antes y después.</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["Un nombre y un teléfono", "Nada más"],
+    "good_t": "DESPUÉS",
+    "good": ["Qué asuntos llevas", "Cita en un toque"]
+   },
+   "footer": "Lo que cambia con una web en tu despacho"
+  },
+  {
+   "label": "ANTES",
+   "title": "Llama<br><em>con dudas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE PREGUNTA AL LLAMAR",
+    "lines": ["¿Lleváis despidos?", "¿Dónde está el despacho?", "¿Cuándo me podéis ver?"]
+   },
+   "note": "Y tú <b>en mitad de un escrito.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Llega<br><em>sabiendo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Laboral, familia, herencias", "Mapa y horario", "Reseñas de clientes"]
+   },
+   "note": "Y pide cita <b>para su caso.</b>"
+  },
+  {
+   "label": "EL BOTÓN",
+   "title": "Pide cita<br><em>sin llamar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Es por un despido", "time": "09:05"},
+     {"from": "out", "lines": ["Te veo el martes", "a las 12, ¿te va?"], "time": "11:30"}
+    ]
+   },
+   "note": "Contestas <b>cuando puedes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Qué llevas, claro", "Cita, WhatsApp y mapa", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para abogados y asesorías 👇\nAntes: un nombre y un teléfono, y llamadas en mitad de un escrito para preguntar si lleváis despidos. Después: lo ve en tu web y te pide cita para su caso.\nAsuntos que llevas, botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Qué te preguntan antes de pedir cita?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#abogados #asesoria #asesoriafiscal #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para abogados y asesorías: el antes y el después",
+  "text": "Página web para abogados y asesorías 👇\nAntes: un nombre y un teléfono, y llamadas en mitad de un escrito para preguntar si lleváis despidos. Después: lo ve en tu web y te pide cita para su caso.\nAsuntos que llevas, botón de cita, WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Qué te preguntan antes de pedir cita?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#abogados #asesoria #asesoriafiscal #autonomos #paginaweb #webalvuelo"
+ }
+}

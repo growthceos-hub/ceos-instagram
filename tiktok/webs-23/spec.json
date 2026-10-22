@@ -1,0 +1,75 @@
+{
+ "topic": "Las 3 dudas de una academia antes de hacerse la web: ¿y si no me gusta? (se rehace gratis), ¿tengo que pagar cada mes? (no, 79 € una vez y es tuya) y no sé qué escribir (contestas 5 preguntas y el primer diseño llega en 2 días)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y si no<br><em>me gusta?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Academia",
+    "msgs": [
+     {"from": "out", "lines": ["¿Y si el diseño", "no me convence?"], "time": "13:15"},
+     {"from": "in", "text": "Se rehace gratis", "time": "13:16"}
+    ]
+   },
+   "footer": "3 dudas de tu academia antes de hacer la web"
+  },
+  {
+   "label": "DUDA 1",
+   "title": "Si no<br><em>me convence...</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "DÍA 2", "t": "Primer diseño", "s": "Lo ves con calma"},
+     {"n": "2", "d": "¿NO CONVENCE?", "t": "Se rehace", "s": "Sin pagar más"}
+    ]
+   },
+   "note": "<b>Se rehace gratis.</b>"
+  },
+  {
+   "label": "DUDA 2",
+   "title": "¿Pago<br><em>cada mes?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Lo que pagas en 5 años",
+    "items": [
+     {"label": "Cuota de 30 €/mes · 1.800 €", "value": 100},
+     {"label": "Web al Vuelo · 79 €, una vez", "value": 5, "hi": true}
+    ]
+   },
+   "note": "Pago único <b>y la web es tuya.</b>"
+  },
+  {
+   "label": "DUDA 3",
+   "title": "No sé<br><em>qué escribir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Contestas 5 preguntas",
+    "fields": [
+     {"q": "Pregunta 1 de 5", "a": "Inglés y refuerzo"},
+     {"q": "Pregunta 2 de 5", "a": "Primaria y ESO"},
+     {"q": "Pregunta 3 de 5", "a": "Tardes de lunes a jueves"}
+    ],
+    "badge": "LISTO"
+   },
+   "note": "Lo demás <b>lo hacemos nosotros.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €.<br><em>Si no, se rehace.</em>",
+   "dur": 6,
+   "items": ["Cursos, horario y mapa", "Llamar y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para academias 👇\n\"¿Y si no me gusta?\" Se rehace gratis. \"¿Pago cada mes?\" No: 79 € una vez y la web es tuya. \"No sé qué escribir.\" Contestas 5 preguntas y el primer diseño llega en 2 días.\nCon cursos, horario, mapa, reseñas y botón de llamar o WhatsApp para que las familias pregunten.\n¿Qué duda te queda?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#academia #clasesparticulares #formacion #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para academias: ¿y si no me gusta? 3 dudas resueltas",
+  "text": "Página web para academias 👇\n\"¿Y si no me gusta?\" Se rehace gratis. \"¿Pago cada mes?\" No: 79 € una vez y la web es tuya. \"No sé qué escribir.\" Contestas 5 preguntas y el primer diseño llega en 2 días.\nCon cursos, horario, mapa, reseñas y botón de llamar o WhatsApp para que las familias pregunten.\n¿Qué duda te queda?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#academia #clasesparticulares #formacion #autonomos #paginaweb #webalvuelo"
+ }
+}

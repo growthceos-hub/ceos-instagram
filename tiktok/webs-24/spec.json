@@ -1,0 +1,110 @@
+{
+ "topic": "Paso a paso de Web al Vuelo para una tienda de barrio: contestas 5 preguntas desde el mostrador, en 2 días llega el primer diseño con horario, mapa, reseñas y botón de WhatsApp o llamar, y si no te convence se rehace gratis. 79 € pago único, sin cuotas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Web para<br><em>tu tienda?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "HOY",
+      "t": "5 preguntas",
+      "s": "Desde el mostrador"
+     },
+     {
+      "n": "2",
+      "d": "DÍA 2",
+      "t": "Primer diseño",
+      "s": "Lo revisas"
+     },
+     {
+      "n": "3",
+      "d": "LISTO",
+      "t": "Web tuya",
+      "s": "79 €, una vez"
+     }
+    ]
+   },
+   "footer": "Así se hace en 3 pasos, sin cuotas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Contestas<br><em>5 preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu tienda",
+    "fields": [
+     {
+      "q": "Pregunta 1 de 5",
+      "a": "Ferretería de barrio"
+     },
+     {
+      "q": "Pregunta 2 de 5",
+      "a": "De 9 a 14 y de 17 a 20"
+     },
+     {
+      "q": "Pregunta 3 de 5",
+      "a": "WhatsApp y teléfono"
+     }
+    ],
+    "badge": "LISTO"
+   },
+   "note": "Entre cliente <b>y cliente.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "En 2 días,<br><em>el diseño.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Horario a la vista",
+     "Mapa para llegar",
+     "Reseñas",
+     "Botón de WhatsApp"
+    ]
+   },
+   "note": "Lo que el vecino <b>quiere saber antes de ir.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "¿Te convence?<br><em>Si no, se rehace.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE NO TIENES",
+    "bad": [
+     "Cuotas",
+     "Permanencia"
+    ],
+    "good_t": "LO QUE TIENES",
+    "good": [
+     "Si no convence, se rehace",
+     "La web es tuya"
+    ]
+   },
+   "note": "<b>79 €, pago único.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": [
+    "Contestas 5 preguntas",
+    "Primer diseño en 2 días",
+    "Horario, mapa y WhatsApp"
+   ],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para tiendas de barrio 👇\nNo necesitas saber nada de webs. Contestas 5 preguntas entre cliente y cliente, en 2 días tienes el primer diseño y, si no te convence, se rehace gratis.\nHorario a la vista, mapa, reseñas y botón de WhatsApp para que te pregunten si tienes algo antes de ir. 79 €, una vez, sin cuotas, y la web es tuya.\n¿Cuánto tardarías en contestar 5 preguntas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#comerciolocal #tiendadebarrio #comerciodeproximidad #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para tiendas de barrio: cómo tenerla en 3 pasos por 79 €",
+  "text": "Página web para tiendas de barrio 👇\nNo necesitas saber nada de webs. Contestas 5 preguntas entre cliente y cliente, en 2 días tienes el primer diseño y, si no te convence, se rehace gratis.\nHorario a la vista, mapa, reseñas y botón de WhatsApp para que te pregunten si tienes algo antes de ir. 79 €, una vez, sin cuotas, y la web es tuya.\n¿Cuánto tardarías en contestar 5 preguntas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#comerciolocal #tiendadebarrio #comerciodeproximidad #autonomos #paginaweb #webalvuelo"
+ }
+}

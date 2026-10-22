@@ -1,0 +1,121 @@
+{
+ "topic": "Subir precios a clientes que ya tienes sin perderlos: avisa con al menos un mes de antelación y por escrito, explica en una frase el motivo real (costes, más servicio) sin pedir perdón, y da una opción a quien quiera mantener el precio (pagar ahora un bono o renovar antes de la fecha)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Llevas 3 años<br><em>sin subir precios?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Lo que te deja cada cliente",
+    "items": [
+     {
+      "label": "Hace 3 años",
+      "value": 85
+     },
+     {
+      "label": "Hace 1 año",
+      "value": 62
+     },
+     {
+      "label": "Hoy",
+      "value": 40,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 pasos para subirlos sin perder clientes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Avisa<br><em>con un mes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "1 DE MARZO",
+      "t": "Avisas por escrito",
+      "s": "Con la fecha"
+     },
+     {
+      "n": "2",
+      "d": "MARZO",
+      "t": "Resuelves dudas",
+      "s": "Sin prisa"
+     },
+     {
+      "n": "3",
+      "d": "1 DE ABRIL",
+      "t": "Precio nuevo",
+      "s": "Sin sorpresas"
+     }
+    ]
+   },
+   "note": "Nunca <b>en la factura</b> sin avisar."
+  },
+  {
+   "label": "PASO 2",
+   "title": "El motivo,<br><em>en una frase.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "PIDIENDO PERDÓN",
+    "bad": [
+     "“Lo siento mucho…”",
+     "Tres párrafos"
+    ],
+    "good_t": "CLARO Y CORTO",
+    "good": [
+     "Motivo real",
+     "Precio y fecha"
+    ]
+   },
+   "note": "Sin <b>disculparte</b> por cobrar."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Da una opción<br><em>para mantenerlo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Carmen",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Si renuevas antes",
+       "del 1 de abril,",
+       "mantienes el precio"
+      ],
+      "time": "10:15"
+     },
+     {
+      "from": "in",
+      "text": "Pues renuevo ya",
+      "time": "11:02"
+     }
+    ]
+   },
+   "note": "Premia a quien <b>decide antes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Sube precios<br><em>sin sustos.</em>",
+   "dur": 6,
+   "items": [
+    "Aviso con un mes",
+    "Motivo en una frase",
+    "Opción para mantenerlo"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Subir precios a tus clientes actuales: cómo avisar sin perderlos",
+  "text": "Subir precios a clientes que ya tienes: si llevas años igual, cada año te dejan menos 📈👇\n\nTus costes suben aunque tu tarifa no. Y cuanto más esperas, más grande y más difícil de explicar es la subida.\n\n→ Avisa por escrito con al menos un mes de antelación y con la fecha exacta. Que no se entere por la factura\n→ Explica el motivo real en una frase (costes, más servicio) sin pedir perdón por cobrar\n→ Da una opción a quien quiera mantener el precio: renovar o pagar un bono antes de la fecha\n\nPara nosotros una subida pequeña cada año se lleva mejor que una grande cada cinco. Y el cliente que se va por una subida razonable avisada con tiempo, muchas veces ya se iba a ir.\n\n¿Cuándo fue la última vez que subiste precios? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#precios #negocios #autonomos #clientes #pymes #ceosgrowth"
+ },
+ "caption": "Subir precios a clientes que ya tienes: si llevas años igual, cada año te dejan menos 📈👇\n\nTus costes suben aunque tu tarifa no. Y cuanto más esperas, más grande y más difícil de explicar es la subida.\n\n→ Avisa por escrito con al menos un mes de antelación y con la fecha exacta. Que no se entere por la factura\n→ Explica el motivo real en una frase (costes, más servicio) sin pedir perdón por cobrar\n→ Da una opción a quien quiera mantener el precio: renovar o pagar un bono antes de la fecha\n\nPara nosotros una subida pequeña cada año se lleva mejor que una grande cada cinco. Y el cliente que se va por una subida razonable avisada con tiempo, muchas veces ya se iba a ir.\n\n¿Cuándo fue la última vez que subiste precios? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#precios #negocios #autonomos #clientes #pymes #ceosgrowth"
+}

@@ -1,0 +1,92 @@
+{
+ "topic": "3 cosas que debe tener el reel de una clínica dental: enseñar la clínica y al equipo para quitar el miedo, contestar una duda de paciente en pocas palabras y subtítulos por si lo ven sin sonido. Reels al Vuelo: grabas con el móvil y te lo devolvemos editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Al dentista<br><em>con miedo?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Una endodoncia duele?",
+      "time": "16:02"
+     },
+     {
+      "from": "in",
+      "text": "Me da pánico el ruido",
+      "time": "16:03"
+     }
+    ]
+   },
+   "footer": "3 cosas que debe tener el reel de tu clínica"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Enseña<br><em>la clínica.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "La recepción",
+     "El gabinete por dentro",
+     "El equipo saludando"
+    ]
+   },
+   "note": "Lo conocido <b>da menos miedo.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Una duda,<br><em>bien contestada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "GUION DE 30 SEGUNDOS",
+    "lines": [
+     "La duda, tal cual",
+     "La respuesta, sin jerga",
+     "Qué hacer si te pasa"
+    ]
+   },
+   "note": "Lo que te preguntan <b>en el sillón.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Subtítulos<br><em>siempre.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN SUBTÍTULOS",
+    "bad": [
+     "Sin sonido no se entiende",
+     "Pasa de largo"
+    ],
+    "good_t": "CON SUBTÍTULOS",
+    "good": [
+     "Se entiende sin audio",
+     "Llega al final"
+    ]
+   },
+   "note": "Los ponemos <b>nosotros.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Graba tu clínica,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": [
+    "Editado en 24 h",
+    "Subtítulos, música y logo",
+    "Primer reel por 1,99 €"
+   ],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para dentistas y clínicas dentales 👇\nMucha gente llega a la consulta con miedo. Un reel que enseña la clínica por dentro o contesta \"¿una endodoncia duele?\" sin jerga ayuda a que pidan cita. Y con subtítulos, por si lo ven sin sonido.\nTú grabas con el móvil y en 24 h te lo devolvemos editado con subtítulos, ritmo, música libre y tu logo.\n¿Qué duda te hacen en el sillón?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#dentista #clinicadental #edicionvideo #reels #odontologia #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para dentistas: 3 cosas que debe tener tu reel",
+  "text": "Edición de reels para dentistas y clínicas dentales 👇\nMucha gente llega a la consulta con miedo. Un reel que enseña la clínica por dentro o contesta \"¿una endodoncia duele?\" sin jerga ayuda a que pidan cita. Y con subtítulos, por si lo ven sin sonido.\nTú grabas con el móvil y en 24 h te lo devolvemos editado con subtítulos, ritmo, música libre y tu logo.\n¿Qué duda te hacen en el sillón?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#dentista #clinicadental #edicionvideo #reels #odontologia #reelsalvuelo"
+ }
+}
