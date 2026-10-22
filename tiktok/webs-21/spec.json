@@ -1,0 +1,66 @@
+{
+ "topic": "3 cosas que debe tener la web de una empresa de reformas: fotos de obras con antes y después, la zona y el tipo de obras que haces, y un botón para pedir presupuesto por WhatsApp o llamar, con reseñas. Web al Vuelo: 79 € pago único, la web es tuya",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te piden fotos<br><em>de tus obras?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Tienes fotos de baños?", "time": "19:20"},
+     {"from": "in", "text": "¿Trabajáis en mi pueblo?", "time": "19:21"}
+    ]
+   },
+   "footer": "3 cosas que debe tener la web de tus reformas"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Antes<br><em>y después.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN FOTOS",
+    "bad": ["Tiene que fiarse", "Pide tres presupuestos"],
+    "good_t": "CON TUS OBRAS",
+    "good": ["Ve cómo trabajas", "Te escribe a ti"]
+   },
+   "note": "Tus obras <b>son tu mejor argumento.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Zona<br><em>y tipo de obra.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "QUE SE VEA A LA PRIMERA",
+    "lines": ["Baños y cocinas", "Reformas integrales", "Pueblos donde trabajas"]
+   },
+   "note": "Que no tenga que <b>preguntarlo.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Pedir<br><em>presupuesto ya.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de WhatsApp", "Botón de llamar", "Reseñas de clientes"]
+   },
+   "note": "Que te escriba <b>con las fotos de su baño.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Tus obras y tu zona", "WhatsApp y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para empresas de reformas 👇\nEl que quiere reformar el baño pregunta lo mismo a todos: fotos de obras, si trabajáis en su zona y cómo pedir presupuesto. Si tu web ya lo enseña, te escribe a ti.\nAntes y después, zona, reseñas y botón de WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Tienes fotos del antes de tu última obra?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#reformas #reformasintegrales #reformadebaño #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para empresas de reformas: 3 cosas que debe tener",
+  "text": "Página web para empresas de reformas 👇\nEl que quiere reformar el baño pregunta lo mismo a todos: fotos de obras, si trabajáis en su zona y cómo pedir presupuesto. Si tu web ya lo enseña, te escribe a ti.\nAntes y después, zona, reseñas y botón de WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Tienes fotos del antes de tu última obra?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#reformas #reformasintegrales #reformadebaño #autonomos #paginaweb #webalvuelo"
+ }
+}

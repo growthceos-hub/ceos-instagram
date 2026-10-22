@@ -1,0 +1,110 @@
+{
+ "topic": "Responder solo a los comentarios con palabra clave en Instagram con ManyChat: elige una palabra fácil (PRECIO, CITA), conecta ManyChat a tu Instagram para que mande un mensaje privado automático con una pregunta, y sigue tú la conversación a mano en cuanto contesta",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Comentan “precio”<br><em>y no respondes?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "COMENTARIO",
+      "t": "Escribe PRECIO",
+      "s": "En tu reel"
+     },
+     {
+      "n": "2",
+      "d": "AL MOMENTO",
+      "t": "Le llega un privado",
+      "s": "Automático"
+     },
+     {
+      "n": "3",
+      "d": "DESPUÉS",
+      "t": "Sigues tú",
+      "s": "A mano"
+     }
+    ]
+   },
+   "footer": "3 pasos para montarlo con ManyChat"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige<br><em>una palabra.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "PALABRA DIFÍCIL",
+    "bad": [
+     "Una frase larga",
+     "Nadie la escribe bien"
+    ],
+    "good_t": "PALABRA FÁCIL",
+    "good": [
+     "PRECIO",
+     "CITA"
+    ]
+   },
+   "note": "Dila en el vídeo <b>y en el texto.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Privado<br><em>automático.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Irene",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola, Irene",
+       "Te paso los precios",
+       "¿Para qué zona es?"
+      ],
+      "time": "21:03"
+     },
+     {
+      "from": "in",
+      "text": "Para Burgos centro",
+      "time": "21:05"
+     }
+    ]
+   },
+   "note": "Termina con <b>una pregunta.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Sigue tú<br><em>a mano.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Aviso cuando contesta",
+     "Respondes tú",
+     "Pásalo a llamada o cita"
+    ]
+   },
+   "note": "La venta <b>la cierra una persona.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ni un comentario<br><em>sin respuesta.</em>",
+   "dur": 6,
+   "items": [
+    "Una palabra fácil",
+    "Privado automático",
+    "La venta, a mano"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "ManyChat en Instagram: responde automático a quien comenta PRECIO en tus reels",
+  "text": "ManyChat en Instagram: si te comentan “precio” y respondes a los dos días, ese cliente ya preguntó a otro 💬👇\n\nCon ManyChat puedes hacer que a quien comente una palabra le llegue un mensaje privado al momento. Lo automático abre la conversación; el resto lo llevas tú.\n\n→ Elige una palabra fácil de escribir (PRECIO, CITA) y dila en el vídeo y en el texto del reel\n→ Conecta ManyChat a tu cuenta de Instagram y prepara un privado automático que termine con una pregunta: “¿para qué zona es?”\n→ Cuando conteste, sigue tú la conversación a mano y llévala a una llamada o una cita\n\nNosotros no dejamos que un bot cierre ventas. Lo usamos para que nadie se quede sin respuesta.\n\n¿Qué palabra pondrías tú para que te escriban? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#manychat #instagram #automatizacion #ventas #pymes #ceosgrowth"
+ },
+ "caption": "ManyChat en Instagram: si te comentan “precio” y respondes a los dos días, ese cliente ya preguntó a otro 💬👇\n\nCon ManyChat puedes hacer que a quien comente una palabra le llegue un mensaje privado al momento. Lo automático abre la conversación; el resto lo llevas tú.\n\n→ Elige una palabra fácil de escribir (PRECIO, CITA) y dila en el vídeo y en el texto del reel\n→ Conecta ManyChat a tu cuenta de Instagram y prepara un privado automático que termine con una pregunta: “¿para qué zona es?”\n→ Cuando conteste, sigue tú la conversación a mano y llévala a una llamada o una cita\n\nNosotros no dejamos que un bot cierre ventas. Lo usamos para que nadie se quede sin respuesta.\n\n¿Qué palabra pondrías tú para que te escriban? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#manychat #instagram #automatizacion #ventas #pymes #ceosgrowth"
+}
