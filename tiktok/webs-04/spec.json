@@ -1,0 +1,95 @@
+{
+ "topic": "POV de alguien que busca gimnasio o entrenador cerca de casa: no encuentra horario, precio ni cómo apuntarse y se va al de la otra calle. Qué debe tener la web de un gimnasio. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: buscas<br><em>gimnasio cerca.</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE TECLEA EN EL MÓVIL",
+    "lines": [
+     "gimnasio cerca de mí",
+     "entrenador personal",
+     "horario hoy"
+    ]
+   },
+   "footer": "Lo que pasa si tu gimnasio no tiene web"
+  },
+  {
+   "label": "SEGUNDO 1",
+   "title": "Ve tu nombre<br><em>sin web.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO UNA FICHA",
+    "bad": [
+     "No ve las clases",
+     "No ve el precio"
+    ],
+    "good_t": "CON TU WEB",
+    "good": [
+     "Clases y horario",
+     "Cómo apuntarse"
+    ]
+   },
+   "note": "Duda <b>tres segundos.</b>"
+  },
+  {
+   "label": "SEGUNDO 5",
+   "title": "Entra<br><em>en el de al lado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Ve el horario",
+     "Ve el mapa",
+     "Pulsa WhatsApp"
+    ]
+   },
+   "note": "No era mejor gimnasio: <b>era más fácil.</b>"
+  },
+  {
+   "label": "LO QUE FALTA",
+   "title": "Una web<br><em>que responda.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Las 5 preguntas",
+    "fields": [
+     {
+      "q": "Pregunta 1 de 5",
+      "a": "Nombre del gimnasio"
+     },
+     {
+      "q": "Pregunta 2 de 5",
+      "a": "Sala y clases"
+     },
+     {
+      "q": "Pregunta 3 de 5",
+      "a": "WhatsApp y llamada"
+     }
+    ],
+    "badge": "PRIMER DISEÑO EN 2 DÍAS"
+   },
+   "note": "Contestas <b>5 preguntas</b> y listo."
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>una vez.</em>",
+   "dur": 6,
+   "items": [
+    "Horario, mapa y reseñas",
+    "Botón de WhatsApp",
+    "Primer diseño en 2 días"
+   ],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para gimnasios y entrenadores personales 👇\nAlguien busca gimnasio cerca, ve tu nombre y no encuentra ni el horario ni cómo apuntarse. Tres segundos después está escribiendo al de la otra calle.\nContestas 5 preguntas y el primer diseño de tu web llega en 2 días. Horario, mapa, reseñas y botón de WhatsApp. 79 €, una vez.\n¿Qué ve hoy el que te busca en el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#gimnasio #entrenadorpersonal #fitness #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para gimnasios y entrenadores: POV, te buscan y no te encuentran",
+  "text": "Página web para gimnasios y entrenadores personales 👇\nAlguien busca gimnasio cerca, ve tu nombre y no encuentra ni el horario ni cómo apuntarse. Tres segundos después está escribiendo al de la otra calle.\nContestas 5 preguntas y el primer diseño de tu web llega en 2 días. Horario, mapa, reseñas y botón de WhatsApp. 79 €, una vez.\n¿Qué ve hoy el que te busca en el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#gimnasio #entrenadorpersonal #fitness #autonomos #paginaweb #webalvuelo"
+ }
+}

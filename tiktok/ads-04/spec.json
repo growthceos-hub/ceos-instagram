@@ -1,0 +1,68 @@
+{
+ "topic": "Zona segura de Instagram para anuncios en vídeo: deja libre la parte de abajo (copy y botón) y el lateral derecho (iconos), centra cara y texto y revísalo en el móvil con la interfaz encima",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Los botones<br>te tapan<br><em>el subtítulo?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FUERA DE LA ZONA SEGURA",
+    "bad": ["Texto bajo el copy", "Cara bajo los iconos"],
+    "good_t": "DENTRO DE LA ZONA SEGURA",
+    "good": ["Texto en el centro", "Cara siempre visible"]
+   },
+   "footer": "3 pasos para la zona segura"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Deja libre<br><em>la parte de abajo.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Aquí abajo Instagram pone el texto.",
+    "media": "TEXTO AL CENTRO",
+    "headline": "Pide tu cita",
+    "cta": "Reservar",
+    "tags": ["COPY ABAJO", "BOTÓN ABAJO"]
+   },
+   "note": "Ahí van <b>el copy y el botón.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Y el lateral<br><em>derecho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Me gusta y comentarios", "Compartir y audio", "Nada importante ahí"]
+   },
+   "note": "Los iconos <b>van a la derecha.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Centra<br><em>cara y texto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE SUBIRLO",
+    "lines": ["Míralo en el móvil", "Con la interfaz encima", "¿Se lee todo? Súbelo"]
+   },
+   "note": "Revísalo <b>en el móvil, no en el PC.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que nada tape<br><em>tu mensaje.</em>",
+   "dur": 6,
+   "items": ["Libre la parte de abajo", "Libre el lateral derecho", "Cara y texto al centro"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Zona segura de Instagram: dónde poner texto y cara en tus anuncios en vídeo",
+  "text": "Zona segura de Instagram: que los botones no te tapen el anuncio 📱👇\nSi el subtítulo queda debajo del copy o la cara debajo de los iconos, el mensaje no se ve.\n→ Deja libre la parte de abajo: ahí van el texto del anuncio y el botón\n→ Deja libre el lateral derecho: me gusta, comentarios, compartir y audio\n→ Centra cara y texto y revísalo en el móvil con la interfaz encima\nEn Ads al Vuelo las 3 versiones salen dentro de la zona segura.\n¿Te ha pasado que un botón te tapara el texto?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #instagramads #zonasegura #metaads #anunciosenvideo #reels"
+ },
+ "caption": "Zona segura de Instagram: que los botones no te tapen el anuncio 📱👇\nSi el subtítulo queda debajo del copy o la cara debajo de los iconos, el mensaje no se ve.\n→ Deja libre la parte de abajo: ahí van el texto del anuncio y el botón\n→ Deja libre el lateral derecho: me gusta, comentarios, compartir y audio\n→ Centra cara y texto y revísalo en el móvil con la interfaz encima\nEn Ads al Vuelo las 3 versiones salen dentro de la zona segura.\n¿Te ha pasado que un botón te tapara el texto?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #instagramads #zonasegura #metaads #anunciosenvideo #reels"
+}

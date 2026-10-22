@@ -1,0 +1,66 @@
+{
+ "topic": "Antes y después de la presencia en internet de un taller mecánico: de un número suelto en una ficha a una web con botón de llamar, WhatsApp para pedir cita, mapa, horario y reseñas. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu taller<br><em>tiene web?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["Un número y ya", "Sin horario"],
+    "good_t": "DESPUÉS",
+    "good": ["Llamar en un toque", "Cita por WhatsApp"]
+   },
+   "footer": "El antes y el después de tu taller en el móvil"
+  },
+  {
+   "label": "ANTES",
+   "title": "Coche parado,<br><em>y con prisa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE PREGUNTA",
+    "lines": ["¿Abren el sábado?", "¿Dónde está exactamente?", "¿Es de fiar?"]
+   },
+   "note": "Si no lo sabe, <b>llama a otro.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Todo<br><em>en una pantalla.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de llamar", "Horario y mapa", "Reseñas de clientes"]
+   },
+   "note": "Llega <b>sabiendo dónde ir.</b>"
+  },
+  {
+   "label": "EL EXTRA",
+   "title": "Cita<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Me miráis los frenos?", "time": "09:14"},
+     {"from": "out", "lines": ["Claro, ¿te va bien", "mañana a las 10?"], "time": "09:20"}
+    ]
+   },
+   "note": "Contestas <b>cuando sueltas la llave.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Llamar, WhatsApp y mapa", "Horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para talleres mecánicos 👇\nAl que se le enciende una luz en el salpicadero le importa una cosa: quién le atiende cerca y si abre hoy. Si solo encuentra un número suelto, prueba con otro.\nTu web con botón de llamar, WhatsApp para pedir cita, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Abres los sábados? ¿Lo sabe quien te busca?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#tallermecanico #taller #mecanica #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para talleres mecánicos: el antes y el después en el móvil",
+  "text": "Página web para talleres mecánicos 👇\nAl que se le enciende una luz en el salpicadero le importa una cosa: quién le atiende cerca y si abre hoy. Si solo encuentra un número suelto, prueba con otro.\nTu web con botón de llamar, WhatsApp para pedir cita, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez.\n¿Abres los sábados? ¿Lo sabe quien te busca?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#tallermecanico #taller #mecanica #autonomos #paginaweb #webalvuelo"
+ }
+}

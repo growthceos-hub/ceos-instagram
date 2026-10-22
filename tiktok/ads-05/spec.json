@@ -1,0 +1,66 @@
+{
+ "topic": "Subtítulos en anuncios de Meta Ads: que se entienda sin sonido, elegir frase completa o palabra a palabra, ponerlos dentro de la zona segura y revisar cada palabra",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br>se entiende<br><em>sin sonido?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN SUBTÍTULOS",
+    "bad": ["Solo se entiende con audio", "Sigue bajando"],
+    "good_t": "CON SUBTÍTULOS",
+    "good": ["Se entiende en silencio", "Se queda a leer"]
+   },
+   "footer": "3 pasos para subtitular bien"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Elige<br><em>el estilo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "FRASE COMPLETA", "t": "Más limpio", "s": "Para un anuncio dinámico o directo"},
+     {"n": "2", "d": "PALABRA A PALABRA", "t": "Más nativo", "s": "Parece un vídeo normal"}
+    ]
+   },
+   "note": "Cada estilo <b>pide un ritmo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Dentro de la<br><em>zona segura.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Ni abajo del todo", "Ni bajo los iconos", "Sin tapar la cara"]
+   },
+   "note": "Que <b>se lea entero</b> en el móvil."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Revisa<br><em>cada palabra.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "SUBTÍTULOS · REVISIÓN",
+    "lines": ["Nombres bien escritos", "Cifras como las dices", "Sin cortar una frase"]
+   },
+   "note": "Una errata <b>resta confianza.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que se entienda<br><em>en silencio.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": ["Frase o palabra a palabra", "Dentro de la zona segura", "Revisa cada palabra"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Subtítulos en anuncios de Meta Ads: cómo ponerlos para que se entienda sin sonido",
+  "text": "Subtítulos en anuncios: ¿se entiende tu vídeo sin sonido? 🔇👇\nMucha gente ve los anuncios con el móvil en silencio. Si no hay texto, no se entera de lo que dices.\n→ Elige estilo: frase completa (más limpio) o palabra a palabra (más nativo)\n→ Ponlos dentro de la zona segura, sin tapar la cara\n→ Revisa nombres, cifras y que ninguna frase quede cortada\nEn Ads al Vuelo, A y B llevan frase completa y C palabra a palabra.\n¿Tú cuál prefieres?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #subtitulos #metaads #anunciosenvideo #instagramads #ediciondevideo"
+ },
+ "caption": "Subtítulos en anuncios: ¿se entiende tu vídeo sin sonido? 🔇👇\nMucha gente ve los anuncios con el móvil en silencio. Si no hay texto, no se entera de lo que dices.\n→ Elige estilo: frase completa (más limpio) o palabra a palabra (más nativo)\n→ Ponlos dentro de la zona segura, sin tapar la cara\n→ Revisa nombres, cifras y que ninguna frase quede cortada\nEn Ads al Vuelo, A y B llevan frase completa y C palabra a palabra.\n¿Tú cuál prefieres?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #subtitulos #metaads #anunciosenvideo #instagramads #ediciondevideo"
+}
