@@ -1,0 +1,67 @@
+{
+ "topic": "Audio en anuncios de vídeo: grabar cerca del móvil y sin eco, poner la música por debajo de la voz y que baje cuando hablas, e igualar el volumen con la mezcla a −14 LUFS",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Se te oye<br>a ti o se oye<br><em>la música?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Lo que se oye en tu anuncio",
+    "items": [
+     {"label": "Música", "value": 84},
+     {"label": "Tu voz", "value": 48, "hi": true},
+     {"label": "Ruido de fondo", "value": 30}
+    ]
+   },
+   "footer": "3 pasos para que se te oiga"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba<br><em>cerca del móvil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Móvil a un brazo", "Sala sin eco", "Sin ruido de fondo"]
+   },
+   "note": "El audio malo <b>no se arregla del todo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Música<br><em>por debajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MÚSICA ENCIMA",
+    "bad": ["Tapa lo que dices", "Compite con tu voz"],
+    "good_t": "MÚSICA DEBAJO",
+    "good": ["Baja cuando hablas", "Tu voz manda"]
+   },
+   "note": "Que <b>baje cuando hablas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Iguala<br><em>el volumen.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE EXPORTAR",
+    "lines": ["Voz limpia y comprimida", "Mezcla final a −14 LUFS", "Escúchalo en el móvil"]
+   },
+   "note": "Ni <b>gritos ni susurros.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que se oiga<br><em>tu voz.</em>",
+   "dur": 6,
+   "items": ["Graba cerca y sin eco", "Música por debajo", "Mezcla a −14 LUFS"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Audio en anuncios de vídeo: cómo mezclar voz y música para Meta Ads",
+  "text": "Audio en tus anuncios: ¿se te oye a ti o a la música? 🎧👇\nSi la música tapa lo que dices, el anuncio no cuenta nada. Esto es lo que hacemos con el audio.\n→ Graba con el móvil cerca, en una sala sin eco y sin ruido de fondo\n→ Pon la música por debajo de la voz y que baje cuando hablas\n→ Iguala el volumen: voz limpia y mezcla final a −14 LUFS\n¿Pones música en tus anuncios o los dejas solo con voz?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #anunciosenvideo #metaads #audio #ediciondevideo #publicidadonline"
+ },
+ "caption": "Audio en tus anuncios: ¿se te oye a ti o a la música? 🎧👇\nSi la música tapa lo que dices, el anuncio no cuenta nada. Esto es lo que hacemos con el audio.\n→ Graba con el móvil cerca, en una sala sin eco y sin ruido de fondo\n→ Pon la música por debajo de la voz y que baje cuando hablas\n→ Iguala el volumen: voz limpia y mezcla final a −14 LUFS\n¿Pones música en tus anuncios o los dejas solo con voz?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #anunciosenvideo #metaads #audio #ediciondevideo #publicidadonline"
+}

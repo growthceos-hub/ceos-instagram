@@ -1,0 +1,71 @@
+{
+ "topic": "Por qué no empezar un anuncio con «Hola, soy…»: abre con el problema del cliente o con el resultado y preséntate después del gancho",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Empiezas con<br><em>«Hola, soy…»?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "TU PRIMER SEGUNDO",
+    "lines": ["«Hola, soy…»", "«Hoy os quiero contar…»", "«Bueno, pues…»"]
+   },
+   "footer": "3 formas de empezar mejor"
+  },
+  {
+   "label": "OPCIÓN 1",
+   "title": "Empieza por<br><em>su problema.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Empieza por lo que le pasa.",
+    "media": "¿TE DUELE LA ESPALDA AL LEVANTARTE?",
+    "headline": "Pide tu cita",
+    "cta": "Reservar",
+    "tags": ["GANCHO 0–3 S", "SIN PRESENTARTE"]
+   },
+   "note": "Tu nombre <b>puede esperar.</b>"
+  },
+  {
+   "label": "OPCIÓN 2",
+   "title": "O por<br><em>el resultado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ARRANQUE FLOJO",
+    "bad": ["«Hola, soy de…»", "«Te cuento una cosa»"],
+    "good_t": "ARRANQUE FUERTE",
+    "good": ["Lo que va a conseguir", "Lo que se lleva hoy"]
+   },
+   "note": "Que sepa <b>qué gana si se queda.</b>"
+  },
+  {
+   "label": "OPCIÓN 3",
+   "title": "Preséntate<br><em>después.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "0–3 S", "t": "Gancho", "s": "Problema o resultado"},
+     {"n": "2", "d": "DESPUÉS", "t": "Quién eres", "s": "Con una frase basta"},
+     {"n": "3", "d": "AL FINAL", "t": "Qué tiene que hacer", "s": "El botón del anuncio"}
+    ]
+   },
+   "note": "Primero <b>que se quede.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu nombre,<br><em>después.</em>",
+   "dur": 6,
+   "items": ["Abre con su problema", "O con el resultado", "Preséntate después"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "tiktok": {
+  "title": "Gancho de anuncio: por qué no empezar con «Hola, soy…» en el primer segundo",
+  "text": "Gancho de anuncio: deja el «Hola, soy…» para después 👋👇\nEn los primeros segundos se decide si alguien se queda o sigue bajando. Tu nombre todavía no le dice nada.\n→ Empieza por su problema: lo que le pasa, con sus palabras\n→ O por el resultado: lo que se lleva si se queda\n→ Preséntate después del gancho, con una frase basta\nEn Ads al Vuelo la versión B abre con la frase más fuerte de tu vídeo.\n¿Cómo empiezan tus anuncios ahora?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #ganchos #metaads #anunciosenvideo #copywriting #negocioslocales"
+ },
+ "caption": "Gancho de anuncio: deja el «Hola, soy…» para después 👋👇\nEn los primeros segundos se decide si alguien se queda o sigue bajando. Tu nombre todavía no le dice nada.\n→ Empieza por su problema: lo que le pasa, con sus palabras\n→ O por el resultado: lo que se lleva si se queda\n→ Preséntate después del gancho, con una frase basta\nEn Ads al Vuelo la versión B abre con la frase más fuerte de tu vídeo.\n¿Cómo empiezan tus anuncios ahora?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #ganchos #metaads #anunciosenvideo #copywriting #negocioslocales"
+}
