@@ -1,0 +1,66 @@
+{
+ "topic": "3 cosas que debe tener la web de una peluquería o barbería: botón para pedir cita o escribir por WhatsApp, horario y mapa a la vista, y reseñas y fotos de cortes. Web al Vuelo: 79 € pago único, sin cuotas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te piden cita<br><em>por DM?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Tenéis hueco el sábado?", "time": "22:41"},
+     {"from": "in", "text": "¿Cuánto es el degradado?", "time": "22:42"}
+    ]
+   },
+   "footer": "3 cosas que debe tener la web de tu peluquería"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Botón<br><em>de pedir cita.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Pedir cita", "Escribir por WhatsApp", "Llamar en un toque"]
+   },
+   "note": "Que reserve <b>sin esperar a que contestes.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Horario y mapa<br><em>a la vista.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ARRIBA DEL TODO",
+    "lines": ["Abierto de 10 a 20 h", "Cómo llegar en el mapa", "Precio de cada servicio"]
+   },
+   "note": "Lo que te preguntan <b>cada día por mensaje.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Reseñas<br><em>y tus cortes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO UN LOGO",
+    "bad": ["No sabe cómo cortas", "No sabe qué opinan"],
+    "good_t": "WEB CON PRUEBAS",
+    "good": ["Fotos de tus cortes", "Reseñas de Google"]
+   },
+   "note": "Elige por <b>lo que ve.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Cita, WhatsApp y mapa", "Sin cuotas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para peluquerías y barberías 👇\nSi a las once de la noche te llegan mensajes preguntando por hueco y precio, esa pregunta la puede contestar tu web.\nBotón de cita y WhatsApp, horario, mapa, reseñas y fotos de tus cortes. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Cuántos mensajes de \"¿tienes hueco?\" contestas al día?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#peluqueria #barberia #barbershop #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para peluquerías y barberías: 3 cosas que debe tener",
+  "text": "Página web para peluquerías y barberías 👇\nSi a las once de la noche te llegan mensajes preguntando por hueco y precio, esa pregunta la puede contestar tu web.\nBotón de cita y WhatsApp, horario, mapa, reseñas y fotos de tus cortes. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Cuántos mensajes de \"¿tienes hueco?\" contestas al día?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#peluqueria #barberia #barbershop #autonomos #paginaweb #webalvuelo"
+ }
+}

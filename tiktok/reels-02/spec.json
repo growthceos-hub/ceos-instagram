@@ -1,0 +1,67 @@
+{
+ "topic": "Paso a paso de la prueba de Reels al Vuelo para una peluquería o barbería: grabas un corte con el móvil, nos mandas el vídeo y en 24 h te llega editado con subtítulos, música libre y tu logo. Primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu mejor corte<br><em>sin reel?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "Grabas el corte", "s": "Con el móvil, en vertical"},
+     {"n": "2", "d": "HOY", "t": "Nos lo mandas", "s": "El vídeo tal cual"},
+     {"n": "3", "d": "EN 24 H", "t": "Reel editado", "s": "Listo para subir"}
+    ]
+   },
+   "footer": "Así funciona la prueba por 1,99 €"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba<br><em>el corte.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["El antes, de frente", "El proceso, de cerca", "El después, girando"]
+   },
+   "note": "Con el móvil <b>apoyado en el espejo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Mándanos<br><em>el vídeo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Reels al Vuelo",
+    "msgs": [
+     {"from": "out", "lines": ["Te paso el vídeo", "del degradado de hoy"], "time": "19:12"},
+     {"from": "in", "text": "Recibido. Mañana lo tienes", "time": "19:20"}
+    ]
+   },
+   "note": "Sin cortar nada: <b>eso es cosa nuestra.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "En 24 h,<br><em>editado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE TE DEVOLVEMOS",
+    "lines": ["Subtítulos", "Ritmo y música libre", "Tu logo", "Revisado por una persona"]
+   },
+   "note": "Y el vídeo <b>es tuyo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pruébalo<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Tú grabas con el móvil", "Editado en 24 h", "Sin cuotas"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para peluquerías y barberías 👇\nHaces cortes buenos todos los días y casi ninguno acaba en un reel, porque editar después de cerrar no apetece.\nGraba el antes, el proceso y el después con el móvil, nos lo mandas y en 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\n¿Qué corte de esta semana merecía un vídeo?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#peluqueria #barberia #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para peluquerías y barberías: así funciona la prueba",
+  "text": "Edición de reels para peluquerías y barberías 👇\nHaces cortes buenos todos los días y casi ninguno acaba en un reel, porque editar después de cerrar no apetece.\nGraba el antes, el proceso y el después con el móvil, nos lo mandas y en 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\n¿Qué corte de esta semana merecía un vídeo?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#peluqueria #barberia #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

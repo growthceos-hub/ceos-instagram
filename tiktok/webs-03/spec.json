@@ -1,0 +1,67 @@
+{
+ "topic": "Cuenta de lo que cuesta una web con cuota para un fisio o una clínica: 30 € al mes son 360 € al año y 1.800 € en 5 años, y la web sigue sin ser tuya. Web al Vuelo: 79 € una vez, sin cuotas, la web es tuya",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pagas cuota<br><em>por tu web?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Web con cuota de 30 €/mes",
+    "items": [
+     {"label": "1 año · 360 €", "value": 20},
+     {"label": "3 años · 1.080 €", "value": 60},
+     {"label": "5 años · 1.800 €", "value": 100, "hi": true}
+    ]
+   },
+   "footer": "Haz la cuenta antes de firmar"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "30 € al mes<br><em>no son 30 €.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MULTIPLICA",
+    "lines": ["30 € x 12 = 360 € al año", "360 € x 5 = 1.800 €", "Y si dejas de pagar..."]
+   },
+   "note": "Son <b>1.800 € en 5 años.</b>"
+  },
+  {
+   "label": "LA TRAMPA",
+   "title": "La web<br><em>no es tuya.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "WEB DE ALQUILER",
+    "bad": ["Pagas cada mes", "Si lo dejas, se apaga"],
+    "good_t": "WEB EN PROPIEDAD",
+    "good": ["Pagas una vez", "La web es tuya"]
+   },
+   "note": "Pregunta <b>de quién es la web</b> si te vas."
+  },
+  {
+   "label": "LO QUE NECESITA",
+   "title": "Lo que pide<br><em>un paciente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de pedir cita", "Mapa y horario", "Reseñas de pacientes"]
+   },
+   "note": "Eso no cuesta <b>1.800 €.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>Sin cuotas.</em>",
+   "dur": 6,
+   "items": ["La web es tuya", "Cita, mapa y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para fisios y clínicas 👇\n30 € al mes parece poco. Son 360 € al año y 1.800 € en 5 años. Y si un día dejas de pagar, la web se apaga.\nLa tuya cuesta 79 €, una vez, sin cuotas, y es tuya. Con botón de cita, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuánto llevas pagado ya en cuotas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fisioterapia #clinica #fisioterapeuta #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para fisios y clínicas: lo que cuesta pagar 30 € al mes",
+  "text": "Página web para fisios y clínicas 👇\n30 € al mes parece poco. Son 360 € al año y 1.800 € en 5 años. Y si un día dejas de pagar, la web se apaga.\nLa tuya cuesta 79 €, una vez, sin cuotas, y es tuya. Con botón de cita, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuánto llevas pagado ya en cuotas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fisioterapia #clinica #fisioterapeuta #autonomos #paginaweb #webalvuelo"
+ }
+}

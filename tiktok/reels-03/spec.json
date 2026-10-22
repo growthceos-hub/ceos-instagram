@@ -1,0 +1,99 @@
+{
+ "topic": "3 mitos sobre hacer reels para fisios y clínicas: que hace falta cámara buena, que tienes que hablar a cámara y que editar lleva horas. Reels al Vuelo: grabas con el móvil y te lo devolvemos editado en 24 h, primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Sin reels<br><em>por vergüenza?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE TE DICES",
+    "lines": [
+     "Necesito una cámara",
+     "Tengo que hablar",
+     "Editar lleva horas"
+    ]
+   },
+   "footer": "3 mitos que frenan a tu clínica"
+  },
+  {
+   "label": "MITO 1",
+   "title": "Hace falta<br><em>una cámara.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE CREES",
+    "bad": [
+     "Cámara y focos",
+     "Un estudio"
+    ],
+    "good_t": "LO QUE HACE FALTA",
+    "good": [
+     "Tu móvil",
+     "Una ventana con luz"
+    ]
+   },
+   "note": "El móvil <b>graba de sobra.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "Tienes que<br><em>salir hablando.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Manos haciendo un vendaje",
+     "La camilla preparada",
+     "Un ejercicio en 3 pasos"
+    ]
+   },
+   "note": "Tus manos <b>también cuentan.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "Editar<br><em>lleva horas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "TÚ",
+      "t": "Grabas",
+      "s": "Entre paciente y paciente"
+     },
+     {
+      "n": "2",
+      "d": "NOSOTROS",
+      "t": "Editamos",
+      "s": "Subtítulos, ritmo, música"
+     },
+     {
+      "n": "3",
+      "d": "EN 24 H",
+      "t": "Lo tienes",
+      "s": "Con tu logo, revisado"
+     }
+    ]
+   },
+   "note": "Las horas <b>las ponemos nosotros.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Graba hoy,<br><em>súbelo mañana.</em>",
+   "dur": 6,
+   "items": [
+    "Editado en 24 h",
+    "Revisado por una persona",
+    "Primer reel por 1,99 €"
+   ],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para fisios y clínicas 👇\nNo hace falta cámara, ni hablar a cámara si no quieres. Unas manos haciendo un vendaje o un ejercicio explicado en 3 pasos ya son un buen reel.\nTú grabas con el móvil y en 24 h te lo devolvemos editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona y el vídeo es tuyo.\n¿Cuál de los tres mitos te frenaba a ti?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#fisioterapia #clinica #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para fisios y clínicas: 3 mitos que te frenan",
+  "text": "Edición de reels para fisios y clínicas 👇\nNo hace falta cámara, ni hablar a cámara si no quieres. Unas manos haciendo un vendaje o un ejercicio explicado en 3 pasos ya son un buen reel.\nTú grabas con el móvil y en 24 h te lo devolvemos editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona y el vídeo es tuyo.\n¿Cuál de los tres mitos te frenaba a ti?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#fisioterapia #clinica #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}
