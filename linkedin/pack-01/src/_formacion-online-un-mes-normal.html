@@ -1,0 +1,117 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><style>
+@font-face{font-family:'Bricolage';font-weight:800;src:url(../../../toolkit/node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2) format('woff2');}
+@font-face{font-family:'Bricolage';font-weight:600;src:url(../../../toolkit/node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-600-normal.woff2) format('woff2');}
+@font-face{font-family:'Serif';font-style:italic;font-weight:400;src:url(../../../toolkit/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2) format('woff2');}
+@font-face{font-family:'Sans';font-weight:400;src:url(../../../toolkit/node_modules/@fontsource/instrument-sans/files/instrument-sans-latin-400-normal.woff2) format('woff2');}
+@font-face{font-family:'Sans';font-weight:600;src:url(../../../toolkit/node_modules/@fontsource/instrument-sans/files/instrument-sans-latin-600-normal.woff2) format('woff2');}
+@font-face{font-family:'Sans';font-weight:700;src:url(../../../toolkit/node_modules/@fontsource/instrument-sans/files/instrument-sans-latin-700-normal.woff2) format('woff2');}
+@font-face{font-family:'Mono';font-weight:500;src:url(../../../toolkit/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2) format('woff2');}
+@font-face{font-family:'Mono';font-weight:700;src:url(../../../toolkit/node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2) format('woff2');}
+
+:root{--ink:#0A0908;--or:#FF6A1A;--or2:#C9480A;--cr:#F2EDE7;--g1:#B5ADA4;--g2:#9C938B;--line:#DCD3C8;--card:#FBF8F4;}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--ink)}
+body{font-family:'Sans';color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+em{font-family:'Serif';font-style:italic;font-weight:400;color:var(--or);letter-spacing:-.005em}
+.glow{position:absolute;width:1200px;height:1200px;border-radius:50%;background:radial-gradient(circle,rgba(255,106,26,.30),rgba(255,106,26,0) 62%);left:-520px;top:-560px}
+.glow.b{left:auto;top:auto;right:-560px;bottom:-640px;background:radial-gradient(circle,rgba(255,106,26,.20),rgba(255,106,26,0) 62%)}
+.wm{position:absolute;right:-170px;top:430px;width:720px;opacity:.06}
+.arrow{display:inline-block;margin-right:8px;width:34px;height:3px;background:currentColor;position:relative;vertical-align:middle;margin-left:14px}
+.arrow:after{content:'';position:absolute;right:-1px;top:-7px;width:14px;height:14px;border-top:3px solid currentColor;border-right:3px solid currentColor;transform:rotate(45deg)}
+
+@page{size:1080px 1350px;margin:0}
+.pg{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;break-after:page;background:var(--cr)}
+.pg:last-child{page-break-after:auto}
+.pg.dark{background:var(--ink);color:var(--cr)}
+.hd{position:absolute;top:0;left:0;right:0;height:120px;padding:0 80px;display:flex;align-items:center;justify-content:space-between}
+.hd .l{display:flex;align-items:center;gap:18px;font:700 20px 'Mono';letter-spacing:.16em;text-transform:uppercase;color:var(--g2)}
+.hd img{width:46px;height:46px}
+.hd .r{font:700 22px 'Mono';letter-spacing:.14em;color:var(--or2)}
+.dark .hd .l{color:var(--g1)}
+.dark .hd img{filter:drop-shadow(0 0 18px rgba(255,106,26,.6))}
+.dark .hd .r{color:var(--or)}
+.bar{position:absolute;left:80px;right:80px;bottom:64px;height:6px;background:rgba(10,9,8,.10);border-radius:3px;overflow:hidden}
+.dark .bar{background:rgba(242,237,231,.12)}
+.bar i{display:block;height:100%;background:var(--or);border-radius:3px}
+.ft{position:absolute;left:80px;right:80px;bottom:92px;display:flex;justify-content:space-between;font:500 19px 'Mono';letter-spacing:.1em;color:var(--g2)}
+.ft b{color:var(--ink)}
+.dark .ft b{color:var(--cr)}
+.bd{position:absolute;top:150px;left:80px;right:80px;bottom:150px;overflow:hidden;display:flex;flex-direction:column;justify-content:center}
+.kick{font:700 24px 'Mono';letter-spacing:.18em;text-transform:uppercase;color:var(--or2);margin-bottom:22px}
+h2{font:800 96px/1.0 'Bricolage';letter-spacing:-.035em;margin-bottom:56px}
+h2 em{color:var(--or2)}
+.txt{font-size:46px;line-height:1.34;color:#2B2724;margin-bottom:34px}
+.txt b{color:var(--ink)}
+.say{font-family:'Serif';font-style:italic;font-size:56px;line-height:1.18;background:#fff;border-left:12px solid var(--or);padding:30px 38px;border-radius:0 18px 18px 0;margin:6px 0 32px}
+.note{font:500 25px/1.5 'Mono';color:var(--g2);margin-top:20px;padding-top:20px;border-top:1.5px solid var(--line)}
+.stats{display:grid;gap:22px;margin-bottom:40px}
+.stat{background:var(--ink);color:var(--cr);border-radius:22px;padding:34px 34px 30px}
+.stat .b{font:800 112px/1 'Bricolage';color:var(--or);letter-spacing:-.03em;white-space:nowrap}
+.stats[style*="repeat(3"] .stat .b{font-size:76px}
+.stat .l{font-size:32px;line-height:1.3;color:var(--g1);margin-top:14px}
+.stat .l b{color:var(--cr)}
+ul.arr{list-style:none}
+ul.arr li{position:relative;padding:26px 0 26px 64px;font-size:42px;line-height:1.3;border-bottom:1.5px solid var(--line)}
+ul.arr li:before{content:'';position:absolute;left:0;top:50px;width:30px;height:3px;background:var(--or)}
+ul.arr li:after{content:'';position:absolute;left:18px;top:44px;width:12px;height:12px;border-top:3px solid var(--or);border-right:3px solid var(--or);transform:rotate(45deg)}
+.q .qq{font:600 46px/1.22 'Bricolage';margin-bottom:30px}
+ul.opts{list-style:none}
+ul.opts li{background:#fff;border:1.5px solid var(--line);border-radius:18px;padding:30px 32px 30px 84px;font-size:40px;line-height:1.3;margin-bottom:18px;position:relative}
+.dot{position:absolute;left:32px;top:42px;width:28px;height:28px;border-radius:50%;background:var(--g1)}
+.dot.v{background:#2F8A57}.dot.a{background:#E0A100}.dot.r{background:#C8372D}
+.chips{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:40px}
+.chips span{background:var(--ink);color:var(--cr);border-radius:999px;padding:20px 34px;font:600 38px 'Sans'}
+table.rows{width:100%;border-collapse:collapse;margin-bottom:36px}
+table.rows td{padding:32px 10px 32px 0;border-bottom:1.5px solid var(--line);font-size:40px;line-height:1.3;vertical-align:top}
+table.rows tr:first-child td{border-top:2.5px solid var(--ink)}
+table.rows td:first-child{font-weight:600;padding-right:28px}
+table.rows td:last-child{color:#3A342F}table.rows td b{white-space:nowrap}
+table.rows td b{color:var(--or2);font:800 46px 'Bricolage'}
+.ej{display:inline-block;font:700 22px 'Mono';letter-spacing:.16em;color:var(--or2);border:2.5px solid var(--or2);border-radius:8px;padding:6px 14px}
+.ejrow{display:flex;align-items:center;gap:18px;font-size:30px;color:#5A524B;margin-bottom:26px}
+.formula{background:var(--ink);color:var(--cr);border-radius:22px;padding:44px 44px;font:600 54px/1.25 'Bricolage';margin-bottom:40px}
+.formula b{color:var(--or);font-weight:800}
+.bignum{font:800 300px/0.9 'Bricolage';color:var(--or);letter-spacing:-.04em;margin:-10px 0 30px}
+/* portada */
+.cv{position:absolute;top:150px;left:80px;right:80px;bottom:150px;display:flex;flex-direction:column}
+.cv .kick{color:var(--or);margin-top:auto}
+.cv h1{font:800 124px/0.98 'Bricolage';letter-spacing:-.035em;color:var(--cr)}
+.cv h1 em{font-size:1.04em}
+.cv .sub{font-size:42px;line-height:1.36;color:var(--g1);margin-top:44px;max-width:880px}
+.cv .sw{margin-top:auto;margin-bottom:0;display:flex;align-items:center;justify-content:space-between;border-top:1.5px solid #2A2522;padding-top:30px}
+.cv .sw span{font:700 22px 'Mono';letter-spacing:.18em;text-transform:uppercase;color:var(--g1)}
+.cv .sw .go{color:var(--or)}
+/* cierre */
+.end h1{font:800 84px/1.0 'Bricolage';letter-spacing:-.03em;color:var(--cr);margin-top:40px}
+.end .sub{font-size:38px;line-height:1.4;color:var(--g1);margin-top:40px;max-width:880px}
+.end .cta{margin-top:50px;align-self:flex-start;background:var(--or);color:var(--ink);border-radius:999px;padding:30px 46px;font:800 40px 'Bricolage';letter-spacing:-.01em;box-shadow:0 20px 60px rgba(255,106,26,.35)}
+.facts{margin-top:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;border-top:1.5px solid #2A2522;padding-top:30px}
+.facts div{font-size:24px;line-height:1.3;color:var(--g1)}
+.facts b{display:block;font:800 40px 'Bricolage';color:var(--cr);margin-bottom:6px}
+</style></head><body><section class="pg dark cover"><div class="glow"></div><div class="glow b"></div><img class="wm" src="../../../toolkit/logo.png">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">01 / 08</div></div>
+<div class="cv"><div class="kick">Caso real · Formación online</div><h1>Un mes normal: <em>28 contactos</em> a 2,09&nbsp;€.</h1><p class="sub">Sin récords. El mes que más se parece a lo que puedes esperar.</p>
+<div class="sw"><span>Ceos Growth · Burgos</span><span class="go">Desliza<i class="arrow"></i></span></div></div>
+<div class="bar"><i style="width:12.5%"></i></div></section><section class="pg ">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">02 / 08</div></div>
+<div class="bd"><div class="kick">El dato</div><h2>Lo que da un mes cualquiera</h2><div class="stats" style="grid-template-columns:repeat(3,1fr)"><div class="stat "><div class="b">28</div><div class="l">contactos</div></div><div class="stat "><div class="b">2,09&nbsp;€</div><div class="l">cada uno</div></div><div class="stat "><div class="b">58,52&nbsp;€</div><div class="l">en anuncios</div></div></div><div class="note">Datos reales de una campaña de formación online gestionada por Ceos Growth.</div></div>
+<div class="bar"><i style="width:25.0%"></i></div></section><section class="pg ">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">03 / 08</div></div>
+<div class="bd"><div class="kick">Por qué este mes</div><h2>Los récords venden. Los meses normales pagan.</h2><p class="txt">Un pico queda bien en una captura. Pero no puedes planificar con él.</p><p class="txt">Para saber cuántos alumnos esperar, cuánto invertir y a quién contratar, necesitas el mes de siempre.</p></div>
+<div class="bar"><i style="width:37.5%"></i></div></section><section class="pg ">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">04 / 08</div></div>
+<div class="bd"><div class="kick">La cuenta</div><h2>Casi uno al día</h2><div class="bignum">≈1</div><p class="txt">28 contactos al mes es casi un contacto al día. Con ese ritmo no hay excusa para no llamar a todos en 5 minutos.</p><div class="say">«Con pocos contactos, cada uno cuenta. No se puede perder ni uno por llamar tarde.»</div></div>
+<div class="bar"><i style="width:50.0%"></i></div></section><section class="pg ">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">05 / 08</div></div>
+<div class="bd"><div class="kick">La pregunta clave</div><h2>¿Puede invertir ahora?</h2><div class="q"><div class="qq">Si el programa encaja contigo, ¿puedes invertir en él ahora?</div><ul class="opts"><li><span class="dot v"></span>Sí, tengo el dinero apartado → llamada ya.</li><li><span class="dot a"></span>Sí, si se puede pagar a plazos → llamada hoy, explica las cuotas.</li><li><span class="dot r"></span>Ahora mismo no → producto de entrada o lista de espera.</li></ul></div></div>
+<div class="bar"><i style="width:62.5%"></i></div></section><section class="pg ">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">06 / 08</div></div>
+<div class="bd"><div class="kick">La llamada</div><h2>Llamada de admisión, no de venta</h2><p class="txt">Pregunta por el objetivo: cambiar de trabajo, ganar más, tener tiempo.</p><p class="txt">Y por las horas que puede dedicarle a la semana. Si tu programa exige más de lo que tiene, díselo.</p><div class="say">«Un alumno que abandona no recomienda.»</div></div>
+<div class="bar"><i style="width:75.0%"></i></div></section><section class="pg ">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">07 / 08</div></div>
+<div class="bd"><div class="kick">El «ahora no»</div><h2>No es un contacto perdido</h2><p class="txt">Quien no puede pagar hoy puede estar listo en la próxima convocatoria.</p><div class="say">«Cuando abramos la próxima convocatoria, ¿quieres que te avise?»</div><p class="txt">Apúntalo en el CRM con la fecha. Ese contacto ya lo pagaste.</p></div>
+<div class="bar"><i style="width:87.5%"></i></div></section><section class="pg dark end"><div class="glow"></div><img class="wm" src="../../../toolkit/logo.png">
+<div class="hd"><div class="l"><img src="../../../toolkit/logo.png">Ceos Growth</div><div class="r">08 / 08</div></div>
+<div class="cv"><h1>Un mes normal, repetido, <em>da para planificar.</em></h1><p class="sub">Si vendes formación online y quieres ver tus números con calma, escríbeme por privado.</p><div class="cta">Escríbeme por privado</div>
+<div class="facts"><div><b>26 días</b>de implantación</div><div><b>15-20</b>anuncios grabados</div><div><b>10</b>perfiles</div><div><b>Comisión</b>sobre ventas</div></div></div>
+<div class="bar"><i style="width:100.0%"></i></div></section></body></html>

@@ -1,0 +1,11 @@
+{
+  "pregunta": "¿Cuánto tardáis en llamar a un contacto desde que entra?",
+  "opciones": [
+    "Menos de 5 minutos",
+    "Menos de 1 hora",
+    "El mismo día",
+    "Al día siguiente o más"
+  ],
+  "duracion": "1 semana",
+  "texto": "Una pregunta rápida para empresas que captan clientes con anuncios.\n\nDesde que alguien rellena el formulario hasta que le llamáis, ¿cuánto pasa de verdad? No lo que dice el protocolo, lo que pasa un martes cualquiera.\n\nSi votas «al día siguiente», cuéntalo en comentarios: ¿qué es lo que más lo retrasa en vuestro caso?"
+}
