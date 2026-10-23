@@ -1,0 +1,103 @@
+{
+ "topic": "3 señales de que tu negocio está listo para trabajar con una agencia a comisión sobre ventas como Ceos Growth: tu servicio ya vende y tus clientes repiten o recomiendan, puedes atender más clientes de los que tienes, y sabes cuánto te deja cada venta",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu negocio<br><em>está listo?</em>",
+   "size": 134,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Tu servicio ya vende",
+     "Puedes atender más",
+     "Sabes cuánto te deja"
+    ]
+   },
+   "footer": "3 señales para trabajar a comisión"
+  },
+  {
+   "label": "SEÑAL 1",
+   "title": "Tu servicio<br><em>ya vende.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Mi hermana quiere venir"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Genial! Dile que",
+       "nos escriba cuando quiera."
+      ]
+     }
+    ]
+   },
+   "note": "Los anuncios multiplican <b>lo que ya funciona.</b>"
+  },
+  {
+   "label": "SEÑAL 2",
+   "title": "Puedes<br><em>atender más.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "AGENDA A TOPE",
+    "bad": [
+     "Más leads, más espera",
+     "Clientes enfadados"
+    ],
+    "good_t": "CON HUECO",
+    "good": [
+     "Cada lead, atendido",
+     "Cada uno, en el CRM"
+    ]
+   },
+   "note": "Si no das abasto, <b>primero ordena.</b>"
+  },
+  {
+   "label": "SEÑAL 3",
+   "title": "Sabes cuánto<br><em>te deja.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "TU VENTA",
+      "t": "Precio y margen",
+      "s": "Lo que te queda limpio"
+     },
+     {
+      "n": "2",
+      "d": "NUESTRA PARTE",
+      "t": "Comisión sobre ventas",
+      "s": "Solo sobre lo que vendes"
+     }
+    ]
+   },
+   "note": "Con eso claro, <b>la cuenta sale sola.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Si cumples<br><em>las tres, hablemos.</em>",
+   "dur": 6,
+   "size": 98,
+   "items": [
+    "Tu servicio ya vende",
+    "Puedes atender más",
+    "Sabes cuánto te deja"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia a comisión: 3 señales de que tu negocio está listo para dar el paso",
+  "text": "Agencia a comisión sobre ventas: no es para todos los negocios, y está bien saberlo ✅👇\n\nEn Ceos Growth cobramos comisión sobre ventas, así que esto te conviene mirarlo antes de empezar, con nosotros o con cualquiera.\n\n→ Tu servicio ya vende: tienes clientes que repiten o te recomiendan. Los anuncios multiplican lo que ya funciona\n→ Puedes atender más clientes de los que tienes, y cada lead nuevo queda en el CRM\n→ Sabes cuánto te deja cada venta, para que la cuenta con la comisión salga clara\n\nSi cumples las tres, en 26 días puedes tener el sistema funcionando.\n\n¿Cuál de las tres señales cumple tu negocio hoy?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #comisionsobreventas #agenciademarketing #metaads #empresarios #pymes"
+ },
+ "caption": "Agencia a comisión sobre ventas: no es para todos los negocios, y está bien saberlo ✅👇\n\nEn Ceos Growth cobramos comisión sobre ventas, así que esto te conviene mirarlo antes de empezar, con nosotros o con cualquiera.\n\n→ Tu servicio ya vende: tienes clientes que repiten o te recomiendan. Los anuncios multiplican lo que ya funciona\n→ Puedes atender más clientes de los que tienes, y cada lead nuevo queda en el CRM\n→ Sabes cuánto te deja cada venta, para que la cuenta con la comisión salga clara\n\nSi cumples las tres, en 26 días puedes tener el sistema funcionando.\n\n¿Cuál de las tres señales cumple tu negocio hoy?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #comisionsobreventas #agenciademarketing #metaads #empresarios #pymes"
+}

@@ -1,0 +1,71 @@
+{
+ "topic": "3 errores de una panadería o pastelería sin web: no decir si abre el domingo ni a qué hora, no dejar encargar tartas o roscones por WhatsApp y no salir en el mapa cuando alguien busca panadería cerca. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Abrís<br><em>el domingo?</em>",
+   "size": 134,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Abrís el domingo?", "time": "08:02"},
+     {"from": "in", "text": "¿Hacéis tartas de encargo?", "time": "08:03"}
+    ]
+   },
+   "footer": "3 errores de una panadería sin web"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Sin horario<br><em>a la vista.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE QUIERE SABER",
+    "lines": ["¿Abren ahora?", "¿Y los domingos?", "¿A qué hora sale el pan?"]
+   },
+   "note": "Si no lo sabe, <b>va a la de siempre.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Sin encargos<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Encargar una tarta",
+    "fields": [
+     {"q": "¿Qué tarta?", "a": "Chocolate, 8 personas"},
+     {"q": "¿Para cuándo?", "a": "Sábado a las 11"}
+    ],
+    "badge": "✓ ENCARGO ENVIADO"
+   },
+   "note": "Tartas, roscones, bandejas: <b>a un toque.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "No salir<br><em>en el mapa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["No te encuentran", "Nadie ve tus reseñas"],
+    "good_t": "CON WEB",
+    "good": ["Mapa con un toque", "Reseñas a la vista"]
+   },
+   "note": "Quien busca <b>panadería cerca</b> te ve."
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Horario y mapa", "Encargos por WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para panaderías y pastelerías 👇\n«¿Abrís el domingo?», «¿hacéis tartas por encargo?». Si esas respuestas no están en internet, el cliente va a la que sí las tiene.\nTu web con horario, a qué hora sale el pan, encargos por WhatsApp, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, sin cuotas, y la web es tuya.\n¿Qué es lo que más os encargan?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#panaderia #pasteleria #obrador #comerciolocal #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para panaderías: 3 errores que te quitan encargos",
+  "text": "Página web para panaderías y pastelerías 👇\n«¿Abrís el domingo?», «¿hacéis tartas por encargo?». Si esas respuestas no están en internet, el cliente va a la que sí las tiene.\nTu web con horario, a qué hora sale el pan, encargos por WhatsApp, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, sin cuotas, y la web es tuya.\n¿Qué es lo que más os encargan?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#panaderia #pasteleria #obrador #comerciolocal #paginaweb #webalvuelo"
+ }
+}

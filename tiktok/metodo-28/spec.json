@@ -1,0 +1,108 @@
+{
+ "topic": "Tu primer año con Ceos Growth en un calendario: días 1–26 de implantación (15–20 anuncios en estudio propio, campañas y CRM), 12 meses de Meta Ads sin permanencia cobrando comisión sobre ventas, y después sigues solo si te funciona, como muchos de nuestros clientes que llevan más de 2 años",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cómo sería<br><em>tu primer año?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DÍA 1",
+      "t": "Empezamos",
+      "s": "Implantación"
+     },
+     {
+      "n": "26",
+      "d": "DÍA 26",
+      "t": "Sistema funcionando",
+      "s": "Captando clientes"
+     },
+     {
+      "n": "12",
+      "d": "MES 12",
+      "t": "Decides tú",
+      "s": "Sin permanencia"
+     }
+    ]
+   },
+   "footer": "Un año con Ceos Growth en 3 tramos"
+  },
+  {
+   "label": "DÍAS 1–26",
+   "title": "La<br><em>implantación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "15–20 anuncios en estudio",
+     "Campañas de Meta Ads",
+     "CRM con cada lead"
+    ]
+   },
+   "note": "En <b>26 días</b>, todo montado."
+  },
+  {
+   "label": "MESES 1–12",
+   "title": "Meta Ads<br><em>a comisión.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CUOTA FIJA",
+    "bad": [
+     "Pagas cada mes igual",
+     "Vendas o no"
+    ],
+    "good_t": "COMISIÓN SOBRE VENTAS",
+    "good": [
+     "Ganamos si vendes",
+     "Sin permanencia"
+    ]
+   },
+   "note": "Un equipo de <b>10 perfiles</b> detrás."
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Sigues<br><em>si te funciona.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Y el año que viene?"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Si te funciona, seguimos.",
+       "Sin permanencia."
+      ]
+     }
+    ]
+   },
+   "note": "Muchos clientes, <b>más de 2 años.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu año,<br><em>paso a paso.</em>",
+   "dur": 6,
+   "items": [
+    "26 días de implantación",
+    "12 meses de Meta Ads",
+    "Sigues si te funciona"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Primer año con una agencia de Meta Ads: así es el calendario con Ceos Growth",
+  "text": "Primer año con una agencia de Meta Ads: así se ve con Ceos Growth, tramo a tramo 🗓️👇\n\nAntes de empezar con cualquier agencia conviene saber qué pasa cada mes. Este es nuestro calendario.\n\n→ Días 1 a 26: implantación. Grabamos 15–20 anuncios en estudio propio, lanzamos campañas y montamos el CRM\n→ Meses 1 a 12: Meta Ads con un equipo de 10 perfiles, cobrando comisión sobre ventas y sin permanencia\n→ Después: sigues si te funciona. Tenemos +17 clientes activos y muchos llevan más de 2 años\n\nSi quieres ver cómo encajaría en tu negocio, lo vemos en una llamada.\n\n¿Qué esperas tener funcionando dentro de un año?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #agenciademarketing #captaciondeclientes #empresarios #pymes"
+ },
+ "caption": "Primer año con una agencia de Meta Ads: así se ve con Ceos Growth, tramo a tramo 🗓️👇\n\nAntes de empezar con cualquier agencia conviene saber qué pasa cada mes. Este es nuestro calendario.\n\n→ Días 1 a 26: implantación. Grabamos 15–20 anuncios en estudio propio, lanzamos campañas y montamos el CRM\n→ Meses 1 a 12: Meta Ads con un equipo de 10 perfiles, cobrando comisión sobre ventas y sin permanencia\n→ Después: sigues si te funciona. Tenemos +17 clientes activos y muchos llevan más de 2 años\n\nSi quieres ver cómo encajaría en tu negocio, lo vemos en una llamada.\n\n¿Qué esperas tener funcionando dentro de un año?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #agenciademarketing #captaciondeclientes #empresarios #pymes"
+}

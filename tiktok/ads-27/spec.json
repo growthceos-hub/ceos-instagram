@@ -1,0 +1,110 @@
+{
+ "topic": "Anuncios para agencias y media buyers: 3 objeciones a Ads al Vuelo y su respuesta. «Ya tengo editor» (que haga las piezas grandes; esto cubre el volumen de test), «tardará días» (normalmente el mismo día) y «¿y si no me gusta?» (una ronda de cambios por anuncio). Desde 49 € por 12 versiones con su copy",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu editor<br><em>no llega</em><br><em>a todo?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE DICE UNA AGENCIA",
+    "lines": [
+     "Ya tengo editor",
+     "Tardará días",
+     "¿Y si no me gusta?"
+    ]
+   },
+   "footer": "3 objeciones de agencias y su respuesta"
+  },
+  {
+   "label": "OBJECIÓN 1",
+   "title": "«Ya tengo<br><em>editor.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TU EDITOR",
+    "bad": [
+     "Una versión por vídeo",
+     "Se le acumulan"
+    ],
+    "good_t": "PARA EL TEST",
+    "good": [
+     "3 versiones por bruto",
+     "Volumen para testear"
+    ]
+   },
+   "note": "Tu editor, <b>para las piezas grandes.</b>"
+  },
+  {
+   "label": "OBJECIÓN 2",
+   "title": "«Tardará<br><em>días.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "POR LA MAÑANA",
+      "t": "Subes el bruto",
+      "s": "El vídeo del cliente"
+     },
+     {
+      "n": "2",
+      "d": "NORMALMENTE",
+      "t": "El mismo día",
+      "s": "Te llegan A, B y C"
+     },
+     {
+      "n": "3",
+      "d": "CON SU COPY",
+      "t": "Listas para Meta",
+      "s": "Titular y texto"
+     }
+    ]
+   },
+   "note": "Sin que el vídeo <b>se quede en la carpeta.</b>"
+  },
+  {
+   "label": "OBJECIÓN 3",
+   "title": "«¿Y si<br><em>no me gusta?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Ads al Vuelo",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "En la versión C",
+       "quita la música"
+      ],
+      "time": "16:05"
+     },
+     {
+      "from": "in",
+      "text": "Ronda de cambios en marcha",
+      "time": "16:06"
+     }
+    ]
+   },
+   "note": "Una <b>ronda de cambios</b> por anuncio."
+  },
+  {
+   "kind": "cta",
+   "title": "Pruébalo<br><em>con 4 anuncios.</em>",
+   "dur": 6,
+   "items": [
+    "12 versiones con copy",
+    "Normalmente el mismo día",
+    "Desde 49 €"
+   ],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para agencias y media buyers: «ya tengo editor» y otras 2 objeciones 🤝👇\n→ «Ya tengo editor»: que se quede con las piezas grandes. Esto es para el volumen de test al que no llega\n→ «Tardará días»: subes el bruto del cliente y te llegan 3 versiones con su copy, normalmente el mismo día\n→ «¿Y si no me gusta?»: tienes una ronda de cambios por anuncio\n¿Cuántos vídeos de clientes tienes sin editar ahora mismo?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #mediabuyer #agenciademarketing #metaads #creatividades #trafficker",
+ "tiktok": {
+  "title": "Anuncios para agencias y media buyers: «ya tengo editor» y otras 2 objeciones",
+  "text": "Anuncios para agencias y media buyers: «ya tengo editor» y otras 2 objeciones 🤝👇\n→ «Ya tengo editor»: que se quede con las piezas grandes. Esto es para el volumen de test al que no llega\n→ «Tardará días»: subes el bruto del cliente y te llegan 3 versiones con su copy, normalmente el mismo día\n→ «¿Y si no me gusta?»: tienes una ronda de cambios por anuncio\n¿Cuántos vídeos de clientes tienes sin editar ahora mismo?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #mediabuyer #agenciademarketing #metaads #creatividades #trafficker"
+ }
+}

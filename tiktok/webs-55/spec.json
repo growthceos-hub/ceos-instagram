@@ -1,0 +1,71 @@
+{
+ "topic": "Cómo tener la web de un fontanero o electricista en 3 pasos con Web al Vuelo: contestas 5 preguntas desde la furgoneta, en 2 días tienes el primer diseño con botón de llamar, WhatsApp, zona y reseñas, y si no te convence se rehace gratis. 79 € pago único, sin cuotas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Web nueva<br><em>sin parar</em><br><em>de trabajar?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "EN LA FURGONETA", "t": "5 preguntas", "s": "Desde el móvil"},
+     {"n": "2", "d": "EN 2 DÍAS", "t": "Primer diseño", "s": "Listo para revisar"},
+     {"n": "3", "d": "SI NO CONVENCE", "t": "Se rehace", "s": "Gratis"}
+    ]
+   },
+   "footer": "Cómo tenerla en 3 pasos por 79 €"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Contestas<br><em>5 preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu negocio",
+    "fields": [
+     {"q": "¿Qué haces?", "a": "Fontanería y calefacción"},
+     {"q": "¿En qué zona?", "a": "Toda la comarca"}
+    ],
+    "badge": "✓ ENVIADO"
+   },
+   "note": "Cinco minutos <b>entre aviso y aviso.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "En 2 días,<br><em>el diseño.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de llamar arriba", "WhatsApp para fotos", "Zona y urgencias", "Reseñas"]
+   },
+   "note": "Lo que necesita <b>quien tiene la avería.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "¿No te<br><em>convence?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Web al Vuelo",
+    "msgs": [
+     {"from": "out", "lines": ["Pon el teléfono", "más grande"], "time": "14:30"},
+     {"from": "in", "text": "Hecho, te la rehacemos", "time": "14:36"}
+    ]
+   },
+   "note": "Se rehace <b>gratis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>La web es tuya.</em>",
+   "dur": 6,
+   "items": ["Sin cuotas", "Llamar, WhatsApp y mapa", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para fontaneros y electricistas 👇\nNo necesitas una semana libre para tener web. Así se hace:\nContestas 5 preguntas desde el móvil, entre aviso y aviso. En 2 días tienes el primer diseño con botón de llamar, WhatsApp para que te manden fotos, zona, urgencias y reseñas. Si no te convence, se rehace gratis.\n79 € pago único, sin cuotas, y la web es tuya.\n¿Cuánto tardarías en contestar 5 preguntas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fontanero #electricista #reformas #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para fontaneros y electricistas: cómo tenerla en 3 pasos por 79 €",
+  "text": "Página web para fontaneros y electricistas 👇\nNo necesitas una semana libre para tener web. Así se hace:\nContestas 5 preguntas desde el móvil, entre aviso y aviso. En 2 días tienes el primer diseño con botón de llamar, WhatsApp para que te manden fotos, zona, urgencias y reseñas. Si no te convence, se rehace gratis.\n79 € pago único, sin cuotas, y la web es tuya.\n¿Cuánto tardarías en contestar 5 preguntas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fontanero #electricista #reformas #autonomos #paginaweb #webalvuelo"
+ }
+}

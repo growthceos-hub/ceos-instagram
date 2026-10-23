@@ -1,0 +1,103 @@
+{
+ "topic": "Preguntas frecuentes en tu landing o web: saca las dudas reales de tus WhatsApp y llamadas (precio, plazos, qué incluye, garantía), respóndelas en dos líneas con palabras del cliente y ponlas justo antes del botón final",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te preguntan<br><em>lo mismo?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Cuánto tardáis?"
+     },
+     {
+      "from": "in",
+      "text": "¿Incluye la retirada?"
+     },
+     {
+      "from": "in",
+      "text": "¿Y si no me gusta?"
+     }
+    ]
+   },
+   "footer": "3 pasos para tus preguntas frecuentes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Sácalas<br><em>de tu WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "¿Cuánto cuesta?",
+     "¿Cuánto tardáis?",
+     "¿Y si no me gusta?"
+    ]
+   },
+   "note": "Las reales, <b>no las que te inventas.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Dos líneas,<br><em>sus palabras.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "¿CUÁNTO TARDÁIS?",
+    "lines": [
+     "Un baño completo, unos 10 días.",
+     "Te damos la fecha por escrito."
+    ]
+   },
+   "note": "Sin rodeos <b>ni letra pequeña.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Antes del<br><em>botón final.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ARRIBA",
+      "t": "Qué haces y para quién",
+      "s": "Y el primer botón"
+     },
+     {
+      "n": "2",
+      "d": "EN MEDIO",
+      "t": "Pruebas y reseñas",
+      "s": "Para que te crea"
+     },
+     {
+      "n": "3",
+      "d": "AL FINAL",
+      "t": "Preguntas y botón",
+      "s": "Sin dudas, pulsa"
+     }
+    ]
+   },
+   "note": "Resuelve la duda <b>justo antes de decidir.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que no tengan<br><em>que preguntar.</em>",
+   "dur": 6,
+   "items": [
+    "Dudas reales de clientes",
+    "Dos líneas cada una",
+    "Antes del botón final"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Preguntas frecuentes en tu web: cómo escribirlas para quitar dudas y que te contacten",
+  "text": "Preguntas frecuentes en tu web: cada duda sin responder es un cliente que no pulsa el botón ❓👇\n\nSi te preguntan siempre lo mismo por WhatsApp, quien entra en tu web también se lo pregunta. Y no todos te escriben para saberlo.\n\n→ Saca las dudas reales de tus WhatsApp y llamadas: precio, plazos, qué incluye, qué pasa si no le gusta\n→ Respóndelas en dos líneas, con las palabras que usa el cliente, sin letra pequeña\n→ Ponlas justo antes del botón final, que es cuando está decidiendo\n\nY cuando te pregunten algo nuevo, súmalo a la lista.\n\n¿Cuál es la pregunta que más te hacen antes de contratarte?\n\nSíguenos para más tips 🧡\n\n#preguntasfrecuentes #landingpage #paginaweb #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Preguntas frecuentes en tu web: cada duda sin responder es un cliente que no pulsa el botón ❓👇\n\nSi te preguntan siempre lo mismo por WhatsApp, quien entra en tu web también se lo pregunta. Y no todos te escriben para saberlo.\n\n→ Saca las dudas reales de tus WhatsApp y llamadas: precio, plazos, qué incluye, qué pasa si no le gusta\n→ Respóndelas en dos líneas, con las palabras que usa el cliente, sin letra pequeña\n→ Ponlas justo antes del botón final, que es cuando está decidiendo\n\nY cuando te pregunten algo nuevo, súmalo a la lista.\n\n¿Cuál es la pregunta que más te hacen antes de contratarte?\n\nSíguenos para más tips 🧡\n\n#preguntasfrecuentes #landingpage #paginaweb #captaciondeclientes #pymes #ceosgrowth"
+}

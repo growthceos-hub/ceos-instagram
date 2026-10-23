@@ -1,0 +1,69 @@
+{
+ "topic": "POV para wedding planners: la boda sale perfecta y tu Instagram no lo enseña porque no hay tiempo de editar. Qué grabar sin estorbar al fotógrafo (el montaje con el sitio vacío, los detalles de la mesa, el momento en que entran los invitados) y Reels al Vuelo te lo devuelve editado en 24 h",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: boda<br><em>perfecta</em><br><em>y cero reels.</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Pareja",
+    "msgs": [
+     {"from": "in", "text": "¿Tienes bodas para ver?", "time": "22:40"},
+     {"from": "in", "text": "En tu Instagram no hay", "time": "22:41"}
+    ]
+   },
+   "footer": "3 tomas para grabar sin estorbar al fotógrafo"
+  },
+  {
+   "label": "TOMA 1",
+   "title": "El sitio<br><em>todavía vacío.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "4 HORAS ANTES", "t": "El espacio vacío", "s": "Desde la entrada"},
+     {"n": "2", "d": "2 HORAS ANTES", "t": "El montaje", "s": "Sillas, flores, luces"},
+     {"n": "3", "d": "AL ACABAR", "t": "Todo listo", "s": "Mismo sitio, mismo plano"}
+    ]
+   },
+   "note": "Tu trabajo <b>en 3 planos.</b>"
+  },
+  {
+   "label": "TOMA 2",
+   "title": "Los detalles<br><em>de la mesa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Seating y minutas", "Centros de mesa", "Las velas encendidas"]
+   },
+   "note": "De cerca y <b>moviendo el móvil despacio.</b>"
+  },
+  {
+   "label": "TOMA 3",
+   "title": "Entran<br><em>los invitados.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN PERMISO",
+    "bad": ["Caras de invitados", "Momentos privados"],
+    "good_t": "CON PERMISO",
+    "good": ["De espaldas o lejos", "Lo que la pareja quiera"]
+   },
+   "note": "Pide permiso <b>a la pareja por escrito.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú organizas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Subtítulos, música y logo", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para wedding planners 👇\nPOV: la boda ha salido perfecta y en tu Instagram no hay nada, porque al día siguiente ya estás con la próxima.\nGraba el sitio vacío, el montaje y los detalles de la mesa con el móvil, sin estorbar al fotógrafo. Nos lo mandas y en 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\nY pide siempre permiso a la pareja antes de publicar.\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#weddingplanner #bodas #organizaciondebodas #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para wedding planners: POV, boda perfecta y cero reels",
+  "text": "Edición de reels para wedding planners 👇\nPOV: la boda ha salido perfecta y en tu Instagram no hay nada, porque al día siguiente ya estás con la próxima.\nGraba el sitio vacío, el montaje y los detalles de la mesa con el móvil, sin estorbar al fotógrafo. Nos lo mandas y en 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\nY pide siempre permiso a la pareja antes de publicar.\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#weddingplanner #bodas #organizaciondebodas #edicionvideo #reels #reelsalvuelo"
+ }
+}

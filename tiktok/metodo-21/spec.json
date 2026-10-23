@@ -1,0 +1,98 @@
+{
+ "topic": "Qué dice de una agencia que sus clientes se queden sin permanencia: en Ceos Growth trabajamos 12 meses de Meta Ads sin permanencia, tenemos +17 clientes activos y muchos llevan más de 2 años; con comisión sobre ventas, solo seguimos si a los dos nos compensa",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y si pudieras<br><em>irte mañana?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CON PERMANENCIA",
+    "bad": [
+     "Sigues porque firmaste",
+     "Aunque no funcione"
+    ],
+    "good_t": "SIN PERMANENCIA",
+    "good": [
+     "Sigues porque quieres",
+     "Si te funciona"
+    ]
+   },
+   "footer": "Lo que dicen 3 datos de Ceos Growth"
+  },
+  {
+   "label": "DATO 1",
+   "title": "Sin<br><em>permanencia.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "12 meses de Meta Ads",
+     "Sin permanencia",
+     "Nadie te obliga a quedarte"
+    ]
+   },
+   "note": "Si no te convence, <b>te puedes ir.</b>"
+  },
+  {
+   "label": "DATO 2",
+   "title": "Clientes<br><em>que se quedan.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "17",
+      "d": "HOY",
+      "t": "+17 clientes activos",
+      "s": "Trabajando con nosotros"
+     },
+     {
+      "n": "2",
+      "d": "AÑOS",
+      "t": "Muchos, más de 2 años",
+      "s": "Y sin contrato que les ate"
+     }
+    ]
+   },
+   "note": "Se quedan <b>porque quieren.</b>"
+  },
+  {
+   "label": "DATO 3",
+   "title": "Ganamos<br><em>si vendes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO CUOTA FIJA",
+    "bad": [
+     "Cobra igual",
+     "Vendas o no"
+    ],
+    "good_t": "COMISIÓN SOBRE VENTAS",
+    "good": [
+     "Cobramos si vendes",
+     "Mismo objetivo"
+    ]
+   },
+   "note": "Seguir tiene que <b>compensarnos a los dos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Quédate<br><em>porque quieras.</em>",
+   "dur": 6,
+   "items": [
+    "Sin permanencia",
+    "+17 clientes activos",
+    "Comisión sobre ventas"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia sin permanencia: por qué nuestros clientes siguen aunque podrían irse",
+  "text": "Agencia sin permanencia: la pregunta es por qué los clientes se quedan si se pueden ir 🔓👇\n\nUn contrato de permanencia te obliga a seguir aunque no funcione. Sin él, solo sigues si te compensa.\n\n→ En Ceos Growth trabajamos 12 meses de Meta Ads sin permanencia\n→ Tenemos +17 clientes activos, y muchos llevan con nosotros más de 2 años\n→ Cobramos comisión sobre ventas, así que seguir tiene que compensarnos a los dos\n\nPregúntale a tu agencia actual qué pasaría si quisieras irte mañana.\n\n¿Tienes ahora algún contrato de marketing con permanencia?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #sinpermanencia #agenciademarketing #metaads #clientes #pymes"
+ },
+ "caption": "Agencia sin permanencia: la pregunta es por qué los clientes se quedan si se pueden ir 🔓👇\n\nUn contrato de permanencia te obliga a seguir aunque no funcione. Sin él, solo sigues si te compensa.\n\n→ En Ceos Growth trabajamos 12 meses de Meta Ads sin permanencia\n→ Tenemos +17 clientes activos, y muchos llevan con nosotros más de 2 años\n→ Cobramos comisión sobre ventas, así que seguir tiene que compensarnos a los dos\n\nPregúntale a tu agencia actual qué pasaría si quisieras irte mañana.\n\n¿Tienes ahora algún contrato de marketing con permanencia?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #sinpermanencia #agenciademarketing #metaads #clientes #pymes"
+}

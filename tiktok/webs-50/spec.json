@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores de la web de un hotel rural o casa rural: fotos oscuras de las habitaciones, no explicar cómo llegar ni qué hay cerca, y no dejar reservar directamente por WhatsApp o teléfono. Web al Vuelo: 79 € pago único, primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu casa rural<br><em>se ve oscura</em><br><em>en la web?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE MIRA ANTES DE RESERVAR",
+    "lines": ["Las habitaciones", "Cómo se llega", "Qué hay cerca"]
+   },
+   "footer": "3 errores de la web de un alojamiento rural"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Fotos<br><em>oscuras.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["De noche, con flash", "Desde una esquina"],
+    "good_t": "ASÍ SÍ",
+    "good": ["De día, persiana arriba", "Cama hecha, de frente"]
+   },
+   "note": "La habitación <b>se elige por la foto.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Ni cómo llegar<br><em>ni qué hacer.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Mapa y cómo llegar", "Rutas y pueblos cerca", "Dónde comer en la zona"]
+   },
+   "note": "Reserva <b>el plan entero,</b> no la cama."
+  },
+  {
+   "label": "ERROR 3",
+   "title": "No poder<br><em>reservar directo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu casa rural",
+    "msgs": [
+     {"from": "out", "lines": ["¿Libre el puente", "para 4 personas?"], "time": "21:10"},
+     {"from": "in", "text": "Sí, te la reservamos", "time": "21:25"}
+    ]
+   },
+   "note": "Botón de WhatsApp <b>y de llamar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Habitaciones y entorno", "Reservar por WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para hoteles y casas rurales 👇\nUna escapada se elige por las fotos de la habitación, por lo que hay cerca y por lo fácil que es reservar. Si falla una de las tres, se va a otra casa.\nTu web con fotos con luz de día, mapa, qué hacer en la zona, botón de WhatsApp y de llamar para reservar directo, y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Qué es lo que más preguntan tus huéspedes?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#casarural #hotelrural #turismorural #escapadas #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para hoteles rurales: 3 errores que te quitan reservas",
+  "text": "Página web para hoteles y casas rurales 👇\nUna escapada se elige por las fotos de la habitación, por lo que hay cerca y por lo fácil que es reservar. Si falla una de las tres, se va a otra casa.\nTu web con fotos con luz de día, mapa, qué hacer en la zona, botón de WhatsApp y de llamar para reservar directo, y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Qué es lo que más preguntan tus huéspedes?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#casarural #hotelrural #turismorural #escapadas #paginaweb #webalvuelo"
+ }
+}

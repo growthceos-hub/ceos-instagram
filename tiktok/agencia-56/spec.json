@@ -1,0 +1,95 @@
+{
+ "topic": "Excluir a tus clientes actuales de los anuncios de captación en Meta Ads: sube la lista de clientes como público personalizado, exclúyela en el conjunto de anuncios de captación y úsala aparte para un anuncio pensado para ellos",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pagas anuncios<br><em>a tus clientes?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente de siempre",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Me sale vuestro anuncio"
+     },
+     {
+      "from": "in",
+      "text": "¿Hay descuento a nuevos?"
+     }
+    ]
+   },
+   "footer": "3 pasos para no pagar por quien ya tienes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Sube<br><em>tu lista.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Exporta clientes del CRM",
+     "Teléfono y email",
+     "Público personalizado"
+    ]
+   },
+   "note": "Actualízala <b>cada mes.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Exclúyela<br><em>en captación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Conjunto de anuncios",
+    "fields": [
+     {
+      "q": "Público",
+      "a": "Burgos, 25 a 60 años"
+     },
+     {
+      "q": "Excluir",
+      "a": "Clientes actuales"
+     }
+    ],
+    "badge": "✓ SOLO GENTE NUEVA"
+   },
+   "note": "Cada euro va <b>a quien aún no te conoce.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Un anuncio<br><em>solo para ellos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Para los que ya confiáis en nosotros.",
+    "media": "REVISIÓN ANUAL PARA CLIENTES",
+    "headline": "Solo para clientes",
+    "cta": "Reservar",
+    "tags": [
+     "LISTA DE CLIENTES",
+     "OTRO MENSAJE"
+    ]
+   },
+   "note": "Al cliente <b>háblale de volver.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cada anuncio,<br><em>a su público.</em>",
+   "dur": 6,
+   "items": [
+    "Sube tu lista de clientes",
+    "Exclúyela en captación",
+    "Anuncio aparte para ellos"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Excluir clientes en Meta Ads: deja de pagar anuncios de captación a quien ya te compra",
+  "text": "Excluir clientes en Meta Ads: tu anuncio para gente nueva también se lo enseñas a tus clientes 🚫👇\n\nSi no los excluyes, parte de tu presupuesto se va en gente que ya te compra. Y a veces te piden el descuento de nuevo cliente.\n\n→ Exporta tus clientes del CRM (teléfono y email) y súbelos a Meta como público personalizado\n→ En el conjunto de anuncios de captación, exclúyelo\n→ Usa esa misma lista aparte para un anuncio pensado para ellos: una revisión, un extra o una recomendación\n\nActualiza la lista cada mes para que los nuevos clientes también salgan.\n\n¿Tienes excluidos a tus clientes en tus campañas?\n\nSíguenos para más tips 🧡\n\n#metaads #publicospersonalizados #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Excluir clientes en Meta Ads: tu anuncio para gente nueva también se lo enseñas a tus clientes 🚫👇\n\nSi no los excluyes, parte de tu presupuesto se va en gente que ya te compra. Y a veces te piden el descuento de nuevo cliente.\n\n→ Exporta tus clientes del CRM (teléfono y email) y súbelos a Meta como público personalizado\n→ En el conjunto de anuncios de captación, exclúyelo\n→ Usa esa misma lista aparte para un anuncio pensado para ellos: una revisión, un extra o una recomendación\n\nActualiza la lista cada mes para que los nuevos clientes también salgan.\n\n¿Tienes excluidos a tus clientes en tus campañas?\n\nSíguenos para más tips 🧡\n\n#metaads #publicospersonalizados #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+}

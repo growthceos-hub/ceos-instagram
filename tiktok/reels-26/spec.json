@@ -1,0 +1,66 @@
+{
+ "topic": "Reel de un coach en bruto frente a editado: grabas 3 minutos hablando a cámara con silencios y repeticiones, y Reels al Vuelo lo deja en un reel con la idea fuerte al principio, cortes sin pausas, subtítulos, música libre y tu logo en 24 h. Primer reel por 1,99 €, 10 reels por 59 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Hablas bien<br><em>y el vídeo</em><br><em>no engancha?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TU VÍDEO EN BRUTO",
+    "bad": ["3 minutos seguidos", "Silencios y «eeeh»"],
+    "good_t": "TU REEL EDITADO",
+    "good": ["La idea fuerte primero", "Subtítulos y ritmo"]
+   },
+   "footer": "Tu vídeo en bruto frente al editado"
+  },
+  {
+   "label": "EN BRUTO",
+   "title": "Lo bueno,<br><em>en el minuto 2.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "MINUTO 0", "t": "«Bueno, hola…»", "s": "Aquí se van"},
+     {"n": "2", "d": "MINUTO 1", "t": "Contexto", "s": "Necesario, pero largo"},
+     {"n": "3", "d": "MINUTO 2", "t": "La frase que vale", "s": "La que nadie llega a oír"}
+    ]
+   },
+   "note": "Hablas bien: <b>falta cambiar el orden.</b>"
+  },
+  {
+   "label": "EDITADO",
+   "title": "La frase<br><em>al principio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE HACEMOS",
+    "lines": ["Tu mejor frase, arriba", "Fuera pausas y repeticiones", "Subtítulos que se leen"]
+   },
+   "note": "Lo revisa <b>una persona.</b>"
+  },
+  {
+   "label": "TÚ SOLO",
+   "title": "Grabas<br><em>y lo mandas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Móvil a la altura de los ojos", "Ventana delante", "Sin cortar nada"]
+   },
+   "note": "En 24 h <b>lo tienes editado.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú hablas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Primer reel por 1,99 €", "10 reels por 59 €", "Sin cuotas"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para coaches 👇\nGrabas tres minutos a cámara y lo mejor que dices aparece en el minuto dos. Para entonces, casi nadie sigue mirando.\nNos mandas el vídeo tal cual y en 24 h te llega el reel con tu mejor frase al principio, sin pausas ni repeticiones, con subtítulos, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Cuál es la frase que más repites a tus clientes?\nPrimer reel por 1,99 €, o 10 reels por 59 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#coach #coaching #marcapersonal #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para coaches: tu vídeo en bruto frente al editado",
+  "text": "Edición de reels para coaches 👇\nGrabas tres minutos a cámara y lo mejor que dices aparece en el minuto dos. Para entonces, casi nadie sigue mirando.\nNos mandas el vídeo tal cual y en 24 h te llega el reel con tu mejor frase al principio, sin pausas ni repeticiones, con subtítulos, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Cuál es la frase que más repites a tus clientes?\nPrimer reel por 1,99 €, o 10 reels por 59 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#coach #coaching #marcapersonal #edicionvideo #reels #reelsalvuelo"
+ }
+}

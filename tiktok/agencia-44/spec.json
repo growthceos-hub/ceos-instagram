@@ -1,0 +1,100 @@
+{
+ "topic": "Antes de contratar a un comercial: ten escrito un guion de llamada que ya te funcione a ti, un CRM donde vea qué leads llamar y cuándo, y un número claro por el que se le mide cada semana (citas o ventas, no llamadas)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Vas a contratar<br><em>un comercial?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Guion escrito",
+     "CRM con los leads",
+     "Un número para medirle"
+    ]
+   },
+   "footer": "3 cosas que tener listas antes"
+  },
+  {
+   "label": "ANTES 1",
+   "title": "Un guion<br><em>que ya funcione.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "GUION DE LLAMADA",
+    "lines": [
+     "Saludo y por qué llamas",
+     "Tres preguntas para entender",
+     "Propuesta de cita con hora"
+    ]
+   },
+   "note": "Si no sabes vender tú, <b>no sabrás enseñarle.</b>"
+  },
+  {
+   "label": "ANTES 2",
+   "title": "Un CRM<br><em>con la lista.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "NUEVO",
+      "t": "Llamar hoy",
+      "s": "Entró hace 10 minutos"
+     },
+     {
+      "n": "2",
+      "d": "SEGUIMIENTO",
+      "t": "Llamar el jueves",
+      "s": "Pidió que fuera por la tarde"
+     },
+     {
+      "n": "3",
+      "d": "CITA",
+      "t": "Confirmar mañana",
+      "s": "Cita el viernes"
+     }
+    ]
+   },
+   "note": "Que llegue y sepa <b>a quién llamar.</b>"
+  },
+  {
+   "label": "ANTES 3",
+   "title": "Un número<br><em>para medirle.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MEDIR LLAMADAS",
+    "bad": [
+     "Llama mucho",
+     "Vende poco"
+    ],
+    "good_t": "MEDIR CITAS O VENTAS",
+    "good": [
+     "Lo que te da dinero",
+     "Igual para los dos"
+    ]
+   },
+   "note": "Díselo <b>el primer día.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Primero el sistema,<br><em>luego la persona.</em>",
+   "dur": 6,
+   "size": 92,
+   "items": [
+    "Guion que ya funciona",
+    "CRM con próxima acción",
+    "Medir citas o ventas"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Contratar un comercial: 3 cosas que tener listas antes de que empiece",
+  "text": "Contratar un comercial: si no tienes esto listo, lo vas a quemar 🧑‍💼👇\n\nUn buen comercial no arregla un proceso que no existe. Llega, no sabe a quién llamar ni qué decir, y acaba yéndose.\n\n→ Un guion de llamada escrito, que ya te funcione a ti cuando llamas\n→ Un CRM donde vea cada lead con su próxima acción y fecha\n→ Un número claro por el que se le mide cada semana: citas o ventas, no llamadas hechas\n\nCon esto, la persona que entre sabe qué hacer desde el primer día.\n\n¿Tienes tu guion de ventas escrito o está en tu cabeza?\n\nSíguenos para más tips 🧡\n\n#contratarcomercial #ventas #equipocomercial #crm #pymes #ceosgrowth"
+ },
+ "caption": "Contratar un comercial: si no tienes esto listo, lo vas a quemar 🧑‍💼👇\n\nUn buen comercial no arregla un proceso que no existe. Llega, no sabe a quién llamar ni qué decir, y acaba yéndose.\n\n→ Un guion de llamada escrito, que ya te funcione a ti cuando llamas\n→ Un CRM donde vea cada lead con su próxima acción y fecha\n→ Un número claro por el que se le mide cada semana: citas o ventas, no llamadas hechas\n\nCon esto, la persona que entre sabe qué hacer desde el primer día.\n\n¿Tienes tu guion de ventas escrito o está en tu cabeza?\n\nSíguenos para más tips 🧡\n\n#contratarcomercial #ventas #equipocomercial #crm #pymes #ceosgrowth"
+}

@@ -1,0 +1,91 @@
+{
+ "topic": "Guion de anuncio de 30 segundos en 4 partes: gancho con el problema del cliente en la primera frase, por qué le pasa y qué haces tú distinto, una prueba (caso, reseña o demostración) y una llamada a la acción con un solo paso",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué digo<br><em>en mi anuncio?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "GUION DE 30 SEGUNDOS",
+    "lines": [
+     "Gancho",
+     "Qué haces distinto",
+     "Prueba",
+     "Qué hacer ahora"
+    ]
+   },
+   "footer": "El guion en 4 partes"
+  },
+  {
+   "label": "0–3 s",
+   "title": "El problema,<br><em>primero.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Fisioterapia en Burgos",
+    "media": "¿TE DUELE LA ESPALDA AL LEVANTARTE?",
+    "headline": "Valoración el mismo día",
+    "cta": "Reservar",
+    "tags": [
+     "GANCHO",
+     "SU PROBLEMA",
+     "NO TU LOGO"
+    ]
+   },
+   "note": "Habla de él, <b>no de ti.</b>"
+  },
+  {
+   "label": "3–20 s",
+   "title": "Qué haces<br><em>y una prueba.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "EL CUERPO",
+    "lines": [
+     "Por qué le pasa, en una frase",
+     "Qué haces tú distinto",
+     "Un caso, una reseña o una demo"
+    ]
+   },
+   "note": "La prueba es lo que <b>le hace creerte.</b>"
+  },
+  {
+   "label": "20–30 s",
+   "title": "Un solo<br><em>paso.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CIERRE FLOJO",
+    "bad": [
+     "«Síguenos, llámanos…»",
+     "Tres cosas a la vez"
+    ],
+    "good_t": "CIERRE CLARO",
+    "good": [
+     "«Rellena el formulario»",
+     "Y qué pasa después"
+    ]
+   },
+   "note": "Dile también <b>qué pasa después.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu anuncio<br><em>en 4 partes.</em>",
+   "dur": 6,
+   "items": [
+    "Gancho con su problema",
+    "Qué haces y una prueba",
+    "Un solo paso al final"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Guion de anuncio para Meta Ads: la estructura de 30 segundos en 4 partes",
+  "text": "Guion de anuncio: si no sabes qué decir delante de la cámara, usa esta estructura 🎬👇\n\nUn anuncio de 30 segundos no necesita mucho. Necesita que cada parte haga su trabajo.\n\n→ 0 a 3 s: el problema del cliente en la primera frase. Ni logo ni «hola, somos…»\n→ 3 a 20 s: por qué le pasa, qué haces tú distinto y una prueba (un caso, una reseña o una demostración)\n→ 20 a 30 s: un solo paso, como rellenar el formulario, y qué pasa después\n\nEscribe tres ganchos distintos para el mismo cuerpo y tendrás tres anuncios para probar.\n\n¿Cuál de las cuatro partes te cuesta más?\n\nSíguenos para más tips 🧡\n\n#guiondeanuncio #metaads #anuncios #copywriting #pymes #ceosgrowth"
+ },
+ "caption": "Guion de anuncio: si no sabes qué decir delante de la cámara, usa esta estructura 🎬👇\n\nUn anuncio de 30 segundos no necesita mucho. Necesita que cada parte haga su trabajo.\n\n→ 0 a 3 s: el problema del cliente en la primera frase. Ni logo ni «hola, somos…»\n→ 3 a 20 s: por qué le pasa, qué haces tú distinto y una prueba (un caso, una reseña o una demostración)\n→ 20 a 30 s: un solo paso, como rellenar el formulario, y qué pasa después\n\nEscribe tres ganchos distintos para el mismo cuerpo y tendrás tres anuncios para probar.\n\n¿Cuál de las cuatro partes te cuesta más?\n\nSíguenos para más tips 🧡\n\n#guiondeanuncio #metaads #anuncios #copywriting #pymes #ceosgrowth"
+}

@@ -1,0 +1,94 @@
+{
+ "topic": "Quién asume el riesgo cuando el marketing no funciona: pagar sin vender (Ceos Growth cobra comisión sobre ventas), quedarte atado (12 meses de Meta Ads sin permanencia) y montarlo por tu cuenta y que no salga (32.900 €/año)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Si no funciona,<br><em>¿quién pierde?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "3 RIESGOS DEL MARKETING",
+    "lines": [
+     "Pagar y no vender",
+     "Quedarte atado",
+     "Montarlo tú y que no salga"
+    ]
+   },
+   "footer": "3 riesgos y quién los asume"
+  },
+  {
+   "label": "RIESGO 1",
+   "title": "Pagar<br><em>y no vender.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO CUOTA FIJA",
+    "bad": [
+     "Pagas igual",
+     "El riesgo es tuyo"
+    ],
+    "good_t": "COMISIÓN SOBRE VENTAS",
+    "good": [
+     "Si no vendes, lo notamos",
+     "Riesgo compartido"
+    ]
+   },
+   "note": "En Ceos Growth, <b>comisión sobre ventas.</b>"
+  },
+  {
+   "label": "RIESGO 2",
+   "title": "Quedarte<br><em>atado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "12 meses de Meta Ads",
+     "Sin permanencia",
+     "Puedes irte si no te convence"
+    ]
+   },
+   "note": "Sin contrato <b>que te obligue.</b>"
+  },
+  {
+   "label": "RIESGO 3",
+   "title": "Montarlo tú<br><em>y que no salga.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "€",
+      "d": "POR TU CUENTA",
+      "t": "32.900 € al año",
+      "s": "Lo pagas vendas o no"
+     },
+     {
+      "n": "26",
+      "d": "CON CEOS GROWTH",
+      "t": "26 días de implantación",
+      "s": "Y comisión sobre ventas"
+     }
+    ]
+   },
+   "note": "Ese dinero va <b>antes de saber si funciona.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "El riesgo,<br><em>a medias.</em>",
+   "dur": 6,
+   "items": [
+    "Comisión sobre ventas",
+    "Sin permanencia",
+    "Implantación en 26 días"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Riesgo en marketing: quién pierde si tus anuncios no funcionan y cómo lo repartimos",
+  "text": "Riesgo en marketing: si los anuncios no funcionan, ¿quién pierde dinero? ⚖️👇\n\nCon muchas fórmulas, la respuesta es solo tú. En Ceos Growth lo hemos montado para que el riesgo se reparta.\n\n→ Pagar y no vender: cobramos comisión sobre ventas, si tú no vendes lo notamos nosotros también\n→ Quedarte atado: trabajamos 12 meses de Meta Ads sin permanencia\n→ Montarlo tú y que no salga: hacerlo por tu cuenta cuesta 32.900 € al año, y lo pagas antes de saber si funciona\n\nPregunta siempre quién asume qué antes de firmar nada.\n\n¿Quién asumía el riesgo con la última agencia con la que trabajaste?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #comisionsobreventas #sinpermanencia #agenciademarketing #metaads #pymes"
+ },
+ "caption": "Riesgo en marketing: si los anuncios no funcionan, ¿quién pierde dinero? ⚖️👇\n\nCon muchas fórmulas, la respuesta es solo tú. En Ceos Growth lo hemos montado para que el riesgo se reparta.\n\n→ Pagar y no vender: cobramos comisión sobre ventas, si tú no vendes lo notamos nosotros también\n→ Quedarte atado: trabajamos 12 meses de Meta Ads sin permanencia\n→ Montarlo tú y que no salga: hacerlo por tu cuenta cuesta 32.900 € al año, y lo pagas antes de saber si funciona\n\nPregunta siempre quién asume qué antes de firmar nada.\n\n¿Quién asumía el riesgo con la última agencia con la que trabajaste?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #comisionsobreventas #sinpermanencia #agenciademarketing #metaads #pymes"
+}

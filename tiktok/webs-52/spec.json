@@ -1,0 +1,70 @@
+{
+ "topic": "Antes y después de la web de un nutricionista: de un enlace en la bio con un número de teléfono a una web con qué tratas (pérdida de peso, deportistas, digestivo), cómo es la consulta, si es online o presencial, botón de pedir cita o WhatsApp y reseñas. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu consulta<br><em>es solo</em><br><em>un teléfono?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["Un enlace en la bio", "Solo un teléfono"],
+    "good_t": "DESPUÉS",
+    "good": ["Tu web, clara", "Cita a un toque"]
+   },
+   "footer": "El antes y el después de la web de tu consulta"
+  },
+  {
+   "label": "ANTES",
+   "title": "Tienen<br><em>que preguntar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {"from": "in", "text": "¿Haces consulta online?", "time": "22:10"},
+     {"from": "in", "text": "¿Y cuánto cuesta?", "time": "22:11"}
+    ]
+   },
+   "note": "Cada duda <b>es un paso más para irse.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Ve lo suyo<br><em>a la primera.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Pérdida de peso", "Nutrición deportiva", "Salud digestiva"]
+   },
+   "note": "Que se vea <b>en lo que tratas.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Pide cita<br><em>sin llamar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Primera consulta",
+    "fields": [
+     {"q": "¿Online o presencial?", "a": "Online"},
+     {"q": "¿Qué te gustaría mejorar?", "a": "Comer mejor entrenando"}
+    ],
+    "badge": "✓ CITA PEDIDA"
+   },
+   "note": "Y las <b>reseñas a la vista.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Qué tratas y cómo", "Botón de cita y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para nutricionistas 👇\nAntes: un enlace en la bio con un teléfono y todas las dudas por mensaje. ¿Haces online? ¿Cuánto cuesta? ¿Tratas lo mío?\nDespués: tu web con lo que tratas, cómo es la consulta, online o presencial, botón de cita y WhatsApp, y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, sin cuotas, y la web es tuya.\n¿Qué es lo que más te preguntan antes de la primera cita?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#nutricionista #nutricion #dietista #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para nutricionistas: el antes y el después",
+  "text": "Página web para nutricionistas 👇\nAntes: un enlace en la bio con un teléfono y todas las dudas por mensaje. ¿Haces online? ¿Cuánto cuesta? ¿Tratas lo mío?\nDespués: tu web con lo que tratas, cómo es la consulta, online o presencial, botón de cita y WhatsApp, y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, sin cuotas, y la web es tuya.\n¿Qué es lo que más te preguntan antes de la primera cita?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#nutricionista #nutricion #dietista #autonomos #paginaweb #webalvuelo"
+ }
+}

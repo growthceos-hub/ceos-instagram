@@ -1,0 +1,100 @@
+{
+ "topic": "Respuestas rápidas de WhatsApp Business: guarda con un atajo (/precio, /ubicacion, /cita) las respuestas que escribes cada día, déjalas con un hueco para el nombre y termina cada una con una pregunta que mueva la conversación",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Repites lo mismo<br><em>todo el día?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Dónde estáis?"
+     },
+     {
+      "from": "in",
+      "text": "¿Cuánto cuesta?"
+     },
+     {
+      "from": "in",
+      "text": "¿Tenéis cita el jueves?"
+     }
+    ]
+   },
+   "footer": "3 pasos con respuestas rápidas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Apunta<br><em>las de siempre.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "/precio",
+     "/ubicacion",
+     "/cita"
+    ]
+   },
+   "note": "Ajustes, <b>Herramientas para la empresa.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Con hueco<br><em>para el nombre.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "/UBICACION",
+    "lines": [
+     "Hola, [nombre]:",
+     "estamos en Calle Mayor 12.",
+     "Aquí tienes el mapa: [enlace]"
+    ]
+   },
+   "note": "Que no parezca <b>un robot.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Acaba con<br><em>una pregunta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Depende del trabajo,",
+       "desde 60 €.",
+       "¿Qué necesitas?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Cambiar el grifo"
+     }
+    ]
+   },
+   "note": "Así la conversación <b>no se queda ahí.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Responde rápido<br><em>y escribe menos.</em>",
+   "dur": 6,
+   "size": 92,
+   "items": [
+    "Atajos para lo de siempre",
+    "Hueco para el nombre",
+    "Termina preguntando"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Respuestas rápidas de WhatsApp Business: cómo contestar en segundos a lo de siempre",
+  "text": "Respuestas rápidas de WhatsApp Business: deja de escribir lo mismo todo el día ⚡👇\n\nPrecio, dirección, horario, si hay cita… Casi todo lo que te preguntan se repite. Y cuanto más tardas en contestar, más fácil es que pregunten a otro.\n\n→ Apunta las respuestas de siempre y guárdalas con un atajo: /precio, /ubicacion, /cita (Ajustes, Herramientas para la empresa)\n→ Déjales un hueco para el nombre del cliente, para que no suene a robot\n→ Termina cada una con una pregunta que haga avanzar la conversación\n\nEscribes la barra y eliges. Respondes en segundos aunque estés trabajando.\n\n¿Cuál es la pregunta que más te repiten por WhatsApp?\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #atencionalcliente #ventas #productividad #pymes #ceosgrowth"
+ },
+ "caption": "Respuestas rápidas de WhatsApp Business: deja de escribir lo mismo todo el día ⚡👇\n\nPrecio, dirección, horario, si hay cita… Casi todo lo que te preguntan se repite. Y cuanto más tardas en contestar, más fácil es que pregunten a otro.\n\n→ Apunta las respuestas de siempre y guárdalas con un atajo: /precio, /ubicacion, /cita (Ajustes, Herramientas para la empresa)\n→ Déjales un hueco para el nombre del cliente, para que no suene a robot\n→ Termina cada una con una pregunta que haga avanzar la conversación\n\nEscribes la barra y eliges. Respondes en segundos aunque estés trabajando.\n\n¿Cuál es la pregunta que más te repiten por WhatsApp?\n\nSíguenos para más tips 🧡\n\n#whatsappbusiness #atencionalcliente #ventas #productividad #pymes #ceosgrowth"
+}

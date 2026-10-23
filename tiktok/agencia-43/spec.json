@@ -1,0 +1,102 @@
+{
+ "topic": "Coste por venta en vez de coste por lead: un lead barato que no compra sale caro; cada lunes divide lo gastado en Meta entre las ventas que salieron de esos leads (con el CRM) y compara anuncios por ventas, no por leads",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Leads baratos<br><em>y ninguna venta?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Mismo gasto, dos anuncios",
+    "items": [
+     {
+      "label": "Anuncio A · 40 leads · 1 venta",
+      "value": 90
+     },
+     {
+      "label": "Anuncio B · 15 leads · 4 ventas",
+      "value": 40,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 pasos para medir lo que importa"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Marca las ventas<br><em>en el CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {
+      "q": "Origen",
+      "a": "Meta · Anuncio B"
+     },
+     {
+      "q": "Fase",
+      "a": "Venta cerrada"
+     },
+     {
+      "q": "Importe",
+      "a": "600 €"
+     }
+    ],
+    "badge": "✓ VENTA CON ORIGEN"
+   },
+   "note": "Sin origen, <b>no sabes qué anuncio vende.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Gasto<br><em>entre ventas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CUENTA DEL LUNES",
+    "lines": [
+     "Gasto de la semana: 300 €",
+     "Ventas de esos leads: 4",
+     "Coste por venta: 75 €"
+    ]
+   },
+   "note": "Ese es el número <b>que paga tus facturas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Decide<br><em>por ventas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MIRANDO LEADS",
+    "bad": [
+     "Subes el anuncio A",
+     "Más curiosos"
+    ],
+    "good_t": "MIRANDO VENTAS",
+    "good": [
+     "Subes el anuncio B",
+     "Más clientes"
+    ]
+   },
+   "note": "Un lead caro que compra <b>es un lead barato.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Mide ventas,<br><em>no leads.</em>",
+   "dur": 6,
+   "items": [
+    "Origen y venta en el CRM",
+    "Gasto entre ventas",
+    "Sube el que vende"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Coste por venta en Meta Ads: por qué un lead barato te puede salir caro",
+  "text": "Coste por venta en Meta Ads: el lead más barato no siempre es el mejor 📊👇\n\nPuedes tener un anuncio que trae muchos leads a buen precio y otro que trae pocos pero que compran. Si solo miras leads, subes el equivocado.\n\n→ Marca en el CRM de qué anuncio viene cada lead y cuándo se convierte en venta\n→ Cada lunes, divide lo gastado entre las ventas que salieron de esos leads\n→ Decide qué anuncio subir o apagar por coste por venta, no por coste por lead\n\nLos números del vídeo son un ejemplo para ver la cuenta.\n\n¿Sabes cuánto te cuesta cada venta que sale de tus anuncios?\n\nSíguenos para más tips 🧡\n\n#metaads #costeporventa #metricas #crm #pymes #ceosgrowth"
+ },
+ "caption": "Coste por venta en Meta Ads: el lead más barato no siempre es el mejor 📊👇\n\nPuedes tener un anuncio que trae muchos leads a buen precio y otro que trae pocos pero que compran. Si solo miras leads, subes el equivocado.\n\n→ Marca en el CRM de qué anuncio viene cada lead y cuándo se convierte en venta\n→ Cada lunes, divide lo gastado entre las ventas que salieron de esos leads\n→ Decide qué anuncio subir o apagar por coste por venta, no por coste por lead\n\nLos números del vídeo son un ejemplo para ver la cuenta.\n\n¿Sabes cuánto te cuesta cada venta que sale de tus anuncios?\n\nSíguenos para más tips 🧡\n\n#metaads #costeporventa #metricas #crm #pymes #ceosgrowth"
+}

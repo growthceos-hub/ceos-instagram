@@ -1,0 +1,66 @@
+{
+ "topic": "POV para floristerías: es el Día de la Madre por la mañana, a alguien se le ha olvidado el ramo y busca floristería abierta cerca. Encarga en la que le enseña ramos con precio y le deja escribir por WhatsApp. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: se le<br>ha olvidado<br><em>el ramo.</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA, CON PRISA",
+    "lines": ["Floristería abierta hoy", "Ramo para recoger ya", "Floristería cerca"]
+   },
+   "footer": "Lo que tiene que ver en la web de tu floristería"
+  },
+  {
+   "label": "MINUTO 1",
+   "title": "Ve ramos<br><em>con precio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Ramo pequeño · precio", "Ramo mediano · precio", "Centro de mesa · precio"]
+   },
+   "note": "Elige <b>sin preguntar.</b>"
+  },
+  {
+   "label": "MINUTO 2",
+   "title": "Escribe<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu floristería",
+    "msgs": [
+     {"from": "out", "lines": ["El ramo mediano", "para recoger a las 12"], "time": "10:05"},
+     {"from": "in", "text": "Te lo dejamos preparado", "time": "10:07"}
+    ]
+   },
+   "note": "Encargo cerrado <b>en dos mensajes.</b>"
+  },
+  {
+   "label": "MINUTO 3",
+   "title": "Sabe<br><em>dónde ir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["¿Abren hoy?", "¿Dónde está?"],
+    "good_t": "CON WEB",
+    "good": ["Horario de festivos", "Mapa a un toque"]
+   },
+   "note": "Y las reseñas <b>le dan confianza.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Ramos con precio", "Encargos por WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para floristerías 👇\nPOV: Día de la Madre, diez de la mañana, y a alguien se le ha olvidado el ramo. Busca \"floristería abierta hoy\" y encarga en la primera que le enseña precios y le deja escribir por WhatsApp.\nTu web con ramos y precios, botón de WhatsApp, horario de festivos, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Llegarías a tiempo a la próxima fecha fuerte?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#floristeria #flores #diadelamadre #comerciolocal #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para floristerías: POV, se le ha olvidado el ramo",
+  "text": "Página web para floristerías 👇\nPOV: Día de la Madre, diez de la mañana, y a alguien se le ha olvidado el ramo. Busca \"floristería abierta hoy\" y encarga en la primera que le enseña precios y le deja escribir por WhatsApp.\nTu web con ramos y precios, botón de WhatsApp, horario de festivos, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Llegarías a tiempo a la próxima fecha fuerte?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#floristeria #flores #diadelamadre #comerciolocal #paginaweb #webalvuelo"
+ }
+}

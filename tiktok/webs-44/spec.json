@@ -1,0 +1,71 @@
+{
+ "topic": "3 dudas de un coach antes de pedir su web y su respuesta: «¿y si no me gusta?» (se rehace gratis), «¿tengo que escribir yo los textos?» (contestas 5 preguntas) y «¿y luego pago cada mes?» (79 € pago único, sin cuotas, la web es tuya). Con sesiones, cómo trabajas, reseñas y botón de cita o WhatsApp",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Y si mi web<br><em>no me gusta?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LAS DUDAS DE UN COACH",
+    "lines": ["¿Y si no me gusta?", "¿Escribo yo los textos?", "¿Pago cada mes?"]
+   },
+   "footer": "3 dudas resueltas sobre la web de tu coaching"
+  },
+  {
+   "label": "DUDA 1",
+   "title": "«¿Y si<br><em>no me gusta?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Web al Vuelo",
+    "msgs": [
+     {"from": "out", "lines": ["Me gustaría", "un estilo más sobrio"], "time": "09:40"},
+     {"from": "in", "text": "Perfecto, la rehacemos", "time": "09:48"}
+    ]
+   },
+   "note": "Si no te convence, <b>se rehace gratis.</b>"
+  },
+  {
+   "label": "DUDA 2",
+   "title": "«¿Escribo yo<br><em>los textos?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "5 preguntas",
+    "fields": [
+     {"q": "¿A quién ayudas?", "a": "A mandos intermedios"},
+     {"q": "¿Cómo son tus sesiones?", "a": "Online, de una hora"}
+    ],
+    "badge": "✓ CON ESTO BASTA"
+   },
+   "note": "Contestas <b>y los textos salen de ahí.</b>"
+  },
+  {
+   "label": "DUDA 3",
+   "title": "«¿Y luego<br><em>pago cada mes?»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE TEMES",
+    "bad": ["Cuota cada mes", "La web no es tuya"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "La web es tuya"]
+   },
+   "note": "<b>Sin cuotas</b> después."
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Sesiones y cómo trabajas", "Botón de cita y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para coaches 👇\nTres dudas antes de pedirla:\n¿Y si no me gusta? Si el primer diseño no te convence, se rehace gratis.\n¿Escribo yo los textos? No: contestas 5 preguntas y salen de ahí.\n¿Pago cada mes? No: 79 € pago único, sin cuotas, y la web es tuya.\nCon tus sesiones, cómo trabajas, reseñas y botón de cita o WhatsApp. El primer diseño llega en 2 días.\n¿Qué duda te queda?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#coach #coaching #marcapersonal #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para coaches: ¿y si no me gusta? 3 dudas resueltas",
+  "text": "Página web para coaches 👇\nTres dudas antes de pedirla:\n¿Y si no me gusta? Si el primer diseño no te convence, se rehace gratis.\n¿Escribo yo los textos? No: contestas 5 preguntas y salen de ahí.\n¿Pago cada mes? No: 79 € pago único, sin cuotas, y la web es tuya.\nCon tus sesiones, cómo trabajas, reseñas y botón de cita o WhatsApp. El primer diseño llega en 2 días.\n¿Qué duda te queda?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#coach #coaching #marcapersonal #autonomos #paginaweb #webalvuelo"
+ }
+}

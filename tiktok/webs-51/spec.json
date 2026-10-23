@@ -1,0 +1,66 @@
+{
+ "topic": "POV para ópticas: a alguien se le rompen las gafas un sábado por la mañana, busca óptica abierta cerca y va a la que le dice en la web que arregla patillas y cristales, a qué hora cierra y dónde está. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: sábado<br><em>y las gafas</em><br><em>rotas.</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA, SIN VER BIEN",
+    "lines": ["Óptica abierta hoy", "Arreglar gafas", "Óptica cerca"]
+   },
+   "footer": "Lo que tiene que ver en la web de tu óptica"
+  },
+  {
+   "label": "LO PRIMERO",
+   "title": "¿Abren<br><em>hoy?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["Ni horario de sábado", "Ni si están abiertos"],
+    "good_t": "CON WEB",
+    "good": ["Sábados de 10 a 14", "Mapa con un toque"]
+   },
+   "note": "Si no lo ve claro, <b>va a otra.</b>"
+  },
+  {
+   "label": "LO SEGUNDO",
+   "title": "¿Lo<br><em>arreglan?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Cambio de patillas", "Ajuste de monturas", "Cristales nuevos"]
+   },
+   "note": "Tus servicios, <b>en una lista clara.</b>"
+  },
+  {
+   "label": "LO TERCERO",
+   "title": "Escribe<br><em>antes de ir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu óptica",
+    "msgs": [
+     {"from": "out", "lines": ["Se me ha roto", "una patilla, ¿voy?"], "time": "11:20"},
+     {"from": "in", "text": "Sí, te esperamos", "time": "11:22"}
+    ]
+   },
+   "note": "Con <b>WhatsApp y llamar</b> a un toque."
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Horario y mapa", "Servicios y arreglos", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para ópticas 👇\nPOV: sábado por la mañana y se te rompen las gafas. Buscas óptica abierta y vas a la que te dice en la web si abre hoy, si arregla patillas y dónde está.\nTu web con horario, servicios y arreglos, botón de WhatsApp y de llamar, cita, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Tu horario del sábado está en internet?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#optica #opticas #gafas #comerciolocal #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para ópticas: POV, se te rompen las gafas un sábado",
+  "text": "Página web para ópticas 👇\nPOV: sábado por la mañana y se te rompen las gafas. Buscas óptica abierta y vas a la que te dice en la web si abre hoy, si arregla patillas y dónde está.\nTu web con horario, servicios y arreglos, botón de WhatsApp y de llamar, cita, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Tu horario del sábado está en internet?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#optica #opticas #gafas #comerciolocal #paginaweb #webalvuelo"
+ }
+}

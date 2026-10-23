@@ -1,0 +1,67 @@
+{
+ "topic": "Anuncios para hoteles y casas rurales: un mismo paseo grabado con el móvil, en bruto frente a editado en 3 versiones para Meta Ads. A Dinámica abre con el paisaje y ritmo rápido, B Directa abre con la habitación y la fecha que quieres llenar, C Nativa parece el vídeo de un huésped. Ads al Vuelo desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Un paseo,<br><em>tres anuncios.</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TU VÍDEO EN BRUTO",
+    "bad": ["2 minutos sin cortar", "Sin texto ni música"],
+    "good_t": "EDITADO PARA META",
+    "good": ["3 versiones cortas", "Cada una con su copy"]
+   },
+   "footer": "El antes y el después del anuncio de tu casa rural"
+  },
+  {
+   "label": "VERSIÓN A",
+   "title": "Dinámica:<br><em>el paisaje.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu casa rural",
+    "copy": "Versión A · Dinámica.",
+    "media": "A 2 HORAS DE LA CIUDAD",
+    "headline": "Reserva tu escapada",
+    "cta": "Reservar",
+    "tags": ["RITMO RÁPIDO", "PAISAJE"]
+   },
+   "note": "Cortes cortos <b>y el sitio primero.</b>"
+  },
+  {
+   "label": "VERSIÓN B",
+   "title": "Directa:<br><em>la habitación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ARRANQUE DE LA VERSIÓN B",
+    "lines": ["La habitación, abierta", "«Libre el puente de mayo»", "Cómo reservar"]
+   },
+   "note": "Para quien <b>ya estaba buscando.</b>"
+  },
+  {
+   "label": "VERSIÓN C",
+   "title": "Nativa:<br><em>como un huésped.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Plano de móvil, sin pulir", "Texto tipo historia", "Parece orgánico"]
+   },
+   "note": "Las tres <b>al mismo conjunto.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Graba el paseo,<br><em>te llegan tres.</em>",
+   "dur": 6,
+   "items": ["Normalmente el mismo día", "Ronda de cambios", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para hoteles y casas rurales: un paseo, tres anuncios 🏡👇\nGrabas con el móvil un paseo por la casa y el entorno, tal cual. Te llegan tres versiones para Meta Ads:\n→ A Dinámica: el paisaje primero, cortes rápidos\n→ B Directa: la habitación y la fecha que quieres llenar\n→ C Nativa: parece el vídeo de un huésped\nCada una con su copy, normalmente el mismo día y con una ronda de cambios.\nGuía para grabar gratis: ads.ceosgrowth.com/guia-grabar-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #casarural #turismorural #metaads #anunciosenvideo #hotelrural",
+ "tiktok": {
+  "title": "Anuncios para hoteles y casas rurales: tu vídeo en bruto y editado en 3 versiones",
+  "text": "Anuncios para hoteles y casas rurales: un paseo, tres anuncios 🏡👇\nGrabas con el móvil un paseo por la casa y el entorno, tal cual. Te llegan tres versiones para Meta Ads:\n→ A Dinámica: el paisaje primero, cortes rápidos\n→ B Directa: la habitación y la fecha que quieres llenar\n→ C Nativa: parece el vídeo de un huésped\nCada una con su copy, normalmente el mismo día y con una ronda de cambios.\nGuía para grabar gratis: ads.ceosgrowth.com/guia-grabar-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #casarural #turismorural #metaads #anunciosenvideo #hotelrural"
+ }
+}

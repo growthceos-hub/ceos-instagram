@@ -1,0 +1,98 @@
+{
+ "topic": "Comparar dos presupuestos de agencia de marketing más allá del precio: qué incluye (en Ceos Growth, 15–20 anuncios grabados en estudio propio, campañas y CRM), cuánto tarda en estar funcionando (26 días) y qué pasa si quieres irte (12 meses sin permanencia, a comisión sobre ventas)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Comparas<br><em>agencias?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "COMPARAR SOLO PRECIO",
+    "bad": [
+     "Eliges el más barato",
+     "Y luego faltan cosas"
+    ],
+    "good_t": "COMPARAR LO QUE INCLUYE",
+    "good": [
+     "Sabes qué pagas",
+     "Y qué te dan"
+    ]
+   },
+   "footer": "3 líneas que poner lado a lado"
+  },
+  {
+   "label": "LÍNEA 1",
+   "title": "¿Qué<br><em>incluye?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "15–20 anuncios en estudio",
+     "Campañas de Meta Ads",
+     "CRM para cada lead"
+    ]
+   },
+   "note": "Si no graban, <b>¿quién pone los anuncios?</b>"
+  },
+  {
+   "label": "LÍNEA 2",
+   "title": "¿Cuándo<br><em>funciona?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "FIRMAS",
+      "t": "Empieza la implantación",
+      "s": "Día 1"
+     },
+     {
+      "n": "26",
+      "d": "DÍA 26",
+      "t": "Sistema funcionando",
+      "s": "Anuncios, campañas y CRM"
+     }
+    ]
+   },
+   "note": "Pide <b>una fecha concreta.</b>"
+  },
+  {
+   "label": "LÍNEA 3",
+   "title": "¿Y si<br><em>me quiero ir?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LETRA PEQUEÑA",
+    "bad": [
+     "Permanencia larga",
+     "Penalización"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "Sin permanencia",
+     "Comisión sobre ventas"
+    ]
+   },
+   "note": "Pregúntalo <b>antes de firmar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Compara<br><em>lo que importa.</em>",
+   "dur": 6,
+   "items": [
+    "Qué incluye",
+    "Cuándo funciona",
+    "Qué pasa si te vas"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Comparar presupuestos de agencias de marketing: 3 líneas que mirar además del precio",
+  "text": "Comparar presupuestos de agencias: si solo miras el precio, te puedes llevar un susto 📑👇\n\nDos presupuestos con precios parecidos pueden incluir cosas muy distintas. Ponlos lado a lado y busca estas tres líneas.\n\n→ Qué incluye: en Ceos Growth, 15–20 anuncios grabados en estudio propio, campañas de Meta Ads y CRM\n→ Cuándo funciona: nuestra implantación dura 26 días\n→ Qué pasa si te quieres ir: 12 meses de Meta Ads sin permanencia, y cobramos comisión sobre ventas\n\nSi alguna línea no aparece en el presupuesto, pregúntala por escrito.\n\n¿Cuántos presupuestos de agencia has comparado alguna vez?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #presupuesto #metaads #empresarios #pymes"
+ },
+ "caption": "Comparar presupuestos de agencias: si solo miras el precio, te puedes llevar un susto 📑👇\n\nDos presupuestos con precios parecidos pueden incluir cosas muy distintas. Ponlos lado a lado y busca estas tres líneas.\n\n→ Qué incluye: en Ceos Growth, 15–20 anuncios grabados en estudio propio, campañas de Meta Ads y CRM\n→ Cuándo funciona: nuestra implantación dura 26 días\n→ Qué pasa si te quieres ir: 12 meses de Meta Ads sin permanencia, y cobramos comisión sobre ventas\n\nSi alguna línea no aparece en el presupuesto, pregúntala por escrito.\n\n¿Cuántos presupuestos de agencia has comparado alguna vez?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #presupuesto #metaads #empresarios #pymes"
+}

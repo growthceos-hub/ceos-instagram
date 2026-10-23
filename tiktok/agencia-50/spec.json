@@ -1,0 +1,97 @@
+{
+ "topic": "Urgencia honesta en tus anuncios y ofertas: usa un límite real (plazas que de verdad tienes, una fecha que se cumple, una temporada), explica por qué existe ese límite y cúmplelo aunque te dé pena",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu oferta acaba<br><em>hoy otra vez?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "URGENCIA FALSA",
+    "bad": [
+     "«Últimas plazas» cada mes",
+     "Nadie se lo cree"
+    ],
+    "good_t": "URGENCIA REAL",
+    "good": [
+     "Límite que existe",
+     "Y se cumple"
+    ]
+   },
+   "footer": "3 reglas para una urgencia que funcione"
+  },
+  {
+   "label": "REGLA 1",
+   "title": "Un límite<br><em>de verdad.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Plazas que de verdad tienes",
+     "Una fecha que se cumple",
+     "Una temporada concreta"
+    ]
+   },
+   "note": "Si te lo inventas, <b>se nota.</b>"
+  },
+  {
+   "label": "REGLA 2",
+   "title": "Explica<br><em>por qué.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Somos dos instaladores y no damos para más.",
+    "media": "6 INSTALACIONES EN NOVIEMBRE",
+    "headline": "Reserva la tuya",
+    "cta": "Reservar",
+    "tags": [
+     "LÍMITE REAL",
+     "CON MOTIVO"
+    ]
+   },
+   "note": "Con un motivo, <b>el límite se cree.</b>"
+  },
+  {
+   "label": "REGLA 3",
+   "title": "Cúmplelo<br><em>aunque duela.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "¿Me guardas el precio?"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Acabó el viernes,",
+       "pero te aviso el primero",
+       "en la próxima tanda."
+      ]
+     }
+    ]
+   },
+   "note": "La próxima vez <b>te creerán.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Urgencia,<br><em>pero de verdad.</em>",
+   "dur": 6,
+   "items": [
+    "Límite real",
+    "Explica el motivo",
+    "Cúmplelo siempre"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Urgencia en tus ofertas: cómo poner un límite real que haga decidir al cliente",
+  "text": "Urgencia en tus ofertas: si cada mes son «las últimas plazas», ya nadie te cree ⏳👇\n\nUn límite ayuda a que el cliente decida. Pero solo funciona si es verdad y se cumple.\n\n→ Usa un límite real: las plazas que de verdad puedes atender, una fecha que se cumple o una temporada\n→ Explica por qué existe: «somos dos instaladores y no damos para más»\n→ Cúmplelo aunque te dé pena. Al que llega tarde, ofrécele avisarle el primero la próxima vez\n\nY quien se quedó fuera ya está esperando la siguiente tanda.\n\n¿Qué límite real tiene tu negocio que podrías contar?\n\nSíguenos para más tips 🧡\n\n#ofertas #ventas #metaads #anuncios #pymes #ceosgrowth"
+ },
+ "caption": "Urgencia en tus ofertas: si cada mes son «las últimas plazas», ya nadie te cree ⏳👇\n\nUn límite ayuda a que el cliente decida. Pero solo funciona si es verdad y se cumple.\n\n→ Usa un límite real: las plazas que de verdad puedes atender, una fecha que se cumple o una temporada\n→ Explica por qué existe: «somos dos instaladores y no damos para más»\n→ Cúmplelo aunque te dé pena. Al que llega tarde, ofrécele avisarle el primero la próxima vez\n\nY quien se quedó fuera ya está esperando la siguiente tanda.\n\n¿Qué límite real tiene tu negocio que podrías contar?\n\nSíguenos para más tips 🧡\n\n#ofertas #ventas #metaads #anuncios #pymes #ceosgrowth"
+}

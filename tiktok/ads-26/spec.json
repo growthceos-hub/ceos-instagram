@@ -1,0 +1,71 @@
+{
+ "topic": "Anuncios para infoproductores: 3 errores al grabar el anuncio de tu curso o mentoría. Empezar hablando del curso en vez del problema del alumno, grabar una sola toma del gancho y lanzar con un único creativo. Ads al Vuelo: cada bruto sale en 3 versiones con su copy, desde 49 € por 12 versiones",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio<br><em>habla</em><br><em>de tu curso?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EMPIEZA ASÍ",
+    "bad": ["«Mi curso tiene 8 módulos»", "«Soy experto en…»"],
+    "good_t": "MEJOR ASÍ",
+    "good": ["El problema del alumno", "Dicho con sus palabras"]
+   },
+   "footer": "3 errores en el anuncio de tu curso"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Hablar<br><em>del curso.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu marca",
+    "copy": "Gancho con el problema.",
+    "media": "¿GRABAS Y NADIE TE VE?",
+    "headline": "Clase gratuita",
+    "cta": "Registrarme",
+    "tags": ["PROBLEMA", "0–3 S"]
+   },
+   "note": "Los módulos, <b>para la página de venta.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Una sola<br><em>toma del gancho.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "GRÁBALO ASÍ",
+    "lines": ["El gancho, tres veces", "Con distinta entonación", "Y la llamada a la acción igual"]
+   },
+   "note": "En la edición <b>se elige la mejor.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Un creativo<br><em>para todo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "4 BRUTOS", "t": "Una tarde grabando", "s": "4 ideas distintas"},
+     {"n": "2", "d": "12 VERSIONES", "t": "A, B y C de cada uno", "s": "Con su copy"},
+     {"n": "3", "d": "LANZAMIENTO", "t": "Meta elige", "s": "Tú escalas la que gane"}
+    ]
+   },
+   "note": "Una sola pieza <b>no te dice nada.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "4 brutos,<br><em>12 versiones.</em>",
+   "dur": 6,
+   "items": ["Dinámica, Directa y Nativa", "Cada una con su copy", "Desde 49 €"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para infoproductores: 3 errores al grabar el anuncio de tu curso 🎙️👇\n→ Empezar por el curso («8 módulos», «soy experto en…») en vez de por el problema del alumno\n→ Grabar una sola toma del gancho. Dilo tres veces con distinta entonación\n→ Lanzar con un único creativo: no sabes si falla el gancho, el ritmo o el formato\nCon Ads al Vuelo, 4 brutos salen en 12 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #infoproductos #lanzamiento #metaads #anunciosenvideo #marcapersonal",
+ "tiktok": {
+  "title": "Anuncios para infoproductores: 3 errores al grabar el anuncio de tu curso",
+  "text": "Anuncios para infoproductores: 3 errores al grabar el anuncio de tu curso 🎙️👇\n→ Empezar por el curso («8 módulos», «soy experto en…») en vez de por el problema del alumno\n→ Grabar una sola toma del gancho. Dilo tres veces con distinta entonación\n→ Lanzar con un único creativo: no sabes si falla el gancho, el ritmo o el formato\nCon Ads al Vuelo, 4 brutos salen en 12 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #infoproductos #lanzamiento #metaads #anunciosenvideo #marcapersonal"
+ }
+}

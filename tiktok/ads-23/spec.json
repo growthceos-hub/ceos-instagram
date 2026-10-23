@@ -1,0 +1,67 @@
+{
+ "topic": "Anuncios para academias de idiomas en 3 pasos: graba el gancho a cámara con la duda del alumno («¿llevas años estudiando inglés y no lo hablas?»), añade 10 segundos de clase real y termina con una sola acción (pedir la prueba de nivel). Ads al Vuelo: 3 versiones editadas con su copy desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Años con<br>el inglés<br><em>y no lo hablas?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu academia",
+    "copy": "Gancho con la duda del alumno.",
+    "media": "¿AÑOS ESTUDIANDO Y NO LO HABLAS?",
+    "headline": "Prueba de nivel",
+    "cta": "Pedir prueba",
+    "tags": ["PREGUNTA", "0–3 S"]
+   },
+   "footer": "Tu anuncio de academia de idiomas en 3 pasos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "La duda<br><em>del alumno.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "3 GANCHOS PARA GRABAR",
+    "lines": ["¿Años estudiando y no hablas?", "Te piden el B2 en el trabajo", "Las apps solas no bastan"]
+   },
+   "note": "Dilo <b>tres veces</b> con distinto tono."
+  },
+  {
+   "label": "PASO 2",
+   "title": "10 segundos<br><em>de clase real.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Alumnos hablando, de cerca", "Con permiso por escrito", "Móvil en vertical"]
+   },
+   "note": "Que vea <b>cómo es estar ahí.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Una sola<br><em>acción.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FINAL CON DUDAS",
+    "bad": ["Llama, escribe o ven", "Sin decir qué hacer"],
+    "good_t": "FINAL CLARO",
+    "good": ["«Pide tu prueba de nivel»", "Igual que el botón"]
+   },
+   "note": "Y graba <b>3 segundos en silencio.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Lo grabas,<br><em>te llegan tres.</em>",
+   "dur": 6,
+   "items": ["Dinámica, Directa y Nativa", "Cada una con su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para academias de idiomas en 3 pasos 🗣️👇\n→ El gancho, a cámara: la duda de tu alumno. «¿Llevas años estudiando inglés y no lo hablas?»\n→ Diez segundos de clase real, con permiso por escrito de quien sale\n→ Una sola acción al final: «pide tu prueba de nivel»\nSubes el vídeo en bruto y te llegan 3 versiones editadas para Meta Ads (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\n¿Qué duda te repiten más los alumnos nuevos?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #academiadeidiomas #ingles #metaads #anunciosenvideo #academias",
+ "tiktok": {
+  "title": "Anuncios para academias de idiomas: cómo grabar el tuyo en 3 pasos",
+  "text": "Anuncios para academias de idiomas en 3 pasos 🗣️👇\n→ El gancho, a cámara: la duda de tu alumno. «¿Llevas años estudiando inglés y no lo hablas?»\n→ Diez segundos de clase real, con permiso por escrito de quien sale\n→ Una sola acción al final: «pide tu prueba de nivel»\nSubes el vídeo en bruto y te llegan 3 versiones editadas para Meta Ads (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\n¿Qué duda te repiten más los alumnos nuevos?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #academiadeidiomas #ingles #metaads #anunciosenvideo #academias"
+ }
+}

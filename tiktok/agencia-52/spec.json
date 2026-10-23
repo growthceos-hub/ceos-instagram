@@ -1,0 +1,99 @@
+{
+ "topic": "Encuesta de satisfacción de una sola pregunta al terminar el servicio («del 0 al 10, ¿nos recomendarías?»): a quien pone 9 o 10 le pides reseña o recomendación, a quien pone 7 u 8 le preguntas qué mejorarías, y a quien pone 6 o menos le llamas tú ese mismo día",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus clientes<br><em>están contentos?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Del 0 al 10,",
+       "¿nos recomendarías",
+       "a un amigo?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Un 9"
+     }
+    ]
+   },
+   "footer": "Una pregunta y 3 respuestas"
+  },
+  {
+   "label": "9 O 10",
+   "title": "Pide reseña<br><em>o un amigo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Un 10"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Gracias! ¿Nos dejarías",
+       "una reseña en Google?",
+       "Te paso el enlace."
+      ]
+     }
+    ]
+   },
+   "note": "Está contento <b>ahora mismo.</b>"
+  },
+  {
+   "label": "7 U 8",
+   "title": "Pregunta<br><em>qué mejorarías.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "RESPUESTA",
+    "lines": [
+     "Gracias por la nota.",
+     "¿Qué tendríamos que hacer",
+     "para que fuera un 10?"
+    ]
+   },
+   "note": "Aquí está <b>tu lista de mejoras.</b>"
+  },
+  {
+   "label": "6 O MENOS",
+   "title": "Llámale<br><em>tú, hoy.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timer",
+    "head": "Nota baja · 5",
+    "sub": "TIEMPO HASTA LLAMARLE",
+    "secs": 180,
+    "side": "Antes de que<br>lo cuente<br>en Google",
+    "badge": "✓ LLAMADA HECHA"
+   },
+   "note": "Mejor que te lo diga a ti <b>que a internet.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Una pregunta,<br><em>tres caminos.</em>",
+   "dur": 6,
+   "items": [
+    "9 o 10: reseña",
+    "7 u 8: qué mejorar",
+    "6 o menos: llámale"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Encuesta de satisfacción de una pregunta: qué hacer según la nota de tu cliente",
+  "text": "Encuesta de satisfacción: con una sola pregunta sabes qué hacer con cada cliente 📝👇\n\nAl terminar el servicio, manda por WhatsApp: «del 0 al 10, ¿nos recomendarías a un amigo?». Contestar cuesta un segundo.\n\n→ Si pone 9 o 10: dale las gracias y pídele una reseña en Google o que te recomiende\n→ Si pone 7 u 8: pregúntale qué tendrías que hacer para que fuera un 10\n→ Si pone 6 o menos: llámale tú ese mismo día, antes de que lo cuente en internet\n\nApunta las notas en el CRM y en un par de meses sabrás qué parte de tu servicio flojea.\n\n¿Preguntas a tus clientes qué tal les fue?\n\nSíguenos para más tips 🧡\n\n#atencionalcliente #reseñasgoogle #fidelizacion #clientes #pymes #ceosgrowth"
+ },
+ "caption": "Encuesta de satisfacción: con una sola pregunta sabes qué hacer con cada cliente 📝👇\n\nAl terminar el servicio, manda por WhatsApp: «del 0 al 10, ¿nos recomendarías a un amigo?». Contestar cuesta un segundo.\n\n→ Si pone 9 o 10: dale las gracias y pídele una reseña en Google o que te recomiende\n→ Si pone 7 u 8: pregúntale qué tendrías que hacer para que fuera un 10\n→ Si pone 6 o menos: llámale tú ese mismo día, antes de que lo cuente en internet\n\nApunta las notas en el CRM y en un par de meses sabrás qué parte de tu servicio flojea.\n\n¿Preguntas a tus clientes qué tal les fue?\n\nSíguenos para más tips 🧡\n\n#atencionalcliente #reseñasgoogle #fidelizacion #clientes #pymes #ceosgrowth"
+}
