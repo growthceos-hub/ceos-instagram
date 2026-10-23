@@ -1,0 +1,69 @@
+{
+ "topic": "3 mitos sobre la web de un psicólogo: «mis pacientes vienen por recomendación» (aun así buscan tu nombre), «necesito un blog» (basta con qué tratas, cómo es la primera sesión y un contacto discreto) y «una web cuesta mucho» (79 € pago único con Web al Vuelo)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Psicólogo<br><em>sin web?</em>",
+   "size": 134,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {"from": "in", "text": "Me han pasado tu nombre", "time": "21:14"},
+     {"from": "in", "text": "¿Dónde veo cómo trabajas?", "time": "21:15"}
+    ]
+   },
+   "footer": "3 mitos sobre la web de tu consulta"
+  },
+  {
+   "label": "MITO 1",
+   "title": "«Vienen por<br><em>recomendación.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "LE HABLAN DE TI", "t": "Le dan tu nombre", "s": "Un amigo o su médico"},
+     {"n": "2", "d": "ESA NOCHE", "t": "Te busca", "s": "Desde el móvil, a solas"},
+     {"n": "3", "d": "DECIDE", "t": "Escribe o no", "s": "Según lo que encuentre"}
+    ]
+   },
+   "note": "Hasta el recomendado <b>te busca antes.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "«Necesito<br><em>un blog.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Qué tratas", "Cómo es la primera sesión", "Online o presencial", "Contacto discreto"]
+   },
+   "note": "Con esto <b>ya se atreve a escribir.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "«Una web<br><em>cuesta mucho.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE CREES",
+    "bad": ["Cuota cada mes", "Meses de espera"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "Primer diseño en 2 días"]
+   },
+   "note": "Y si no te convence, <b>se rehace gratis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>y es tuya.</em>",
+   "dur": 6,
+   "items": ["Pedir cita o WhatsApp", "Qué tratas y cómo", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para psicólogos 👇\nAunque te lleguen pacientes recomendados, lo normal es que busquen tu nombre antes de escribir. Muchas veces de noche, desde el móvil, a solas.\nQué tratas, cómo es la primera sesión, si haces online, y un botón de cita o WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y sin cuotas.\n¿Qué encuentra hoy quien busca tu nombre?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#psicologo #psicologia #consultapsicologica #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para psicólogos: 3 mitos que frenan a tus pacientes",
+  "text": "Página web para psicólogos 👇\nAunque te lleguen pacientes recomendados, lo normal es que busquen tu nombre antes de escribir. Muchas veces de noche, desde el móvil, a solas.\nQué tratas, cómo es la primera sesión, si haces online, y un botón de cita o WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y sin cuotas.\n¿Qué encuentra hoy quien busca tu nombre?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#psicologo #psicologia #consultapsicologica #autonomos #paginaweb #webalvuelo"
+ }
+}

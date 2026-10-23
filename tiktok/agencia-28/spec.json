@@ -1,0 +1,106 @@
+{
+ "topic": "Calcular lo que te deja un cliente en total (valor de vida) para saber cuánto puedes invertir en conseguirlo: lo que te deja limpio cada compra, por las veces que te compra al año, por los años que suele seguir contigo; compáralo con lo que te cuesta conseguir un cliente",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Sabes lo que vale<br><em>un cliente?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MIRAR SOLO LA 1ª VENTA",
+    "bad": [
+     "“Me deja 60 €”",
+     "Todo te parece caro"
+    ],
+    "good_t": "MIRAR TODA LA RELACIÓN",
+    "good": [
+     "Vuelve cada 2 meses",
+     "Sabes cuánto invertir"
+    ]
+   },
+   "footer": "Calcúlalo en 3 números"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Lo que te deja<br><em>cada compra.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Cálculo · número 1",
+    "fields": [
+     {
+      "q": "Precio medio",
+      "a": "100 €"
+     },
+     {
+      "q": "Menos costes",
+      "a": "40 €"
+     },
+     {
+      "q": "Te deja limpio",
+      "a": "60 €"
+     }
+    ],
+    "badge": "✓ 60 € POR COMPRA"
+   },
+   "note": "Lo que queda, <b>no lo que cobras.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Veces<br><em>al año.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Compras al año",
+    "items": [
+     {
+      "label": "Cliente que no vuelve",
+      "value": 15
+     },
+     {
+      "label": "Cliente medio",
+      "value": 50,
+      "hi": true
+     },
+     {
+      "label": "Cliente fiel",
+      "value": 90
+     }
+    ]
+   },
+   "note": "Míralo en tus <b>facturas o en el CRM.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Años<br><em>contigo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA",
+    "lines": [
+     "60 € por compra",
+     "× 6 compras al año",
+     "× 3 años = 1.080 €"
+    ]
+   },
+   "note": "Compáralo con <b>lo que te cuesta conseguirlo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Invierte<br><em>con números.</em>",
+   "dur": 6,
+   "items": [
+    "Lo que deja cada compra",
+    "Compras al año",
+    "Años que sigue contigo"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Valor de vida del cliente: cuánto te deja un cliente y cuánto puedes invertir en él",
+  "text": "Valor de vida del cliente: si solo miras la primera venta, cualquier anuncio te parecerá caro 🧮👇\n\nUn cliente que vuelve cada dos meses te deja el dinero de todas sus compras. Y con ese número sabes cuánto puedes gastar en conseguir uno nuevo.\n\n→ Calcula lo que te deja limpio cada compra: precio medio menos lo que te cuesta hacerlo\n→ Multiplícalo por las veces que te compra al año. Lo sacas de tus facturas o del CRM\n→ Multiplícalo por los años que suele seguir contigo. Ejemplo: 60 € × 6 compras × 3 años = 1.080 €\n\nCompáralo con lo que te cuesta conseguir un cliente. Para nosotros es la cuenta que hay que hacer antes de decidir cuánto invertir en anuncios.\n\n¿Sabes cuántas veces al año te compra un cliente normal? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metricas #clientes #negocios #publicidadonline #pymes #ceosgrowth"
+ },
+ "caption": "Valor de vida del cliente: si solo miras la primera venta, cualquier anuncio te parecerá caro 🧮👇\n\nUn cliente que vuelve cada dos meses te deja el dinero de todas sus compras. Y con ese número sabes cuánto puedes gastar en conseguir uno nuevo.\n\n→ Calcula lo que te deja limpio cada compra: precio medio menos lo que te cuesta hacerlo\n→ Multiplícalo por las veces que te compra al año. Lo sacas de tus facturas o del CRM\n→ Multiplícalo por los años que suele seguir contigo. Ejemplo: 60 € × 6 compras × 3 años = 1.080 €\n\nCompáralo con lo que te cuesta conseguir un cliente. Para nosotros es la cuenta que hay que hacer antes de decidir cuánto invertir en anuncios.\n\n¿Sabes cuántas veces al año te compra un cliente normal? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#metricas #clientes #negocios #publicidadonline #pymes #ceosgrowth"
+}

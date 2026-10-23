@@ -1,0 +1,101 @@
+{
+ "topic": "Formulario de Meta que filtra curiosos: elige «Mayor intención», añade una pregunta de opción múltiple sobre para cuándo lo necesita y otra sobre la zona o el presupuesto, para que te lleguen menos leads pero mejores",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te llegan leads<br><em>que no compran?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FORMULARIO VACÍO",
+    "bad": [
+     "Nombre y teléfono",
+     "Rellena cualquiera"
+    ],
+    "good_t": "FORMULARIO QUE FILTRA",
+    "good": [
+     "2 preguntas clave",
+     "Rellena quien quiere"
+    ]
+   },
+   "footer": "3 ajustes en tu formulario de Meta"
+  },
+  {
+   "label": "AJUSTE 1",
+   "title": "Elige<br><em>mayor intención.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Tipo de formulario",
+     "«Mayor intención»",
+     "Paso extra de revisión"
+    ]
+   },
+   "note": "Quien confirma sus datos <b>los pone bien.</b>"
+  },
+  {
+   "label": "AJUSTE 2",
+   "title": "Pregunta<br><em>para cuándo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "¿Para cuándo lo necesitas?",
+    "fields": [
+     {
+      "q": "Opción A",
+      "a": "Este mes"
+     },
+     {
+      "q": "Opción B",
+      "a": "En 2 o 3 meses"
+     },
+     {
+      "q": "Opción C",
+      "a": "Solo miraba precios"
+     }
+    ],
+    "badge": "✓ SABES A QUIÉN LLAMAR"
+   },
+   "note": "Llama primero a <b>«este mes».</b>"
+  },
+  {
+   "label": "AJUSTE 3",
+   "title": "Pregunta<br><em>zona o precio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Una pregunta más",
+    "fields": [
+     {
+      "q": "¿Dónde está tu negocio?",
+      "a": "Burgos capital"
+     },
+     {
+      "q": "¿Qué inversión tienes en mente?",
+      "a": "Entre 1.000 y 3.000 €"
+     }
+    ],
+    "badge": "✓ LEAD CUALIFICADO"
+   },
+   "note": "Opciones cerradas, <b>no texto libre.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Menos leads,<br><em>pero mejores.</em>",
+   "dur": 6,
+   "items": [
+    "Formulario de mayor intención",
+    "Pregunta para cuándo",
+    "Pregunta zona o presupuesto"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Formulario de Meta Ads: 3 ajustes para filtrar curiosos y recibir leads que compran",
+  "text": "Formulario de Meta Ads: si solo pides nombre y teléfono, te llegan curiosos 🎯👇\n\nUn formulario demasiado fácil lo rellena cualquiera, y luego te pasas la tarde llamando a gente que no sabe ni qué pidió.\n\n→ Elige el tipo «Mayor intención»: añade un paso donde la persona revisa y confirma sus datos\n→ Pregunta para cuándo lo necesita, con opciones cerradas (este mes, en 2 o 3 meses, solo miraba)\n→ Añade una pregunta de zona o de presupuesto para descartar a quien no puedes atender\n\nVan a entrar menos leads. Pero tu equipo llamará a gente que de verdad quiere hablar contigo.\n\n¿Cuántas preguntas tiene ahora tu formulario?\n\nSíguenos para más tips 🧡\n\n#metaads #formulariosdemeta #captaciondeclientes #leads #pymes #ceosgrowth"
+ },
+ "caption": "Formulario de Meta Ads: si solo pides nombre y teléfono, te llegan curiosos 🎯👇\n\nUn formulario demasiado fácil lo rellena cualquiera, y luego te pasas la tarde llamando a gente que no sabe ni qué pidió.\n\n→ Elige el tipo «Mayor intención»: añade un paso donde la persona revisa y confirma sus datos\n→ Pregunta para cuándo lo necesita, con opciones cerradas (este mes, en 2 o 3 meses, solo miraba)\n→ Añade una pregunta de zona o de presupuesto para descartar a quien no puedes atender\n\nVan a entrar menos leads. Pero tu equipo llamará a gente que de verdad quiere hablar contigo.\n\n¿Cuántas preguntas tiene ahora tu formulario?\n\nSíguenos para más tips 🧡\n\n#metaads #formulariosdemeta #captaciondeclientes #leads #pymes #ceosgrowth"
+}

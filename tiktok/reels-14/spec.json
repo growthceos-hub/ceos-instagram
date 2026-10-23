@@ -1,0 +1,96 @@
+{
+ "topic": "Las 3 dudas de una autoescuela antes de encargar reels: ¿y si no me gusta? (pruebas uno por 1,99 €), ¿qué grabo? (una maniobra o un fallo típico de examen desde el coche) y ¿me ato a una cuota? (no, sin cuotas y el vídeo es tuyo; 10 reels por 59 €)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Reels para<br><em>tu autoescuela?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Reels al Vuelo",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "¿Y si el reel",
+       "no me gusta?"
+      ],
+      "time": "18:20"
+     },
+     {
+      "from": "in",
+      "text": "Pruebas uno por 1,99 €",
+      "time": "18:22"
+     }
+    ]
+   },
+   "footer": "3 dudas de tu autoescuela, contestadas"
+  },
+  {
+   "label": "DUDA 1",
+   "title": "¿Y si<br><em>no me gusta?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE TEMES",
+    "bad": [
+     "Pagar un pack a ciegas",
+     "Un vídeo cutre"
+    ],
+    "good_t": "REELS AL VUELO",
+    "good": [
+     "Pruebas uno por 1,99 €",
+     "Lo revisa una persona"
+    ]
+   },
+   "note": "Lo ves <b>antes de pedir más.</b>"
+  },
+  {
+   "label": "DUDA 2",
+   "title": "¿Y qué<br><em>grabo?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Aparcar en línea, paso a paso",
+     "El fallo típico del examen",
+     "Una rotonda explicada"
+    ]
+   },
+   "note": "Desde el coche, <b>con el móvil fijo.</b>"
+  },
+  {
+   "label": "DUDA 3",
+   "title": "¿Me ato<br><em>a una cuota?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE PAGAS",
+    "lines": [
+     "Primer reel: 1,99 €",
+     "10 reels: 59 €",
+     "Sin cuotas",
+     "El vídeo es tuyo"
+    ]
+   },
+   "note": "Editado <b>en 24 h.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu primer reel<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": [
+    "Grabas con el móvil",
+    "Subtítulos, música y logo",
+    "Editado en 24 h"
+   ],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para autoescuelas 👇\n¿Y si no te gusta? Pruebas uno por 1,99 € antes de nada. ¿Qué grabas? Aparcar en línea paso a paso o el fallo típico del examen, desde el coche con el móvil fijo.\nNos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo, revisado por una persona. Sin cuotas, y 10 reels por 59 € si te convence.\n¿Qué maniobra grabarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#autoescuela #carnetdeconducir #edicionvideo #reels #autonomos #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para autoescuelas: ¿y si no me gusta? 3 dudas resueltas",
+  "text": "Edición de reels para autoescuelas 👇\n¿Y si no te gusta? Pruebas uno por 1,99 € antes de nada. ¿Qué grabas? Aparcar en línea paso a paso o el fallo típico del examen, desde el coche con el móvil fijo.\nNos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo, revisado por una persona. Sin cuotas, y 10 reels por 59 € si te convence.\n¿Qué maniobra grabarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#autoescuela #carnetdeconducir #edicionvideo #reels #autonomos #reelsalvuelo"
+ }
+}

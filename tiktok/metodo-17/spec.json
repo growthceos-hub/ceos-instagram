@@ -1,0 +1,95 @@
+{
+ "topic": "Por qué en Ceos Growth grabamos 15–20 anuncios en estudio propio y no uno o dos: para probar ganchos distintos con el mismo mensaje, para hablar a tipos de cliente diferentes y para tener recambio cuando un anuncio se cansa",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Un anuncio<br><em>y a esperar?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UNO O DOS ANUNCIOS",
+    "bad": [
+     "Si falla, a esperar",
+     "Pocas pruebas"
+    ],
+    "good_t": "15–20 ANUNCIOS",
+    "good": [
+     "Pruebas desde el día 1",
+     "Siempre hay recambio"
+    ]
+   },
+   "footer": "3 razones para grabar 15–20"
+  },
+  {
+   "label": "RAZÓN 1",
+   "title": "Probar<br><em>ganchos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MISMO ANUNCIO, 3 INICIOS",
+    "lines": [
+     "¿Te duele la espalda al levantarte?",
+     "Si trabajas sentado, mira esto.",
+     "Lo que nadie te dice del dolor."
+    ]
+   },
+   "note": "No sabes cuál engancha <b>hasta que lo pruebas.</b>"
+  },
+  {
+   "label": "RAZÓN 2",
+   "title": "Distintos<br><em>clientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "El que tiene prisa",
+     "El que compara precios",
+     "El que necesita confiar"
+    ]
+   },
+   "note": "Cada uno se para <b>con algo distinto.</b>"
+  },
+  {
+   "label": "RAZÓN 3",
+   "title": "Recambio<br><em>listo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "PRIMERO",
+      "t": "Anuncios A, B y C",
+      "s": "Probando ganchos"
+     },
+     {
+      "n": "2",
+      "d": "DESPUÉS",
+      "t": "A se cansa",
+      "s": "Entra el D, ya grabado"
+     }
+    ]
+   },
+   "note": "Grabados <b>en estudio propio.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Muchos anuncios,<br><em>más pruebas.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": [
+    "Ganchos distintos",
+    "Para cada tipo de cliente",
+    "Recambio siempre listo"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Cuántos anuncios necesitas en Meta Ads: por qué grabamos 15–20 en estudio propio",
+  "text": "Cuántos anuncios necesitas en Meta Ads: con uno o dos te quedas corto 🎥👇\n\nEn Ceos Growth grabamos 15–20 anuncios en nuestro estudio propio. No es por llenar: cada uno tiene su trabajo.\n\n→ Probar ganchos distintos con el mismo mensaje, porque no sabes cuál engancha hasta que lo pruebas\n→ Hablar a clientes distintos: el que tiene prisa, el que compara y el que necesita confiar\n→ Tener recambio: cuando un anuncio se cansa, entra el siguiente sin grabar con prisas\n\nY van directos a tus campañas de Meta Ads.\n\n¿Cuántos anuncios tienes ahora funcionando?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #anuncios #creatividades #agenciademarketing #pymes"
+ },
+ "caption": "Cuántos anuncios necesitas en Meta Ads: con uno o dos te quedas corto 🎥👇\n\nEn Ceos Growth grabamos 15–20 anuncios en nuestro estudio propio. No es por llenar: cada uno tiene su trabajo.\n\n→ Probar ganchos distintos con el mismo mensaje, porque no sabes cuál engancha hasta que lo pruebas\n→ Hablar a clientes distintos: el que tiene prisa, el que compara y el que necesita confiar\n→ Tener recambio: cuando un anuncio se cansa, entra el siguiente sin grabar con prisas\n\nY van directos a tus campañas de Meta Ads.\n\n¿Cuántos anuncios tienes ahora funcionando?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #anuncios #creatividades #agenciademarketing #pymes"
+}

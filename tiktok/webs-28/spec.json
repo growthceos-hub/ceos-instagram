@@ -1,0 +1,66 @@
+{
+ "topic": "3 cosas que debe tener la web de una clínica dental: tratamientos explicados en lenguaje de paciente, botón de pedir cita, llamar o WhatsApp siempre a la vista, y reseñas, mapa y horario. Web al Vuelo: 79 € pago único, sin cuotas, primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué ve<br><em>tu paciente?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA ANTES DE IR",
+    "lines": ["dentista cerca de mí", "¿Hacen ortodoncia?", "¿Qué opinan?"]
+   },
+   "footer": "3 cosas que debe tener la web de tu clínica dental"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Tratamientos<br><em>sin jerga.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Exodoncia", "Periodoncia avanzada"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Quitar una muela", "Encías que sangran"]
+   },
+   "note": "Como lo diría <b>el paciente.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "La cita,<br><em>siempre a mano.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Pedir cita", "Botón de llamar", "WhatsApp"]
+   },
+   "note": "Que no tenga que <b>buscar el teléfono.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Reseñas, mapa<br><em>y horario.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {"from": "in", "text": "¿Abrís los sábados?", "time": "19:58"},
+     {"from": "in", "text": "¿Dónde estáis exactamente?", "time": "19:59"}
+    ]
+   },
+   "note": "Lo que pregunta <b>ya contestado en la web.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Tratamientos claros", "Cita, llamar y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para dentistas y clínicas dentales 👇\nEl paciente no busca \"exodoncia\", busca \"quitar una muela\". Antes de pedir cita quiere entender qué haces, ver qué opinan otros y saber si abres el sábado.\nTratamientos sin jerga, botón de cita, llamar y WhatsApp, reseñas, mapa y horario. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Tu web habla como tus pacientes?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#dentista #clinicadental #odontologia #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para dentistas: 3 cosas que debe tener tu clínica dental",
+  "text": "Página web para dentistas y clínicas dentales 👇\nEl paciente no busca \"exodoncia\", busca \"quitar una muela\". Antes de pedir cita quiere entender qué haces, ver qué opinan otros y saber si abres el sábado.\nTratamientos sin jerga, botón de cita, llamar y WhatsApp, reseñas, mapa y horario. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Tu web habla como tus pacientes?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#dentista #clinicadental #odontologia #autonomos #paginaweb #webalvuelo"
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "topic": "El dueño que hace él solo el marketing (graba, monta campañas, responde leads y además atiende su negocio) frente a cómo lo reparte Ceos Growth: anuncios grabados en estudio propio (15–20), un equipo de 10 perfiles para campañas y CRM, y el dueño centrado en vender y atender",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Haces tú solo<br><em>el marketing?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "MAÑANA",
+      "t": "Atiendes clientes",
+      "s": "Tu trabajo de verdad"
+     },
+     {
+      "n": "2",
+      "d": "TARDE",
+      "t": "Grabas y editas",
+      "s": "Con el móvil"
+     },
+     {
+      "n": "3",
+      "d": "NOCHE",
+      "t": "Montas campañas",
+      "s": "Y respondes leads"
+     }
+    ]
+   },
+   "footer": "3 cosas que te quitamos de encima"
+  },
+  {
+   "label": "1",
+   "title": "Grabar<br><em>los anuncios.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TÚ CON EL MÓVIL",
+    "bad": [
+     "Uno cuando puedes",
+     "Entre cliente y cliente"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "15–20 anuncios grabados",
+     "En estudio propio"
+    ]
+   },
+   "note": "Grabados <b>en estudio propio.</b>"
+  },
+  {
+   "label": "2",
+   "title": "Campañas<br><em>y CRM.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Campañas de Meta Ads",
+     "Leads ordenados en el CRM",
+     "Equipo de 10 perfiles"
+    ]
+   },
+   "note": "No una persona: <b>10 perfiles.</b>"
+  },
+  {
+   "label": "3",
+   "title": "Tú,<br><em>a lo tuyo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu CRM",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Lead nuevo de Meta Ads"
+     },
+     {
+      "from": "in",
+      "text": "Ya está en tu CRM"
+     }
+    ]
+   },
+   "note": "Tú atiendes; <b>el sistema sigue captando.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Deja de hacerlo<br><em>todo tú.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": [
+    "15–20 anuncios en estudio",
+    "Equipo de 10 perfiles",
+    "Tú, a lo tuyo"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Hacer tú solo el marketing de tu negocio: lo que te quitamos de encima en Ceos Growth",
+  "text": "Hacer tú solo el marketing: por la mañana atiendes, por la tarde grabas y por la noche montas campañas 😮‍💨👇\n\nMuchos dueños de negocio lo hacen así, y lo que sale perjudicado es justo lo que mejor saben hacer: atender y vender.\n\n→ Grabar: en Ceos Growth grabamos 15–20 anuncios en nuestro estudio propio\n→ Campañas y CRM: lo lleva un equipo de 10 perfiles, no una sola persona\n→ Tú: te centras en atender y vender, con cada lead a la vista en el CRM\n\nY cobramos con comisión sobre ventas, así que nos interesa lo mismo que a ti.\n\n¿Cuántas horas a la semana le dedicas tú al marketing?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #empresarios #captaciondeclientes #pymes"
+ },
+ "caption": "Hacer tú solo el marketing: por la mañana atiendes, por la tarde grabas y por la noche montas campañas 😮‍💨👇\n\nMuchos dueños de negocio lo hacen así, y lo que sale perjudicado es justo lo que mejor saben hacer: atender y vender.\n\n→ Grabar: en Ceos Growth grabamos 15–20 anuncios en nuestro estudio propio\n→ Campañas y CRM: lo lleva un equipo de 10 perfiles, no una sola persona\n→ Tú: te centras en atender y vender, con cada lead a la vista en el CRM\n\nY cobramos con comisión sobre ventas, así que nos interesa lo mismo que a ti.\n\n¿Cuántas horas a la semana le dedicas tú al marketing?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #empresarios #captaciondeclientes #pymes"
+}

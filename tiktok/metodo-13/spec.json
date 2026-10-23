@@ -1,0 +1,78 @@
+{
+ "topic": "Antes de meter dinero en Meta Ads, ten estas 3 cosas: anuncios grabados para testear, ventas medidas (no clics) y un CRM con alguien que llame a cada lead; cómo lo resuelve Ceos Growth",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Vas a meter<br>dinero en<br><em>Meta Ads?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Tu primer anuncio de pago.",
+    "media": "¿Y DESPUÉS QUÉ?",
+    "headline": "Pide información",
+    "cta": "Más información",
+    "tags": ["SIN TEST", "SIN CRM"]
+   },
+   "footer": "Ten esto antes del primer euro"
+  },
+  {
+   "label": "ANTES 1",
+   "title": "Anuncios<br><em>para testear.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Varios anuncios en test",
+    "items": [
+     {"label": "Anuncio 1", "value": 48},
+     {"label": "Anuncio 2", "value": 79, "hi": true},
+     {"label": "Anuncio 3", "value": 33},
+     {"label": "Anuncio 4", "value": 56}
+    ]
+   },
+   "note": "Grabamos <b>15–20 en estudio propio.</b>"
+  },
+  {
+   "label": "ANTES 2",
+   "title": "Medir<br><em>ventas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MEDIR CLICS",
+    "bad": ["Parece que va bien", "No sabes si vendes"],
+    "good_t": "MEDIR VENTAS",
+    "good": ["Sabes qué anuncio vende", "Sabes cuánto te cuesta"]
+   },
+   "note": "Cobramos <b>comisión sobre ventas.</b>"
+  },
+  {
+   "label": "ANTES 3",
+   "title": "Alguien que<br><em>llame.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lead nuevo",
+    "fields": [
+     {"q": "Origen", "a": "Formulario de Meta"},
+     {"q": "Siguiente paso", "a": "Llamar hoy"}
+    ],
+    "badge": "✓ EN EL CRM"
+   },
+   "note": "El CRM <b>va dentro del sistema.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Primero<br><em>el sistema.</em>",
+   "dur": 6,
+   "items": ["Anuncios para testear", "Ventas, no clics", "Un CRM y alguien que llame"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Meta Ads para tu negocio: 3 cosas que necesitas antes de invertir el primer euro",
+  "text": "Meta Ads: antes de meter el primer euro, ten esto 💰👇\nPagar anuncios sin tener lo de alrededor es tirar el presupuesto. Esto es lo que montamos en los 26 días de implantación.\n→ Anuncios para testear: grabamos entre 15 y 20 en nuestro estudio propio\n→ Medir ventas, no clics: cobramos comisión sobre ventas\n→ Un CRM donde entra cada lead, para llamarle a tiempo\n¿Cuál de las tres te falta hoy?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #facebookads #captaciondeclientes #crm #pymes"
+ },
+ "caption": "Meta Ads: antes de meter el primer euro, ten esto 💰👇\nPagar anuncios sin tener lo de alrededor es tirar el presupuesto. Esto es lo que montamos en los 26 días de implantación.\n→ Anuncios para testear: grabamos entre 15 y 20 en nuestro estudio propio\n→ Medir ventas, no clics: cobramos comisión sobre ventas\n→ Un CRM donde entra cada lead, para llamarle a tiempo\n¿Cuál de las tres te falta hoy?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #facebookads #captaciondeclientes #crm #pymes"
+}

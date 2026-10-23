@@ -1,0 +1,70 @@
+{
+ "topic": "POV para nutricionistas: alguien decide en enero que va a cuidarse, te busca y no sabe qué ofreces, cuánto cuesta la primera consulta ni si haces online. Qué tiene que ver en tu web. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: alguien<br>quiere<br><em>cuidarse ya.</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA",
+    "lines": ["Nutricionista cerca", "Consulta online", "Precio primera consulta"]
+   },
+   "footer": "Lo que tiene que ver en la web de tu consulta"
+  },
+  {
+   "label": "LO QUE PASA",
+   "title": "Entra<br><em>y se pierde.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE ENCUENTRA",
+    "bad": ["Solo un Instagram", "Ni precios ni contacto"],
+    "good_t": "LO QUE NECESITA",
+    "good": ["Cómo trabajas", "Botón de pedir cita"]
+   },
+   "note": "Las ganas <b>duran poco.</b>"
+  },
+  {
+   "label": "LO QUE VE",
+   "title": "Cómo es<br><em>la primera cita.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "PRIMERA CONSULTA", "t": "Te cuenta qué busca", "s": "Presencial u online"},
+     {"n": "2", "d": "DESPUÉS", "t": "Su plan", "s": "Hecho para él"},
+     {"n": "3", "d": "SEGUIMIENTO", "t": "Revisiones", "s": "Cada cuánto, explicado"}
+    ]
+   },
+   "note": "Si lo entiende, <b>se apunta.</b>"
+  },
+  {
+   "label": "LO QUE PULSA",
+   "title": "Un botón<br><em>y ya está.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu consulta",
+    "msgs": [
+     {"from": "out", "lines": ["Hola, quiero pedir", "la primera consulta"], "time": "22:31"},
+     {"from": "in", "text": "¿Te va bien el martes?", "time": "08:15"}
+    ]
+   },
+   "note": "WhatsApp, cita o llamada: <b>a un toque.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Botón de cita y WhatsApp", "Cómo trabajas, claro", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para nutricionistas 👇\nPOV: alguien decide que esta semana empieza a cuidarse. Te busca, ve solo un Instagram y no sabe cómo es la primera consulta ni cómo pedirla. Las ganas se le pasan.\nTu web con cómo trabajas, si haces online, botón de cita y WhatsApp, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, y si no te convence se rehace gratis.\n¿Lo que ve hoy le haría escribirte?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#nutricionista #nutricion #dietista #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para nutricionistas: POV, alguien quiere empezar a cuidarse",
+  "text": "Página web para nutricionistas 👇\nPOV: alguien decide que esta semana empieza a cuidarse. Te busca, ve solo un Instagram y no sabe cómo es la primera consulta ni cómo pedirla. Las ganas se le pasan.\nTu web con cómo trabajas, si haces online, botón de cita y WhatsApp, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, y si no te convence se rehace gratis.\n¿Lo que ve hoy le haría escribirte?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#nutricionista #nutricion #dietista #autonomos #paginaweb #webalvuelo"
+ }
+}

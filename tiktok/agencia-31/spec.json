@@ -1,0 +1,89 @@
+{
+ "topic": "Landing page para anuncios de Meta: lo que se ve sin bajar en el móvil tiene que decir qué haces y para quién, mostrar una prueba real (foto de tu trabajo o reseña) y tener un solo botón con una sola acción",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Entran en tu web<br><em>y se van?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LANDING CONFUSA",
+    "bad": [
+     "Logo y «bienvenidos»",
+     "Cinco botones"
+    ],
+    "good_t": "LANDING CLARA",
+    "good": [
+     "Qué haces y para quién",
+     "Un solo botón"
+    ]
+   },
+   "footer": "3 cosas que se ven sin bajar"
+  },
+  {
+   "label": "COSA 1",
+   "title": "Qué haces<br><em>y para quién.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TITULAR DE LA LANDING",
+    "lines": [
+     "Reformas de baño en Burgos",
+     "En 10 días y con precio cerrado",
+     "Para pisos de particulares"
+    ]
+   },
+   "note": "Que se entienda <b>en 3 segundos.</b>"
+  },
+  {
+   "label": "COSA 2",
+   "title": "Una prueba<br><em>de verdad.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Foto real de tu trabajo",
+     "Una reseña con nombre",
+     "Tu cara o tu equipo"
+    ]
+   },
+   "note": "Nada de <b>fotos de banco.</b>"
+  },
+  {
+   "label": "COSA 3",
+   "title": "Un botón,<br><em>una acción.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Cuéntanos tu caso y te llamamos hoy.",
+    "media": "PIDE TU PRESUPUESTO",
+    "headline": "Respuesta en el día",
+    "cta": "Pedir ahora",
+    "tags": [
+     "1 BOTÓN",
+     "SIN MENÚ",
+     "VISIBLE SIN BAJAR"
+    ]
+   },
+   "note": "Quita el menú: <b>que no se distraiga.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu landing,<br><em>sin bajar.</em>",
+   "dur": 6,
+   "items": [
+    "Qué haces y para quién",
+    "Una prueba real",
+    "Un solo botón"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Landing page para anuncios de Meta: 3 cosas que se tienen que ver sin bajar",
+  "text": "Landing page para tus anuncios: si entran y se van, mira esto 📱👇\n\nQuien llega desde un anuncio decide en segundos si se queda. Y casi siempre lo decide con lo que ve antes de bajar, en el móvil.\n\n→ Un titular que diga qué haces y para quién, sin «bienvenidos a nuestra web»\n→ Una prueba real: foto de tu trabajo, una reseña con nombre o tu cara\n→ Un solo botón con una sola acción, y quita el menú para que no se pierda\n\nAbre tu landing en el móvil ahora y tapa todo lo de abajo. ¿Se entiende qué vendes?\n\nSíguenos para más tips 🧡\n\n#landingpage #metaads #paginaweb #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Landing page para tus anuncios: si entran y se van, mira esto 📱👇\n\nQuien llega desde un anuncio decide en segundos si se queda. Y casi siempre lo decide con lo que ve antes de bajar, en el móvil.\n\n→ Un titular que diga qué haces y para quién, sin «bienvenidos a nuestra web»\n→ Una prueba real: foto de tu trabajo, una reseña con nombre o tu cara\n→ Un solo botón con una sola acción, y quita el menú para que no se pierda\n\nAbre tu landing en el móvil ahora y tapa todo lo de abajo. ¿Se entiende qué vendes?\n\nSíguenos para más tips 🧡\n\n#landingpage #metaads #paginaweb #captaciondeclientes #pymes #ceosgrowth"
+}

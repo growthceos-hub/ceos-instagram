@@ -1,0 +1,66 @@
+{
+ "topic": "POV para fontaneros: a alguien se le rompe una tubería un domingo, busca fontanero en el móvil y llama al primero que le deja hacerlo con un toque. Qué tiene que ver: botón de llamar arriba, WhatsApp para mandar foto de la avería, zona y reseñas. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: domingo<br><em>y la cocina</em><br><em>inundada.</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA, CON PRISA",
+    "lines": ["Fontanero urgente", "Fontanero cerca de mí", "Abierto ahora"]
+   },
+   "footer": "Lo que tiene que ver en la web de tu fontanería"
+  },
+  {
+   "label": "SEGUNDO 1",
+   "title": "Llamar<br><em>con un toque.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["Busca tu número", "Lo copia a mano"],
+    "good_t": "CON WEB",
+    "good": ["Botón de llamar arriba", "Llama en un segundo"]
+   },
+   "note": "Con agua en el suelo <b>no se lee nada.</b>"
+  },
+  {
+   "label": "SEGUNDO 5",
+   "title": "La foto<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu fontanería",
+    "msgs": [
+     {"from": "out", "lines": ["Te mando foto", "de la tubería"], "time": "11:02"},
+     {"from": "in", "text": "Vamos para allá en 1 h", "time": "11:05"}
+    ]
+   },
+   "note": "Ves la avería <b>antes de salir.</b>"
+  },
+  {
+   "label": "SEGUNDO 10",
+   "title": "Zona<br><em>y reseñas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Barrios donde trabajas", "Horario de urgencias", "Reseñas de Google"]
+   },
+   "note": "Así sabe que <b>llegas a su casa.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Botón de llamar arriba", "WhatsApp y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para fontaneros 👇\nPOV: domingo por la mañana, tubería rota y agua por el suelo. Nadie compara precios: llama al primero que le deja hacerlo con un toque.\nTu web con botón de llamar arriba, WhatsApp para que te manden la foto de la avería, zona, horario de urgencias y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Te pueden llamar desde el móvil en un segundo?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fontanero #fontaneria #urgencias #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para fontaneros: POV, una tubería rota un domingo",
+  "text": "Página web para fontaneros 👇\nPOV: domingo por la mañana, tubería rota y agua por el suelo. Nadie compara precios: llama al primero que le deja hacerlo con un toque.\nTu web con botón de llamar arriba, WhatsApp para que te manden la foto de la avería, zona, horario de urgencias y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Te pueden llamar desde el móvil en un segundo?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#fontanero #fontaneria #urgencias #autonomos #paginaweb #webalvuelo"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "topic": "POV del dueño de un perro que se ha puesto malo y busca veterinario cerca con prisa: necesita ver el horario, llamar en un toque y saber cómo llegar. Qué debe tener la web de una clínica veterinaria. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: tu perro<br><em>se pone malo.</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCA CON PRISA",
+    "lines": ["veterinario cerca", "veterinario abierto ahora", "teléfono veterinario"]
+   },
+   "footer": "Lo que necesita ver en la web de tu clínica"
+  },
+  {
+   "label": "SEGUNDO 1",
+   "title": "¿Abren<br><em>ahora?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN WEB",
+    "bad": ["No sabe si abres", "Busca otra clínica"],
+    "good_t": "CON WEB",
+    "good": ["Horario a la vista", "Sabe si llegar ya"]
+   },
+   "note": "Con prisa <b>no se pregunta: se elige.</b>"
+  },
+  {
+   "label": "SEGUNDO 5",
+   "title": "Llamar<br><em>en un toque.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de llamar", "WhatsApp", "Cómo llegar en el mapa"]
+   },
+   "note": "Sin copiar números <b>a mano.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Pedir cita<br><em>con calma.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Dueña",
+    "msgs": [
+     {"from": "in", "text": "Ya está mejor, gracias", "time": "21:40"},
+     {"from": "in", "text": "¿Cita para la revisión?", "time": "21:41"}
+    ]
+   },
+   "note": "Y las reseñas <b>hacen que vuelva.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Horario y llamar", "Mapa, cita y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para veterinarios y clínicas veterinarias 👇\nCuando el perro se pone malo, nadie lee. Busca veterinario cerca, mira si abres ahora y pulsa llamar. Si no lo ve en segundos, llama a otra clínica.\nTu web con horario a la vista, botón de llamar y WhatsApp, mapa, cita y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Se ve tu horario en el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#veterinario #clinicaveterinaria #mascotas #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para veterinarios: POV, tu perro se pone malo",
+  "text": "Página web para veterinarios y clínicas veterinarias 👇\nCuando el perro se pone malo, nadie lee. Busca veterinario cerca, mira si abres ahora y pulsa llamar. Si no lo ve en segundos, llama a otra clínica.\nTu web con horario a la vista, botón de llamar y WhatsApp, mapa, cita y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, sin cuotas.\n¿Se ve tu horario en el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#veterinario #clinicaveterinaria #mascotas #autonomos #paginaweb #webalvuelo"
+ }
+}

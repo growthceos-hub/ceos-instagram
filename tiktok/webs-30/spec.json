@@ -1,0 +1,67 @@
+{
+ "topic": "3 cosas que debe tener la web de una óptica: botón para pedir cita de revisión de la vista, servicios claros (graduación, lentillas, audición si la hay) y mapa con horario y reseñas. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Buscan óptica<br>y no te<br><em>encuentran?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE ESCRIBE EN GOOGLE",
+    "lines": ["Óptica cerca de mí", "Revisión de la vista", "Abierto ahora"]
+   },
+   "footer": "3 cosas que debe tener la web de tu óptica"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Pedir cita<br><em>de revisión.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Pedir cita",
+    "fields": [
+     {"q": "¿Qué necesitas?", "a": "Revisión de la vista"},
+     {"q": "¿Qué día te va bien?", "a": "Jueves por la tarde"}
+    ],
+    "badge": "✓ CITA PEDIDA"
+   },
+   "note": "Sin llamar <b>en horario de tienda.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Lo que haces,<br><em>bien claro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Graduación de la vista", "Gafas y lentillas", "Ajustes y reparaciones"]
+   },
+   "note": "Que no tenga que <b>adivinarlo.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Mapa, horario<br><em>y reseñas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO UNA DIRECCIÓN",
+    "bad": ["Sin horario", "Sin opiniones"],
+    "good_t": "WEB COMPLETA",
+    "good": ["Mapa con un toque", "Reseñas a la vista"]
+   },
+   "note": "Confía antes <b>de entrar por la puerta.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Botón de pedir cita", "Mapa, horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para ópticas 👇\nQuien necesita revisarse la vista busca \"óptica cerca de mí\" y elige la que le deja pedir cita sin llamar.\nBotón de cita, WhatsApp y llamar, tus servicios claros, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Tus clientes pueden pedir cita desde el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#optica #opticas #gafas #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para ópticas: 3 cosas que debe tener para que te pidan cita",
+  "text": "Página web para ópticas 👇\nQuien necesita revisarse la vista busca \"óptica cerca de mí\" y elige la que le deja pedir cita sin llamar.\nBotón de cita, WhatsApp y llamar, tus servicios claros, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Tus clientes pueden pedir cita desde el móvil?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#optica #opticas #gafas #autonomos #paginaweb #webalvuelo"
+ }
+}

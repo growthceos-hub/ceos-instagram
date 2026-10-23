@@ -1,0 +1,102 @@
+{
+ "topic": "Oferta de entrada para captar clientes nuevos: un servicio pequeño, concreto y barato que resuelve una parte del problema, con un precio cerrado y un paso siguiente claro hacia el servicio principal",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu precio asusta<br><em>a un desconocido?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "DIRECTO AL GRANDE",
+    "bad": [
+     "Precio alto de golpe",
+     "«Me lo pienso»"
+    ],
+    "good_t": "OFERTA DE ENTRADA",
+    "good": [
+     "Paso pequeño primero",
+     "Te prueba sin miedo"
+    ]
+   },
+   "footer": "3 pasos para crear tu oferta de entrada"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Una parte<br><em>del problema.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Clínica: primera valoración",
+     "Reformas: medición y plano",
+     "Gimnasio: semana de prueba"
+    ]
+   },
+   "note": "Pequeña, pero <b>que se note el resultado.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Precio cerrado<br><em>y fácil de decir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Antes de decidir nada, ven a probar.",
+    "media": "PRIMERA VALORACIÓN · 29 €",
+    "headline": "Plazas esta semana",
+    "cta": "Reservar",
+    "tags": [
+     "PRECIO CERRADO",
+     "SIN LETRA PEQUEÑA"
+    ]
+   },
+   "note": "Si hay que explicarlo, <b>no es de entrada.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ten listo<br><em>el siguiente paso.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ENTRADA",
+      "t": "Prueba tu servicio",
+      "s": "Te conoce sin riesgo"
+     },
+     {
+      "n": "2",
+      "d": "AL TERMINAR",
+      "t": "Le propones el plan",
+      "s": "Con lo que ya has visto"
+     },
+     {
+      "n": "3",
+      "d": "DESPUÉS",
+      "t": "Servicio principal",
+      "s": "Donde ganas de verdad"
+     }
+    ]
+   },
+   "note": "La entrada no da dinero, <b>da clientes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Primero un sí<br><em>pequeño.</em>",
+   "dur": 6,
+   "items": [
+    "Resuelve una parte",
+    "Precio cerrado",
+    "Siguiente paso preparado"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Oferta de entrada: cómo conseguir clientes nuevos que te prueben sin miedo al precio",
+  "text": "Oferta de entrada: el truco para que un desconocido te compre por primera vez 🚪👇\n\nPedirle a alguien que no te conoce un servicio de 1.000 € de golpe es mucho. Un paso más pequeño le deja probarte sin jugarse tanto.\n\n→ Elige una parte del problema que puedas resolver rápido: una valoración, una medición, una semana de prueba\n→ Ponle un precio cerrado y fácil de decir. Si necesita explicación, no es de entrada\n→ Ten preparado qué le propones al terminar, con lo que ya ha visto de tu trabajo\n\nCon la entrada casi no ganas dinero. Ganas clientes que ya confían en ti.\n\n¿Cuál sería la oferta de entrada de tu negocio?\n\nSíguenos para más tips 🧡\n\n#ofertadeentrada #captaciondeclientes #ventas #metaads #pymes #ceosgrowth"
+ },
+ "caption": "Oferta de entrada: el truco para que un desconocido te compre por primera vez 🚪👇\n\nPedirle a alguien que no te conoce un servicio de 1.000 € de golpe es mucho. Un paso más pequeño le deja probarte sin jugarse tanto.\n\n→ Elige una parte del problema que puedas resolver rápido: una valoración, una medición, una semana de prueba\n→ Ponle un precio cerrado y fácil de decir. Si necesita explicación, no es de entrada\n→ Ten preparado qué le propones al terminar, con lo que ya ha visto de tu trabajo\n\nCon la entrada casi no ganas dinero. Ganas clientes que ya confían en ti.\n\n¿Cuál sería la oferta de entrada de tu negocio?\n\nSíguenos para más tips 🧡\n\n#ofertadeentrada #captaciondeclientes #ventas #metaads #pymes #ceosgrowth"
+}

@@ -1,0 +1,95 @@
+{
+ "topic": "Retargeting en Meta Ads para negocio pequeño: crea públicos de quien vio la mitad de tu vídeo, visitó tu web o abrió el formulario sin enviarlo, y enséñales otro anuncio con reseñas, dudas resueltas o un recordatorio",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te ven<br><em>y no te escriben?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LUNES",
+      "t": "Ve tu anuncio",
+      "s": "Le interesa"
+     },
+     {
+      "n": "2",
+      "d": "MARTES",
+      "t": "Se le olvida",
+      "s": "Y tú no vuelves a salir"
+     }
+    ]
+   },
+   "footer": "3 públicos para volver a salirle"
+  },
+  {
+   "label": "PÚBLICO 1",
+   "title": "Vio la mitad<br><em>de tu vídeo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Públicos personalizados",
+     "Interacción con vídeo",
+     "Vio el 50 % o más"
+    ]
+   },
+   "note": "Ya te conoce: <b>no le cuentes lo mismo.</b>"
+  },
+  {
+   "label": "PÚBLICO 2",
+   "title": "Visitó<br><em>tu web.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Esto dicen quienes ya vinieron.",
+    "media": "«VOLVERÍA MAÑANA»",
+    "headline": "Reseñas de clientes",
+    "cta": "Más información",
+    "tags": [
+     "PÍXEL",
+     "ÚLTIMOS 30 DÍAS",
+     "RESEÑAS"
+    ]
+   },
+   "note": "Enséñale <b>pruebas, no más promesas.</b>"
+  },
+  {
+   "label": "PÚBLICO 3",
+   "title": "Abrió el formulario<br><em>sin enviarlo.</em>",
+   "dur": 6.5,
+   "size": 100,
+   "mock": {
+    "type": "script",
+    "title": "ANUNCIO RECORDATORIO",
+    "lines": [
+     "¿Se te quedó a medias?",
+     "Son 3 preguntas, 30 segundos",
+     "Te llamamos hoy mismo"
+    ]
+   },
+   "note": "Estaba a un clic: <b>recuérdaselo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Vuelve a salirle<br><em>a quien te vio.</em>",
+   "dur": 6,
+   "size": 96,
+   "items": [
+    "Vio el 50 % del vídeo",
+    "Visitó tu web",
+    "Dejó el formulario a medias"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Retargeting en Meta Ads: 3 públicos para volver a salirle a quien ya te vio",
+  "text": "Retargeting en Meta Ads: la gente que ya te vio es la más fácil de convencer 🔁👇\n\nAlguien ve tu anuncio, le interesa y al día siguiente ya no se acuerda. Si no vuelves a salirle, se lo lleva otro.\n\n→ Crea un público de quien vio el 50 % o más de tu vídeo y enséñale otro anuncio, no el mismo\n→ Crea otro con quien visitó tu web en los últimos 30 días y muéstrale reseñas de clientes\n→ Y uno de quien abrió el formulario sin enviarlo: un recordatorio corto le basta\n\nCon poco presupuesto, aquí cada euro rinde más porque ya saben quién eres.\n\n¿Tienes algún público de retargeting creado?\n\nSíguenos para más tips 🧡\n\n#retargeting #metaads #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Retargeting en Meta Ads: la gente que ya te vio es la más fácil de convencer 🔁👇\n\nAlguien ve tu anuncio, le interesa y al día siguiente ya no se acuerda. Si no vuelves a salirle, se lo lleva otro.\n\n→ Crea un público de quien vio el 50 % o más de tu vídeo y enséñale otro anuncio, no el mismo\n→ Crea otro con quien visitó tu web en los últimos 30 días y muéstrale reseñas de clientes\n→ Y uno de quien abrió el formulario sin enviarlo: un recordatorio corto le basta\n\nCon poco presupuesto, aquí cada euro rinde más porque ya saben quién eres.\n\n¿Tienes algún público de retargeting creado?\n\nSíguenos para más tips 🧡\n\n#retargeting #metaads #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+}

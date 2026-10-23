@@ -1,0 +1,97 @@
+{
+ "topic": "Google Ads para un negocio local sin pagar clics que no sirven: revisa cada semana el informe de términos de búsqueda (lo que la gente escribió de verdad), añade como palabras clave negativas lo que no te trae clientes (gratis, curso, empleo, segunda mano…) y usa palabras clave con intención de contratar y tu ciudad",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pagas en Google<br><em>clics de curiosos?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Búsquedas que pagaste",
+    "items": [
+     {
+      "label": "fontanero urgente burgos",
+      "value": 70,
+      "hi": true
+     },
+     {
+      "label": "curso de fontanería",
+      "value": 45
+     },
+     {
+      "label": "trabajo de fontanero",
+      "value": 35
+     }
+    ]
+   },
+   "footer": "3 pasos para dejar de pagarlos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Mira lo que<br><em>escribieron.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Abre Palabras clave",
+     "Entra en Términos de búsqueda",
+     "Hazlo cada semana"
+    ]
+   },
+   "note": "Lo que buscó <b>de verdad</b> la gente."
+  },
+  {
+   "label": "PASO 2",
+   "title": "Añade<br><em>negativas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TE CUESTAN DINERO",
+    "bad": [
+     "gratis",
+     "curso",
+     "empleo"
+    ],
+    "good_t": "TE TRAEN CLIENTES",
+    "good": [
+     "presupuesto",
+     "urgente",
+     "cerca de mí"
+    ]
+   },
+   "note": "Así <b>no vuelves a pagarlas.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Palabras<br><em>de contratar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PALABRAS CLAVE",
+    "lines": [
+     "fontanero en burgos",
+     "reparar caldera burgos",
+     "presupuesto fontanería"
+    ]
+   },
+   "note": "Servicio <b>más tu ciudad.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Paga solo<br><em>a quien contrata.</em>",
+   "dur": 6,
+   "items": [
+    "Términos de búsqueda",
+    "Palabras negativas",
+    "Intención y ciudad"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Google Ads para negocio local: palabras clave negativas para no pagar clics inútiles",
+  "text": "Google Ads para negocios locales: puedes estar pagando clics de gente que busca un curso o un empleo 🔎👇\n\nGoogle enseña tu anuncio en búsquedas parecidas a tus palabras clave, no solo en las exactas. Si no lo revisas, pagas búsquedas que no te contratan.\n\n→ Cada semana, abre el informe de términos de búsqueda: ahí ves lo que la gente escribió de verdad antes de hacer clic\n→ Lo que no te trae clientes, añádelo como palabra clave negativa: gratis, curso, empleo, segunda mano…\n→ Usa palabras clave de quien quiere contratar, con tu servicio y tu ciudad, como “reparar caldera burgos”\n\nPara nosotros esta revisión de 10 minutos a la semana es lo que más dinero ahorra en una campaña de Google.\n\n¿Has mirado alguna vez qué buscaba la gente que hizo clic en tu anuncio? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#googleads #publicidadonline #negocioslocales #sem #pymes #ceosgrowth"
+ },
+ "caption": "Google Ads para negocios locales: puedes estar pagando clics de gente que busca un curso o un empleo 🔎👇\n\nGoogle enseña tu anuncio en búsquedas parecidas a tus palabras clave, no solo en las exactas. Si no lo revisas, pagas búsquedas que no te contratan.\n\n→ Cada semana, abre el informe de términos de búsqueda: ahí ves lo que la gente escribió de verdad antes de hacer clic\n→ Lo que no te trae clientes, añádelo como palabra clave negativa: gratis, curso, empleo, segunda mano…\n→ Usa palabras clave de quien quiere contratar, con tu servicio y tu ciudad, como “reparar caldera burgos”\n\nPara nosotros esta revisión de 10 minutos a la semana es lo que más dinero ahorra en una campaña de Google.\n\n¿Has mirado alguna vez qué buscaba la gente que hizo clic en tu anuncio? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#googleads #publicidadonline #negocioslocales #sem #pymes #ceosgrowth"
+}

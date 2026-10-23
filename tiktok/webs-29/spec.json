@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores de la web de una floristería: no enseñar ramos con precio, no tener botón de WhatsApp para encargar y no poner horario ni zona de entrega. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te piden<br>un ramo<br><em>y no te ven?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Hacéis ramos para hoy?", "time": "10:42"},
+     {"from": "in", "text": "¿Llegáis a mi barrio?", "time": "10:43"}
+    ]
+   },
+   "footer": "3 errores de la web de una floristería"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "Ramos<br><em>sin precio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO FOTOS BONITAS",
+    "bad": ["Sin precio a la vista", "Tiene que preguntar"],
+    "good_t": "RAMOS CON PRECIO",
+    "good": ["Foto, nombre y precio", "Encarga sin dudar"]
+   },
+   "note": "Si no sabe cuánto cuesta, <b>no encarga.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Sin botón<br><em>de WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Encargar por WhatsApp", "Llamar con un toque", "Elegir día de entrega"]
+   },
+   "note": "Un ramo para hoy <b>se pide en un minuto.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Ni horario<br><em>ni entregas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE PREGUNTA ANTES",
+    "lines": ["¿Abren el domingo?", "¿Llevan a domicilio?", "¿Dónde está la tienda?"]
+   },
+   "note": "Ponlo en la web y <b>deja de contestarlo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Ramos con precio", "Botón de WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para floristerías 👇\nQuien busca un ramo para hoy no tiene tiempo de preguntar precios por mensaje. Si no los ve, encarga en otra.\nRamos con precio, botón de WhatsApp para encargar, horario, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, y la web es tuya.\n¿Cuántas veces al día te preguntan si llegáis a domicilio?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#floristeria #flores #ramos #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para floristerías: 3 errores que te quitan encargos",
+  "text": "Página web para floristerías 👇\nQuien busca un ramo para hoy no tiene tiempo de preguntar precios por mensaje. Si no los ve, encarga en otra.\nRamos con precio, botón de WhatsApp para encargar, horario, mapa y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 €, una vez, y la web es tuya.\n¿Cuántas veces al día te preguntan si llegáis a domicilio?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#floristeria #flores #ramos #autonomos #paginaweb #webalvuelo"
+ }
+}

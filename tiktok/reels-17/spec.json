@@ -1,0 +1,67 @@
+{
+ "topic": "3 excusas de un nutricionista para no grabar reels y su respuesta: «no sé qué grabar» (la pregunta que más te hacen en consulta), «no quiero salir yo» (graba el plato, la lista de la compra o tus manos) y «no tengo tiempo de editar» (Reels al Vuelo te lo devuelve editado en 24 h)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Nutricionista<br><em>y sin reels?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LAS 3 EXCUSAS",
+    "lines": ["No sé qué grabar", "No quiero salir yo", "No tengo tiempo de editar"]
+   },
+   "footer": "3 excusas para no grabar y su respuesta"
+  },
+  {
+   "label": "EXCUSA 1",
+   "title": "«No sé<br><em>qué grabar.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {"from": "in", "text": "¿El pan de noche engorda?", "time": "17:20"},
+     {"from": "in", "text": "¿Y la fruta de postre?", "time": "17:21"}
+    ]
+   },
+   "note": "Lo que te preguntan <b>es tu próximo reel.</b>"
+  },
+  {
+   "label": "EXCUSA 2",
+   "title": "«No quiero<br><em>salir yo.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Un plato, desde arriba", "La lista de la compra", "Tus manos cocinando"]
+   },
+   "note": "La cara <b>no es obligatoria.</b>"
+  },
+  {
+   "label": "EXCUSA 3",
+   "title": "«No tengo<br><em>tiempo.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ENTRE CONSULTAS", "t": "Grabas 30 s", "s": "Con el móvil, en vertical"},
+     {"n": "2", "d": "AL MOMENTO", "t": "Nos lo mandas", "s": "Sin cortar nada"},
+     {"n": "3", "d": "EN 24 H", "t": "Reel editado", "s": "Subtítulos, música y logo"}
+    ]
+   },
+   "note": "Lo revisa <b>una persona.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú grabas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Sin cuotas", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para nutricionistas 👇\nLas preguntas que te hacen cada día en consulta ya son reels: «¿el pan de noche engorda?», «¿y la fruta de postre?».\nNo hace falta salir tú: un plato, la lista de la compra o tus manos. Lo grabas con el móvil entre consultas y en 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\n¿Cuál es la pregunta que más te repiten?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#nutricionista #nutricion #dietista #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para nutricionistas: 3 excusas para no grabar y su respuesta",
+  "text": "Edición de reels para nutricionistas 👇\nLas preguntas que te hacen cada día en consulta ya son reels: «¿el pan de noche engorda?», «¿y la fruta de postre?».\nNo hace falta salir tú: un plato, la lista de la compra o tus manos. Lo grabas con el móvil entre consultas y en 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\n¿Cuál es la pregunta que más te repiten?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#nutricionista #nutricion #dietista #edicionvideo #reels #reelsalvuelo"
+ }
+}

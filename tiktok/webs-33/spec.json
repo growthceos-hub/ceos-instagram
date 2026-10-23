@@ -1,0 +1,70 @@
+{
+ "topic": "Antes y después de la web de un carpintero: de un perfil sin fotos ni contacto a una web con trabajos hechos por tipo (cocinas, armarios, puertas), botón de pedir presupuesto por WhatsApp y zona de trabajo. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus muebles<br><em>solo en</em><br><em>tu móvil?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["Fotos en la galería", "«Pásame tu número»"],
+    "good_t": "DESPUÉS",
+    "good": ["Trabajos en tu web", "Presupuesto a un toque"]
+   },
+   "footer": "El antes y el después de la web de un carpintero"
+  },
+  {
+   "label": "ANTES",
+   "title": "Te piden<br><em>fotos por chat.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Tienes fotos de armarios?", "time": "18:40"},
+     {"from": "out", "lines": ["Te paso unas", "cuando llegue a casa"], "time": "18:52"}
+    ]
+   },
+   "note": "Y para entonces <b>ya ha pedido otro.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Trabajos<br><em>por tipo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Cocinas a medida", "Armarios empotrados", "Puertas y tarimas"]
+   },
+   "note": "Ve lo que haces <b>sin preguntarte.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Presupuesto<br><em>a un toque.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Pedir presupuesto",
+    "fields": [
+     {"q": "¿Qué necesitas?", "a": "Armario de 2 metros"},
+     {"q": "¿En qué zona?", "a": "Centro"}
+    ],
+    "badge": "✓ ENVIADO POR WHATSAPP"
+   },
+   "note": "Con <b>mapa y zona de trabajo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Tus trabajos por tipo", "Botón de presupuesto", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para carpinteros 👇\nTienes cientos de fotos de cocinas y armarios en el móvil, y cada cliente nuevo te las pide por mensaje. Si tardas en mandarlas, pide presupuesto a otro.\nTu web con los trabajos ordenados por tipo, botón de WhatsApp y de llamar, zona de trabajo y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Cuál es el trabajo del que más orgulloso estás?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#carpinteria #carpintero #mueblesamedida #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para carpinteros: el antes y el después",
+  "text": "Página web para carpinteros 👇\nTienes cientos de fotos de cocinas y armarios en el móvil, y cada cliente nuevo te las pide por mensaje. Si tardas en mandarlas, pide presupuesto a otro.\nTu web con los trabajos ordenados por tipo, botón de WhatsApp y de llamar, zona de trabajo y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Cuál es el trabajo del que más orgulloso estás?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#carpinteria #carpintero #mueblesamedida #autonomos #paginaweb #webalvuelo"
+ }
+}

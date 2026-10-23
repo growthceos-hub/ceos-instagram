@@ -1,0 +1,65 @@
+{
+ "topic": "La cuenta para un estudio de yoga o pilates: 10 reels por 59 € son 5,90 € por reel; subiendo 2 por semana tienes 5 semanas de contenido sin editar tú. Qué grabar: una postura de cerca, la clase desde el fondo y un consejo de 10 segundos. Reels al Vuelo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuánto cuesta<br><em>un reel</em><br><em>de tu clase?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA",
+    "lines": ["10 reels por 59 €", "= 5,90 € cada uno", "2 por semana = 5 semanas"]
+   },
+   "footer": "La cuenta para tu estudio de yoga o pilates"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "5,90 €<br><em>por reel.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Reels publicados con el pack de 10",
+    "items": [
+     {"label": "Semana 1 · 2 reels", "value": 20},
+     {"label": "Semana 3 · 6 reels", "value": 60},
+     {"label": "Semana 5 · 10 reels", "value": 100, "hi": true}
+    ]
+   },
+   "note": "Y tú <b>sin abrir un editor.</b>"
+  },
+  {
+   "label": "TÚ GRABAS",
+   "title": "Qué grabar<br><em>cada semana.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Una postura, de cerca", "La clase desde el fondo", "Un consejo de 10 s"]
+   },
+   "note": "Con el móvil <b>apoyado en la pared.</b>"
+  },
+  {
+   "label": "LO QUE TE LLEGA",
+   "title": "Editado<br><em>en 24 h.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CADA REEL LLEVA",
+    "lines": ["Subtítulos", "Ritmo y música libre", "Tu logo", "Revisado por una persona"]
+   },
+   "note": "Sin cuotas: <b>pagas el pack y ya.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Prueba uno<br><em>por 1,99 €.</em>",
+   "dur": 6,
+   "items": ["Primer reel por 1,99 €", "10 reels por 59 €", "Editado en 24 h"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para estudios de yoga y pilates 👇\nLa cuenta: 10 reels por 59 € son 5,90 € cada uno. Subiendo dos por semana, tienes cinco semanas de contenido sin tocar un editor.\nTú grabas una postura de cerca, la clase desde el fondo o un consejo corto. En 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\n¿Qué postura grabarías primero?\nPrueba tu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#yoga #pilates #estudiodeyoga #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para yoga y pilates: lo que cuesta cada reel (5,90 €)",
+  "text": "Edición de reels para estudios de yoga y pilates 👇\nLa cuenta: 10 reels por 59 € son 5,90 € cada uno. Subiendo dos por semana, tienes cinco semanas de contenido sin tocar un editor.\nTú grabas una postura de cerca, la clase desde el fondo o un consejo corto. En 24 h te llega editado con subtítulos, música libre y tu logo. Sin cuotas.\n¿Qué postura grabarías primero?\nPrueba tu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#yoga #pilates #estudiodeyoga #edicionvideo #reels #reelsalvuelo"
+ }
+}

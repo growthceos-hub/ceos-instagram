@@ -1,0 +1,69 @@
+{
+ "topic": "Cómo trabaja Ceos Growth en 3 números: 10 perfiles (grabación, Meta Ads, CRM), 26 días de implantación (15–20 anuncios en estudio propio, campañas y CRM) y 12 meses de Meta Ads sin permanencia, a comisión sobre ventas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Ceos Growth<br><em>en 3 números.</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["10 perfiles", "26 días", "12 meses"]
+   },
+   "footer": "Lo que hay detrás de cada uno"
+  },
+  {
+   "label": "NÚMERO 10",
+   "title": "10 perfiles,<br><em>un equipo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "QUIÉN HAY DETRÁS",
+    "lines": ["Grabación y edición", "Campañas de Meta Ads", "CRM y seguimiento"]
+   },
+   "note": "Cada uno <b>en lo suyo.</b>"
+  },
+  {
+   "label": "NÚMERO 26",
+   "title": "26 días<br><em>de implantación.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ESTUDIO PROPIO", "t": "15–20 anuncios"},
+     {"n": "2", "d": "META ADS", "t": "Campañas lanzadas"},
+     {"n": "3", "d": "CRM", "t": "Leads a la vista"}
+    ]
+   },
+   "note": "Y el sistema <b>en marcha.</b>"
+  },
+  {
+   "label": "NÚMERO 12",
+   "title": "12 meses<br><em>sin permanencia.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CUOTA Y PERMANENCIA",
+    "bad": ["Pagas, vendas o no", "No te puedes ir"],
+    "good_t": "CEOS GROWTH",
+    "good": ["Comisión sobre ventas", "Sigues si te funciona"]
+   },
+   "note": "Ganamos <b>si tú vendes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "10, 26<br><em>y 12.</em>",
+   "dur": 6,
+   "items": ["10 perfiles", "26 días de implantación", "12 meses sin permanencia"],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia de captación de clientes: cómo trabaja Ceos Growth en 3 números",
+  "text": "Agencia de captación de clientes: Ceos Growth en 3 números 🔢👇\nSi te preguntas cómo trabajamos, con estos tres lo tienes claro.\n→ 10 perfiles: grabación y edición, campañas de Meta Ads, CRM y seguimiento\n→ 26 días de implantación: 15–20 anuncios en estudio propio, campañas y CRM\n→ 12 meses de Meta Ads sin permanencia, a comisión sobre ventas\n¿Cuál de los tres números te sorprende más?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #captaciondeclientes #metaads #crm #empresarios"
+ },
+ "caption": "Agencia de captación de clientes: Ceos Growth en 3 números 🔢👇\nSi te preguntas cómo trabajamos, con estos tres lo tienes claro.\n→ 10 perfiles: grabación y edición, campañas de Meta Ads, CRM y seguimiento\n→ 26 días de implantación: 15–20 anuncios en estudio propio, campañas y CRM\n→ 12 meses de Meta Ads sin permanencia, a comisión sobre ventas\n¿Cuál de los tres números te sorprende más?\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #captaciondeclientes #metaads #crm #empresarios"
+}

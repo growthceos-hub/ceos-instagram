@@ -1,0 +1,98 @@
+{
+ "topic": "Presupuesto diario en Meta Ads: calcúlalo al revés, desde cuántos clientes quieres al mes, cuántos leads necesitas para cerrar uno y lo que estás dispuesto a pagar por lead; después divide entre 30 y aguanta al menos una semana sin tocar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuánto pongo<br><em>al día en Meta?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA AL REVÉS",
+    "lines": [
+     "¿Cuántos clientes quiero?",
+     "¿Cuántos leads necesito?",
+     "¿Cuánto pago por lead?"
+    ]
+   },
+   "footer": "3 pasos para calcular tu presupuesto"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Empieza por<br><em>los clientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu objetivo del mes",
+    "fields": [
+     {
+      "q": "Clientes nuevos que quiero",
+      "a": "5"
+     },
+     {
+      "q": "De cada 10 leads cierro",
+      "a": "1"
+     },
+     {
+      "q": "Leads que necesito",
+      "a": "50"
+     }
+    ],
+    "badge": "✓ OBJETIVO CLARO"
+   },
+   "note": "Usa <b>tus números</b>, no los de otro."
+  },
+  {
+   "label": "PASO 2",
+   "title": "Multiplica<br><em>por el lead.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Presupuesto al mes",
+    "items": [
+     {
+      "label": "50 leads a 8 € = 400 €",
+      "value": 45
+     },
+     {
+      "label": "50 leads a 15 € = 750 €",
+      "value": 85,
+      "hi": true
+     }
+    ]
+   },
+   "note": "Cuenta con <b>el precio más alto.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Divide entre 30<br><em>y no lo toques.</em>",
+   "dur": 6.5,
+   "size": 104,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "750 € ÷ 30 = 25 € al día",
+     "Una semana sin tocar",
+     "Después decides con datos"
+    ]
+   },
+   "note": "Cambiarlo cada día <b>le hace volver a empezar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Calcula<br><em>al revés.</em>",
+   "dur": 6,
+   "items": [
+    "Clientes que quieres",
+    "Leads que necesitas",
+    "Divide entre 30 días"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Presupuesto diario en Meta Ads: cómo calcular cuánto invertir al día en 3 pasos",
+  "text": "Presupuesto diario en Meta Ads: no lo elijas a ojo 💶👇\n\nPoner 10 € al día «para probar» casi nunca sale de una cuenta. Hazla al revés, desde lo que quieres conseguir.\n\n→ Decide cuántos clientes nuevos quieres al mes y cuántos leads necesitas para cerrar uno (con tus números, no los de otro)\n→ Multiplica esos leads por lo que te cuesta cada uno. Si no lo sabes, calcula con un precio alto\n→ Divide entre 30 y deja la campaña al menos una semana sin tocar el presupuesto\n\nLos números del vídeo son un ejemplo. Lo importante es que el presupuesto salga de tu objetivo, no de lo que te sobra a final de mes.\n\n¿Cómo decidiste tú cuánto invertir?\n\nSíguenos para más tips 🧡\n\n#metaads #presupuesto #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Presupuesto diario en Meta Ads: no lo elijas a ojo 💶👇\n\nPoner 10 € al día «para probar» casi nunca sale de una cuenta. Hazla al revés, desde lo que quieres conseguir.\n\n→ Decide cuántos clientes nuevos quieres al mes y cuántos leads necesitas para cerrar uno (con tus números, no los de otro)\n→ Multiplica esos leads por lo que te cuesta cada uno. Si no lo sabes, calcula con un precio alto\n→ Divide entre 30 y deja la campaña al menos una semana sin tocar el presupuesto\n\nLos números del vídeo son un ejemplo. Lo importante es que el presupuesto salga de tu objetivo, no de lo que te sobra a final de mes.\n\n¿Cómo decidiste tú cuánto invertir?\n\nSíguenos para más tips 🧡\n\n#metaads #presupuesto #publicidadonline #captaciondeclientes #pymes #ceosgrowth"
+}

@@ -1,0 +1,107 @@
+{
+ "topic": "Seguimiento de leads en 5 toques durante 7 días: llamada en los primeros minutos, WhatsApp si no coge, segunda llamada a otra hora, mensaje con algo útil y un último mensaje de cierre que deja la puerta abierta",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Llamas una vez<br><em>y te rindes?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UN SOLO INTENTO",
+    "bad": [
+     "No coge",
+     "Lead perdido"
+    ],
+    "good_t": "5 TOQUES EN 7 DÍAS",
+    "good": [
+     "Llamada y WhatsApp",
+     "Horas distintas"
+    ]
+   },
+   "footer": "Los 5 toques en una semana"
+  },
+  {
+   "label": "DÍA 1",
+   "title": "Llamada<br><em>y WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead de Meta",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola, te he llamado",
+       "por lo que pediste en",
+       "nuestro anuncio."
+      ]
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¿A qué hora te viene",
+       "mejor que te llame?"
+      ]
+     }
+    ]
+   },
+   "note": "Toque 1 y 2: <b>el mismo día.</b>"
+  },
+  {
+   "label": "DÍA 2 Y 4",
+   "title": "Otra hora,<br><em>algo útil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "3",
+      "d": "DÍA 2",
+      "t": "Llamas por la tarde",
+      "s": "Si el día 1 fue por la mañana"
+     },
+     {
+      "n": "4",
+      "d": "DÍA 4",
+      "t": "Mandas algo útil",
+      "s": "Un vídeo, un caso, una foto"
+     }
+    ]
+   },
+   "note": "No preguntes <b>«¿lo has pensado?»</b>"
+  },
+  {
+   "label": "DÍA 7",
+   "title": "Cierra<br><em>con educación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TOQUE 5",
+    "lines": [
+     "No quiero molestarte más.",
+     "Si lo retomas, aquí estoy.",
+     "Te dejo mi número directo."
+    ]
+   },
+   "note": "Sin presión <b>y sin cerrar la puerta.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cinco toques<br><em>antes de rendirte.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": [
+    "Día 1: llamada y WhatsApp",
+    "Día 2 y 4: otra hora y valor",
+    "Día 7: cierre amable"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Seguimiento de leads: los 5 toques en 7 días para no perder a quien no coge",
+  "text": "Seguimiento de leads: si llamas una vez y no coge, no está perdido 📞👇\n\nMucha gente deja sus datos y luego está trabajando, conduciendo o con los niños. Un solo intento no es seguimiento.\n\n→ Día 1: llamada en los primeros minutos y, si no coge, un WhatsApp preguntando a qué hora le viene bien\n→ Día 2: vuelve a llamar a otra hora. Día 4: mándale algo útil, como un vídeo o un caso parecido al suyo\n→ Día 7: un mensaje de cierre amable que deja la puerta abierta\n\nApúntalo en el CRM con fecha para cada toque y no dependerás de acordarte.\n\n¿Cuántas veces intentas contactar a un lead antes de darlo por perdido?\n\nSíguenos para más tips 🧡\n\n#seguimientodeleads #ventas #crm #captaciondeclientes #pymes #ceosgrowth"
+ },
+ "caption": "Seguimiento de leads: si llamas una vez y no coge, no está perdido 📞👇\n\nMucha gente deja sus datos y luego está trabajando, conduciendo o con los niños. Un solo intento no es seguimiento.\n\n→ Día 1: llamada en los primeros minutos y, si no coge, un WhatsApp preguntando a qué hora le viene bien\n→ Día 2: vuelve a llamar a otra hora. Día 4: mándale algo útil, como un vídeo o un caso parecido al suyo\n→ Día 7: un mensaje de cierre amable que deja la puerta abierta\n\nApúntalo en el CRM con fecha para cada toque y no dependerás de acordarte.\n\n¿Cuántas veces intentas contactar a un lead antes de darlo por perdido?\n\nSíguenos para más tips 🧡\n\n#seguimientodeleads #ventas #crm #captaciondeclientes #pymes #ceosgrowth"
+}

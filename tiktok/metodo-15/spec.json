@@ -1,0 +1,95 @@
+{
+ "topic": "3 mitos sobre las agencias que cobran comisión sobre ventas, respondidos con cómo trabaja Ceos Growth: «te atan con permanencia» (12 meses de Meta Ads sin permanencia), «hacen anuncios de cualquier manera» (15–20 anuncios grabados en estudio propio) y «tardan meses en arrancar» (implantación en 26 días)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Agencia<br><em>a comisión?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE OYE",
+    "lines": [
+     "«Te atan con un contrato»",
+     "«Anuncios de cualquier manera»",
+     "«Tardan meses en arrancar»"
+    ]
+   },
+   "footer": "3 mitos y lo que hacemos nosotros"
+  },
+  {
+   "label": "MITO 1",
+   "title": "«Te atan<br><em>con contrato».</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "12 meses de Meta Ads",
+     "Sin permanencia",
+     "Sigues si te funciona"
+    ]
+   },
+   "note": "En Ceos Growth, <b>sin permanencia.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "«Anuncios de<br><em>cualquier manera».</em>",
+   "dur": 6.5,
+   "size": 100,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Grabado en el estudio de Ceos Growth",
+    "media": "15–20 ANUNCIOS GRABADOS",
+    "headline": "En estudio propio",
+    "cta": "Más información",
+    "tags": [
+     "ESTUDIO PROPIO",
+     "VARIOS GANCHOS"
+    ]
+   },
+   "note": "Grabamos <b>en estudio propio.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "«Tardan meses<br><em>en arrancar».</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DÍA 1",
+      "t": "Empieza la implantación",
+      "s": "Anuncios, campañas y CRM"
+     },
+     {
+      "n": "26",
+      "d": "DÍA 26",
+      "t": "Sistema funcionando",
+      "s": "Captando clientes"
+     }
+    ]
+   },
+   "note": "Implantación <b>en 26 días.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Comisión<br><em>sin letra pequeña.</em>",
+   "dur": 6,
+   "size": 100,
+   "items": [
+    "Sin permanencia",
+    "15–20 anuncios en estudio",
+    "Implantación en 26 días"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia a comisión sobre ventas: 3 mitos y cómo trabajamos en Ceos Growth",
+  "text": "Agencia a comisión sobre ventas: tres cosas que se dicen y no siempre son verdad 🤔👇\n\nEn Ceos Growth cobramos una comisión sobre ventas, y estas son tres dudas típicas sobre este tipo de agencias.\n\n→ «Te atan con contrato»: trabajamos 12 meses de Meta Ads sin permanencia\n→ «Hacen anuncios de cualquier manera»: grabamos 15–20 anuncios en nuestro estudio propio\n→ «Tardan meses en arrancar»: la implantación dura 26 días\n\nSi te ha frenado alguna de estas, pregúntanos lo que quieras en la llamada.\n\n¿Qué te echaría para atrás de trabajar con una agencia a comisión?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #comisionsobreventas #captaciondeclientes #pymes"
+ },
+ "caption": "Agencia a comisión sobre ventas: tres cosas que se dicen y no siempre son verdad 🤔👇\n\nEn Ceos Growth cobramos una comisión sobre ventas, y estas son tres dudas típicas sobre este tipo de agencias.\n\n→ «Te atan con contrato»: trabajamos 12 meses de Meta Ads sin permanencia\n→ «Hacen anuncios de cualquier manera»: grabamos 15–20 anuncios en nuestro estudio propio\n→ «Tardan meses en arrancar»: la implantación dura 26 días\n\nSi te ha frenado alguna de estas, pregúntanos lo que quieras en la llamada.\n\n¿Qué te echaría para atrás de trabajar con una agencia a comisión?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciademarketing #metaads #comisionsobreventas #captaciondeclientes #pymes"
+}
