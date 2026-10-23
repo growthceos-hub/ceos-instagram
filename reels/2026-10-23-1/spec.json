@@ -1,0 +1,76 @@
+{
+ "topic": "El WhatsApp de resumen después de la llamada de venta: avísale antes de colgar de que le mandas un resumen, mándalo en los 10 minutos siguientes en 3 partes (lo que te contó con sus palabras, lo que le propones con el precio, y día y hora para volver a hablar) y guárdalo en su ficha del CRM con la próxima llamada",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuelgas y no le<br><em>mandas nada?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Oye, ¿qué incluía al final?", "time": "3 días después"},
+     {"from": "in", "text": "¿Y cuánto era el precio?", "time": "3 días después"}
+    ]
+   },
+   "footer": "3 pasos para que no olvide lo que hablasteis"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Avísale<br><em>antes de colgar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "ANTES DE COLGAR",
+    "lines": [
+     "«Te mando un resumen por WhatsApp»",
+     "«Ahí tienes todo lo que hemos visto»",
+     "«¿Lo hablamos el jueves a las 10?»"
+    ]
+   },
+   "note": "Así lo espera y <b>lo abre.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Resumen<br><em>en 3 partes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Lo que te contó, con sus palabras",
+     "Lo que propones y el precio",
+     "Día y hora para hablar"
+    ]
+   },
+   "note": "Mándalo en los <b>10 minutos siguientes.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Guárdalo<br><em>en su ficha.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead · CRM",
+    "fields": [
+     {"q": "Fase", "a": "Propuesta enviada"},
+     {"q": "Resumen", "a": "Enviado por WhatsApp"},
+     {"q": "Próxima llamada", "a": "Jueves 10:00"}
+    ],
+    "badge": "✓ SEGUIMIENTO CON FECHA"
+   },
+   "note": "Quien le llame <b>sabe qué se habló.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que le quede<br><em>por escrito.</em>",
+   "dur": 6,
+   "items": [
+    "Avísale antes de colgar",
+    "Resumen en 3 partes",
+    "Guárdalo con la fecha"
+   ]
+  }
+ ],
+ "caption": "¿Cuelgas la llamada de venta y no le mandas nada por escrito? 📲\n\nEn la llamada todo queda claro. Tres días después el cliente no recuerda qué incluía ni cuánto costaba, y si tiene que preguntarlo, muchas veces ni pregunta.\n\n→ Avísale antes de colgar: «Te mando ahora un resumen por WhatsApp con todo lo que hemos visto». Así lo espera y lo abre\n→ Mándalo en los 10 minutos siguientes, en 3 partes: lo que te contó, con sus propias palabras; lo que le propones y el precio; y el día y la hora para volver a hablar\n→ Guárdalo en su ficha del CRM con la fase y la próxima llamada, para que quien le llame sepa qué se habló\n\nPara nosotros, una propuesta que solo se dijo de palabra está a medio enviar.\n\n¿Tú mandas algo por escrito después de cada llamada o lo dejas para el presupuesto? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #llamadadeventa #whatsappbusiness #seguimientodeclientes #pymes #negocioslocales"
+}
