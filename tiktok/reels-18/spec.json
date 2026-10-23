@@ -1,0 +1,66 @@
+{
+ "topic": "3 mitos de un psicólogo sobre hacer reels: «tengo que bailar o hacer el tonto» (basta con explicar una idea útil), «tengo que contar casos» (nunca, se habla de conceptos) y «tiene que quedar perfecto» (lo grabas con el móvil y Reels al Vuelo lo edita en 24 h)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Psicólogo<br><em>y reels?</em>",
+   "size": 136,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE TE FRENA",
+    "lines": ["No voy a bailar", "No puedo contar casos", "No me sale perfecto"]
+   },
+   "footer": "3 mitos que te frenan a grabar"
+  },
+  {
+   "label": "MITO 1",
+   "title": "«Tengo que<br><em>bailar.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE TEMES",
+    "bad": ["Bailes y tendencias", "Hacer el tonto"],
+    "good_t": "LO QUE FUNCIONA",
+    "good": ["Una idea útil", "Explicada en 30 s"]
+   },
+   "note": "Hablar con calma <b>también es un reel.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "«Tengo que<br><em>contar casos.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Qué es la ansiedad", "Cómo es la primera sesión", "Mitos de ir a terapia"]
+   },
+   "note": "Conceptos, <b>nunca pacientes.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "«Tiene que<br><em>ser perfecto.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "TÚ", "t": "Grabas con el móvil", "s": "En tu consulta, sin nadie"},
+     {"n": "2", "d": "NOSOTROS", "t": "Lo editamos", "s": "Subtítulos, ritmo, música"},
+     {"n": "3", "d": "EN 24 H", "t": "Lo tienes", "s": "Revisado por una persona"}
+    ]
+   },
+   "note": "Lo perfecto <b>es cosa de la edición.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú hablas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Con tu logo, sin cuotas", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para psicólogos 👇\nNo hace falta bailar ni contar nada de tus pacientes. Basta con explicar una idea útil en 30 segundos: qué es la ansiedad, cómo es la primera sesión, un mito sobre ir a terapia.\nLo grabas con el móvil en tu consulta y en 24 h te llega editado con subtítulos, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Qué pregunta te hacen siempre en la primera sesión?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#psicologo #psicologia #saludmental #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para psicólogos: 3 mitos que te frenan a grabar",
+  "text": "Edición de reels para psicólogos 👇\nNo hace falta bailar ni contar nada de tus pacientes. Basta con explicar una idea útil en 30 segundos: qué es la ansiedad, cómo es la primera sesión, un mito sobre ir a terapia.\nLo grabas con el móvil en tu consulta y en 24 h te llega editado con subtítulos, música libre y tu logo. Lo revisa una persona. Sin cuotas.\n¿Qué pregunta te hacen siempre en la primera sesión?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#psicologo #psicologia #saludmental #edicionvideo #reels #reelsalvuelo"
+ }
+}

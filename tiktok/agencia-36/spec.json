@@ -1,0 +1,105 @@
+{
+ "topic": "Lista de espera para llenar las cancelaciones de última hora: apunta a quien quería otra fecha antes, pregúntale qué días y horas le vienen bien y, cuando alguien cancele, avisa por WhatsApp a los de la lista por orden",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te cancelan<br><em>a última hora?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN LISTA",
+    "bad": [
+     "Cancela a las 10:00",
+     "Hueco vacío"
+    ],
+    "good_t": "CON LISTA DE ESPERA",
+    "good": [
+     "Avisas a la lista",
+     "Hueco ocupado"
+    ]
+   },
+   "footer": "3 pasos para montar tu lista de espera"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Apunta a quien<br><em>quería antes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "AL DAR LA CITA",
+    "lines": [
+     "Te la doy para el día 15.",
+     "Si se libera algo antes,",
+     "¿quieres que te avise?"
+    ]
+   },
+   "note": "Pregúntalo <b>siempre, a todos.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pregunta<br><em>cuándo puede.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lista de espera",
+    "fields": [
+     {
+      "q": "Nombre",
+      "a": "Cliente 1"
+     },
+     {
+      "q": "Días que puede",
+      "a": "Martes y jueves"
+     },
+     {
+      "q": "Horas",
+      "a": "Por la tarde"
+     }
+    ],
+    "badge": "✓ EN LA LISTA"
+   },
+   "note": "Así avisas <b>solo a quien le encaja.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cancelan:<br><em>avisa por orden.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente 1",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Se ha liberado hoy",
+       "a las 18:00.",
+       "¿Te lo guardo?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "¡Sí, voy!"
+     }
+    ]
+   },
+   "note": "Si en 15 minutos no responde, <b>al siguiente.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ningún hueco<br><em>vacío.</em>",
+   "dur": 6,
+   "items": [
+    "Ofrece avisar antes",
+    "Apunta días y horas",
+    "Avisa por orden"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Lista de espera para citas: cómo llenar las cancelaciones de última hora",
+  "text": "Lista de espera para citas: cada cancelación puede ser una cita para otro 📋👇\n\nSi tienes agenda llena para dentro de dos semanas, hay gente que vendría mañana si pudiera. Solo tienes que saber quién.\n\n→ Al dar una cita lejana, pregunta: «si se libera algo antes, ¿quieres que te avise?»\n→ Apunta qué días y a qué horas puede venir cada uno\n→ Cuando alguien cancele, manda un WhatsApp a los de la lista por orden. Si en 15 minutos no responde, al siguiente\n\nVale para clínicas, peluquerías, fisios, talleres y cualquier negocio con cita.\n\n¿Qué haces ahora cuando alguien te cancela a última hora?\n\nSíguenos para más tips 🧡\n\n#listadeespera #citas #agenda #whatsappbusiness #pymes #ceosgrowth"
+ },
+ "caption": "Lista de espera para citas: cada cancelación puede ser una cita para otro 📋👇\n\nSi tienes agenda llena para dentro de dos semanas, hay gente que vendría mañana si pudiera. Solo tienes que saber quién.\n\n→ Al dar una cita lejana, pregunta: «si se libera algo antes, ¿quieres que te avise?»\n→ Apunta qué días y a qué horas puede venir cada uno\n→ Cuando alguien cancele, manda un WhatsApp a los de la lista por orden. Si en 15 minutos no responde, al siguiente\n\nVale para clínicas, peluquerías, fisios, talleres y cualquier negocio con cita.\n\n¿Qué haces ahora cuando alguien te cancela a última hora?\n\nSíguenos para más tips 🧡\n\n#listadeespera #citas #agenda #whatsappbusiness #pymes #ceosgrowth"
+}

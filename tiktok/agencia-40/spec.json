@@ -1,0 +1,110 @@
+{
+ "topic": "Presentar el precio con 3 opciones (básica, recomendada y completa): la del medio es la que quieres vender, cada una añade algo claro a la anterior, y el cliente pasa de pensar «sí o no» a «cuál de las tres»",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Das un precio<br><em>y te dicen «no»?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UN SOLO PRECIO",
+    "bad": [
+     "¿Sí o no?",
+     "Fácil decir que no"
+    ],
+    "good_t": "TRES OPCIONES",
+    "good": [
+     "¿Cuál de las tres?",
+     "Elige, no descarta"
+    ]
+   },
+   "footer": "3 pasos para montar tus 3 opciones"
+  },
+  {
+   "label": "PASO 1",
+   "title": "La del medio,<br><em>la que quieres.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Tus tres opciones",
+    "items": [
+     {
+      "label": "Básica · 300 €",
+      "value": 35
+     },
+     {
+      "label": "Recomendada · 450 €",
+      "value": 65,
+      "hi": true
+     },
+     {
+      "label": "Completa · 700 €",
+      "value": 95
+     }
+    ]
+   },
+   "note": "Es la que <b>tú recomendarías.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cada una<br><em>suma algo claro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "BÁSICA",
+      "t": "Lo imprescindible",
+      "s": "El trabajo y punto"
+     },
+     {
+      "n": "2",
+      "d": "RECOMENDADA",
+      "t": "+ revisión al mes",
+      "s": "Lo que tú harías"
+     },
+     {
+      "n": "3",
+      "d": "COMPLETA",
+      "t": "+ mantenimiento anual",
+      "s": "Para quien no quiere pensar"
+     }
+    ]
+   },
+   "note": "Que se vea <b>qué gana subiendo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Explícalas<br><em>de abajo arriba.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "EN LA LLAMADA",
+    "lines": [
+     "Tienes tres formas de hacerlo.",
+     "La que más te recomiendo es esta.",
+     "¿Cuál te encaja más?"
+    ]
+   },
+   "note": "Pregunta <b>cuál</b>, no <b>si</b>."
+  },
+  {
+   "kind": "cta",
+   "title": "Que elija,<br><em>no que descarte.</em>",
+   "dur": 6,
+   "items": [
+    "Básica, recomendada, completa",
+    "Cada una suma algo claro",
+    "Pregunta cuál le encaja"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Cómo presentar precios: 3 opciones para que el cliente elija en vez de decir que no",
+  "text": "Cómo presentar tus precios: con uno solo, el cliente solo puede decir sí o no 💡👇\n\nCon tres opciones la pregunta cambia. Ya no es «¿lo hago?», es «¿cuál de las tres?».\n\n→ Monta una básica, una recomendada y una completa. La del medio es la que quieres vender\n→ Que cada una sume algo claro a la anterior, para que se vea qué gana subiendo\n→ En la llamada, termina con «¿cuál te encaja más?», no con «¿qué te parece?»\n\nLos precios del vídeo son un ejemplo. Ponle los tuyos y prueba en tus próximos tres presupuestos.\n\n¿Cuántas opciones das tú en tus presupuestos?\n\nSíguenos para más tips 🧡\n\n#precios #ventas #presupuestos #emprendedores #pymes #ceosgrowth"
+ },
+ "caption": "Cómo presentar tus precios: con uno solo, el cliente solo puede decir sí o no 💡👇\n\nCon tres opciones la pregunta cambia. Ya no es «¿lo hago?», es «¿cuál de las tres?».\n\n→ Monta una básica, una recomendada y una completa. La del medio es la que quieres vender\n→ Que cada una sume algo claro a la anterior, para que se vea qué gana subiendo\n→ En la llamada, termina con «¿cuál te encaja más?», no con «¿qué te parece?»\n\nLos precios del vídeo son un ejemplo. Ponle los tuyos y prueba en tus próximos tres presupuestos.\n\n¿Cuántas opciones das tú en tus presupuestos?\n\nSíguenos para más tips 🧡\n\n#precios #ventas #presupuestos #emprendedores #pymes #ceosgrowth"
+}

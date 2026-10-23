@@ -1,0 +1,66 @@
+{
+ "topic": "Checklist de tomas para el reel de un hotel rural o casa rural: la llegada por el camino, abrir la puerta de la habitación, la luz de la mañana por la ventana, el desayuno y el entorno. Grabas con el móvil y Reels al Vuelo lo edita en 24 h. Primer reel por 1,99 € y 10 reels por 59 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué grabas<br><em>en tu</em><br><em>casa rural?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["La llegada", "La habitación", "El entorno"]
+   },
+   "footer": "La checklist de tomas para tu alojamiento"
+  },
+  {
+   "label": "TOMA 1",
+   "title": "La llegada<br><em>por el camino.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CÓMO GRABARLA",
+    "lines": ["Desde el coche, sin conducir", "La entrada a la finca", "La fachada de frente"]
+   },
+   "note": "Que se imagine <b>llegando él.</b>"
+  },
+  {
+   "label": "TOMA 2",
+   "title": "Abrir<br><em>la habitación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FOTO FIJA",
+    "bad": ["La cama desde la esquina", "Luz de techo"],
+    "good_t": "VÍDEO CON LUZ",
+    "good": ["Abres la puerta", "Persiana arriba, de día"]
+   },
+   "note": "La luz de la mañana <b>vende sola.</b>"
+  },
+  {
+   "label": "TOMA 3",
+   "title": "Desayuno<br><em>y entorno.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "MAÑANA", "t": "El desayuno", "s": "Desde arriba, de cerca"},
+     {"n": "2", "d": "MEDIODÍA", "t": "La ruta o el río", "s": "Lo que hay a 10 minutos"},
+     {"n": "3", "d": "NOCHE", "t": "La chimenea", "s": "O el cielo, si se ve"}
+    ]
+   },
+   "note": "Nos lo mandas <b>y en 24 h, editado.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú grabas,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Primer reel por 1,99 €", "10 reels por 59 €", "Sin cuotas"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para hoteles y casas rurales 👇\nLa checklist de tomas: la llegada por el camino, abrir la puerta de la habitación con la persiana subida, el desayuno desde arriba y lo que hay a diez minutos.\nLo grabas con el móvil, nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona.\n¿Qué es lo primero que enseñarías de tu casa?\nPrimer reel por 1,99 €, o 10 reels por 59 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#casarural #hotelrural #turismorural #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para hoteles rurales: la checklist de tomas",
+  "text": "Edición de reels para hoteles y casas rurales 👇\nLa checklist de tomas: la llegada por el camino, abrir la puerta de la habitación con la persiana subida, el desayuno desde arriba y lo que hay a diez minutos.\nLo grabas con el móvil, nos lo mandas y en 24 h te llega editado con subtítulos, ritmo, música libre y tu logo. Lo revisa una persona.\n¿Qué es lo primero que enseñarías de tu casa?\nPrimer reel por 1,99 €, o 10 reels por 59 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#casarural #hotelrural #turismorural #edicionvideo #reels #reelsalvuelo"
+ }
+}

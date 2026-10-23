@@ -1,0 +1,71 @@
+{
+ "topic": "Cómo tener la web de un hotel rural o casa rural en 3 pasos con Web al Vuelo: contestas 5 preguntas, recibes el primer diseño en 2 días y, si no te convence, se rehace gratis. Con habitaciones, cómo llegar, qué hacer cerca, botón de WhatsApp o llamar para reservar y reseñas. 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu casa rural<br><em>sin web</em><br><em>propia?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "HOY", "t": "5 preguntas", "s": "Desde el móvil"},
+     {"n": "2", "d": "EN 2 DÍAS", "t": "Primer diseño", "s": "Con tus fotos"},
+     {"n": "3", "d": "SI NO CONVENCE", "t": "Se rehace", "s": "Gratis"}
+    ]
+   },
+   "footer": "Cómo tenerla en 3 pasos por 79 €"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Contestas<br><em>5 preguntas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu alojamiento",
+    "fields": [
+     {"q": "¿Cuántas habitaciones?", "a": "6, con chimenea"},
+     {"q": "¿Qué hay cerca?", "a": "Rutas y un pantano"}
+    ],
+    "badge": "✓ ENVIADO"
+   },
+   "note": "Lo que contarías <b>a un huésped.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "En 2 días,<br><em>el diseño.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Habitaciones con fotos", "Cómo llegar y mapa", "Qué hacer cerca", "Reservar por WhatsApp"]
+   },
+   "note": "Y las <b>reseñas a la vista.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "¿No te<br><em>convence?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Web al Vuelo",
+    "msgs": [
+     {"from": "out", "lines": ["Quiero más grande", "la foto del jardín"], "time": "10:15"},
+     {"from": "in", "text": "Hecho, te la rehacemos", "time": "10:20"}
+    ]
+   },
+   "note": "Se rehace <b>gratis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>La web es tuya.</em>",
+   "dur": 6,
+   "items": ["Sin cuotas", "Botón de reservar directo", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para hoteles y casas rurales 👇\nQuien ya te ha encontrado quiere ver las habitaciones, saber cómo llegar y escribirte directamente para reservar.\nAsí se hace: contestas 5 preguntas, en 2 días tienes el primer diseño y, si no te convence, se rehace gratis. Con fotos, mapa, qué hacer cerca, botón de WhatsApp o llamar y reseñas. 79 € pago único, sin cuotas.\n¿Qué es lo que más gusta de tu casa?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#casarural #hotelrural #turismorural #escapadas #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para hoteles y casas rurales: cómo tenerla en 3 pasos por 79 €",
+  "text": "Página web para hoteles y casas rurales 👇\nQuien ya te ha encontrado quiere ver las habitaciones, saber cómo llegar y escribirte directamente para reservar.\nAsí se hace: contestas 5 preguntas, en 2 días tienes el primer diseño y, si no te convence, se rehace gratis. Con fotos, mapa, qué hacer cerca, botón de WhatsApp o llamar y reseñas. 79 € pago único, sin cuotas.\n¿Qué es lo que más gusta de tu casa?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#casarural #hotelrural #turismorural #escapadas #paginaweb #webalvuelo"
+ }
+}

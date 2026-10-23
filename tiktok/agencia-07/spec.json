@@ -1,0 +1,110 @@
+{
+ "topic": "Ofrecer pago en varios plazos para cerrar ventas grandes sin bajar el precio: di primero el precio total, ofrece después 2 o 3 pagos ligados a hitos del trabajo (al empezar, a mitad y al entregar) y déjalo por escrito con las fechas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿“Me encaja,<br><em>pero ahora no”?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Antonio",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "De golpe no puedo pagarlo",
+      "time": "17:10"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¿Y si lo pagas",
+       "en 3 partes?"
+      ],
+      "time": "17:12"
+     }
+    ]
+   },
+   "footer": "3 pasos para ofrecer plazos sin bajar el precio"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Primero,<br><em>el precio total.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "EMPEZAR POR LA CUOTA",
+    "bad": [
+     "Parece que escondes algo",
+     "Pregunta “¿y en total?”"
+    ],
+    "good_t": "EMPEZAR POR EL TOTAL",
+    "good": [
+     "Precio claro",
+     "Los plazos, después"
+    ]
+   },
+   "note": "Los plazos <b>no cambian el precio.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pagos ligados<br><em>al trabajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "PAGO 1",
+      "t": "Al empezar",
+      "s": "Reserva la fecha"
+     },
+     {
+      "n": "2",
+      "d": "PAGO 2",
+      "t": "A mitad",
+      "s": "Cuando ve avance"
+     },
+     {
+      "n": "3",
+      "d": "PAGO 3",
+      "t": "Al entregar",
+      "s": "Con todo terminado"
+     }
+    ]
+   },
+   "note": "Paga <b>según ve avanzar.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Fechas<br><em>por escrito.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "PLAN DE PAGOS",
+    "lines": [
+     "Pago 1: al firmar",
+     "Pago 2: a mitad del trabajo",
+     "Pago 3: al entregar"
+    ]
+   },
+   "note": "Cada pago <b>con su fecha.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Mismo precio,<br><em>en partes.</em>",
+   "dur": 6,
+   "items": [
+    "Primero el total",
+    "Pagos ligados a hitos",
+    "Fechas por escrito"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Pago en plazos para cerrar ventas grandes sin bajar el precio: 3 pasos",
+  "text": "Pago en plazos: cuando el cliente quiere comprarte pero “de golpe no puede” 💳👇\n\nMuchas ventas grandes se frenan en el momento de pagarlo todo el primer día. Antes de hacer descuento, prueba a repartirlo.\n\n→ Di primero el precio total, claro. Si empiezas por la cuota parece que escondes algo\n→ Ofrece 2 o 3 pagos ligados al trabajo: al empezar, a mitad y al entregar. Así paga según ve avanzar\n→ Déjalo por escrito con la fecha o el hito de cada pago, y que el cliente responda que está de acuerdo\n\nPara nosotros repartir el pago es mejor que bajar el precio: cobras lo mismo y el cliente decide con menos miedo.\n\n¿Ofreces pago en plazos o lo cobras todo de una vez? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #precios #autonomos #pymes #clientes #ceosgrowth"
+ },
+ "caption": "Pago en plazos: cuando el cliente quiere comprarte pero “de golpe no puede” 💳👇\n\nMuchas ventas grandes se frenan en el momento de pagarlo todo el primer día. Antes de hacer descuento, prueba a repartirlo.\n\n→ Di primero el precio total, claro. Si empiezas por la cuota parece que escondes algo\n→ Ofrece 2 o 3 pagos ligados al trabajo: al empezar, a mitad y al entregar. Así paga según ve avanzar\n→ Déjalo por escrito con la fecha o el hito de cada pago, y que el cliente responda que está de acuerdo\n\nPara nosotros repartir el pago es mejor que bajar el precio: cobras lo mismo y el cliente decide con menos miedo.\n\n¿Ofreces pago en plazos o lo cobras todo de una vez? Cuéntanoslo en comentarios.\n\nSíguenos para más tips 🧡\n\n#ventas #precios #autonomos #pymes #clientes #ceosgrowth"
+}

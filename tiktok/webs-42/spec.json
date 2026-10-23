@@ -1,0 +1,66 @@
+{
+ "topic": "3 mitos sobre la web de una joyería: «las joyas se compran en tienda» (sí, pero antes se buscan en el móvil), «necesito una tienda online» (basta una web que lleve a la tienda: piezas, encargos, reparaciones y botón de cita o WhatsApp) y «es caro» (79 € pago único con Web al Vuelo)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu joyería<br><em>no sale</em><br><em>en Google?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE BUSCAN",
+    "lines": ["Anillo de compromiso", "Grabar una medalla", "Arreglar un collar"]
+   },
+   "footer": "3 mitos sobre la web de tu joyería"
+  },
+  {
+   "label": "MITO 1",
+   "title": "«Se compra<br><em>en tienda.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "EN CASA", "t": "Busca en el móvil", "s": "Ideas y precios"},
+     {"n": "2", "d": "ELIGE", "t": "Una o dos joyerías", "s": "Las que ve claras"},
+     {"n": "3", "d": "EN TIENDA", "t": "Compra", "s": "Donde ya se fía"}
+    ]
+   },
+   "note": "Se compra en tienda, <b>se elige en el móvil.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "«Necesito<br><em>tienda online.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Tus piezas con fotos", "Encargos y grabados", "Reparaciones", "Pedir cita por WhatsApp"]
+   },
+   "note": "Una web que <b>trae gente a la tienda.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "«Una web así<br><em>es cara.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE CREES",
+    "bad": ["Cuota cada mes", "Meses de espera"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "Primer diseño en 2 días"]
+   },
+   "note": "Y la web <b>es tuya.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Piezas, encargos y arreglos", "Botón de cita y WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para joyerías 👇\nUn anillo de compromiso se compra en tienda, sí. Pero antes se busca en el móvil, y se acaba entrando en la joyería que se ve clara y da confianza.\nTu web con tus piezas, encargos, grabados y reparaciones, botón de cita o WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Qué es lo que más te piden por encargo?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#joyeria #joyas #anillodecompromiso #comerciolocal #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para joyerías: 3 mitos que te cuestan clientes",
+  "text": "Página web para joyerías 👇\nUn anillo de compromiso se compra en tienda, sí. Pero antes se busca en el móvil, y se acaba entrando en la joyería que se ve clara y da confianza.\nTu web con tus piezas, encargos, grabados y reparaciones, botón de cita o WhatsApp, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Qué es lo que más te piden por encargo?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#joyeria #joyas #anillodecompromiso #comerciolocal #paginaweb #webalvuelo"
+ }
+}

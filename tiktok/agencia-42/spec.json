@@ -1,0 +1,112 @@
+{
+ "topic": "Programa de referidos sencillo para un negocio local: premio para los dos (quien recomienda y quien llega), una forma fácil de saber quién trae a quién (código o nombre en la ficha del CRM) y avisar al que recomendó cuando su amigo compra",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te recomiendan<br><em>y no lo premias?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "BOCA A BOCA SUELTO",
+    "bad": [
+     "Pasa cuando pasa",
+     "No sabes quién trae"
+    ],
+    "good_t": "PROGRAMA DE REFERIDOS",
+    "good": [
+     "Premio para los dos",
+     "Sabes quién trae"
+    ]
+   },
+   "footer": "3 pasos para tu programa de referidos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Premio<br><em>para los dos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Trae a un amigo y ganáis los dos.",
+    "media": "TÚ 20 € · TU AMIGO 20 €",
+    "headline": "En tu próxima visita",
+    "cta": "Ver cómo",
+    "tags": [
+     "PARA QUIEN RECOMIENDA",
+     "PARA QUIEN LLEGA"
+    ]
+   },
+   "note": "Así recomendar <b>no da vergüenza.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Apunta<br><em>quién lo trae.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha en el CRM",
+    "fields": [
+     {
+      "q": "Cliente nuevo",
+      "a": "Cliente B"
+     },
+     {
+      "q": "¿Quién te recomendó?",
+      "a": "Cliente A"
+     },
+     {
+      "q": "Premio",
+      "a": "Pendiente de dar"
+     }
+    ],
+    "badge": "✓ REFERIDO APUNTADO"
+   },
+   "note": "Pregúntalo siempre <b>en la primera llamada.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Avisa<br><em>al que recomendó.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente A",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Tu amigo ya ha venido.",
+       "¡Gracias por pensar",
+       "en nosotros!"
+      ]
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Tienes tus 20 €",
+       "para la próxima."
+      ]
+     }
+    ]
+   },
+   "note": "El que se siente valorado <b>vuelve a recomendar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que recomendarte<br><em>tenga premio.</em>",
+   "dur": 6,
+   "size": 96,
+   "items": [
+    "Premio para los dos",
+    "Apunta quién trae a quién",
+    "Avisa y da las gracias"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Programa de referidos para negocio local: 3 pasos para que tus clientes te traigan más",
+  "text": "Programa de referidos: tu mejor anuncio son tus clientes contentos 🤝👇\n\nEl boca a boca funciona, pero si lo dejas al azar pasa cuando pasa. Con tres pasos lo conviertes en algo que puedes repetir.\n\n→ Premio para los dos, el que recomienda y el que llega. Así recomendarte no le da vergüenza\n→ Pregunta siempre «¿quién te recomendó?» y apúntalo en la ficha del CRM\n→ Cuando el amigo compre, avisa al que te recomendó, dale las gracias y su premio\n\nLos 20 € del vídeo son un ejemplo. Puede ser un descuento, un servicio extra o un regalo.\n\n¿Cuántos de tus clientes llegaron por recomendación?\n\nSíguenos para más tips 🧡\n\n#referidos #bocaaboca #clientes #negociolocal #pymes #ceosgrowth"
+ },
+ "caption": "Programa de referidos: tu mejor anuncio son tus clientes contentos 🤝👇\n\nEl boca a boca funciona, pero si lo dejas al azar pasa cuando pasa. Con tres pasos lo conviertes en algo que puedes repetir.\n\n→ Premio para los dos, el que recomienda y el que llega. Así recomendarte no le da vergüenza\n→ Pregunta siempre «¿quién te recomendó?» y apúntalo en la ficha del CRM\n→ Cuando el amigo compre, avisa al que te recomendó, dale las gracias y su premio\n\nLos 20 € del vídeo son un ejemplo. Puede ser un descuento, un servicio extra o un regalo.\n\n¿Cuántos de tus clientes llegaron por recomendación?\n\nSíguenos para más tips 🧡\n\n#referidos #bocaaboca #clientes #negociolocal #pymes #ceosgrowth"
+}

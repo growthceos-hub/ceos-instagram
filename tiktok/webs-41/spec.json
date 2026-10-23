@@ -1,0 +1,66 @@
+{
+ "topic": "Antes y después de la web de una tienda de ropa de barrio: de no aparecer o tener solo Instagram a una web con las novedades, botón de WhatsApp para preguntar tallas o reservar una prenda, horario, mapa y reseñas. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu tienda<br><em>solo existe</em><br><em>en Instagram?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Clienta",
+    "msgs": [
+     {"from": "in", "text": "¿El vestido azul en la M?", "time": "22:05"},
+     {"from": "in", "text": "¿Me lo guardas?", "time": "22:06"}
+    ]
+   },
+   "footer": "El antes y el después de la web de tu tienda"
+  },
+  {
+   "label": "ANTES",
+   "title": "Solo<br><em>Instagram.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANTES",
+    "bad": ["No sale en Google", "Ni horario ni mapa"],
+    "good_t": "DESPUÉS",
+    "good": ["Sale cuando te buscan", "Abierto y dónde estás"]
+   },
+   "note": "Quien te busca por la zona <b>te encuentra.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Novedades<br><em>a la vista.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Lo nuevo de la semana", "Tallas que tienes", "Marcas que trabajas"]
+   },
+   "note": "Viene a tiro hecho <b>a por la prenda.</b>"
+  },
+  {
+   "label": "DESPUÉS",
+   "title": "Reservar<br><em>por WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "BOTONES DE TU WEB",
+    "lines": ["Preguntar talla", "Guardar una prenda", "Cómo llegar"]
+   },
+   "note": "Contestas mañana <b>y la venta sigue ahí.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Novedades y tallas", "Botón de WhatsApp", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para tiendas de ropa 👇\nAntes: solo Instagram, sin horario, sin mapa y sin salir cuando alguien busca tiendas de ropa por tu zona.\nDespués: tus novedades, las tallas y marcas que trabajas, botón de WhatsApp para preguntar o guardar una prenda, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Cuántas veces al día te preguntan si tienes una talla?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#tiendaderopa #moda #comerciolocal #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para tiendas de ropa: el antes y el después",
+  "text": "Página web para tiendas de ropa 👇\nAntes: solo Instagram, sin horario, sin mapa y sin salir cuando alguien busca tiendas de ropa por tu zona.\nDespués: tus novedades, las tallas y marcas que trabajas, botón de WhatsApp para preguntar o guardar una prenda, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Cuántas veces al día te preguntan si tienes una talla?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#tiendaderopa #moda #comerciolocal #autonomos #paginaweb #webalvuelo"
+ }
+}

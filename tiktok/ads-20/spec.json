@@ -1,0 +1,68 @@
+{
+ "topic": "Anuncios para ópticas: 3 ideas para grabar con el móvil en la tienda. Probarse monturas delante del espejo, enseñar por dentro cómo es una revisión de la vista y responder la duda del cliente («¿cada cuánto me reviso?»). Ads al Vuelo: 3 versiones editadas con su copy desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué grabas<br>en tu óptica<br><em>para Meta?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "3 IDEAS DE ANUNCIO",
+    "lines": ["Probarse monturas", "La revisión por dentro", "La duda del cliente"]
+   },
+   "footer": "3 ideas de anuncio para tu óptica"
+  },
+  {
+   "label": "IDEA 1",
+   "title": "Probarse<br><em>monturas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu óptica",
+    "copy": "¿Redondas o cuadradas?",
+    "media": "¿CUÁL TE QUEDA MEJOR?",
+    "headline": "Ven a probártelas",
+    "cta": "Pedir cita",
+    "tags": ["ESPEJO", "4 MONTURAS"]
+   },
+   "note": "Un cambio cada segundo <b>se ve hasta el final.</b>"
+  },
+  {
+   "label": "IDEA 2",
+   "title": "La revisión<br><em>por dentro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ENTRA", "t": "Te sientas", "s": "Sin prisas"},
+     {"n": "2", "d": "PRUEBA", "t": "Graduación", "s": "Qué se mira y por qué"},
+     {"n": "3", "d": "SALE", "t": "Sabes qué necesitas", "s": "Gafas, lentillas o nada"}
+    ]
+   },
+   "note": "Quita el miedo <b>a entrar.</b>"
+  },
+  {
+   "label": "IDEA 3",
+   "title": "La duda<br><em>del cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["«¿Cada cuánto me reviso?»", "«¿Lentillas o gafas?»", "«¿Por qué veo borroso?»"]
+   },
+   "note": "La pregunta <b>es el gancho.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Grábalo así<br><em>y lo editamos.</em>",
+   "dur": 6,
+   "items": ["3 versiones por anuncio", "Cada una con su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para ópticas: 3 ideas para grabar con el móvil 👓👇\n→ Probarse monturas delante del espejo, un cambio cada segundo\n→ La revisión de la vista por dentro: qué se mira y por qué, para quitar el miedo a entrar\n→ La duda que más te hacen: «¿cada cuánto me tengo que revisar?»\nSubes el vídeo en bruto y te llegan 3 versiones editadas para Meta Ads (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\n¿Cuál grabarías primero?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #optica #opticas #metaads #anunciosenvideo #negocioslocales",
+ "tiktok": {
+  "title": "Anuncios para ópticas: 3 ideas para grabar con el móvil en tu tienda",
+  "text": "Anuncios para ópticas: 3 ideas para grabar con el móvil 👓👇\n→ Probarse monturas delante del espejo, un cambio cada segundo\n→ La revisión de la vista por dentro: qué se mira y por qué, para quitar el miedo a entrar\n→ La duda que más te hacen: «¿cada cuánto me tengo que revisar?»\nSubes el vídeo en bruto y te llegan 3 versiones editadas para Meta Ads (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\n¿Cuál grabarías primero?\nDesde 49 € (12 versiones).\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #optica #opticas #metaads #anunciosenvideo #negocioslocales"
+ }
+}

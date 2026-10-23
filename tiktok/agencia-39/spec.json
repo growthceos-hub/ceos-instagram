@@ -1,0 +1,93 @@
+{
+ "topic": "Email a clientes antiguos que hace tiempo que no compran: asunto corto y personal, un texto de 4 líneas escrito como a una persona (sin plantilla de newsletter) y una sola pregunta fácil de contestar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Clientes que<br><em>ya no vuelven?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "NEWSLETTER",
+    "bad": [
+     "Logo, fotos y botones",
+     "Va a promociones"
+    ],
+    "good_t": "EMAIL DE PERSONA",
+    "good": [
+     "4 líneas de texto",
+     "Una pregunta"
+    ]
+   },
+   "footer": "3 pasos para un email que contestan"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Asunto corto<br><em>y personal.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "«Una pregunta rápida»",
+     "«¿Qué tal el baño nuevo?»",
+     "Sin mayúsculas ni ofertas"
+    ]
+   },
+   "note": "Que parezca <b>de una persona.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cuatro líneas,<br><em>sin plantilla.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "EL EMAIL",
+    "lines": [
+     "Hace un año te hicimos la reforma.",
+     "¿Sigue todo bien?",
+     "Este invierno tenemos huecos."
+    ]
+   },
+   "note": "Nada de diseño: <b>solo texto.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Una pregunta<br><em>fácil.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente antiguo",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "¿Quieres que te mire",
+       "la caldera antes del frío?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Pues sí, ¿cuándo podéis?"
+     }
+    ]
+   },
+   "note": "Se contesta con <b>un sí o un no.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Escribe como<br><em>a un conocido.</em>",
+   "dur": 6,
+   "items": [
+    "Asunto corto y personal",
+    "Cuatro líneas de texto",
+    "Una pregunta fácil"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Email a clientes antiguos: cómo escribirles para que vuelvan a comprarte",
+  "text": "Email a clientes antiguos: tienes ventas guardadas en tu lista de contactos 📩👇\n\nUn cliente que ya te compró confía en ti. Pero si solo le llegan newsletters con logo y ofertas, va directo a promociones.\n\n→ Asunto corto y personal, como «una pregunta rápida». Sin mayúsculas ni descuentos\n→ Cuatro líneas de texto normal, sin plantilla ni fotos, como si escribieras a un conocido\n→ Termina con una sola pregunta que se conteste con un sí o un no\n\nMándalo desde tu correo de siempre, mejor por tandas pequeñas, para poder contestar a todos.\n\n¿Cuándo escribiste por última vez a tus clientes antiguos?\n\nSíguenos para más tips 🧡\n\n#emailmarketing #clientes #fidelizacion #ventas #pymes #ceosgrowth"
+ },
+ "caption": "Email a clientes antiguos: tienes ventas guardadas en tu lista de contactos 📩👇\n\nUn cliente que ya te compró confía en ti. Pero si solo le llegan newsletters con logo y ofertas, va directo a promociones.\n\n→ Asunto corto y personal, como «una pregunta rápida». Sin mayúsculas ni descuentos\n→ Cuatro líneas de texto normal, sin plantilla ni fotos, como si escribieras a un conocido\n→ Termina con una sola pregunta que se conteste con un sí o un no\n\nMándalo desde tu correo de siempre, mejor por tandas pequeñas, para poder contestar a todos.\n\n¿Cuándo escribiste por última vez a tus clientes antiguos?\n\nSíguenos para más tips 🧡\n\n#emailmarketing #clientes #fidelizacion #ventas #pymes #ceosgrowth"
+}

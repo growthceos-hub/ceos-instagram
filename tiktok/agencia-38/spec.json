@@ -1,0 +1,95 @@
+{
+ "topic": "Perfil de Empresa de Google vivo: cada semana sube una publicación con una novedad u oferta, añade fotos reales de trabajos recientes y revisa los horarios especiales antes de cada festivo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu ficha de Maps<br><em>está parada?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FICHA ABANDONADA",
+    "bad": [
+     "Fotos de hace años",
+     "Horario de verano"
+    ],
+    "good_t": "FICHA VIVA",
+    "good": [
+     "Fotos de esta semana",
+     "Horario al día"
+    ]
+   },
+   "footer": "3 cosas que tocar cada semana"
+  },
+  {
+   "label": "CADA SEMANA",
+   "title": "Una<br><em>publicación.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Novedad en el Perfil de Empresa",
+    "media": "HUECOS LIBRES EL SÁBADO",
+    "headline": "Publicación de Google",
+    "cta": "Llamar",
+    "tags": [
+     "NOVEDAD",
+     "OFERTA",
+     "EVENTO"
+    ]
+   },
+   "note": "Cinco minutos <b>con el móvil.</b>"
+  },
+  {
+   "label": "CADA SEMANA",
+   "title": "Fotos<br><em>de tu trabajo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "El trabajo terminado",
+     "Tu equipo trabajando",
+     "La fachada para encontrarte"
+    ]
+   },
+   "note": "Fotos tuyas, <b>no de internet.</b>"
+  },
+  {
+   "label": "ANTES DE FESTIVOS",
+   "title": "Horarios<br><em>especiales.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Horario especial",
+    "fields": [
+     {
+      "q": "1 de noviembre",
+      "a": "Cerrado"
+     },
+     {
+      "q": "6 de diciembre",
+      "a": "De 10:00 a 14:00"
+     }
+    ],
+    "badge": "✓ NADIE SE ENCUENTRA CERRADO"
+   },
+   "note": "Una puerta cerrada <b>es una reseña mala.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Una ficha<br><em>que se mueve.</em>",
+   "dur": 6,
+   "items": [
+    "Una publicación a la semana",
+    "Fotos de trabajos reales",
+    "Horarios de festivos"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Perfil de Empresa de Google: 3 cosas que actualizar cada semana para que te llamen",
+  "text": "Perfil de Empresa de Google: si lo dejas parado, se nota 📍👇\n\nMucha gente te busca en Google Maps antes de llamarte. Si ve fotos viejas y un horario que no es, se va al de al lado.\n\n→ Sube una publicación cada semana: una novedad, una oferta o los huecos libres del sábado\n→ Añade fotos reales de trabajos recientes, de tu equipo y de la fachada para que te encuentren\n→ Antes de cada festivo, pon el horario especial. Una puerta cerrada que decía «abierto» acaba en reseña mala\n\nSe hace todo desde el móvil en cinco minutos.\n\n¿Cuándo actualizaste tu ficha por última vez?\n\nSíguenos para más tips 🧡\n\n#perfildeempresa #googlemaps #negociolocal #seolocal #pymes #ceosgrowth"
+ },
+ "caption": "Perfil de Empresa de Google: si lo dejas parado, se nota 📍👇\n\nMucha gente te busca en Google Maps antes de llamarte. Si ve fotos viejas y un horario que no es, se va al de al lado.\n\n→ Sube una publicación cada semana: una novedad, una oferta o los huecos libres del sábado\n→ Añade fotos reales de trabajos recientes, de tu equipo y de la fachada para que te encuentren\n→ Antes de cada festivo, pon el horario especial. Una puerta cerrada que decía «abierto» acaba en reseña mala\n\nSe hace todo desde el móvil en cinco minutos.\n\n¿Cuándo actualizaste tu ficha por última vez?\n\nSíguenos para más tips 🧡\n\n#perfildeempresa #googlemaps #negociolocal #seolocal #pymes #ceosgrowth"
+}

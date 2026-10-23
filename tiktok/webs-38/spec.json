@@ -1,0 +1,74 @@
+{
+ "topic": "3 cosas que debe tener la web de una guardería o escuela infantil: fotos reales de las aulas y el patio, cómo es un día (horario, comedor, edades) y un botón para pedir visita o escribir por WhatsApp. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Buscan<br>guardería<br><em>y no te ven?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Familia",
+    "msgs": [
+     {"from": "in", "text": "¿Hay plaza en septiembre?", "time": "21:30"},
+     {"from": "in", "text": "¿Podemos ir a verla?", "time": "21:31"}
+    ]
+   },
+   "footer": "3 cosas que debe tener la web de tu guardería"
+  },
+  {
+   "label": "NÚMERO 1",
+   "title": "Fotos<br><em>de verdad.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "FOTOS DE BANCO",
+    "bad": ["Niños que no son tuyos", "Aulas que no existen"],
+    "good_t": "TU ESCUELA",
+    "good": ["Tus aulas y tu patio", "El comedor, tal cual"]
+   },
+   "note": "Van a dejar a su hijo: <b>quieren verlo.</b>"
+  },
+  {
+   "label": "NÚMERO 2",
+   "title": "Cómo es<br><em>un día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "ENTRADA", "t": "Horario flexible", "s": "Y si hay acogida"},
+     {"n": "2", "d": "MEDIODÍA", "t": "Comedor", "s": "Cocina propia o catering"},
+     {"n": "3", "d": "TARDE", "t": "Siesta y salida", "s": "Edades por aula"}
+    ]
+   },
+   "note": "Las dudas resueltas <b>antes de llamar.</b>"
+  },
+  {
+   "label": "NÚMERO 3",
+   "title": "Pedir<br><em>una visita.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Pedir visita",
+    "fields": [
+     {"q": "Edad del niño", "a": "14 meses"},
+     {"q": "¿Cuándo os va bien?", "a": "Martes por la mañana"}
+    ],
+    "badge": "✓ VISITA PEDIDA"
+   },
+   "note": "O un toque <b>a tu WhatsApp.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>sin cuotas.</em>",
+   "dur": 6,
+   "items": ["Fotos de tu escuela", "Botón de pedir visita", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para guarderías y escuelas infantiles 👇\nUna familia que busca plaza quiere ver dónde va a estar su hijo: las aulas, el patio, el comedor y cómo es un día normal.\nTu web con fotos reales, horario, edades, mapa, reseñas y un botón para pedir visita o escribir por WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Qué es lo primero que te preguntan las familias?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#guarderia #escuelainfantil #educacioninfantil #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para guarderías: 3 cosas que buscan las familias",
+  "text": "Página web para guarderías y escuelas infantiles 👇\nUna familia que busca plaza quiere ver dónde va a estar su hijo: las aulas, el patio, el comedor y cómo es un día normal.\nTu web con fotos reales, horario, edades, mapa, reseñas y un botón para pedir visita o escribir por WhatsApp. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único y la web es tuya.\n¿Qué es lo primero que te preguntan las familias?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#guarderia #escuelainfantil #educacioninfantil #autonomos #paginaweb #webalvuelo"
+ }
+}

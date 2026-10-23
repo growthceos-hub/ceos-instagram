@@ -1,0 +1,70 @@
+{
+ "topic": "Reel de carpintería en bruto frente a editado: grabas trozos del proceso de un mueble (la madera en bruto, el corte, el lijado, el montaje y el mueble terminado) y Reels al Vuelo lo convierte en un reel con ritmo, subtítulos y música libre en 24 h. Primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "De tablón<br><em>a mueble</em><br><em>en 20 s.</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TU VÍDEO EN BRUTO",
+    "bad": ["4 minutos de lijado", "Sin sonido claro"],
+    "good_t": "TU REEL EDITADO",
+    "good": ["El proceso en 20 s", "Con ritmo y subtítulos"]
+   },
+   "footer": "Cómo grabar el proceso de un mueble"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Graba<br><em>a trozos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "INICIO", "t": "La madera en bruto", "s": "5 segundos, de cerca"},
+     {"n": "2", "d": "PROCESO", "t": "Corte y lijado", "s": "Un clip de cada"},
+     {"n": "3", "d": "FINAL", "t": "El mueble puesto", "s": "Girando alrededor"}
+    ]
+   },
+   "note": "No hace falta <b>grabarlo todo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Móvil quieto,<br><em>buena luz.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Apoyado en el banco", "Vertical y de cerca", "Junto a la puerta abierta"]
+   },
+   "note": "Limpia la lente: <b>el serrín la tapa.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Mándalo<br><em>tal cual.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Reels al Vuelo",
+    "msgs": [
+     {"from": "out", "lines": ["Te paso los clips", "del armario de hoy"], "time": "18:30"},
+     {"from": "in", "text": "Recibido. Mañana lo tienes", "time": "18:41"}
+    ]
+   },
+   "note": "Cortar y montar <b>es cosa nuestra.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú el mueble,<br><em>nosotros el reel.</em>",
+   "size": 92,
+   "dur": 6,
+   "items": ["Editado en 24 h", "Subtítulos, música y logo", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para carpinteros 👇\nVer un tablón convertirse en armario engancha. Ver cuatro minutos de lijado, no tanto.\nGraba a trozos con el móvil: la madera en bruto, el corte, el lijado y el mueble terminado. Nos lo mandas tal cual y en 24 h te llega el reel con ritmo, subtítulos, música libre y tu logo. Sin cuotas.\n¿Qué mueble grabarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#carpinteria #carpintero #mueblesamedida #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para carpinteros: tu vídeo en bruto frente al editado",
+  "text": "Edición de reels para carpinteros 👇\nVer un tablón convertirse en armario engancha. Ver cuatro minutos de lijado, no tanto.\nGraba a trozos con el móvil: la madera en bruto, el corte, el lijado y el mueble terminado. Nos lo mandas tal cual y en 24 h te llega el reel con ritmo, subtítulos, música libre y tu logo. Sin cuotas.\n¿Qué mueble grabarías primero?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#carpinteria #carpintero #mueblesamedida #edicionvideo #reels #reelsalvuelo"
+ }
+}

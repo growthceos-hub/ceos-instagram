@@ -1,0 +1,66 @@
+{
+ "topic": "POV para empresas de limpieza: terminas una limpieza de fin de obra y el resultado se queda sin grabar. Qué grabar en 3 tomas (el antes desde la puerta, un detalle mientras limpias y el después desde el mismo sitio) y Reels al Vuelo te lo devuelve editado en 24 h. Primer reel por 1,99 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: lo dejas<br><em>impecable</em><br><em>y no lo grabas.</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "LO QUE PASA HOY",
+    "bad": ["Limpias y te vas", "Nadie lo ve"],
+    "good_t": "LO QUE PODRÍA PASAR",
+    "good": ["3 tomas con el móvil", "Un reel al día siguiente"]
+   },
+   "footer": "3 tomas para el reel de tu empresa de limpieza"
+  },
+  {
+   "label": "TOMA 1",
+   "title": "El antes,<br><em>desde la puerta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Móvil en vertical", "Luces encendidas", "Sin mover nada aún"]
+   },
+   "note": "Cuanto peor está, <b>mejor sale el reel.</b>"
+  },
+  {
+   "label": "TOMA 2",
+   "title": "Un detalle<br><em>limpiando.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "DETALLES QUE ENGANCHAN",
+    "lines": ["La junta que se blanquea", "El cristal sin marcas", "El polvo de obra que sale"]
+   },
+   "note": "Diez segundos <b>de cerca.</b>"
+  },
+  {
+   "label": "TOMA 3",
+   "title": "El después,<br><em>mismo sitio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "AL TERMINAR", "t": "Grabas el después", "s": "Desde la misma puerta"},
+     {"n": "2", "d": "EN LA FURGONETA", "t": "Nos lo mandas", "s": "Las 3 tomas, tal cual"},
+     {"n": "3", "d": "EN 24 H", "t": "Reel editado", "s": "Subtítulos, música y logo"}
+    ]
+   },
+   "note": "El mismo encuadre <b>hace el contraste.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tú limpias,<br><em>lo editamos.</em>",
+   "dur": 6,
+   "items": ["Editado en 24 h", "Revisado por una persona", "Primer reel por 1,99 €"],
+   "button": "ceosgrowth.com/reels"
+  }
+ ],
+ "caption": "Edición de reels para empresas de limpieza 👇\nPOV: acabas un fin de obra que ha quedado impecable, cierras la puerta y nadie lo ve nunca.\nTres tomas con el móvil: el antes desde la puerta, un detalle mientras limpias y el después desde el mismo sitio. Nos lo mandas y en 24 h te llega el reel con subtítulos, música libre y tu logo. Sin cuotas.\n¿Cuál ha sido tu limpieza más bestia?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#limpieza #empresadelimpieza #findeobra #edicionvideo #reels #reelsalvuelo",
+ "tiktok": {
+  "title": "Edición de reels para empresas de limpieza: POV, lo dejas impecable y no lo grabas",
+  "text": "Edición de reels para empresas de limpieza 👇\nPOV: acabas un fin de obra que ha quedado impecable, cierras la puerta y nadie lo ve nunca.\nTres tomas con el móvil: el antes desde la puerta, un detalle mientras limpias y el después desde el mismo sitio. Nos lo mandas y en 24 h te llega el reel con subtítulos, música libre y tu logo. Sin cuotas.\n¿Cuál ha sido tu limpieza más bestia?\nTu primer reel por 1,99 €.\n👉 ceosgrowth.com/reels\nLink en el perfil 👆\n\n#limpieza #empresadelimpieza #findeobra #edicionvideo #reels #reelsalvuelo"
+ }
+}

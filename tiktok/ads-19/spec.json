@@ -1,0 +1,66 @@
+{
+ "topic": "Anuncios para coaches: 3 mitos que frenan a grabar el anuncio. «Necesito un estudio» (con el móvil y luz de ventana basta), «tengo que contarlo todo» (un problema y una acción) y «una versión es suficiente» (3 versiones con 3 ganchos te dicen qué funciona). Ads al Vuelo desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Coach<br>sin anuncio<br><em>en vídeo?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE TE FRENA",
+    "lines": ["Necesito un estudio", "Tengo que contarlo todo", "Con una versión basta"]
+   },
+   "footer": "3 mitos sobre el anuncio de un coach"
+  },
+  {
+   "label": "MITO 1",
+   "title": "«Necesito<br><em>un estudio.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Móvil en vertical", "Ventana delante de ti", "Habitación sin eco"]
+   },
+   "note": "Lo casero <b>se parece a tu público.</b>"
+  },
+  {
+   "label": "MITO 2",
+   "title": "«Tengo que<br><em>contarlo todo.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ANUNCIO DE 3 MINUTOS",
+    "bad": ["Tu historia entera", "Cinco servicios"],
+    "good_t": "ANUNCIO QUE SE ENTIENDE",
+    "good": ["Un solo problema", "Una sola acción"]
+   },
+   "note": "El resto, <b>en la llamada.</b>"
+  },
+  {
+   "label": "MITO 3",
+   "title": "«Con una<br><em>versión basta.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "DINÁMICA", "t": "Con ritmo", "s": "Zoom y tarjetas"},
+     {"n": "B", "d": "DIRECTA", "t": "Lo fuerte primero", "s": "El resultado que busca"},
+     {"n": "C", "d": "NATIVA", "t": "Parece orgánico", "s": "Como un reel tuyo"}
+    ]
+   },
+   "note": "Con tres, <b>Meta te dice cuál.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Graba una vez,<br><em>testea tres.</em>",
+   "dur": 6,
+   "items": ["3 versiones con su copy", "Normalmente el mismo día", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para coaches: 3 mitos que te frenan a grabar 🎥👇\n→ «Necesito un estudio»: con el móvil en vertical, una ventana delante y una habitación sin eco es suficiente\n→ «Tengo que contarlo todo»: un problema y una acción. El resto, en la llamada\n→ «Con una versión basta»: con tres ganchos distintos sabes cuál engancha a tu público\nSubes el bruto y te llegan 3 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nGuía para grabar gratis: ads.ceosgrowth.com/guia-grabar-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #coach #coaching #metaads #anunciosenvideo #marcapersonal",
+ "tiktok": {
+  "title": "Anuncios para coaches: 3 mitos que te frenan a grabar tu anuncio",
+  "text": "Anuncios para coaches: 3 mitos que te frenan a grabar 🎥👇\n→ «Necesito un estudio»: con el móvil en vertical, una ventana delante y una habitación sin eco es suficiente\n→ «Tengo que contarlo todo»: un problema y una acción. El resto, en la llamada\n→ «Con una versión basta»: con tres ganchos distintos sabes cuál engancha a tu público\nSubes el bruto y te llegan 3 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nGuía para grabar gratis: ads.ceosgrowth.com/guia-grabar-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #coach #coaching #metaads #anunciosenvideo #marcapersonal"
+ }
+}

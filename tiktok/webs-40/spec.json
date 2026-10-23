@@ -1,0 +1,66 @@
+{
+ "topic": "3 objeciones de una bodega pequeña para no tener web y su respuesta: «ya vendo en tiendas» (quien prueba tu vino busca tu bodega), «ya tengo Instagram» (no reserva una visita ni se ve en el mapa) y «una web es cara» (79 € pago único con Web al Vuelo). Con visitas y catas, botón de reservar, mapa y horario",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu bodega<br><em>no necesita</em><br><em>web?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE DICE",
+    "lines": ["Ya vendo en tiendas", "Ya tengo Instagram", "Una web es cara"]
+   },
+   "footer": "3 excusas de bodega y su respuesta"
+  },
+  {
+   "label": "EXCUSA 1",
+   "title": "«Ya vendo<br><em>en tiendas.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "EN UNA CENA", "t": "Prueba tu vino", "s": "Le gusta"},
+     {"n": "2", "d": "ESA NOCHE", "t": "Busca tu bodega", "s": "Desde el móvil"},
+     {"n": "3", "d": "SI TE ENCUENTRA", "t": "Reserva visita", "s": "O pide por WhatsApp"}
+    ]
+   },
+   "note": "La botella <b>te manda clientes.</b>"
+  },
+  {
+   "label": "EXCUSA 2",
+   "title": "«Ya tengo<br><em>Instagram.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SOLO INSTAGRAM",
+    "bad": ["No sale en Google", "Ni horario de visitas"],
+    "good_t": "CON WEB",
+    "good": ["Visitas y catas", "Mapa y cómo llegar"]
+   },
+   "note": "Instagram enseña, <b>la web reserva.</b>"
+  },
+  {
+   "label": "EXCUSA 3",
+   "title": "«Una web<br><em>es cara.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["79 €, pago único", "Sin cuotas", "La web es tuya"]
+   },
+   "note": "Y si no te convence, <b>se rehace gratis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Visitas y catas", "Botón de reservar", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para bodegas 👇\nAlguien prueba tu vino en una cena, le gusta y esa noche busca tu bodega. Si solo encuentra un Instagram, no sabe si hacéis visitas ni cómo llegar.\nTu web con visitas y catas, botón para reservar por WhatsApp o llamada, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Hacéis visitas a la bodega?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#bodega #vino #enoturismo #catadevinos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para bodegas: «ya vendo en tiendas» y otras 2 excusas",
+  "text": "Página web para bodegas 👇\nAlguien prueba tu vino en una cena, le gusta y esa noche busca tu bodega. Si solo encuentra un Instagram, no sabe si hacéis visitas ni cómo llegar.\nTu web con visitas y catas, botón para reservar por WhatsApp o llamada, mapa, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € pago único, sin cuotas.\n¿Hacéis visitas a la bodega?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#bodega #vino #enoturismo #catadevinos #paginaweb #webalvuelo"
+ }
+}

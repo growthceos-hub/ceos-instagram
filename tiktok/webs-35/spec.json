@@ -1,0 +1,66 @@
+{
+ "topic": "Checklist de la web de un electricista: botón de llamar, WhatsApp, servicios (averías, boletín, instalaciones, cargadores), zona de trabajo, horario de urgencias y reseñas. Web al Vuelo: 79 € pago único, primer diseño en 2 días",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu web<br>de electricista<br><em>aprueba?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Botón de llamar", "Servicios claros", "Zona y reseñas"]
+   },
+   "footer": "La checklist de la web de un electricista"
+  },
+  {
+   "label": "CHECK 1",
+   "title": "Llamar<br><em>y WhatsApp.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Salta el diferencial", "time": "20:10"},
+     {"from": "in", "text": "¿Podéis venir mañana?", "time": "20:11"}
+    ]
+   },
+   "note": "Te escribe <b>desde la propia web.</b>"
+  },
+  {
+   "label": "CHECK 2",
+   "title": "Lo que haces,<br><em>por servicios.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "SERVICIOS",
+    "lines": ["Averías y urgencias", "Boletín eléctrico", "Instalaciones y reformas", "Cargador de coche"]
+   },
+   "note": "Que encuentre <b>lo suyo</b> sin llamar."
+  },
+  {
+   "label": "CHECK 3",
+   "title": "Zona, horario<br><em>y reseñas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN ESTO",
+    "bad": ["«¿Llegáis a mi zona?»", "«¿Sois de fiar?»"],
+    "good_t": "CON ESTO",
+    "good": ["Mapa de tu zona", "Reseñas a la vista"]
+   },
+   "note": "Menos preguntas, <b>más avisos.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Todo eso<br><em>por 79 €.</em>",
+   "dur": 6,
+   "items": ["Pago único, sin cuotas", "La web es tuya", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para electricistas 👇\nRepásala con esta checklist: botón de llamar y de WhatsApp, tus servicios separados (averías, boletín, instalaciones, cargadores), zona de trabajo, horario de urgencias y reseñas.\nSi le falta algo, la hacemos por 79 €, pago único y sin cuotas. Contestas 5 preguntas y el primer diseño llega en 2 días. Si no te convence, se rehace gratis.\n¿Cuántos checks pasa la tuya?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#electricista #instalacioneselectricas #reformas #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para electricistas: la checklist para no perder avisos",
+  "text": "Página web para electricistas 👇\nRepásala con esta checklist: botón de llamar y de WhatsApp, tus servicios separados (averías, boletín, instalaciones, cargadores), zona de trabajo, horario de urgencias y reseñas.\nSi le falta algo, la hacemos por 79 €, pago único y sin cuotas. Contestas 5 preguntas y el primer diseño llega en 2 días. Si no te convence, se rehace gratis.\n¿Cuántos checks pasa la tuya?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#electricista #instalacioneselectricas #reformas #autonomos #paginaweb #webalvuelo"
+ }
+}

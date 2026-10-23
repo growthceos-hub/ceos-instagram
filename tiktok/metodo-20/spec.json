@@ -1,0 +1,102 @@
+{
+ "topic": "Cómo sacarle partido a los 26 días de implantación con Ceos Growth: ten claro qué servicio quieres vender más, quién va a atender los leads que entren en el CRM y cuánto te deja cada venta (porque cobramos comisión sobre ventas)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Empiezas<br><em>en 26 días?</em>",
+   "size": 134,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DÍA 1",
+      "t": "Empieza la implantación",
+      "s": "Anuncios, campañas y CRM"
+     },
+     {
+      "n": "26",
+      "d": "DÍA 26",
+      "t": "Sistema funcionando",
+      "s": "Entran los leads"
+     }
+    ]
+   },
+   "footer": "3 cosas que tener claras desde el día 1"
+  },
+  {
+   "label": "TEN CLARO 1",
+   "title": "Qué quieres<br><em>vender más.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "El servicio que más te deja",
+     "El que puedes atender ya",
+     "El que tus clientes piden"
+    ]
+   },
+   "note": "Los 15–20 anuncios <b>se graban para eso.</b>"
+  },
+  {
+   "label": "TEN CLARO 2",
+   "title": "Quién atiende<br><em>los leads.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Lead nuevo",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Hola, vi vuestro anuncio"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Hola! Te llamo",
+       "en cinco minutos."
+      ]
+     }
+    ]
+   },
+   "note": "Cada lead entra <b>en el CRM.</b> Alguien tiene que cogerlo."
+  },
+  {
+   "label": "TEN CLARO 3",
+   "title": "Cuánto te deja<br><em>cada venta.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "SIN SABERLO",
+    "bad": [
+     "Mides likes",
+     "No sabes si compensa"
+    ],
+    "good_t": "SABIÉNDOLO",
+    "good": [
+     "Mides ventas",
+     "Comisión sobre ventas"
+    ]
+   },
+   "note": "Ganamos cuando <b>tú vendes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "26 días<br><em>bien aprovechados.</em>",
+   "dur": 6,
+   "items": [
+    "Qué quieres vender más",
+    "Quién atiende los leads",
+    "Cuánto te deja una venta"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Implantación de 26 días: 3 cosas que tener claras para aprovecharla desde el día 1",
+  "text": "Implantación en 26 días: el sistema lo montamos nosotros, pero estas tres cosas las sabes tú 🗝️👇\n\nEn Ceos Growth, en 26 días tienes anuncios, campañas de Meta Ads y CRM funcionando. Llegar con esto claro ayuda a que salga mejor.\n\n→ Qué servicio quieres vender más: los 15–20 anuncios que grabamos en estudio van a por eso\n→ Quién va a atender los leads que entren en el CRM, y cuándo\n→ Cuánto te deja cada venta: cobramos comisión sobre ventas, así que medimos ventas, no likes\n\nSi no lo tienes claro, lo vemos juntos en la llamada.\n\n¿Cuál de las tres te costaría más responder hoy?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #captaciondeclientes #crm #agenciademarketing #pymes"
+ },
+ "caption": "Implantación en 26 días: el sistema lo montamos nosotros, pero estas tres cosas las sabes tú 🗝️👇\n\nEn Ceos Growth, en 26 días tienes anuncios, campañas de Meta Ads y CRM funcionando. Llegar con esto claro ayuda a que salga mejor.\n\n→ Qué servicio quieres vender más: los 15–20 anuncios que grabamos en estudio van a por eso\n→ Quién va a atender los leads que entren en el CRM, y cuándo\n→ Cuánto te deja cada venta: cobramos comisión sobre ventas, así que medimos ventas, no likes\n\nSi no lo tienes claro, lo vemos juntos en la llamada.\n\n¿Cuál de las tres te costaría más responder hoy?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #metaads #captaciondeclientes #crm #agenciademarketing #pymes"
+}

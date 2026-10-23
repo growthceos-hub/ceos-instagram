@@ -1,0 +1,95 @@
+{
+ "topic": "Conseguir reseñas de Google para tu negocio: pídela justo cuando el cliente te da las gracias, mándale el enlace directo para escribirla (desde tu Perfil de Empresa, «Pedir reseñas») y dale una pista de qué contar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Clientes felices<br><em>y cero reseñas?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "«YA SI ESO…»",
+    "bad": [
+     "Lo pides días después",
+     "Nadie se acuerda"
+    ],
+    "good_t": "EN EL MOMENTO",
+    "good": [
+     "Lo pides al acabar",
+     "Con el enlace directo"
+    ]
+   },
+   "footer": "3 pasos para conseguir reseñas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pídela cuando<br><em>te da las gracias.</em>",
+   "dur": 6.5,
+   "size": 100,
+   "mock": {
+    "type": "script",
+    "title": "AL TERMINAR EL TRABAJO",
+    "lines": [
+     "Me alegra que te guste.",
+     "¿Me harías un favor?",
+     "Una reseña nos ayuda mucho."
+    ]
+   },
+   "note": "Contento y delante de ti: <b>ese es el momento.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Manda<br><em>el enlace directo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Perfil de Empresa de Google",
+     "Botón «Pedir reseñas»",
+     "Copia el enlace y guárdalo"
+    ]
+   },
+   "note": "Un clic y <b>ya está escribiendo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Dale una pista<br><em>de qué contar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Aquí tienes el enlace.",
+       "Si te apetece, cuenta",
+       "qué te hicimos y qué tal."
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Hecho, cinco estrellas"
+     }
+    ]
+   },
+   "note": "Una reseña con detalles <b>vende más que un «muy bien».</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Reseñas<br><em>sin perseguir.</em>",
+   "dur": 6,
+   "items": [
+    "Pide al dar las gracias",
+    "Enlace directo",
+    "Pista de qué contar"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Reseñas de Google: cómo pedirlas a tus clientes para que de verdad las escriban",
+  "text": "Reseñas de Google: tus clientes contentos no las escriben solos ⭐👇\n\nNo es que no quieran. Es que nadie se lo pide en el momento y luego se olvida.\n\n→ Pídela cuando el cliente te da las gracias, en persona o al cerrar el trabajo\n→ Mándale el enlace directo: en tu Perfil de Empresa de Google, botón «Pedir reseñas»\n→ Dale una pista de qué contar (qué le hiciste y qué tal le fue). Una reseña con detalles convence más que «muy bien»\n\nGuarda el enlace en las respuestas rápidas de WhatsApp y lo tienes siempre a mano.\n\n¿Cuántas reseñas tiene ahora tu negocio en Google?\n\nSíguenos para más tips 🧡\n\n#reseñasgoogle #perfildeempresa #negociolocal #clientes #pymes #ceosgrowth"
+ },
+ "caption": "Reseñas de Google: tus clientes contentos no las escriben solos ⭐👇\n\nNo es que no quieran. Es que nadie se lo pide en el momento y luego se olvida.\n\n→ Pídela cuando el cliente te da las gracias, en persona o al cerrar el trabajo\n→ Mándale el enlace directo: en tu Perfil de Empresa de Google, botón «Pedir reseñas»\n→ Dale una pista de qué contar (qué le hiciste y qué tal le fue). Una reseña con detalles convence más que «muy bien»\n\nGuarda el enlace en las respuestas rápidas de WhatsApp y lo tienes siempre a mano.\n\n¿Cuántas reseñas tiene ahora tu negocio en Google?\n\nSíguenos para más tips 🧡\n\n#reseñasgoogle #perfildeempresa #negociolocal #clientes #pymes #ceosgrowth"
+}

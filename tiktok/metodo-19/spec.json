@@ -1,0 +1,98 @@
+{
+ "topic": "Contratar a una persona de marketing en plantilla o trabajar con Ceos Growth: una persona no cubre grabación, campañas y CRM a la vez (nosotros somos 10 perfiles), necesita dónde grabar (estudio propio con 15–20 anuncios) y montarlo por tu cuenta cuesta 32.900 €/año frente a cobrar comisión sobre ventas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Fichas a alguien<br><em>de marketing?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UNA PERSONA EN PLANTILLA",
+    "bad": [
+     "Hace lo que puede",
+     "Sueldo, vendas o no"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "10 perfiles",
+     "Comisión sobre ventas"
+    ]
+   },
+   "footer": "3 cosas antes de decidir"
+  },
+  {
+   "label": "1",
+   "title": "Una persona,<br><em>tres trabajos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Grabar y editar anuncios",
+     "Lanzar y medir campañas",
+     "Llevar el CRM de leads"
+    ]
+   },
+   "note": "Nosotros lo repartimos entre <b>10 perfiles.</b>"
+  },
+  {
+   "label": "2",
+   "title": "¿Dónde<br><em>graba?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "EN PLANTILLA",
+      "t": "Con el móvil",
+      "s": "Cuando hay un rato"
+     },
+     {
+      "n": "2",
+      "d": "CEOS GROWTH",
+      "t": "En estudio propio",
+      "s": "15–20 anuncios grabados"
+     }
+    ]
+   },
+   "note": "Sin estudio, <b>se graba a salto de mata.</b>"
+  },
+  {
+   "label": "3",
+   "title": "¿Cuánto<br><em>cuesta?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "MONTARLO POR TU CUENTA",
+    "bad": [
+     "32.900 € al año",
+     "Vendas o no"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "Comisión sobre ventas",
+     "Sin permanencia"
+    ]
+   },
+   "note": "Haz la cuenta <b>antes de contratar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un equipo,<br><em>no una persona.</em>",
+   "dur": 6,
+   "items": [
+    "10 perfiles",
+    "Estudio propio",
+    "Comisión sobre ventas"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Contratar a alguien de marketing o agencia: 3 cosas que mirar antes de decidir",
+  "text": "Contratar a alguien de marketing: antes de publicar la oferta de empleo, haz esta cuenta 🧮👇\n\nUna sola persona tendría que grabar, editar, lanzar campañas y llevar los leads. Son trabajos distintos.\n\n→ En Ceos Growth lo repartimos entre un equipo de 10 perfiles\n→ Grabamos 15–20 anuncios en nuestro estudio propio, no con el móvil cuando hay un rato\n→ Montar todo esto por tu cuenta cuesta 32.900 € al año. Nosotros cobramos comisión sobre ventas, con 12 meses de Meta Ads sin permanencia\n\nSi aun así prefieres contratar, que sea con estas tres cosas claras.\n\n¿Has tenido alguna vez a alguien de marketing en plantilla?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #marketing #agenciademarketing #metaads #empresarios #pymes"
+ },
+ "caption": "Contratar a alguien de marketing: antes de publicar la oferta de empleo, haz esta cuenta 🧮👇\n\nUna sola persona tendría que grabar, editar, lanzar campañas y llevar los leads. Son trabajos distintos.\n\n→ En Ceos Growth lo repartimos entre un equipo de 10 perfiles\n→ Grabamos 15–20 anuncios en nuestro estudio propio, no con el móvil cuando hay un rato\n→ Montar todo esto por tu cuenta cuesta 32.900 € al año. Nosotros cobramos comisión sobre ventas, con 12 meses de Meta Ads sin permanencia\n\nSi aun así prefieres contratar, que sea con estas tres cosas claras.\n\n¿Has tenido alguna vez a alguien de marketing en plantilla?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #marketing #agenciademarketing #metaads #empresarios #pymes"
+}

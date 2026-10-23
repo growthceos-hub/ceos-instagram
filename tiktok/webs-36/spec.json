@@ -1,0 +1,67 @@
+{
+ "topic": "La cuenta de la cuota para una empresa de limpieza: una web de 30 € al mes son 360 € al año y 1.080 € en 3 años; con Web al Vuelo pagas 79 € una vez, menos que 3 meses de cuota, y la web es tuya. Con presupuesto por WhatsApp, servicios, zona y reseñas",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pagas cuota<br><em>por tu web</em><br><em>de limpieza?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LA CUENTA DE LA CUOTA",
+    "lines": ["30 € al mes", "x 12 meses = 360 € al año", "x 3 años = 1.080 €"]
+   },
+   "footer": "Haz la cuenta de tu empresa de limpieza"
+  },
+  {
+   "label": "LA CUENTA",
+   "title": "Cada año,<br><em>otra vez.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "bars",
+    "title": "Pagado en cuotas de 30 €/mes",
+    "items": [
+     {"label": "Año 1 · 360 €", "value": 33},
+     {"label": "Año 2 · 720 €", "value": 66},
+     {"label": "Año 3 · 1.080 €", "value": 100, "hi": true}
+    ]
+   },
+   "note": "Y si dejas de pagar, <b>te quedas sin web.</b>"
+  },
+  {
+   "label": "LA OTRA CUENTA",
+   "title": "79 €,<br><em>ni 3 cuotas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "CON CUOTA",
+    "bad": ["30 € cada mes", "La web no es tuya"],
+    "good_t": "WEB AL VUELO",
+    "good": ["79 €, pago único", "La web es tuya"]
+   },
+   "note": "Lo pagas una vez <b>y se acabó.</b>"
+  },
+  {
+   "label": "LO QUE LLEVA",
+   "title": "Lo que pide<br><em>tu cliente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Presupuesto por WhatsApp", "Casas, oficinas, fin de obra", "Zona y reseñas"]
+   },
+   "note": "Que pida precio <b>sin llamarte.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "79 €, una vez.<br><em>La web es tuya.</em>",
+   "dur": 6,
+   "items": ["Botón de WhatsApp", "Servicios y zona", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para empresas de limpieza 👇\nHaz la cuenta: 30 € al mes son 360 € al año y 1.080 € en tres años. Y la web sigue sin ser tuya.\nCon Web al Vuelo pagas 79 € una vez, menos que tres meses de cuota. Botón de WhatsApp para pedir presupuesto, tus servicios, zona, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuánto llevas pagado en cuotas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#limpieza #empresadelimpieza #limpiezadeoficinas #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para empresas de limpieza: la cuenta de pagar 30 € al mes",
+  "text": "Página web para empresas de limpieza 👇\nHaz la cuenta: 30 € al mes son 360 € al año y 1.080 € en tres años. Y la web sigue sin ser tuya.\nCon Web al Vuelo pagas 79 € una vez, menos que tres meses de cuota. Botón de WhatsApp para pedir presupuesto, tus servicios, zona, horario y reseñas. Contestas 5 preguntas y el primer diseño llega en 2 días.\n¿Cuánto llevas pagado en cuotas?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#limpieza #empresadelimpieza #limpiezadeoficinas #autonomos #paginaweb #webalvuelo"
+ }
+}

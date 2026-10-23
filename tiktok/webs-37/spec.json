@@ -1,0 +1,66 @@
+{
+ "topic": "3 errores de la web de un cerrajero: el teléfono escondido abajo del todo, no decir en qué zona trabajas ni si abres 24 h, y no tener reseñas a la vista cuando el cliente desconfía. Web al Vuelo: 79 € pago único",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Llaman<br>al cerrajero<br><em>de al lado?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Me he dejado las llaves", "time": "23:48"},
+     {"from": "in", "text": "¿Venís ahora?", "time": "23:48"}
+    ]
+   },
+   "footer": "3 errores de la web de un cerrajero"
+  },
+  {
+   "label": "ERROR 1",
+   "title": "El teléfono<br><em>escondido.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "TELÉFONO AL FINAL",
+    "bad": ["Tiene que bajar", "Lo copia a mano"],
+    "good_t": "BOTÓN ARRIBA",
+    "good": ["Llamar con un toque", "Siempre a la vista"]
+   },
+   "note": "En la puerta, de noche, <b>no se busca nada.</b>"
+  },
+  {
+   "label": "ERROR 2",
+   "title": "Ni zona<br><em>ni horario.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE NECESITA SABER",
+    "lines": ["¿Llegan a mi barrio?", "¿Abren a estas horas?", "¿Cuánto tardan?"]
+   },
+   "note": "Si no lo pone, <b>llama al siguiente.</b>"
+  },
+  {
+   "label": "ERROR 3",
+   "title": "Sin reseñas<br><em>a la vista.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Reseñas de Google", "Tu nombre y tu local", "Fotos de tu furgoneta"]
+   },
+   "note": "Va a abrirle la puerta: <b>quiere fiarse.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu web por 79 €,<br><em>pago único.</em>",
+   "dur": 6,
+   "items": ["Botón de llamar arriba", "Zona, horario y reseñas", "Primer diseño en 2 días"],
+   "button": "webs.ceosgrowth.com"
+  }
+ ],
+ "caption": "Página web para cerrajeros 👇\nQuien se queda en la calle a medianoche busca en el móvil y llama al primero que le deja hacerlo con un toque y le da confianza.\nBotón de llamar arriba, WhatsApp, zona, horario y reseñas a la vista. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, sin cuotas, y la web es tuya.\n¿Dónde está tu teléfono en tu web ahora mismo?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#cerrajero #cerrajeria #urgencias #autonomos #paginaweb #webalvuelo",
+ "tiktok": {
+  "title": "Página web para cerrajeros: 3 errores que te quitan avisos",
+  "text": "Página web para cerrajeros 👇\nQuien se queda en la calle a medianoche busca en el móvil y llama al primero que le deja hacerlo con un toque y le da confianza.\nBotón de llamar arriba, WhatsApp, zona, horario y reseñas a la vista. Contestas 5 preguntas y el primer diseño llega en 2 días. 79 € una vez, sin cuotas, y la web es tuya.\n¿Dónde está tu teléfono en tu web ahora mismo?\n👉 webs.ceosgrowth.com/web-79\nLink en el perfil 👆\n\n#cerrajero #cerrajeria #urgencias #autonomos #paginaweb #webalvuelo"
+ }
+}

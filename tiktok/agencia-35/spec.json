@@ -1,0 +1,108 @@
+{
+ "topic": "Citas a las que no se presenta el cliente (no-shows): confirma la cita al momento con día, hora y dirección, manda un recordatorio el día antes pidiendo que responda «sí» y otro 2 horas antes con cómo llegar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te dejan<br><em>la cita colgada?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "LUNES",
+      "t": "Reserva la cita",
+      "s": "Para el jueves"
+     },
+     {
+      "n": "2",
+      "d": "JUEVES",
+      "t": "No aparece",
+      "s": "Y nadie le recordó nada"
+     }
+    ]
+   },
+   "footer": "3 mensajes para que vengan"
+  },
+  {
+   "label": "MENSAJE 1",
+   "title": "Confirma<br><em>al momento.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Cita confirmada:",
+       "jueves a las 17:00.",
+       "Calle Mayor 12, 2.º"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Perfecto, gracias"
+     }
+    ]
+   },
+   "note": "Día, hora y dirección <b>en un mensaje.</b>"
+  },
+  {
+   "label": "MENSAJE 2",
+   "title": "El día antes,<br><em>pide un «sí».</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Te esperamos mañana",
+       "a las 17:00.",
+       "¿Me confirmas con un sí?"
+      ]
+     },
+     {
+      "from": "in",
+      "text": "Sí, allí estaré"
+     }
+    ]
+   },
+   "note": "Si no responde, <b>llámale.</b>"
+  },
+  {
+   "label": "MENSAJE 3",
+   "title": "Dos horas antes,<br><em>cómo llegar.</em>",
+   "dur": 6.5,
+   "size": 104,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Enlace de Google Maps",
+     "Dónde aparcar",
+     "A quién preguntar al llegar"
+    ]
+   },
+   "note": "Se lo pones <b>fácil hasta la puerta.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que la cita<br><em>no se pierda.</em>",
+   "dur": 6,
+   "items": [
+    "Confirma al momento",
+    "El día antes, pide un sí",
+    "2 horas antes, cómo llegar"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Citas que no se presentan: 3 mensajes para reducir los no-shows en tu negocio",
+  "text": "Citas que no se presentan: el hueco vacío también te cuesta dinero 📅👇\n\nCasi nunca es mala fe. Se le olvida, se lía o no sabe bien dónde estás. Tres mensajes lo arreglan casi todo.\n\n→ Al reservar: confirma día, hora y dirección en un solo mensaje\n→ El día antes: recuérdaselo y pídele que responda con un «sí». Si no contesta, llámale\n→ Dos horas antes: mándale el enlace de Google Maps, dónde aparcar y a quién preguntar al llegar\n\nSi tienes agenda online, casi todas dejan programar estos mensajes solos.\n\n¿Cuántas citas se te quedaron vacías el mes pasado?\n\nSíguenos para más tips 🧡\n\n#citas #noshow #atencionalcliente #whatsappbusiness #pymes #ceosgrowth"
+ },
+ "caption": "Citas que no se presentan: el hueco vacío también te cuesta dinero 📅👇\n\nCasi nunca es mala fe. Se le olvida, se lía o no sabe bien dónde estás. Tres mensajes lo arreglan casi todo.\n\n→ Al reservar: confirma día, hora y dirección en un solo mensaje\n→ El día antes: recuérdaselo y pídele que responda con un «sí». Si no contesta, llámale\n→ Dos horas antes: mándale el enlace de Google Maps, dónde aparcar y a quién preguntar al llegar\n\nSi tienes agenda online, casi todas dejan programar estos mensajes solos.\n\n¿Cuántas citas se te quedaron vacías el mes pasado?\n\nSíguenos para más tips 🧡\n\n#citas #noshow #atencionalcliente #whatsappbusiness #pymes #ceosgrowth"
+}

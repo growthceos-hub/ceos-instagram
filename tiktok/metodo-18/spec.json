@@ -1,0 +1,88 @@
+{
+ "topic": "Buscar agencia de Meta Ads en Burgos: 3 cosas que mirar y cómo lo cumple Ceos Growth, agencia de Burgos: equipo completo (10 perfiles), anuncios propios (15–20 grabados en estudio propio) y clientes que se quedan (+17 activos y muchos más de 2 años con nosotros)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Buscas agencia<br><em>en Burgos?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Equipo completo",
+     "Anuncios propios",
+     "Clientes que se quedan"
+    ]
+   },
+   "footer": "3 cosas que mirar antes de elegir"
+  },
+  {
+   "label": "MIRA 1",
+   "title": "¿Quién hay<br><em>detrás?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "UNA PERSONA",
+    "bad": [
+     "Lo hace todo",
+     "Si falta, se para"
+    ],
+    "good_t": "CEOS GROWTH",
+    "good": [
+     "Equipo de 10 perfiles",
+     "Cada uno en lo suyo"
+    ]
+   },
+   "note": "Pregunta <b>cuántos y quién hace qué.</b>"
+  },
+  {
+   "label": "MIRA 2",
+   "title": "¿Quién graba<br><em>los anuncios?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Grabado por Ceos Growth",
+    "media": "15–20 ANUNCIOS EN ESTUDIO PROPIO",
+    "headline": "Listos para Meta Ads",
+    "cta": "Más información",
+    "tags": [
+     "ESTUDIO PROPIO",
+     "GRABADO PARA TI"
+    ]
+   },
+   "note": "Si te piden que grabes tú, <b>pregunta por qué.</b>"
+  },
+  {
+   "label": "MIRA 3",
+   "title": "¿Sus clientes<br><em>se quedan?</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "+17 clientes activos",
+     "Muchos, más de 2 años",
+     "Y sin permanencia"
+    ]
+   },
+   "note": "Pide <b>datos, no promesas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Elige con<br><em>datos.</em>",
+   "dur": 6,
+   "items": [
+    "Equipo de 10 perfiles",
+    "15–20 anuncios en estudio",
+    "+17 clientes activos"
+   ],
+   "button": "Reserva tu llamada gratis",
+   "button_size": 52
+  }
+ ],
+ "tiktok": {
+  "title": "Agencia de Meta Ads en Burgos: 3 cosas que mirar antes de elegir la tuya",
+  "text": "Agencia de Meta Ads en Burgos: antes de elegir, mira estas tres cosas 📍👇\n\nSomos Ceos Growth, agencia de Burgos. Esto es lo que preguntaríamos nosotros si estuviéramos en tu lado de la mesa.\n\n→ ¿Quién hay detrás? En Ceos Growth, un equipo de 10 perfiles, no una persona para todo\n→ ¿Quién graba los anuncios? Nosotros: 15–20 anuncios en nuestro estudio propio\n→ ¿Sus clientes se quedan? Tenemos +17 clientes activos y muchos llevan más de 2 años, sin permanencia\n\nPídele estos datos a cualquier agencia con la que hables, también a nosotros.\n\n¿Qué es lo primero que miras tú al elegir una agencia?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciaburgos #burgos #metaads #agenciademarketing #pymes"
+ },
+ "caption": "Agencia de Meta Ads en Burgos: antes de elegir, mira estas tres cosas 📍👇\n\nSomos Ceos Growth, agencia de Burgos. Esto es lo que preguntaríamos nosotros si estuviéramos en tu lado de la mesa.\n\n→ ¿Quién hay detrás? En Ceos Growth, un equipo de 10 perfiles, no una persona para todo\n→ ¿Quién graba los anuncios? Nosotros: 15–20 anuncios en nuestro estudio propio\n→ ¿Sus clientes se quedan? Tenemos +17 clientes activos y muchos llevan más de 2 años, sin permanencia\n\nPídele estos datos a cualquier agencia con la que hables, también a nosotros.\n\n¿Qué es lo primero que miras tú al elegir una agencia?\n\nReserva tu llamada gratis 👉 link en el perfil\n\n#ceosgrowth #agenciaburgos #burgos #metaads #agenciademarketing #pymes"
+}

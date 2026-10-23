@@ -1,0 +1,97 @@
+{
+ "topic": "Upsell sin parecer pesado: ofrece un extra justo cuando el cliente ya ha dicho que sí, que esté relacionado con lo que compra y que sea pequeño comparado con el precio principal, con una sola frase y sin insistir",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Vendes<br><em>y no ofreces más?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Vale, lo hacemos"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "¡Genial! Te mando",
+       "la factura."
+      ]
+     }
+    ]
+   },
+   "footer": "3 reglas para ofrecer un extra"
+  },
+  {
+   "label": "REGLA 1",
+   "title": "Justo después<br><em>del sí.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "ANTES",
+      "t": "Aún está decidiendo",
+      "s": "Un extra le lía"
+     },
+     {
+      "n": "2",
+      "d": "DESPUÉS DEL SÍ",
+      "t": "Ya confía en ti",
+      "s": "Aquí lo ofreces"
+     }
+    ]
+   },
+   "note": "Antes del sí, <b>un extra asusta.</b>"
+  },
+  {
+   "label": "REGLA 2",
+   "title": "Que tenga<br><em>que ver.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Taller: cambio de escobillas",
+     "Peluquería: tratamiento",
+     "Reformas: mampara a juego"
+    ]
+   },
+   "note": "Que complete <b>lo que ya compra.</b>"
+  },
+  {
+   "label": "REGLA 3",
+   "title": "Una frase<br><em>y sin insistir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LA FRASE",
+    "lines": [
+     "Ya que estamos con el coche,",
+     "¿te cambio las escobillas?",
+     "Son 25 € más."
+    ]
+   },
+   "note": "Si dice que no, <b>no vuelves a sacarlo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un extra<br><em>bien ofrecido.</em>",
+   "dur": 6,
+   "items": [
+    "Después del sí",
+    "Relacionado con la compra",
+    "Una frase y sin insistir"
+   ],
+   "button": "Síguenos para más tips"
+  }
+ ],
+ "tiktok": {
+  "title": "Upsell para pequeños negocios: cómo ofrecer un extra sin parecer pesado",
+  "text": "Upsell en tu negocio: el cliente que ya te ha dicho que sí puede comprarte algo más 🛒👇\n\nOfrecerle algo que le viene bien, en el momento justo, también es atenderle bien.\n\n→ Ofrécelo justo después del sí, nunca mientras aún está decidiendo\n→ Que tenga que ver con lo que compra y sea pequeño al lado del precio principal\n→ Dilo en una frase y, si te dice que no, no vuelvas a sacarlo\n\nEl de las escobillas es solo un ejemplo: piensa qué extra tiene sentido en tu servicio.\n\n¿Qué extra podrías ofrecer tú después de cada venta?\n\nSíguenos para más tips 🧡\n\n#upsell #ventas #ticketmedio #clientes #pymes #ceosgrowth"
+ },
+ "caption": "Upsell en tu negocio: el cliente que ya te ha dicho que sí puede comprarte algo más 🛒👇\n\nOfrecerle algo que le viene bien, en el momento justo, también es atenderle bien.\n\n→ Ofrécelo justo después del sí, nunca mientras aún está decidiendo\n→ Que tenga que ver con lo que compra y sea pequeño al lado del precio principal\n→ Dilo en una frase y, si te dice que no, no vuelvas a sacarlo\n\nEl de las escobillas es solo un ejemplo: piensa qué extra tiene sentido en tu servicio.\n\n¿Qué extra podrías ofrecer tú después de cada venta?\n\nSíguenos para más tips 🧡\n\n#upsell #ventas #ticketmedio #clientes #pymes #ceosgrowth"
+}

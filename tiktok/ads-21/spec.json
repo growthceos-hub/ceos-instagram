@@ -1,0 +1,68 @@
+{
+ "topic": "Anuncios para nutricionistas con formato POV: 3 ganchos de identificación para que tu paciente ideal se reconozca y pare el scroll («POV: es lunes y vuelves a empezar la dieta», «cuando picas a las 6 de la tarde», «si comes bien y no ves cambios»). Ads al Vuelo: 3 versiones editadas con su copy desde 49 €",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "POV: lunes<br><em>y otra vez</em><br><em>a dieta.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu consulta",
+    "copy": "Gancho POV.",
+    "media": "POV: ES LUNES OTRA VEZ",
+    "headline": "Primera consulta",
+    "cta": "Pedir cita",
+    "tags": ["POV", "0–3 S"]
+   },
+   "footer": "3 ganchos POV para tu anuncio de nutricionista"
+  },
+  {
+   "label": "GANCHO 1",
+   "title": "El lunes<br><em>de siempre.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "CÓMO GRABARLO",
+    "lines": ["Tú, mirando a cámara", "Texto: «POV: es lunes»", "Y la frase que te dicen"]
+   },
+   "note": "Se reconoce <b>en el primer segundo.</b>"
+  },
+  {
+   "label": "GANCHO 2",
+   "title": "Las 6<br><em>de la tarde.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Paciente",
+    "msgs": [
+     {"from": "in", "text": "A las 6 me como todo", "time": "18:04"},
+     {"from": "in", "text": "Y luego no ceno", "time": "18:05"}
+    ]
+   },
+   "note": "Su frase, <b>tal como la dice.</b>"
+  },
+  {
+   "label": "GANCHO 3",
+   "title": "«Como bien<br><em>y no cambio.»</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Gancho A: el lunes", "Gancho B: las 6 de la tarde", "Gancho C: no veo cambios"]
+   },
+   "note": "Graba los tres <b>y que Meta elija.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tres ganchos,<br><em>tres versiones.</em>",
+   "dur": 6,
+   "items": ["Dinámica, Directa y Nativa", "Cada una con su copy", "Desde 49 € (12 versiones)"],
+   "button": "ads.ceosgrowth.com"
+  }
+ ],
+ "caption": "Anuncios para nutricionistas: 3 ganchos POV para tu vídeo 🥗👇\nEl POV funciona cuando tu paciente se ve a sí mismo en la primera frase. Tres para grabar:\n→ «POV: es lunes y vuelves a empezar la dieta»\n→ «Cuando a las 6 de la tarde te comes todo lo que pillas»\n→ «Si comes bien y no ves ningún cambio»\nSubes el bruto y te llegan 3 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nMás ganchos gratis: ads.ceosgrowth.com/ganchos-para-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #nutricionista #nutricion #metaads #anunciosenvideo #ganchos",
+ "tiktok": {
+  "title": "Anuncios para nutricionistas: 3 ganchos POV para que paren el scroll",
+  "text": "Anuncios para nutricionistas: 3 ganchos POV para tu vídeo 🥗👇\nEl POV funciona cuando tu paciente se ve a sí mismo en la primera frase. Tres para grabar:\n→ «POV: es lunes y vuelves a empezar la dieta»\n→ «Cuando a las 6 de la tarde te comes todo lo que pillas»\n→ «Si comes bien y no ves ningún cambio»\nSubes el bruto y te llegan 3 versiones (Dinámica, Directa y Nativa) con su copy, normalmente el mismo día.\nMás ganchos gratis: ads.ceosgrowth.com/ganchos-para-anuncios\n👉 ads.ceosgrowth.com\nLink en el perfil 👆\n\n#adsalvuelo #nutricionista #nutricion #metaads #anunciosenvideo #ganchos"
+ }
+}
