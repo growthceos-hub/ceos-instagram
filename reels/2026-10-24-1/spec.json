@@ -1,0 +1,97 @@
+{
+ "topic": "Escribir por privado a un posible cliente sin que suene a spam: mira su perfil y nombra algo concreto suyo (no el mismo texto a todos), haz una sola pregunta fácil sin vender (sin enlaces ni PDF de servicios) y, si contesta, propón una llamada de 10 minutos con día y hora y apúntalo en el CRM; si no contesta, un solo recordatorio a la semana",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Escribes y te<br><em>dejan en visto?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Posible cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola, ofrecemos servicios.",
+       "¿Te paso info?"
+      ],
+      "time": "Visto"
+     }
+    ]
+   },
+   "footer": "3 pasos para escribir a un cliente sin sonar a spam"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Mira su perfil<br><em>y nombra algo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "«Hola, ofrecemos servicios»",
+     "El mismo texto a 50"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "«Vi la cocina que subiste»",
+     "Algo que solo vale para él"
+    ]
+   },
+   "note": "Que se note que <b>lo has mirado.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Una pregunta,<br><em>sin vender.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TU PRIMER MENSAJE",
+    "lines": [
+     "«Vi la cocina que subiste, quedó muy bien»",
+     "«¿Te llegan clientes por Instagram",
+     "o casi todo por recomendación?»"
+    ]
+   },
+   "note": "Sin enlaces <b>ni PDF de servicios.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Si contesta,<br><em>propón llamada.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "d": "CONTESTA",
+      "t": "Propón 10 minutos",
+      "s": "«¿Te llamo el martes a las 11?»"
+     },
+     {
+      "d": "ACEPTA",
+      "t": "Al CRM con fecha",
+      "s": "Origen: privado de Instagram"
+     },
+     {
+      "d": "NO CONTESTA",
+      "t": "Un recordatorio",
+      "s": "A la semana, y lo dejas ahí"
+     }
+    ]
+   },
+   "note": "Siempre <b>con día y hora.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que se note<br><em>que es para él.</em>",
+   "dur": 6,
+   "items": [
+    "Nombra algo de su perfil",
+    "Una pregunta, sin vender",
+    "Llamada con día y hora"
+   ]
+  }
+ ],
+ "caption": "¿Escribes por privado a posibles clientes y te dejan en visto? 📩\n\n«Hola, ofrecemos servicios, ¿te paso info?» se lee igual que el spam que esa persona recibe cada semana, y lo trata igual.\n\n→ Antes de escribir, mira su perfil y nombra algo concreto suyo: un trabajo que subió, una reseña, un local nuevo. Si el mensaje vale para cualquiera, se nota\n→ Haz una sola pregunta fácil de contestar y no vendas todavía: «¿Te llegan clientes por Instagram o casi todo por recomendación?». Sin enlaces ni PDF de servicios en el primer mensaje\n→ Si contesta, propón una llamada de 10 minutos con día y hora («¿Te llamo el martes a las 11?») y apúntalo en el CRM con el origen. Si no contesta, un solo recordatorio a la semana y lo dejas ahí\n\nPara nosotros, si no sabes nada de su negocio, todavía no le toca recibir tu mensaje.\n\n¿Tú escribes a clientes por privado o esperas a que te escriban ellos? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #ventas #captaciondeclientes #instagramparanegocios #prospeccion #pymes #negocioslocales"
+}
