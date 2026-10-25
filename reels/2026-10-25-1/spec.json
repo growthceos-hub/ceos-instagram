@@ -1,0 +1,80 @@
+{
+ "topic": "Que tu vídeo (anuncio o reel) se entienda sin sonido: escribe el gancho en pantalla desde el primer segundo (no solo dicho en voz), pon subtítulos grandes en el centro con pocas palabras cada vez (CapCut los genera en automático; abajo los tapan el texto y los botones) y revísalos antes de subir (nombre del negocio, precios, fechas, teléfonos y palabras de tu sector)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu vídeo,<br>¿se entiende<br><em>sin sonido?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Reformas en tu zona. Pide presupuesto.",
+    "media": "SIN SONIDO<br>NO SE ENTIENDE",
+    "headline": "Reformas integrales",
+    "cta": "Más información",
+    "tags": ["SIN TEXTO", "SIN SUBTÍTULOS"]
+   },
+   "footer": "3 pasos para que se entienda en silencio"
+  },
+  {
+   "label": "PASO 1",
+   "title": "El gancho,<br><em>escrito arriba.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Solo dicho en voz",
+     "Texto pequeño al final"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "La frase en pantalla",
+     "Grande, desde el segundo 0"
+    ]
+   },
+   "note": "Que se lea <b>antes de que hables.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Subtítulos<br><em>en el centro.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Letra grande y gruesa",
+     "Pocas palabras cada vez",
+     "Lejos de los botones"
+    ]
+   },
+   "note": "CapCut los hace <b>en automático.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Revísalos<br><em>antes de subir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE MÁS SE EQUIVOCA",
+    "lines": [
+     "El nombre de tu negocio",
+     "Precios, fechas y teléfonos",
+     "Palabras de tu sector"
+    ]
+   },
+   "note": "Un precio mal escrito <b>lo lee todo el mundo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que se entienda<br><em>en silencio.</em>",
+   "dur": 6,
+   "items": [
+    "Gancho escrito arriba",
+    "Subtítulos en el centro",
+    "Revisa nombres y precios"
+   ]
+  }
+ ],
+ "caption": "¿Tu anuncio se entiende con el móvil en silencio? 🔇\n\nMucha gente ve los vídeos sin sonido: en el trabajo, en el metro, en la sala de espera. Si todo lo que dices va solo en la voz, pasan de largo sin saber qué ofreces.\n\n→ Escribe el gancho en pantalla desde el primer segundo, grande y arriba. Que se lea antes de que empieces a hablar\n→ Pon subtítulos en el centro, con letra gruesa y pocas palabras cada vez. CapCut los genera en automático. Abajo del todo los tapan el texto del anuncio y los botones\n→ Revísalos antes de subir: el nombre de tu negocio, los precios, las fechas, el teléfono y las palabras de tu sector son lo que más se equivoca el automático\n\nNosotros lo comprobamos así: lo vemos una vez en silencio y, si no queda claro qué vendemos y qué hay que hacer, no sale.\n\n¿Tus vídeos llevan subtítulos o los subes tal cual? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #anuncios #videomarketing #reels #pymes #captaciondeclientes"
+}
