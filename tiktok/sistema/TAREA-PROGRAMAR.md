@@ -9,3 +9,7 @@ Programa en Metricool los reels de TikTok pendientes. Sin preguntas, sin subagen
 3. Al terminar: git add tiktok/sistema/programados.txt, commit "TikTok: programados N reels" (con "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"), git pull --rebase y push a main.
 4. Termina con una línea: cuántos programados, rango de fechas y fallos.
 ---
+
+## Además: LinkedIn (cuando LinkedIn esté conectado en Metricool)
+Añadir a las instrucciones de la tarea:
+5. `python3 linkedin/lote_linkedin.py 2026-10-27 > /tmp/linkedin.txt` (los 30 posts del pack-01, de lunes a viernes a las 13:00). Por cada bloque con fecha futura: `createScheduledPost` con blogId "7288052", date del encabezado e info = la línea JSON exacta. Si va bien, añade el id (nombre de carpeta) a `linkedin/programados.txt`. Los carruseles salen como documento PDF (publishImagesAsPDF) a partir de las páginas PNG; las encuestas, como encuesta nativa de 7 días.
