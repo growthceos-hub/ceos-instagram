@@ -1,0 +1,111 @@
+{
+ "topic": "Elegir bien el objetivo de tu campaña de Meta: si quieres clientes, pide «Clientes potenciales» (con «Interacción» o «Tráfico» Meta te busca me gusta y clics), decide un solo sitio donde te escribe el lead (formulario instantáneo, WhatsApp o tu web) con alguien que conteste rápido, y comprueba qué cuenta la columna «Resultados» del Administrador de anuncios y cruzarlo con citas y ventas del CRM",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu anuncio da<br>me gusta y<br><em>ni un cliente?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Lo que trae tu anuncio",
+    "items": [
+     {
+      "label": "Me gusta",
+      "value": 88
+     },
+     {
+      "label": "Clics",
+      "value": 54
+     },
+     {
+      "label": "Clientes",
+      "value": 4,
+      "hi": true
+     }
+    ]
+   },
+   "footer": "3 pasos para que Meta te busque clientes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pide a Meta<br><em>clientes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Interacción: me gusta",
+     "Tráfico: clics"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Clientes potenciales",
+     "Te deja su teléfono"
+    ]
+   },
+   "note": "Meta busca <b>justo lo que le pides.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Decide dónde<br><em>te escribe.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "A",
+      "d": "FORMULARIO",
+      "t": "Rápido de rellenar",
+      "s": "Con preguntas que filtran"
+     },
+     {
+      "n": "B",
+      "d": "WHATSAPP",
+      "t": "Conversación directa",
+      "s": "Si contestas en minutos"
+     },
+     {
+      "n": "C",
+      "d": "TU WEB",
+      "t": "Lead más pensado",
+      "s": "Con el píxel instalado"
+     }
+    ]
+   },
+   "note": "Elige uno y que <b>alguien conteste rápido.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Mira qué cuenta<br><em>«Resultados».</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Administrador de anuncios",
+    "fields": [
+     {
+      "q": "Columna «Resultados»",
+      "a": "Clientes potenciales"
+     },
+     {
+      "q": "Y en tu CRM",
+      "a": "Citas y ventas"
+     }
+    ],
+    "badge": "✓ MIDE LO QUE IMPORTA"
+   },
+   "note": "Si pone interacciones, <b>no son clientes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Pide clientes,<br><em>no aplausos.</em>",
+   "dur": 6,
+   "items": [
+    "Objetivo: clientes potenciales",
+    "Un solo sitio para escribirte",
+    "Resultados: leads, no likes"
+   ]
+  }
+ ],
+ "caption": "¿Tu anuncio de Meta trae me gusta y ningún cliente? 🎯\n\nMeta busca justo lo que le pides al crear la campaña. Si eliges «Interacción», te trae gente que da me gusta. Si eliges «Tráfico», gente que hace clic y se va. Ninguno de los dos te deja su teléfono.\n\n→ Si lo que quieres son clientes, el objetivo es «Clientes potenciales». Así Meta enseña el anuncio a quien suele dejar sus datos\n→ Decide un solo sitio donde te escribe: formulario instantáneo (rápido, con preguntas que filtran), WhatsApp (si alguien contesta en minutos) o tu web (con el píxel instalado). Y que siempre haya alguien para responder\n→ En el Administrador de anuncios mira qué cuenta la columna «Resultados». Si pone interacciones, eso no son clientes. Luego crúzalo con las citas y ventas de tu CRM\n\nPara nosotros, si una campaña llena el perfil de me gusta y no trae llamadas, está mal planteada desde el primer día, por barata que parezca.\n\n¿Qué objetivo tienes puesto ahora en tu campaña? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #facebookads #captaciondeclientes #publicidadonline #pymes #marketingdigital"
+}
