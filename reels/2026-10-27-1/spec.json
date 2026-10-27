@@ -1,0 +1,66 @@
+{
+ "topic": "Responder en tu web las dudas antes de que te pregunten: apunta las 5 preguntas que más te repiten por WhatsApp y teléfono, contéstalas en dos líneas con tus datos reales (precio «desde» con lo que incluye, zona, plazo; nunca «consúltanos») y ponlas junto al formulario o botón de contacto, guardando esas mismas respuestas como respuestas rápidas de WhatsApp Business",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te preguntan<br>lo mismo<br><em>y no compran?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Posible cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Cuánto cuesta?"},
+     {"from": "in", "text": "¿Venís a mi zona?"},
+     {"from": "in", "text": "¿Cuánto tardáis?"}
+    ]
+   },
+   "footer": "3 pasos para que tu web conteste"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Apunta las<br><em>5 que más oyes.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["¿Cuánto cuesta?", "¿Venís a mi zona?", "¿Cuánto tardáis?", "¿Y si algo falla?", "¿Cómo se paga?"]
+   },
+   "note": "Sácalas de tu <b>WhatsApp y tus llamadas.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Contesta<br><em>con datos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Precio: consúltanos", "Plazo: lo antes posible"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Precio «desde» y qué incluye", "Plazo: de 2 a 3 semanas"]
+   },
+   "note": "Dos líneas por pregunta, <b>con tus datos reales.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ponlas junto<br><em>al formulario.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Tu web",
+    "fields": [
+     {"q": "¿Venís a mi zona?", "a": "Toda la provincia"},
+     {"q": "¿Cuánto tardáis?", "a": "De 2 a 3 semanas"}
+    ],
+    "badge": "✓ JUNTO AL BOTÓN"
+   },
+   "note": "En una página aparte <b>casi nadie las lee.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que tu web<br><em>conteste antes.</em>",
+   "dur": 6,
+   "items": ["Apunta las 5 preguntas", "Contesta con datos reales", "Ponlas junto al formulario"]
+  }
+ ],
+ "caption": "¿Te escriben siempre para preguntar lo mismo y luego no compran? 🤔\n\nCada duda que tu web no contesta es un motivo para irse a mirar otra empresa. Y muchos ni preguntan: se van sin escribirte.\n\n→ Apunta durante una semana las preguntas que te repiten por WhatsApp y por teléfono. Quédate con las 5 que más salen (precio, zona, plazo, garantía, forma de pago)\n→ Contesta cada una en dos líneas y con tus datos: un precio «desde» con lo que incluye, la zona donde trabajas, el plazo real. «Consúltanos» no responde nada\n→ Ponlas en tu web justo al lado del formulario o del botón de contacto, que es donde aparece la duda. Y guarda esas mismas respuestas como respuestas rápidas en WhatsApp Business\n\nPara nosotros, si tu web esconde el precio y el plazo, el cliente acaba preguntando a tres empresas y se queda con la primera que le contesta claro.\n\n¿Cuál es la pregunta que más te repiten tus clientes? Cuéntanosla en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #paginaweb #landingpage #captaciondeclientes #marketingdigital #pymes #ventas"
+}
