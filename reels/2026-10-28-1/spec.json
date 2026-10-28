@@ -1,0 +1,67 @@
+{
+ "topic": "Mirar los anuncios de tu competencia en la Biblioteca de anuncios de Meta antes de lanzar los tuyos: ábrela gratis y sin cuenta (país, «Todos los anuncios», busca a tu competencia o tu sector y ciudad), fíjate en los que llevan meses activos (si alguien lo sigue pagando, algo le trae) y apunta gancho, oferta, formato y botón para hacer tu propia versión con tu oferta y tus pruebas, sin copiar",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Sabes qué<br>anuncia tu<br><em>competencia?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu competencia",
+    "copy": "Reforma tu cocina sin obras eternas.",
+    "media": "ACTIVO<br>DESDE MARZO",
+    "headline": "Pide tu presupuesto",
+    "cta": "Enviar mensaje",
+    "tags": ["SIGUE PAGÁNDOLO"]
+   },
+   "footer": "3 pasos para verlo gratis"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Abre la<br><em>Biblioteca.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Biblioteca de anuncios de Meta",
+    "fields": [
+     {"q": "País", "a": "España"},
+     {"q": "Categoría", "a": "Todos los anuncios"},
+     {"q": "Buscar", "a": "Reformas Valencia"}
+    ],
+    "badge": "✓ GRATIS Y SIN CUENTA"
+   },
+   "note": "Busca a tu competencia <b>o tu sector y tu ciudad.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Mira los que<br><em>llevan meses.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "A", "d": "ACTIVO DESDE ENERO", "t": "Lo sigue pagando", "s": "Algo le está trayendo"},
+     {"n": "B", "d": "ACTIVO DESDE AYER", "t": "Aún está probando", "s": "No saques conclusiones"}
+    ]
+   },
+   "note": "Fíjate en <b>desde cuándo está activo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Apunta y haz<br><em>tu versión.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Gancho: su primera frase", "Oferta: qué promete", "Formato: vídeo o imagen", "Botón: WhatsApp o formulario"]
+   },
+   "note": "Con tu oferta y tus pruebas, <b>sin copiar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Mira antes<br><em>de anunciar.</em>",
+   "dur": 6,
+   "items": ["Abre la Biblioteca de Meta", "Busca los que llevan meses", "Apunta y haz tu versión"]
+  }
+ ],
+ "caption": "¿Sabes qué anuncios está pagando ahora mismo tu competencia? 👀\n\nMeta enseña todos los anuncios activos de cualquier página en su Biblioteca de anuncios. Es gratis, no necesitas cuenta y la puedes mirar antes de lanzar tu campaña.\n\n→ Entra en la Biblioteca de anuncios de Meta, elige España y «Todos los anuncios» y busca a tu competencia por su nombre. Si no sabes quién anuncia, busca tu sector y tu ciudad (por ejemplo, reformas Valencia)\n→ Fíjate en desde cuándo está activo cada anuncio. Uno que lleva meses en marcha es uno que siguen pagando, y nadie paga meses algo que no le trae nada. Los que salieron ayer todavía están probando\n→ Apunta de los que llevan meses cuatro cosas: el gancho (la primera frase), la oferta, el formato (vídeo o imagen) y a dónde lleva el botón (WhatsApp, formulario o web). Luego escribe tu versión con tu oferta, tus fotos y tus clientes\n\nPara nosotros copiar el anuncio tal cual es tirar el dinero: el cliente ya lo ha visto con otro logo. Lo que sirve es saber qué le funciona a tu sector y hacerlo con lo tuyo.\n\n¿Has mirado alguna vez los anuncios de tu competencia? Cuéntanos qué te llamó la atención.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #facebookads #publicidadonline #captaciondeclientes #pymes #marketingdigital"
+}
