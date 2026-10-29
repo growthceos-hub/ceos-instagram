@@ -1,0 +1,109 @@
+{
+ "topic": "Subir tus precios sin perder clientes: avisa con fecha y por escrito con margen (un mes), explica qué gana el cliente sin disculparte (qué ha mejorado, qué incluye ahora) y aplica el precio nuevo primero a los clientes nuevos, dando a los de siempre un plazo para reservar al precio de antes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cobras lo<br>mismo que<br><em>hace 3 años?</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "form",
+    "title": "Tu negocio desde entonces",
+    "fields": [
+     {
+      "q": "Material",
+      "a": "Más caro"
+     },
+     {
+      "q": "Gasolina y seguros",
+      "a": "Más caros"
+     },
+     {
+      "q": "Tu precio",
+      "a": "El mismo"
+     }
+    ]
+   },
+   "footer": "3 pasos para subirlo sin perder clientes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Avisa con<br><em>fecha.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Marta · clienta",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola Marta, te aviso:",
+       "desde el 1 de enero",
+       "la hora pasa a 60 €."
+      ],
+      "time": "10:02"
+     },
+     {
+      "from": "in",
+      "text": "Gracias por avisar con tiempo",
+      "time": "10:15"
+     }
+    ]
+   },
+   "note": "Por escrito y con <b>un mes de margen.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Di qué<br><em>gana él.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "«Es que todo sube»",
+     "Pedir perdón"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Qué has mejorado",
+     "Qué incluye ahora"
+    ]
+   },
+   "note": "Explica el precio, <b>no te disculpes.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Empieza por<br><em>los nuevos.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "DESDE HOY",
+      "t": "Clientes nuevos",
+      "s": "Ya pagan el precio nuevo"
+     },
+     {
+      "n": "2",
+      "d": "HASTA EL 1 DE ENERO",
+      "t": "Los de siempre",
+      "s": "Si reservan, precio de antes"
+     }
+    ]
+   },
+   "note": "A los de siempre, <b>un plazo para reservar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Sube el precio<br><em>sin miedo.</em>",
+   "dur": 6,
+   "items": [
+    "Avisa con fecha y por escrito",
+    "Explica qué gana el cliente",
+    "Nuevos primero, fijos después"
+   ]
+  }
+ ],
+ "caption": "¿Cobras lo mismo que hace tres años? 💸\n\nEl material, la gasolina y los seguros han subido, y si tu precio sigue igual, cada trabajo te deja menos. Subirlo da miedo porque piensas que se te irán los clientes, pero se puede hacer bien:\n\n→ Avisa con fecha y por escrito, con un mes de margen. Un WhatsApp o un correo corto: desde qué día cambia y cuál es el precio nuevo. Que no se entere al recibir la factura\n→ Explica qué gana el cliente, sin pedir perdón. «Es que todo sube» suena a excusa; cuenta qué has mejorado y qué incluye ahora tu trabajo\n→ Empieza por los clientes nuevos: desde hoy ya pagan el precio nuevo. A los de siempre dales un plazo para reservar al precio de antes, así lo ven como un detalle y alguno adelantará el encargo\n\nPara nosotros, cobrar lo mismo cada año mientras todo sube es bajar tu precio sin decírselo a nadie.\n\n¿Cuándo fue la última vez que subiste tus precios? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #precios #pymes #autonomos #emprendedores #negocioslocales #ventas"
+}
