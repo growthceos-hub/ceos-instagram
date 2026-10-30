@@ -1,0 +1,91 @@
+{
+ "topic": "Notas de voz a clientes por WhatsApp: el primer mensaje siempre por escrito (puede estar trabajando y no poder escuchar), audio solo si el cliente también los usa y de menos de un minuto, y lo importante (precio, día y hora, dirección, siguiente paso) siempre en texto después del audio",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Le mandas<br>audios de 3 min<br><em>a tus clientes?</em>",
+   "size": 124,
+   "dur": 5,
+   "mock": {
+    "type": "timer",
+    "head": "Audio a un cliente",
+    "sub": "DURACIÓN DEL AUDIO",
+    "secs": 192,
+    "side": "Y él está<br>trabajando<br>sin cascos",
+    "badge": "SIN ESCUCHAR"
+   },
+   "footer": "3 pasos para que te contesten"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Primer mensaje,<br><em>en texto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Ana · lead nuevo",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Hola Ana, te escribo",
+       "por tu presupuesto.",
+       "¿Llamada o por aquí?"
+      ],
+      "time": "11:04"
+     },
+     {
+      "from": "in",
+      "text": "Por aquí, estoy trabajando",
+      "time": "11:06"
+     }
+    ]
+   },
+   "note": "Un texto se lee en <b>cualquier sitio.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Audio, solo<br><em>si él los usa.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": [
+     "Audios de 3 minutos",
+     "Sin que te lo pida"
+    ],
+    "good_t": "ASÍ SÍ",
+    "good": [
+     "Si él te manda audios",
+     "Menos de un minuto"
+    ]
+   },
+   "note": "Si lo mandas, <b>menos de un minuto.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Precio y fecha,<br><em>por escrito.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Precio y qué incluye",
+     "Día y hora de la cita",
+     "Dirección",
+     "Siguiente paso"
+    ]
+   },
+   "note": "Tras el audio, <b>un resumen en texto.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que te lea<br><em>en 5 segundos.</em>",
+   "dur": 6,
+   "items": [
+    "Primer mensaje por escrito",
+    "Audio corto y si él los usa",
+    "Precio y fecha en texto"
+   ]
+  }
+ ],
+ "caption": "¿Le mandas audios de 3 minutos a tus clientes? 🎧\n\nTú lo grabas en un momento, pero quien lo recibe puede estar en una obra, en una reunión o sin cascos, y lo deja para luego. Y luego se le olvida. Así se ordena:\n\n→ El primer mensaje, siempre por escrito. Corto: quién eres, por qué le escribes y una pregunta fácil, como si prefiere llamada o seguir por chat\n→ Audio solo si él también te manda audios, y de menos de un minuto. Si lo que tienes que contar no cabe en un minuto, mejor una llamada\n→ Lo importante, por escrito después: precio y qué incluye, día y hora, dirección y siguiente paso. Así lo encuentra cuando lo busque sin volver a escuchar nada\n\nPara nosotros, un audio largo a un cliente que aún no te ha comprado le pasa a él un trabajo que te tocaba a ti.\n\n¿Tú eres de mandar audios o de escribir? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #whatsappbusiness #ventas #pymes #autonomos #emprendedores #atencionalcliente"
+}
