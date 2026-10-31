@@ -1,0 +1,99 @@
+{
+ "topic": "Etiquetas de WhatsApp Business para no perder clientes entre chats: crea 4 etiquetas por fase (nuevo, presupuesto enviado, cita, cliente), pon la etiqueta a cada chat al terminar de hablar y cada mañana filtra «Presupuesto enviado» para escribir a quien no contestó",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Pierdes clientes<br>entre tus chats<br><em>de WhatsApp?</em>",
+   "size": 114,
+   "dur": 5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "MARTES",
+      "t": "Pide presupuesto"
+     },
+     {
+      "n": "2",
+      "d": "JUEVES",
+      "t": "Se lo mandas"
+     },
+     {
+      "n": "3",
+      "d": "LUNES",
+      "t": "Nadie le escribe",
+      "s": "Y ya ha elegido a otro"
+     }
+    ]
+   },
+   "footer": "3 pasos con las etiquetas de WhatsApp Business"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Crea cuatro<br><em>etiquetas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Nuevo",
+     "Presupuesto enviado",
+     "Cita",
+     "Cliente"
+    ]
+   },
+   "note": "Una por fase, <b>no más de cuatro.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Etiqueta<br><em>cada chat.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Marta · Presupuesto enviado",
+    "msgs": [
+     {
+      "from": "out",
+      "lines": [
+       "Te acabo de mandar",
+       "el presupuesto."
+      ],
+      "time": "18:20"
+     },
+     {
+      "from": "in",
+      "text": "Perfecto, lo miro",
+      "time": "18:24"
+     }
+    ]
+   },
+   "note": "Al acabar de hablar, <b>pon su etiqueta.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cada mañana,<br><em>filtra.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "FILTRO: PRESUPUESTO ENVIADO",
+    "lines": [
+     "Hola Marta, ¿qué tal?",
+     "¿Pudiste mirar el presupuesto?",
+     "¿Te llamo hoy a las 12?"
+    ]
+   },
+   "note": "A quien no contestó, <b>un mensaje corto.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ningún chat<br><em>se te olvida.</em>",
+   "dur": 6,
+   "items": [
+    "4 etiquetas, una por fase",
+    "Etiqueta al acabar de hablar",
+    "Filtra cada mañana"
+   ]
+  }
+ ],
+ "caption": "¿Pierdes clientes entre tus chats de WhatsApp? 💬\n\nLe mandas el presupuesto el jueves, entran otros veinte chats y el suyo se queda abajo. Cuando te acuerdas, ya ha contratado a otro. Las etiquetas de WhatsApp Business (la app gratuita para negocios) lo ordenan en dos minutos al día:\n\n→ Crea cuatro etiquetas, una por fase: Nuevo, Presupuesto enviado, Cita y Cliente. Se hace manteniendo pulsado un chat y tocando el icono de la etiqueta\n→ Al terminar de hablar con alguien, ponle la etiqueta de donde está. Si cambia de fase, cámbiala\n→ Cada mañana, filtra por «Presupuesto enviado» y escribe a quien no te contestó: una pregunta corta y un día y una hora para llamarle\n\nPara nosotros, cuatro etiquetas bien usadas valen más que un CRM que nadie abre. Si ya tienes CRM, apunta allí lo mismo.\n\n¿Cuántos chats tienes ahora mismo sin contestar? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #whatsappbusiness #ventas #pymes #autonomos #emprendedores #atencionalcliente"
+}
