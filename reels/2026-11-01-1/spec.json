@@ -1,0 +1,73 @@
+{
+ "topic": "Listas de difusión de WhatsApp Business para que tu oferta llegue: solo les llega a quien tiene tu número guardado (pídeselo al terminar cada trabajo), una lista por tipo de cliente (hasta 256 contactos cada una) y un mensaje con una sola oferta y una sola acción («responde SÍ y te llamo»)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Mandas ofertas<br>por WhatsApp<br><em>y nadie responde?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Lista de difusión",
+    "msgs": [
+     {"from": "out", "lines": ["Esta semana, revisión", "del aire gratis."], "time": "10:02"},
+     {"from": "out", "text": "¿Te apunto?", "time": "10:02"}
+    ]
+   },
+   "footer": "3 pasos para que tu lista de difusión funcione"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Que guarden<br><em>tu número.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "AL TERMINAR CADA TRABAJO",
+    "lines": [
+     "Guárdame en tus contactos",
+     "como «Climatización Sol»",
+     "y te aviso de las revisiones."
+    ]
+   },
+   "note": "Si no te tiene guardado, <b>no le llega.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Una lista<br><em>por tipo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Clientes de este año",
+     "Pidieron presupuesto",
+     "Revisión cada 6 meses"
+    ]
+   },
+   "note": "Hasta <b>256 contactos</b> por lista."
+  },
+  {
+   "label": "PASO 3",
+   "title": "Una oferta,<br><em>una acción.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Tres ofertas y fotos", "Cada dos días"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Una sola oferta", "«Responde SÍ y te llamo»"]
+   },
+   "note": "Si no es útil, <b>no lo mandes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu oferta<br><em>sí llega.</em>",
+   "dur": 6,
+   "items": [
+    "Que guarden tu número",
+    "Una lista por tipo de cliente",
+    "Una oferta, una acción"
+   ]
+  }
+ ],
+ "caption": "¿Mandas ofertas por WhatsApp y nadie responde? 📲\n\nLas listas de difusión de WhatsApp Business mandan tu mensaje a muchos clientes a la vez, pero cada uno lo recibe como un chat privado contigo. Hay una condición que casi nadie conoce: solo le llega a quien tiene tu número guardado en sus contactos.\n\n→ Al terminar cada trabajo, pide que te guarden con el nombre de tu negocio. Explícale para qué: «así te aviso de las revisiones»\n→ Haz una lista por tipo de cliente (clientes de este año, los que pidieron presupuesto, los de revisión periódica). Cada lista admite hasta 256 contactos\n→ En cada mensaje, una sola oferta y una sola acción fácil: «responde SÍ y te llamo». Si ese mes no tienes nada útil que contar, no mandes nada\n\nPara nosotros, una lista pequeña de gente que te conoce vende más que mil números comprados.\n\n¿A cuántos clientes podrías escribir hoy si tuvieras su número ordenado? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #whatsappbusiness #ventas #pymes #autonomos #emprendedores #fidelizacion"
+}
