@@ -1,0 +1,73 @@
+{
+ "topic": "Fotos de antes y después de tu trabajo que venden: la del antes al llegar (mismo sitio, mismo ángulo, con luz y antes de tocar nada), permiso del cliente por escrito (sin caras, matrículas ni direcciones) y usarlas esa misma semana en la ficha de Google, Instagram y anuncios con una frase de qué hiciste y en cuánto",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Haces buenos<br>trabajos y <em>no<br>tienes ni una foto?</em>",
+   "size": 112,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Reformas Norte",
+    "copy": "Cocina renovada en 4 días.",
+    "media": "ANTES → DESPUÉS",
+    "headline": "Pide tu presupuesto",
+    "cta": "Más información"
+   },
+   "footer": "3 pasos para tener fotos que vendan"
+  },
+  {
+   "label": "PASO 1",
+   "title": "La del antes,<br><em>al llegar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Mismo sitio y ángulo",
+     "Con luz, sin flash",
+     "Antes de tocar nada"
+    ]
+   },
+   "note": "Sin el antes, <b>el después no impresiona.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pide permiso<br><em>por escrito.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["¿Puedo usar las fotos", "de tu cocina en redes?"], "time": "18:20"},
+     {"from": "in", "text": "Claro, sin problema", "time": "18:24"}
+    ]
+   },
+   "note": "Sin caras, <b>matrículas ni direcciones.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Úsalas<br><em>esa semana.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "DÍA 1", "t": "Ficha de Google", "s": "Foto y qué hiciste"},
+     {"n": "2", "d": "DÍA 2", "t": "Instagram", "s": "Antes y después juntos"},
+     {"n": "3", "d": "DÍA 5", "t": "Anuncio", "s": "Con tu oferta"}
+    ]
+   },
+   "note": "Una frase: <b>qué hiciste y en cuánto.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu trabajo<br><em>habla por ti.</em>",
+   "dur": 6,
+   "items": [
+    "Foto del antes al llegar",
+    "Permiso por escrito",
+    "Úsalas esa misma semana"
+   ]
+  }
+ ],
+ "caption": "¿Haces buenos trabajos y no tienes ni una foto para enseñarlos? 📸\n\nEl cliente que te busca quiere ver algo parecido a lo suyo antes de llamarte. Si tus fotos se quedan en el móvil, decide con lo que enseña tu competencia.\n\n→ Haz la foto del antes nada más llegar, antes de tocar nada. Apunta desde dónde la haces y repite el después desde el mismo sitio, con el mismo ángulo y con luz (mejor sin flash)\n→ Pide permiso al cliente por escrito, por WhatsApp vale: «¿puedo usar las fotos de tu cocina en redes?». Que no salgan caras, matrículas ni la dirección\n→ Úsalas esa misma semana: en tu ficha de Google, en Instagram y en tus anuncios, con una frase de qué hiciste y en cuánto tiempo. Si trabajas en salud o estética, revisa antes las normas de Meta: limitan el antes y después en anuncios\n\nPara nosotros, una foto real de tu trabajo convence más que cualquier imagen de banco.\n\n¿Cuántas fotos de antes y después tienes ahora mismo en el móvil? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #marketingdigital #pymes #autonomos #emprendedores #redessociales #clientes"
+}
