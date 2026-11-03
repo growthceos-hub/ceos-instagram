@@ -1,0 +1,92 @@
+{
+ "topic": "Las 3 publicaciones fijadas de tu perfil de Instagram que venden: una que diga qué haces, para quién y dónde; un trabajo terminado con resultado (antes y después, qué pedía el cliente y en cuánto lo hiciste) y una que explique cómo pedirte presupuesto en un solo paso (WhatsApp o llamada); se fijan desde los tres puntos de la publicación, «Fijar en tu perfil», hasta 3",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Qué ve quien<br>entra en tu perfil<br><em>por primera vez?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "Arriba hoy",
+    "bad": [
+     "Un meme de hace un año",
+     "Un «feliz domingo»",
+     "Un sorteo ya cerrado"
+    ],
+    "good_t": "Lo que vende",
+    "good": [
+     "Qué haces y dónde",
+     "Un trabajo terminado",
+     "Cómo pedir presupuesto"
+    ]
+   },
+   "footer": "3 publicaciones fijadas que venden"
+  },
+  {
+   "label": "FIJADA 1",
+   "title": "Qué haces<br><em>y para quién.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TEXTO DE LA PUBLICACIÓN",
+    "lines": [
+     "Reformamos cocinas y baños",
+     "para pisos de Valencia.",
+     "Te damos fecha de inicio."
+    ]
+   },
+   "note": "Que se entienda <b>sin abrir tu web.</b>"
+  },
+  {
+   "label": "FIJADA 2",
+   "title": "Un trabajo<br><em>con resultado.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Foto del antes y el después",
+     "Qué pedía el cliente",
+     "En cuánto lo hiciste"
+    ]
+   },
+   "note": "Elige uno <b>parecido a lo que vendes.</b>"
+  },
+  {
+   "label": "FIJADA 3",
+   "title": "Cómo pedirte<br><em>presupuesto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Hola, ¿me das precio?",
+      "time": "19:02"
+     },
+     {
+      "from": "out",
+      "lines": [
+       "Claro, cuéntame qué",
+       "necesitas y te llamo"
+      ],
+      "time": "19:05"
+     }
+    ]
+   },
+   "note": "Un solo paso: <b>escribir o llamar.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu perfil es<br><em>tu escaparate.</em>",
+   "dur": 6,
+   "items": [
+    "Qué haces y para quién",
+    "Un trabajo con resultado",
+    "Cómo pedir presupuesto"
+   ]
+  }
+ ],
+ "caption": "¿Qué ve quien entra en tu perfil por primera vez? 👀\n\nAntes de escribirte, casi todo el mundo mira tu perfil. Si arriba del todo hay un meme de hace un año o un sorteo cerrado, no sabe qué haces ni cómo pedírtelo, y se va.\n\nInstagram te deja fijar hasta 3 publicaciones arriba del todo. Úsalas así:\n\n→ Fijada 1, qué haces: a qué te dedicas, para quién y en qué zona. Que se entienda en cinco segundos sin abrir tu web\n→ Fijada 2, un trabajo terminado: el antes y el después, qué pedía el cliente y en cuánto tiempo lo hiciste. Mejor si se parece a lo que más quieres vender\n→ Fijada 3, cómo pedirte presupuesto: un solo paso, escribir por WhatsApp o llamar, con lo que tienen que contarte\n\nPara fijarlas: abre la publicación, toca los tres puntos y elige «Fijar en tu perfil».\n\nNosotros lo vemos así: las fijadas trabajan por ti cada vez que alguien llega a tu perfil, también cuando no publicas.\n\n¿Qué tienes ahora mismo fijado en tu perfil? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagramparanegocios #marketingdigital #pymes #autonomos #emprendedores #clientes"
+}
