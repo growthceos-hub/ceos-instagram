@@ -1,0 +1,104 @@
+{
+ "topic": "Cobrar sin perseguir al cliente: pacta por escrito en el presupuesto el pago por fases (una parte al empezar, otra a mitad y el resto al entregar), manda la factura el mismo día que terminas con el enlace de pago (Bizum o tarjeta) y, si no ha pagado en la fecha acordada, recuérdaselo al día siguiente con importe, factura y enlace; si sigue sin pagar, llamada esa semana",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Acabas<br>y luego <em>persigues<br>el pago?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {
+      "from": "out",
+      "text": "¿Pudiste ver la factura?",
+      "time": "LUN 10:02"
+     },
+     {
+      "from": "out",
+      "text": "¿Me dices algo?",
+      "time": "JUE 18:40"
+     }
+    ]
+   },
+   "footer": "3 pasos para cobrar sin perseguir"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Cobra<br><em>por fases.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {
+      "n": "1",
+      "d": "AL FIRMAR",
+      "t": "Una parte para empezar",
+      "s": "Sin ese pago, no empiezas"
+     },
+     {
+      "n": "2",
+      "d": "A MITAD",
+      "t": "Otra parte al avanzar",
+      "s": "Cuando ya ve el trabajo"
+     },
+     {
+      "n": "3",
+      "d": "AL ENTREGAR",
+      "t": "El resto ese mismo día",
+      "s": "Antes de dar por cerrado"
+     }
+    ]
+   },
+   "note": "Y déjalo <b>escrito en el presupuesto.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Factura<br><em>el mismo día.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE AL TERMINAR",
+    "lines": [
+     "Trabajo terminado, gracias.",
+     "Te dejo factura y enlace.",
+     "Paga con Bizum o tarjeta."
+    ]
+   },
+   "note": "Que pagar le cueste <b>un solo clic.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Recuérdalo<br><em>al día siguiente.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "Así no",
+    "bad": [
+     "Esperar a que se acuerde",
+     "Un «¿me pagas?» sin datos",
+     "Enfadarte al mes"
+    ],
+    "good_t": "Así sí",
+    "good": [
+     "Aviso el día después",
+     "Importe, factura y enlace",
+     "Si no, llamada esa semana"
+    ]
+   },
+   "note": "Con fecha y <b>sin pedir perdón.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Cobrar también<br><em>es tu trabajo.</em>",
+   "dur": 6,
+   "items": [
+    "Pagos por fases, por escrito",
+    "Factura y enlace ese día",
+    "Aviso al día siguiente"
+   ]
+  }
+ ],
+ "caption": "¿Acabas el trabajo y luego te toca perseguir el pago? 💸\n\nEl trabajo está hecho, el cliente contento… y la factura sin pagar semanas después. Cada mensaje de «¿pudiste verla?» te cuesta tiempo y te deja en mala posición.\n\nAsí cobras sin perseguir a nadie:\n\n→ Paso 1, cobra por fases: una parte al empezar, otra a mitad y el resto el día que entregas. Ponlo por escrito en el presupuesto, con fechas, para que nadie se sorprenda\n→ Paso 2, factura el mismo día que terminas: un mensaje corto con la factura y un enlace para pagar con Bizum o tarjeta. Cuanto menos tenga que hacer, antes paga\n→ Paso 3, recuérdalo al día siguiente de la fecha acordada: importe, factura y enlace otra vez, sin disculparte. Si sigue sin pagar, llámale esa misma semana\n\nNosotros lo vemos así: cobrar bien forma parte del servicio. Un cliente que sabe desde el principio cuándo y cómo paga confía más, no menos.\n\n¿Cómo cobras ahora: todo al final o por partes? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #pymes #emprendedores #gestiondenegocios #clientes #ventas"
+}
