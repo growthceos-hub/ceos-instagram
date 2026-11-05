@@ -1,0 +1,64 @@
+{
+ "topic": "Decir que no a los trabajos que no te convienen: ten por escrito tus señales de alarma (regatea antes de ver nada, quiere empezar sin presupuesto escrito, está fuera de tu zona o de tu servicio), haz 3 preguntas antes de ir a ver el trabajo o presupuestar (dónde es, para cuándo y cuánto quiere invertir) y, si no encaja, di que no por escrito con respeto y pásale a alguien que sí lo haga",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Aceptas<br>trabajos que<br><em>te salen mal?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Me lo dejas más barato?", "time": "LUN 21:14"},
+     {"from": "in", "text": "Y si puede ser, mañana", "time": "LUN 21:15"}
+    ]
+   },
+   "footer": "3 pasos para filtrar antes de aceptar"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Ten claras<br><em>tus líneas rojas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Regatea antes de ver nada", "Quiere empezar sin papel", "Fuera de tu zona o servicio"]
+   },
+   "note": "Si cumple dos, <b>piénsalo antes.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pregunta<br><em>antes de ir.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Antes del presupuesto",
+    "fields": [
+     {"q": "¿Dónde es el trabajo?", "a": "Zona centro"},
+     {"q": "¿Para cuándo lo necesitas?", "a": "En 3 semanas"},
+     {"q": "¿Cuánto quieres invertir?", "a": "Entre 2.000 y 3.000 €"}
+    ],
+    "badge": "✓ ENCAJA"
+   },
+   "note": "Tres preguntas te <b>ahorran una visita.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Di que no<br><em>con respeto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE PARA DECIR NO",
+    "lines": ["Gracias por escribirnos.", "Esto no es lo nuestro.", "Te paso a quien lo hace bien."]
+   },
+   "note": "Un no claro <b>también deja buena imagen.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Menos trabajos,<br><em>mejores clientes.</em>",
+   "dur": 6,
+   "items": ["Líneas rojas por escrito", "3 preguntas antes de ir", "Un no amable y con salida"]
+  }
+ ],
+ "caption": "¿Aceptas trabajos que sabes que te van a salir mal? 🚩\n\nEl cliente que regatea todo antes de ver nada, el que quiere empezar mañana sin nada firmado, el que está a una hora de tu zona… Dices que sí por no perderlo y acabas perdiendo tiempo, dinero y ganas.\n\nAsí filtras antes de aceptar:\n\n→ Paso 1, ten claras tus líneas rojas: apunta en una nota las señales que ya te han salido caras (regatea antes de ver el trabajo, no quiere nada por escrito, está fuera de tu zona o de lo que haces). Si un cliente cumple dos, piénsalo antes de ir\n→ Paso 2, pregunta antes de ir a verlo o de presupuestar: dónde es, para cuándo lo necesita y cuánto quiere invertir. Tres preguntas por WhatsApp te ahorran una visita que no iba a ningún sitio\n→ Paso 3, si no encaja, dilo por escrito y con respeto: gracias por escribir, esto no es lo nuestro, y pásale el contacto de alguien que sí lo haga bien. Te quedas con buena imagen y a veces te devuelven el favor\n\nNuestra opinión: cada trabajo que no te conviene ocupa el hueco de uno que sí. Decir que no a tiempo también es vender bien.\n\n¿Qué señal te hace decir que no a un cliente? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #pymes #emprendedores #clientes #ventas #gestiondenegocios"
+}
