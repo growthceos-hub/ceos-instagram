@@ -1,0 +1,64 @@
+{
+ "topic": "Avisar al cliente cuando llegas tarde o el trabajo se retrasa: avisa en cuanto sabes que no llegas (antes de la hora, no cuando ya te está esperando), da una hora o fecha nueva concreta con el motivo en una línea y sin excusas largas, y cumple esa nueva hora; si el retraso es de días, ofrécele qué adelantas mientras tanto",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Llegas tarde<br>y el cliente<br><em>se entera solo?</em>",
+   "size": 118,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Venís hoy o no?", "time": "MAR 10:42"},
+     {"from": "in", "text": "Llevo toda la mañana aquí", "time": "MAR 10:43"}
+    ]
+   },
+   "footer": "3 pasos para avisar de un retraso"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Avisa <em>antes</em><br><em>de la hora.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "09:15", "t": "Sabes que no llegas", "s": "El trabajo anterior se alarga"},
+     {"n": "2", "d": "09:20", "t": "Le escribes ya", "s": "No esperes a las 10:00"},
+     {"n": "3", "d": "10:00", "t": "Hora que tenía", "s": "Ya sabe qué pasa"}
+    ]
+   },
+   "note": "Si avisas tarde, <b>ya parece una excusa.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Hora nueva<br><em>y motivo corto.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Llegamos en un rato", "Perdona, es que hoy…"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Llegamos a las 11:30", "Se alargó otra obra"]
+   },
+   "note": "Una hora exacta <b>calma más que mil perdones.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Cumple<br><em>la hora nueva.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Da la hora con margen", "Si cambia, avisa otra vez", "Si son días, di qué adelantas"]
+   },
+   "note": "Fallar dos veces <b>sí te cuesta el cliente.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Un retraso<br><em>no es el problema.</em>",
+   "dur": 6,
+   "items": ["Avisa antes de la hora", "Hora exacta y motivo corto", "Cumple la nueva hora"]
+  }
+ ],
+ "caption": "¿Llegas tarde a un trabajo y el cliente se entera porque no apareces? ⏰\n\nPasa a todos: el trabajo anterior se alarga, falta material, hay atasco. El cliente lo entiende. Lo que no perdona es estar esperando sin saber nada.\n\nAsí avisas de un retraso:\n\n→ Paso 1, avisa en cuanto sepas que no llegas: si a las 9:15 ves que no estarás a las 10:00, escríbele a las 9:15. Si avisas cuando ya lleva una hora esperando, cualquier motivo suena a excusa\n→ Paso 2, da una hora nueva concreta y el motivo en una línea: «Llegamos a las 11:30, se nos alargó otra obra». Nada de «en un rato» ni párrafos de disculpas\n→ Paso 3, cumple esa nueva hora: dala con margen, y si vuelve a cambiar avisa otra vez antes. Si el retraso es de días (material, permisos), dile la fecha nueva y qué puedes adelantar mientras tanto\n\nNuestra opinión: un retraso bien avisado deja mejor imagen que muchos trabajos puntuales sin un solo mensaje. El cliente se acuerda de cómo le trataste cuando algo salió mal.\n\n¿Cómo avisas tú cuando vas tarde: llamada, WhatsApp o audio? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #pymes #emprendedores #atencionalcliente #clientes #negocioslocales"
+}
