@@ -1,0 +1,66 @@
+{
+ "topic": "Correo profesional con tu dominio para que tus presupuestos no acaben en spam: dominio con el nombre del negocio y correo tipo hola@tunegocio.es (no un @gmail con números), activar SPF y DKIM en el panel del dominio y probar enviando a un Gmail que llega a la bandeja de entrada, y usar ese mismo correo en presupuestos, facturas, ficha de Google, web y firma con teléfono",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tus presupuestos<br>acaban<br><em>en spam?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "No me ha llegado nada", "time": "JUE 18:05"},
+     {"from": "out", "text": "Mira en spam, porfa", "time": "JUE 18:07"}
+    ]
+   },
+   "footer": "3 pasos para un correo profesional"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Correo con<br><em>tu dominio.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["obrasjm1980@gmail.com"],
+    "good_t": "ASÍ SÍ",
+    "good": ["hola@obrasjm.es", "Nombre de tu negocio"]
+   },
+   "note": "El mismo dominio <b>te sirve para la web.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Que no caiga<br><em>en spam.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ajustes del dominio",
+    "fields": [
+     {"q": "SPF", "a": "Activado"},
+     {"q": "DKIM", "a": "Activado"},
+     {"q": "Prueba a un Gmail", "a": "Bandeja de entrada"}
+    ],
+    "badge": "✓ FUERA DE SPAM"
+   },
+   "note": "Tu proveedor <b>te da los dos registros.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Úsalo<br><em>en todo.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Presupuestos y facturas", "Ficha de Google y web", "Firma con tu teléfono"]
+   },
+   "note": "Un solo correo, <b>siempre el mismo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Tu correo<br><em>también vende.</em>",
+   "dur": 6,
+   "items": ["Dominio con tu nombre", "SPF y DKIM activados", "El mismo correo en todo"]
+  }
+ ],
+ "caption": "¿Tus presupuestos acaban en la carpeta de spam del cliente? 📩\n\nMandas el presupuesto desde un correo tipo obrasjm1980@gmail.com, el cliente no lo ve y piensa que pasaste de él. Y si lo ve, ese correo no le da mucha confianza para pagarte.\n\nAsí lo arreglas:\n\n→ Paso 1, crea un correo con tu dominio: compra el dominio con el nombre de tu negocio (obrasjm.es) y crea hola@obrasjm.es con el proveedor del dominio o con Google Workspace. Ese mismo dominio te sirve para la web\n→ Paso 2, activa SPF y DKIM: son dos ajustes del dominio que le dicen a Gmail y Outlook que ese correo es tuyo de verdad. Tu proveedor te da los registros para copiarlos en el panel del dominio. Luego mándate un correo de prueba a un Gmail y mira que llega a la bandeja de entrada\n→ Paso 3, usa ese correo en todo: presupuestos, facturas, ficha de Google, web y firma con tu teléfono y tu WhatsApp. Siempre el mismo, para que el cliente lo reconozca\n\nNuestra opinión: si cobras cientos o miles de euros por un trabajo, tu correo tiene que parecer de una empresa. Es de lo más barato que puedes arreglar esta semana.\n\n¿Desde qué correo mandas hoy tus presupuestos? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #pymes #emprendedores #correoprofesional #presupuestos #negocioslocales"
+}
