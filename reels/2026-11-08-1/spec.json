@@ -1,0 +1,73 @@
+{
+ "topic": "Mensaje de ausencia de WhatsApp Business para que nadie que te escribe fuera de horario se quede sin respuesta: actívalo en Herramientas para la empresa → Mensaje de ausencia con «Fuera del horario comercial» y tu horario puesto en el perfil, escribe un texto que diga cuándo le contestas (día y hora) y qué te puede mandar ya (qué necesita, zona y una foto), y a primera hora contesta antes que nada los chats que entraron de noche",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Te escriben<br>a las 22:00<br><em>y no contestas?</em>",
+   "size": 116,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Me haces presupuesto?", "time": "MAR 22:14"},
+     {"from": "in", "text": "Hola? Sigues ahí?", "time": "MAR 23:02"}
+    ]
+   },
+   "footer": "3 pasos para no dejarle sin respuesta"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Activa el<br><em>mensaje de ausencia.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Mensaje de ausencia",
+    "fields": [
+     {"q": "Enviar mensaje", "a": "Activado"},
+     {"q": "Cuándo", "a": "Fuera del horario"},
+     {"q": "Horario", "a": "L–V 8:00–19:00"}
+    ],
+    "badge": "✓ RESPONDE SOLO"
+   },
+   "note": "En WhatsApp Business, <b>Herramientas para la empresa.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Di cuándo<br><em>le contestas.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Tu negocio",
+    "msgs": [
+     {"from": "in", "text": "¿Me haces presupuesto?", "time": "22:14"},
+     {"from": "out", "text": "Te llamo mañana a las 9", "time": "22:14"},
+     {"from": "out", "text": "Mándame zona y una foto", "time": "22:14"}
+    ]
+   },
+   "note": "Con día y hora, <b>no un «en breve».</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Lo primero<br><em>de la mañana.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "8:00", "t": "Chats de la noche", "s": "Antes que nada"},
+     {"n": "2", "d": "8:15", "t": "Llama o responde", "s": "Con lo que te mandó"},
+     {"n": "3", "d": "8:30", "t": "Apúntalo en el CRM", "s": "Con la próxima cita"}
+    ]
+   },
+   "note": "Si prometiste las 9, <b>a las 9.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que nadie<br><em>se quede esperando.</em>",
+   "dur": 6,
+   "items": ["Mensaje de ausencia activo", "Día y hora de respuesta", "Noche: lo primero a las 8"]
+  }
+ ],
+ "caption": "¿Te escriben a las 22:00 pidiendo presupuesto y no contestas hasta el día siguiente? 🌙\n\nEse cliente no sabe si le has leído. Mientras espera, escribe a dos negocios más y se queda con el primero que le responde.\n\nAsí lo arreglas con WhatsApp Business, gratis:\n\n→ Paso 1, activa el mensaje de ausencia: en WhatsApp Business entra en Herramientas para la empresa → Mensaje de ausencia, actívalo y elige «Fuera del horario comercial». Antes pon tu horario en el perfil de empresa para que salte solo cuando estás cerrado\n→ Paso 2, escribe un mensaje que sirva: di cuándo le contestas con día y hora («te llamo mañana a las 9», no «en breve») y pídele lo que necesitas para darle precio: qué necesita, zona y una foto. Así a la mañana ya llegas con la información\n→ Paso 3, a primera hora contesta antes que nada los chats que entraron de noche. Llama o responde con lo que te mandó, apúntalo en el CRM con la próxima cita y cumple la hora que prometiste\n\nNuestra opinión: un mensaje de ausencia que solo dice «estamos cerrados» no sirve de mucho. El que dice cuándo le llamas y qué te mande ya hace la mitad del trabajo por ti.\n\n¿A qué hora te llega a ti el último mensaje de un cliente? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #pymes #whatsappbusiness #atencionalcliente #negocioslocales #emprendedores"
+}
