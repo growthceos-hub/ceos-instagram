@@ -1,0 +1,71 @@
+{
+ "topic": "Enlace de reservas para que el cliente coja cita solo, sin diez mensajes de «¿cuándo te va bien?»: abre en Calendly o en la agenda de citas de Google Calendar solo los huecos que tú quieres (con duración y margen entre citas), pide 3 datos al reservar (qué necesita, zona o dirección y teléfono) y pon el enlace donde ya te escriben (respuesta rápida de WhatsApp, bio de Instagram y página de gracias del formulario)",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿10 mensajes<br>para cerrar<br><em>una cita?</em>",
+   "size": 130,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "text": "¿Cuándo te va bien?", "time": "10:02"},
+     {"from": "in", "text": "El martes no puedo", "time": "12:47"},
+     {"from": "out", "text": "¿Y el jueves a las 10?", "time": "12:50"},
+     {"from": "in", "text": "Mejor por la tarde…", "time": "18:31"}
+    ]
+   },
+   "footer": "3 pasos para que reserve solo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Abre solo<br><em>tus huecos libres.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Página de reservas",
+    "fields": [
+     {"q": "Días y horas", "a": "L–V 9:00–11:00"},
+     {"q": "Duración", "a": "30 minutos"},
+     {"q": "Margen entre citas", "a": "15 minutos"}
+    ],
+    "badge": "✓ ENLACE LISTO"
+   },
+   "note": "Con <b>Calendly o Google Calendar.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pide 3 datos<br><em>al reservar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Qué necesita", "Zona o dirección", "Teléfono"]
+   },
+   "note": "Llegas a la cita <b>sabiendo de qué va.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "El enlace,<br><em>donde te escriben.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "WHATSAPP", "t": "Respuesta rápida", "s": "Un toque y lo mandas"},
+     {"n": "2", "d": "INSTAGRAM", "t": "Bio del perfil", "s": "Junto a tu WhatsApp"},
+     {"n": "3", "d": "WEB", "t": "Página de gracias", "s": "Justo tras el formulario"}
+    ]
+   },
+   "note": "Que reserve <b>cuando aún tiene ganas.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Que reserve<br><em>sin esperarte.</em>",
+   "dur": 6,
+   "items": ["Solo tus huecos libres", "3 datos al reservar", "Enlace donde te escriben"]
+  }
+ ],
+ "caption": "¿Cuántos mensajes te cuesta cerrar una cita con un cliente? 📅\n\n«¿Cuándo te va bien?», «el martes no puedo», «¿y el jueves?»… y entre mensaje y mensaje pasan horas. Mientras tanto ese cliente sigue mirando otros negocios.\n\nAsí haces que reserve solo, con un enlace:\n\n→ Paso 1, crea tu página de reservas en Calendly o en la agenda de citas de Google Calendar (las dos tienen versión gratis). Abre solo los huecos que tú quieres dar, por ejemplo de lunes a viernes de 9 a 11, con la duración de la cita y un margen entre una y otra para no ir con prisa\n→ Paso 2, pide 3 datos al reservar: qué necesita, zona o dirección y teléfono. Con eso llegas a la cita sabiendo de qué va y no pierdes el tiempo con quien está fuera de tu zona\n→ Paso 3, pon el enlace donde ya te escriben: guárdalo como respuesta rápida de WhatsApp Business, ponlo en la bio de Instagram junto a tu WhatsApp y en la página de gracias que sale después del formulario de tu web\n\nNuestra opinión: si el cliente tiene que esperar a que le contestes para coger cita, esa cita depende de lo ocupado que estés tú. Con el enlace reserva en el momento en que quiere hacerlo.\n\n¿Tú cómo das las citas ahora, por WhatsApp, por teléfono o con un enlace? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #pymes #agendadecitas #atencionalcliente #negocioslocales #emprendedores"
+}
