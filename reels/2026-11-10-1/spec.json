@@ -1,0 +1,73 @@
+{
+ "topic": "Listas de difusión de WhatsApp Business para volver a escribir a tus clientes antiguos sin hacer spam: crea una lista por tipo de cliente (solo le llega a quien tiene tu número guardado, así que pídeselo al terminar el trabajo), manda un aviso útil y concreto que acabe en una pregunta fácil (las respuestas llegan por chat privado) y escribe pocas veces, quitando de la lista a quien lo pida",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cuánto hace<br>que no escribes<br><em>a tus clientes?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente de 2025",
+    "msgs": [
+     {"from": "out", "text": "Trabajo terminado. ¡Gracias!", "time": "MARZO"},
+     {"from": "in", "text": "Quedó genial, gracias", "time": "MARZO"},
+     {"from": "in", "text": "¿Sigues haciendo esto?", "time": "HOY"}
+    ]
+   },
+   "footer": "3 pasos con listas de difusión"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Una lista por<br><em>tipo de cliente.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Lista de difusión",
+    "fields": [
+     {"q": "Nombre de la lista", "a": "Presupuesto sin cerrar"},
+     {"q": "Quién entra", "a": "Clientes que te guardaron"}
+    ],
+    "badge": "✓ LISTA CREADA"
+   },
+   "note": "Solo le llega a quien <b>tiene tu número guardado.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un aviso útil<br><em>y una pregunta.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "MENSAJE",
+    "lines": [
+     "\"Me quedan huecos en diciembre.\"",
+     "\"Es para la revisión anual.\"",
+     "\"¿Te reservo uno?\""
+    ]
+   },
+   "note": "Te contesta <b>por chat privado.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Pocas veces<br><em>y sin agobiar.</em>",
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Ofertas cada semana", "Cadenas y folletos"],
+    "good_t": "ASÍ SÍ",
+    "good": ["1 o 2 avisos al mes", "Quita a quien lo pida"]
+   },
+   "note": "Si te bloquean mucho, <b>WhatsApp limita tu número.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Escríbeles<br><em>esta semana.</em>",
+   "dur": 6,
+   "items": ["Una lista por tipo de cliente", "Aviso útil y una pregunta", "1 o 2 avisos al mes"]
+  }
+ ],
+ "caption": "¿Cuánto hace que no escribes a tus clientes de siempre? 📲\n\nTienes en el WhatsApp a gente que ya te pagó, quedó contenta y confía en ti. Y si no sabe de ti en meses, cuando vuelva a necesitarlo llamará al primero que vea en Google.\n\nAsí les escribes sin hacer spam, con las listas de difusión de WhatsApp Business:\n\n→ Paso 1, crea una lista por tipo de cliente (por ejemplo: clientes de este año, presupuesto sin cerrar, mantenimiento anual). Ojo: el mensaje solo le llega a quien tiene tu número guardado en sus contactos, así que al terminar cada trabajo pídele que te guarde\n→ Paso 2, manda un aviso útil y concreto que acabe en una pregunta fácil: «Me quedan huecos en diciembre para la revisión anual, ¿te reservo uno?». Cada uno lo recibe como un mensaje normal y te contesta por su chat privado\n→ Paso 3, escribe pocas veces: uno o dos avisos al mes como mucho, nada de cadenas ni folletos, y quita de la lista a quien te pida que no le escribas. Si mucha gente te bloquea, WhatsApp puede limitar tu número\n\nNuestra opinión: un cliente que ya te compró es el más fácil de volver a conseguir, y casi nadie le escribe después de cobrar.\n\n¿Tú vuelves a escribir a tus clientes después del trabajo o solo cuando te llaman ellos? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #whatsappbusiness #autonomos #pymes #fidelizacion #negocioslocales #emprendedores"
+}
