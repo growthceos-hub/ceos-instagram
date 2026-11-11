@@ -1,0 +1,97 @@
+{
+ "topic": "Bio de Instagram que trae clientes: pon en el campo Nombre tu negocio y lo que haces (también sale en la búsqueda de Instagram), escribe la bio en 3 líneas (qué haces, dónde trabajas y cómo pedirte presupuesto) y deja una sola forma de contactarte: botón de WhatsApp y un solo enlace",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Tu bio dice<br>a qué te<br><em>dedicas?</em>",
+   "size": 132,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Visita al perfil",
+    "msgs": [
+     {
+      "from": "in",
+      "text": "Hola, ¿qué hacéis?",
+      "time": "10:02"
+     },
+     {
+      "from": "in",
+      "text": "¿Trabajáis en mi zona?",
+      "time": "10:03"
+     },
+     {
+      "from": "in",
+      "text": "¿Cómo pido precio?",
+      "time": "10:05"
+     }
+    ]
+   },
+   "footer": "3 pasos para una bio que vende"
+  },
+  {
+   "label": "PASO 1",
+   "title": "El nombre dice<br><em>lo que haces.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Editar perfil",
+    "fields": [
+     {
+      "q": "Nombre",
+      "a": "Tu negocio · Reformas"
+     },
+     {
+      "q": "Categoría",
+      "a": "Empresa de reformas"
+     }
+    ],
+    "badge": "✓ SALE EN BÚSQUEDAS"
+   },
+   "note": "El campo Nombre <b>también se busca.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "La bio en<br><em>tres líneas.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "BIO",
+    "lines": [
+     "Reformas de baños y cocinas",
+     "Valencia y alrededores",
+     "Pide presupuesto aquí abajo"
+    ]
+   },
+   "note": "Qué haces, dónde y <b>cómo pedirte precio.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Una sola forma<br><em>de escribirte.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Botón de WhatsApp",
+     "Un solo enlace",
+     "Nada de 6 opciones"
+    ]
+   },
+   "note": "Si duda dónde pulsar, <b>no pulsa ninguno.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Revisa tu bio<br><em>hoy mismo.</em>",
+   "dur": 6,
+   "items": [
+    "Nombre con lo que haces",
+    "Qué, dónde y cómo pedirte",
+    "Un solo botón de contacto"
+   ]
+  }
+ ],
+ "caption": "¿Tu bio de Instagram dice a qué te dedicas? 👀\n\nAlguien ve tu reel, entra en tu perfil y en dos segundos decide si te escribe o se va. Si tiene que adivinar qué haces, dónde trabajas o cómo pedirte precio, se va.\n\nAsí dejas la bio lista para que te pidan presupuesto:\n\n→ Paso 1, en Editar perfil pon en el campo Nombre tu negocio y lo que haces («Tu negocio · Reformas»). Ese campo también sale en la búsqueda de Instagram, así que te encuentra quien busca tu servicio\n→ Paso 2, escribe la bio en tres líneas: qué haces, dónde trabajas y cómo pedirte presupuesto. Ejemplo: «Reformas de baños y cocinas / Valencia y alrededores / Pide presupuesto aquí abajo»\n→ Paso 3, deja una sola forma de escribirte: el botón de WhatsApp del perfil y un solo enlace (por ejemplo, tu enlace de WhatsApp con el mensaje ya escrito). Cinco enlaces y tres teléfonos hacen dudar, y el que duda no escribe\n\nNuestra opinión: tu historia cabe en los destacados; la bio está para que el que llega sepa en un vistazo si le sirves y cómo pedirte precio.\n\n¿Qué pone ahora mismo la primera línea de tu bio? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #instagramparanegocios #autonomos #pymes #negocioslocales #emprendedores #marketingdigital"
+}
