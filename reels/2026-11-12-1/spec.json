@@ -1,0 +1,76 @@
+{
+ "topic": "El texto principal del anuncio de Meta que se lee: la primera línea dice para quién es y qué problema resuelve (antes del «… más» solo se ven las primeras líneas), después qué ofreces, dónde y qué incluye con un precio «desde», y una sola acción que coincide con el botón y dice qué pasa después",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu anuncio<br>se corta en<br><em>la línea 2.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "ad",
+    "brand": "Tu negocio",
+    "copy": "Somos una empresa con años de experiencia en el sector… <b style=\"color:#9C938B\">más</b>",
+    "media": "REFORMAS",
+    "headline": "Calidad y confianza",
+    "cta": "Más información",
+    "tags": ["NADIE LLEGA AL «MÁS»"]
+   },
+   "footer": "3 pasos para un texto que se lee"
+  },
+  {
+   "label": "PASO 1",
+   "title": "La línea 1<br>dice <em>para quién.</em>",
+   "size": 108,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad": ["Somos una empresa líder", "Calidad y confianza"],
+    "good": ["¿Baño viejo en Valencia?", "Lo reformamos entero"]
+   },
+   "note": "Antes del «… más» solo se ven <b>las primeras líneas.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Qué ofreces<br><em>y desde cuánto.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "TEXTO DEL ANUNCIO",
+    "lines": [
+     "Reforma de baño completa",
+     "Valencia y alrededores",
+     "Incluye plato y azulejos",
+     "Desde un precio cerrado"
+    ]
+   },
+   "note": "Lo concreto atrae <b>a quien de verdad encaja.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Una sola acción<br><em>y qué pasa luego.</em>",
+   "size": 100,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Botón «Enviar mensaje»",
+     "El texto pide lo mismo",
+     "«Te contestamos hoy»"
+    ]
+   },
+   "note": "Texto y botón <b>piden lo mismo.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Reescribe tu<br><em>texto hoy.</em>",
+   "dur": 6,
+   "items": [
+    "Línea 1: para quién",
+    "Qué, dónde y desde cuánto",
+    "Una sola acción"
+   ]
+  }
+ ],
+ "caption": "¿Alguien lee el texto de tu anuncio de Meta? 👀\n\nEn el móvil, del texto que va encima de la imagen o el vídeo solo se ven las primeras líneas; el resto queda escondido detrás del «… más». Si esas líneas dicen «Somos una empresa con años de experiencia», el que hace scroll no sabe si le sirves y sigue de largo.\n\nAsí escribes el texto principal para que te pidan presupuesto:\n\n→ Paso 1, la primera línea dice para quién es y qué problema resuelve. Ejemplo: «¿Baño viejo en Valencia? Lo reformamos entero». Lo de cuántos años llevas y lo bien que trabajas, más abajo\n→ Paso 2, justo después, qué ofreces, dónde y qué incluye, con un precio «desde» si lo tienes. Con lo concreto te escribe quien de verdad encaja y se ahorra la llamada el que buscaba otra cosa\n→ Paso 3, una sola acción y que coincida con el botón: si el botón es «Enviar mensaje», el texto dice «escríbenos por WhatsApp» (no «llámanos, visita la web o ven a la tienda»). Y di qué pasa después: «te contestamos hoy con una idea de precio»\n\nNuestra opinión: lo primero que hay que reescribir de un anuncio que no trae mensajes es la primera línea, antes que el vídeo y antes que subir el presupuesto.\n\n¿Qué dice ahora la primera línea de tu anuncio? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #metaads #publicidadonline #autonomos #pymes #negocioslocales #marketingdigital"
+}
