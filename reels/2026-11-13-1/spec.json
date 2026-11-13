@@ -1,0 +1,74 @@
+{
+ "topic": "Rotular la furgoneta (o el escaparate) para que traiga llamadas: qué haces y dónde trabajas en grande (que se lea al pasar, no solo el logo), un solo contacto (WhatsApp en grande y un QR que abre el chat con el mensaje ya escrito) y preguntar «¿cómo nos conociste?» para apuntar el origen en el CRM y saber si el rótulo trae clientes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Tu furgoneta<br>solo lleva<br><em>tu logo.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "script",
+    "title": "LO QUE SE LEE AL PASAR",
+    "lines": [
+     "Tu logo",
+     "…y nada más"
+    ]
+   },
+   "footer": "3 pasos para que te llamen"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Qué haces<br><em>y dónde.</em>",
+   "size": 110,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad": ["Solo el logo", "Un eslogan bonito"],
+    "good": ["Reformas de baño", "Valencia y alrededores"]
+   },
+   "note": "Que se lea <b>desde otro coche.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Un solo<br><em>contacto.</em>",
+   "size": 110,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "WhatsApp en grande",
+     "Un QR que abre el chat",
+     "Nada de cuatro números"
+    ]
+   },
+   "note": "El QR abre WhatsApp <b>con el mensaje escrito.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Pregunta cómo<br><em>te conoció.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del CRM",
+    "fields": [
+     {"q": "¿Cómo nos conociste?", "a": "Vi la furgoneta"},
+     {"q": "Origen", "a": "Rótulo"}
+    ],
+    "badge": "✓ ORIGEN APUNTADO"
+   },
+   "note": "Así sabes si <b>el rótulo trae clientes.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Revisa tu<br><em>rótulo hoy.</em>",
+   "dur": 6,
+   "items": [
+    "Qué haces y dónde",
+    "WhatsApp y un QR",
+    "Apunta el origen"
+   ]
+  }
+ ],
+ "caption": "¿Tu furgoneta solo lleva tu logo? 🚐\n\nSe pasa el día aparcada delante de casas de clientes y cruzando tu zona. Pero si lo único que se lee es el nombre del negocio, quien la ve no sabe qué haces, si trabajas en su barrio ni cómo pedirte presupuesto. Lo mismo vale para el escaparate o el cartel de la obra.\n\nAsí haces que el rótulo traiga llamadas:\n\n→ Paso 1, qué haces y dónde, en grande: «Reformas de baño · Valencia y alrededores». Que se entienda al pasar, desde otro coche o desde la acera. El logo puede ir más pequeño\n→ Paso 2, un solo contacto: tu WhatsApp en grande y un código QR que abre el chat con un mensaje ya escrito («Hola, he visto vuestra furgoneta y quiero presupuesto»). Mejor un número que cuatro, y nada de direcciones de email largas\n→ Paso 3, a cada cliente nuevo pregúntale «¿cómo nos conociste?» y apunta el origen en su ficha del CRM. Si eliges «Rótulo» como origen, en unos meses sabrás si te trae trabajo de verdad\n\nNuestra opinión: un rótulo que solo pone el logo te hace conocido, pero no te hace llamar. Lo primero que hay que leer es qué haces y dónde.\n\n¿Qué pone ahora en tu furgoneta o en tu escaparate? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #negocioslocales #autonomos #pymes #marketinglocal #captaciondeclientes #emprendedores"
+}
