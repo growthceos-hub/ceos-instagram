@@ -1,0 +1,74 @@
+{
+ "topic": "Bono regalo de Navidad para un negocio de servicios: un bono concreto (qué incluye, para quién y fecha de caducidad clara), que se compre sin llamarte (enlace de pago con tarjeta o Bizum y bono en PDF con el nombre de quien lo recibe que se manda solo) y avisar ya a tus clientes por historias y WhatsApp con recordatorio y fecha límite para recibirlo a tiempo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Te piden un<br>regalo y no<br><em>tienes nada.</em>",
+   "size": 126,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Hacéis tarjetas regalo?", "time": "21:14"},
+     {"from": "in", "text": "Es para mi madre", "time": "21:14"},
+     {"from": "out", "lines": ["Pues… no tenemos"], "time": "09:02"}
+    ]
+   },
+   "footer": "3 pasos para vender bonos regalo"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Un bono<br><em>concreto.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad": ["«Un servicio»", "Sin fecha de caducidad"],
+    "good": ["Masaje de 60 minutos", "Válido hasta el 30/06"]
+   },
+   "note": "Que sepa <b>qué regala y hasta cuándo.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Que lo compren<br><em>sin llamarte.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Enlace de pago o Bizum",
+     "Bono en PDF que llega solo",
+     "Con el nombre de quien lo recibe"
+    ]
+   },
+   "note": "Si tiene que llamarte, <b>compra otro regalo.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Avisa ya, con<br><em>fecha límite.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"d": "HOY", "t": "Historias y WhatsApp", "s": "A quien ya te conoce"},
+     {"d": "1 DIC", "t": "Recordatorio", "s": "Con el enlace de compra"},
+     {"d": "22 DIC", "t": "Último día", "s": "Para tenerlo a tiempo"}
+    ]
+   },
+   "note": "Tus clientes <b>ya confían en ti.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Prepara tu<br><em>bono hoy.</em>",
+   "dur": 6,
+   "items": [
+    "Qué incluye y caducidad",
+    "Pago y PDF automáticos",
+    "Aviso con fecha límite"
+   ]
+  }
+ ],
+ "caption": "¿Qué contestas cuando te preguntan si tenéis tarjeta regalo? 🎁\n\nEn diciembre mucha gente busca qué regalar y piensa en sitios que ya conoce: su peluquería, su fisio, su taller, su centro de estética. Si tu respuesta es «no tenemos», ese dinero se va a otra tienda.\n\nAsí montas un bono regalo que se vende solo:\n\n→ Paso 1, un bono concreto: qué incluye exactamente («Masaje de 60 minutos», «Revisión completa del coche») o un importe fijo, y una fecha de caducidad clara escrita en el bono. Quien regala quiere saber qué está regalando\n→ Paso 2, que se pueda comprar sin llamarte: un enlace de pago con tarjeta o Bizum y, al pagar, un bono en PDF con el nombre de quien lo recibe que le llega por correo o WhatsApp para imprimirlo o reenviarlo. Si tiene que esperar a que le contestes, compra otra cosa\n→ Paso 3, avisa ya a quien te conoce: historias, estado de WhatsApp y un mensaje a tus clientes con el enlace. Un recordatorio a primeros de diciembre y una fecha límite para recibirlo antes de Nochebuena\n\nNuestra opinión: tus clientes de siempre son los que mejor regalan tu servicio, porque ya saben que trabajas bien. Solo hace falta ponérselo fácil.\n\n¿En tu negocio qué bono regalo pondrías? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #negocioslocales #autonomos #pymes #navidad #captaciondeclientes #emprendedores"
+}
