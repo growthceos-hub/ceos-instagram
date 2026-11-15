@@ -1,0 +1,74 @@
+{
+ "topic": "La visita a casa del cliente para presupuestar que te hace ganar el trabajo: avisa antes de llegar (mensaje al salir con la hora a la que llegas), haz 3 preguntas antes de medir (qué es lo que más le preocupa, para cuándo lo necesita y cuánto quiere invertir) y antes de irte dile qué día y a qué hora le llega el presupuesto, y cúmplelo con una llamada para repasarlo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "Vas a verlo<br>y luego<br><em>no te llama.</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Ya tengo las medidas"], "time": "11:40"},
+     {"from": "in", "text": "Vale, ya te diré algo", "time": "11:42"},
+     {"from": "out", "lines": ["¿Lo has podido ver?"], "time": "Lun 09:15"}
+    ]
+   },
+   "footer": "3 pasos para ganar la visita"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Avisa antes<br><em>de llegar.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "out", "lines": ["Salgo ahora", "Llego a las 10:00"], "time": "09:40"},
+     {"from": "in", "text": "Perfecto, te espero", "time": "09:41"}
+    ]
+   },
+   "note": "Que no te espere <b>sin saber si vienes.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pregunta antes<br><em>de medir.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "¿Qué es lo que más te preocupa?",
+     "¿Para cuándo lo necesitas?",
+     "¿Cuánto quieres invertir?"
+    ]
+   },
+   "note": "Así presupuestas <b>lo que de verdad quiere.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Di cuándo<br><em>le llega.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad": ["«Ya te lo mando»", "Sin día ni hora"],
+    "good": ["«El jueves antes de las 14»", "Y lo repasáis por teléfono"]
+   },
+   "note": "Lo dices delante de él <b>y lo cumples.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Gana el trabajo<br><em>en la visita.</em>",
+   "dur": 6,
+   "items": [
+    "Aviso al salir con la hora",
+    "3 preguntas antes de medir",
+    "Día y hora del presupuesto"
+   ]
+  }
+ ],
+ "caption": "¿Vas a ver el trabajo, tomas medidas y luego el cliente no te vuelve a contestar? 📏\n\nLa visita para presupuestar es donde el cliente decide si se fía de ti. Muchas veces elige antes de leer el precio, por cómo fue esa media hora.\n\nAsí haces una visita que te hace ganar el trabajo:\n\n→ Paso 1, avisa antes de llegar: un mensaje al salir con la hora a la que llegas («Salgo ahora, llego a las 10:00»). Si se te complica, avisa antes de la hora, no después\n→ Paso 2, pregunta antes de medir: qué es lo que más le preocupa, para cuándo lo necesita y cuánto quiere invertir. Con esas tres respuestas presupuestas lo que quiere de verdad, no lo que tú supones\n→ Paso 3, antes de irte dile qué día y a qué hora le llega el presupuesto («El jueves antes de las 14:00») y que le llamarás para repasarlo. Después, cúmplelo\n\nNuestra opinión: el presupuesto se gana en la visita y se pierde en los días de silencio que vienen después.\n\n¿Qué pregunta le haces tú siempre al cliente en la primera visita? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #negocioslocales #autonomos #reformas #presupuestos #captaciondeclientes #pymes"
+}
