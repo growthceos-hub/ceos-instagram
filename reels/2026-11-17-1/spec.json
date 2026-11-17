@@ -1,0 +1,75 @@
+{
+ "topic": "Conseguir reseñas en Google de tus clientes contentos: pídela en el momento en que te da las gracias (y una sola vez más a los 3 días si no la ha dejado), mándale por WhatsApp tu enlace directo de reseña del Perfil de Empresa (botón «Pedir reseñas») con una línea de qué contar (qué hiciste y en qué zona) y contesta cada reseña; nada de descuentos o regalos a cambio, Google no lo permite",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Clientes<br>contentos y<br><em>3 reseñas?</em>",
+   "size": 128,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¡Ha quedado genial, gracias!", "time": "18:40"},
+     {"from": "out", "lines": ["¡Gracias a ti!"], "time": "18:41"}
+    ]
+   },
+   "footer": "3 pasos para tus reseñas"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Pídela<br><em>en el momento.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "AL TERMINAR", "t": "Te da las gracias", "s": "Ahí se la pides"},
+     {"n": "2", "d": "ESA TARDE", "t": "Le llega el enlace", "s": "Por WhatsApp"},
+     {"n": "3", "d": "A LOS 3 DÍAS", "t": "Un recordatorio", "s": "Solo si no la ha dejado"}
+    ]
+   },
+   "note": "Contento hoy, <b>ocupado mañana.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Tu enlace<br><em>directo.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "WHATSAPP AL CLIENTE",
+    "lines": [
+     "Gracias por confiar en nosotros",
+     "¿Nos dejas una reseña en Google?",
+     "Es este enlace, un minuto",
+     "Cuenta qué hicimos y dónde"
+    ]
+   },
+   "note": "Perfil de Empresa → <b>«Pedir reseñas».</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Contesta<br><em>cada una.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad": ["Descuento por reseña", "Reseñas sin contestar"],
+    "good": ["Se la pides a todos", "Respondes a cada una"]
+   },
+   "note": "Regalos a cambio: <b>Google no lo permite.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Reseñas<br><em>sin rogar.</em>",
+   "dur": 6,
+   "items": [
+    "Pídela cuando te da gracias",
+    "Enlace directo por WhatsApp",
+    "Contesta todas las reseñas"
+   ]
+  }
+ ],
+ "caption": "¿Tus clientes te dan las gracias por WhatsApp… y en Google tienes cuatro reseñas? ⭐\n\nQuien te busca en Google compara tus reseñas con las del de al lado antes de llamar. Y un cliente contento no deja reseña si nadie se la pide en el momento ni se lo pone fácil.\n\nAsí lo haces:\n\n→ Paso 1, pídela en el momento: cuando el cliente te da las gracias al terminar, díselo en persona («¿Me harías un favor? Te mando un enlace para dejar una reseña»). Si a los 3 días no la ha dejado, un solo recordatorio y ya\n→ Paso 2, tu enlace directo: en tu Perfil de Empresa de Google toca «Pedir reseñas», copia el enlace y mándalo por WhatsApp esa misma tarde, con una línea de qué contar (qué le hiciste y en qué zona). Guárdalo como respuesta rápida para no buscarlo cada vez\n→ Paso 3, contesta cada una: responde a todas, las buenas y las malas, nombrando el servicio. Y nada de descuentos ni regalos a cambio de reseñas: Google no lo permite y te las puede quitar\n\nNuestra opinión: una reseña que cuenta qué hiciste y dónde vale más que diez que solo dicen «muy bien».\n\n¿Cuántas reseñas te dejaron el mes pasado? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #reseñasgoogle #negocioslocales #autonomos #captaciondeclientes #pymes #perfildeempresa"
+}
