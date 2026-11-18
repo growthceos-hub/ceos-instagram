@@ -1,0 +1,79 @@
+{
+ "topic": "Entregar el trabajo sin reclamaciones después: repasa el trabajo terminado con el cliente delante (recorrerlo juntos, probar que funciona y preguntar si falta algo), parte de conformidad firmado con foto del después, y ese mismo día un resumen por WhatsApp con fotos, parte firmado, factura y cómo cuidarlo",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Terminas<br>y a la semana<br><em>«no estaba así»?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "Oye, esto no estaba así", "time": "10:12"},
+     {"from": "in", "text": "Y yo no pedí esto", "time": "10:13"}
+    ]
+   },
+   "footer": "3 pasos para entregar sin líos"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Repásalo<br><em>con él.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": [
+     "Recorréis el trabajo juntos",
+     "Pruebas que todo funciona",
+     "«¿Falta algo?» antes de irte"
+    ]
+   },
+   "note": "Lo que no ve hoy, <b>lo discute mañana.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Parte de<br><em>conformidad.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Parte de trabajo",
+    "fields": [
+     {"q": "Trabajo hecho", "a": "Cambio de plato de ducha"},
+     {"q": "Revisado con el cliente", "a": "Sí, todo funciona"}
+    ],
+    "badge": "✓ FIRMADO"
+   },
+   "note": "Firma + <b>foto del después.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Resumen<br><em>ese mismo día.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "WHATSAPP AL CLIENTE",
+    "lines": [
+     "Te dejo el resumen de hoy",
+     "Fotos y parte firmado",
+     "Factura con la fecha de pago",
+     "Cómo cuidarlo a partir de hoy"
+    ]
+   },
+   "note": "Por escrito, <b>sin «yo entendí otra cosa».</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Entrega<br><em>sin líos.</em>",
+   "dur": 6,
+   "items": [
+    "Repasa el trabajo con él",
+    "Parte de conformidad firmado",
+    "Resumen por WhatsApp ese día"
+   ]
+  }
+ ],
+ "caption": "¿Terminas un trabajo y a la semana te escriben «esto no estaba así»? 🧾\n\nSi te vas sin que el cliente lo haya revisado contigo, cualquier detalle que vea después se convierte en una discusión, en un retoque gratis o en una factura que no te paga.\n\nAsí lo haces:\n\n→ Paso 1, repásalo con él: antes de recoger, recorred juntos el trabajo, prueba delante de él que todo funciona y pregúntale «¿falta algo o hay algo que no te cuadra?». Lo que salga ahora se arregla en cinco minutos\n→ Paso 2, parte de conformidad: una hoja (o un formulario en el móvil) con qué trabajo se hizo, que lo ha revisado contigo y su firma. Y una foto del después desde el mismo sitio que la del antes\n→ Paso 3, resumen ese mismo día: por WhatsApp, las fotos, el parte firmado, la factura con la fecha de pago y cómo cuidarlo a partir de hoy. Así queda por escrito qué se hizo y qué no\n\nNuestra opinión: la entrega es la parte del trabajo que más se improvisa y la que más reclamaciones evita.\n\n¿Tu cliente te firma algo cuando terminas? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #reformas #negocioslocales #atencionalcliente #pymes #emprendedores"
+}
