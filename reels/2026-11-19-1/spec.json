@@ -1,0 +1,77 @@
+{
+ "topic": "Plan de mantenimiento con cuota para un negocio de servicios: elige lo que tu cliente tiene que repetir y define qué incluye y cada cuánto, cóbralo con cuota fija domiciliada (pago automático) con prioridad en averías como ventaja, y ofrécelo el día que entregas el trabajo, con la próxima visita en el CRM y aviso 30 días antes",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Cada mes<br>vuelves a<br><em>empezar de cero?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "bars",
+    "title": "Trabajos por mes",
+    "items": [
+     {"label": "Septiembre", "value": 85},
+     {"label": "Octubre", "value": 30},
+     {"label": "Noviembre", "value": 55, "hi": true}
+    ]
+   },
+   "footer": "3 pasos para cobrar cada mes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Qué se repite<br><em>cada año.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Plan de mantenimiento",
+    "fields": [
+     {"q": "Qué incluye", "a": "Revisión y limpieza"},
+     {"q": "Cada cuánto", "a": "Una visita al año"}
+    ],
+    "badge": "✓ POR ESCRITO"
+   },
+   "note": "Qué incluye y qué no, <b>en una hoja.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Cuota fija,<br><em>pago automático.</em>",
+   "size": 104,
+   "dur": 6.5,
+   "mock": {
+    "type": "compare",
+    "bad_t": "ASÍ NO",
+    "bad": ["Cobrar cada visita suelta", "Llamar para recordarle"],
+    "good_t": "ASÍ SÍ",
+    "good": ["Cuota mensual domiciliada", "Prioridad si hay avería"]
+   },
+   "note": "Que pagar <b>no dependa de acordarse.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Ofrécelo<br><em>al entregar.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "timeline",
+    "rows": [
+     {"n": "1", "d": "DÍA DE ENTREGA", "t": "Le ofreces el plan", "s": "Con el cliente contento"},
+     {"n": "2", "d": "EN EL CRM", "t": "Próxima visita", "s": "Aviso 30 días antes"},
+     {"n": "3", "d": "CADA AÑO", "t": "Vas sin que llame", "s": "Y revisas qué más necesita"}
+    ]
+   },
+   "note": "El mejor momento: <b>cuando te da las gracias.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Ingresos<br><em>cada mes.</em>",
+   "dur": 6,
+   "items": [
+    "Qué incluye y cada cuánto",
+    "Cuota fija domiciliada",
+    "Ofrécelo al entregar"
+   ]
+  }
+ ],
+ "caption": "¿Cada mes vuelves a empezar de cero buscando trabajos? 🔁\n\nSi todo lo que facturas es trabajo suelto, el mes que no entran leads no entra dinero, aunque tengas decenas de clientes contentos que te volverían a llamar.\n\nAsí montas un plan de mantenimiento:\n\n→ Paso 1, elige lo que se repite: piensa qué tiene que volver a hacer tu cliente cada año (revisión, limpieza, puesta a punto, poda…) y escríbelo en una hoja: qué incluye, qué no incluye y cada cuánto vas\n→ Paso 2, cuota fija con pago automático: un importe al mes o al año domiciliado o con cobro recurrente con tarjeta, para que pagar no dependa de que alguien se acuerde. Añade una ventaja clara, como prioridad si tiene una avería\n→ Paso 3, ofrécelo al entregar: el día que terminas y te da las gracias es cuando más fácil dice que sí. Apunta en el CRM la próxima visita con aviso 30 días antes y ve tú sin que tenga que llamarte\n\nNuestra opinión: un negocio de servicios con clientes de cuota duerme mejor que uno que depende cada mes de los anuncios.\n\n¿Qué trabajo tuyo tendría que repetir tu cliente cada año? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #negocioslocales #mantenimiento #pymes #emprendedores #reformas"
+}
