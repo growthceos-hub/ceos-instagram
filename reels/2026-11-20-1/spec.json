@@ -1,0 +1,70 @@
+{
+ "topic": "Alianzas con negocios de al lado que te pasan clientes: elige 3 negocios que ven a tu cliente justo antes o después que tú (electricista, fontanero, tienda de la zona), pásales tú el primer cliente con un mensaje corto por WhatsApp y apunta en el CRM el origen «Colaborador» para repasar cada trimestre cuántos clientes os pasáis",
+ "scenes": [
+  {
+   "kind": "hook",
+   "title": "¿Quién más<br>entra en casa<br><em>de tu cliente?</em>",
+   "size": 122,
+   "dur": 5,
+   "mock": {
+    "type": "chat",
+    "name": "Cliente",
+    "msgs": [
+     {"from": "in", "text": "¿Conoces a algún pintor?"},
+     {"from": "out", "lines": ["Sí, uno de confianza.", "Te paso su WhatsApp"]}
+    ]
+   },
+   "footer": "3 pasos para que otros te pasen clientes"
+  },
+  {
+   "label": "PASO 1",
+   "title": "Busca a los<br><em>de al lado.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "checklist",
+    "items": ["Electricista de tu zona", "Fontanero de confianza", "Tienda de materiales"]
+   },
+   "note": "Los que ven a tu cliente <b>antes o después que tú.</b>"
+  },
+  {
+   "label": "PASO 2",
+   "title": "Pásale tú<br><em>el primero.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "script",
+    "title": "Mensaje al colaborador",
+    "lines": ["Hola, soy de [tu negocio]", "Tengo un cliente que necesita lo tuyo", "¿Le paso tu WhatsApp?"]
+   },
+   "note": "Dar primero <b>abre la puerta.</b>"
+  },
+  {
+   "label": "PASO 3",
+   "title": "Apunta quién<br><em>te lo manda.</em>",
+   "size": 112,
+   "dur": 6.5,
+   "mock": {
+    "type": "form",
+    "title": "Ficha del lead",
+    "fields": [
+     {"q": "Origen", "a": "Colaborador: electricista"},
+     {"q": "Fase", "a": "Por llamar hoy"}
+    ],
+    "badge": "✓ EN EL CRM"
+   },
+   "note": "Cada trimestre, <b>mirad cuántos os pasáis.</b>"
+  },
+  {
+   "kind": "cta",
+   "title": "Clientes que<br><em>llegan solos.</em>",
+   "dur": 6,
+   "items": [
+    "Negocios de antes y después",
+    "Pásale tú el primero",
+    "Origen apuntado en el CRM"
+   ]
+  }
+ ],
+ "caption": "¿Quién más entra en casa de tu cliente además de ti? 🤝\n\nCuando alguien reforma, cambia la caldera o monta un local, llama a varios negocios seguidos. Y casi siempre le pregunta al primero: «¿conoces a alguien para lo siguiente?».\n\nAsí haces que esa respuesta seas tú:\n\n→ Paso 1, busca a los de al lado: apunta 3 negocios que ven a tu cliente justo antes o justo después que tú. Si haces cocinas, el electricista, el fontanero y la tienda de materiales de tu zona. Que sean gente que trabaje bien, porque tu nombre va con el suyo\n→ Paso 2, pásale tú el primero: escríbele por WhatsApp con un cliente concreto que necesita lo suyo y pregúntale si le pasas su contacto. Dar primero es lo que hace que luego se acuerde de ti\n→ Paso 3, apunta quién te lo manda: en el CRM, origen «Colaborador» y el nombre del negocio. Cada trimestre mirad juntos cuántos clientes os habéis pasado y dadle las gracias al que más te manda\n\nNuestra opinión: un buen colaborador vale más que una campaña nueva, porque te llega el cliente ya con la confianza puesta.\n\n¿Qué negocio ve a tus clientes justo antes que tú? Cuéntanoslo en comentarios.\n\nGuárdalo y síguenos para más tips 🧡\n\n#ceosgrowth #autonomos #negocioslocales #reformas #pymes #emprendedores #captaciondeclientes"
+}
